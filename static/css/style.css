@@ -1,0 +1,191 @@
+body {
+    font-size: smaller;
+    font-family: sans-serif;
+}
+
+a {
+    color: #357bff;
+}
+
+div.tabbar a.tab.selected {
+    background: #93B7FA;
+    color: black;
+}
+
+div.tabbar a.tab {
+    background: #E5ECF9;
+    color: gray;
+    font-weight: bold;
+    margin-right: 0.2em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 3px;
+    text-decoration: none;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+
+div.tabbar .bar {
+    background: #93B7FA;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 5px;
+    padding: 0.5em;
+    clear: both;
+}
+
+div.tabbar .account {
+    float: right;
+    margin-right: 0.5em;
+}
+
+div.video {
+    border: 2px solid #93B7FA;
+    margin: 1em 0.2em 0.2em 0.2em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    max-width: 850px;
+}
+
+div.video .header {
+    background-color: #E5ECF9;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    font-weight: bold;
+    color: black;
+}
+
+div.video .header .options {
+    float: right;
+    font-weight: normal;
+}
+
+div.video .contents {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+div.video .contents div {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+th {
+    font-size: small;
+    text-align: left;
+    padding-right: 1em;
+}
+
+td {
+    font-size: small;
+}
+
+input.plain {
+    cursor: pointer;
+    border: 0px;
+    padding: 0px;
+    color: #357bff;
+    background-color: transparent;
+    text-decoration: underline;
+    display: inline;
+}
+
+form.plain {
+    display: inline;
+}
+
+li.zippy {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+div.video .contents div.expandy {
+  background: url(/images/expand.gif);
+  background-repeat: no-repeat;
+  height: 12px;
+  width: 12px;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+div.video .contents div.expandy.expanded {
+  background: url(/images/expanded.gif);
+  background-repeat: no-repeat;
+}
+
+div.hidden {
+  display: none;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs li {
+  display: inline;
+  white-space: nowrap;
+}
+
+#add_comic div label {
+  font-weight: bold;
+}
+
+.loading {
+  display: none;
+}
+
+.series_didyoumean {
+  font-weight: bold;
+}
+
+.series_suggestion {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #357bff;
+}
+
+.formtable th,td {
+  vertical-align: top;
+}
+
+.series_list {
+  padding-left: 0.5em;
+}
+
+.series_list > li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.series_list * ul {
+  padding-left: 2em;
+}
+
+.series_list * li {
+  list-style-type: none;
+  list-style-position: inside;
+  font-weight: normal;
+}
+
+.series_list .episode_count {
+  margin-left: 0.5em;
+  color: darkgrey;
+}
+
+div.thumbnail {
+  float: left;
+}

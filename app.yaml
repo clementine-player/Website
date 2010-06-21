@@ -1,0 +1,30 @@
+application: clementine-player
+version: 2
+runtime: python
+api_version: 1
+
+inbound_services:
+- xmpp_message
+
+handlers:
+- url: /css
+  static_dir: static/css
+
+- url: /projects.*
+  script: projects.py
+
+- url: /versions
+  script: clementine.py
+  login: admin
+
+- url: /sparkle
+  script: clementine.py
+
+- url: /rainymood
+  script: clementine.py
+
+- url: /
+  script: projects.py
+
+- url: /.*
+  script: clementine.py

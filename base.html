@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="/css/style.css" />
+    <script src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1");
+      google.load("jqueryui", "1.7.2");
+    </script>
+    <script type="text/javascript">
+    {% block globals %}
+    {% endblock %}
+    function onload() {
+      {% block onload %}
+      {% endblock %}
+    }
+    </script>
+    <title>Clementine</title>
+</head>
+<body onload="onload()">
+
+<div class="tabbar">
+    <div class="account">
+        {% if user %}
+            <b>{{ user.email }}</b> | <a href="{{ sign_out_url }}">Sign out</a>
+        {% else %}
+            <a href="{{ sign_in_url }}">Sign in</a>
+        {% endif %}
+    </div>
+    <a href="/" class="tab{% ifequal tab "follow" %} selected{% endifequal %}">Follow</a>
+    <div class="bar"></div>
+</div>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

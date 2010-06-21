@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% for project in projects %}
+    <div class="project">
+      <span>{{ project.name }}</span>
+      {% if user %}
+      <form action="/projects/follow" method="post" style="display:inline">
+        <input name="project" value="{{ project.name }}" type="hidden"/>
+        <input type="submit" value="Follow"/>
+      </form>
+      {% else %}
+      <span>You must be logged in to follow.</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  {% if user %}
+  <div>
+    <p style="font-weight:bold">Add a new project</p>
+    <form action="/projects/add" method="post">
+      <label for="name">Project Name:</label>
+      <input id="name" name="name" type="text" placeholder="project-name" required/>
+      <label for="secret">Secret:</label>
+      <input id="secret" name="secret" type"text" placeholder="ABC123" required/>
+      <input type="submit" value="Add"/>
+    </form>
+  </div>
+  {% endif %}
+{% endblock %}

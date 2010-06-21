@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Clementine Versions</title></head>
+  <body>
+  {% for version in versions %}
+    <div class="version">
+      <a href="{{ version.download_link }}">
+        <span>Clementine {{ version.version }} (r{{ version.revision }})</span>
+      </a>
+      <div class="info">
+        <p>Signature: {{ version.signature }}</p>
+      {% if version.changelog_link %}
+        <iframe src="{{ version.changelog_link }}" width="800" height="300"></iframe>
+      {% else %}
+        {{ version.changelog }}
+      {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+
+  <form id="add_version" method="post" action="/versions">
+    <label for="version">Version</label>
+    <input type="text" name="version" size="10"/>
+    <br />
+    <label for="revision">Revision</label>
+    <input type="text" name="revision" size="4"/>
+    <br />
+    <label for="download_link">Download Link</label>
+    <input type="text" name="download_link" size="150"/>
+    <br />
+    <label for="signature">Base64 DSA signature</label>
+    <input type="text" name="signature" size="65"/>
+    <br />
+    <label for="bundle_size">Bundle size</label>
+    <input type="text" name="bundle_size" size="10"/>
+    <br />
+    <label for="changelog_link">Link to changelog</label>
+    <input type="text" name="changelog_link" size="150"/>
+    <br />
+    <label for="changelog">Changelog (HTML)</label>
+    <textarea name="changelog" rows="20" cols="150"></textarea>
+    <br />
+    <input type="submit" value="Submit"></input>
+  </form>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+  <title>Clementine</title>
+  <link>http://code.google.com/p/clementine-player</link>
+  <description>Clementine Player</description>
+  <language>en</language>
+
+{% for version in versions %}
+  <item>
+    <title>Clementine {{ version.version|escape }}</title>
+    {% if version.changelog_link %}
+    <sparkle:releaseNotesLink>
+      {{ version.changelog_link|escape }}
+    </sparkle:releaseNotesLink>
+    {% else %}
+    <description>
+      <![CDATA[
+      {{ version.changelog }}
+      ]]>
+    </description>
+    {% endif %}
+    <pubDate>
+      {{ version.publish_date|date:"r" }}
+      {% comment %}eg. Wed, 09 Jan 2006 19:20:11 +0000{% endcomment %}
+    </pubDate>
+    <enclosure url="{{ version.download_link }}"
+               {% comment %}SVN Revision{% endcomment %}
+               sparkle:version="{{ version.revision }}"
+               {% comment %}User visible version{% endcomment %}
+               sparkle:shortVersionString="{{ version.version }}"
+               {% comment %}Base64 encoded signature of DMG.{% endcomment %}
+               sparkle:dsaSignature="{{ version.signature }}"
+               {% comment %}Size of app bundle (not the DMG).{% endcomment %}
+               length="{{ version.bundle_size }}"
+               type="application/octet-stream" />
+  </item>
+{% endfor %}
+</channel>
+</rss>
