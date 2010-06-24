@@ -18,6 +18,7 @@ import hmac
 import logging
 
 import models
+import tasks
 
 
 class SparklePage(webapp.RequestHandler):
@@ -68,11 +69,29 @@ class RainPage(webapp.RequestHandler):
     return
 
 
+class CountersPage(webapp.RequestHandler):
+  def get(self):
+    counters = tasks.Counter.all().fetch(10)
+    data = [(x.key(), x.count) for x in counters]
+
+    max_count = max([x.count for x in counters])
+    chd = 't:%s' % ','.join([str(float(x.count) / max_count * 100) for x in counters])
+    chxl = '0:|%s|' % '|'.join([x.key().name() for x in counters])
+
+    url = ('http://chart.apis.google.com/chart?'
+           'cht=bvg&chs=500x400&chd=%(chd)s&chxt=x,y'
+           '&chxr=1,0,%(max)d,5&chbh=100,25,25'
+           '&chxs=0,ff0000,12,0,lt|1,0000ff,10,1,lt&chxl=%(chxl)s')
+    self.redirect(url % {'chd':chd, 'chxl':chxl, 'max':max_count})
+
+
+
 application = webapp.WSGIApplication(
   [
     (r'/sparkle', SparklePage),
     (r'/versions', VersionsPage),
     (r'/rainymood', RainPage),
+    (r'/counters', CountersPage),
   ],
   debug=True)
 
