@@ -30,8 +30,11 @@ class SparklePage(webapp.RequestHandler):
         { 'versions': query }))
 
     useragent = self.request.headers['User-Agent']
-    clementine = useragent.split(' ')[0]
-    taskqueue.add(url='/_tasks/counters', params={'key':clementine})
+    if useragent:
+      split = useragent.split(' ')
+      if split:
+        clementine = split[0]
+        taskqueue.add(url='/_tasks/counters', params={'key':clementine})
 
 
 class VersionsPage(webapp.RequestHandler):
