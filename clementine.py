@@ -6,6 +6,7 @@ use_library('django', '1.1')
 from google.appengine.api import urlfetch
 from google.appengine.api import users
 from google.appengine.api import xmpp
+from google.appengine.api.labs import taskqueue
 from google.appengine.ext import db
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
@@ -27,6 +28,10 @@ class SparklePage(webapp.RequestHandler):
     path = os.path.join(os.path.dirname(__file__), self.TEMPLATE)
     self.response.out.write(template.render(path,
         { 'versions': query }))
+
+    useragent = self.request.headers['User-Agent']
+    clementine = useragent.split(' ')[0]
+    taskqueue.add(url='/_tasks/counters', params={'key':clementine})
 
 
 class VersionsPage(webapp.RequestHandler):
@@ -56,6 +61,7 @@ class VersionsPage(webapp.RequestHandler):
 class RainPage(webapp.RequestHandler):
   def get(self):
     self.redirect('http://s315939866.onlinehome.us/rainymood30a.mp3')
+    taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
     return
 
 

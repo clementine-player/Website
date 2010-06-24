@@ -1,5 +1,5 @@
 application: clementine-player
-version: 2
+version: 3
 runtime: python
 api_version: 1
 
@@ -16,6 +16,10 @@ handlers:
 - url: /favicon.ico
   static_files: static/images/favicon.ico
   upload: static/images/favicon.ico
+
+- url: /_tasks/.*
+  script: tasks.py
+  login: admin
 
 - url: /projects.*
   script: projects.py
