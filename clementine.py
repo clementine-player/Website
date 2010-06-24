@@ -70,6 +70,7 @@ class RainPage(webapp.RequestHandler):
 
 
 class CountersPage(webapp.RequestHandler):
+  TEMPLATE='counters.html'
   def get(self):
     counters = tasks.Counter.all().fetch(10)
     data = [(x.key(), x.count) for x in counters]
@@ -82,7 +83,11 @@ class CountersPage(webapp.RequestHandler):
            'cht=bvg&chs=500x400&chd=%(chd)s&chxt=x,y'
            '&chxr=1,0,%(max)d,5&chbh=100,25,25'
            '&chxs=0,ff0000,12,0,lt|1,0000ff,10,1,lt&chxl=%(chxl)s')
-    self.redirect(url % {'chd':chd, 'chxl':chxl, 'max':max_count})
+    url = url % {'chd':chd, 'chxl':chxl, 'max':max_count}
+
+    path = os.path.join(os.path.dirname(__file__), self.TEMPLATE)
+    self.response.out.write(template.render(path,
+        { 'url': url }))
 
 
 
