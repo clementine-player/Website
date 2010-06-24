@@ -25,12 +25,18 @@ class ProjectsPage(webapp.RequestHandler):
 
     path = os.path.join(os.path.dirname(__file__), self.TEMPLATE)
     user = users.get_current_user()
+
+    query = models.Follower.gql('WHERE user = :user', user=user)
+    following = [f.project for f in query]
+    following_names = [p.name for p in following]
+
     self.response.out.write(template.render(path,
         { 'tab': 'follow',
           'user': user,
           'sign_in_url': users.create_login_url('/projects'),
           'sign_out_url': users.create_logout_url('/projects'),
-          'projects': projects}))
+          'projects': [p for p in projects if p.name not in following_names],
+          'following': following}))
 
 
 class AddProjectPage(webapp.RequestHandler):
@@ -71,6 +77,21 @@ class FollowPage(webapp.RequestHandler):
     xmpp.send_invite(user.email())
 
 
+class UnfollowPage(webapp.RequestHandler):
+  def post(self):
+    user = users.get_current_user()
+    project_name = self.request.get('project')
+    project = models.GoogleCode.gql('WHERE name = :name', name=project_name).get()
+    follower = models.Follower.gql('WHERE user = :user AND project = :project',
+                                   user=user, project=project).get()
+    if follower is None:
+      self.error(404)
+      return
+
+    follower.delete()
+    self.response.out.write('OK')
+
+
 class CommitPage(webapp.RequestHandler):
   def post(self):
     json = simplejson.loads(self.request.body)
@@ -104,6 +125,7 @@ application = webapp.WSGIApplication(
     (r'/projects', ProjectsPage),
     (r'/projects/add', AddProjectPage),
     (r'/projects/follow', FollowPage),
+    (r'/projects/unfollow', UnfollowPage),
     (r'/projects/commit', CommitPage),
   ],
   debug=True)

@@ -5,13 +5,23 @@
     <div class="project">
       <span>{{ project.name }}</span>
       {% if user %}
-      <form action="/projects/follow" method="post" style="display:inline">
-        <input name="project" value="{{ project.name }}" type="hidden"/>
-        <input type="submit" value="Follow"/>
-      </form>
+        <form action="/projects/follow" method="post" style="display:inline">
+          <input name="project" value="{{ project.name }}" type="hidden"/>
+          <input type="submit" value="Follow"/>
+        </form>
       {% else %}
-      <span>You must be logged in to follow.</span>
+        <span>You must be logged in to follow.</span>
       {% endif %}
+    </div>
+  {% endfor %}
+
+  {% for project in following %}
+    <div class="project">
+      <span>{{ project.name }}</span>
+      <form action="/projects/unfollow" method="post" style="display:inline">
+        <input name="project" value="{{ project.name }}" type="hidden"/>
+        <input type="submit" value="Unfollow"/>
+      </form>
     </div>
   {% endfor %}
 
