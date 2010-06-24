@@ -1,0 +1,4 @@
+cron:
+- description: snapshot counters
+  url: /_tasks/snapshot
+  schedule: every day 00:00

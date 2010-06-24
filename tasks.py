@@ -8,6 +8,12 @@ class Counter(db.Model):
   count = db.IntegerProperty(indexed=False, required=True)
 
 
+class CounterSnapshot(db.Model):
+  counter = db.ReferenceProperty(Counter, required=True)
+  count = db.IntegerProperty(indexed=False, required=True)
+  date = db.DateProperty(auto_now_add=True)
+
+
 class CounterWorker(webapp.RequestHandler):
   def post(self):
     key = self.request.get('key')
@@ -22,9 +28,25 @@ class CounterWorker(webapp.RequestHandler):
     db.run_in_transaction(transaction)
 
 
+class SnapshotTask(webapp.RequestHandler):
+  def get(self):
+    taskqueue.add(url='/_tasks/snapshot')
+    self.response.out.write('OK')
+
+  def post(self):
+    counters = Counter.all().fetch(10)
+    puts = []
+    for counter in counters:
+      snapshot = CounterSnapshot(counter=counter, count=counter.count)
+      puts.append(snapshot)
+
+    db.put(puts)
+
+
 application = webapp.WSGIApplication(
   [
     (r'/_tasks/counters', CounterWorker),
+    (r'/_tasks/snapshot', SnapshotTask),
   ],
   debug=True)
 
