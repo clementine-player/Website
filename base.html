@@ -2,11 +2,6 @@
 <html>
 <head>
     <link type="text/css" rel="stylesheet" href="/css/style.css" />
-    <script src="http://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load("jquery", "1");
-      google.load("jqueryui", "1.7.2");
-    </script>
     <script type="text/javascript">
     {% block globals %}
     {% endblock %}
@@ -15,9 +10,16 @@
       {% endblock %}
     }
     </script>
+    <script src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1");
+      google.load("jqueryui", "1.7.2");
+      google.load("visualization", "1", {packages:["table"]});
+      google.setOnLoadCallback(onload);
+    </script>
     <title>Clementine</title>
 </head>
-<body onload="onload()">
+<body>
 
 <div class="tabbar">
     <div class="account">

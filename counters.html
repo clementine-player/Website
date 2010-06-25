@@ -1,5 +1,20 @@
 {% extends "base.html" %}
 
+{% block onload %}
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Name');
+  data.addColumn('number', 'count');
+  data.addRows({{ counters|length }});
+  {% for counter in counters %}
+    data.setCell({{ forloop.counter0 }}, 0, '{{ counter.name }}');
+    data.setCell({{ forloop.counter0 }}, 1, {{ counter.count }});
+  {% endfor %}
+  var table = new google.visualization.Table(document.getElementById('table'));
+  table.draw(data);
+{% endblock %}
+
 {% block content %}
   <img alt="Counters Graph" src="{{ url }}"/>
+  <div id="table">
+  </div>
 {% endblock %}

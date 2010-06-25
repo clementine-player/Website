@@ -85,9 +85,12 @@ class CountersPage(webapp.RequestHandler):
            '&chxs=0,ff0000,12,0,lt|1,0000ff,10,1,lt&chxl=%(chxl)s')
     url = url % {'chd':chd, 'chxl':chxl, 'max':max_count}
 
+    rows = [{'name':c.key().name(), 'count':c.count} for c in counters]
+
     path = os.path.join(os.path.dirname(__file__), self.TEMPLATE)
     self.response.out.write(template.render(path,
-        { 'url': url }))
+        { 'url': url,
+          'counters': rows }))
 
 
 
