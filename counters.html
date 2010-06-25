@@ -10,7 +10,7 @@
     data.setCell({{ forloop.counter0 }}, 1, {{ counter.count }});
   {% endfor %}
   var table = new google.visualization.Table(document.getElementById('table'));
-  table.draw(data);
+  table.draw(data, {'width': '400px'});
 {% endblock %}
 
 {% block content %}
