@@ -25,4 +25,6 @@ class Version(db.Model):
 
   publish_date = db.DateTimeProperty(auto_now_add=True)
 
+  min_version = db.StringProperty()
+
   tags = db.StringListProperty()

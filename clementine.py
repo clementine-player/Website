@@ -57,6 +57,7 @@ class VersionsPage(webapp.RequestHandler):
         changelog_link=self.request.get('changelog_link'),
         changelog=self.request.get('changelog'),
         bundle_size=int(self.request.get('bundle_size')),
+        min_version=self.request.get('min_version'),
       )
     if new_version.put():
       self.response.out.write('OK')

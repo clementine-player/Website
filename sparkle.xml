@@ -9,6 +9,10 @@
 {% for version in versions %}
   <item>
     <title>Clementine {{ version.version|escape }}</title>
+    {% comment %}Minimum OS X version, eg. 10.5.4.{% endcomment %}
+    {% if version.min_version %}
+    <sparkle:minimumSystemVersion>{{ version.min_version }}</sparkle:minimumSystemVersion>
+    {% endif %}
     {% if version.changelog_link %}
     <sparkle:releaseNotesLink>
       {{ version.changelog_link|escape }}
