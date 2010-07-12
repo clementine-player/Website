@@ -70,6 +70,13 @@ class RainPage(webapp.RequestHandler):
     return
 
 
+class HypnotoadPage(webapp.RequestHandler):
+  def get(self):
+    self.redirect('http://www.clementine-player.org/hypnotoad.mp3')
+    taskqueue.add(url='/_tasks/counters', params={'key':'hypnotoad'})
+    return
+
+
 class CountersPage(webapp.RequestHandler):
   TEMPLATE='counters.html'
   def get(self):
@@ -100,6 +107,7 @@ application = webapp.WSGIApplication(
     (r'/sparkle', SparklePage),
     (r'/versions', VersionsPage),
     (r'/rainymood', RainPage),
+    (r'/hypnotoad', HypnotoadPage),
     (r'/counters', CountersPage),
   ],
   debug=True)
