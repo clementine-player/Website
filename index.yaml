@@ -4,3 +4,9 @@ indexes:
   - name: counter
   - name: date
     direction: desc
+
+- kind: CounterSnapshot
+  properties:
+  - name: counter
+  - name: date
+    direction: asc

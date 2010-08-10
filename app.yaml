@@ -1,5 +1,5 @@
 application: clementine-player
-version: 4
+version: dev
 runtime: python
 api_version: 1
 
