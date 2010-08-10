@@ -9,7 +9,7 @@ class Counter(db.Model):
 
 
 class CounterSnapshot(db.Model):
-  counter = db.ReferenceProperty(Counter, required=True)
+  counter = db.ReferenceProperty(Counter, required=True, collection_name='snapshots')
   count = db.IntegerProperty(indexed=False, required=True)
   date = db.DateProperty(auto_now_add=True)
 
