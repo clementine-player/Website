@@ -1,0 +1,6 @@
+indexes:
+- kind: CounterSnapshot
+  properties:
+  - name: counter
+  - name: date
+    direction: desc
