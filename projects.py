@@ -119,6 +119,7 @@ class CommitPage(webapp.RequestHandler):
             logging.error('Failed to send XMPP message to %s', user)
 
 
+
 application = webapp.WSGIApplication(
   [
     (r'/', ProjectsPage),
