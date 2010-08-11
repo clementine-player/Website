@@ -93,6 +93,8 @@ class UnfollowPage(webapp.RequestHandler):
 
 
 class CommitPage(webapp.RequestHandler):
+  IRC_WEBHOOK='http://zaphod.purplehatstands.com:8080/commit'
+
   def post(self):
     json = simplejson.loads(self.request.body)
     project_name = json['project_name']
@@ -108,6 +110,10 @@ class CommitPage(webapp.RequestHandler):
       self.error(403)
       return
 
+    # Notify IRC bot on Zaphod.
+    rpc = urlfetch.create_rpc()
+    urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=self.request.body, method=urlfetch.POST)
+
     users = [x.user.email() for x in project.followers.fetch(100)]
     for user in users:
       if xmpp.get_presence(user):
@@ -117,6 +123,13 @@ class CommitPage(webapp.RequestHandler):
           status_code = xmpp.send_message(user, message)
           if status_code != xmpp.NO_ERROR:
             logging.error('Failed to send XMPP message to %s', user)
+
+    try:
+      result = rpc.get_result()
+      if result.status_code != 200:
+        logging.error('IRC webhook failed: %d', result.status_code)
+    except urlfetch.Error, e:
+      logging.error('IRC webhook failed: %s', e)
 
 
 
