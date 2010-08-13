@@ -62,7 +62,6 @@ class WebHook(resource.Resource):
     isLeaf = True
 
     def render_GET(self, request):
-      AnnounceBot.instance.trysay('Hello World!')
       return 'foo'
 
     def render_POST(self, request):
