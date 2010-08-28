@@ -18,81 +18,72 @@ import sys
 import urllib2
 
 class AnnounceBot(irc.IRCClient):
+  username = "%s-%s" % (NAME, VERSION)
+  sourceURL = "http://strobe.cc/"
 
-    username = "%s-%s" % (NAME, VERSION)
-    sourceURL = "http://strobe.cc/"
+  # I am a terrible person.
+  instance = None
 
-    # I am a terrible person.
-    instance = None
+  # Intentionally 'None' until we join a channel
+  channel = None
 
-    # Intentionally 'None' until we join a channel
-    channel = None
+  # Prevent flooding
+  lineRate = 3
 
-    # Prevent flooding
-    lineRate = 3
+  def signedOn(self):
+    self.join(self.factory.channel)
+    AnnounceBot.instance = self
 
-    def signedOn(self):
-        self.join(self.factory.channel)
-        AnnounceBot.instance = self
+  def joined(self, channel):
+    self.channel = self.factory.channel
 
-    def joined(self, channel):
-        self.channel = self.factory.channel
+  def left(self, channel):
+    self.channel = None
 
-    def left(self, channel):
-        self.channel = None
-
-    def trysay(self, msg):
-        """Attempts to send the given message to the channel."""
-        if self.channel:
-            try:
-                self.say(self.channel, msg)
-                return True
-            except: pass
+  def trysay(self, msg):
+    """Attempts to send the given message to the channel."""
+    if self.channel:
+      try:
+        self.say(self.channel, msg)
+        return True
+      except:
+        print 'Failed to send message'
 
 class AnnounceBotFactory(protocol.ReconnectingClientFactory):
-    protocol = AnnounceBot
-    def __init__(self, channel):
-        self.channel = channel
+  protocol = AnnounceBot
+  def __init__(self, channel):
+    self.channel = channel
 
-    def clientConnectionFailed(self, connector, reason):
-        print "connection failed:", reason
-        reactor.stop()
+  def clientConnectionFailed(self, connector, reason):
+    print "connection failed:", reason
+    reactor.stop()
 
 class WebHook(resource.Resource):
-    isLeaf = True
+  isLeaf = True
 
-    def render_GET(self, request):
-      return 'foo'
+  def render_GET(self, request):
+    return 'foo'
 
-    def render_POST(self, request):
-      if request.path == '/commit':
-        body = request.content
-        if body:
-          json = simplejson.load(body)
-          for r in json['revisions']:
-            message = 'r%d: %s' % (r['revision'], r['message'].rstrip())
-            AnnounceBot.instance.trysay(message)
-      return 'ok'
-
-def strip_tags(value):
-    return re.sub(r'<[^>]*?>', '', value)
-
-def announce(feed):
-    new = feed.update()
-    for entry in new:
-        msg = '%s: %s' % (strip_tags(entry['title']), entry['link'])
-        if AnnounceBot.instance:
-            AnnounceBot.instance.trysay(msg.replace('\n', '').encode('utf-8'))
+  def render_POST(self, request):
+    if request.path == '/commit':
+      body = request.content
+      if body:
+        json = simplejson.load(body)
+        for r in json['revisions']:
+          message = '\x033%s\x03 \x02\x037r%d\x03\x02 %s' % (
+              r['author'], r['revision'], r['message'].rstrip().replace('\n', ''))
+          AnnounceBot.instance.trysay(message)
+    return 'ok'
 
 if __name__ == '__main__':
-    # All per-project customizations should be done here
+  # All per-project customizations should be done here
 
-    AnnounceBot.nickname = 'clementine-bot'
-    fact = AnnounceBotFactory("#clementine")
-    reactor.connectTCP('chat.freenode.net', 6667, fact)
+  AnnounceBot.nickname = 'clementine-bot'
+  fact = AnnounceBotFactory("#clementine")
+  reactor.connectTCP('chat.freenode.net', 6667, fact)
 
-    site = server.Site(WebHook())
-    reactor.listenTCP(8080, site)
+  site = server.Site(WebHook())
+  reactor.listenTCP(8080, site)
 
-    reactor.run()
+  reactor.run()
 
