@@ -71,7 +71,7 @@ class WebHook(resource.Resource):
         json = simplejson.load(body)
         for r in json['revisions']:
           message = '\x033%s\x03 \x02\x037r%d\x03\x02 %s' % (
-              r['author'], r['revision'], r['message'].rstrip().replace('\n', ''))
+              r['author'], r['revision'], r['message'].rstrip().replace('\n', ' '))
           AnnounceBot.instance.trysay(message)
     return 'ok'
 
