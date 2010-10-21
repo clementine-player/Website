@@ -15,6 +15,7 @@ from twisted.words.protocols import irc
 
 import re
 import sys
+import urllib
 import urllib2
 
 class AnnounceBot(irc.IRCClient):
@@ -70,6 +71,17 @@ class WebHook(resource.Resource):
       if body:
         json = simplejson.load(body)
         for r in json['revisions']:
+          url = 'http://code.google.com/p/clementine-player/source/detail?r=%d' % r['revision']
+          try:
+            data = urllib.urlencode({'url':url})
+            request = urllib2.urlopen('http://goo.gl/api/shorten', data)
+            url_json = simplejson.load(request)
+            if 'short_url' in url_json:
+              short_url = url_json['short_url']
+              r['message'] = '(%s) %s' % (short_url, r['message'])
+          except urllib2.URLError, ValueError:
+            pass
+
           message = '\x033%s\x03 \x02\x037r%d\x03\x02 %s' % (
               r['author'], r['revision'], r['message'].rstrip().replace('\n', ' '))
           AnnounceBot.instance.trysay(message)
