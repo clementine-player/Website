@@ -7,6 +7,8 @@
 NAME="Google_Code_RSS_IRC_Bridge_Bot"
 VERSION="0.1"
 
+HYPNOTOAD=False
+
 import simplejson
 
 from twisted.internet import reactor, protocol, task
@@ -78,7 +80,10 @@ class WebHook(resource.Resource):
             url_json = simplejson.load(request)
             if 'short_url' in url_json:
               short_url = url_json['short_url']
-              r['message'] = '(%s) %s' % (short_url, r['message'])
+              message = r['message']
+              if HYPNOTOAD:
+                message = message[:30] + 'ALL GLORY TO THE HYPNOTOAD!'
+              r['message'] = '(%s) %s' % (short_url, message)
           except urllib2.URLError, ValueError:
             pass
 
