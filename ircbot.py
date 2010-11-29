@@ -7,8 +7,6 @@
 NAME="Google_Code_RSS_IRC_Bridge_Bot"
 VERSION="0.1"
 
-HYPNOTOAD=False
-
 import simplejson
 
 from twisted.internet import reactor, protocol, task
@@ -19,6 +17,8 @@ import re
 import sys
 import urllib
 import urllib2
+
+ADMINS=['hatstand', 'davidsansome']
 
 class AnnounceBot(irc.IRCClient):
   username = "%s-%s" % (NAME, VERSION)
@@ -32,6 +32,9 @@ class AnnounceBot(irc.IRCClient):
 
   # Prevent flooding
   lineRate = 3
+
+  def __init__(self):
+    self.hypnotoad = False
 
   def signedOn(self):
     self.join(self.factory.channel)
@@ -52,6 +55,35 @@ class AnnounceBot(irc.IRCClient):
       except:
         print 'Failed to send message'
 
+  def privmsg(self, user, channel, message):
+    print '%s from %s on %s' % (message, user, channel)
+    if channel != '*':
+      if '!' in user:
+        user = user.split('!', 1)[0]
+
+        # Only parse commands from private messages.
+        if channel == self.nickname:
+          self.ParseCommand(user, message)
+
+  def SendMessage(self, message):
+    if self.hypnotoad:
+      message = message[:30] + 'ALL GLORY TO THE HYPNOTOAD!'
+    self.trysay(message)
+
+  def ParseCommand(self, user, message):
+    if user not in ADMINS:
+      self.msg(user, 'Forbidden')
+      return
+
+    if message == 'hypnotoad':
+      self.hypnotoad = not self.hypnotoad
+      self.msg(user, 'Hypnotoad: %s' % self.hypnotoad)
+    elif message == 'test':
+      self.SendMessage('Oh I\'m a lumberjack and I\'m ok. I sleep all night '
+                       'and I work all day.')
+
+
+
 class AnnounceBotFactory(protocol.ReconnectingClientFactory):
   protocol = AnnounceBot
   def __init__(self, channel):
@@ -64,6 +96,16 @@ class AnnounceBotFactory(protocol.ReconnectingClientFactory):
 class WebHook(resource.Resource):
   isLeaf = True
 
+  def Shorten(self, url):
+    try:
+      data = urllib.urlencode({'url':url})
+      request = urllib2.urlopen('http://goo.gl/api/shorten', data)
+      url_json = simplejson.load(request)
+      if 'short_url' in url_json:
+        return url_json['short_url']
+    except urllib2.URLError, ValueError:
+      pass
+
   def render_GET(self, request):
     return 'foo'
 
@@ -73,23 +115,14 @@ class WebHook(resource.Resource):
       if body:
         json = simplejson.load(body)
         for r in json['revisions']:
-          url = 'http://code.google.com/p/clementine-player/source/detail?r=%d' % r['revision']
-          try:
-            data = urllib.urlencode({'url':url})
-            request = urllib2.urlopen('http://goo.gl/api/shorten', data)
-            url_json = simplejson.load(request)
-            if 'short_url' in url_json:
-              short_url = url_json['short_url']
-              message = r['message']
-              if HYPNOTOAD:
-                message = message[:30] + 'ALL GLORY TO THE HYPNOTOAD!'
-              r['message'] = '(%s) %s' % (short_url, message)
-          except urllib2.URLError, ValueError:
-            pass
-
+          url = ('http://code.google.com/p/clementine-player/source/detail?r=%d' %
+              r['revision'])
+          short_url = self.Shorten(url)
+          if short_url:
+            r['message'] = '(%s) %s' % (short_url, message)
           message = '\x033%s\x03 \x02\x037r%d\x03\x02 %s' % (
               r['author'], r['revision'], r['message'].rstrip().replace('\n', ' '))
-          AnnounceBot.instance.trysay(message)
+          AnnounceBot.instance.SendMessage(message)
     return 'ok'
 
 if __name__ == '__main__':
