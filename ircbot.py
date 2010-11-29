@@ -118,10 +118,11 @@ class WebHook(resource.Resource):
           url = ('http://code.google.com/p/clementine-player/source/detail?r=%d' %
               r['revision'])
           short_url = self.Shorten(url)
+          message = r['message']
           if short_url:
-            r['message'] = '(%s) %s' % (short_url, message)
+            message = '(%s) %s' % (short_url, message)
           message = '\x033%s\x03 \x02\x037r%d\x03\x02 %s' % (
-              r['author'], r['revision'], r['message'].rstrip().replace('\n', ' '))
+              r['author'], r['revision'], message.rstrip().replace('\n', ' '))
           AnnounceBot.instance.SendMessage(message)
     return 'ok'
 
