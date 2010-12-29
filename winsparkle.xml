@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+  <title>Clementine</title>
+  <link>http://www.clementine-player.org/</link>
+  <description>Clementine Player</description>
+  <language>en</language>
+
+{% for version in versions %}
+  <item>
+    <title>Clementine {{ version.version|escape }}</title>
+    <sparkle:releaseNotesLink>
+      {{ version.changelog_link|escape }}
+    </sparkle:releaseNotesLink>
+    <enclosure url="{{ version.download_link }}"
+               sparkle:version="{{ version.version }}" />
+  </item>
+{% endfor %}
+</channel>
+</rss>

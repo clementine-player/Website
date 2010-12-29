@@ -12,12 +12,13 @@ class Follower(db.Model):
 
 
 class Version(db.Model):
-  revision = db.IntegerProperty(required=True)
+  platform = db.StringProperty()
+  revision = db.IntegerProperty()
   version = db.StringProperty(required=True)
 
   download_link = db.LinkProperty(required=True)
-  signature = db.StringProperty(required=True)  # Base64 encoded
-  bundle_size = db.IntegerProperty(required=True)
+  signature = db.StringProperty()  # Base64 encoded
+  bundle_size = db.IntegerProperty()
 
   # Use either changelog_link or changelog.
   changelog_link = db.LinkProperty()

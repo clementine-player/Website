@@ -31,6 +31,9 @@ handlers:
 - url: /sparkle
   script: clementine.py
 
+- url: /winsparkle
+  script: clementine.py
+
 - url: /rainymood
   script: clementine.py
 

@@ -26,12 +26,12 @@ import models
 import tasks
 
 
-class SparklePage(webapp.RequestHandler):
-  TEMPLATE='sparkle.xml'
-  def get(self):
+class SparklePageBase(webapp.RequestHandler):
+  def WriteResponse(self, template_name, platform):
     self.response.headers['Content-Type'] = 'text/xml'
     query = models.Version.all()
-    path = os.path.join(os.path.dirname(__file__), self.TEMPLATE)
+    query.filter('platform =', platform)
+    path = os.path.join(os.path.dirname(__file__), template_name)
     self.response.out.write(template.render(path,
         { 'versions': query }))
 
@@ -41,6 +41,16 @@ class SparklePage(webapp.RequestHandler):
       if split:
         clementine = split[0]
         taskqueue.add(url='/_tasks/counters', params={'key':clementine})
+
+
+class MacSparklePage(SparklePageBase):
+  def get(self):
+    self.WriteResponse('sparkle.xml', 'mac')
+
+
+class WinSparklePage(SparklePageBase):
+  def get(self):
+    self.WriteResponse('winsparkle.xml', 'windows')
 
 
 class VersionsPage(webapp.RequestHandler):
@@ -118,10 +128,10 @@ class CountersPage(webapp.RequestHandler):
           'counters': rows }))
 
 
-
 application = webapp.WSGIApplication(
   [
-    (r'/sparkle', SparklePage),
+    (r'/sparkle', MacSparklePage),
+    (r'/winsparkle', WinSparklePage),
     (r'/versions', VersionsPage),
     (r'/rainymood', RainPage),
     (r'/hypnotoad', HypnotoadPage),
