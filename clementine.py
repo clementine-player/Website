@@ -131,7 +131,7 @@ class CountersPage(webapp.RequestHandler):
 application = webapp.WSGIApplication(
   [
     (r'/sparkle', MacSparklePage),
-    (r'/winsparkle', WinSparklePage),
+    (r'/sparkle-windows', WinSparklePage),
     (r'/versions', VersionsPage),
     (r'/rainymood', RainPage),
     (r'/hypnotoad', HypnotoadPage),
