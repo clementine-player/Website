@@ -98,7 +98,7 @@ class WebHook(resource.Resource):
 
   def Shorten(self, url):
     try:
-      data = urllib.urlencode({'longUrl':url})
+      data = simplejson.dumps({'longUrl':url})
       request = urllib2.Request(
           'https://www.googleapis.com/urlshortener/v1/url?key='
           'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
