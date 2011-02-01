@@ -80,7 +80,7 @@ class VersionsPage(webapp.RequestHandler):
 
 class RainPage(webapp.RequestHandler):
   def get(self):
-    self.redirect('http://s315939866.onlinehome.us/rainymood30a.mp3')
+    self.redirect('http://www.rainymood.com/audio/RainyMood.mp3')
     taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
     return
 
