@@ -41,7 +41,10 @@ class SparklePageBase(webapp.RequestHandler):
       split = useragent.split(' ')
       if split:
         clementine = split[0]
-        taskqueue.add(url='/_tasks/counters', params={'key':clementine})
+        try:
+          taskqueue.add(url='/_tasks/counters', params={'key':clementine})
+        except taskqueue.Error, e:
+          logging.warning('Failed to add task: %s', e)
 
 
 class MacSparklePage(SparklePageBase):
@@ -82,14 +85,10 @@ class VersionsPage(webapp.RequestHandler):
 class RainPage(webapp.RequestHandler):
   def get(self):
     self.redirect(RAINYMOOD_URL)
-    taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
-    return
-
-
-class HypnotoadPage(webapp.RequestHandler):
-  def get(self):
-    self.redirect('http://www.clementine-player.org/hypnotoad.mp3')
-    taskqueue.add(url='/_tasks/counters', params={'key':'hypnotoad'})
+    try:
+      taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
+    except taskqueue.Error, e:
+      logging.warning('Failed to add task: %s', e)
     return
 
 
@@ -135,7 +134,6 @@ application = webapp.WSGIApplication(
     (r'/sparkle-windows', WinSparklePage),
     (r'/versions', VersionsPage),
     (r'/rainymood', RainPage),
-    (r'/hypnotoad', HypnotoadPage),
     (r'/counters', CountersPage),
   ],
   debug=True)
