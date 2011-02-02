@@ -25,6 +25,7 @@ from pygooglechart import SimpleLineChart
 import models
 import tasks
 
+RAINYMOOD_URL = 'http://www.rainymood.com/audio/RainyMood.mp3'
 
 class SparklePageBase(webapp.RequestHandler):
   def WriteResponse(self, template_name, platform):
@@ -80,7 +81,7 @@ class VersionsPage(webapp.RequestHandler):
 
 class RainPage(webapp.RequestHandler):
   def get(self):
-    self.redirect('http://www.rainymood.com/audio/RainyMood.mp3')
+    self.redirect(RAINYMOOD_URL)
     taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
     return
 
