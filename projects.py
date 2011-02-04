@@ -115,21 +115,30 @@ class CommitPage(webapp.RequestHandler):
     urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=self.request.body, method=urlfetch.POST)
 
     users = [x.user.email() for x in project.followers.fetch(100)]
+    messages = []
+    for r in json['revisions']:
+      link = 'http://code.google.com/p/%s/source/detail?r=%d' % (project_name, r['revision'])
+      messages.append('%s\nr%d: %s - %s' % (project_name, r['revision'], r['message'], link))
+
+    logging.info('Sending messages: %s', messages)
+    logging.info('to users: %s', users)
+
     for user in users:
-      if xmpp.get_presence(user):
-        for r in json['revisions']:
-          link = 'http://code.google.com/p/%s/source/detail?r=%d' % (project_name, r['revision'])
-          message = '%s\nr%d: %s - %s' % (project_name, r['revision'], r['message'], link)
-          status_code = xmpp.send_message(user, message)
-          if status_code != xmpp.NO_ERROR:
-            logging.error('Failed to send XMPP message to %s', user)
+      try:
+        if xmpp.get_presence(user):
+          for message in messages:
+            status_code = xmpp.send_message(user, message)
+            if status_code != xmpp.NO_ERROR:
+              logging.error('Failed to send XMPP message to %s', user)
+      except xmpp.Error:
+        pass
 
     try:
       result = rpc.get_result()
       if result.status_code != 200:
-        logging.error('IRC webhook failed: %d', result.status_code)
+        logging.warning('IRC webhook failed: %d', result.status_code)
     except urlfetch.Error, e:
-      logging.error('IRC webhook failed: %s', e)
+      logging.warning('IRC webhook failed: %s', e)
 
 
 
