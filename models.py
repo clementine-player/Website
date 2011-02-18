@@ -29,3 +29,13 @@ class Version(db.Model):
   min_version = db.StringProperty()
 
   tags = db.StringListProperty()
+
+
+class Device(db.Model):
+  registration_id = db.StringProperty(required=True)
+  user = db.UserProperty(required=True)
+  brand = db.StringProperty()
+  device = db.StringProperty()
+  manufacturer = db.StringProperty()
+  model = db.StringProperty()
+  serial = db.StringProperty()

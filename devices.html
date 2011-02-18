@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registered Devices</title>
+  </head>
+
+  <body>
+    {% for device in devices %}
+      <div class="device">
+        <div>Manufacturer: {{ device.manufacturer }}</div>
+        <div>Brand: {{ device.brand }}</div>
+        <div>Device: {{ device.device }}</div>
+        <div>Model: {{ device.model }}</div>
+        <div>Serial: {{ device.serial }}</div>
+      </div>
+    {% endfor %}
+  </body>
+</html>

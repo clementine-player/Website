@@ -40,5 +40,10 @@ handlers:
 - url: /
   script: projects.py
 
+- url: /c2dm/.*
+  script: c2dm.py
+  secure: always
+  login: required
+
 - url: /.*
   script: clementine.py
