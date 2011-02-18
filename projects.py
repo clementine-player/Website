@@ -92,6 +92,30 @@ class UnfollowPage(webapp.RequestHandler):
     self.response.out.write('OK')
 
 
+class GitCommitPage(webapp.RequestHandler):
+  def post(self):
+    json = simplejson.loads(self.request.get('payload'))
+    commits = json['commits']
+    project_name = json['repository']['name']
+
+    for commit in commits:
+      message = '%(project_name)s:%(user)s %(change)s %(url)s' % {
+          'project_name': project_name,
+          'user': commit['author']['name'],
+          'change': commit['message'],
+          'url': commit['url'],
+      }
+      logging.info('Git commit: %s', message)
+      for user in ['john.maguire@gmail.com', 'davidsansome@gmail.com']:
+        try:
+          if xmpp.get_presence(user):
+            status_code = xmpp.send_message(user, message)
+            if status_code != xmpp.NO_ERROR:
+              logging.error('Failed to send XMPP message to %s', user)
+        except xmpp.Error, e:
+          logging.warn('User %s offline: %s', user, e)
+
+
 class CommitPage(webapp.RequestHandler):
   IRC_WEBHOOK='http://zaphod.purplehatstands.com:8080/commit'
 
@@ -150,6 +174,7 @@ application = webapp.WSGIApplication(
     (r'/projects/follow', FollowPage),
     (r'/projects/unfollow', UnfollowPage),
     (r'/projects/commit', CommitPage),
+    (r'/projects/gitcommit', GitCommitPage),
   ],
   debug=True)
 
