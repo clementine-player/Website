@@ -37,6 +37,9 @@ handlers:
 - url: /rainymood
   script: clementine.py
 
+- url: /icecast-directory
+  script: clementine.py
+
 - url: /
   script: projects.py
 

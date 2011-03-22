@@ -26,6 +26,7 @@ import models
 import tasks
 
 RAINYMOOD_URL = 'http://www.rainymood.com/audio/RainyMood.mp3'
+ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
 
 class SparklePageBase(webapp.RequestHandler):
   def WriteResponse(self, template_name, platform):
@@ -92,6 +93,16 @@ class RainPage(webapp.RequestHandler):
     return
 
 
+class IcecastPage(webapp.RequestHandler):
+  def get(self):
+    self.redirect(ICECAST_URL)
+    try:
+      taskqueue.add(url='/_tasks/counters', params={'key':'icecast-directory'})
+    except taskqueue.Error, e:
+      logging.warning('Failed to add task: %s', e)
+    return
+
+
 class CountersPage(webapp.RequestHandler):
   TEMPLATE='counters.html'
   def get(self):
@@ -135,6 +146,7 @@ application = webapp.WSGIApplication(
     (r'/versions', VersionsPage),
     (r'/rainymood', RainPage),
     (r'/counters', CountersPage),
+    (r'/icecast-directory', IcecastPage),
   ],
   debug=True)
 
