@@ -26,6 +26,7 @@ import models
 import tasks
 
 RAINYMOOD_URL = 'http://www.rainymood.com/audio/RainyMood.mp3'
+BACKUP_RAINYMOOD_URL = 'http://images.clementine-player.org/RainyMood.mp3'
 ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
 
 class SparklePageBase(webapp.RequestHandler):
@@ -85,7 +86,7 @@ class VersionsPage(webapp.RequestHandler):
 
 class RainPage(webapp.RequestHandler):
   def get(self):
-    self.redirect(RAINYMOOD_URL)
+    self.redirect(BACKUP_RAINYMOOD_URL)
     try:
       taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
     except taskqueue.Error, e:
