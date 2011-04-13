@@ -1,3 +1,4 @@
+from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 from google.appengine.api import xmpp
 from google.appengine.api.labs import taskqueue
@@ -51,19 +52,28 @@ class SnapshotTask(webapp.RequestHandler):
 
 class CheckRainyMood(webapp.RequestHandler):
   def get(self):
-    url = clementine.CURRENT_RAINYMOOD_URL
+    url = memcache.get(clementine.RAINYMOOD_MEMCACHE_KEY)
+    if url is None:
+      url = clementine.RAINYMOOD_URL
+      memcache.set(clementine.RAINYMOOD_MEMCACHE_KEY, url)
     try:
       response = urlfetch.fetch(url, method=urlfetch.HEAD, deadline=10)
       if response.status_code < 200 or response.status_code > 300:
-        self.Notify('Check failed with code: %d' % response.status_code)
+        self.Switch(url, 'Check failed with code: %d' % response.status_code)
     except urlfetch.Error, e:
-      self.Notify('Check failed with error: %s' % e)
+      self.Switch(url, 'Check failed with error: %s' % e)
 
-  def Notify(self, reason):
+  def Switch(self, current_url, reason):
+    if current_url == clementine.RAINYMOOD_URL:
+      new_url = clementine.BACKUP_RAINYMOOD_URL
+    else:
+      new_url = clementine.RAINYMOOD_URL
+    memcache.set(clementine.RAINYMOOD_MEMCACHE_KEY, new_url)
+    message = 'Rainy mood check failed:\n%s\nSwitched to: %s' % (reason, new_url)
     try:
-      xmpp.send_message('john.maguire@gmail.com', 'Rainy Mood:\n%s' % reason)
+      xmpp.send_message('john.maguire@gmail.com', message)
     except:
-      logging.error('Failed to send rainy mood check: %s', reason)
+      logging.error(message)
 
 
 application = webapp.WSGIApplication(

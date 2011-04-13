@@ -3,6 +3,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 from google.appengine.dist import use_library
 use_library('django', '1.1')
 
+from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 from google.appengine.api import users
 from google.appengine.api import xmpp
@@ -29,7 +30,7 @@ RAINYMOOD_URL = 'http://www.rainymood.com/audio/RainyMood.mp3'
 BACKUP_RAINYMOOD_URL = 'http://images.clementine-player.org/RainyMood.mp3'
 ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
 
-CURRENT_RAINYMOOD_URL = BACKUP_RAINYMOOD_URL
+RAINYMOOD_MEMCACHE_KEY = 'rainymood'
 
 class SparklePageBase(webapp.RequestHandler):
   def WriteResponse(self, template_name, platform):
@@ -88,7 +89,12 @@ class VersionsPage(webapp.RequestHandler):
 
 class RainPage(webapp.RequestHandler):
   def get(self):
-    self.redirect(CURRENT_RAINYMOOD_URL)
+    url = memcache.get(RAINYMOOD_MEMCACHE_KEY)
+    if url is None:
+      # Default to serving from rainymood.com
+      url = RAINYMOOD_URL
+      memcache.set(RAINYMOOD_MEMCACHE_KEY, url)
+    self.redirect(url)
     try:
       taskqueue.add(url='/_tasks/counters', params={'key':'rain'})
     except taskqueue.Error, e:
