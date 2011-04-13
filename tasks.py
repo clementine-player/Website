@@ -51,7 +51,7 @@ class SnapshotTask(webapp.RequestHandler):
 
 class CheckRainyMood(webapp.RequestHandler):
   def get(self):
-    url = clementine.RAINYMOOD_URL
+    url = clementine.CURRENT_RAINYMOOD_URL
     try:
       response = urlfetch.fetch(url, method=urlfetch.HEAD, deadline=10)
       if response.status_code < 200 or response.status_code > 300:
