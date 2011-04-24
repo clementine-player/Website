@@ -34,9 +34,10 @@ RAINYMOOD_MEMCACHE_KEY = 'rainymood'
 
 class SparklePageBase(webapp.RequestHandler):
   def WriteResponse(self, template_name, platform):
-    self.response.headers['Content-Type'] = 'text/xml'
     query = models.Version.all()
     query.filter('platform =', platform)
+
+    self.response.headers['Content-Type'] = 'text/xml'
     path = os.path.join(os.path.dirname(__file__), template_name)
     self.response.out.write(template.render(path,
         { 'versions': query }))
@@ -65,26 +66,32 @@ class WinSparklePage(SparklePageBase):
 class VersionsPage(webapp.RequestHandler):
   TEMPLATE='versions.html'
   def get(self):
-    query = models.Version.all()
+    versions_mac = models.Version.all()
+    versions_mac.filter('platform =', 'mac')
+
+    versions_win = models.Version.all()
+    versions_win.filter('platform =', 'windows')
+
     path = os.path.join(os.path.dirname(__file__), self.TEMPLATE)
-    self.response.out.write(template.render(path,
-        { 'versions': query }))
+    self.response.out.write(template.render(path, {
+        'versions_mac': versions_mac,
+        'versions_win': versions_win,
+    }))
 
   def post(self):
-    self.response.out.write(self.request.body)
-
     new_version = models.Version(
-        revision=int(self.request.get('revision')),
-        version=self.request.get('version'),
-        signature=self.request.get('signature'),
-        download_link=self.request.get('download_link'),
-        changelog_link=self.request.get('changelog_link'),
-        changelog=self.request.get('changelog'),
-        bundle_size=int(self.request.get('bundle_size')),
-        min_version=self.request.get('min_version'),
-      )
+        platform       = self.request.get('platform'),
+        revision       = int(self.request.get('revision', 0)),
+        version        = self.request.get('version'),
+        signature      = self.request.get('signature'),
+        download_link  = self.request.get('download_link'),
+        changelog_link = self.request.get('changelog_link'),
+        bundle_size    = int(self.request.get('bundle_size', 0)),
+        min_version    = self.request.get('min_version'),
+    )
+
     if new_version.put():
-      self.response.out.write('OK')
+      self.redirect("/versions")
 
 
 class RainPage(webapp.RequestHandler):

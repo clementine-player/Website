@@ -1,49 +1,120 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Clementine Versions</title></head>
-  <body>
-  {% for version in versions %}
-    <div class="version">
-      <a href="{{ version.download_link }}">
-        <span>Clementine {{ version.version }} (r{{ version.revision }})</span>
-      </a>
-      <div class="info">
-        <p>Signature: {{ version.signature }}</p>
-      {% if version.changelog_link %}
-        <iframe src="{{ version.changelog_link }}" width="800" height="300"></iframe>
-      {% else %}
-        {{ version.changelog }}
-      {% endif %}
-      </div>
-    </div>
-  {% endfor %}
+<head>
+  <title>Clementine Versions</title>
+  <link rel="stylesheet" type="text/css" href="/css/versions.css" />
+</head>
+<body>
 
-  <form id="add_version" method="post" action="/versions">
-    <label for="version">Version</label>
-    <input type="text" name="version" size="10"/>
-    <br />
-    <label for="revision">Revision</label>
-    <input type="text" name="revision" size="4"/>
-    <br />
-    <label for="download_link">Download Link</label>
-    <input type="text" name="download_link" size="150"/>
-    <br />
-    <label for="signature">Base64 DSA signature</label>
-    <input type="text" name="signature" size="65"/>
-    <br />
-    <label for="bundle_size">Bundle size</label>
-    <input type="text" name="bundle_size" size="10"/>
-    <br />
-    <label for="changelog_link">Link to changelog</label>
-    <input type="text" name="changelog_link" size="150"/>
-    <br />
-    <label for="changelog">Changelog (HTML)</label>
-    <textarea name="changelog" rows="20" cols="150"></textarea>
-    <br />
-    <label for="min_version">Mininum Version</label>
-    <input type="text" name="min_version" size="10"/>
-    <br />
-    <input type="submit" value="Submit"></input>
-  </form>
-  </body>
+<table class="platforms">
+  <tr>
+    <th>Mac OS X</th>
+    <th>Windows</th>
+  </tr>
+
+  <tr>
+    <td>
+      {% for version in versions_mac %}
+        <div class="version">
+          <div class="title">Clementine {{ version.version }}</div>
+          <div class="sort_version">{{ version.revision }}</div>
+          <div class="changelog_link">
+            <a href="{{ version.changelog_link }}">{{ version.changelog_link }}</a>
+          </div>
+          <div class="download_link">
+            <a href="{{ version.download_link }}">{{ version.download_link }}</a>
+          </div>
+          <div class="signature">{{ version.signature }}</div>
+          <div class="bundle_size">{{ version.bundle_size }}</div>
+          <div class="min_version">{{ version.min_version }}</div>
+          <div class="publish_date">{{ version.publish_date|date }}</div>
+        </div>
+      {% endfor %}
+    </td>
+    <td>
+      {% for version in versions_win %}
+        <div class="version">
+          <div class="title">Clementine {{ version.version }}</div>
+          <div class="sort_version">{{ version.version }}</div>
+          <div class="changelog_link">
+            <a href="{{ version.changelog_link }}">{{ version.changelog_link }}</a>
+          </div>
+          <div class="download_link">
+            <a href="{{ version.download_link }}">{{ version.download_link }}</a>
+          </div>
+        </div>
+      {% endfor %}
+    </td>
+  </tr>
+
+  <tr>
+    <th>New version (Mac OS X)</th>
+    <th>New version (Windows)</th>
+  </tr>
+
+  <tr>
+    <td>
+      <form method="post" action="/versions">
+        <input type="hidden" name="platform" value="mac" />
+        <table class="new">
+          <tr>
+            <th>Version (user visible)</th>
+            <td><input name="version" /></td>
+          </tr>
+          <tr>
+            <th>Revision (for comparisons)</th>
+            <td><input name="revision" /></td>
+          </tr>
+          <tr>
+            <th>Download URL</th>
+            <td><input name="download_link" value="http://clementine-player.googlecode.com/files/clementine-xxx.dmg" /></td>
+          </tr>
+          <tr>
+            <th>Changelog URL</th>
+            <td><input name="changelog_link" value="http://clementine-player.googlecode.com/svn/tags/xxx/Changelog" /></td>
+          </tr>
+          <tr>
+            <th>Signature (base64 DSA)</th>
+            <td><input name="signature" /></td>
+          </tr>
+          <tr>
+            <th>Bundle size</th>
+            <td><input name="bundle_size" /></td>
+          </tr>
+          <tr>
+            <th>Minimum OS X version</th>
+            <td><input name="min_version" value="10.6" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Submit"></input></td>
+          </tr>
+        </table>
+      </form>
+    </td>
+    <td>
+      <form method="post" action="/versions">
+        <input type="hidden" name="platform" value="windows" />
+        <table class="new">
+          <tr>
+            <th>Version</th>
+            <td><input name="version" /></td>
+          </tr>
+          <tr>
+            <th>Download URL</th>
+            <td><input name="download_link" value="http://clementine-player.googlecode.com/files/ClementineSetup-xxx.exe" /></td>
+          </tr>
+          <tr>
+            <th>Changelog URL</th>
+            <td><input name="changelog_link" value="http://clementine-player.googlecode.com/svn/tags/xxx/Changelog" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Submit"></input></td>
+          </tr>
+        </table>
+      </form>
+    </td>
+  </tr>
+</table>
+
+</body>
 </html>

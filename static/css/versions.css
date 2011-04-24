@@ -1,0 +1,67 @@
+body {
+  font-size: smaller;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+table.platforms {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+table.platforms > tbody > tr > td {
+  width: 50%;
+  border: 1px solid gray;
+  padding: 1em;
+  vertical-align: top;
+}
+
+table.platforms > tbody > tr > th {
+  border-bottom: 1px solid #336AC9;
+  padding: 0.4em;
+
+  background-color: #c3d9ff; /* old browsers */
+  background: -moz-linear-gradient(top, #c3d9ff 0%, #b1c8ef 41%, #98b0d9 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3d9ff), color-stop(41%,#b1c8ef), color-stop(100%,#98b0d9)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d9ff', endColorstr='#98b0d9',GradientType=0 ); /* ie */
+}
+
+div.version {
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+}
+
+div:before {
+  color: #AAAAAA;
+  font-weight: bold;
+  font-size: smaller;
+  margin-right: 0.5em;
+}
+div.title:before { content: "Title"; }
+div.sort_version:before { content: "Revision (for comparisons)"; }
+div.min_version:before { content: "Minimum OS X version"; }
+div.publish_date:before { content: "Date published"; }
+div.signature:before { content: "Signature"; }
+div.bundle_size:before { content: "Bundle size"; }
+div.changelog_link:before { content: "Changelog URL"; }
+div.download_link:before { content: "Download URL"; }
+
+table.new {
+  width: 100%;
+}
+
+table.new th {
+  text-align: left;
+  color: #336AC9;
+  font-size: smaller;
+  width: 180px;
+}
+
+table.new input {
+  width: 100%;
+}
