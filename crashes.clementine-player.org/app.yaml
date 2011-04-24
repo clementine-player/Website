@@ -1,0 +1,14 @@
+application: clementine-crashes
+version: dev
+runtime: python
+api_version: 1
+
+handlers:
+- url: /getuploadurl
+  script: upload.py
+
+- url: /uploadhandler
+  script: upload.py
+
+- url: /.*
+  script: index.py

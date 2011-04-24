@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Participate" %} | {% endblock %}
+{% block path %}/participate{% endblock %}
+
+{% block scripts %}
+  <script type="text/javascript" src="/js/irc.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<h1>{% trans "Need help?" %}</h1>
+
+<h2>IRC</h2>
+
+<p>{% trans "Come chat with us at the" %} <span class="command">#clementine</span> {% trans "channel on Freenode." %}
+{% trans "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away." %}
+</p>
+
+<ul id="irclink">
+  <li><a href="javascript:expandirc()">{% trans "Open embedded chat client" %}</a></li>
+</ul>
+
+<div class="irccontainer hidden" id="irc">
+  <div>
+    <p>{% trans "This room is hosted on an Internet Relay Chat" %} (<a class="ext" href="http://en.wikipedia.org/wiki/Irc">IRC</a>) {% trans "server and powered by IRC software." %}<br />
+{% trans "Feel free to join the conversations that are taking place." %}</p>
+    <iframe src="http://webchat.freenode.net?channels=clementine&uio=MTE9NDEb6" width="690" height="400"></iframe>
+    <p>{% trans "New to IRC? Here are some commands to get you started:" %}</p>
+    <ul>
+      <li><span class="command">/help</span> {% trans "Display help." %}</li>
+      <li><span class="command">/clear</span> {% trans "Clear the chat output in this channel." %}</li>
+      <li><span class="command">/nick [nick]</span> {% trans "Change your nickname." %}</li>
+      <li><span class="command">/msg [nick] [msg]</span> {% trans "Send a private message." %}</li>
+      <li><span class="command">/whois [nick]</span> {% trans "Find out all manner of things about someone." %}</li>
+      <li><span class="command">/me [text]</span> {% trans "Emote." %}</li>
+      <li><span class="command">/away <msg></msg></span> {% trans "Set your status to away." %}</li>
+      <li><span class="command">/back</span> {% trans "Set your status to back." %}</li>
+    </ul>
+  </div>
+</div>
+
+<h2>{% trans "Forum" %}</h2>
+
+<p>{% trans "Clementine uses Google Groups for its forum/mailing list/general discussion group." %}</p>
+
+<ul>
+  <li><a href="http://groups.google.com/group/clementine-player">{% trans "Support and discussion group" %}</a></li>
+</ul>
+
+<hr class="division" />
+
+<h1>{% trans "Collaborate" %}</h1>
+
+<h2>{% trans "Reporting bugs and proposing patches" %}</h2>
+
+<p>{% trans "Clementine uses Google Code for development and issue tracking." %}
+{% trans "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue." %}</p>
+
+<ul>
+  <li><a href="http://code.google.com/p/clementine-player/issues/list">{% trans "Issue tracker" %}</a></li>
+</ul>
+
+<h2>{% trans "Translating the interface" %}</h2>
+
+<p>{% trans "If you'd like to translate Clementine into another language you can do so on the Launchpad translations page." %}
+{% trans "You can either do the translation directly on Launchpad, or download a .po file from the site and then email it back to us." %}</p>
+
+<ul>
+  <li><a href="https://translations.launchpad.net/clementine/trunk/+pots/translations">{% trans "Launchpad translations" %}</a></li>
+</ul>
+
+<h2>{% trans "Hacking" %}</h2>
+
+<p>{% trans "Development on Clementine happens in" %}
+<a href="http://code.google.com/p/clementine-player/source/checkout">
+{% trans "the Subversion repository" %}</a>.
+{% trans "Check out the code by running:" %}</p>
+
+<pre>svn checkout http://clementine-player.googlecode.com/svn/trunk/ clementine-player</pre>
+
+<ul>
+  <li><a href="http://code.google.com/p/clementine-player/wiki/CompilingFromSource">
+    {% trans "How to compile Clementine from source" %}</a>
+  </li>
+</ul>
+
+<p>{% trans "If you'd prefer not to compile the development version yourself then try one of the hourly packages:" %}</p>
+
+<ul>
+  <li><a href="http://builds.clementine-player.org/mac/">
+    {% trans "Mac OS X development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/ubuntu-lucid/">
+    {% trans "Ubuntu Lucid development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/ubuntu-maverick/">
+    {% trans "Ubuntu Maverick development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/win32/">
+    {% trans "Windows development builds" %}</a></li>
+  <li><a href="http://buildbot.clementine-player.org/waterfall">
+    {% trans "Buildbot" %}</a></li>
+</ul>
+
+<p>{% trans "There's also an Ubuntu PPA for these development builds:" %}</p>
+
+<pre>sudo add-apt-repository ppa:me-davidsansome/clementine-dev
+sudo apt-get update
+sudo apt-get install clementine</pre>
+
+
+<hr class="division" />
+<h1>{% trans "Social Networking" %}</h1>
+
+<p>{% trans "We'd love to see you support Clementine by joining us on your favourite social networking site!" %}</p>
+
+<ul>
+  <li><a href="http://www.facebook.com/pages/Clementine-Player/122395291132938">
+    {% trans "Clementine on Facebook" %}</a>
+  </li>
+  <li><a href="http://twitter.com/clementine_app">
+    {% trans "Clementine on Twitter" %}</a>
+  </li>
+  <li><a href="http://www.last.fm/group/Clementine">
+    {% trans "Clementine on Last.fm" %}</a>
+  </li>
+</ul>
+
+{% endblock %}

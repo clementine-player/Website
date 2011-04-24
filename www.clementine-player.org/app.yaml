@@ -1,0 +1,31 @@
+application: clementine-www
+version: 0-7
+runtime: python
+api_version: 1
+
+
+handlers:
+- url: /css
+  static_dir: static/css
+
+- url: /images
+  static_dir: static/images
+
+- url: /fonts
+  static_dir: static/fonts
+
+- url: /screenshots
+  static_dir: static/screenshots
+
+- url: /js
+  static_dir: static/js
+
+- url: /favicon.ico
+  static_files: static/images/favicon.ico
+  upload: static/images/favicon.ico
+
+- url: /thumbnails/.*
+  script: thumbnailer.py
+
+- url: /.*
+  script: main.py

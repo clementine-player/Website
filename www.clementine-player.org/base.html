@@ -1,0 +1,78 @@
+{% load i18n %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>{% block title %}{% endblock %}{% trans "Clementine Music Player" %}</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/defaults.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/style.css" />
+  {% block scripts %}{% endblock %}
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1020858-8']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body class="front not-logged-in page-node node-type-page no-sidebars">
+
+  <div id="half-background"></div>
+
+  <div id="canvas">
+    <div id="wrapper">
+      <div id="header">
+        <a href="{{ root_page }}"><img src="/images/logo.png" alt="Home" id="logo" /></a>
+
+        <div id="primary-links">
+          <ul class="links">
+            <li class="menu-265 first"><a href="about">{% trans "About" %}</a></li>
+            <li class="menu-375"><a href="downloads">{% trans "Downloads" %}</a></li>
+            <li class="menu-374"><a href="screenshots" title="Clementine screenshots">{% trans "Screenshots" %}</a></li>
+            <li class="menu-268 last"><a href="participate" title="Participate">{% trans "Participate" %}</a></li>
+          </ul>
+        </div>
+
+        <span id="site-slogan">{% trans "A cross-platform music player inspired by Amarok 1.4" %}</span>
+      </div>
+
+      <div id="container" class="clear-block">
+        <div id="page">
+          <div id="node-2" class="node node-page">
+            <div class="content">
+            {% block content %}{% endblock %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-top-gradient"></div>
+    <div id="footer">
+      <div id="block-block-1" class="block block-block">
+        <div class="content">
+          <p>{% for lang in languages|dictsort:"name" %}
+            {% if lang.current %}
+              <span class="language">{{ lang.name }}</span>
+            {% else %}
+              <a class="language" href="/{{ lang.code }}{% block path %}{% endblock %}">{{ lang.name }}</a>
+            {% endif %}
+          {% endfor %}</p>
+          <p>{% trans "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA." %}</p>
+          <p>{% trans "Development by" %} <a href="mailto:me@davidsansome.com">David Sansome</a> {% trans "and" %}
+            <a href="mailto:john.maguire@gmail.com">John Maguire</a>.
+            {% trans "Website by" %} <a href="mailto:cjenkins@softwarelibrecr.org">Carlos Jenkins</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

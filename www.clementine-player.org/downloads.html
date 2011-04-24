@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Downloads" %} | {% endblock %}
+{% block path %}/downloads{% endblock %}
+
+{% block content %}
+
+<h1>{% trans "Latest downloads" %}</h1>
+
+<p>{% trans "Get the latest stable version of Clementine for your operating system." %}</p>
+
+<div class="downloadscontainer">
+  {% for d in latest_downloads|dictsort:"os" %}
+    <div class="thindownload" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
+      <a href="{{ download_base_url }}{{ d.name }}">
+        <img class="icon" src="/images/{{ d.os }}-logo.png" />
+      </a>
+      <span class="version"><a href="{{ download_base_url }}{{ d.name }}">{{ d.ver }}</a></span>
+      <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
+      {% if d.arch %}
+        <p class="arch"><a href="{{ download_base_url }}{{ d.name }}">{{ d.arch }}-bit</a></p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<div style="clear:both;"></div>
+<h2>{% trans "Ubuntu PPA" %}</h2>
+
+<p>{% trans "You can download the latest version of Clementine on Ubuntu from the official PPA:" %}</p>
+
+<pre>sudo add-apt-repository ppa:me-davidsansome/clementine
+sudo apt-get update
+sudo apt-get install clementine</pre>
+
+<div style="clear:both;"></div>
+<hr class="division" />
+<h1>{% trans "Other Downloads" %}</h1>
+
+<h2>{% trans "Unofficial packages" %}</h2>
+
+<p>{% trans "If you don't see your distribution listed above then someone else might have created an unofficial package for you." %}</p>
+
+<ul>
+  <li><a href="http://code.google.com/p/clementine-player/wiki/OtherDownloads">
+    {% trans "Other Downloads" %}</a>
+  </li>
+</ul>
+
+<h2>{% trans "Compiling from source" %}</h2>
+
+<p>{% trans "Compiling Clementine from source is easy on Linux." %}
+{% trans "Download the source code package from the list above, and in a terminal window:" %}</p>
+
+<pre>cd bin
+cmake ..
+make
+sudo make install</pre>
+
+<ul>
+  <li><a href="http://code.google.com/p/clementine-player/wiki/CompilingFromSource">
+    {% trans "Full instructions and list of dependencies" %}</a>
+  </li>
+</ul>
+
+<h2>{% trans "Bleeding edge packages" %}</h2>
+
+<p>{% trans "Development on Clementine happens in" %}
+<a href="http://code.google.com/p/clementine-player/source/checkout">
+{% trans "the Subversion repository" %}</a>.  {% trans "Check out the code by running:" %}</p>
+
+<pre>svn checkout http://clementine-player.googlecode.com/svn/trunk/ clementine-player</pre>
+
+<p>{% trans "If you'd prefer not to compile the development version yourself then try one of the hourly packages:" %}</p>
+
+<ul>
+  <li><a href="http://builds.clementine-player.org/mac/">
+    {% trans "Mac OS X development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/ubuntu-lucid/">
+    {% trans "Ubuntu Lucid development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/ubuntu-maverick/">
+    {% trans "Ubuntu Maverick development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/win32/">
+    {% trans "Windows development builds" %}</a></li>
+  <li><a href="http://buildbot.clementine-player.org/waterfall">
+    {% trans "Buildbot" %}</a></li>
+</ul>
+
+<p>{% trans "There's also an Ubuntu PPA for these development builds:" %}</p>
+
+<pre>sudo add-apt-repository ppa:me-davidsansome/clementine-dev
+sudo apt-get update
+sudo apt-get install clementine</pre>
+
+
+<hr class="division" />
+<h1>{% trans "Old downloads" %}</h1>
+
+<div class="downloadscontainer">
+  {% for d in old_downloads|dictsortreversed:"ver" %}
+    <div class="thindownload old" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
+      <a href="{{ download_base_url }}{{ d.name }}">
+        <img class="icon" src="/images/{{ d.os }}-logo.png" />
+      </a>
+      <span class="version"><a href="{{ download_base_url }}{{ d.name }}">{{ d.ver }}</a></span>
+      <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
+      {% if d.arch %}
+        <p class="arch"><a href="{{ download_base_url }}{{ d.name }}">{{ d.arch }}-bit</a></p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
