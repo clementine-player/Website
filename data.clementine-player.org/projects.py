@@ -121,6 +121,7 @@ class CommitPage(webapp.RequestHandler):
 
   def post(self):
     json = simplejson.loads(self.request.body)
+    logging.debug('Received JSON: %s', json)
     project_name = json['project_name']
     project = models.GoogleCode.gql('WHERE name = :name', name=project_name).get()
     if project is None:
@@ -141,8 +142,8 @@ class CommitPage(webapp.RequestHandler):
     users = [x.user.email() for x in project.followers.fetch(100)]
     messages = []
     for r in json['revisions']:
-      link = 'http://code.google.com/p/%s/source/detail?r=%d' % (project_name, r['revision'])
-      messages.append('%s\nr%d: %s - %s' % (project_name, r['revision'], r['message'], link))
+      link = 'http://code.google.com/p/%s/source/detail?r=%s' % (project_name, r['revision'])
+      messages.append('%s\nr%s: %s - %s' % (project_name, r['revision'], r['message'], link))
 
     logging.info('Sending messages: %s', messages)
     logging.info('to users: %s', users)
