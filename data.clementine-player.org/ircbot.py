@@ -119,14 +119,14 @@ class WebHook(resource.Resource):
       if body:
         json = simplejson.load(body)
         for r in json['revisions']:
-          url = ('http://code.google.com/p/clementine-player/source/detail?r=%d' %
+          url = ('http://code.google.com/p/clementine-player/source/detail?r=%s' %
               r['revision'])
           short_url = self.Shorten(url)
           message = r['message']
           if short_url:
             message = '(%s) %s' % (short_url, message)
-          message = '\x033%s\x03 \x02\x037r%d\x03\x02 %s' % (
-              r['author'], r['revision'], message.rstrip().replace('\n', ' '))
+          message = '\x033%s\x03 \x02\x037r%s\x03\x02 %s' % (
+              r['author'], r['revision'][:6], message.rstrip().replace('\n', ' '))
           AnnounceBot.instance.SendMessage(message)
     return 'ok'
 
@@ -141,4 +141,3 @@ if __name__ == '__main__':
   reactor.listenTCP(8080, site)
 
   reactor.run()
-
