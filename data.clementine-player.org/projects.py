@@ -129,7 +129,7 @@ class CommitPage(webapp.RequestHandler):
       self.error(404)
       return
 
-    repo_path = json['respository_path']
+    repo_path = json['repository_path']
     repo = None
     if 'googlecode.com/git' in repo_path:
       match = re.match(r'http://([^.]+)\..*', repo_path)
