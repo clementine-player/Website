@@ -118,9 +118,18 @@ class WebHook(resource.Resource):
       body = request.content
       if body:
         json = simplejson.load(body)
+        repo_path = json['repository_path']
+        repo = None
+        if 'googlecode.com/git' in repo_path:
+          match = re.match(r'http://([^.]+)\.[^.]+\.[^.]+\.[^.]+', repo_path)
+          if match:
+            repo = match.groups()[0]
+
         for r in json['revisions']:
           url = ('http://code.google.com/p/clementine-player/source/detail?r=%s' %
               r['revision'])
+          if repo is not None:
+            url += '&repo=%s' % repo
           short_url = self.Shorten(url)
           message = r['message']
           if short_url:
