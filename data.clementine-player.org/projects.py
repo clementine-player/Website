@@ -15,6 +15,7 @@ from django.utils import simplejson
 
 import hmac
 import logging
+import re
 
 import models
 
@@ -128,6 +129,13 @@ class CommitPage(webapp.RequestHandler):
       self.error(404)
       return
 
+    repo_path = json['respository_path']
+    repo = None
+    if 'googlecode.com/git' in repo_path:
+      match = re.match(r'http://([^.]+)\..*', repo_path)
+      if match:
+        repo = match.groups()[0]
+
     auth = self.request.headers['Google-Code-Project-Hosting-Hook-Hmac']
     m = hmac.new(project.secret)
     m.update(self.request.body)
@@ -143,6 +151,8 @@ class CommitPage(webapp.RequestHandler):
     messages = []
     for r in json['revisions']:
       link = 'http://code.google.com/p/%s/source/detail?r=%s' % (project_name, r['revision'])
+      if repo is not None:
+        link += '&repo=%s' % repo
       messages.append('%s\nr%s: %s - %s' % (project_name, r['revision'], r['message'], link))
 
     logging.info('Sending messages: %s', messages)
