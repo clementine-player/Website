@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-24 23:32+0100\n"
+"POT-Creation-Date: 2011-07-24 23:35+0100\n"
 "PO-Revision-Date: 2011-03-28 13:06+0000\n"
 "Last-Translator: David Sansome <me@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -351,7 +351,7 @@ msgid "Development on Clementine happens in"
 msgstr "O Desenvolvimento do Clementine acontece em"
 
 #: downloads.html:70 participate.html:77
-msgid "the Subversion repository"
+msgid "the git repository"
 msgstr "Repositório de Submissão"
 
 #: downloads.html:70 participate.html:78

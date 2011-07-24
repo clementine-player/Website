@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clementine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-24 23:32+0100\n"
+"POT-Creation-Date: 2011-07-24 23:35+0100\n"
 "PO-Revision-Date: 2011-04-10 07:10+0000\n"
 "Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
@@ -364,8 +364,8 @@ msgid "Development on Clementine happens in"
 msgstr "Việc phát triển Clementine diễn ra tại"
 
 #: downloads.html:70 participate.html:77
-msgid "the Subversion repository"
-msgstr "kho Subversion"
+msgid "the git repository"
+msgstr "kho git"
 
 #: downloads.html:70 participate.html:78
 msgid "Check out the code by running:"

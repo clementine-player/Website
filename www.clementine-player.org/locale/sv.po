@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clementine-www\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-24 23:32+0100\n"
+"POT-Creation-Date: 2011-07-24 23:35+0100\n"
 "PO-Revision-Date: 2011-03-28 13:23+0000\n"
 "Last-Translator: David Sansome <me@davidsansome.com>\n"
 "Language-Team: Launchpad Swedish Translators <lp-l10n-sv@lists.launchpad."
@@ -360,8 +360,8 @@ msgid "Development on Clementine happens in"
 msgstr "Utvecklingen av Clementine sker i"
 
 #: downloads.html:70 participate.html:77
-msgid "the Subversion repository"
-msgstr "Subversion-förrådet"
+msgid "the git repository"
+msgstr "git-förrådet"
 
 #: downloads.html:70 participate.html:78
 msgid "Check out the code by running:"

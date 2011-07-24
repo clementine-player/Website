@@ -12,5 +12,6 @@ mo-%: po-%
 	msgfmt locale/$*/LC_MESSAGES/django.po -o locale/$*/LC_MESSAGES/django.mo
 
 po-%:
+	-mkdir -p locale/$*/LC_MESSAGES/
 	ln -fs `pwd`/locale/$*.po locale/$*/LC_MESSAGES/django.po
 	django-admin makemessages -v 0 -l $*
