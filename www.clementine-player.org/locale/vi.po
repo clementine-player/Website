@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clementine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-14 19:42+0100\n"
+"POT-Creation-Date: 2011-07-24 23:32+0100\n"
 "PO-Revision-Date: 2011-04-10 07:10+0000\n"
 "Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
@@ -384,26 +384,30 @@ msgid "Mac OS X development builds"
 msgstr "Các gói đang phát triển trên Mac OS X"
 
 #: downloads.html:80 participate.html:94
-msgid "Ubuntu Lucid development builds"
-msgstr "Các gói đang phát triển trên Ubuntu Lucid"
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr "Các gói đang phát triển trên Ubuntu Lucid (10.04)"
 
 #: downloads.html:82 participate.html:96
-msgid "Ubuntu Maverick development builds"
-msgstr "Các gói đang phát triển trên Ubuntu Maverick"
+msgid "Ubuntu Maverick (10.10) development builds"
+msgstr "Các gói đang phát triển trên Ubuntu Maverick (10.10)"
 
 #: downloads.html:84 participate.html:98
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr "Các gói đang phát triển trên Ubuntu Natty (11.04)"
+
+#: downloads.html:86 participate.html:100
 msgid "Windows development builds"
 msgstr "Các gói đang phát triển trên Windows"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:88 participate.html:102
 msgid "Buildbot"
 msgstr "Nhật ký phát triển"
 
-#: downloads.html:89 participate.html:103
+#: downloads.html:91 participate.html:105
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Ubuntu PPA cho các gói đang được phát triển:"
 
-#: downloads.html:97
+#: downloads.html:99
 msgid "Old downloads"
 msgstr "Các tải về cũ"
 
@@ -678,11 +682,11 @@ msgstr "Hacking"
 msgid "How to compile Clementine from source"
 msgstr "Biên dịch Clementine từ mã nguồn"
 
-#: participate.html:111
+#: participate.html:113
 msgid "Social Networking"
 msgstr "Mạng xã hội"
 
-#: participate.html:113
+#: participate.html:115
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -690,21 +694,27 @@ msgstr ""
 "Chúng tôi rất vui mừng khi thấy bạn hỗ trợ Clementine bằng cách tham gia "
 "cùng chúng tôi trên các trang mạng xã hội!"
 
-#: participate.html:117
+#: participate.html:119
 msgid "Clementine on Facebook"
 msgstr "Clementine trên Facebook"
 
-#: participate.html:120
+#: participate.html:122
 msgid "Clementine on Twitter"
 msgstr "Clementine trên Twitter"
 
-#: participate.html:123
+#: participate.html:125
 msgid "Clementine on Last.fm"
 msgstr "Clementine trên Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Phiên bản"
+
+#~ msgid "Ubuntu Lucid development builds"
+#~ msgstr "Các gói đang phát triển trên Ubuntu Lucid"
+
+#~ msgid "Ubuntu Maverick development builds"
+#~ msgstr "Các gói đang phát triển trên Ubuntu Maverick"
 
 #~ msgid ""
 #~ "We'd love to see you support Clementine by joining the Facebook page or "

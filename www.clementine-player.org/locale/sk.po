@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-14 19:42+0100\n"
+"POT-Creation-Date: 2011-07-24 23:31+0100\n"
 "PO-Revision-Date: 2011-03-27 22:54+0000\n"
 "Last-Translator: DAG Software <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -337,26 +337,30 @@ msgid "Mac OS X development builds"
 msgstr "Mac OS X vývojové zostavenia"
 
 #: downloads.html:80 participate.html:94
-msgid "Ubuntu Lucid development builds"
-msgstr "Ubuntu Lucid vývojové zostavenia"
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr "Ubuntu Lucid (10.04) vývojové zostavenia"
 
 #: downloads.html:82 participate.html:96
-msgid "Ubuntu Maverick development builds"
-msgstr "Ubuntu Maverick vývojové zostavenia"
+msgid "Ubuntu Maverick (10.10) development builds"
+msgstr "Ubuntu Maverick (10.10) vývojové zostavenia"
 
 #: downloads.html:84 participate.html:98
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr "Ubuntu Natty (11.04) vývojové zostavenia"
+
+#: downloads.html:86 participate.html:100
 msgid "Windows development builds"
 msgstr "Windows vývojové zostavenia"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:88 participate.html:102
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:89 participate.html:103
+#: downloads.html:91 participate.html:105
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Je tu tiež Ubuntu PPA s vývojovými zostaveniami"
 
-#: downloads.html:97
+#: downloads.html:99
 msgid "Old downloads"
 msgstr "Staré súbory na stiahnutie"
 
@@ -635,11 +639,11 @@ msgstr "Hackovanie"
 msgid "How to compile Clementine from source"
 msgstr "Ako skompilovať Clementine zo zdrojákov"
 
-#: participate.html:111
+#: participate.html:113
 msgid "Social Networking"
 msgstr "Sociálne sieťe"
 
-#: participate.html:113
+#: participate.html:115
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -647,21 +651,27 @@ msgstr ""
 "Sme radi, keď vás vidíme podporovať Clementine pripojením sa na vašej "
 "obľúbenej sociálnej sieti!"
 
-#: participate.html:117
+#: participate.html:119
 msgid "Clementine on Facebook"
 msgstr "Clementine na Facebooku"
 
-#: participate.html:120
+#: participate.html:122
 msgid "Clementine on Twitter"
 msgstr "Clementine na Twitteri"
 
-#: participate.html:123
+#: participate.html:125
 msgid "Clementine on Last.fm"
 msgstr "Clementine na Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Verzia"
+
+#~ msgid "Ubuntu Lucid development builds"
+#~ msgstr "Ubuntu Lucid vývojové zostavenia"
+
+#~ msgid "Ubuntu Maverick development builds"
+#~ msgstr "Ubuntu Maverick vývojové zostavenia"
 
 #~ msgid "content"
 #~ msgstr "obsah"

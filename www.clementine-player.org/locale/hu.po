@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-14 19:42+0100\n"
+"POT-Creation-Date: 2011-07-24 23:31+0100\n"
 "PO-Revision-Date: 2011-03-27 22:21+0000\n"
 "Last-Translator: ntomka <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,26 +387,30 @@ msgid "Mac OS X development builds"
 msgstr "Mac OS X fejlesztői csomagok"
 
 #: downloads.html:80 participate.html:94
-msgid "Ubuntu Lucid development builds"
-msgstr "Ubuntu Lucid fejlesztői csomagok"
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr "Ubuntu Lucid (10.04) fejlesztői csomagok"
 
 #: downloads.html:82 participate.html:96
-msgid "Ubuntu Maverick development builds"
-msgstr "Ubuntu Maverick fejlesztői csomagok"
+msgid "Ubuntu Maverick (10.10) development builds"
+msgstr "Ubuntu Maverick (10.10) fejlesztői csomagok"
 
 #: downloads.html:84 participate.html:98
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr "Ubuntu Natty (11.04) fejlesztői csomagok"
+
+#: downloads.html:86 participate.html:100
 msgid "Windows development builds"
 msgstr "Windows fejlesztői csomagok"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:88 participate.html:102
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:89 participate.html:103
+#: downloads.html:91 participate.html:105
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "A fejlesztői csomagokhoz egy Ubuntu PPA is elérhető:"
 
-#: downloads.html:97
+#: downloads.html:99
 msgid "Old downloads"
 msgstr "Régebbi letöltések"
 
@@ -687,11 +691,11 @@ msgstr "Fejlesztés"
 msgid "How to compile Clementine from source"
 msgstr "Így fordítsd le a Clementinet forrásból"
 
-#: participate.html:111
+#: participate.html:113
 msgid "Social Networking"
 msgstr "Közösségi háló"
 
-#: participate.html:113
+#: participate.html:115
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -699,21 +703,27 @@ msgstr ""
 "Szívesen vesszük a támogatásod azáltal, hogy csatlakozol közénk a kedvenc "
 "közösségi hálózatodon!"
 
-#: participate.html:117
+#: participate.html:119
 msgid "Clementine on Facebook"
 msgstr "Clementine a Facebookon"
 
-#: participate.html:120
+#: participate.html:122
 msgid "Clementine on Twitter"
 msgstr "Clementine a Twitteren"
 
-#: participate.html:123
+#: participate.html:125
 msgid "Clementine on Last.fm"
 msgstr "Clementine a Last.fm-en"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Verzió"
+
+#~ msgid "Ubuntu Lucid development builds"
+#~ msgstr "Ubuntu Lucid fejlesztői csomagok"
+
+#~ msgid "Ubuntu Maverick development builds"
+#~ msgstr "Ubuntu Maverick fejlesztői csomagok"
 
 #~ msgid ""
 #~ "We'd love to see you support Clementine by joining the Facebook page or "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-14 19:42+0100\n"
+"POT-Creation-Date: 2011-07-24 23:31+0100\n"
 "PO-Revision-Date: 2011-04-01 16:59+0000\n"
 "Last-Translator: Alexey Afanasyev <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -396,27 +396,31 @@ msgid "Mac OS X development builds"
 msgstr "Development-версии для Mac OS X"
 
 #: downloads.html:80 participate.html:94
-msgid "Ubuntu Lucid development builds"
-msgstr "Development-версии для Ubuntu"
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr "Development-версии для Ubuntu Lucid (10.04)"
 
 #: downloads.html:82 participate.html:96
-msgid "Ubuntu Maverick development builds"
+msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Development-версии для Ubuntu Maverik (10.10)"
 
 #: downloads.html:84 participate.html:98
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr "Development-версии для Ubuntu Natty (11.04)"
+
+#: downloads.html:86 participate.html:100
 msgid "Windows development builds"
 msgstr "Development-версии для Windows"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:88 participate.html:102
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:89 participate.html:103
+#: downloads.html:91 participate.html:105
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 "Здесь также представлены PPA репозитории с Development-версиями для Ubuntu"
 
-#: downloads.html:97
+#: downloads.html:99
 msgid "Old downloads"
 msgstr "Старые версии"
 
@@ -699,11 +703,11 @@ msgstr "Работа с исходным кодом"
 msgid "How to compile Clementine from source"
 msgstr "Инструкция по сборке Clementine из исходного кода"
 
-#: participate.html:111
+#: participate.html:113
 msgid "Social Networking"
 msgstr "Социальные сети"
 
-#: participate.html:113
+#: participate.html:115
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -711,21 +715,27 @@ msgstr ""
 "Мы будем рады видеть Вас, присоединившимися к нам на вашем любимом сайте "
 "социальной сети!"
 
-#: participate.html:117
+#: participate.html:119
 msgid "Clementine on Facebook"
 msgstr "Clementine в сети Facebook"
 
-#: participate.html:120
+#: participate.html:122
 msgid "Clementine on Twitter"
 msgstr "Clementine в Твиттере"
 
-#: participate.html:123
+#: participate.html:125
 msgid "Clementine on Last.fm"
 msgstr "Clementine на Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Версия"
+
+#~ msgid "Ubuntu Lucid development builds"
+#~ msgstr "Development-версии для Ubuntu"
+
+#~ msgid "Ubuntu Maverick development builds"
+#~ msgstr "Development-версии для Ubuntu Maverik (10.10)"
 
 #~ msgid ""
 #~ "We'd love to see you support Clementine by joining the Facebook page or "

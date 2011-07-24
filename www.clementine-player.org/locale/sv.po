@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clementine-www\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-14 19:42+0100\n"
+"POT-Creation-Date: 2011-07-24 23:32+0100\n"
 "PO-Revision-Date: 2011-03-28 13:23+0000\n"
 "Last-Translator: David Sansome <me@davidsansome.com>\n"
 "Language-Team: Launchpad Swedish Translators <lp-l10n-sv@lists.launchpad."
@@ -380,26 +380,30 @@ msgid "Mac OS X development builds"
 msgstr "Utvecklingsversioner för Mac OS X"
 
 #: downloads.html:80 participate.html:94
-msgid "Ubuntu Lucid development builds"
-msgstr "Utvecklingsversioner för Ubuntu Lucid"
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr "Utvecklingsversioner för Ubuntu Lucid (10.04)"
 
 #: downloads.html:82 participate.html:96
-msgid "Ubuntu Maverick development builds"
-msgstr "Utvecklingsversioner för Ubuntu Maverick"
+msgid "Ubuntu Maverick (10.10) development builds"
+msgstr "Utvecklingsversioner för Ubuntu Maverick (10.10)"
 
 #: downloads.html:84 participate.html:98
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr "Utvecklingsversioner för Ubuntu Natty (11.04)"
+
+#: downloads.html:86 participate.html:100
 msgid "Windows development builds"
 msgstr "Utvecklingsversioner för Windows"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:88 participate.html:102
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:89 participate.html:103
+#: downloads.html:91 participate.html:105
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Det finns också ett Ubuntu-förråd för dessa utvecklingsversioner:"
 
-#: downloads.html:97
+#: downloads.html:99
 msgid "Old downloads"
 msgstr "Gamla hämtningar"
 
@@ -679,31 +683,37 @@ msgstr "Hackning"
 msgid "How to compile Clementine from source"
 msgstr "Hur man kompilerar Clementine från källkod"
 
-#: participate.html:111
+#: participate.html:113
 msgid "Social Networking"
 msgstr "Sociala nätverk"
 
-#: participate.html:113
+#: participate.html:115
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
 
-#: participate.html:117
+#: participate.html:119
 msgid "Clementine on Facebook"
 msgstr "Clementine på Facebook"
 
-#: participate.html:120
+#: participate.html:122
 msgid "Clementine on Twitter"
 msgstr ""
 
-#: participate.html:123
+#: participate.html:125
 msgid "Clementine on Last.fm"
 msgstr "Clementine på Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Version"
+
+#~ msgid "Ubuntu Lucid development builds"
+#~ msgstr "Utvecklingsversioner för Ubuntu Lucid"
+
+#~ msgid "Ubuntu Maverick development builds"
+#~ msgstr "Utvecklingsversioner för Ubuntu Maverick"
 
 #~ msgid ""
 #~ "We'd love to see you support Clementine by joining the Facebook page or "

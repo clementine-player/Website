@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-14 19:42+0100\n"
+"POT-Creation-Date: 2011-07-24 23:32+0100\n"
 "PO-Revision-Date: 2011-04-13 12:47+0000\n"
 "Last-Translator: R33D3M33R <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -336,26 +336,30 @@ msgid "Mac OS X development builds"
 msgstr "Razvojne gradnje za Mac OS X"
 
 #: downloads.html:80 participate.html:94
-msgid "Ubuntu Lucid development builds"
-msgstr "Razvojne gradnje za Ubuntu Lucid"
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr "Razvojne gradnje za Ubuntu Lucid (10.04)"
 
 #: downloads.html:82 participate.html:96
-msgid "Ubuntu Maverick development builds"
-msgstr "Razvojne gradnje za Ubuntu Maverick"
+msgid "Ubuntu Maverick (10.10) development builds"
+msgstr "Razvojne gradnje za Ubuntu Maverick (10.10)"
 
 #: downloads.html:84 participate.html:98
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr "Razvojne gradnje za Ubuntu Natty (11.04)"
+
+#: downloads.html:86 participate.html:100
 msgid "Windows development builds"
 msgstr "Razvojne gradnje za Windows"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:88 participate.html:102
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:89 participate.html:103
+#: downloads.html:91 participate.html:105
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Za te razvojne gradnje obstaja tudi Ubuntu PPA"
 
-#: downloads.html:97
+#: downloads.html:99
 msgid "Old downloads"
 msgstr "Stari prejemi"
 
@@ -625,28 +629,34 @@ msgstr "Hekanje"
 msgid "How to compile Clementine from source"
 msgstr "Kako prevesti Clementine iz izvorne kode"
 
-#: participate.html:111
+#: participate.html:113
 msgid "Social Networking"
 msgstr "Družabno omrežje"
 
-#: participate.html:113
+#: participate.html:115
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
 
-#: participate.html:117
+#: participate.html:119
 msgid "Clementine on Facebook"
 msgstr "Clementine na Facebooku"
 
-#: participate.html:120
+#: participate.html:122
 msgid "Clementine on Twitter"
 msgstr "Clementine na Twitterju"
 
-#: participate.html:123
+#: participate.html:125
 msgid "Clementine on Last.fm"
 msgstr "Clementine v Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Različica"
+
+#~ msgid "Ubuntu Lucid development builds"
+#~ msgstr "Razvojne gradnje za Ubuntu Lucid"
+
+#~ msgid "Ubuntu Maverick development builds"
+#~ msgstr "Razvojne gradnje za Ubuntu Maverick"
