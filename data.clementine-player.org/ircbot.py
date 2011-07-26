@@ -134,7 +134,7 @@ class WebHook(resource.Resource):
           message = r['message']
           if short_url:
             message = '(%s) %s' % (short_url, message)
-          message = '\x033%s\x03 \x02\x037r%s\x03\x02 %s' % (
+          message = '\x033%s\x03 \x02\x037%s\x03\x02 %s' % (
               r['author'], r['revision'][:6], message.rstrip().replace('\n', ' '))
           AnnounceBot.instance.SendMessage(message)
     return 'ok'
