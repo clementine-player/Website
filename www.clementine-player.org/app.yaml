@@ -7,15 +7,19 @@ api_version: 1
 handlers:
 - url: /css
   static_dir: static/css
+  expiration: "1d"
 
 - url: /images
   static_dir: static/images
+  expiration: "7d"
 
 - url: /fonts
   static_dir: static/fonts
+  expiration: "7d"
 
 - url: /screenshots
   static_dir: static/screenshots
+  expiration: "7d"
 
 - url: /js
   static_dir: static/js
@@ -23,6 +27,7 @@ handlers:
 - url: /favicon.ico
   static_files: static/images/favicon.ico
   upload: static/images/favicon.ico
+  expiration: "7d"
 
 - url: /thumbnails/.*
   script: thumbnailer.py

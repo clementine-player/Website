@@ -45,7 +45,7 @@ class Thumbnailer(webapp.RequestHandler):
       memcache.set(filename, data, namespace=MEMCACHE_NAMESPACE)
 
     self.response.headers['Content-Type'] = 'image/png'
-    self.response.headers['Cache-Control'] = 'max-age=86400'
+    self.response.headers['Cache-Control'] = 'public, max-age=86400'
     self.response.out.write(data)
 
 
