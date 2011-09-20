@@ -179,7 +179,7 @@ NEWS = [
       'more library scanning options, drag and drop between playlists, and a ' \
       'hypnotoad.  We\'ve also reduced startup time by more than half, fixed ' \
       'a load of memory leaks and reduced CPU usage while playing music. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/trunk/Changelog">' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -192,7 +192,7 @@ NEWS = [
       'counts and skip counts.  You can create smart and dynamic playlists ' \
       'from songs in your library, and also now listen to music from ' \
       '<a href="http://www.jamendo.com/">Jamendo</a> and Icecast radio stations. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/trunk/Changelog">' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -207,7 +207,7 @@ NEWS = [
       'songs, a "Show in file browser" option, support for network proxies, ' \
       'a "Full library rescan" option, and a new tooltip for the track slider ' \
       'that helps you seek more accurately to a specific place in a song. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/trunk/Changelog">' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
       'full changelog</a> for more information.')
   },
   # For timestamp: python -c "import time; print int(time.time())"
