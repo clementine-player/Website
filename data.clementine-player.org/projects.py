@@ -122,18 +122,15 @@ class CommitPage(webapp.RequestHandler):
   IRC_WEBHOOK='http://zaphod.purplehatstands.com:8080/commit'
 
   def Shorten(self, url):
-    try:
-      data = simplejson.dumps({'longUrl':url})
-      request = urllib2.Request(
-          'https://www.googleapis.com/urlshortener/v1/url?key='
-          'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
-          data,
-          {'Content-Type': 'application/json'})
-      url_json = simplejson.load(urllib2.urlopen(request))
-      if 'id' in url_json:
-        return url_json['id']
-    except urllib2.URLError, ValueError:
-      pass
+    data = simplejson.dumps({'longUrl':url})
+    request = urllib2.Request(
+        'https://www.googleapis.com/urlshortener/v1/url?key='
+        'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
+        data,
+        {'Content-Type': 'application/json'})
+    url_json = simplejson.load(urllib2.urlopen(request))
+    if 'id' in url_json:
+      return url_json['id']
 
   def post(self):
     json = simplejson.loads(self.request.body)
