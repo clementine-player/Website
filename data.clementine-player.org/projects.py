@@ -16,6 +16,7 @@ from django.utils import simplejson
 import hmac
 import logging
 import re
+import urllib2
 
 import models
 
@@ -120,6 +121,20 @@ class GitCommitPage(webapp.RequestHandler):
 class CommitPage(webapp.RequestHandler):
   IRC_WEBHOOK='http://zaphod.purplehatstands.com:8080/commit'
 
+  def Shorten(self, url):
+    try:
+      data = simplejson.dumps({'longUrl':url})
+      request = urllib2.Request(
+          'https://www.googleapis.com/urlshortener/v1/url?key='
+          'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
+          data,
+          {'Content-Type': 'application/json'})
+      url_json = simplejson.load(urllib2.urlopen(request))
+      if 'id' in url_json:
+        return url_json['id']
+    except urllib2.URLError, ValueError:
+      pass
+
   def post(self):
     json = simplejson.loads(self.request.body)
     logging.debug('Received JSON: %s', json)
@@ -129,6 +144,13 @@ class CommitPage(webapp.RequestHandler):
       self.error(404)
       return
 
+    auth = self.request.headers['Google-Code-Project-Hosting-Hook-Hmac']
+    m = hmac.new(project.secret)
+    m.update(self.request.body)
+    if auth != m.hexdigest():
+      self.error(403)
+      return
+
     repo_path = json['repository_path']
     repo = None
     regex = '%s\.([^/]+)' % project_name
@@ -136,12 +158,20 @@ class CommitPage(webapp.RequestHandler):
     if match is not None:
       repo = match.group(1)
 
-    auth = self.request.headers['Google-Code-Project-Hosting-Hook-Hmac']
-    m = hmac.new(project.secret)
-    m.update(self.request.body)
-    if auth != m.hexdigest():
-      self.error(403)
-      return
+    # Fill in all the short URLs.
+    for r in json['revisions']:
+      url = 'http://code.google.com/p/%s/source/detail?r=%s' % (project_name, r['revision'])
+      if repo is not None:
+        url += '&repo=%s' % repo
+
+      try:
+        short_url = Shorten(url)
+        r['short_url'] = short_url
+      except urllib2.URLError, ValueError:
+        # Weird but we can error here and Google Code will try again later.
+        self.error(500)
+        logging.error('Failed to construct short url from %s', url)
+        return
 
     # Notify IRC bot on Zaphod.
     rpc = urlfetch.create_rpc()
@@ -150,10 +180,7 @@ class CommitPage(webapp.RequestHandler):
     users = [x.user.email() for x in project.followers.fetch(100)]
     messages = []
     for r in json['revisions']:
-      link = 'http://code.google.com/p/%s/source/detail?r=%s' % (project_name, r['revision'])
-      if repo is not None:
-        link += '&repo=%s' % repo
-      messages.append('%s\nr%s: %s - %s' % (project_name, r['revision'], r['message'], link))
+      messages.append('%s\nr%s: %s - %s' % (project_name, r['revision'][:6], r['message'], r['short_url']))
 
     logging.info('Sending messages: %s', messages)
     logging.info('to users: %s', users)

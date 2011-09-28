@@ -96,20 +96,6 @@ class AnnounceBotFactory(protocol.ReconnectingClientFactory):
 class WebHook(resource.Resource):
   isLeaf = True
 
-  def Shorten(self, url):
-    try:
-      data = simplejson.dumps({'longUrl':url})
-      request = urllib2.Request(
-          'https://www.googleapis.com/urlshortener/v1/url?key='
-          'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
-          data,
-          {'Content-Type': 'application/json'})
-      url_json = simplejson.load(urllib2.urlopen(request))
-      if 'id' in url_json:
-        return url_json['id']
-    except urllib2.URLError, ValueError:
-      pass
-
   def render_GET(self, request):
     return 'foo'
 
@@ -118,20 +104,9 @@ class WebHook(resource.Resource):
       body = request.content
       if body:
         json = simplejson.load(body)
-        project_name = json['project_name']
-        repo_path = json['repository_path']
-        regex = '%s\.([^/]+)' % project_name
-        match = re.search(regex, repo_path)
-        repo = None
-        if match is not None:
-          repo = match.groups(1)
 
         for r in json['revisions']:
-          url = ('http://code.google.com/p/clementine-player/source/detail?r=%s' %
-              r['revision'])
-          if repo is not None:
-            url += '&repo=%s' % repo
-          short_url = self.Shorten(url)
+          short_url = r['short_url']
           message = r['message']
           if short_url:
             message = '(%s) %s' % (short_url, message)
