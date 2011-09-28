@@ -131,10 +131,10 @@ class CommitPage(webapp.RequestHandler):
 
     repo_path = json['repository_path']
     repo = None
-    if 'googlecode.com/git' in repo_path:
-      match = re.match(r'http://([^.]+)\..*', repo_path)
-      if match:
-        repo = match.groups()[0]
+    regex = '%s\.([^/]+)' % project_name
+    match = re.search(regex, repo_path)
+    if match is not None:
+      repo = match.group(1)
 
     auth = self.request.headers['Google-Code-Project-Hosting-Hook-Hmac']
     m = hmac.new(project.secret)

@@ -118,12 +118,13 @@ class WebHook(resource.Resource):
       body = request.content
       if body:
         json = simplejson.load(body)
+        project_name = json['project_name']
         repo_path = json['repository_path']
+        regex = '%s\.([^/]+)' % project_name
+        match = re.search(regex, repo_path)
         repo = None
-        if 'googlecode.com/git' in repo_path:
-          match = re.match(r'http://([^.]+)\.[^.]+\.[^.]+\.[^.]+', repo_path)
-          if match:
-            repo = match.groups()[0]
+        if match is not None:
+          repo = match.groups(1)
 
         for r in json['revisions']:
           url = ('http://code.google.com/p/clementine-player/source/detail?r=%s' %
