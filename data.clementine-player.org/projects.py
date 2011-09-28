@@ -165,7 +165,7 @@ class CommitPage(webapp.RequestHandler):
         url += '&repo=%s' % repo
 
       try:
-        short_url = Shorten(url)
+        short_url = self.Shorten(url)
         r['short_url'] = short_url
       except urllib2.URLError, ValueError:
         # Weird but we can error here and Google Code will try again later.
