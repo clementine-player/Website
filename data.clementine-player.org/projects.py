@@ -172,7 +172,7 @@ class CommitPage(webapp.RequestHandler):
 
     # Notify IRC bot on Zaphod.
     rpc = urlfetch.create_rpc()
-    urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=self.request.body, method=urlfetch.POST)
+    urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=simplejson.dumps(json), method=urlfetch.POST)
 
     users = [x.user.email() for x in project.followers.fetch(100)]
     messages = []
