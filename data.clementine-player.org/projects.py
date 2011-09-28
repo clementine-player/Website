@@ -177,7 +177,7 @@ class CommitPage(webapp.RequestHandler):
     users = [x.user.email() for x in project.followers.fetch(100)]
     messages = []
     for r in json['revisions']:
-      messages.append('%s\nr%s: %s - %s' % (project_name, r['revision'][:6], r['message'], r['short_url']))
+      messages.append('%s\n%s: %s - %s' % (project_name, r['revision'][:6], r['message'], r['short_url']))
 
     logging.info('Sending messages: %s', messages)
     logging.info('to users: %s', users)
