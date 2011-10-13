@@ -1,7 +1,4 @@
 import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-from google.appengine.dist import use_library
-use_library('django', '1.1')
 
 from google.appengine.api import memcache
 from google.appengine.api import urlfetch
@@ -9,15 +6,12 @@ from google.appengine.api import users
 from google.appengine.api import xmpp
 from google.appengine.api.labs import taskqueue
 from google.appengine.ext import db
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
-
-from django.utils import simplejson
 
 import colorsys
 import hmac
 import logging
+import webapp2
 
 import pygooglechart
 from pygooglechart import StackedVerticalBarChart
@@ -32,7 +26,7 @@ ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
 
 RAINYMOOD_MEMCACHE_KEY = 'rainymood'
 
-class SparklePageBase(webapp.RequestHandler):
+class SparklePageBase(webapp2.RequestHandler):
   def WriteResponse(self, template_name, platform):
     query = models.Version.all()
     query.filter('platform =', platform)
@@ -63,7 +57,7 @@ class WinSparklePage(SparklePageBase):
     self.WriteResponse('winsparkle.xml', 'windows')
 
 
-class VersionsPage(webapp.RequestHandler):
+class VersionsPage(webapp2.RequestHandler):
   TEMPLATE='versions.html'
   def get(self):
     versions_mac = models.Version.all()
@@ -94,7 +88,7 @@ class VersionsPage(webapp.RequestHandler):
       self.redirect("/versions")
 
 
-class RainPage(webapp.RequestHandler):
+class RainPage(webapp2.RequestHandler):
   def get(self):
     url = memcache.get(RAINYMOOD_MEMCACHE_KEY)
     if url is None:
@@ -109,7 +103,7 @@ class RainPage(webapp.RequestHandler):
     return
 
 
-class IcecastPage(webapp.RequestHandler):
+class IcecastPage(webapp2.RequestHandler):
   def get(self):
     self.redirect(ICECAST_URL)
     try:
@@ -119,7 +113,7 @@ class IcecastPage(webapp.RequestHandler):
     return
 
 
-class CountersPage(webapp.RequestHandler):
+class CountersPage(webapp2.RequestHandler):
   TEMPLATE='counters.html'
   def get(self):
     counters = tasks.Counter.all().fetch(10)
@@ -155,7 +149,7 @@ class CountersPage(webapp.RequestHandler):
           'counters': rows }))
 
 
-application = webapp.WSGIApplication(
+app = webapp2.WSGIApplication(
   [
     (r'/sparkle', MacSparklePage),
     (r'/sparkle-windows', WinSparklePage),
@@ -165,9 +159,3 @@ application = webapp.WSGIApplication(
     (r'/icecast-directory', IcecastPage),
   ],
   debug=True)
-
-def main():
-  run_wsgi_app(application)
-
-if __name__ == '__main__':
-  main()

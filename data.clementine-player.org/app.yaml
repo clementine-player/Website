@@ -1,7 +1,11 @@
-application: clementine-player
+application: clementine-data
 version: dev
-runtime: python
+runtime: python27
+threadsafe: yes
 api_version: 1
+
+builtins:
+- remote_api: on
 
 inbound_services:
 - xmpp_message
@@ -18,35 +22,39 @@ handlers:
   upload: static/images/favicon.ico
 
 - url: /_tasks/.*
-  script: tasks.py
+  script: tasks.app
   login: admin
 
 - url: /projects.*
-  script: projects.py
+  script: projects.app
 
 - url: /versions
-  script: clementine.py
+  script: clementine.app
   login: admin
 
 - url: /sparkle
-  script: clementine.py
+  script: clementine.app
 
 - url: /sparkle-windows
-  script: clementine.py
+  script: clementine.app
 
 - url: /rainymood
-  script: clementine.py
+  script: clementine.app
 
 - url: /icecast-directory
-  script: clementine.py
+  script: clementine.app
 
 - url: /
-  script: projects.py
+  script: projects.app
 
 - url: /c2dm/.*
-  script: c2dm.py
+  script: c2dm.app
   secure: always
   login: required
 
 - url: /.*
-  script: clementine.py
+  script: clementine.app
+
+libraries:
+- name: webapp2
+  version: 2.0.2

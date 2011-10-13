@@ -76,7 +76,7 @@ class CheckRainyMood(webapp.RequestHandler):
       logging.error(message)
 
 
-application = webapp.WSGIApplication(
+app = webapp.WSGIApplication(
   [
     (r'/_tasks/counters', CounterWorker),
     (r'/_tasks/snapshot', SnapshotTask),

@@ -1,26 +1,20 @@
-import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-from google.appengine.dist import use_library
-use_library('django', '1.1')
-
 from google.appengine.api import urlfetch
 from google.appengine.api import users
 from google.appengine.api import xmpp
 from google.appengine.ext import db
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
-
-from django.utils import simplejson
 
 import hmac
+import json
 import logging
+import os
 import re
 import urllib2
+import webapp2
 
 import models
 
-class ProjectsPage(webapp.RequestHandler):
+class ProjectsPage(webapp2.RequestHandler):
   TEMPLATE='projects.html'
   def get(self):
     projects = models.GoogleCode.all().fetch(10)
@@ -41,7 +35,7 @@ class ProjectsPage(webapp.RequestHandler):
           'following': following}))
 
 
-class AddProjectPage(webapp.RequestHandler):
+class AddProjectPage(webapp2.RequestHandler):
   def post(self):
     if not users.is_current_user_admin():
       self.error(403)
@@ -55,7 +49,7 @@ class AddProjectPage(webapp.RequestHandler):
     self.response.out.write('ok')
 
 
-class FollowPage(webapp.RequestHandler):
+class FollowPage(webapp2.RequestHandler):
   def post(self):
     user = users.get_current_user()
     project_name = self.request.get('project')
@@ -79,7 +73,7 @@ class FollowPage(webapp.RequestHandler):
     xmpp.send_invite(user.email())
 
 
-class UnfollowPage(webapp.RequestHandler):
+class UnfollowPage(webapp2.RequestHandler):
   def post(self):
     user = users.get_current_user()
     project_name = self.request.get('project')
@@ -94,11 +88,11 @@ class UnfollowPage(webapp.RequestHandler):
     self.response.out.write('OK')
 
 
-class GitCommitPage(webapp.RequestHandler):
+class GitCommitPage(webapp2.RequestHandler):
   def post(self):
-    json = simplejson.loads(self.request.get('payload'))
-    commits = json['commits']
-    project_name = json['repository']['name']
+    json_data = json.loads(self.request.get('payload'))
+    commits = json_data['commits']
+    project_name = json_data['repository']['name']
 
     for commit in commits:
       message = '%(project_name)s:%(user)s %(change)s %(url)s' % {
@@ -118,24 +112,24 @@ class GitCommitPage(webapp.RequestHandler):
           logging.warn('User %s offline: %s', user, e)
 
 
-class CommitPage(webapp.RequestHandler):
+class CommitPage(webapp2.RequestHandler):
   IRC_WEBHOOK='http://zaphod.purplehatstands.com:8080/commit'
 
   def Shorten(self, url):
-    data = simplejson.dumps({'longUrl':url})
+    data = json.dumps({'longUrl':url})
     request = urllib2.Request(
         'https://www.googleapis.com/urlshortener/v1/url?key='
         'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
         data,
         {'Content-Type': 'application/json'})
-    url_json = simplejson.load(urllib2.urlopen(request))
+    url_json = json.load(urllib2.urlopen(request))
     if 'id' in url_json:
       return url_json['id']
 
   def post(self):
-    json = simplejson.loads(self.request.body)
+    json_data = json.loads(self.request.body)
     logging.debug('Received JSON: %s', json)
-    project_name = json['project_name']
+    project_name = json_data['project_name']
     project = models.GoogleCode.gql('WHERE name = :name', name=project_name).get()
     if project is None:
       self.error(404)
@@ -148,7 +142,7 @@ class CommitPage(webapp.RequestHandler):
       self.error(403)
       return
 
-    repo_path = json['repository_path']
+    repo_path = json_data['repository_path']
     repo = None
     regex = '%s\.([^/]+)' % project_name
     match = re.search(regex, repo_path)
@@ -156,7 +150,7 @@ class CommitPage(webapp.RequestHandler):
       repo = match.group(1)
 
     # Fill in all the short URLs.
-    for r in json['revisions']:
+    for r in json_data['revisions']:
       url = 'http://code.google.com/p/%s/source/detail?r=%s' % (project_name, r['revision'])
       if repo is not None:
         url += '&repo=%s' % repo
@@ -172,11 +166,11 @@ class CommitPage(webapp.RequestHandler):
 
     # Notify IRC bot on Zaphod.
     rpc = urlfetch.create_rpc()
-    urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=simplejson.dumps(json), method=urlfetch.POST)
+    urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=json.dumps(json_data), method=urlfetch.POST)
 
     users = [x.user.email() for x in project.followers.fetch(100)]
     messages = []
-    for r in json['revisions']:
+    for r in json_data['revisions']:
       messages.append('%s\n%s: %s - %s' % (project_name, r['revision'][:6], r['message'], r['short_url']))
 
     logging.info('Sending messages: %s', messages)
@@ -201,7 +195,7 @@ class CommitPage(webapp.RequestHandler):
 
 
 
-application = webapp.WSGIApplication(
+app = webapp2.WSGIApplication(
   [
     (r'/', ProjectsPage),
     (r'/projects', ProjectsPage),
@@ -212,9 +206,3 @@ application = webapp.WSGIApplication(
     (r'/projects/gitcommit', GitCommitPage),
   ],
   debug=True)
-
-def main():
-  run_wsgi_app(application)
-
-if __name__ == '__main__':
-  main()

@@ -1,23 +1,15 @@
-import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-from google.appengine.dist import use_library
-use_library('django', '1.2')
-
 from google.appengine.api import users
 from google.appengine.ext import db
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
-
-from django.utils import simplejson
 
 import logging
 import os
+import webapp2
 
 import models
 
 
-class RegisterDevice(webapp.RequestHandler):
+class RegisterDevice(webapp2.RequestHandler):
   def post(self):
     user = users.get_current_user()
     registration_id = self.request.get('registration_id')
@@ -44,7 +36,7 @@ class RegisterDevice(webapp.RequestHandler):
     self.response.out.write('OK')
 
 
-class ListDevices(webapp.RequestHandler):
+class ListDevices(webapp2.RequestHandler):
   def get(self):
     user = users.get_current_user()
     query = models.Device.gql('WHERE user = :user', user=user)
@@ -53,15 +45,9 @@ class ListDevices(webapp.RequestHandler):
     self.response.out.write(template.render(path, {'devices': devices}))
 
 
-application = webapp.WSGIApplication(
+app = webapp2.WSGIApplication(
     [
         (r'/c2dm/register', RegisterDevice),
         (r'/c2dm/list', ListDevices),
     ],
     debug=True)
-
-def main():
-  run_wsgi_app(application)
-
-if __name__ == '__main__':
-  main()
