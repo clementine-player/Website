@@ -128,7 +128,7 @@ class CommitPage(webapp2.RequestHandler):
 
   def post(self):
     json_data = json.loads(self.request.body)
-    logging.debug('Received JSON: %s', json)
+    logging.debug('Received JSON: %s', json_data)
     project_name = json_data['project_name']
     project = models.GoogleCode.gql('WHERE name = :name', name=project_name).get()
     if project is None:
@@ -136,7 +136,7 @@ class CommitPage(webapp2.RequestHandler):
       return
 
     auth = self.request.headers['Google-Code-Project-Hosting-Hook-Hmac']
-    m = hmac.new(project.secret)
+    m = hmac.new(str(project.secret))
     m.update(self.request.body)
     if auth != m.hexdigest():
       self.error(403)
