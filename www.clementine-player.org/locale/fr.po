@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-20 16:14+0100\n"
+"POT-Creation-Date: 2011-10-27 19:17+0200\n"
 "PO-Revision-Date: 2011-03-28 09:41+0000\n"
 "Last-Translator: Arno <arnaud.bienner@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -411,18 +411,22 @@ msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Versions de développement pour Ubuntu Lucid (11.04)"
 
 #: downloads.html:86 participate.html:100
+msgid "Ubuntu Oneiric (11.10) development builds"
+msgstr "Versions de développement pour Ubuntu Oneiric (11.10)"
+
+#: downloads.html:88 participate.html:102
 msgid "Windows development builds"
 msgstr "Versions de développement pour Windows"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:90 participate.html:104
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:91 participate.html:105
+#: downloads.html:93 participate.html:107
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Il y a aussi un dépôt Ubuntu PPA pour ces versions de développement :"
 
-#: downloads.html:99
+#: downloads.html:101
 msgid "Old downloads"
 msgstr "Anciens téléchargements"
 
@@ -706,26 +710,26 @@ msgstr "Hacking"
 msgid "How to compile Clementine from source"
 msgstr "Comment compiler Clementine depuis les sources"
 
-#: participate.html:113
+#: participate.html:115
 msgid "Social Networking"
 msgstr "Réseautage social"
 
-#: participate.html:115
+#: participate.html:117
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
 "Soutenez Clementine en nous rejoignant sur votre réseau social préféré !"
 
-#: participate.html:119
+#: participate.html:121
 msgid "Clementine on Facebook"
 msgstr "Clementine sur Facebook"
 
-#: participate.html:122
+#: participate.html:124
 msgid "Clementine on Twitter"
 msgstr "Clementine sur Twitter"
 
-#: participate.html:125
+#: participate.html:127
 msgid "Clementine on Last.fm"
 msgstr "Clementine sur Last.fm"
 

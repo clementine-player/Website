@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-20 16:14+0100\n"
+"POT-Creation-Date: 2011-10-27 19:17+0200\n"
 "PO-Revision-Date: 2011-03-27 22:54+0000\n"
 "Last-Translator: DAG Software <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,18 +349,22 @@ msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Ubuntu Natty (11.04) vývojové zostavenia"
 
 #: downloads.html:86 participate.html:100
+msgid "Ubuntu Oneiric (11.10) development builds"
+msgstr "Ubuntu Oneiric (11.10) vývojové zostavenia"
+
+#: downloads.html:88 participate.html:102
 msgid "Windows development builds"
 msgstr "Windows vývojové zostavenia"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:90 participate.html:104
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:91 participate.html:105
+#: downloads.html:93 participate.html:107
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Je tu tiež Ubuntu PPA s vývojovými zostaveniami"
 
-#: downloads.html:99
+#: downloads.html:101
 msgid "Old downloads"
 msgstr "Staré súbory na stiahnutie"
 
@@ -639,11 +643,11 @@ msgstr "Hackovanie"
 msgid "How to compile Clementine from source"
 msgstr "Ako skompilovať Clementine zo zdrojákov"
 
-#: participate.html:113
+#: participate.html:115
 msgid "Social Networking"
 msgstr "Sociálne sieťe"
 
-#: participate.html:115
+#: participate.html:117
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -651,15 +655,15 @@ msgstr ""
 "Sme radi, keď vás vidíme podporovať Clementine pripojením sa na vašej "
 "obľúbenej sociálnej sieti!"
 
-#: participate.html:119
+#: participate.html:121
 msgid "Clementine on Facebook"
 msgstr "Clementine na Facebooku"
 
-#: participate.html:122
+#: participate.html:124
 msgid "Clementine on Twitter"
 msgstr "Clementine na Twitteri"
 
-#: participate.html:125
+#: participate.html:127
 msgid "Clementine on Last.fm"
 msgstr "Clementine na Last.fm"
 

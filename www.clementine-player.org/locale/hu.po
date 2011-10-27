@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-20 16:14+0100\n"
+"POT-Creation-Date: 2011-10-27 19:17+0200\n"
 "PO-Revision-Date: 2011-03-27 22:21+0000\n"
 "Last-Translator: ntomka <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -399,18 +399,22 @@ msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Ubuntu Natty (11.04) fejlesztői csomagok"
 
 #: downloads.html:86 participate.html:100
+msgid "Ubuntu Oneiric (11.10) development builds"
+msgstr "Ubuntu Oneiric (11.10) fejlesztői csomagok"
+
+#: downloads.html:88 participate.html:102
 msgid "Windows development builds"
 msgstr "Windows fejlesztői csomagok"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:90 participate.html:104
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:91 participate.html:105
+#: downloads.html:93 participate.html:107
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "A fejlesztői csomagokhoz egy Ubuntu PPA is elérhető:"
 
-#: downloads.html:99
+#: downloads.html:101
 msgid "Old downloads"
 msgstr "Régebbi letöltések"
 
@@ -691,11 +695,11 @@ msgstr "Fejlesztés"
 msgid "How to compile Clementine from source"
 msgstr "Így fordítsd le a Clementinet forrásból"
 
-#: participate.html:113
+#: participate.html:115
 msgid "Social Networking"
 msgstr "Közösségi háló"
 
-#: participate.html:115
+#: participate.html:117
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -703,15 +707,15 @@ msgstr ""
 "Szívesen vesszük a támogatásod azáltal, hogy csatlakozol közénk a kedvenc "
 "közösségi hálózatodon!"
 
-#: participate.html:119
+#: participate.html:121
 msgid "Clementine on Facebook"
 msgstr "Clementine a Facebookon"
 
-#: participate.html:122
+#: participate.html:124
 msgid "Clementine on Twitter"
 msgstr "Clementine a Twitteren"
 
-#: participate.html:125
+#: participate.html:127
 msgid "Clementine on Last.fm"
 msgstr "Clementine a Last.fm-en"
 
