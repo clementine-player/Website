@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-27 19:17+0200\n"
+"POT-Creation-Date: 2011-10-31 18:44+0100\n"
 "PO-Revision-Date: 2011-03-28 13:24+0000\n"
 "Last-Translator: David Sansome <me@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -650,22 +650,22 @@ msgstr "Traduciendo la interfaz"
 #: participate.html:66
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
-"the Launchpad translations page."
+"the Transifex translations page."
 msgstr ""
 "Si lo desea, puede traducir Clementine a otro idioma en la página de "
-"traducciones de Launchpad."
+"traducciones de Transifex."
 
 #: participate.html:67
 msgid ""
-"You can either do the translation directly on Launchpad, or download a .po "
+"You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr ""
-"Puede hacer la traducción directamente en Launchpad, o descargar un archivo ."
+"Puede hacer la traducción directamente en Transifex, o descargar un archivo ."
 "po del sitio y devolvérnoslo por correo electrónico."
 
 #: participate.html:70
-msgid "Launchpad translations"
-msgstr "Traducciones en Launchpad"
+msgid "Transifex translations"
+msgstr "Traducciones en Transifex"
 
 #: participate.html:73
 msgid "Hacking"
