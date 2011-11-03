@@ -57,4 +57,4 @@ handlers:
 
 libraries:
 - name: webapp2
-  version: 2.0.2
+  version: 2.3
