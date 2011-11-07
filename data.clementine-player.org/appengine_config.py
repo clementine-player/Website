@@ -42,10 +42,10 @@ import re
 #   'google.appengine.ext.appstats.recording.AppstatsDjangoMiddleware',
 # to your Django settings.py file.
 
-# # def webapp_add_wsgi_middleware(app):
-# #   from google.appengine.ext.appstats import recording
-# #   app = recording.appstats_wsgi_middleware(app)
-# #   return app
+def webapp_add_wsgi_middleware(app):
+  from google.appengine.ext.appstats import recording
+  app = recording.appstats_wsgi_middleware(app)
+  return app
 
 
 # 1) Django version declaration.
