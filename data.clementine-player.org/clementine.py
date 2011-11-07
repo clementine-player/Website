@@ -26,15 +26,28 @@ ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
 
 RAINYMOOD_MEMCACHE_KEY = 'rainymood'
 
+SPARKLE_MEMCACHE_KEY = 'sparkle-%s'
+
 class SparklePageBase(webapp2.RequestHandler):
+  def FetchVersions(self, platform):
+    cached_versions = memcache.get(SPARKLE_MEMCACHE_KEY % platform)
+    if cached_versions is None:
+      query = models.Version.all()
+      query.filter('platform =', platform)
+      versions = query.fetch(20)
+      memcache.set(SPARKLE_MEMCACHE_KEY % platform, versions)
+      return versions
+    else:
+      return cached_versions
+
+
   def WriteResponse(self, template_name, platform):
-    query = models.Version.all()
-    query.filter('platform =', platform)
+    versions = self.FetchVersions(platform)
 
     self.response.headers['Content-Type'] = 'text/xml'
     path = os.path.join(os.path.dirname(__file__), template_name)
     self.response.out.write(template.render(path,
-        { 'versions': query }))
+        { 'versions': versions }))
 
     useragent = self.request.headers['User-Agent']
     if useragent:
