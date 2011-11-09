@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-08 11:17+0100\n"
+"POT-Creation-Date: 2011-11-09 14:12+0100\n"
 "PO-Revision-Date: 2011-04-13 12:47+0000\n"
 "Last-Translator: R33D3M33R <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,19 +311,19 @@ msgstr "Polna navodila in seznam odvisnosti"
 msgid "Bleeding edge packages"
 msgstr ""
 
-#: downloads.html:68 participate.html:75
+#: downloads.html:68 participate.html:48
 msgid "Development on Clementine happens in"
 msgstr "Razvoj Clementine poteka v"
 
-#: downloads.html:70 participate.html:77
+#: downloads.html:70 participate.html:50
 msgid "the git repository"
 msgstr "skladišču git"
 
-#: downloads.html:70 participate.html:78
+#: downloads.html:70 participate.html:51
 msgid "Check out the code by running:"
 msgstr "Oglejte si kodo tako da poženete:"
 
-#: downloads.html:74 participate.html:88
+#: downloads.html:74 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
@@ -331,35 +331,35 @@ msgstr ""
 "Če ne želite razvojne različice prevajati sami, lahko preizkusite enega "
 "izmed paketov, ki se prevajajo vsako uro:"
 
-#: downloads.html:78 participate.html:92
+#: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
 msgstr "Razvojne gradnje za Mac OS X"
 
-#: downloads.html:80 participate.html:94
+#: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Razvojne gradnje za Ubuntu Lucid (10.04)"
 
-#: downloads.html:82 participate.html:96
+#: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Razvojne gradnje za Ubuntu Maverick (10.10)"
 
-#: downloads.html:84 participate.html:98
+#: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Razvojne gradnje za Ubuntu Natty (11.04)"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:86 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Razvojne gradnje za Ubuntu Oneiric (11.10)"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:88 participate.html:75
 msgid "Windows development builds"
 msgstr "Razvojne gradnje za Windows"
 
-#: downloads.html:90 participate.html:104
+#: downloads.html:90 participate.html:77
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:93 participate.html:107
+#: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Za te razvojne gradnje obstaja tudi Ubuntu PPA"
 
@@ -494,19 +494,19 @@ msgstr "Pokaži vse prejeme"
 msgid "News"
 msgstr "Novice"
 
-#: participate.html:12
+#: participate.html:8
 msgid "Need help?"
 msgstr "Potrebujete pomoč?"
 
-#: participate.html:16
+#: participate.html:12
 msgid "Come chat with us at the"
 msgstr "Poklepetajte z nami na kanalu"
 
-#: participate.html:16
+#: participate.html:12
 msgid "channel on Freenode."
 msgstr "na Freenode."
 
-#: participate.html:17
+#: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
@@ -515,85 +515,33 @@ msgstr ""
 "vprašate vprašanje</b> - morda smo v drugačnem časovnem pasu in zato ne "
 "boste takoj videli odgovora."
 
-#: participate.html:21
-msgid "Open embedded chat client"
-msgstr "Odpri vgrajen odjemalec za klepet"
-
-#: participate.html:26
-msgid "This room is hosted on an Internet Relay Chat"
-msgstr "Ta klepetalnica gostuje na IRC"
-
-#: participate.html:26
-msgid "server and powered by IRC software."
-msgstr "strežniku in deluje preko programske opreme IRC."
-
-#: participate.html:27
-msgid "Feel free to join the conversations that are taking place."
-msgstr "Ne bojte se pridružiti pogovorom, ki se odvijajo."
-
-#: participate.html:29
-msgid "New to IRC? Here are some commands to get you started:"
-msgstr "Novi v svetu IRC-a? Tukaj je nekaj ukazov, ki vam pomagajo začeti:"
-
-#: participate.html:31
-msgid "Display help."
-msgstr "Prikaži pomoč."
-
-#: participate.html:32
-msgid "Clear the chat output in this channel."
-msgstr "počisti izhod klepeta v tej klepetalnici."
-
-#: participate.html:33
-msgid "Change your nickname."
-msgstr "Spremenite vzdevek."
-
-#: participate.html:34
-msgid "Send a private message."
-msgstr "Pošljite zasebno sporočilo."
-
-#: participate.html:35
-msgid "Find out all manner of things about someone."
-msgstr "Prikaže številne podrobnosti o nekom."
-
-#: participate.html:36
-msgid "Emote."
-msgstr "Čustva."
-
-#: participate.html:37
-msgid "Set your status to away."
-msgstr "Nastavite stanje na: odsotno."
-
-#: participate.html:38
-msgid "Set your status to back."
-msgstr "Nastavite stanje na: nazaj."
-
-#: participate.html:43
+#: participate.html:16
 msgid "Forum"
 msgstr "Forum"
 
-#: participate.html:45
+#: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
 msgstr ""
 
-#: participate.html:48
+#: participate.html:21
 msgid "Support and discussion group"
 msgstr ""
 
-#: participate.html:53
+#: participate.html:26
 msgid "Collaborate"
 msgstr "Sodelujte"
 
-#: participate.html:55
+#: participate.html:28
 msgid "Reporting bugs and proposing patches"
 msgstr "Prijavljanje napak in predlogi za popravke"
 
-#: participate.html:57
+#: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr "Clementine uporablja Google Code za razvoj in sledenje napakam."
 
-#: participate.html:58
+#: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
@@ -601,63 +549,102 @@ msgstr ""
 "Če ste našli hrošča v Clementine, obiščite sledilnik napak in ustvarite novo "
 "poročilo o napaki."
 
-#: participate.html:61
+#: participate.html:34
 msgid "Issue tracker"
 msgstr "Sledilnik napak"
 
-#: participate.html:64
+#: participate.html:37
 msgid "Translating the interface"
 msgstr "Prevajanje vmesnika"
 
-#: participate.html:66
+#: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
 "the Transifex translations page."
 msgstr ""
 
-#: participate.html:67
+#: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr ""
 
-#: participate.html:70
+#: participate.html:43
 msgid "Transifex translations"
 msgstr "Prevodi v Transifexu"
 
-#: participate.html:73
+#: participate.html:46
 msgid "Hacking"
 msgstr "Hekanje"
 
-#: participate.html:84
+#: participate.html:57
 msgid "How to compile Clementine from source"
 msgstr "Kako prevesti Clementine iz izvorne kode"
 
-#: participate.html:115
+#: participate.html:88
 msgid "Social Networking"
 msgstr "Družabno omrežje"
 
-#: participate.html:117
+#: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
 
-#: participate.html:121
+#: participate.html:94
 msgid "Clementine on Facebook"
 msgstr "Clementine na Facebooku"
 
-#: participate.html:124
+#: participate.html:97
 msgid "Clementine on Twitter"
 msgstr "Clementine na Twitterju"
 
-#: participate.html:127
+#: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine v Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Različica"
+
+#~ msgid "Open embedded chat client"
+#~ msgstr "Odpri vgrajen odjemalec za klepet"
+
+#~ msgid "This room is hosted on an Internet Relay Chat"
+#~ msgstr "Ta klepetalnica gostuje na IRC"
+
+#~ msgid "server and powered by IRC software."
+#~ msgstr "strežniku in deluje preko programske opreme IRC."
+
+#~ msgid "Feel free to join the conversations that are taking place."
+#~ msgstr "Ne bojte se pridružiti pogovorom, ki se odvijajo."
+
+#~ msgid "New to IRC? Here are some commands to get you started:"
+#~ msgstr "Novi v svetu IRC-a? Tukaj je nekaj ukazov, ki vam pomagajo začeti:"
+
+#~ msgid "Display help."
+#~ msgstr "Prikaži pomoč."
+
+#~ msgid "Clear the chat output in this channel."
+#~ msgstr "počisti izhod klepeta v tej klepetalnici."
+
+#~ msgid "Change your nickname."
+#~ msgstr "Spremenite vzdevek."
+
+#~ msgid "Send a private message."
+#~ msgstr "Pošljite zasebno sporočilo."
+
+#~ msgid "Find out all manner of things about someone."
+#~ msgstr "Prikaže številne podrobnosti o nekom."
+
+#~ msgid "Emote."
+#~ msgstr "Čustva."
+
+#~ msgid "Set your status to away."
+#~ msgstr "Nastavite stanje na: odsotno."
+
+#~ msgid "Set your status to back."
+#~ msgstr "Nastavite stanje na: nazaj."
 
 #~ msgid "Ubuntu Lucid development builds"
 #~ msgstr "Razvojne gradnje za Ubuntu Lucid"

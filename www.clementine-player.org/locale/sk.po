@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-08 11:17+0100\n"
+"POT-Creation-Date: 2011-11-09 14:12+0100\n"
 "PO-Revision-Date: 2011-03-27 22:54+0000\n"
 "Last-Translator: DAG Software <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,19 +312,19 @@ msgstr "Úplné inštrukcie a zoznam závislostí"
 msgid "Bleeding edge packages"
 msgstr "Bleeding edge balíčky"
 
-#: downloads.html:68 participate.html:75
+#: downloads.html:68 participate.html:48
 msgid "Development on Clementine happens in"
 msgstr "Vývoj Clementine prebieha v"
 
-#: downloads.html:70 participate.html:77
+#: downloads.html:70 participate.html:50
 msgid "the git repository"
 msgstr "git repozitári"
 
-#: downloads.html:70 participate.html:78
+#: downloads.html:70 participate.html:51
 msgid "Check out the code by running:"
 msgstr "Vyskúšajte kód spustením"
 
-#: downloads.html:74 participate.html:88
+#: downloads.html:74 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
@@ -332,35 +332,35 @@ msgstr ""
 "Ak preferujete nekompilovať si sám vývojové verzie, potom skúste jeden z "
 "hodinových balíčkov:"
 
-#: downloads.html:78 participate.html:92
+#: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
 msgstr "Mac OS X vývojové zostavenia"
 
-#: downloads.html:80 participate.html:94
+#: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Ubuntu Lucid (10.04) vývojové zostavenia"
 
-#: downloads.html:82 participate.html:96
+#: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Ubuntu Maverick (10.10) vývojové zostavenia"
 
-#: downloads.html:84 participate.html:98
+#: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Ubuntu Natty (11.04) vývojové zostavenia"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:86 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Ubuntu Oneiric (11.10) vývojové zostavenia"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:88 participate.html:75
 msgid "Windows development builds"
 msgstr "Windows vývojové zostavenia"
 
-#: downloads.html:90 participate.html:104
+#: downloads.html:90 participate.html:77
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:93 participate.html:107
+#: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Je tu tiež Ubuntu PPA s vývojovými zostaveniami"
 
@@ -497,19 +497,19 @@ msgstr "Zobraziť všetky súbory na stiahnutie"
 msgid "News"
 msgstr "Novinky"
 
-#: participate.html:12
+#: participate.html:8
 msgid "Need help?"
 msgstr "Potrebujete pomoc?"
 
-#: participate.html:16
+#: participate.html:12
 msgid "Come chat with us at the"
 msgstr "Poďte chatovať s nami na"
 
-#: participate.html:16
+#: participate.html:12
 msgid "channel on Freenode."
 msgstr "kanáli na Freenode."
 
-#: participate.html:17
+#: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
@@ -517,63 +517,11 @@ msgstr ""
 "Prosím <b>vydržte po opýtaní sa otázky</b> - môžme byť v inom časovom pásme, "
 "takže neuvidíme vašu otázku hneď."
 
-#: participate.html:21
-msgid "Open embedded chat client"
-msgstr "Otvoriť zabudovaný chat klient"
-
-#: participate.html:26
-msgid "This room is hosted on an Internet Relay Chat"
-msgstr "Táto miestnosť je hostovaná na Internet Relay Chat"
-
-#: participate.html:26
-msgid "server and powered by IRC software."
-msgstr "servri a funguje na IRC softwari."
-
-#: participate.html:27
-msgid "Feel free to join the conversations that are taking place."
-msgstr "Cíťte sa voľne zapojením do konverzácií ktoré sa dejú."
-
-#: participate.html:29
-msgid "New to IRC? Here are some commands to get you started:"
-msgstr "Ste nový v IRC? Tu sú nejaké príkazy s ktorými môžte začať:"
-
-#: participate.html:31
-msgid "Display help."
-msgstr "Zobraziť pomoc."
-
-#: participate.html:32
-msgid "Clear the chat output in this channel."
-msgstr "Vyčistiť výstup tohto kanála."
-
-#: participate.html:33
-msgid "Change your nickname."
-msgstr "Zmeniť vašu prezývku."
-
-#: participate.html:34
-msgid "Send a private message."
-msgstr "Poslať súkromnú správu."
-
-#: participate.html:35
-msgid "Find out all manner of things about someone."
-msgstr "Vyhľadať všetko o niekom."
-
-#: participate.html:36
-msgid "Emote."
-msgstr "Emócia."
-
-#: participate.html:37
-msgid "Set your status to away."
-msgstr "Nastaviť váš status na \"Preč\"."
-
-#: participate.html:38
-msgid "Set your status to back."
-msgstr "Nastaviť váš status na \"Späť\"."
-
-#: participate.html:43
+#: participate.html:16
 msgid "Forum"
 msgstr "Fórum"
 
-#: participate.html:45
+#: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
@@ -581,23 +529,23 @@ msgstr ""
 "Clementine používa Google Groups na fórum/mailing list/všeobecnú diskusnú "
 "skupinu."
 
-#: participate.html:48
+#: participate.html:21
 msgid "Support and discussion group"
 msgstr "Podpora a diskusná skupina"
 
-#: participate.html:53
+#: participate.html:26
 msgid "Collaborate"
 msgstr "Spolupráca"
 
-#: participate.html:55
+#: participate.html:28
 msgid "Reporting bugs and proposing patches"
 msgstr "Hlásenie chýb a navrhovanie záplat"
 
-#: participate.html:57
+#: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr "Clementine používa Google Code na vývoj a sledovanie položiek."
 
-#: participate.html:58
+#: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
@@ -605,15 +553,15 @@ msgstr ""
 "Ak ste našli chybu v Clementine, prosím navštívte centrum nedostatkov a "
 "vytvorte novú položku."
 
-#: participate.html:61
+#: participate.html:34
 msgid "Issue tracker"
 msgstr "Centrum nedostatkov"
 
-#: participate.html:64
+#: participate.html:37
 msgid "Translating the interface"
 msgstr "Prekladanie rozhrania"
 
-#: participate.html:66
+#: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
 "the Transifex translations page."
@@ -621,7 +569,7 @@ msgstr ""
 "Ak chcete preložiť Clementine do ďalšieho jazyka, môžte tak urobiť na "
 "Transifex stránke prekladov."
 
-#: participate.html:67
+#: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
@@ -631,23 +579,23 @@ msgstr ""
 "(v programe alebo na webstránke), kontaktujete ma na <i>dagsoftware@yahoo."
 "com</i>"
 
-#: participate.html:70
+#: participate.html:43
 msgid "Transifex translations"
 msgstr "Transifex preklady"
 
-#: participate.html:73
+#: participate.html:46
 msgid "Hacking"
 msgstr "Hackovanie"
 
-#: participate.html:84
+#: participate.html:57
 msgid "How to compile Clementine from source"
 msgstr "Ako skompilovať Clementine zo zdrojákov"
 
-#: participate.html:115
+#: participate.html:88
 msgid "Social Networking"
 msgstr "Sociálne sieťe"
 
-#: participate.html:117
+#: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -655,21 +603,60 @@ msgstr ""
 "Sme radi, keď vás vidíme podporovať Clementine pripojením sa na vašej "
 "obľúbenej sociálnej sieti!"
 
-#: participate.html:121
+#: participate.html:94
 msgid "Clementine on Facebook"
 msgstr "Clementine na Facebooku"
 
-#: participate.html:124
+#: participate.html:97
 msgid "Clementine on Twitter"
 msgstr "Clementine na Twitteri"
 
-#: participate.html:127
+#: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine na Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Verzia"
+
+#~ msgid "Open embedded chat client"
+#~ msgstr "Otvoriť zabudovaný chat klient"
+
+#~ msgid "This room is hosted on an Internet Relay Chat"
+#~ msgstr "Táto miestnosť je hostovaná na Internet Relay Chat"
+
+#~ msgid "server and powered by IRC software."
+#~ msgstr "servri a funguje na IRC softwari."
+
+#~ msgid "Feel free to join the conversations that are taking place."
+#~ msgstr "Cíťte sa voľne zapojením do konverzácií ktoré sa dejú."
+
+#~ msgid "New to IRC? Here are some commands to get you started:"
+#~ msgstr "Ste nový v IRC? Tu sú nejaké príkazy s ktorými môžte začať:"
+
+#~ msgid "Display help."
+#~ msgstr "Zobraziť pomoc."
+
+#~ msgid "Clear the chat output in this channel."
+#~ msgstr "Vyčistiť výstup tohto kanála."
+
+#~ msgid "Change your nickname."
+#~ msgstr "Zmeniť vašu prezývku."
+
+#~ msgid "Send a private message."
+#~ msgstr "Poslať súkromnú správu."
+
+#~ msgid "Find out all manner of things about someone."
+#~ msgstr "Vyhľadať všetko o niekom."
+
+#~ msgid "Emote."
+#~ msgstr "Emócia."
+
+#~ msgid "Set your status to away."
+#~ msgstr "Nastaviť váš status na \"Preč\"."
+
+#~ msgid "Set your status to back."
+#~ msgstr "Nastaviť váš status na \"Späť\"."
 
 #~ msgid "Ubuntu Lucid development builds"
 #~ msgstr "Ubuntu Lucid vývojové zostavenia"

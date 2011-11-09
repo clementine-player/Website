@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-08 11:17+0100\n"
+"POT-Creation-Date: 2011-11-09 14:12+0100\n"
 "PO-Revision-Date: 2011-03-28 09:41+0000\n"
 "Last-Translator: Arno <arnaud.bienner@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -374,19 +374,19 @@ msgstr "Instructions complètes et liste des dépendances"
 msgid "Bleeding edge packages"
 msgstr "Paquets Bleeding edge"
 
-#: downloads.html:68 participate.html:75
+#: downloads.html:68 participate.html:48
 msgid "Development on Clementine happens in"
 msgstr "Le développement de Clementine a lieu dans"
 
-#: downloads.html:70 participate.html:77
+#: downloads.html:70 participate.html:50
 msgid "the git repository"
 msgstr "un dépôt git"
 
-#: downloads.html:70 participate.html:78
+#: downloads.html:70 participate.html:51
 msgid "Check out the code by running:"
 msgstr "Récupérez le code en exécutant :"
 
-#: downloads.html:74 participate.html:88
+#: downloads.html:74 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
@@ -394,35 +394,35 @@ msgstr ""
 "Si vous préférez ne pas compiler la version de développement vous-même, "
 "essayer un de nos paquets récents."
 
-#: downloads.html:78 participate.html:92
+#: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
 msgstr "Versions de développement pour Mac OS X"
 
-#: downloads.html:80 participate.html:94
+#: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Versions de développement pour Ubuntu Lucid (10.04)"
 
-#: downloads.html:82 participate.html:96
+#: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Versions de développement pour Ubuntu Maverick (10.10)"
 
-#: downloads.html:84 participate.html:98
+#: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Versions de développement pour Ubuntu Lucid (11.04)"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:86 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Versions de développement pour Ubuntu Oneiric (11.10)"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:88 participate.html:75
 msgid "Windows development builds"
 msgstr "Versions de développement pour Windows"
 
-#: downloads.html:90 participate.html:104
+#: downloads.html:90 participate.html:77
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:93 participate.html:107
+#: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Il y a aussi un dépôt Ubuntu PPA pour ces versions de développement :"
 
@@ -562,19 +562,19 @@ msgstr "Voir tous les téléchargements"
 msgid "News"
 msgstr "Actualités"
 
-#: participate.html:12
+#: participate.html:8
 msgid "Need help?"
 msgstr "Besoin d'aide ?"
 
-#: participate.html:16
+#: participate.html:12
 msgid "Come chat with us at the"
 msgstr "Venez discuter avec nous sur"
 
-#: participate.html:16
+#: participate.html:12
 msgid "channel on Freenode."
 msgstr "(canal sur Freenode)."
 
-#: participate.html:17
+#: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
@@ -583,63 +583,11 @@ msgstr ""
 "nous sommes peut être dans un fuseau horaire différent et nous ne verrons "
 "pas votre question tout de suite."
 
-#: participate.html:21
-msgid "Open embedded chat client"
-msgstr "Ouvrir un client de messagerie instantanée embarqué"
-
-#: participate.html:26
-msgid "This room is hosted on an Internet Relay Chat"
-msgstr "Cette salle est hébergée sur un IRC"
-
-#: participate.html:26
-msgid "server and powered by IRC software."
-msgstr "et propulsé par IRC software."
-
-#: participate.html:27
-msgid "Feel free to join the conversations that are taking place."
-msgstr "N'hésitez pas à rejoindre les conversations en cours."
-
-#: participate.html:29
-msgid "New to IRC? Here are some commands to get you started:"
-msgstr "Nouveau sur IRC ? Voici quelques commandes pour commencer :"
-
-#: participate.html:31
-msgid "Display help."
-msgstr "Afficher de l'aide."
-
-#: participate.html:32
-msgid "Clear the chat output in this channel."
-msgstr "Effacer la sortie de la messagerie instantanée sur ce canal."
-
-#: participate.html:33
-msgid "Change your nickname."
-msgstr "Changer votre surnom."
-
-#: participate.html:34
-msgid "Send a private message."
-msgstr "Envoyer un message privé."
-
-#: participate.html:35
-msgid "Find out all manner of things about someone."
-msgstr "Découvrez toutes sortes de choses au sujet de quelqu'un."
-
-#: participate.html:36
-msgid "Emote."
-msgstr "Émoticône"
-
-#: participate.html:37
-msgid "Set your status to away."
-msgstr "Définir votre statut à « Absent »."
-
-#: participate.html:38
-msgid "Set your status to back."
-msgstr "Définir votre statut à « De retour »."
-
-#: participate.html:43
+#: participate.html:16
 msgid "Forum"
 msgstr "Forum"
 
-#: participate.html:45
+#: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
@@ -647,25 +595,25 @@ msgstr ""
 "Clementine utilise des Groupes Google pour ses forum/liste de diffusion/"
 "groupe de discussion général."
 
-#: participate.html:48
+#: participate.html:21
 msgid "Support and discussion group"
 msgstr "Groupe de discussion et de support"
 
-#: participate.html:53
+#: participate.html:26
 msgid "Collaborate"
 msgstr "Collaborer"
 
-#: participate.html:55
+#: participate.html:28
 msgid "Reporting bugs and proposing patches"
 msgstr "Rapporter des bugs et proposer des patches."
 
-#: participate.html:57
+#: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr ""
 "Clementine utilise Google Code pour le développement et le suivi des "
 "problèmes."
 
-#: participate.html:58
+#: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
@@ -674,15 +622,15 @@ msgstr ""
 "suivi de problèmes (<i>issues</i>) et créer un nouveau problème (<i>new "
 "issue</i>)."
 
-#: participate.html:61
+#: participate.html:34
 msgid "Issue tracker"
 msgstr "Suivi des problèmes"
 
-#: participate.html:64
+#: participate.html:37
 msgid "Translating the interface"
 msgstr "Traduire l'interface"
 
-#: participate.html:66
+#: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
 "the Transifex translations page."
@@ -690,7 +638,7 @@ msgstr ""
 "Si vous souhaitez traduire Clementine dans un autre langage vous pouvez le "
 "faire sur la page des traductions de Transifex."
 
-#: participate.html:67
+#: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
@@ -698,44 +646,83 @@ msgstr ""
 "Vous pouvez également faire des traductions directement sur Transifex, ou "
 "télécharger un fichier .po depuis le site et nous le renvoyer par courriel."
 
-#: participate.html:70
+#: participate.html:43
 msgid "Transifex translations"
 msgstr "Traductions Transifex"
 
-#: participate.html:73
+#: participate.html:46
 msgid "Hacking"
 msgstr "Hacking"
 
-#: participate.html:84
+#: participate.html:57
 msgid "How to compile Clementine from source"
 msgstr "Comment compiler Clementine depuis les sources"
 
-#: participate.html:115
+#: participate.html:88
 msgid "Social Networking"
 msgstr "Réseautage social"
 
-#: participate.html:117
+#: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
 "Soutenez Clementine en nous rejoignant sur votre réseau social préféré !"
 
-#: participate.html:121
+#: participate.html:94
 msgid "Clementine on Facebook"
 msgstr "Clementine sur Facebook"
 
-#: participate.html:124
+#: participate.html:97
 msgid "Clementine on Twitter"
 msgstr "Clementine sur Twitter"
 
-#: participate.html:127
+#: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine sur Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Version"
+
+#~ msgid "Open embedded chat client"
+#~ msgstr "Ouvrir un client de messagerie instantanée embarqué"
+
+#~ msgid "This room is hosted on an Internet Relay Chat"
+#~ msgstr "Cette salle est hébergée sur un IRC"
+
+#~ msgid "server and powered by IRC software."
+#~ msgstr "et propulsé par IRC software."
+
+#~ msgid "Feel free to join the conversations that are taking place."
+#~ msgstr "N'hésitez pas à rejoindre les conversations en cours."
+
+#~ msgid "New to IRC? Here are some commands to get you started:"
+#~ msgstr "Nouveau sur IRC ? Voici quelques commandes pour commencer :"
+
+#~ msgid "Display help."
+#~ msgstr "Afficher de l'aide."
+
+#~ msgid "Clear the chat output in this channel."
+#~ msgstr "Effacer la sortie de la messagerie instantanée sur ce canal."
+
+#~ msgid "Change your nickname."
+#~ msgstr "Changer votre surnom."
+
+#~ msgid "Send a private message."
+#~ msgstr "Envoyer un message privé."
+
+#~ msgid "Find out all manner of things about someone."
+#~ msgstr "Découvrez toutes sortes de choses au sujet de quelqu'un."
+
+#~ msgid "Emote."
+#~ msgstr "Émoticône"
+
+#~ msgid "Set your status to away."
+#~ msgstr "Définir votre statut à « Absent »."
+
+#~ msgid "Set your status to back."
+#~ msgstr "Définir votre statut à « De retour »."
 
 #~ msgid "Ubuntu Lucid development builds"
 #~ msgstr "Versions de développement pour Ubuntu Lucid"

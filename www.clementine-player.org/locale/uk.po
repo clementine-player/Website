@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-08 11:17+0100\n"
+"POT-Creation-Date: 2011-11-09 14:12+0100\n"
 "PO-Revision-Date: 2011-03-28 07:17+0000\n"
 "Last-Translator: Sergii Galashyn <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -364,19 +364,19 @@ msgstr "Повна інструкція та список залежностей
 msgid "Bleeding edge packages"
 msgstr "Найсвіжіші пакунки"
 
-#: downloads.html:68 participate.html:75
+#: downloads.html:68 participate.html:48
 msgid "Development on Clementine happens in"
 msgstr "Розробка Clementine відбувається за допомогою"
 
-#: downloads.html:70 participate.html:77
+#: downloads.html:70 participate.html:50
 msgid "the git repository"
 msgstr "сховища git"
 
-#: downloads.html:70 participate.html:78
+#: downloads.html:70 participate.html:51
 msgid "Check out the code by running:"
 msgstr "Витягніть програмний код, виконавши команду:"
 
-#: downloads.html:74 participate.html:88
+#: downloads.html:74 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
@@ -384,36 +384,36 @@ msgstr ""
 "Якщо ж вам не до вподоби збирати розробницьку версію власноруч, спробуйте "
 "один з цих щогодинних пакунків:"
 
-#: downloads.html:78 participate.html:92
+#: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
 msgstr "Розробницькі збірки для Mac OS X"
 
-#: downloads.html:80 participate.html:94
+#: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Розробницькі збірки для Ubuntu Lucid (10.04)"
 
-#: downloads.html:82 participate.html:96
+#: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Розробницькі збірки для Ubuntu Maverick (10.10)"
 
-#: downloads.html:84 participate.html:98
+#: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Розробницькі збірки для Ubuntu Natty (11.04)"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:86 participate.html:73
 #, fuzzy
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Розробницькі збірки для Ubuntu Oneiric (11.10)"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:88 participate.html:75
 msgid "Windows development builds"
 msgstr "Розробницькі збірки для Windows"
 
-#: downloads.html:90 participate.html:104
+#: downloads.html:90 participate.html:77
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:93 participate.html:107
+#: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Також доступий Ubuntu PPA для цих розробницьких збірок:"
 
@@ -550,19 +550,19 @@ msgstr "Усі завантаження"
 msgid "News"
 msgstr "Новини"
 
-#: participate.html:12
+#: participate.html:8
 msgid "Need help?"
 msgstr "Потрібна допомога?"
 
-#: participate.html:16
+#: participate.html:12
 msgid "Come chat with us at the"
 msgstr "Зайдіть до нашого чату на каналі"
 
-#: participate.html:16
+#: participate.html:12
 msgid "channel on Freenode."
 msgstr "на Freenode."
 
-#: participate.html:17
+#: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
@@ -571,63 +571,11 @@ msgstr ""
 "знаходитися в іншому часовому поясі та нездатні відразу побачити ваше "
 "питання."
 
-#: participate.html:21
-msgid "Open embedded chat client"
-msgstr "Відкрити вбудований клієнт чату"
-
-#: participate.html:26
-msgid "This room is hosted on an Internet Relay Chat"
-msgstr "Цю кімнату розміщено на сервері реальних повідомлень"
-
-#: participate.html:26
-msgid "server and powered by IRC software."
-msgstr "та підтримано за допомогою програмного забезпечення IRC."
-
-#: participate.html:27
-msgid "Feel free to join the conversations that are taking place."
-msgstr "Приєднуйтеся до поточних бесід, будь ласка."
-
-#: participate.html:29
-msgid "New to IRC? Here are some commands to get you started:"
-msgstr "Вперше користуєтеся IRC? Ось деякі команди, що стануть у нагоді:"
-
-#: participate.html:31
-msgid "Display help."
-msgstr "Відобразити довідку."
-
-#: participate.html:32
-msgid "Clear the chat output in this channel."
-msgstr "Очистити журнал повідомлень цього каналу."
-
-#: participate.html:33
-msgid "Change your nickname."
-msgstr "Змінити ваше псевдо."
-
-#: participate.html:34
-msgid "Send a private message."
-msgstr "Надіслати особисте повідомлення."
-
-#: participate.html:35
-msgid "Find out all manner of things about someone."
-msgstr "Дізнатися всю доступну інформацію про когось."
-
-#: participate.html:36
-msgid "Emote."
-msgstr "Проявити емоції."
-
-#: participate.html:37
-msgid "Set your status to away."
-msgstr "Встановити свій статус на \"Відійшов\"."
-
-#: participate.html:38
-msgid "Set your status to back."
-msgstr "Встановити ваш статус як \"Повернувся\"."
-
-#: participate.html:43
+#: participate.html:16
 msgid "Forum"
 msgstr "Форум"
 
-#: participate.html:45
+#: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
@@ -635,25 +583,25 @@ msgstr ""
 "Clementine використовує Групи Google для загальних дискусій, форуму та "
 "списку розсилки."
 
-#: participate.html:48
+#: participate.html:21
 msgid "Support and discussion group"
 msgstr "Групи підтримки та обговорення"
 
-#: participate.html:53
+#: participate.html:26
 msgid "Collaborate"
 msgstr "Співпраця"
 
-#: participate.html:55
+#: participate.html:28
 msgid "Reporting bugs and proposing patches"
 msgstr "Повідомлення про помилки та пропозиції патчів"
 
-#: participate.html:57
+#: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr ""
 "Clementine використовує Google Code для процесу розробки та повідомлень про "
 "помилки."
 
-#: participate.html:58
+#: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
@@ -661,15 +609,15 @@ msgstr ""
 "Якщо ви знайшли помилку в Clementine, будь ласка завітайте до трекеру "
 "помилок та створіть новий запис."
 
-#: participate.html:61
+#: participate.html:34
 msgid "Issue tracker"
 msgstr "Трекер помилок"
 
-#: participate.html:64
+#: participate.html:37
 msgid "Translating the interface"
 msgstr "Переклад інтерфейсу"
 
-#: participate.html:66
+#: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
 "the Transifex translations page."
@@ -677,7 +625,7 @@ msgstr ""
 "Якщо ви бажаєте перекласти Clementine іншою мовою, це можна зробити на "
 "сторінці перекладу Transifex."
 
-#: participate.html:67
+#: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
@@ -685,23 +633,23 @@ msgstr ""
 "Ви можете або перекладати безпосередньо у Transifex, або завантажити .po "
 "файл з сайту та надіслати перекладену версію нам."
 
-#: participate.html:70
+#: participate.html:43
 msgid "Transifex translations"
 msgstr "Переклади на Lauchpad"
 
-#: participate.html:73
+#: participate.html:46
 msgid "Hacking"
 msgstr "Hacking"
 
-#: participate.html:84
+#: participate.html:57
 msgid "How to compile Clementine from source"
 msgstr "Як зібрати Clementine з програмних кодів"
 
-#: participate.html:115
+#: participate.html:88
 msgid "Social Networking"
 msgstr "Соціальні мережі"
 
-#: participate.html:117
+#: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -709,21 +657,60 @@ msgstr ""
 "Ми були б дуже раді, якщо б ви підтримали Clementine шляхом приєднання до "
 "нас на вашому улюбленому соціальному сайті!"
 
-#: participate.html:121
+#: participate.html:94
 msgid "Clementine on Facebook"
 msgstr "Clementine у Facebook"
 
-#: participate.html:124
+#: participate.html:97
 msgid "Clementine on Twitter"
 msgstr "Clementine у Twitter"
 
-#: participate.html:127
+#: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine у Last.fm"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Версія"
+
+#~ msgid "Open embedded chat client"
+#~ msgstr "Відкрити вбудований клієнт чату"
+
+#~ msgid "This room is hosted on an Internet Relay Chat"
+#~ msgstr "Цю кімнату розміщено на сервері реальних повідомлень"
+
+#~ msgid "server and powered by IRC software."
+#~ msgstr "та підтримано за допомогою програмного забезпечення IRC."
+
+#~ msgid "Feel free to join the conversations that are taking place."
+#~ msgstr "Приєднуйтеся до поточних бесід, будь ласка."
+
+#~ msgid "New to IRC? Here are some commands to get you started:"
+#~ msgstr "Вперше користуєтеся IRC? Ось деякі команди, що стануть у нагоді:"
+
+#~ msgid "Display help."
+#~ msgstr "Відобразити довідку."
+
+#~ msgid "Clear the chat output in this channel."
+#~ msgstr "Очистити журнал повідомлень цього каналу."
+
+#~ msgid "Change your nickname."
+#~ msgstr "Змінити ваше псевдо."
+
+#~ msgid "Send a private message."
+#~ msgstr "Надіслати особисте повідомлення."
+
+#~ msgid "Find out all manner of things about someone."
+#~ msgstr "Дізнатися всю доступну інформацію про когось."
+
+#~ msgid "Emote."
+#~ msgstr "Проявити емоції."
+
+#~ msgid "Set your status to away."
+#~ msgstr "Встановити свій статус на \"Відійшов\"."
+
+#~ msgid "Set your status to back."
+#~ msgstr "Встановити ваш статус як \"Повернувся\"."
 
 #~ msgid "Ubuntu Lucid development builds"
 #~ msgstr "Розробницькі збірки для Ubuntu Lucid"

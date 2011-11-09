@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-08 11:17+0100\n"
+"POT-Creation-Date: 2011-11-09 14:12+0100\n"
 "PO-Revision-Date: 2011-03-27 22:21+0000\n"
 "Last-Translator: ntomka <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -362,19 +362,19 @@ msgstr "Teljes útmutató és függőségi lista"
 msgid "Bleeding edge packages"
 msgstr "Legfrissebb fejlesztői csomagok"
 
-#: downloads.html:68 participate.html:75
+#: downloads.html:68 participate.html:48
 msgid "Development on Clementine happens in"
 msgstr "A Clementine fejlesztése egy"
 
-#: downloads.html:70 participate.html:77
+#: downloads.html:70 participate.html:50
 msgid "the git repository"
 msgstr "git tárolóban történik"
 
-#: downloads.html:70 participate.html:78
+#: downloads.html:70 participate.html:51
 msgid "Check out the code by running:"
 msgstr "Töltsd le a legfrissebb kódot az alábbi paranccsal:"
 
-#: downloads.html:74 participate.html:88
+#: downloads.html:74 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
@@ -382,35 +382,35 @@ msgstr ""
 "Ha a fejlesztői változatot nem szeretnéd forrásból fordítva kipróbálni, "
 "akkor töltsd le inkább valamelyik óránként készülő csomagunkat:"
 
-#: downloads.html:78 participate.html:92
+#: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
 msgstr "Mac OS X fejlesztői csomagok"
 
-#: downloads.html:80 participate.html:94
+#: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Ubuntu Lucid (10.04) fejlesztői csomagok"
 
-#: downloads.html:82 participate.html:96
+#: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Ubuntu Maverick (10.10) fejlesztői csomagok"
 
-#: downloads.html:84 participate.html:98
+#: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Ubuntu Natty (11.04) fejlesztői csomagok"
 
-#: downloads.html:86 participate.html:100
+#: downloads.html:86 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Ubuntu Oneiric (11.10) fejlesztői csomagok"
 
-#: downloads.html:88 participate.html:102
+#: downloads.html:88 participate.html:75
 msgid "Windows development builds"
 msgstr "Windows fejlesztői csomagok"
 
-#: downloads.html:90 participate.html:104
+#: downloads.html:90 participate.html:77
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:93 participate.html:107
+#: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "A fejlesztői csomagokhoz egy Ubuntu PPA is elérhető:"
 
@@ -549,19 +549,19 @@ msgstr "Minden letöltés"
 msgid "News"
 msgstr "Hírek"
 
-#: participate.html:12
+#: participate.html:8
 msgid "Need help?"
 msgstr "Segítség kérése"
 
-#: participate.html:16
+#: participate.html:12
 msgid "Come chat with us at the"
 msgstr "Elérhetsz minket a"
 
-#: participate.html:16
+#: participate.html:12
 msgid "channel on Freenode."
 msgstr "csatornán a Freenode hálózatán."
 
-#: participate.html:17
+#: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
@@ -569,64 +569,11 @@ msgstr ""
 "Kérjük vedd figyelembe, hogy eltérő időzónákban élhetünk, így nem biztos, "
 "hogy azonnal tudunk válaszolni a kérdéseidre, <b>légy türelmes</b>."
 
-#: participate.html:21
-msgid "Open embedded chat client"
-msgstr "Beágyazott csevegő kliens megnyitása"
-
-#: participate.html:26
-msgid "This room is hosted on an Internet Relay Chat"
-msgstr "Ez a csatorna egy Internet Relay Chat"
-
-#: participate.html:26
-msgid "server and powered by IRC software."
-msgstr "szerveren van üzemeltetve és IRC szoftver által működik."
-
-#: participate.html:27
-msgid "Feel free to join the conversations that are taking place."
-msgstr "Nyugodtan csatlakozz az aktuális beszélgetéshez."
-
-#: participate.html:29
-msgid "New to IRC? Here are some commands to get you started:"
-msgstr ""
-"Nem ismered az IRC-t? Itt van néhány parancs, ami segíthet az indulásban:"
-
-#: participate.html:31
-msgid "Display help."
-msgstr "Segítség mutatása"
-
-#: participate.html:32
-msgid "Clear the chat output in this channel."
-msgstr "Az eddigi csevegést törli a csatornán."
-
-#: participate.html:33
-msgid "Change your nickname."
-msgstr "Nicknév megváltoztatása."
-
-#: participate.html:34
-msgid "Send a private message."
-msgstr "Privát üzenet küldése."
-
-#: participate.html:35
-msgid "Find out all manner of things about someone."
-msgstr "Ezzel másokról tudhatsz meg különféle dolgokat."
-
-#: participate.html:36
-msgid "Emote."
-msgstr "Önkifejezés."
-
-#: participate.html:37
-msgid "Set your status to away."
-msgstr "Az állapotod távolra állítja."
-
-#: participate.html:38
-msgid "Set your status to back."
-msgstr "Az állapotod visszatértre állítja."
-
-#: participate.html:43
+#: participate.html:16
 msgid "Forum"
 msgstr "Fórum"
 
-#: participate.html:45
+#: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
@@ -634,24 +581,24 @@ msgstr ""
 "A Clementine a Google Csoportokat használja fórumnak, levelezési listának és "
 "általános vitacsoportnak."
 
-#: participate.html:48
+#: participate.html:21
 msgid "Support and discussion group"
 msgstr "Támogatási és vitacsoport."
 
-#: participate.html:53
+#: participate.html:26
 msgid "Collaborate"
 msgstr "Együttműködés"
 
-#: participate.html:55
+#: participate.html:28
 msgid "Reporting bugs and proposing patches"
 msgstr "Hibák jelentése és javaslattételek"
 
-#: participate.html:57
+#: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr ""
 "A Clementine a Google Codeot használja fejlesztői és visszajelzés követéshez."
 
-#: participate.html:58
+#: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
@@ -659,15 +606,15 @@ msgstr ""
 "Ha hibát találtál a Clementineben, kérjük használd a hibakövetőnket a "
 "bejelentéshez."
 
-#: participate.html:61
+#: participate.html:34
 msgid "Issue tracker"
 msgstr "Hibakövető"
 
-#: participate.html:64
+#: participate.html:37
 msgid "Translating the interface"
 msgstr "A felület fordítása"
 
-#: participate.html:66
+#: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
 "the Transifex translations page."
@@ -675,7 +622,7 @@ msgstr ""
 "Ha más nyelvre szeretnéd a Clementinet fordítani, akkor a Transifex fordítói "
 "oldalán megteheted."
 
-#: participate.html:67
+#: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
@@ -683,23 +630,23 @@ msgstr ""
 "A Transifexon közvetlenül is fordíthatsz, vagy letölthetsz egy .po fájlt, "
 "amit készen elküldhetsz számunkra emailben."
 
-#: participate.html:70
+#: participate.html:43
 msgid "Transifex translations"
 msgstr "Transifex fordítói oldal"
 
-#: participate.html:73
+#: participate.html:46
 msgid "Hacking"
 msgstr "Fejlesztés"
 
-#: participate.html:84
+#: participate.html:57
 msgid "How to compile Clementine from source"
 msgstr "Így fordítsd le a Clementinet forrásból"
 
-#: participate.html:115
+#: participate.html:88
 msgid "Social Networking"
 msgstr "Közösségi háló"
 
-#: participate.html:117
+#: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
@@ -707,21 +654,61 @@ msgstr ""
 "Szívesen vesszük a támogatásod azáltal, hogy csatlakozol közénk a kedvenc "
 "közösségi hálózatodon!"
 
-#: participate.html:121
+#: participate.html:94
 msgid "Clementine on Facebook"
 msgstr "Clementine a Facebookon"
 
-#: participate.html:124
+#: participate.html:97
 msgid "Clementine on Twitter"
 msgstr "Clementine a Twitteren"
 
-#: participate.html:127
+#: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine a Last.fm-en"
 
 #: screenshots.html:9
 msgid "Version"
 msgstr "Verzió"
+
+#~ msgid "Open embedded chat client"
+#~ msgstr "Beágyazott csevegő kliens megnyitása"
+
+#~ msgid "This room is hosted on an Internet Relay Chat"
+#~ msgstr "Ez a csatorna egy Internet Relay Chat"
+
+#~ msgid "server and powered by IRC software."
+#~ msgstr "szerveren van üzemeltetve és IRC szoftver által működik."
+
+#~ msgid "Feel free to join the conversations that are taking place."
+#~ msgstr "Nyugodtan csatlakozz az aktuális beszélgetéshez."
+
+#~ msgid "New to IRC? Here are some commands to get you started:"
+#~ msgstr ""
+#~ "Nem ismered az IRC-t? Itt van néhány parancs, ami segíthet az indulásban:"
+
+#~ msgid "Display help."
+#~ msgstr "Segítség mutatása"
+
+#~ msgid "Clear the chat output in this channel."
+#~ msgstr "Az eddigi csevegést törli a csatornán."
+
+#~ msgid "Change your nickname."
+#~ msgstr "Nicknév megváltoztatása."
+
+#~ msgid "Send a private message."
+#~ msgstr "Privát üzenet küldése."
+
+#~ msgid "Find out all manner of things about someone."
+#~ msgstr "Ezzel másokról tudhatsz meg különféle dolgokat."
+
+#~ msgid "Emote."
+#~ msgstr "Önkifejezés."
+
+#~ msgid "Set your status to away."
+#~ msgstr "Az állapotod távolra állítja."
+
+#~ msgid "Set your status to back."
+#~ msgstr "Az állapotod visszatértre állítja."
 
 #~ msgid "Ubuntu Lucid development builds"
 #~ msgstr "Ubuntu Lucid fejlesztői csomagok"
