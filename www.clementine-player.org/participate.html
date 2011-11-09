@@ -3,10 +3,6 @@
 {% block title %}{% trans "Participate" %} | {% endblock %}
 {% block path %}/participate{% endblock %}
 
-{% block scripts %}
-  <script type="text/javascript" src="/js/irc.js"></script>
-{% endblock %}
-
 {% block content %}
 
 <h1>{% trans "Need help?" %}</h1>
@@ -16,29 +12,6 @@
 <p>{% trans "Come chat with us at the" %} <span class="command">#clementine</span> {% trans "channel on Freenode." %}
 {% trans "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away." %}
 </p>
-
-<ul id="irclink">
-  <li><a href="javascript:expandirc()">{% trans "Open embedded chat client" %}</a></li>
-</ul>
-
-<div class="irccontainer hidden" id="irc">
-  <div>
-    <p>{% trans "This room is hosted on an Internet Relay Chat" %} (<a class="ext" href="http://en.wikipedia.org/wiki/Irc">IRC</a>) {% trans "server and powered by IRC software." %}<br />
-{% trans "Feel free to join the conversations that are taking place." %}</p>
-    <iframe src="http://webchat.freenode.net?channels=clementine&uio=MTE9NDEb6" width="690" height="400"></iframe>
-    <p>{% trans "New to IRC? Here are some commands to get you started:" %}</p>
-    <ul>
-      <li><span class="command">/help</span> {% trans "Display help." %}</li>
-      <li><span class="command">/clear</span> {% trans "Clear the chat output in this channel." %}</li>
-      <li><span class="command">/nick [nick]</span> {% trans "Change your nickname." %}</li>
-      <li><span class="command">/msg [nick] [msg]</span> {% trans "Send a private message." %}</li>
-      <li><span class="command">/whois [nick]</span> {% trans "Find out all manner of things about someone." %}</li>
-      <li><span class="command">/me [text]</span> {% trans "Emote." %}</li>
-      <li><span class="command">/away <msg></msg></span> {% trans "Set your status to away." %}</li>
-      <li><span class="command">/back</span> {% trans "Set your status to back." %}</li>
-    </ul>
-  </div>
-</div>
 
 <h2>{% trans "Forum" %}</h2>
 
