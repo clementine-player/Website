@@ -3,168 +3,166 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-#   <moonwrist@moonwrist.org>, 2011.
+#   <pavelfric@seznam.cz>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-23 12:07+0100\n"
-"PO-Revision-Date: 2011-11-21 14:12+0000\n"
-"Last-Translator: Moonwrist <moonwrist@moonwrist.org>\n"
+"PO-Revision-Date: 2011-11-16 14:02+0000\n"
+"Last-Translator: fri <pavelfric@seznam.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine-musiikkisoitin"
+msgstr ""
 
 #: base.html:38
 msgid "About"
-msgstr "Esittely"
+msgstr "O"
 
 #: base.html:39 downloads.html:3
 msgid "Downloads"
-msgstr "Lataa"
+msgstr ""
 
 #: base.html:40 main.html:74 screenshots.html:3
 msgid "Screenshots"
-msgstr "Kuvia"
+msgstr ""
 
 #: base.html:41 participate.html:3
 msgid "Participate"
-msgstr "Osallistu"
+msgstr ""
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4:n inspiroima alustariippumaton musiikkisoitin"
+msgstr ""
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under CC-"
 "BY-SA."
 msgstr ""
-"Clemetine on vapaa ohjelmisto GPL v3 -lisenssillä. Sivusto on CC-BY-SA-"
-"lisensoitu."
 
 #: base.html:70
 msgid "Development by"
-msgstr "Kehittäjät"
+msgstr ""
 
 #: base.html:70 main.html:14
 msgid "and"
-msgstr "ja"
+msgstr ""
 
 #: base.html:72
 msgid "Website by"
-msgstr "Verkkosivun toteutus"
+msgstr ""
 
 #: data.py:8
 msgid "Lyrics and track slider tooltip"
-msgstr "Sanoitukset ja kappaleen etsi-liukusäätimen työkaluvihje"
+msgstr ""
 
 #: data.py:9
 msgid "MusicBrainz fixing untagged files"
-msgstr "Tunnisteettomien tiedostojen täydentäminen MuzicBrainz palvelun avulla"
+msgstr ""
 
 #: data.py:10
 msgid "New tag editor with autocompletion"
-msgstr "Uusi tunnistemuokkain automaattitäytöllä"
+msgstr ""
 
 #: data.py:11
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Kappaleen etsi-liukusäätimen työkaluvihje Mac OS X järjestelmässä"
+msgstr ""
 
 #: data.py:14
 msgid "Artist photos and biographies"
-msgstr "Kuvia ja tietoja esittäjästä"
+msgstr ""
 
 #: data.py:15
 msgid "Lyrics"
-msgstr "Sanoitukset"
+msgstr ""
 
 #: data.py:16
 msgid "Icecast radio stations"
-msgstr "Icecast-radioasemat"
+msgstr ""
 
 #: data.py:17
 msgid "Smart playlists and kittens"
-msgstr "Älykkäät soittolistat ja kissanpennut"
+msgstr ""
 
 #: data.py:20
 msgid "The queue manager on Windows 7"
-msgstr "Jonohallinta Windows 7:llä"
+msgstr ""
 
 #: data.py:21
 msgid "Copying music to an iPod in Ubuntu"
-msgstr "Musiikin kopiointi iPodiin Ubuntussa"
+msgstr ""
 
 #: data.py:22
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 Ubun... KAIKKI KUNNIA HYPNOTOADILLE"
+msgstr ""
 
 #: data.py:23
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 Mac OS X:llä"
+msgstr ""
 
 #: data.py:26
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 Ubuntulla"
+msgstr ""
 
 #: data.py:27
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 Windows 7:llä"
+msgstr ""
 
 #: data.py:28
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr "Clementine 0.4 -visualisaatiot projectM:ää käyttäen"
+msgstr ""
 
 #: data.py:29
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 Mac OS X:llä"
+msgstr ""
 
 #: data.py:32
 msgid "Last.fm tag radio"
-msgstr "Last.fm-tunnisteradio"
+msgstr ""
 
 #: data.py:33
 msgid "Searching the library"
-msgstr "Kirjastosta etsimistä"
+msgstr ""
 
 #: data.py:34 data.py:40
 msgid "The tag editor on Windows"
-msgstr "Kappaleen tietojen muokkausta Windowsilla"
+msgstr ""
 
 #: data.py:35
 msgid "The cover manager on Mac OS X"
-msgstr "Kansikuvien hallinta Mac OS X:llä"
+msgstr ""
 
 #: data.py:38
 msgid "Playback on Linux"
-msgstr "Musiikin toistoa Linuxilla"
+msgstr ""
 
 #: data.py:39
 msgid "Last.fm support"
-msgstr "Last.fm-tuki"
+msgstr ""
 
 #: data.py:41
 msgid "Growl notifications on Mac OS X"
-msgstr "Growl-ilmoitukset Mac OS X:llä"
+msgstr ""
 
 #: data.py:118
 msgid "Source code"
-msgstr "Lähdekoodi"
+msgstr ""
 
 #: data.py:130
 msgid "Source"
-msgstr "Lähde"
+msgstr ""
 
 #: data.py:144
 msgid "Version 0.2 released"
-msgstr "Versio 0.2 julkaistu"
+msgstr ""
 
 #: data.py:145
 msgid ""
@@ -175,7 +173,7 @@ msgstr ""
 
 #: data.py:151
 msgid "Version 0.3 released"
-msgstr "Versio 0.3 julkaistu"
+msgstr ""
 
 #: data.py:152
 msgid ""
@@ -187,7 +185,7 @@ msgstr ""
 
 #: data.py:160
 msgid "Version 0.4 released"
-msgstr "Versio 0.4 julkaistu"
+msgstr ""
 
 #: data.py:161
 msgid ""
@@ -201,7 +199,7 @@ msgstr ""
 
 #: data.py:170
 msgid "Version 0.5 released"
-msgstr "Versio 0.5 julkaistu"
+msgstr ""
 
 #: data.py:171
 msgid ""
@@ -221,7 +219,7 @@ msgstr ""
 
 #: data.py:187
 msgid "Version 0.6 released"
-msgstr "Versio 0.6 julkaistu"
+msgstr ""
 
 #: data.py:188
 msgid ""
@@ -238,7 +236,7 @@ msgstr ""
 
 #: data.py:200
 msgid "Version 0.7 released"
-msgstr "Versio 0.7 julkaistu"
+msgstr ""
 
 #: data.py:201
 msgid ""
@@ -257,344 +255,323 @@ msgstr ""
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr "Uusimmat tiedostot"
+msgstr ""
 
 #: downloads.html:10
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr ""
-"Lataa uusin vakaa versio Clementinestä haluamallesi käyttöjärjestelmälle."
 
 #: downloads.html:28
 msgid "Ubuntu PPA"
-msgstr "Ubuntu PPA"
+msgstr ""
 
 #: downloads.html:30
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
 msgstr ""
-"Voit ladata uusimman version Clementinestä Ubuntulle käyttäen virallista PPA:"
-"ta:"
 
 #: downloads.html:38 downloads.html.py:46
 msgid "Other Downloads"
-msgstr "Muut lataukset"
+msgstr ""
 
 #: downloads.html:40
 msgid "Unofficial packages"
-msgstr "Epäviralliset paketit"
+msgstr ""
 
 #: downloads.html:42
 msgid ""
 "If you don't see your distribution listed above then someone else might have "
 "created an unofficial package for you."
 msgstr ""
-"Jos jakelusi ei ole listattuna yllä, 3. osapuoli saattaa olla luonut "
-"epävirallisen paketin jakeluasi varten."
 
 #: downloads.html:50
 msgid "Compiling from source"
-msgstr "Lähdekoodista kääntäminen"
+msgstr ""
 
 #: downloads.html:52
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Clementinen kääntäminen lähdekoodista on helppoa Linuxilla."
+msgstr ""
 
 #: downloads.html:53
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr ""
-"Lataa lähdekoodipaketti ylempää ja suorita seuraavat komennot päätteessä:"
 
 #: downloads.html:62
 msgid "Full instructions and list of dependencies"
-msgstr "Tarkemmat ohjeet ja lista riippuvuuksista"
+msgstr ""
 
 #: downloads.html:66
 msgid "Bleeding edge packages"
-msgstr "Uusinta uutta -paketit"
+msgstr ""
 
 #: downloads.html:68 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr "Clementinen kehitys tapahtuu"
+msgstr ""
 
 #: downloads.html:70 participate.html:50
 msgid "the git repository"
-msgstr "git-kannassa"
+msgstr ""
 
 #: downloads.html:70 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Hae lähdekoodi komennolla:"
+msgstr ""
 
 #: downloads.html:74 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
-msgstr "Jos et halua kääntää kehitysversiota itse, kokeile uusimpia paketteja:"
+msgstr ""
 
 #: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
-msgstr "Mac OS X -kehitysversiot"
+msgstr ""
 
 #: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Ubuntu Lucid (10.04) -kehitysversiot"
+msgstr ""
 
 #: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Ubuntu Maverick (10.10) -kehitysversiot"
+msgstr ""
 
 #: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Ubuntu Natty (11.04) -kehitysversiot"
+msgstr ""
 
 #: downloads.html:86 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Ubuntu Oneiric (11.10) -kehitysversiot"
+msgstr ""
 
 #: downloads.html:88 participate.html:75
 msgid "Windows development builds"
-msgstr "Windows-kehitysversiot"
+msgstr ""
 
 #: downloads.html:90 participate.html:77
 msgid "Buildbot"
-msgstr "Buildbot"
+msgstr ""
 
 #: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Tarjolla on myös Ubuntu PPA -lähde kyseisille kehitysversioille:"
+msgstr ""
 
 #: downloads.html:101
 msgid "Old downloads"
-msgstr "Vanhemmat lataukset"
+msgstr ""
 
 #: main.html:6
 msgid "About &amp; Features"
-msgstr "Esittely &amp; ominaisuudet"
+msgstr ""
 
 #: main.html:10
 msgid "Search and play your local music library."
-msgstr "Etsi ja soita musiikkia koneeltasi."
+msgstr ""
 
 #: main.html:11
 msgid "Listen to internet radio from"
-msgstr "Kuuntele internet-radioita, mm."
+msgstr ""
 
 #: main.html:17
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Luo älykkäitä ja dynaamisia soittolistoja."
+msgstr ""
 
 #: main.html:18
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
 msgstr ""
-"Soittolistat välilehtinä, vie ja tuo M3U-, XSPF-, PLS- ja ASX-muodoissa."
 
 #: main.html:19
 msgid "CUE sheet support."
-msgstr "Tuki CUE-tiedostoille."
+msgstr ""
 
 #: main.html:20
 msgid "Visualisations from"
-msgstr "Visualisoinnit tarjoaa"
+msgstr ""
 
 #: main.html:21
 msgid "Lyrics and artist biographies and photos."
-msgstr "Sanoitukset, esittäjätiedot ja valokuvat."
+msgstr ""
 
 #: main.html:22
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
 msgstr ""
-"Muunna musiikkia eri muotoon, esim. MP3, Ogg Vorbis, Ogg Speex, FLAC tai AAC."
 
 #: main.html:23
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Muokkaa MP3- ja OGG-tiedostojen tunnistetietoja."
+msgstr ""
 
 #: main.html:24
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Nouda puuttuvat tunnisteet MusicBrainzista."
+msgstr ""
 
 #: main.html:25
 msgid "Download missing album cover art from Last.fm."
-msgstr "Lataa puuttuvat kansikuvat Last.fm:stä."
+msgstr ""
 
 #: main.html:26
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Alustariippumaton - toimii Windowsilla, Mac OS X:llä ja Linuxilla."
+msgstr ""
 
 #: main.html:27
 msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Natiivit ilmoitukset Linuxilla (libnotify) ja Mac OS X:llä (Growl)."
+msgstr ""
 
 #: main.html:28
 msgid "Remote control using a"
-msgstr "Kaukosäädinominaisuudet -"
+msgstr ""
 
 #: main.html:28
 msgid "Wii Remote"
-msgstr "Wii-ohjain"
+msgstr ""
 
 #: main.html:28
 msgid "MPRIS or the command-line."
-msgstr "MPRIS tai komentorivi."
+msgstr ""
 
 #: main.html:29
 msgid "Copy music to your"
-msgstr "Kopioi musiikkia eri laitteille -"
+msgstr ""
 
 #: main.html:29
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP- tai USB-musiikkisoitin."
+msgstr ""
 
 #: main.html:30
 msgid "Queue manager."
-msgstr "Jonohallinta."
+msgstr ""
 
 #: main.html:36
 msgid "is a modern music player and library organizer"
-msgstr "on moderni musiikkisoitin ja kirjastonhallitsija"
+msgstr ""
 
 #: main.html:40
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine on alustariippumaton musiikkisoitin."
+msgstr ""
 
 #: main.html:41
 msgid "It is inspired by"
-msgstr "Sen inspiraation lähteenä on"
+msgstr ""
 
 #: main.html:42
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
-"painopisteenä nopea ja helppo käyttöliittymä musiikin etsimistä sekä "
-"soittamista varten."
 
 #: main.html:49 main.html.py:58
 msgid "Download the latest version now"
-msgstr "Lataa uusin versio nyt"
+msgstr ""
 
 #: main.html:50
 msgid "Download Clementine"
-msgstr "Lataa Clementine"
+msgstr ""
 
 #: main.html:59
 msgid "for Windows, Mac OS X and Linux"
-msgstr "Windowsile, Mac OS X:lle ja Linuxille"
+msgstr ""
 
 #: main.html:64
 msgid "Announcement"
-msgstr "Ilmoitus"
+msgstr ""
 
 #: main.html:65
 msgid "Changelog"
-msgstr "Muutoshistoria"
+msgstr ""
 
 #: main.html:66
 msgid "Show all downloads"
-msgstr "Näytä kaikki lataukset"
+msgstr ""
 
 #: main.html:97
 msgid "News"
-msgstr "Uutisia"
+msgstr ""
 
 #: participate.html:8
 msgid "Need help?"
-msgstr "Tarvitsetko apua?"
+msgstr ""
 
 #: participate.html:12
 msgid "Come chat with us at the"
-msgstr "Liity keskusteluun kanavalle"
+msgstr ""
 
 #: participate.html:12
 msgid "channel on Freenode."
-msgstr "Freenode-IRC-verkossa."
+msgstr ""
 
 #: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
 msgstr ""
-"<b>Pysythän kanavalla ainakin hetken kysyttyäsi kysymyksen</b> - saatamme "
-"olla eri aikavyöhykkeillä, joten kysymykseen vastaus ei välttämättä onnistu "
-"heti."
 
 #: participate.html:16
 msgid "Forum"
-msgstr "Keskustelualue"
+msgstr ""
 
 #: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine käyttää Google-ryhmiä keskustelualustana."
+msgstr ""
 
 #: participate.html:21
 msgid "Support and discussion group"
-msgstr "Tuki- ja keskusteluryhmä"
+msgstr ""
 
 #: participate.html:26
 msgid "Collaborate"
-msgstr "Ota osaa"
+msgstr ""
 
 #: participate.html:28
 msgid "Reporting bugs and proposing patches"
-msgstr "Ongelmista ilmoittaminen ja korjausten ehdottaminen"
+msgstr ""
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr ""
-"Clementine käyttää Google Codea kehitykseen ja ongelmien ilmoitukseen sekä "
-"seurantaan."
 
 #: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr ""
-"Jos kohtasit ongelmia Clementinen kanssa, ilmoitathan huomaamastasi "
-"ongelmasta käyttäen Google Codea."
 
 #: participate.html:34
 msgid "Issue tracker"
-msgstr "Viat ja muut ongelmat"
+msgstr ""
 
 #: participate.html:37
 msgid "Translating the interface"
-msgstr "Käyttöliittymän kääntäminen"
+msgstr ""
 
 #: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on "
 "the Transifex translations page."
 msgstr ""
-"Jos haluat kääntää Clementinen toiselle kielelle, voit tehdä niin käyttäen "
-"Transifexia."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr ""
-"Voit tehdä käännöksen suoraan Transifexia käyttäen. Vaihtoehtoisesti voit "
-"ladata .po-tiedoston, jonka voit lähettää meille sähköpostitse."
 
 #: participate.html:43
 msgid "Transifex translations"
-msgstr "Transifex-käännökset"
+msgstr ""
 
 #: participate.html:46
 msgid "Hacking"
-msgstr "Hakkerointi"
+msgstr ""
 
 #: participate.html:57
 msgid "How to compile Clementine from source"
-msgstr "Ohje, kuinka kääntää Clementine lähdekoodista"
+msgstr ""
 
 #: participate.html:88
 msgid "Social Networking"
-msgstr "Sosiaaliset verkostot"
+msgstr ""
 
 #: participate.html:90
 msgid ""
@@ -604,55 +581,16 @@ msgstr ""
 
 #: participate.html:94
 msgid "Clementine on Facebook"
-msgstr "Clementine Facebookissa"
+msgstr ""
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr "Clementine Twitterissä"
+msgstr ""
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
-msgstr "Clementine Last.fm:ssä"
+msgstr ""
 
 #: screenshots.html:9
 msgid "Version"
-msgstr "Versio"
-
-#~ msgid "Open embedded chat client"
-#~ msgstr "Avaa sivulle sisällytetty keskusteluikkuna"
-
-#~ msgid "This room is hosted on an Internet Relay Chat"
-#~ msgstr "Tämä keskusteluhuone toimii Internet Relay Chat"
-
-#~ msgid "server and powered by IRC software."
-#~ msgstr "-palvelimella."
-
-#~ msgid "Feel free to join the conversations that are taking place."
-#~ msgstr "Ota osaa meneillään keskusteluihin."
-
-#~ msgid "New to IRC? Here are some commands to get you started:"
-#~ msgstr "Eikö IRC ole tuttu? Alla muutama komento, joilla pääsee alkuun:"
-
-#~ msgid "Display help."
-#~ msgstr "Näytä ohje."
-
-#~ msgid "Clear the chat output in this channel."
-#~ msgstr "Tyhjennä kaikki viestit kanavan keskusteluikkunasta"
-
-#~ msgid "Change your nickname."
-#~ msgstr "Vaihda nimimerkkisi."
-
-#~ msgid "Send a private message."
-#~ msgstr "Lähetä yksityisviesti."
-
-#~ msgid "Find out all manner of things about someone."
-#~ msgstr "Näytä tietoja toisesta henkilöstä."
-
-#~ msgid "Emote."
-#~ msgstr "Näytä tunteesi. :-)"
-
-#~ msgid "Set your status to away."
-#~ msgstr "Aseta tilaksesi poissaoleva."
-
-#~ msgid "Set your status to back."
-#~ msgstr "Aseta tilasi takaisin läsnäolevaksi."
+msgstr ""

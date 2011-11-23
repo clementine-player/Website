@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Carolina Pérez Garrido <carolinadelpilarperezgarrido@gmail.com>, 2011.
+#   <leontaveras@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-09 14:12+0100\n"
-"PO-Revision-Date: 2011-03-28 13:24+0000\n"
-"Last-Translator: David Sansome <me@davidsansome.com>\n"
+"POT-Creation-Date: 2011-11-23 12:07+0100\n"
+"PO-Revision-Date: 2011-11-13 23:33+0000\n"
+"Last-Translator: picapg <carolinadelpilarperezgarrido@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-13 19:00+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
@@ -67,7 +69,7 @@ msgstr ""
 
 #: data.py:9
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "MusicBrainz esta reparando archivos sin etiquetas."
 
 #: data.py:10
 msgid "New tag editor with autocompletion"
@@ -446,7 +448,7 @@ msgstr "Edite etiquetas en archivos MP3 y OGG, organice su música."
 
 #: main.html:24
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "Encontrar etiquetas perdidas desde MusicBrainz."
 
 #: main.html:25
 msgid "Download missing album cover art from Last.fm."
@@ -550,6 +552,9 @@ msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be "
 "in a different timezone so won't see your question right away."
 msgstr ""
+"Por favor recuerda <b> quedarte un después que haces una pregunta </b> - "
+"podriamos estar en una zona horaria diferente y probablemente no veamos tu "
+"pregunta de una vez. "
 
 #: participate.html:16
 msgid "Forum"
@@ -632,6 +637,8 @@ msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
+"¡Nos encantaría que mostrara su apoyo a Clementine uniéndose a nosotros en "
+"su red social favorita!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -639,7 +646,7 @@ msgstr "Clementine en Facebook"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine en Twitter"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
@@ -676,16 +683,3 @@ msgstr "Versión"
 
 #~ msgid "Set your status to back."
 #~ msgstr "Configurar su estado a ahora vuelvo."
-
-#~ msgid "Ubuntu Lucid development builds"
-#~ msgstr "Versiones de desarrollo de Ubuntu Lucid"
-
-#~ msgid "Ubuntu Maverick development builds"
-#~ msgstr "Versiones de desarrollo de Ubuntu Maverick"
-
-#~ msgid ""
-#~ "We'd love to see you support Clementine by joining the Facebook page or "
-#~ "Last.fm group."
-#~ msgstr ""
-#~ "Nos encantaría verlo apoyando a Clementine al unirse a la página en "
-#~ "Facebook o al grupo de Last.fm."

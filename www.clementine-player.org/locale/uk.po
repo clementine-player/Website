@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Yuri Chornoivan <yurchor@ukr.net>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-09 14:12+0100\n"
-"PO-Revision-Date: 2011-03-28 07:17+0000\n"
-"Last-Translator: Sergii Galashyn <Unknown>\n"
+"POT-Creation-Date: 2011-11-23 12:07+0100\n"
+"PO-Revision-Date: 2011-11-14 17:18+0000\n"
+"Last-Translator: yurchor <yurchor@ukr.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-13 19:00+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
@@ -353,8 +355,8 @@ msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr ""
-"Скачайте пакунок з вихідними кодами за посиланнями зі списку вище, а потім "
-"виконайте у вікні терміналу:"
+"Завантажте пакунок з вихідними кодами за посиланнями зі списку вище, а потім "
+"виконайте у вікні термінала:"
 
 #: downloads.html:62
 msgid "Full instructions and list of dependencies"
@@ -386,28 +388,27 @@ msgstr ""
 
 #: downloads.html:78 participate.html:65
 msgid "Mac OS X development builds"
-msgstr "Розробницькі збірки для Mac OS X"
+msgstr "Тестові збірки для Mac OS X"
 
 #: downloads.html:80 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Розробницькі збірки для Ubuntu Lucid (10.04)"
+msgstr "Тестові збірки для Ubuntu Lucid (10.04)"
 
 #: downloads.html:82 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Розробницькі збірки для Ubuntu Maverick (10.10)"
+msgstr "Тестові збірки для Ubuntu Maverick (10.10)"
 
 #: downloads.html:84 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Розробницькі збірки для Ubuntu Natty (11.04)"
+msgstr "Тестові збірки для Ubuntu Natty (11.04)"
 
 #: downloads.html:86 participate.html:73
-#, fuzzy
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Розробницькі збірки для Ubuntu Oneiric (11.10)"
+msgstr "Тестові збірки для Ubuntu Oneiric (11.10)"
 
 #: downloads.html:88 participate.html:75
 msgid "Windows development builds"
-msgstr "Розробницькі збірки для Windows"
+msgstr "Тестові збірки для Windows"
 
 #: downloads.html:90 participate.html:77
 msgid "Buildbot"
@@ -415,7 +416,7 @@ msgstr "Buildbot"
 
 #: downloads.html:93 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Також доступий Ubuntu PPA для цих розробницьких збірок:"
+msgstr "Також доступний PPA Ubuntu для таких тестових збірок:"
 
 #: downloads.html:101
 msgid "Old downloads"
@@ -468,7 +469,7 @@ msgstr "Витягування міток з MusicBrainz"
 
 #: main.html:25
 msgid "Download missing album cover art from Last.fm."
-msgstr "Скачування з Last.fm обкладинок, котрих не вистачає."
+msgstr "Отримання з Last.fm обкладинок, котрих не вистачає."
 
 #: main.html:26
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -711,16 +712,3 @@ msgstr "Версія"
 
 #~ msgid "Set your status to back."
 #~ msgstr "Встановити ваш статус як \"Повернувся\"."
-
-#~ msgid "Ubuntu Lucid development builds"
-#~ msgstr "Розробницькі збірки для Ubuntu Lucid"
-
-#~ msgid "Ubuntu Maverick development builds"
-#~ msgstr "Розробницькі збірки для Ubuntu Maverick"
-
-#~ msgid ""
-#~ "We'd love to see you support Clementine by joining the Facebook page or "
-#~ "Last.fm group."
-#~ msgstr ""
-#~ "Ми були б раді, якщо б ви підтримали Clementine шляхом приєднання до "
-#~ "нашої сторінки у Facebook, або до групи у Last.fm."

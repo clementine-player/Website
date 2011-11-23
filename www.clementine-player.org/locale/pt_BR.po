@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-09 14:12+0100\n"
-"PO-Revision-Date: 2011-03-28 13:06+0000\n"
-"Last-Translator: David Sansome <me@davidsansome.com>\n"
+"POT-Creation-Date: 2011-11-23 12:07+0100\n"
+"PO-Revision-Date: 2011-10-31 18:30+0000\n"
+"Last-Translator: arnaudbienner <arnaud.bienner@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-13 19:00+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
@@ -691,16 +691,3 @@ msgstr "Versão"
 
 #~ msgid "Set your status to back."
 #~ msgstr "Gerenciador de filas no Windows 7"
-
-#~ msgid "Ubuntu Lucid development builds"
-#~ msgstr "Desenvolvimento/Construção no Ubuntu Lucid"
-
-#~ msgid "Ubuntu Maverick development builds"
-#~ msgstr "Desenvolvimento/Construção no Ubuntu Maverick"
-
-#~ msgid ""
-#~ "We'd love to see you support Clementine by joining the Facebook page or "
-#~ "Last.fm group."
-#~ msgstr ""
-#~ "Nós adoraríamos vê-lo apoiar Clementine juntando a página do Facebook ou "
-#~ "do grupo Last.fm."
