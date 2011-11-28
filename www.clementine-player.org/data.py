@@ -214,7 +214,7 @@ NEWS = [
 ]
 LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
-  "vi", "sl", "fi", "br", "tr_TR",
+  "vi", "sl", "fi", "br", "tr_TR", "ca",
 ]
 
 LANGUAGE_NAMES = {
@@ -240,7 +240,7 @@ LANGUAGE_NAMES = {
   "my": "Burmese",
   "be": "Byelorussian",
   "km": "Cambodian",
-  "ca": "Catalan",
+  "ca": "Català",
   "zh": "Chinese",
   "co": "Corsican",
   "hr": "Croatian",
