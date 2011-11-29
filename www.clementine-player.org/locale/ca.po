@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2011-11-23 12:07+0100\n"
-"PO-Revision-Date: 2011-11-28 12:01+0000\n"
+"PO-Revision-Date: 2011-11-28 20:30+0000\n"
 "Last-Translator: lordroger <transifex@rogerpueyo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -207,6 +207,13 @@ msgid ""
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
 msgstr ""
+"Aquesta versió inclou pestanyes per a les llistes de reproducció, cerca a la"
+" llista de reproducció, visualitzacions amb projectM, integració amb "
+"Magnatune, normalització de volum amb ReplayGain i transcodificació. També "
+"hem arreglat un munt d'errades - cercar a biblioteques grans ara és molt més"
+" ràpid, la reproducció a Windows és molt més fiable, els problemes de "
+"codificació de caràcters estan arreglats les llistes de reproducció remotes "
+"haurien de carregar-se correctament en tot moment."
 
 #: data.py:170
 msgid "Version 0.5 released"
@@ -228,6 +235,23 @@ msgid ""
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
+"Aquesta versió afegeix suport per a l'ús de dispositius portàtils amb "
+"Clementine. Ara podeu copiar cançons al vostre iPod, iPhone, MTP, o "
+"dispositiu d'emmagatzematge USB. Vegeu <a href=\"http://code.google.com/p"
+"/clementine-player/wiki/PortableDevices\">el wiki per a més informació</a> ."
+" S'ha afegit suport per a l'ús d'un <a href=\"http://code.google.com/p"
+"/clementine-player/wiki/WiiRemotes\">comandament de la Wii</a> com a "
+"comandament a distància. Altres característiques inclouen un gestor de "
+"llistes de reproducció, un quadre de diàleg per organitzar els arxius, "
+"ajustament automàtic de la mida de les columnes a la llista de reproducció, "
+"càrrega automàtica de la imatge de la portada inclosa en l'ID3v2, més "
+"opcions d'escaneig de la biblioteca, arrossegar i deixar anar a les llistes "
+"de reproducció, i un Hipnogripau. També s'ha reduït el temps d'arrencada més"
+" de la meitat, s'han arreglat un munt de problemes de gestió de memòria i "
+"s'ha reduït l'ús del processador durant la reproducció de música. Feu un cop"
+" d'ull al <a href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">llistat de canvis complet</a> per a més "
+"informació."
 
 #: data.py:187
 msgid "Version 0.6 released"
@@ -245,6 +269,17 @@ msgid ""
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
+"Aquesta versió incorpora dos nous espais d'informació que mostren les "
+"lletres, les estadístiques de la cançó, biografies dels artistes, fotos i "
+"llistes d'etiquetes i artistes similars. S'ha redissenyat la barra lateral "
+"(tot i que podeu tornar a la versió anterior fent-hi clic amb el botó dret),"
+" així com també s'han afegit puntuacions i comptadors de reproducció i de "
+"passades. Podeu crear llistes de reproducció inteŀligents i dinàmiques a "
+"partir de les cançons de la vostra biblioteca, i també escoltar música des "
+"de <a href=\"http://www.jamendo.com/\">Jamendo</a> i emissores de ràdio "
+"Icecast. Feu un cop d'ull al <a href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">llistat de canvis complet</a> per a més "
+"informació."
 
 #: data.py:200
 msgid "Version 0.7 released"
@@ -264,6 +299,19 @@ msgid ""
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
+"En aquesta versió el Clementine incorpora una nova eina d'edició d'etiquetes"
+" amb autocompleció i l'habilitat d'identificar automàticament la música i "
+"obtenir les etiquetes que manquen des de MusicBrainz. Ara també suporta els "
+"fulls CUE - es detecten automàticament en escanejar la biblioteca i cada "
+"pista apareix per separat. S'han dut a terme un munt de petites millores com"
+" mostrar la portada dels àlbums a la pestanya de la biblioteca, enfosquint "
+"les cançons esborrades, una opció per mostrar el fitxer al navegador, suport"
+" per a proxies de xarxa, una opció per reescanejar tota la biblioteca, i una"
+" nova eina per a la barra de desplaçament de la cançó que permet cercar més "
+"acuradament un instant de la pista. Feu un cop d'ull al <a "
+"href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">llistat de canvis complet</a> per a més "
+"informació."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -408,6 +456,8 @@ msgstr ""
 #: main.html:18
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
 msgstr ""
+"Pestanyes per a les llistes de reproducció, importació i exportació de M3U, "
+"XSPF, PLS i ASX."
 
 #: main.html:19
 msgid "CUE sheet support."
@@ -446,6 +496,7 @@ msgstr "Multi-plataforma - funciona a Windows, Mac OS X i Linux."
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr ""
+"Notificacions a l'escriptori natives a Linux (libnotify) i Mac OS X (Growl)."
 
 #: main.html:28
 msgid "Remote control using a"
@@ -488,6 +539,8 @@ msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
+"centrant-se en una interfície ràpida i fàcil d'emprar per cercar i reproduir"
+" la vostra música"
 
 #: main.html:49 main.html.py:58
 msgid "Download the latest version now"
@@ -523,17 +576,20 @@ msgstr "Necessiteu ajuda?"
 
 #: participate.html:12
 msgid "Come chat with us at the"
-msgstr "Veniu i xategeu amb nosaltres a"
+msgstr "Veniu i xategeu amb nosaltres al canal"
 
 #: participate.html:12
 msgid "channel on Freenode."
-msgstr "canal a Freenode."
+msgstr "a Freenode."
 
 #: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
 msgstr ""
+"Si us plau procureu <b>esperar-vos una estona després fer una pregunta</b> -"
+" podríem trobar-nos en fusos horaris diferents i podríem no veure la "
+"pregunta immediatament."
 
 #: participate.html:16
 msgid "Forum"
@@ -544,6 +600,8 @@ msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
 msgstr ""
+"Clementine utilitza els Grups de Google per a fòrum/llistes de correu/grup "
+"de discussió."
 
 #: participate.html:21
 msgid "Support and discussion group"
@@ -555,17 +613,21 @@ msgstr "Coŀlaboreu"
 
 #: participate.html:28
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "Reporteu errades i proposeu pedaços"
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr ""
+"Clementine utilitza Google Code per al desenvolupament i el seguiment "
+"d'incidències."
 
 #: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr ""
+"Si heu trobat una errada al Clementine, si us plau adreceu-vos al gestor "
+"d'incidències i obriu una nova incidència."
 
 #: participate.html:34
 msgid "Issue tracker"
@@ -580,6 +642,8 @@ msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
 msgstr ""
+"Si voleu traduir el Clementine a qualsevol altra llengua podeu fer-ho a la "
+"pàgina de traduccions Transifex."
 
 #: participate.html:40
 msgid ""
@@ -595,11 +659,11 @@ msgstr "Traduccions Transifex"
 
 #: participate.html:46
 msgid "Hacking"
-msgstr ""
+msgstr "Hackejant"
 
 #: participate.html:57
 msgid "How to compile Clementine from source"
-msgstr ""
+msgstr "Com compilar el Clementine des del codi font"
 
 #: participate.html:88
 msgid "Social Networking"
@@ -610,6 +674,8 @@ msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
+"Ens encantaria que donessis suport al Clementine unint-te a nosaltres a la "
+"teva xarxa social preferida!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
