@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-23 12:07+0100\n"
+"POT-Creation-Date: 2011-12-01 13:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -255,107 +255,111 @@ msgstr ""
 msgid "Latest downloads"
 msgstr ""
 
-#: downloads.html:10
+#: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr ""
 
-#: downloads.html:28
+#: downloads.html:34
+msgid "Downloads for other operating systems"
+msgstr ""
+
+#: downloads.html:53
 msgid "Ubuntu PPA"
 msgstr ""
 
-#: downloads.html:30
+#: downloads.html:55
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
 msgstr ""
 
-#: downloads.html:38 downloads.html.py:46
+#: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
 msgstr ""
 
-#: downloads.html:40
+#: downloads.html:65
 msgid "Unofficial packages"
 msgstr ""
 
-#: downloads.html:42
+#: downloads.html:67
 msgid ""
 "If you don't see your distribution listed above then someone else might have "
 "created an unofficial package for you."
 msgstr ""
 
-#: downloads.html:50
+#: downloads.html:75
 msgid "Compiling from source"
 msgstr ""
 
-#: downloads.html:52
+#: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr ""
 
-#: downloads.html:53
+#: downloads.html:78
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr ""
 
-#: downloads.html:62
+#: downloads.html:87
 msgid "Full instructions and list of dependencies"
 msgstr ""
 
-#: downloads.html:66
+#: downloads.html:91
 msgid "Bleeding edge packages"
 msgstr ""
 
-#: downloads.html:68 participate.html:48
+#: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
 msgstr ""
 
-#: downloads.html:70 participate.html:50
+#: downloads.html:95 participate.html:50
 msgid "the git repository"
 msgstr ""
 
-#: downloads.html:70 participate.html:51
+#: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
 msgstr ""
 
-#: downloads.html:74 participate.html:61
+#: downloads.html:99 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one "
 "of the hourly packages:"
 msgstr ""
 
-#: downloads.html:78 participate.html:65
+#: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
 msgstr ""
 
-#: downloads.html:80 participate.html:67
+#: downloads.html:105 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr ""
 
-#: downloads.html:82 participate.html:69
+#: downloads.html:107 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr ""
 
-#: downloads.html:84 participate.html:71
+#: downloads.html:109 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr ""
 
-#: downloads.html:86 participate.html:73
+#: downloads.html:111 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr ""
 
-#: downloads.html:88 participate.html:75
+#: downloads.html:113 participate.html:75
 msgid "Windows development builds"
 msgstr ""
 
-#: downloads.html:90 participate.html:77
+#: downloads.html:115 participate.html:77
 msgid "Buildbot"
 msgstr ""
 
-#: downloads.html:93 participate.html:80
+#: downloads.html:118 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 
-#: downloads.html:101
+#: downloads.html:126
 msgid "Old downloads"
 msgstr ""
 

@@ -492,6 +492,10 @@ body.no-sidebars #page {
   padding-right: 23px;
 }
 
+.best-download {
+  margin-bottom: 24px;
+}
+
 /* Screenshots */
 .screenshots_table {
   margin-bottom: 40px;

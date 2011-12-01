@@ -7,9 +7,34 @@
 
 <h1>{% trans "Latest downloads" %}</h1>
 
-<p>{% trans "Get the latest stable version of Clementine for your operating system." %}</p>
 
 <div class="downloadscontainer">
+  <p>{% trans "Get the latest stable version of Clementine for your operating system." %}</p>
+
+  {% if best_download %}
+    {% with best_download as d %}
+    <div class="best-download thindownload">
+      <a href="{{ download_base_url }}">
+        <img class="icon" src="/images/{{ d.os }}-logo.png" />
+      </a>
+      <span class="version">
+        <a href="{{ download_base_url }}{{ d.name }}">
+          {{ d.ver }}
+        </a>
+      </span>
+      <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
+      {% if d.arch %}
+        <p class="arch"><a href="{{ download_base_url }}{{ d.name }}">{{ d.arch }}-bit</a></p>
+      {% endif %}
+    </div>
+    {% endwith %}
+    <div style="clear: both"></div>
+
+    <p>
+      {% trans "Downloads for other operating systems" %}
+    </p>
+  {% endif %}
+
   {% for d in latest_downloads|dictsort:"os" %}
     <div class="thindownload" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
       <a href="{{ download_base_url }}{{ d.name }}">
