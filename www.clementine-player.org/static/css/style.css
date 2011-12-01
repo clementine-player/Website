@@ -158,20 +158,32 @@ a img {
   display: table-cell;
 }
 #primary-links ul li a {
-  background-image: url('/images/primary-links.png');
-  background-position: center top;
-  background-repeat: repeat-x;
   border-right:1px solid #DC8D4A;
   color: white;
   font-family: 'DuepuntozeroRegular', serif;
   font-size: 15pt;
   padding: 19px;
   text-decoration: none;
+
+  background: #454543; /* Old browsers */
+  background: -moz-linear-gradient(top, #454543 0%, #393939 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454543), color-stop(100%,#393939)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #454543 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #454543 0%,#393939 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #454543 0%,#393939 100%); /* IE10+ */
+  background: linear-gradient(top, #454543 0%,#393939 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454543', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
 }
+
 #primary-links ul li a:hover {
-  background-image: url('/images/primary-links-hover.png');
-  background-position: center top;
-  background-repeat: repeat-x;
+  background: #5b5b5b; /* Old browsers */
+  background: -moz-linear-gradient(top, #5b5b5b 0%, #393939 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#393939)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* IE10+ */
+  background: linear-gradient(top, #5b5b5b 0%,#393939 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
 }
 #primary-links ul li.first a {
   -webkit-border-bottom-left-radius: 25px;
