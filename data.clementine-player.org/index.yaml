@@ -10,3 +10,8 @@ indexes:
   - name: counter
   - name: date
     direction: asc
+
+- kind: KnownRevision
+  properties:
+  - name: project_name
+  - name: sha1

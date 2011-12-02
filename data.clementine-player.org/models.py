@@ -39,3 +39,8 @@ class Device(db.Model):
   manufacturer = db.StringProperty()
   model = db.StringProperty()
   serial = db.StringProperty()
+
+
+class KnownRevision(db.Model):
+  project_name = db.StringProperty()
+  sha1 = db.StringProperty()

@@ -149,8 +149,26 @@ class CommitPage(webapp2.RequestHandler):
     if match is not None:
       repo = match.group(1)
 
-    # Fill in all the short URLs.
-    for r in json_data['revisions']:
+    messages = []
+    new_revisions = []
+    for r in json_data["revisions"]:
+      # Check if we've ever seen this revision before.
+      query = models.KnownRevision.all(keys_only=True)
+      query.filter("project_name =", project_name)
+      query.filter("sha1 =", r["revision"])
+
+      if query.get() is not None:
+        # We've seen this one before - ignore it.
+        logging.debug("Ignoring known revision: %s" % r["revision"])
+        continue
+
+      # Record this revision so we never notify about it again.
+      entity = models.KnownRevision()
+      entity.project_name = project_name
+      entity.sha1 = r["revision"]
+      entity.put()
+
+      # It's a new revision so fill in the short URL
       url = 'http://code.google.com/p/%s/source/detail?r=%s' % (project_name, r['revision'])
       if repo is not None:
         url += '&repo=%s' % repo
@@ -164,15 +182,26 @@ class CommitPage(webapp2.RequestHandler):
         logging.error('Failed to construct short url from %s', url)
         return
 
+      # Format the message
+      messages.append('%s - %s\n%s: %s - %s' % (
+          project_name, r["author"],
+          r['revision'][:6], r['message'], r['short_url']))
+
+      new_revisions.append(r)
+
+    if not new_revisions:
+      logging.debug("All revisions had been seen before, exiting")
+      return
+
+    json_data["revisions"] = new_revisions
+
     # Notify IRC bot on Zaphod.
     rpc = urlfetch.create_rpc()
     urlfetch.make_fetch_call(rpc, self.IRC_WEBHOOK, payload=json.dumps(json_data), method=urlfetch.POST)
 
+    # Notify XMPP users
     users = [x.user.email() for x in project.followers.fetch(100)]
-    messages = []
-    for r in json_data['revisions']:
-      messages.append('%s\n%s: %s - %s' % (project_name, r['revision'][:6], r['message'], r['short_url']))
-
+    
     logging.info('Sending messages: %s', messages)
     logging.info('to users: %s', users)
 
