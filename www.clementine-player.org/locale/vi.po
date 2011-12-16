@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2011-12-01 13:40+0100\n"
-"PO-Revision-Date: 2011-12-03 04:43+0000\n"
+"PO-Revision-Date: 2011-12-16 04:13+0000\n"
 "Last-Translator: Lê Trường An <truongan@linuxmail.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "Tham gia"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Một trình phát nhạc đa nền tảng dựa trên Amarok 1.4"
+msgstr "Chương trình phát nhạc đa nền tảng dựa trên Amarok 1.4"
 
 #: base.html:69
 msgid ""
@@ -65,7 +65,7 @@ msgstr "Phụ trách trang web"
 
 #: data.py:8
 msgid "Lyrics and track slider tooltip"
-msgstr "Lời bài hát và khung trượt trên thanh thời gian"
+msgstr "Lời bài hát và ô chú thích thời gian"
 
 #: data.py:9
 msgid "MusicBrainz fixing untagged files"
@@ -77,7 +77,7 @@ msgstr "Trình chỉnh sửa thẻ mới với chức năng tự động hoàn t
 
 #: data.py:11
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Khung trượt trên thanh thời gian trong Mac OS X"
+msgstr "Ô chú thích thời gian trong Mac OS X"
 
 #: data.py:14
 msgid "Artist photos and biographies"
@@ -456,7 +456,7 @@ msgstr "Hiệu ứng hình ảnh ảo"
 
 #: main.html:21
 msgid "Lyrics and artist biographies and photos."
-msgstr "Lời bài hát, tiểu sử nghệ sĩ và các hình ảnh."
+msgstr "Lời bài hát, tiểu sử nghệ sĩ và hình ảnh."
 
 #: main.html:22
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
