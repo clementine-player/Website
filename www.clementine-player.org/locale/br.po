@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 #   <glasbarg@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2011-12-01 13:40+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-27 21:34+0000\n"
 "PO-Revision-Date: 2011-12-01 13:12+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: br\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: br\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: base.html:7
@@ -30,7 +30,7 @@ msgstr "A-zivout"
 msgid "Downloads"
 msgstr "Pellgargadennoù"
 
-#: base.html:40 main.html:74 screenshots.html:3
+#: base.html:40 main.html:108 screenshots.html:3
 msgid "Screenshots"
 msgstr "Tapadennoù-skramm"
 
@@ -44,17 +44,17 @@ msgstr "Ul lenner sonerezh lies-reizhad awenet gant Amarok 1.4"
 
 #: base.html:69
 msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
+"Clementine is Free Software under the GPL v3. This site is licensed under CC-"
+"BY-SA."
 msgstr ""
-"Clementine a zo ur poellad frank dindan al lañvaz GPL v3. Al lec'hienn-mañ a"
-" zo dindan lañvaz CC-BY-SA."
+"Clementine a zo ur poellad frank dindan al lañvaz GPL v3. Al lec'hienn-mañ a "
+"zo dindan lañvaz CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
 msgstr "Diorroadur gant :"
 
-#: base.html:70 main.html:14
+#: base.html:70 main.html:18 main.html.py:19
 msgid "and"
 msgstr "ha"
 
@@ -63,121 +63,137 @@ msgid "Website by"
 msgstr "Lec'hienn internet gant :"
 
 #: data.py:8
-msgid "Lyrics and track slider tooltip"
+msgid "Transcoding settings"
 msgstr ""
 
 #: data.py:9
-msgid "MusicBrainz fixing untagged files"
-msgstr "Tag aotomatikel an tonioù gant MusicBrainz"
+msgid "Global search finding albums on Spotify"
+msgstr ""
 
 #: data.py:10
-msgid "New tag editor with autocompletion"
+msgid "Global search options"
 msgstr ""
 
 #: data.py:11
-msgid "Track slider tooltip on Mac OS X"
+msgid "Grooveshark integration"
 msgstr ""
 
 #: data.py:14
+msgid "Lyrics and track slider tooltip"
+msgstr ""
+
+#: data.py:15
+msgid "MusicBrainz fixing untagged files"
+msgstr "Tag aotomatikel an tonioù gant MusicBrainz"
+
+#: data.py:16
+msgid "New tag editor with autocompletion"
+msgstr ""
+
+#: data.py:17
+msgid "Track slider tooltip on Mac OS X"
+msgstr ""
+
+#: data.py:20
 msgid "Artist photos and biographies"
 msgstr "Poltredi an arzour ha buhezskridoù"
 
-#: data.py:15
+#: data.py:21
 msgid "Lyrics"
 msgstr "Komzoù"
 
-#: data.py:16
+#: data.py:22
 msgid "Icecast radio stations"
 msgstr "Savlec'hioù skingomz Icecast"
 
-#: data.py:17
+#: data.py:23
 msgid "Smart playlists and kittens"
 msgstr "Roll c'hoari speredek ha kizier"
 
-#: data.py:20
+#: data.py:26
 msgid "The queue manager on Windows 7"
 msgstr "Al listenn gortoz war Windows 7"
 
-#: data.py:21
+#: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
 msgstr "Kopiañ sonerezh war un iPod adalek Ubuntu"
 
-#: data.py:22
+#: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
 msgstr "Clementine 0.5 war Ubu... ALL GLORY TO THE HYPNOTOAD"
 
-#: data.py:23
+#: data.py:29
 msgid "Clementine 0.5 on Mac OS X"
 msgstr "Clementine 0.5 war Mac OS X"
 
-#: data.py:26
+#: data.py:32
 msgid "Clementine 0.4 on Ubuntu"
 msgstr "Clementine 0.4 war Ubuntu"
 
-#: data.py:27
+#: data.py:33
 msgid "Clementine 0.4 on Windows 7"
 msgstr "Clementine 0.4 war Windows 7"
 
-#: data.py:28
+#: data.py:34
 msgid "Clementine 0.4 visualisations with projectM"
 msgstr ""
 
-#: data.py:29
+#: data.py:35
 msgid "Clementine 0.4 on Mac OS X"
 msgstr "Clementine 0.4 war Mac OS X"
 
-#: data.py:32
+#: data.py:38
 msgid "Last.fm tag radio"
 msgstr ""
 
-#: data.py:33
+#: data.py:39
 msgid "Searching the library"
 msgstr "Klask el levraoueg"
 
-#: data.py:34 data.py:40
+#: data.py:40 data.py:46
 msgid "The tag editor on Windows"
 msgstr ""
 
-#: data.py:35
+#: data.py:41
 msgid "The cover manager on Mac OS X"
 msgstr "Merour goloioù war Mac OSX"
 
-#: data.py:38
+#: data.py:44
 msgid "Playback on Linux"
 msgstr ""
 
-#: data.py:39
+#: data.py:45
 msgid "Last.fm support"
 msgstr ""
 
-#: data.py:41
+#: data.py:47
 msgid "Growl notifications on Mac OS X"
 msgstr ""
 
-#: data.py:118
+#: data.py:142
 msgid "Source code"
 msgstr "Kod mammenn"
 
-#: data.py:130
+#: data.py:157
 msgid "Source"
 msgstr "Mammenn"
 
-#: data.py:144
+#: data.py:189
 msgid "Version 0.2 released"
 msgstr ""
 
-#: data.py:145
+#: data.py:190
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:151
+#: data.py:196
 msgid "Version 0.3 released"
 msgstr ""
 
-#: data.py:152
+#: data.py:197
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -185,75 +201,91 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:160
+#: data.py:205
 msgid "Version 0.4 released"
 msgstr ""
 
-#: data.py:161
+#: data.py:206
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
+"music transcoding. We've fixed loads of bugs too - searching large libraries "
+"is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
 msgstr ""
 
-#: data.py:170
+#: data.py:215
 msgid "Version 0.5 released"
 msgstr ""
 
-#: data.py:171
+#: data.py:216
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/PortableDevices\">the wiki for more information</a>.  Support "
-"for using a <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/WiiRemotes\">Wii Remote</a> as a remote control has been added."
-"  Other features include a Queue Manager, an Organise Files dialog, "
-"automatically stretching columns in the playlist, loading embedded id3v2 "
-"cover art, more library scanning options, drag and drop between playlists, "
-"and a hypnotoad.  We've also reduced startup time by more than half, fixed a"
-" load of memory leaks and reduced CPU usage while playing music. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
+"See <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices"
+"\">the wiki for more information</a>.  Support for using a <a href=\"http://"
+"code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a> as a "
+"remote control has been added.  Other features include a Queue Manager, an "
+"Organise Files dialog, automatically stretching columns in the playlist, "
+"loading embedded id3v2 cover art, more library scanning options, drag and "
+"drop between playlists, and a hypnotoad.  We've also reduced startup time by "
+"more than half, fixed a load of memory leaks and reduced CPU usage while "
+"playing music. See the <a href=\"http://code.google.com/p/clementine-player/"
+"source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:187
+#: data.py:232
 msgid "Version 0.6 released"
 msgstr ""
 
-#: data.py:188
+#: data.py:233
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
 "artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
+"right clicking on it), and also added ratings, play counts and skip counts.  "
+"You can create smart and dynamic playlists from songs in your library, and "
+"also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</"
+"a> and Icecast radio stations. See the <a href=\"http://code.google.com/p/"
+"clementine-player/source/browse/Changelog\">full changelog</a> for more "
+"information."
 msgstr ""
 
-#: data.py:200
+#: data.py:245
 msgid "Version 0.7 released"
 msgstr ""
 
-#: data.py:201
+#: data.py:246
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
 "missing tags from MusicBrainz.  CUE sheets are now supported - they are "
 "detected automatically when scanning your library and each track will show "
 "up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show "
+"in file browser\" option, support for network proxies, a \"Full library "
 "rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
+"more accurately to a specific place in a song. See the <a href=\"http://code."
+"google.com/p/clementine-player/source/browse/Changelog\">full changelog</a> "
+"for more information."
+msgstr ""
+
+#: data.py:260
+msgid "Version 1.0 released"
+msgstr ""
+
+#: data.py:261
+msgid ""
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href="
+"\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/"
+"\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  "
+"We've also added a Global Search feature that allows you to easily find "
+"music that's either in your library or on the Internet. Other features "
+"include audio CD support, more transcoder options, an improved settings "
+"dialog, smarter album cover searches, and loads of bug fixes. See the <a "
+"href=\"http://code.google.com/p/clementine-player/source/browse/Changelog"
+"\">full changelog</a> for more information."
 msgstr ""
 
 #: downloads.html:8
@@ -288,8 +320,8 @@ msgstr "Pakadoù nann ofisiel"
 
 #: downloads.html:67
 msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
+"If you don't see your distribution listed above then someone else might have "
+"created an unofficial package for you."
 msgstr ""
 
 #: downloads.html:75
@@ -328,8 +360,8 @@ msgstr ""
 
 #: downloads.html:99 participate.html:61
 msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
+"If you'd prefer not to compile the development version yourself then try one "
+"of the hourly packages:"
 msgstr ""
 
 #: downloads.html:103 participate.html:65
@@ -368,6 +400,10 @@ msgstr ""
 msgid "Old downloads"
 msgstr ""
 
+#: downloads.html:133 screenshots.html:9
+msgid "Version"
+msgstr ""
+
 #: main.html:6
 msgid "About &amp; Features"
 msgstr ""
@@ -380,118 +416,125 @@ msgstr ""
 msgid "Listen to internet radio from"
 msgstr ""
 
-#: main.html:17
+#: main.html:22
 msgid "Create smart playlists and dynamic playlists."
 msgstr ""
 
-#: main.html:18
+#: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
 msgstr ""
 
-#: main.html:19
+#: main.html:24
 msgid "CUE sheet support."
 msgstr ""
 
-#: main.html:20
-msgid "Visualisations from"
-msgstr ""
-
-#: main.html:21
-msgid "Lyrics and artist biographies and photos."
-msgstr ""
-
-#: main.html:22
-msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
-
-#: main.html:23
-msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
-
-#: main.html:24
-msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
-
 #: main.html:25
-msgid "Download missing album cover art from Last.fm."
+msgid "Play audio CDs."
 msgstr ""
 
 #: main.html:26
-msgid "Cross-platform - works on Windows, Mac OS X and Linux."
+msgid "Visualisations from"
 msgstr ""
 
 #: main.html:27
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid "Lyrics and artist biographies and photos."
 msgstr ""
 
 #: main.html:28
-msgid "Remote control using a"
-msgstr ""
-
-#: main.html:28
-msgid "Wii Remote"
-msgstr "Wiimote"
-
-#: main.html:28
-msgid "MPRIS or the command-line."
+msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
 msgstr ""
 
 #: main.html:29
-msgid "Copy music to your"
-msgstr ""
-
-#: main.html:29
-msgid "iPod, iPhone, MTP or mass-storage USB player."
+msgid "Edit tags on MP3 and OGG files, organise your music."
 msgstr ""
 
 #: main.html:30
+msgid "Fetch missing tags from MusicBrainz."
+msgstr ""
+
+#: main.html:31
+msgid "Download missing album cover art from Last.fm and Amazon."
+msgstr ""
+
+#: main.html:32
+msgid "Cross-platform - works on Windows, Mac OS X and Linux."
+msgstr ""
+
+#: main.html:33
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgstr ""
+
+#: main.html:34
+msgid "Remote control using a"
+msgstr ""
+
+#: main.html:34
+msgid "Wii Remote"
+msgstr "Wiimote"
+
+#: main.html:34
+msgid "MPRIS or the command-line."
+msgstr ""
+
+#: main.html:35
+msgid "Copy music to your"
+msgstr ""
+
+#: main.html:35
+msgid "iPod, iPhone, MTP or mass-storage USB player."
+msgstr ""
+
+#: main.html:36
 msgid "Queue manager."
 msgstr "Listenn gortoz"
 
-#: main.html:36
+#: main.html:42
 msgid "is a modern music player and library organizer"
 msgstr ""
 
-#: main.html:40
+#: main.html:46
 msgid "Clementine is a multiplatform music player."
 msgstr "Clementine a zo ul lenner sonerezh lies-reizhad"
 
-#: main.html:41
+#: main.html:47
 msgid "It is inspired by"
 msgstr "Awenet gant"
 
-#: main.html:42
+#: main.html:48
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
 
-#: main.html:49 main.html.py:58
+#: main.html:55 main.html.py:64
 msgid "Download the latest version now"
 msgstr "Pellkargañ ar stumm diwezhan bremañ !"
 
-#: main.html:50
+#: main.html:56
 msgid "Download Clementine"
 msgstr "Pellgargañ Clementine"
 
-#: main.html:59
+#: main.html:65
 msgid "for Windows, Mac OS X and Linux"
 msgstr "evit Windows, Mac OS X ha GNU/Linux"
 
-#: main.html:64
+#: main.html:70
 msgid "Announcement"
 msgstr ""
 
-#: main.html:65
+#: main.html:71
 msgid "Changelog"
 msgstr ""
 
-#: main.html:66
+#: main.html:72
 msgid "Show all downloads"
 msgstr "Diskouez an holl pellgargadurioù"
 
-#: main.html:97
+#: main.html:79
+msgid "Grooveshark competition"
+msgstr ""
+
+#: main.html:130
 msgid "News"
 msgstr "Traoù nevez"
 
@@ -509,8 +552,8 @@ msgstr ""
 
 #: participate.html:13
 msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
+"Please remember to <b>stick around after asking a question</b> - we might be "
+"in a different timezone so won't see your question right away."
 msgstr ""
 
 #: participate.html:16
@@ -555,8 +598,8 @@ msgstr "Treiñ an etrefas"
 
 #: participate.html:39
 msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
+"If you'd like to translate Clementine into another language you can do so on "
+"the Transifex translations page."
 msgstr ""
 
 #: participate.html:40
@@ -598,9 +641,3 @@ msgstr ""
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr ""
-
-#: screenshots.html:9
-msgid "Version"
-msgstr ""
-
-

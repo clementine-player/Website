@@ -2,8 +2,14 @@
 
 def _(x): return x
 
-LATEST_VERSION = '0.7'
+LATEST_VERSION = '1.0'
 SCREENSHOTS = [
+  {'version': '1.0', 'entries': [
+    {'file': 'clementine-1.0-1.png', 'title': _('Transcoding settings')},
+    {'file': 'clementine-1.0-2.png', 'title': _('Global search finding albums on Spotify')},
+    {'file': 'clementine-1.0-3.png', 'title': _('Global search options')},
+    {'file': 'clementine-1.0-4.png', 'title': _('Grooveshark integration')},
+  ]},
   {'version': '0.7', 'entries': [
     {'file': 'clementine-0.7-1.png', 'title': _('Lyrics and track slider tooltip')},
     {'file': 'clementine-0.7-2.png', 'title': _('MusicBrainz fixing untagged files')},
@@ -43,6 +49,24 @@ SCREENSHOTS = [
 ]
 DOWNLOAD_BASE_URL = 'http://clementine-player.googlecode.com/files/'
 DOWNLOADS = [
+  {'os': 'ubuntu',      'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.0~lucid_i386.deb'},
+  {'os': 'ubuntu',      'ver': '1.0', 'arch': 64, 'name': 'clementine_1.0.0~lucid_amd64.deb'},
+  {'os': 'umaverick',   'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.0~maverick_i386.deb'},
+  {'os': 'umaverick',   'ver': '1.0', 'arch': 64, 'name': 'clementine_1.0.0~maverick_amd64.deb'},
+  {'os': 'unatty',      'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.0~natty_i386.deb'},
+  {'os': 'unatty',      'ver': '1.0', 'arch': 64, 'name': 'clementine_1.0.0~natty_amd64.deb'},
+  {'os': 'uoneiric',    'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.0~oneiric_i386.deb'},
+  {'os': 'uoneiric',    'ver': '1.0', 'arch': 64, 'name': 'clementine_1.0.0~oneiric_amd64.deb'},
+  {'os': 'squeeze',     'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.0~squeeze_i386.deb'},
+  {'os': 'squeeze',     'ver': '1.0', 'arch': 64, 'name': 'clementine_1.0.0~squeeze_amd64.deb'},
+  {'os': 'fedora15',    'ver': '1.0', 'arch': 32, 'name': 'clementine-1.0.0-1.fc15.i686.rpm'},
+  {'os': 'fedora15',    'ver': '1.0', 'arch': 64, 'name': 'clementine-1.0.0-1.fc15.x86_64.rpm'},
+  {'os': 'fedora16',    'ver': '1.0', 'arch': 32, 'name': 'clementine-1.0.0-1.fc16.i686.rpm'},
+  {'os': 'fedora16',    'ver': '1.0', 'arch': 64, 'name': 'clementine-1.0.0-1.fc16.x86_64.rpm'},
+  {'os': 'windows',     'ver': '1.0', 'arch': 0,  'name': 'ClementineSetup-1.0.0.exe'},
+  {'os': 'snowleopard', 'ver': '1.0', 'arch': 0,  'name': 'clementine-1.0.0.dmg'},
+  {'os': 'source',      'ver': '1.0', 'arch': 0,  'name': 'clementine-1.0.0.tar.gz'},
+
   {'os': 'ubuntu',      'ver': '0.7', 'arch': 32, 'name': 'clementine_0.7.1~lucid_i386.deb'},
   {'os': 'ubuntu',      'ver': '0.7', 'arch': 64, 'name': 'clementine_0.7.1~lucid_amd64.deb'},
   {'os': 'umaverick',   'ver': '0.7', 'arch': 32, 'name': 'clementine_0.7.1~maverick_i386.deb'},
@@ -119,9 +143,12 @@ DISPLAY_OS = {
   'ubuntu':      'Ubuntu Lucid (10.04)',
   'umaverick':   'Ubuntu Maverick (10.10)',
   'unatty':      'Ubuntu Natty (11.04)',
+  'uoneiric':    'Ubuntu Oneiric (11.11)',
   'squeeze':     'Debian Squeeze',
   'fedora':      'Fedora 13',
   'fedora14':    'Fedora 14',
+  'fedora15':    'Fedora 15',
+  'fedora16':    'Fedora 16',
   'windows':     'Windows',
   'leopard':     'Mac OS X Leopard',
   'snowleopard': 'Mac OS X Snow Leopard',
@@ -131,12 +158,30 @@ SHORT_DISPLAY_OS = {
   'ubuntu':      'Lucid',
   'umaverick':   'Maverick',
   'unatty':      'Natty',
+  'uoneiric':    'Oneiric',
   'squeeze':     'Squeeze',
   'fedora':      'Fedora 13',
   'fedora14':    'Fedora 14',
+  'fedora15':    'Fedora 15',
+  'fedora16':    'Fedora 16',
   'windows':     'Windows',
   'leopard':     'Mac OS X',
   'snowleopard': 'Mac OS X',
+}
+OS_LOGOS = {
+  'source':      'source-logo.png',
+  'ubuntu':      'ubuntu-logo.png',
+  'umaverick':   'ubuntu-logo.png',
+  'unatty':      'ubuntu-logo.png',
+  'uoneiric':    'ubuntu-logo.png',
+  'squeeze':     'squeeze-logo.png',
+  'fedora':      'fedora-logo.png',
+  'fedora14':    'fedora-logo.png',
+  'fedora15':    'fedora-logo.png',
+  'fedora16':    'fedora-logo.png',
+  'windows':     'windows-logo.png',
+  'leopard':     'leopard-logo.png',
+  'snowleopard': 'leopard-logo.png',
 }
 NEWS = [
   {
@@ -207,6 +252,19 @@ NEWS = [
       'songs, a "Show in file browser" option, support for network proxies, ' \
       'a "Full library rescan" option, and a new tooltip for the track slider ' \
       'that helps you seek more accurately to a specific place in a song. ' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
+      'full changelog</a> for more information.')
+  },
+  {
+    'timestamp': 1325009906,
+    'title': _('Version 1.0 released'),
+    'content': _('This release adds <a href="http://www.spotify.com">Spotify</a>, ' \
+      '<a href="http://grooveshark.com">Grooveshark</a> and ' \
+      '<a href="http://www.sky.fm/">SKY.fm</a>/<a href="http://www.di.fm/">Digitally Imported</a> ' \
+      'support.  We\'ve also added a Global Search feature that allows you to ' \
+      'easily find music that\'s either in your library or on the Internet. ' \
+      'Other features include audio CD support, more transcoder options, an ' \
+      'improved settings dialog, smarter album cover searches, and loads of bug fixes. ' \
       'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
       'full changelog</a> for more information.')
   },

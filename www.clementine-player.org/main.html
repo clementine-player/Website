@@ -8,21 +8,27 @@
 <div style="float: right; margin-top: 15px; width: 50%;" id="features">
   <ul>
     <li>{% trans "Search and play your local music library." %}</li>
-    <li>{% trans "Listen to internet radio from" %} <a href="http://last.fm/">Last.fm</a>,
+    <li>{% trans "Listen to internet radio from" %}
+      <a href="http://www.spotify.com/">Spotify</a>,
+      <a href="http://grooveshark.com/">Grooveshark</a>,
+      <a href="http://last.fm/">Last.fm</a>,
       <a href="http://somafm.com/">SomaFM</a>,
       <a href="http://magnatune.com/">Magnatune</a>,
-      <a href="http://www.jamendo.com/">Jamendo</a> {% trans "and" %}
+      <a href="http://www.jamendo.com/">Jamendo</a>,
+      <a href="http://www.sky.fm/">SKY.fm</a> {% trans "and" %} <a href="http://www.di.fm/">Digitally Imported</a>,
+      {% trans "and" %}
       <a href="http://dir.xiph.org/">Icecast</a>.
     </li>
     <li>{% trans "Create smart playlists and dynamic playlists." %}</li>
     <li>{% trans "Tabbed playlists, import and export M3U, XSPF, PLS and ASX." %}</li>
     <li>{% trans "CUE sheet support." %}</li>
+    <li>{% trans "Play audio CDs." %}</li>
     <li>{% trans "Visualisations from" %} <a href="http://projectm.sourceforge.net/">projectM</a>.</li>
     <li>{% trans "Lyrics and artist biographies and photos." %}</li>
     <li>{% trans "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC." %}</li>
     <li>{% trans "Edit tags on MP3 and OGG files, organise your music." %}</li>
     <li>{% trans "Fetch missing tags from MusicBrainz." %}</li>
-    <li>{% trans "Download missing album cover art from Last.fm." %}</li>
+    <li>{% trans "Download missing album cover art from Last.fm and Amazon." %}</li>
     <li>{% trans "Cross-platform - works on Windows, Mac OS X and Linux." %}</li>
     <li>{% trans "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)." %}</li>
     <li>{% trans "Remote control using a" %} <a href="http://code.google.com/p/clementine-player/wiki/WiiRemotes">{% trans "Wii Remote" %}</a>, {% trans "MPRIS or the command-line." %}</li>
@@ -47,7 +53,7 @@
     <div onclick="location.href='{{ download_base_url }}{{ best_download.name }}';" id="download-button">
       <p id="download-title">Clementine <span id="download-version">{{ best_download.ver }}</span></p>
       <p>{% trans "Download the latest version now" %}</p>
-      <img src="/images/{{ best_download.os }}-logo.png" id="download-logo" alt="{% trans "Download Clementine" %}" />
+      <img src="/images/{{ best_download.os_logo }}" id="download-logo" alt="{% trans "Download Clementine" %}" />
       <p id="download-os">{{ best_download.short_os }}</p>
       {% if best_download.arch %}
         <p id="download-arch">{{ best_download.arch }}-bit</p>

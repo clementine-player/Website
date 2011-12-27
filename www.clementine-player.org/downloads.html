@@ -38,7 +38,7 @@
   {% for d in latest_downloads|dictsort:"os" %}
     <div class="thindownload" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
       <a href="{{ download_base_url }}{{ d.name }}">
-        <img class="icon" src="/images/{{ d.os }}-logo.png" />
+        <img class="icon" src="/images/{{ d.os_logo }}" />
       </a>
       <span class="version"><a href="{{ download_base_url }}{{ d.name }}">{{ d.ver }}</a></span>
       <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
@@ -125,19 +125,27 @@ sudo apt-get install clementine</pre>
 <hr class="division" />
 <h1>{% trans "Old downloads" %}</h1>
 
-<div class="downloadscontainer">
-  {% for d in old_downloads|dictsortreversed:"ver" %}
-    <div class="thindownload old" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
-      <a href="{{ download_base_url }}{{ d.name }}">
-        <img class="icon" src="/images/{{ d.os }}-logo.png" />
-      </a>
-      <span class="version"><a href="{{ download_base_url }}{{ d.name }}">{{ d.ver }}</a></span>
-      <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
+{% for d in old_downloads|dictsortreversed:"ver" %}
+  {% ifchanged d.ver %}
+    {% if not forloop.first %}
+      </ul>
+    {% endif %}
+    <h2>{% trans "Version" %} {{ d.ver }}</h2>
+    <ul>
+  {% endifchanged %}
+
+  <li>
+    <a href="{{ download_base_url }}{{ d.name }}">
+      {{ d.display_os }}
       {% if d.arch %}
-        <p class="arch"><a href="{{ download_base_url }}{{ d.name }}">{{ d.arch }}-bit</a></p>
+        {{ d.arch }}-bit
       {% endif %}
-    </div>
-  {% endfor %}
-</div>
+    </a>
+  </li>
+
+  {% if forloop.last %}
+    </ul>
+  {% endif %}
+{% endfor %}
 
 {% endblock %}

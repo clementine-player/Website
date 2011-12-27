@@ -3,7 +3,7 @@
 import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 from google.appengine.dist import use_library
-use_library('django', '1.1')
+use_library('django', '1.2')
 
 # This has to be done before loading google.appengine.ext.webapp.template
 import django.conf
@@ -65,6 +65,7 @@ class BasePage(webapp.RequestHandler):
       short_display_os = SHORT_DISPLAY_OS[d['os']]
       d['display_os'] = _(display_os)
       d['short_os'] = _(short_display_os)
+      d['os_logo'] = OS_LOGOS[d['os']]
 
     # Add datetime objects to the list of news
     news = copy.deepcopy(NEWS)
