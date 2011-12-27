@@ -60,10 +60,18 @@ li {
 ul {
   list-style-image: url(/images/bullet.png);
 }
+ol {
+  color: rgb(253, 145, 70);
+  font-weight: bold;
+}
+ol p {
+  color: black;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
 p, ul, ol {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-size: 100%;
 }
 li {
   margin: 0px;
@@ -408,6 +416,11 @@ body.sidebar-right #page {
   margin-left: 40px;
 }
 
+.textdownload {
+  float: left;
+  width: 349px;
+}
+
 .thindownload {
   float: left;
   width: 349px;
@@ -424,14 +437,6 @@ body.sidebar-right #page {
 .thindownload a {
   text-decoration: none;
   color: white;
-}
-
-.thindownload.old {
-  opacity: 0.75;
-}
-
-.thindownload.old .version > a {
-  color: grey;
 }
 
 .thindownload:hover {
@@ -525,4 +530,13 @@ pre {
 
 span.language {
   font-weight: bold;
+}
+
+div .grooveshark-logo {
+  float: left;
+  width: 85px;
+}
+
+div .grooveshark-text {
+  margin-left: 110px;
 }
