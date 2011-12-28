@@ -143,7 +143,7 @@ DISPLAY_OS = {
   'ubuntu':      'Ubuntu Lucid (10.04)',
   'umaverick':   'Ubuntu Maverick (10.10)',
   'unatty':      'Ubuntu Natty (11.04)',
-  'uoneiric':    'Ubuntu Oneiric (11.11)',
+  'uoneiric':    'Ubuntu Oneiric (11.10)',
   'squeeze':     'Debian Squeeze',
   'fedora':      'Fedora 13',
   'fedora14':    'Fedora 14',
