@@ -287,7 +287,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Cette version intègre <a href="http://www.spotify.com">Spotify</a>, <a href="http://grooveshark.com">Grooveshark</a> et <a href="http://www.sky.fm/">SKY.fm</a>/<a href="http://www.di.fm/">Digitally Imported</a>. Nous avons aussi ajouté la fonctionnalité de « Recherche globale » qui permet de rechercher facilement de la musique dans votre bibliothèque locale ou sur Internet. Les autres ajouts sont le support des CD audio, d'avantage d'options pour le transcodeur, une fenêtre des préférences améliorée, une recherche de pochette plus intelligente, et beaucoup de corrections diverses."
+msgstr "Cette version intègre <a href="http://www.spotify.com">Spotify</a>, <a href="http://grooveshark.com">Grooveshark</a> et <a href="http://www.sky.fm/">SKY.fm</a>/<a href="http://www.di.fm/">Digitally Imported</a>. Nous avons aussi ajouté la fonctionnalité de « Recherche globale » qui permet de rechercher facilement de la musique dans votre bibliothèque locale ou sur Internet. Les autres ajouts sont le support des CD audio, d'avantage d'options pour le transcodeur, une fenêtre des préférences améliorée, une recherche de pochette plus intelligente, et beaucoup de corrections diverses. Voir les <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">notes de versions</a> pour plus d'informations."
 
 #: downloads.html:8
 msgid "Latest downloads"

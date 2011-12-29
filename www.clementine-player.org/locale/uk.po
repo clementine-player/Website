@@ -61,19 +61,19 @@ msgstr "Веб-сайт розроблено"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Налаштування перекодування"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Пошук альбомів у Spotify за допомогою глобального пошуку"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Налаштування глобального пошуку"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Інтеграція Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -271,7 +271,7 @@ msgstr "У цьому випуску Clementine отримав новий діа
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Випущено версію 1.0"
 
 #: data.py:261
 msgid ""
@@ -285,7 +285,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Цей випуск включає підтримку <a href="http://www.spotify.com">Spotify</a>, <a href="http://grooveshark.com">Grooveshark</a> and <a href="http://www.sky.fm/">SKY.fm</a>/<a href="http://www.di.fm/">Digitally Imported</a>.  Ми також додали глобальний пошук, що дозволяє вам легко шукати музику як у вашій бібліотеці, так і в інтернеті. Інші можливості включають підтримку музичних CD, більше можливостей перекодування, покращений діалог налаштувань, розумніший пошук обкладинок. Шукайте більше інформації в <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">повному списку змін</a>."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -429,7 +429,7 @@ msgstr "Підтримка листів CUE"
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Відтворення музичних CD."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -453,7 +453,7 @@ msgstr "Витягування міток з MusicBrainz"
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Завантаження відсутніх обкладинок з Lasf.fm та Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -532,7 +532,7 @@ msgstr "Усі завантаження"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Конкурс Grooveshark"
 
 #: main.html:130
 msgid "News"
