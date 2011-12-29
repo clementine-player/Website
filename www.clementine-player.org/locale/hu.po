@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+#
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-12-01 13:12+0000\n"
+"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
@@ -43,9 +43,11 @@ msgstr "Egy keresztplatformos zenelejátszó az Amarok 1.4 alapjain"
 
 #: base.html:69
 msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
-msgstr "A Clementine egy szabad szoftver a GPL v3 licenc alatt. Ez az oldal a CC-BY-SA licenc alatt érhető el."
+"Clementine is Free Software under the GPL v3. This site is licensed under CC-"
+"BY-SA."
+msgstr ""
+"A Clementine egy szabad szoftver a GPL v3 licenc alatt. Ez az oldal a CC-BY-"
+"SA licenc alatt érhető el."
 
 #: base.html:70
 msgid "Development by"
@@ -184,7 +186,10 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Alig több, mint egy hónapja jelent meg a Clementine első verziója, és már itt az új verzió borítókezelővel, javított "különböző előadók" felismeréssel, lejátszási lista támogatással és számtalan mással."
+msgstr ""
+"Alig több, mint egy hónapja jelent meg a Clementine első verziója, és már "
+"itt az új verzió borítókezelővel, javított \"különböző előadók\" "
+"felismeréssel, lejátszási lista támogatással és számtalan mással."
 
 #: data.py:196
 msgid "Version 0.3 released"
@@ -196,7 +201,12 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Ebben a kiadásban GStreamerre váltottunk minden platformon, ennek hála az analizátor és az átúsztatás a számok között már Windowson is működik. Új funkciók: hangszínszabályzó, még több csoportosítási lehetőség a zenetárban, szebb OSD, távvezérlés parancssorról és MPRIS-ről, valamint könnyebb száminformáció szerkesztés."
+msgstr ""
+"Ebben a kiadásban GStreamerre váltottunk minden platformon, ennek hála az "
+"analizátor és az átúsztatás a számok között már Windowson is működik. Új "
+"funkciók: hangszínszabályzó, még több csoportosítási lehetőség a zenetárban, "
+"szebb OSD, távvezérlés parancssorról és MPRIS-ről, valamint könnyebb "
+"száminformáció szerkesztés."
 
 #: data.py:205
 msgid "Version 0.4 released"
@@ -206,11 +216,17 @@ msgstr "A 0.4-es verzió megjelent"
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
+"music transcoding. We've fixed loads of bugs too - searching large libraries "
+"is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Ezen kiadás újdonságai közé tartozik a többlapos lejátszási listák, a bennük való keresés lehetősége, a projectM megjelenítések, Magnatune integráció, ReplayGain hangerő kiegyenlítés, valamint a zeneszámok átkódolása. Számtalan programhibát javítottunk, a nagyméretű zenetárakban való keresés gyorsabbá vált, a Windowson való lejátszás stabilabb lett, a karakter kódolási hibákat javítottuk és a távoli lejátszási listák hibátlanul töltődnek be ezentúl."
+msgstr ""
+"Ezen kiadás újdonságai közé tartozik a többlapos lejátszási listák, a bennük "
+"való keresés lehetősége, a projectM megjelenítések, Magnatune integráció, "
+"ReplayGain hangerő kiegyenlítés, valamint a zeneszámok átkódolása. Számtalan "
+"programhibát javítottunk, a nagyméretű zenetárakban való keresés gyorsabbá "
+"vált, a Windowson való lejátszás stabilabb lett, a karakter kódolási hibákat "
+"javítottuk és a távoli lejátszási listák hibátlanul töltődnek be ezentúl."
 
 #: data.py:215
 msgid "Version 0.5 released"
@@ -220,18 +236,31 @@ msgstr "A 0.5-ös verzió megjelent"
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/PortableDevices\">the wiki for more information</a>.  Support "
-"for using a <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/WiiRemotes\">Wii Remote</a> as a remote control has been added."
-"  Other features include a Queue Manager, an Organise Files dialog, "
-"automatically stretching columns in the playlist, loading embedded id3v2 "
-"cover art, more library scanning options, drag and drop between playlists, "
-"and a hypnotoad.  We've also reduced startup time by more than half, fixed a"
-" load of memory leaks and reduced CPU usage while playing music. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Ez a kiadás hordozható eszköztámogatással bővült. Ezentúl számokat másolhatsz iPodra, iPhonera, MTP-re vagy bármilyen USB-s adathordozó alapú eszközre. Tekintsd meg a <a href="http://code.google.com/p/clementine-player/wiki/PortableDevices">wiki oldalunkat</a> további információkért. Távvezérlési lehetőségként mostantól a <a href="http://code.google.com/p/clementine-player/wiki/WiiRemotes">Wii vezérlődet</a> is használhatod. További újdonság a sorkezelő, fájlok rendezése ablak, a lejátszási listán automatikusan méreteződnek az oszlopok, a beágyazott id3v2 album borítok megjelenítése, még több zenetár szűrési lehetőség, "fogd és ejtsd" a lejátszási listák között, valamint egy hypnotoad. Ezeken felül az indulási időt több, mint felére csökkentettük, rengeteg memória kezelési hibát javítottunk és a processzorhasználat is csökkent lejátszás közben. Tekintsd meg a <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">teljes kiadási jegyzéket</a> további információkért."
+"See <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices"
+"\">the wiki for more information</a>.  Support for using a <a href=\"http://"
+"code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a> as a "
+"remote control has been added.  Other features include a Queue Manager, an "
+"Organise Files dialog, automatically stretching columns in the playlist, "
+"loading embedded id3v2 cover art, more library scanning options, drag and "
+"drop between playlists, and a hypnotoad.  We've also reduced startup time by "
+"more than half, fixed a load of memory leaks and reduced CPU usage while "
+"playing music. See the <a href=\"http://code.google.com/p/clementine-player/"
+"source/browse/Changelog\">full changelog</a> for more information."
+msgstr ""
+"Ez a kiadás hordozható eszköztámogatással bővült. Ezentúl számokat "
+"másolhatsz iPodra, iPhonera, MTP-re vagy bármilyen USB-s adathordozó alapú "
+"eszközre. Tekintsd meg a <a href=\"http://code.google.com/p/clementine-"
+"player/wiki/PortableDevices\">wiki oldalunkat</a> további információkért. "
+"Távvezérlési lehetőségként mostantól a <a href=\"http://code.google.com/p/"
+"clementine-player/wiki/WiiRemotes\">Wii vezérlődet</a> is használhatod. "
+"További újdonság a sorkezelő, fájlok rendezése ablak, a lejátszási listán "
+"automatikusan méreteződnek az oszlopok, a beágyazott id3v2 album borítok "
+"megjelenítése, még több zenetár szűrési lehetőség, \"fogd és ejtsd\" a "
+"lejátszási listák között, valamint egy hypnotoad. Ezeken felül az indulási "
+"időt több, mint felére csökkentettük, rengeteg memória kezelési hibát "
+"javítottunk és a processzorhasználat is csökkent lejátszás közben. Tekintsd "
+"meg a <a href=\"http://code.google.com/p/clementine-player/source/browse/"
+"Changelog\">teljes kiadási jegyzéket</a> további információkért."
 
 #: data.py:232
 msgid "Version 0.6 released"
@@ -242,13 +271,22 @@ msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
 "artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Ez a verzió két új információs panelt tartalmaz, melyek dalszövegeket, szám statisztikákat, előadó biográfiákat, fényképeket, címkelistákat és hasonló előadókat tartalmaznak. Új felületet terveztünk az oldalsávnak (jobb klikkel visszaállítható), értékelhetővé tettük a számokat, lejátszás- és kihagyásszámlálót is hozzáadtunk. Létrehozhatsz intelligens és dinamikus lejátszási listákat a zenetáradban lévő dalokból és <a href="http://www.jamendo.com/">Jamendo</a> vagy Icecast rádióállomásokat is hallgathatsz. Tekintsd meg a <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">teljes kiadásjegyzéket</a> további információkért."
+"right clicking on it), and also added ratings, play counts and skip counts.  "
+"You can create smart and dynamic playlists from songs in your library, and "
+"also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</"
+"a> and Icecast radio stations. See the <a href=\"http://code.google.com/p/"
+"clementine-player/source/browse/Changelog\">full changelog</a> for more "
+"information."
+msgstr ""
+"Ez a verzió két új információs panelt tartalmaz, melyek dalszövegeket, szám "
+"statisztikákat, előadó biográfiákat, fényképeket, címkelistákat és hasonló "
+"előadókat tartalmaznak. Új felületet terveztünk az oldalsávnak (jobb klikkel "
+"visszaállítható), értékelhetővé tettük a számokat, lejátszás- és "
+"kihagyásszámlálót is hozzáadtunk. Létrehozhatsz intelligens és dinamikus "
+"lejátszási listákat a zenetáradban lévő dalokból és <a href=\"http://www."
+"jamendo.com/\">Jamendo</a> vagy Icecast rádióállomásokat is hallgathatsz. "
+"Tekintsd meg a <a href=\"http://code.google.com/p/clementine-player/source/"
+"browse/Changelog\">teljes kiadásjegyzéket</a> további információkért."
 
 #: data.py:245
 msgid "Version 0.7 released"
@@ -261,30 +299,41 @@ msgid ""
 "missing tags from MusicBrainz.  CUE sheets are now supported - they are "
 "detected automatically when scanning your library and each track will show "
 "up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show "
+"in file browser\" option, support for network proxies, a \"Full library "
 "rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "A Clementine ebben a kiadásban egy új címkeszerkesztőt kapott automatikus kiegészítési lehetőséggel, valamint képes automatikusan felismerni a zeneszámot és a MusicBrainzről letölteni a címkéket. Ezentúl a CUE fájlok is támogatottak - a zenetár frissítésekor automatikusan felismeri őket a Clementine és minden általa leírt szám külön jelenik meg. Számos apró fejlesztést végeztünk, mint például az albumborítók megjelennek a zenetárban, a törölt számok kiszürkülnek, lehetőség van a számok megtekintésére fájlkezelőben, valamint a szám léptetőn egy felugró súgó jelenik meg, ami segít pontosabban navigálni a számon  belül. Tekintsd meg a <a href="http://code.google.com/p/clementine-player/source/browse/trunk/Changelog">teljes kiadásjegyzéket</a> további információkért."
+"more accurately to a specific place in a song. See the <a href=\"http://code."
+"google.com/p/clementine-player/source/browse/Changelog\">full changelog</a> "
+"for more information."
+msgstr ""
+"A Clementine ebben a kiadásban egy új címkeszerkesztőt kapott automatikus "
+"kiegészítési lehetőséggel, valamint képes automatikusan felismerni a "
+"zeneszámot és a MusicBrainzről letölteni a címkéket. Ezentúl a CUE fájlok is "
+"támogatottak - a zenetár frissítésekor automatikusan felismeri őket a "
+"Clementine és minden általa leírt szám külön jelenik meg. Számos apró "
+"fejlesztést végeztünk, mint például az albumborítók megjelennek a "
+"zenetárban, a törölt számok kiszürkülnek, lehetőség van a számok "
+"megtekintésére fájlkezelőben, valamint a szám léptetőn egy felugró súgó "
+"jelenik meg, ami segít pontosabban navigálni a számon  belül. Tekintsd meg a "
+"<a href=\"http://code.google.com/p/clementine-player/source/browse/trunk/"
+"Changelog\">teljes kiadásjegyzéket</a> további információkért."
 
 #: data.py:260
+#, fuzzy
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "A 0.2-es verzió megjelent"
 
 #: data.py:261
 msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
-"/clementine-player/source/browse/Changelog\">full changelog</a> for more "
-"information."
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href="
+"\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/"
+"\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  "
+"We've also added a Global Search feature that allows you to easily find "
+"music that's either in your library or on the Internet. Other features "
+"include audio CD support, more transcoder options, an improved settings "
+"dialog, smarter album cover searches, and loads of bug fixes. See the <a "
+"href=\"http://code.google.com/p/clementine-player/source/browse/Changelog"
+"\">full changelog</a> for more information."
 msgstr ""
 
 #: downloads.html:8
@@ -293,7 +342,9 @@ msgstr "Legfrissebb letöltések"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Töltsd le a legfrissebb stabil Clementine verziót az operációs rendszered kiválasztásával."
+msgstr ""
+"Töltsd le a legfrissebb stabil Clementine verziót az operációs rendszered "
+"kiválasztásával."
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
@@ -319,9 +370,11 @@ msgstr "Nem hivatalos csomagok"
 
 #: downloads.html:67
 msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
-msgstr "Ha nem találod a saját disztribúciódat fent sorolva, akkor lehetséges, hogy más már készített egy nem hivatalos csomagot számodra."
+"If you don't see your distribution listed above then someone else might have "
+"created an unofficial package for you."
+msgstr ""
+"Ha nem találod a saját disztribúciódat fent sorolva, akkor lehetséges, hogy "
+"más már készített egy nem hivatalos csomagot számodra."
 
 #: downloads.html:75
 msgid "Compiling from source"
@@ -335,7 +388,9 @@ msgstr "A Clementine fordítása forrásból könnyű Linuxon."
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Az alábbi listából kiválasztva töltsd le a forráscsomagot, és egy terminál ablakban add ki az alábbiakat:"
+msgstr ""
+"Az alábbi listából kiválasztva töltsd le a forráscsomagot, és egy terminál "
+"ablakban add ki az alábbiakat:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
@@ -359,9 +414,11 @@ msgstr "Töltsd le a legfrissebb kódot az alábbi paranccsal:"
 
 #: downloads.html:99 participate.html:61
 msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "Ha a fejlesztői változatot nem szeretnéd forrásból fordítva kipróbálni, akkor töltsd le inkább valamelyik óránként készülő csomagunkat:"
+"If you'd prefer not to compile the development version yourself then try one "
+"of the hourly packages:"
+msgstr ""
+"Ha a fejlesztői változatot nem szeretnéd forrásból fordítva kipróbálni, "
+"akkor töltsd le inkább valamelyik óránként készülő csomagunkat:"
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
@@ -421,7 +478,9 @@ msgstr "Hozz létre intelligens és dinamikus lejátszási listákat."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Többlapos lejátszási listák. M3U, XSPF, PLS és ASX importálása és exportálása."
+msgstr ""
+"Többlapos lejátszási listák. M3U, XSPF, PLS és ASX importálása és "
+"exportálása."
 
 #: main.html:24
 msgid "CUE sheet support."
@@ -441,7 +500,8 @@ msgstr "Dalszövegek, biográfia és képek az előadótól."
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Zeneszámok átkódolása MP3, Ogg Vorbis, Ogg Speex, FLAC és AAC formátumokra."
+msgstr ""
+"Zeneszámok átkódolása MP3, Ogg Vorbis, Ogg Speex, FLAC és AAC formátumokra."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -452,16 +512,16 @@ msgid "Fetch missing tags from MusicBrainz."
 msgstr "Hiányzó számcímkék kiegészítése MusicBrainz segítségével"
 
 #: main.html:31
+#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Töltsd le a hiányzó album borítót a Last.fm-ről."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Keresztplatformos - Windows, Mac OS X és Linux alatt is futtatható."
 
 #: main.html:33
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Natív rendszerértesítések Linuxon (libnotify) és Mac OS X-en (Growl)."
 
 #: main.html:34
@@ -504,7 +564,9 @@ msgstr "Alapjait adja az"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "előtérbe helyezve a gyors és könnyen használható felületet a zenéid rendszerezésére és lejátszására."
+msgstr ""
+"előtérbe helyezve a gyors és könnyen használható felületet a zenéid "
+"rendszerezésére és lejátszására."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
@@ -552,9 +614,11 @@ msgstr "csatornán a Freenode hálózatán."
 
 #: participate.html:13
 msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "Kérjük vedd figyelembe, hogy eltérő időzónákban élhetünk, így nem biztos, hogy azonnal tudunk válaszolni a kérdéseidre, <b>légy türelmes</b>."
+"Please remember to <b>stick around after asking a question</b> - we might be "
+"in a different timezone so won't see your question right away."
+msgstr ""
+"Kérjük vedd figyelembe, hogy eltérő időzónákban élhetünk, így nem biztos, "
+"hogy azonnal tudunk válaszolni a kérdéseidre, <b>légy türelmes</b>."
 
 #: participate.html:16
 msgid "Forum"
@@ -564,7 +628,9 @@ msgstr "Fórum"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "A Clementine a Google Csoportokat használja fórumnak, levelezési listának és általános vitacsoportnak."
+msgstr ""
+"A Clementine a Google Csoportokat használja fórumnak, levelezési listának és "
+"általános vitacsoportnak."
 
 #: participate.html:21
 msgid "Support and discussion group"
@@ -580,13 +646,16 @@ msgstr "Hibák jelentése és javaslattételek"
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr "A Clementine a Google Codeot használja fejlesztői és visszajelzés követéshez."
+msgstr ""
+"A Clementine a Google Codeot használja fejlesztői és visszajelzés követéshez."
 
 #: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Ha hibát találtál a Clementineben, kérjük használd a hibakövetőnket a bejelentéshez."
+msgstr ""
+"Ha hibát találtál a Clementineben, kérjük használd a hibakövetőnket a "
+"bejelentéshez."
 
 #: participate.html:34
 msgid "Issue tracker"
@@ -598,15 +667,19 @@ msgstr "A felület fordítása"
 
 #: participate.html:39
 msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
-msgstr "Ha más nyelvre szeretnéd a Clementinet fordítani, akkor a Transifex fordítói oldalán megteheted."
+"If you'd like to translate Clementine into another language you can do so on "
+"the Transifex translations page."
+msgstr ""
+"Ha más nyelvre szeretnéd a Clementinet fordítani, akkor a Transifex fordítói "
+"oldalán megteheted."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "A Transifexon közvetlenül is fordíthatsz, vagy letölthetsz egy .po fájlt, amit készen elküldhetsz számunkra emailben."
+msgstr ""
+"A Transifexon közvetlenül is fordíthatsz, vagy letölthetsz egy .po fájlt, "
+"amit készen elküldhetsz számunkra emailben."
 
 #: participate.html:43
 msgid "Transifex translations"
@@ -628,7 +701,9 @@ msgstr "Közösségi háló"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Szívesen vesszük a támogatásod azáltal, hogy csatlakozol közénk a kedvenc közösségi hálózatodon!"
+msgstr ""
+"Szívesen vesszük a támogatásod azáltal, hogy csatlakozol közénk a kedvenc "
+"közösségi hálózatodon!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -641,4 +716,3 @@ msgstr "Clementine a Twitteren"
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine a Last.fm-en"
-
