@@ -14,7 +14,7 @@
   {% if best_download %}
     {% with best_download as d %}
     <div class="best-download thindownload">
-      <a href="{{ download_base_url }}">
+      <a href="{{ download_base_url }}{{ d.name }}">
         <img class="icon" src="/images/{{ d.os }}-logo.png" />
       </a>
       <span class="version">
