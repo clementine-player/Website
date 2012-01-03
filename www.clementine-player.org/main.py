@@ -90,9 +90,9 @@ class BasePage(webapp.RequestHandler):
       best_download = self.FindDownload('snowleopard')
     elif 'fedora' in ua:
       if '64' in ua:
-        best_download = self.FindDownload('fedora', 64)
+        best_download = self.FindDownload('fedora16', 64)
       else:
-        best_download = self.FindDownload('fedora', 32)
+        best_download = self.FindDownload('fedora16', 32)
     elif 'maverick' in ua:
       if '64' in ua:
         best_download = self.FindDownload('umaverick', 64)
@@ -112,6 +112,7 @@ class BasePage(webapp.RequestHandler):
       short_display_os = SHORT_DISPLAY_OS[best_download['os']]
       best_download['display_os'] = _(display_os)
       best_download['short_os'] = _(short_display_os)
+      best_download['os_logo'] = OS_LOGOS[best_download['os']]
 
     languages = [{'code': x, 'name': LANGUAGE_NAMES[x], 'current': x == language} for x in LANGUAGES]
 
