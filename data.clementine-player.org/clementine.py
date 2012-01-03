@@ -88,7 +88,7 @@ class VersionsPage(webapp2.RequestHandler):
   def post(self):
     new_version = models.Version(
         platform       = self.request.get('platform'),
-        revision       = int(self.request.get('revision', 0)),
+        revision       = self.request.get('revision'),
         version        = self.request.get('version'),
         signature      = self.request.get('signature'),
         download_link  = self.request.get('download_link'),

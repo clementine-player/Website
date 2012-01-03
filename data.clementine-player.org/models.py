@@ -13,7 +13,7 @@ class Follower(db.Model):
 
 class Version(db.Model):
   platform = db.StringProperty()
-  revision = db.IntegerProperty()
+  revision = db.StringProperty()
   version = db.StringProperty(required=True)
 
   download_link = db.LinkProperty(required=True)
