@@ -3,3 +3,6 @@
 bulkloader-log-*
 bulkloader-progress-*
 bulkloader-results-*
+.tx
+www.clementine-player.org/locale/??/
+www.clementine-player.org/locale/??_??/
