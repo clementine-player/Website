@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-20 05:15+0000\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2011-12-30 08:42+0000\n"
 "Last-Translator: Lê Trường An <truongan@linuxmail.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -31,7 +31,7 @@ msgstr "Giới thiệu"
 msgid "Downloads"
 msgstr "Tải về"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Ảnh chụp"
 
@@ -65,19 +65,19 @@ msgstr "Phụ trách trang web"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Thiết lập chuyển mã"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Tìm kiếm album trên Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Tùy chọn tìm kiếm"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Tích hợp Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -320,9 +320,8 @@ msgstr ""
 "sách các thay đổi</a> để biết thêm thông tin."
 
 #: data.py:260
-#, fuzzy
 msgid "Version 1.0 released"
-msgstr "Phiên bản 0.2 đã được phát hành"
+msgstr "Phiên bản 1.0 đã được phát hành"
 
 #: data.py:261
 msgid ""
@@ -336,6 +335,15 @@ msgid ""
 "href=\"http://code.google.com/p/clementine-player/source/browse/Changelog"
 "\">full changelog</a> for more information."
 msgstr ""
+"Bản phát hành này thêm hỗ trợ cho<a href=\"http://www.spotify.com\">Spotify</"
+"a>, <a href=\"http://grooveshark.com\">Grooveshark</a> và <a href=\"http://"
+"www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</"
+"a>. Chức năng tìm kiếm mới cho phép tìm nhạc trong thư viện và trên các dịch "
+"vụ Internet. Các tính năng khác bao gồm hỗ trợ đĩa nhạc, thêm tùy chọn "
+"chuyển mã, hộp thoại tùy chỉnh được cải tiến, tìm ảnh bìa hiệu quả hơn, và "
+"nhiều cải thiện/sửa lỗi khác. Xem <a href=\"http://code.google.com/p/"
+"clementine-player/source/browse/Changelog\">danh sách các thay đổi</a> để "
+"biết thêm thông tin."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -465,7 +473,7 @@ msgstr "Giới thiệu ứng dụng &amp; Các tính năng"
 
 #: main.html:10
 msgid "Search and play your local music library."
-msgstr "Tìm kiếm và phát thư viện nhạc của bạn."
+msgstr "Tìm kiếm và phát thư viện nhạc."
 
 #: main.html:11
 msgid "Listen to internet radio from"
@@ -485,7 +493,7 @@ msgstr "Hỗ trợ danh sách CUE."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Phát CD nhạc."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -505,12 +513,11 @@ msgstr "Chỉnh sửa các thẻ trên các tập tin MP3 và OGG, tổ chức c
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Tải các thẻ bị thiếu từ MusicBrainz."
+msgstr "Tải thông tin bị thiếu từ MusicBrainz."
 
 #: main.html:31
-#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Tải các bìa album còn thiếu từ Last.fm."
+msgstr "Tải ảnh bìa cho album từ Last.fm và Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -534,11 +541,11 @@ msgstr "MPRIS hay dòng lệnh."
 
 #: main.html:35
 msgid "Copy music to your"
-msgstr "Sao chép nhạc vào"
+msgstr "Chép nhạc vào"
 
 #: main.html:35
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP hoặc thiết bị chơi nhạc có giao tiếp USB."
+msgstr "iPod, iPhone, MTP hoặc thiết bị phát nhạc có giao tiếp USB."
 
 #: main.html:36
 msgid "Queue manager."
@@ -550,7 +557,7 @@ msgstr "là một trình chơi nhạc và tổ chức thư viện nhạc hiện 
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine là một chương trình chơi nhạc đa nền tảng."
+msgstr "Clementine là một chương trình phát nhạc đa nền tảng."
 
 #: main.html:47
 msgid "It is inspired by"
@@ -561,7 +568,7 @@ msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
-"tập trung vào một giao diện nhanh và dễ sử dụng để tìm kiếm và chơi nhạc."
+"tập trung vào một giao diện nhanh, dễ sử dụng để tìm kiếm và phát nhạc."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
@@ -589,9 +596,9 @@ msgstr "Hiển thị tất cả tải về"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Tranh tài Grooveshark"
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Tin tức"
 

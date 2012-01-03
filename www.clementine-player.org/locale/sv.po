@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-01 13:12+0000\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2011-12-27 21:44+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -29,7 +29,7 @@ msgstr "Om"
 msgid "Downloads"
 msgstr "Hämtningar"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Skärmbilder"
 
@@ -309,9 +309,8 @@ msgid ""
 msgstr ""
 
 #: data.py:260
-#, fuzzy
 msgid "Version 1.0 released"
-msgstr "Version 0.2 släppt"
+msgstr ""
 
 #: data.py:261
 msgid ""
@@ -501,9 +500,8 @@ msgid "Fetch missing tags from MusicBrainz."
 msgstr ""
 
 #: main.html:31
-#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Hämta saknade albumomslag från Last.fm."
+msgstr ""
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -587,7 +585,7 @@ msgstr "Visa alla hämtningar"
 msgid "Grooveshark competition"
 msgstr ""
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Nyheter"
 

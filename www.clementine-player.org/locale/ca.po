@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-11 19:36+0000\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2011-12-27 23:33+0000\n"
 "Last-Translator: Roger Pueyo Centelles <transifex@rogerpueyo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -30,7 +30,7 @@ msgstr "Quant a"
 msgid "Downloads"
 msgstr "Descàrregues"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Captures de pantalla"
 
@@ -64,19 +64,19 @@ msgstr "Pàgina web per"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Opcions de transcodificació"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Cerca global incloent àlbums de Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Opcions globals de cerca"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Integració amb Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -327,9 +327,8 @@ msgstr ""
 "canvis complet</a> per a més informació."
 
 #: data.py:260
-#, fuzzy
 msgid "Version 1.0 released"
-msgstr "Versió 0.2 alliberada"
+msgstr "Versió 1.0 alliberada"
 
 #: data.py:261
 msgid ""
@@ -343,6 +342,16 @@ msgid ""
 "href=\"http://code.google.com/p/clementine-player/source/browse/Changelog"
 "\">full changelog</a> for more information."
 msgstr ""
+"Aquesta versió afegeix suport per a <a href=\"http://www.spotify.com"
+"\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> i <a href="
+"\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally "
+"Imported</a>. També hem afegit una funció de Cerca Global que us permet "
+"trobar música fàcilment a la vostra biblioteca o a Internet. Altres funcions "
+"inclouen suport per a CD d'àudio, més opcions de transcodificació, un diàleg "
+"de configuració millorat, cerca de portades d'àlbum més eficient i un munt "
+"de correccions d'errors. Vegeu el <a href=\"http://code.google.com/p/"
+"clementine-player/source/browse/Changelog\">registre de canvis complet</a> "
+"per a més informació."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -502,7 +511,7 @@ msgstr "Suport per a fulls CUE."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Reproduïu CDs d'àudio"
 
 #: main.html:26
 msgid "Visualisations from"
@@ -526,9 +535,9 @@ msgid "Fetch missing tags from MusicBrainz."
 msgstr "Obteniu les etiquetes que us falten des de MusicBrainz."
 
 #: main.html:31
-#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Descarregueu les portades d'àlbum que us falten des de Last.fm."
+msgstr ""
+"Descarregueu les portades d'àlbums que us manquen des de Last.fm i Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -609,9 +618,9 @@ msgstr "Mostra totes les descàrregues"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Concurs Grooveshark"
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Notícies"
 

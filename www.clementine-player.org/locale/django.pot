@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Downloads"
 msgstr ""
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr ""
 
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Grooveshark competition"
 msgstr ""
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr ""
 

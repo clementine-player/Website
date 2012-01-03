@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-02 09:58+0000\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2011-12-31 15:00+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -30,7 +30,7 @@ msgstr "Sobre"
 msgid "Downloads"
 msgstr "Transferências"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Imagens"
 
@@ -64,19 +64,19 @@ msgstr "Página \"web\" por"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Definições de conversão"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Procura global de álbuns no Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Opções da procura global"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Integração com Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -323,9 +323,8 @@ msgstr ""
 "alterações</a> para mais detalhes."
 
 #: data.py:260
-#, fuzzy
 msgid "Version 1.0 released"
-msgstr "Disponibilizada a versão 0.2"
+msgstr "Disponibilizada a versão 1.0"
 
 #: data.py:261
 msgid ""
@@ -339,6 +338,16 @@ msgid ""
 "href=\"http://code.google.com/p/clementine-player/source/browse/Changelog"
 "\">full changelog</a> for more information."
 msgstr ""
+"Esta versão adiciona o suporte ao <a href=\"http://www.spotify.com"
+"\">Spotify</a>, ao <a href=\"http://grooveshark.com\">Grooveshark</a> e às "
+"rádios <a href=\"http://www.sky.fm/\">SKY.fm</a>/ e <a href=\"http://www.di."
+"fm/\">Digitally Imported</a>.  Também adicionámos uma função de procura "
+"global para procurar músicas na coleção ou na Internet. Outras "
+"funcionalidades são o suporte a CDs áudio, novas opções de conversão de "
+"ficheiros, melhorias na caixa de diálogo de definições e na procura de capas "
+"de álbum e diversos erros corrigidos. Consulte o <a href=\"http://code."
+"google.com/p/clementine-player/source/browse/Changelog\">registo de "
+"alterações</a> para mais informações."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -493,7 +502,7 @@ msgstr "Suporte a faixas CUE"
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Reprodução de CDs áudio"
 
 #: main.html:26
 msgid "Visualisations from"
@@ -516,9 +525,8 @@ msgid "Fetch missing tags from MusicBrainz."
 msgstr "Obter detalhes das músicas na MusicBrainz"
 
 #: main.html:31
-#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Transfira as capas de álbum em falta através da Last.fm"
+msgstr "Transferência das capas de álbum através da last.fm e Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -598,9 +606,9 @@ msgstr "Transferências"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Concurso Grooveshark"
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Novidades"
 

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-04 23:28+0000\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2011-12-30 21:10+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -30,7 +30,7 @@ msgstr "O programe"
 msgid "Downloads"
 msgstr "Na stiahnutie"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Screenshoty"
 
@@ -64,19 +64,19 @@ msgstr "Webstránku vytvoril"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Nastavenia transkódovania"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Výsledky globálneho vyhľadávania albumov na Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Možnosti globálneho vyhľadávania"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Integrácia Groovesharku"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -272,9 +272,8 @@ msgid ""
 msgstr ""
 
 #: data.py:260
-#, fuzzy
 msgid "Version 1.0 released"
-msgstr "Vyšla verzia 0.2"
+msgstr "Vyšla verzia 1.0"
 
 #: data.py:261
 msgid ""
@@ -437,7 +436,7 @@ msgstr "Podpora CUE zoznamov."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Prehrávajte audio CD."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -460,9 +459,8 @@ msgid "Fetch missing tags from MusicBrainz."
 msgstr "Získajte chýbajúce tagy z MusicBrainz."
 
 #: main.html:31
-#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Sťahujte chýbajúce obaly albumov z Last.fm."
+msgstr "Sťahujte chýbajúce obaly albumov z Last.fm a Amazonu."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -543,9 +541,9 @@ msgstr "Zobraziť všetky súbory na stiahnutie"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Súťaž s Grooveshark"
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Novinky"
 

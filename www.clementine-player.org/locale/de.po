@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+#   <the.crazy.zorro@googlemail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-01 13:12+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2012-01-02 22:02+0000\n"
+"Last-Translator: El_Zorro_Loco <the.crazy.zorro@googlemail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +30,7 @@ msgstr "Über"
 msgid "Downloads"
 msgstr "Downloads"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Screenshots"
 
@@ -63,35 +64,35 @@ msgstr "Webseite von"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Einstellungen zum Konvertieren von Musik"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Alben auf Spotify mittels Globaler Suche finden"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Einrichtung der Globalen Suche"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Grooveshark in Clementine"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "Liedtexte und das Trackslider-Tooltip"
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "Korrektur fehlender Tags mit MusicBrainz"
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "Neuer Tag-Editor mit Autovervollständigung"
 
 #: data.py:17
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Das Trackslider-Tooltip unter Mac OS X"
 
 #: data.py:20
 msgid "Artist photos and biographies"
@@ -103,11 +104,11 @@ msgstr "Liedtexte"
 
 #: data.py:22
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "Icecast Radiosender"
 
 #: data.py:23
 msgid "Smart playlists and kittens"
-msgstr ""
+msgstr "Intelligente Wiedergabelisten und Kätzchen"
 
 #: data.py:26
 msgid "The queue manager on Windows 7"
@@ -268,7 +269,7 @@ msgstr ""
 
 #: data.py:232
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "Version 0.6 veröffentlicht"
 
 #: data.py:233
 msgid ""
@@ -303,9 +304,8 @@ msgid ""
 msgstr ""
 
 #: data.py:260
-#, fuzzy
 msgid "Version 1.0 released"
-msgstr "Version 0.2 veröffentlicht"
+msgstr "Version 1.0 veröffentlicht"
 
 #: data.py:261
 msgid ""
@@ -332,7 +332,7 @@ msgstr ""
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Downloads für andere Betriebssysteme:"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -460,7 +460,7 @@ msgstr "Internetradio von"
 
 #: main.html:22
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "Erstellen intelligenter sowie dynamischer Wiedergabelisten."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -469,11 +469,11 @@ msgstr ""
 
 #: main.html:24
 msgid "CUE sheet support."
-msgstr ""
+msgstr "Unterstützung für Cuesheets."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Abspielen von Audio-CDs."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -481,11 +481,13 @@ msgstr "Visualisierungen von"
 
 #: main.html:27
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "Liedtexte sowie Biografien und Fotos der Künstler."
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Musik zu MP3, Ogg Vorbis, Ogg Speex, FLAC oder AAC transkodieren."
+msgstr ""
+"Konvertieren von Musik in die Formate MP3, Ogg Vorbis, Ogg Speex, FLAC oder "
+"AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -494,12 +496,11 @@ msgstr ""
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "Abrufen fehlender Tags von MusicBrainz."
 
 #: main.html:31
-#, fuzzy
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Herunterladen fehlender Cover-Art von Last.fm."
+msgstr "Fehlende Albencover von Last.fm und Amazon herunterladen."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -509,7 +510,8 @@ msgstr ""
 #: main.html:33
 msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr ""
-"Native Desktopbenachrichtigungen unter Linux (libnotify) ud Mac OS X (Growl)."
+"Native Desktopbenachrichtigungen unter Linux (libnotify) und Mac OS X "
+"(Growl)."
 
 #: main.html:34
 msgid "Remote control using a"
@@ -566,7 +568,7 @@ msgstr "Clementine herunterladen"
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "für Windows, Mac OS X und Linux"
 
 #: main.html:70
 msgid "Announcement"
@@ -582,9 +584,9 @@ msgstr "Alle Downloads anzeigen"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Grooveshark Wettbewerb"
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Neuigkeiten"
 
@@ -692,6 +694,8 @@ msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
+"Wir würden uns freuen wenn Sie Clementine unterstützen, indem Sie uns in "
+"einem oder mehreren Sozialen Netzwerken folgen."
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -699,7 +703,7 @@ msgstr "Clementine auf Facebook"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine auf Twitter"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
