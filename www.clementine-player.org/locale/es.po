@@ -3,15 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Adrián Ramirez <buried.prophet@gmail.com>, 2012.
+# Andres Sanchez <>, 2012.
 # Carolina Pérez Garrido <carolinadelpilarperezgarrido@gmail.com>, 2011.
 #   <leontaveras@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2011-12-27 21:34+0000\n"
-"PO-Revision-Date: 2011-12-27 21:44+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"POT-Creation-Date: 2012-01-03 19:02+0000\n"
+"PO-Revision-Date: 2012-01-08 14:01+0000\n"
+"Last-Translator: Adrián Ramirez <buried.prophet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +33,7 @@ msgstr "Acerca de"
 msgid "Downloads"
 msgstr "Descargas"
 
-#: base.html:40 main.html:108 screenshots.html:3
+#: base.html:40 main.html:96 screenshots.html:3
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
@@ -65,23 +67,23 @@ msgstr "Sitio web por"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Opciones de transcodificación"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Búsqueda global de álbumes de Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Opciones de búsqueda global"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Integración con Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "Mensaje emergente para Letras y deslizador de pista."
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
@@ -89,11 +91,11 @@ msgstr "MusicBrainz esta reparando archivos sin etiquetas."
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "Nueva etiqueta con autocompletado"
 
 #: data.py:17
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Mensaje emergente para deslizador de pista en Mac OS X"
 
 #: data.py:20
 msgid "Artist photos and biographies"
@@ -161,7 +163,7 @@ msgstr "El gestor de cubiertas de álbum en Mac OS X"
 
 #: data.py:44
 msgid "Playback on Linux"
-msgstr "Reproducción en Linux"
+msgstr "Reproducción  de audio en Linux"
 
 #: data.py:45
 msgid "Last.fm support"
@@ -223,10 +225,10 @@ msgid ""
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
 msgstr ""
-"Este versión presenta listas de reproducción por pestañas, búsqueda en la "
+"Este versión incorpora listas de reproducción por pestañas, búsquedas en la "
 "lista de reproducción, integración con Magnature, normalización de volumen "
-"con ReplayGain y transcodificación de música. Corregimos muchos errores "
-"también, ahora es más rápida la búsqueda en bibliotecas grandes, la "
+"con ReplayGain y transcodificación de música. Adermás, se corrigieron muchos"
+" errores. Ahora es más rápida la búsqueda en bibliotecas grandes, la "
 "reproducción es más confiable bajo Windows, los problemas de codificación de"
 " caracteres han sido corregidos, y las listas de reproducción remotas "
 "deberían cargarse correctamente siempre."
@@ -284,6 +286,9 @@ msgid ""
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
+"Esta versión incorpora dos nuevos paneles informativos con letras, "
+"estadísticas de la canción, biogradfía de artistas, fotos, listas de "
+"etiquetas y artistas similares."
 
 #: data.py:245
 msgid "Version 0.7 released"
@@ -303,10 +308,23 @@ msgid ""
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
+"En esta versión de Clementine presentamos un nuevo cuadro de diálogo de "
+"edición de etiquetas con autocompletado y la capacidad de identificar "
+"automáticamente la música y buscar etiquetas faltantes de MusicBrainz. Las "
+"hojas CUE ahora son compatibles -son detectadas automácticamente al escanear"
+" su biblioteca de audio, mostrando cada pista por separado-. Hicimos un "
+"montón de pequeñas mejoras, así como mostrar portadas de álbumes en la ficha"
+" Biblioteca, descartado las canciones eliminadas, una opción para \"Mostrar "
+"en el explorador de archivos\", soporte para proxies de red, un \"re-escaneo"
+" completo de biblioteca de audio\", y un nuevo mensaje emergente para el "
+"control de avance/retroceso de la pista que le permitirá buscar con más "
+"precisión un lugar específico en una canción. Para más información de la "
+"versión, puede ver la <href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\"> lista de cambios </ a>."
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Versión 1.0 publicada"
 
 #: data.py:261
 msgid ""
@@ -321,6 +339,18 @@ msgid ""
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
 msgstr ""
+"Esta versión incorpora <a href=\"http://www.spotify.com\">Spotify</a>, <a "
+"href=\"http://grooveshark.com\">Grooveshark</a> y <a "
+"href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Soporte"
+" para Digitally Imported</a>.  También hemos agregado la característica de "
+"Búsqueda Global, que le permite encontrar música fácilmente, sea en su "
+"Biblioteca Local o en Internet. Otras características destacadas incluídas "
+"con el soporte de CD de audio, más opciones de trascodificación, un mejorado"
+" diálogo de opciones de configuración, búsqueda inteligente de artes de tapa"
+" para los álbumes, y muchísimas correcciones de errores. Vea la <a "
+"href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">lista de cambios de la versión</a> para más"
+" información."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -334,7 +364,7 @@ msgstr ""
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Descargas para otros sistemas operativos"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -386,7 +416,7 @@ msgstr "Instrucciones completas y lista de dependencias"
 
 #: downloads.html:91
 msgid "Bleeding edge packages"
-msgstr ""
+msgstr "Paquetes \"bleeding edge\""
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
@@ -472,11 +502,11 @@ msgstr ""
 
 #: main.html:24
 msgid "CUE sheet support."
-msgstr ""
+msgstr "Soporte para hoja CUE."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Reproducir CDs de audio."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -492,7 +522,7 @@ msgstr "Convierta música aen MP3, Ogg Vorbis, Ogg Speex, FLAC o AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Edite etiquetas en archivos MP3 y OGG, organice su música."
+msgstr "Edite etiquetas en archivos MP3 y OGG y organice su música."
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
@@ -500,7 +530,7 @@ msgstr "Encontrar etiquetas perdidas desde MusicBrainz."
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Descargar arte de tapa faltante desde Last.fm y Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -539,7 +569,9 @@ msgstr "Gestor de colas de reproducción."
 
 #: main.html:42
 msgid "is a modern music player and library organizer"
-msgstr "es un reproductor de música moderno y un organizador de biblioteca"
+msgstr ""
+"es un reproductor de música moderno y un organizador para su biblioteca "
+"musical"
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
@@ -583,9 +615,9 @@ msgstr "Mostrar todas las descargas"
 
 #: main.html:79
 msgid "Grooveshark competition"
-msgstr ""
+msgstr "Competición Grooveshark"
 
-#: main.html:130
+#: main.html:118
 msgid "News"
 msgstr "Noticias"
 
