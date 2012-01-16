@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sérgio Marques <smarquespt@gmail.com>, 2011.
+# Sérgio Marques <smarquespt@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-01-03 19:02+0000\n"
-"PO-Revision-Date: 2011-12-31 15:00+0000\n"
+"PO-Revision-Date: 2012-01-09 12:34+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -348,12 +348,12 @@ msgstr ""
 "Esta versão adiciona o suporte ao <a "
 "href=\"http://www.spotify.com\">Spotify</a>, ao <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> e às rádios <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/ e <a "
+"href=\"http://www.sky.fm/\">SKY.fm</a> e <a "
 "href=\"http://www.di.fm/\">Digitally Imported</a>.  Também adicionámos uma "
-"função de procura global para procurar músicas na coleção ou na Internet. "
+"função de procura global para encontrar músicas na coleção ou na Internet. "
 "Outras funcionalidades são o suporte a CDs áudio, novas opções de conversão "
 "de ficheiros, melhorias na caixa de diálogo de definições e na procura de "
-"capas de álbum e diversos erros corrigidos. Consulte o <a "
+"capas de álbum, bem como diversos erros corrigidos. Consulte o <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">registo de alterações</a> para mais "
 "informações."

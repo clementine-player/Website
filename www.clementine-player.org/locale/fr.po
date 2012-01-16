@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <arnaud.bienner@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-01-03 19:02+0000\n"
-"PO-Revision-Date: 2011-12-28 12:31+0000\n"
+"PO-Revision-Date: 2012-01-12 09:31+0000\n"
 "Last-Translator: arnaudbienner <arnaud.bienner@gmail.com>\n"
 "Language-Team: French (http://www.transifex.net/projects/p/clementine/team/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -486,11 +487,11 @@ msgstr "Recherche et joue votre bibliothèque musicale locale."
 
 #: main.html:11
 msgid "Listen to internet radio from"
-msgstr "Écoutez la radio sur Internet depuis"
+msgstr "Écoutez de la musique sur Internet depuis"
 
 #: main.html:22
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Créer des liste de lecture intelligentes et dynamiques"
+msgstr "Créer des liste de lecture intelligentes et dynamiques."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -520,11 +521,11 @@ msgstr "Transcodez votre musique en MP3, Ogg Vorbis, Ogg Speex, FLAC ou AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Éditez les tags sur vos fichiers MP3 ou OGG, organisez votre musique"
+msgstr "Éditez les tags sur vos fichiers MP3 ou OGG, organisez votre musique."
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Compléter les tags automatiquement avec MusicBrainz"
+msgstr "Compléter les tags automatiquement avec MusicBrainz."
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
