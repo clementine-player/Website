@@ -15,6 +15,7 @@ from twisted.words.protocols import irc
 
 import re
 import sys
+import traceback
 import urllib
 import urllib2
 
@@ -52,8 +53,9 @@ class AnnounceBot(irc.IRCClient):
       try:
         self.say(self.channel, msg)
         return True
-      except:
+      except Exception:
         print 'Failed to send message'
+        traceback.print_exc()
 
   def privmsg(self, user, channel, message):
     print '%s from %s on %s' % (message, user, channel)
@@ -111,7 +113,9 @@ class WebHook(resource.Resource):
           if short_url:
             message = '(%s) %s' % (short_url, message)
           message = '\x033%s\x03\x02\x037 %s\x03\x02 %s' % (
-              r['author'], r['revision'][:6], message.rstrip().replace('\n', ' '))
+              r['author'].encode("utf-8", "ignore"),
+              r['revision'][:6].encode("utf-8", "ignore"),
+              message.rstrip().replace('\n', ' ').encode("utf-8", "ignore"))
           AnnounceBot.instance.SendMessage(message)
     return 'ok'
 
