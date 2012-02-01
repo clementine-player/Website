@@ -272,7 +272,7 @@ NEWS = [
 ]
 LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
-  "vi", "sl", "fi", "br", "tr_TR", "ca",
+  "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt",
 ]
 
 LANGUAGE_NAMES = {
@@ -301,7 +301,7 @@ LANGUAGE_NAMES = {
   "ca": "Català",
   "zh": "Chinese",
   "co": "Corsican",
-  "hr": "Croatian",
+  "hr": "hrvatski",
   "cs": "čeština",
   "da": "Danish",
   "nl": "Dutch",
@@ -348,7 +348,7 @@ LANGUAGE_NAMES = {
   "la": "Latin",
   "lv": "Latvian",
   "ln": "Lingala",
-  "lt": "Lithuanian",
+  "lt": "lietuvių",
   "mk": "Macedonian",
   "mg": "Malagasy",
   "ms": "Malay",
