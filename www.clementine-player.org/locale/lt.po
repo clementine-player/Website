@@ -46,9 +46,7 @@ msgstr "Įvairių platformų muzikos grotuvas įkvėptas Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clementine yra laisva programinė įranga pagal GPL v3. Šios svetainės teisės "
-"saugomos pagal CC-BY-SA."
+msgstr "Clementine yra laisva programinė įranga pagal GPL v3. Šios svetainės teisės saugomos pagal CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
@@ -187,10 +185,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
-"Praėjo tik mėnesis kai mes išleidome pirmą Clementine versiją. Ši versija "
-"turi albumų viršelius, geresnį „Įvairių atlikėjų“ aptikimą, palaiko "
-"grojaraščių įkėlimą, ir daug daugiau."
+msgstr "Praėjo tik mėnesis kai mes išleidome pirmą Clementine versiją. Ši versija turi albumų viršelius, geresnį „Įvairių atlikėjų“ aptikimą, palaiko grojaraščių įkėlimą, ir daug daugiau."
 
 #: data.py:196
 msgid "Version 0.3 released"
@@ -202,12 +197,7 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
-"Šiame leidime mes persijungėme į GStreamer visose platformose, tai reiškia, "
-"kad analizatorius ir takelių suliejimas dabar veiks ir Windows platformoje. "
-"Naujose savybėse yra glotnintuvas, daugiau fonotekos grupavimo pasirinkimų, "
-"gražesnis OSD, nuotolinis valdymas iš komandinės eilutės ir MPRIS, taip pat "
-"lengvesnis žymių redagavimas."
+msgstr "Šiame leidime mes persijungėme į GStreamer visose platformose, tai reiškia, kad analizatorius ir takelių suliejimas dabar veiks ir Windows platformoje. Naujose savybėse yra glotnintuvas, daugiau fonotekos grupavimo pasirinkimų, gražesnis OSD, nuotolinis valdymas iš komandinės eilutės ir MPRIS, taip pat lengvesnis žymių redagavimas."
 
 #: data.py:205
 msgid "Version 0.4 released"
@@ -221,13 +211,7 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr ""
-"Šiame leidime atsiranda grojaraščiai, grojaraščių paieška, projectM "
-"vizualizacijos, Magnatune integracija, ReplayGain garso normalizavimas ir "
-"muzikos perkodavimas. Mes pataisėme daugybę klaidų - paieška didelėse "
-"fonotekose paieška dabar yra daug greitesnė, grojimas daug stabilesnis "
-"Windows platformoje, simbolių koduotės problemos pataisytos, nuotoliniai "
-"grojaraščiai turėtų tinkamai įsikelti visą laiką."
+msgstr "Šiame leidime atsiranda grojaraščiai, grojaraščių paieška, projectM vizualizacijos, Magnatune integracija, ReplayGain garso normalizavimas ir muzikos perkodavimas. Mes pataisėme daugybę klaidų - paieška didelėse fonotekose paieška dabar yra daug greitesnė, grojimas daug stabilesnis Windows platformoje, simbolių koduotės problemos pataisytos, nuotoliniai grojaraščiai turėtų tinkamai įsikelti visą laiką."
 
 #: data.py:215
 msgid "Version 0.5 released"
@@ -324,9 +308,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
-"Galite atsisiųsti naujausią Clementine versiją Ubuntu sistemai iš oficialaus"
-" PPA:"
+msgstr "Galite atsisiųsti naujausią Clementine versiją Ubuntu sistemai iš oficialaus PPA:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
@@ -340,9 +322,7 @@ msgstr "Oficialūs paketai"
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
-"Jei nematote savo distribucijos aukščiau esančiame sąraše, tai kažkas kitas "
-"gali būti sukūręs neoficialų paketą Jums."
+msgstr "Jei nematote savo distribucijos aukščiau esančiame sąraše, tai kažkas kitas gali būti sukūręs neoficialų paketą Jums."
 
 #: downloads.html:75
 msgid "Compiling from source"
@@ -356,8 +336,7 @@ msgstr "Kompiliuoti Clementine iš išeities kodo yra lengva Linux'e"
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
-"Atsisiųsti išeities kodo paketą iš sąrašo aukščiau ir terminalo lange:"
+msgstr "Atsisiųsti išeities kodo paketą iš sąrašo aukščiau ir terminalo lange:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
@@ -383,9 +362,7 @@ msgstr "Patikrinti kodą vykdant:"
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
-"Jei nenorite patys kompiliuoti vystomos versijos, pamėginkite vieną iš mūsų "
-"kas valandą gaminamų paketų:"
+msgstr "Jei nenorite patys kompiliuoti vystomos versijos, pamėginkite vieną iš mūsų kas valandą gaminamų paketų:"
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
@@ -445,8 +422,7 @@ msgstr "Kurkite išmaniuosius ir dinaminius grojaraščius."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
-"Grojaraščiai kortelėse, importuoti ir eksportuoti M3U, XSPF, PLS ir ASX."
+msgstr "Grojaraščiai kortelėse, importuoti ir eksportuoti M3U, XSPF, PLS ir ASX."
 
 #: main.html:24
 msgid "CUE sheet support."
@@ -487,9 +463,7 @@ msgstr "Įvairių platformų - veikia Windows, Mac OS X ir Linux platformose."
 #: main.html:33
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
-"Vidiniai darbastalio prašimai Linux (libnotify) ir Mac OS X (Growl) "
-"platformose."
+msgstr "Vidiniai darbastalio prašimai Linux (libnotify) ir Mac OS X (Growl) platformose."
 
 #: main.html:34
 msgid "Remote control using a"
@@ -531,9 +505,7 @@ msgstr "Yra įkvėptas"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
-"telkiamas dėmesys į greitą ir lengvai valdomą sąsają ieškant ir grojant Jūsų"
-" muziką."
+msgstr "telkiamas dėmesys į greitą ir lengvai valdomą sąsają ieškant ir grojant Jūsų muziką."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
@@ -579,9 +551,7 @@ msgstr "kanalas Freenode serveryje."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
-"Prašome <b>truputį palaukti paklausus klausimo</b> - mes galime būti "
-"skirtingose laiko juostose, taigi galime nepamatyti Jūsų klausimo iš karto."
+msgstr "Prašome <b>truputį palaukti paklausus klausimo</b> - mes galime būti skirtingose laiko juostose, taigi galime nepamatyti Jūsų klausimo iš karto."
 
 #: participate.html:16
 msgid "Forum"
@@ -591,9 +561,7 @@ msgstr "Forumas"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
-"Clementine naudoja Google grupes savo forumui/susirašinėjimo sąrašui/bendrų "
-"diskusijų sąrašui."
+msgstr "Clementine naudoja Google grupes savo forumui/susirašinėjimo sąrašui/bendrų diskusijų sąrašui."
 
 #: participate.html:21
 msgid "Support and discussion group"
@@ -615,9 +583,7 @@ msgstr "Clementine naudoja Google grupes programavimui ir trūkumų sekimui."
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
-"Jei aptikote Clementine klaidą, prašome nueiti į trūkumų sekiklį ir sukurti "
-"naują pranešimą."
+msgstr "Jei aptikote Clementine klaidą, prašome nueiti į trūkumų sekiklį ir sukurti naują pranešimą."
 
 #: participate.html:34
 msgid "Issue tracker"
@@ -631,17 +597,13 @@ msgstr "Sąsajos vertimas"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
-"Jei norite versti Clementi į kitą kalbą, tai galite daryti Transifex vertimų"
-" puslapyje."
+msgstr "Jei norite versti Clementi į kitą kalbą, tai galite daryti Transifex vertimų puslapyje."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
-"Galite versti tiesiai Transifex'e, arba atsisiųsti .po failą iš svetainės, o"
-" vėliau atsiųsti el. paštu mums atgal."
+msgstr "Galite versti tiesiai Transifex'e, arba atsisiųsti .po failą iš svetainės, o vėliau atsiųsti el. paštu mums atgal."
 
 #: participate.html:43
 msgid "Transifex translations"
@@ -663,9 +625,7 @@ msgstr "Socialinis tinklas"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
-"Mums patiktų Jūsų palaikymas prisijungiant prie mūsų Jūsų mėgstamiausiame "
-"socialiniame tinkle!"
+msgstr "Mums patiktų Jūsų palaikymas prisijungiant prie mūsų Jūsų mėgstamiausiame socialiniame tinkle!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -678,5 +638,3 @@ msgstr "Clementine Twitter'yje"
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine Last.fm'e"
-
-

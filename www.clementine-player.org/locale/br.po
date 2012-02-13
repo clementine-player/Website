@@ -46,9 +46,7 @@ msgstr "Ul lenner sonerezh lies-reizhad awenet gant Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clementine a zo ur poellad frank dindan al lañvaz GPL v3. Al lec'hienn-mañ a"
-" zo dindan lañvaz CC-BY-SA."
+msgstr "Clementine a zo ur poellad frank dindan al lañvaz GPL v3. Al lec'hienn-mañ a zo dindan lañvaz CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
@@ -640,5 +638,3 @@ msgstr ""
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr ""
-
-

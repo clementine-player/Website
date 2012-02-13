@@ -47,9 +47,7 @@ msgstr "Amarok 1.4:n inspiroima alustariippumaton musiikkisoitin"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clemetine on vapaa ohjelmisto GPL v3 -lisenssillä. Sivusto on CC-BY-SA-"
-"lisensoitu."
+msgstr "Clemetine on vapaa ohjelmisto GPL v3 -lisenssillä. Sivusto on CC-BY-SA-lisensoitu."
 
 #: base.html:70
 msgid "Development by"
@@ -85,8 +83,7 @@ msgstr "Sanoitukset ja kappaleen etsi-liukusäätimen työkaluvihje"
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
-"Tunnisteettomien tiedostojen täydentäminen MuzicBrainz palvelun avulla"
+msgstr "Tunnisteettomien tiedostojen täydentäminen MuzicBrainz palvelun avulla"
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
@@ -298,8 +295,7 @@ msgstr "Uusimmat tiedostot"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
-"Lataa uusin vakaa versio Clementinestä haluamallesi käyttöjärjestelmälle."
+msgstr "Lataa uusin vakaa versio Clementinestä haluamallesi käyttöjärjestelmälle."
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
@@ -313,9 +309,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
-"Voit ladata uusimman version Clementinestä Ubuntulle käyttäen virallista "
-"PPA:ta:"
+msgstr "Voit ladata uusimman version Clementinestä Ubuntulle käyttäen virallista PPA:ta:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
@@ -329,9 +323,7 @@ msgstr "Epäviralliset paketit"
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
-"Jos jakelusi ei ole listattuna yllä, 3. osapuoli saattaa olla luonut "
-"epävirallisen paketin jakeluasi varten."
+msgstr "Jos jakelusi ei ole listattuna yllä, 3. osapuoli saattaa olla luonut epävirallisen paketin jakeluasi varten."
 
 #: downloads.html:75
 msgid "Compiling from source"
@@ -345,8 +337,7 @@ msgstr "Clementinen kääntäminen lähdekoodista on helppoa Linuxilla."
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
-"Lataa lähdekoodipaketti ylempää ja suorita seuraavat komennot päätteessä:"
+msgstr "Lataa lähdekoodipaketti ylempää ja suorita seuraavat komennot päätteessä:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
@@ -372,8 +363,7 @@ msgstr "Hae lähdekoodi komennolla:"
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
-"Jos et halua kääntää kehitysversiota itse, kokeile uusimpia paketteja:"
+msgstr "Jos et halua kääntää kehitysversiota itse, kokeile uusimpia paketteja:"
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
@@ -433,8 +423,7 @@ msgstr "Luo älykkäitä ja dynaamisia soittolistoja."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
-"Soittolistat välilehtinä, vie ja tuo M3U-, XSPF-, PLS- ja ASX-muodoissa."
+msgstr "Soittolistat välilehtinä, vie ja tuo M3U-, XSPF-, PLS- ja ASX-muodoissa."
 
 #: main.html:24
 msgid "CUE sheet support."
@@ -454,9 +443,7 @@ msgstr "Sanoitukset, esittäjätiedot ja valokuvat."
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
-"Muunna musiikkia eri muotoon, esim. MP3, Ogg Vorbis, Ogg Speex, FLAC tai "
-"AAC."
+msgstr "Muunna musiikkia eri muotoon, esim. MP3, Ogg Vorbis, Ogg Speex, FLAC tai AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -519,9 +506,7 @@ msgstr "Sen inspiraation lähteenä on"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
-"painopisteenä nopea ja helppo käyttöliittymä musiikin etsimistä sekä "
-"soittamista varten."
+msgstr "painopisteenä nopea ja helppo käyttöliittymä musiikin etsimistä sekä soittamista varten."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
@@ -567,10 +552,7 @@ msgstr "Freenode-IRC-verkossa."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
-"<b>Pysythän kanavalla ainakin hetken kysyttyäsi kysymyksen</b> - saatamme "
-"olla eri aikavyöhykkeillä, joten kysymykseen vastaus ei välttämättä onnistu "
-"heti."
+msgstr "<b>Pysythän kanavalla ainakin hetken kysyttyäsi kysymyksen</b> - saatamme olla eri aikavyöhykkeillä, joten kysymykseen vastaus ei välttämättä onnistu heti."
 
 #: participate.html:16
 msgid "Forum"
@@ -596,17 +578,13 @@ msgstr "Ongelmista ilmoittaminen ja korjausten ehdottaminen"
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr ""
-"Clementine käyttää Google Codea kehitykseen ja ongelmien ilmoitukseen sekä "
-"seurantaan."
+msgstr "Clementine käyttää Google Codea kehitykseen ja ongelmien ilmoitukseen sekä seurantaan."
 
 #: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
-"Jos kohtasit ongelmia Clementinen kanssa, ilmoitathan huomaamastasi "
-"ongelmasta käyttäen Google Codea."
+msgstr "Jos kohtasit ongelmia Clementinen kanssa, ilmoitathan huomaamastasi ongelmasta käyttäen Google Codea."
 
 #: participate.html:34
 msgid "Issue tracker"
@@ -620,17 +598,13 @@ msgstr "Käyttöliittymän kääntäminen"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
-"Jos haluat kääntää Clementinen toiselle kielelle, voit tehdä niin käyttäen "
-"Transifexia."
+msgstr "Jos haluat kääntää Clementinen toiselle kielelle, voit tehdä niin käyttäen Transifexia."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
-"Voit tehdä käännöksen suoraan Transifexia käyttäen. Vaihtoehtoisesti voit "
-"ladata .po-tiedoston, jonka voit lähettää meille sähköpostitse."
+msgstr "Voit tehdä käännöksen suoraan Transifexia käyttäen. Vaihtoehtoisesti voit ladata .po-tiedoston, jonka voit lähettää meille sähköpostitse."
 
 #: participate.html:43
 msgid "Transifex translations"
@@ -665,5 +639,3 @@ msgstr "Clementine Twitterissä"
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine Last.fm:ssä"
-
-

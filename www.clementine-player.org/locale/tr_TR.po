@@ -47,9 +47,7 @@ msgstr ""
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clementine GPL v3 altında ücretsiz bir yazılımdır. Bu site CC-BY-SA altında "
-"lisanslanmıştır."
+msgstr "Clementine GPL v3 altında ücretsiz bir yazılımdır. Bu site CC-BY-SA altında lisanslanmıştır."
 
 #: base.html:70
 msgid "Development by"
@@ -188,10 +186,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
-"Clementine ilk sürümü yayınlanalı sadece bir ay oldu. Bu yeni sürüm "
-"özellikleri albüm kapak-sanat, daha iyi \"Çeşitli Sanatçılar\" algılama, "
-"çalma listeleri için yükleme desteği ve çok daha fazlasıni barındırıyor."
+msgstr "Clementine ilk sürümü yayınlanalı sadece bir ay oldu. Bu yeni sürüm özellikleri albüm kapak-sanat, daha iyi \"Çeşitli Sanatçılar\" algılama, çalma listeleri için yükleme desteği ve çok daha fazlasıni barındırıyor."
 
 #: data.py:196
 msgid "Version 0.3 released"
@@ -314,8 +309,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
-"Resmi PPA'dan Ubuntu için Clementine'in en son sürümünü indirebilirsiniz:"
+msgstr "Resmi PPA'dan Ubuntu için Clementine'in en son sürümünü indirebilirsiniz:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
@@ -568,8 +562,7 @@ msgstr "Forum"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
-"Clementine Google forum/mailing list/general tartışma gruplarını kullanır."
+msgstr "Clementine Google forum/mailing list/general tartışma gruplarını kullanır."
 
 #: participate.html:21
 msgid "Support and discussion group"
@@ -605,17 +598,13 @@ msgstr "Arayüzü tercüme et"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
-"Eğer Clementine'i başka bir dile çevirmek isterseniz,  bunu Transifex çeviri"
-" sayfalarindan yapabilirsiniz."
+msgstr "Eğer Clementine'i başka bir dile çevirmek isterseniz,  bunu Transifex çeviri sayfalarindan yapabilirsiniz."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
-"Ya doğrudan Transifex'te tercüme yapabilir veya siteden bir .po dosyasını "
-"indirmeniz ve tercpmenden sonra bize geri e-posta olarak yollayabilirsiniz."
+msgstr "Ya doğrudan Transifex'te tercüme yapabilir veya siteden bir .po dosyasını indirmeniz ve tercpmenden sonra bize geri e-posta olarak yollayabilirsiniz."
 
 #: participate.html:43
 msgid "Transifex translations"
@@ -637,9 +626,7 @@ msgstr "Sosyal Ağ"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
-"Sosyal ağ sitesi üzerinde bize katılarak Clementine destek verdiğinizi "
-"görmek isteriz!"
+msgstr "Sosyal ağ sitesi üzerinde bize katılarak Clementine destek verdiğinizi görmek isteriz!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -652,5 +639,3 @@ msgstr "Clementine Twitter'da"
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine Last.fm'de"
-
-

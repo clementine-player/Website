@@ -46,9 +46,7 @@ msgstr "Międzyplatformowy odtwarzacz muzyczny zainsporowany Amarokiem 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clementine jest Wolnym Oprogramowaniem opartym na licencji GPL v3. Ta strona"
-" jest oparta na licencji CC-BY-SA."
+msgstr "Clementine jest Wolnym Oprogramowaniem opartym na licencji GPL v3. Ta strona jest oparta na licencji CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
@@ -640,5 +638,3 @@ msgstr ""
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr ""
-
-

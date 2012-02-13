@@ -639,5 +639,3 @@ msgstr ""
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr ""
-
-

@@ -40,16 +40,13 @@ msgstr "Deltek"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr ""
-"Ein musikkspelar inspirert av Amarok 1.4 som fungerar på fleire plattformar"
+msgstr "Ein musikkspelar inspirert av Amarok 1.4 som fungerar på fleire plattformar"
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clementine er Åpen Programvare under GPL v3. Denne nettsida har lisens under"
-" CC-BY-SA."
+msgstr "Clementine er Åpen Programvare under GPL v3. Denne nettsida har lisens under CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
@@ -641,5 +638,3 @@ msgstr ""
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr ""
-
-

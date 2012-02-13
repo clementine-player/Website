@@ -46,9 +46,7 @@ msgstr "Cross-platformný hudobný prehrávač inšpirovaný Amarokom 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
-"Clementine je Free Software pod licenciou GPL v3. Tieto stránky sú "
-"licencované pod CC-BY-SA."
+msgstr "Clementine je Free Software pod licenciou GPL v3. Tieto stránky sú licencované pod CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
@@ -310,8 +308,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
-"Môžte stiahnuť poslednú verziu Clementine pre Ubuntu z oficiálneho PPA:"
+msgstr "Môžte stiahnuť poslednú verziu Clementine pre Ubuntu z oficiálneho PPA:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
@@ -325,9 +322,7 @@ msgstr "Neoficiálne balíčky"
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
-"Ak nevidíte vašu distribúciu uvedenú vyššie, potom niekto možno pre vás "
-"vytvoril neoficiálny balíček."
+msgstr "Ak nevidíte vašu distribúciu uvedenú vyššie, potom niekto možno pre vás vytvoril neoficiálny balíček."
 
 #: downloads.html:75
 msgid "Compiling from source"
@@ -341,8 +336,7 @@ msgstr "Kompilovanie Clementine zo zdrojákov je jednoduché na Linuxe."
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
-"Stiahnite balíček zdrojového kódu zo zoznamu vyššie, a v termináli zadajte:"
+msgstr "Stiahnite balíček zdrojového kódu zo zoznamu vyššie, a v termináli zadajte:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
@@ -368,9 +362,7 @@ msgstr "Vyskúšajte kód spustením"
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
-"Ak preferujete nekompilovať si sám vývojové verzie, potom skúste jeden z "
-"hodinových balíčkov:"
+msgstr "Ak preferujete nekompilovať si sám vývojové verzie, potom skúste jeden z hodinových balíčkov:"
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
@@ -471,8 +463,7 @@ msgstr "Cross-platformnosť - pracuje na Windowse, Mac OS X a Linuxe"
 #: main.html:33
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
-"Natívne desktopové notifikácie na Linuxe (libnotify) a Mac OS X (Growl)"
+msgstr "Natívne desktopové notifikácie na Linuxe (libnotify) a Mac OS X (Growl)"
 
 #: main.html:34
 msgid "Remote control using a"
@@ -514,9 +505,7 @@ msgstr "Jeho inšpiráciou bol"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
-"zameranie na rýchle a jednoducho použiteľné rozhranie pre hľadanie a "
-"prehrávanie vašej hudby."
+msgstr "zameranie na rýchle a jednoducho použiteľné rozhranie pre hľadanie a prehrávanie vašej hudby."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
@@ -562,9 +551,7 @@ msgstr "kanáli na Freenode."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
-"Prosím <b>vydržte po opýtaní sa otázky</b> - môžme byť v inom časovom pásme,"
-" takže neuvidíme vašu otázku hneď."
+msgstr "Prosím <b>vydržte po opýtaní sa otázky</b> - môžme byť v inom časovom pásme, takže neuvidíme vašu otázku hneď."
 
 #: participate.html:16
 msgid "Forum"
@@ -574,9 +561,7 @@ msgstr "Fórum"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
-"Clementine používa Google Groups na fórum/mailing list/všeobecnú diskusnú "
-"skupinu."
+msgstr "Clementine používa Google Groups na fórum/mailing list/všeobecnú diskusnú skupinu."
 
 #: participate.html:21
 msgid "Support and discussion group"
@@ -598,9 +583,7 @@ msgstr "Clementine používa Google Code na vývoj a sledovanie položiek."
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
-"Ak ste našli chybu v Clementine, prosím navštívte centrum nedostatkov a "
-"vytvorte novú položku."
+msgstr "Ak ste našli chybu v Clementine, prosím navštívte centrum nedostatkov a vytvorte novú položku."
 
 #: participate.html:34
 msgid "Issue tracker"
@@ -614,19 +597,13 @@ msgstr "Prekladanie rozhrania"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
-"Ak chcete preložiť Clementine do ďalšieho jazyka, môžte tak urobiť na "
-"Transifex stránke prekladov."
+msgstr "Ak chcete preložiť Clementine do ďalšieho jazyka, môžte tak urobiť na Transifex stránke prekladov."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
-"Môžte buď spraviť preklad priamo na Transifexe, alebo stiahnuť .po súbor zo "
-"stránky a potom ho nám poslať späť. Ak ste našli chybu v slovenskom preklade"
-" (v programe alebo na webstránke), kontaktujete ma na "
-"<i>dagsoftware@yahoo.com</i>"
+msgstr "Môžte buď spraviť preklad priamo na Transifexe, alebo stiahnuť .po súbor zo stránky a potom ho nám poslať späť. Ak ste našli chybu v slovenskom preklade (v programe alebo na webstránke), kontaktujete ma na <i>dagsoftware@yahoo.com</i>"
 
 #: participate.html:43
 msgid "Transifex translations"
@@ -648,9 +625,7 @@ msgstr "Sociálne siete"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
-"Sme radi, keď vás vidíme podporovať Clementine pripojením sa na vašej "
-"obľúbenej sociálnej sieti!"
+msgstr "Sme radi, keď vás vidíme podporovať Clementine pripojením sa na vašej obľúbenej sociálnej sieti!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -663,5 +638,3 @@ msgstr "Clementine na Twitteri"
 #: participate.html:100
 msgid "Clementine on Last.fm"
 msgstr "Clementine na Last.fm"
-
-
