@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-02-02 00:48+0100\n"
-"PO-Revision-Date: 2012-02-13 08:59+0000\n"
+"PO-Revision-Date: 2012-02-13 11:38+0000\n"
 "Last-Translator: geost <george.stefanakis@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "Λήψεις"
 
 #: base.html:40 main.html:79 screenshots.html:3
 msgid "Screenshots"
-msgstr ""
+msgstr "Στιγμιότυπο"
 
 #: base.html:41 participate.html:3
 msgid "Participate"
@@ -47,7 +47,7 @@ msgstr ""
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
+msgstr "Clementine είναι ελεύθερο λογισμικό υπό την άδεια χρήσης GPL v3. Αυτός ο ιστοχώρος είναι υπό την άδεια CC-BY-SA."
 
 #: base.html:70
 msgid "Development by"
@@ -63,7 +63,7 @@ msgstr "Ιστοσελίδα από"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Ρυθμίσεις κωδικοποίησης"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
@@ -103,7 +103,7 @@ msgstr "Στίχοι"
 
 #: data.py:22
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "Ραδιοφωνικοί σταθμοί Icecast"
 
 #: data.py:23
 msgid "Smart playlists and kittens"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "Αντιγραφή μουσικής στο iPod από Ubuntu"
 
 #: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
@@ -291,15 +291,15 @@ msgstr ""
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr ""
+msgstr "Τελευταίες μεταφορτώσεις"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "Αποκτήστε την τελευταία, σταθερή έκδοση, του Clementine για το λειτουργικό σας σύστημα."
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Λήψεις για διαφορετικά λειτουργικά συστήματα"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -309,21 +309,21 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "Μπορείτε να καταβάσετε την τελευταία έκδοση του Clementine από το επίσημο PPA του Ubuntu:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr ""
+msgstr "Άλλες λήψεις"
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr ""
+msgstr "Μη επίσημα πακέτα"
 
 #: downloads.html:67
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "Αν δεν βλέπετε την διανομή σας να αναφέρετε στην παραπάνω λίστα, μπορεί κάποιος άλλος να έχει δημιουργήσει ένα μη επίσημο πακέτο για εσάς."
 
 #: downloads.html:75
 msgid "Compiling from source"
@@ -337,11 +337,11 @@ msgstr ""
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "Κάντε λήψη του πακέτου του πηγαίου κώδικα από την παραπάνω λίστα και σε ένα τερματικό παράθυρο:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "Πλήρης οδηγίες και λίστα εξαρτήσεων"
 
 #: downloads.html:91
 msgid "Bleeding edge packages"
@@ -349,15 +349,15 @@ msgstr ""
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr ""
+msgstr "Η ανάπτυξη του Clementine συμβαίνει στο"
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr ""
+msgstr "το αποθετήριο git"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "Ελέγχτε των κώδικα, εκτελώντας:"
 
 #: downloads.html:99 participate.html:61
 msgid ""
@@ -399,11 +399,11 @@ msgstr ""
 
 #: downloads.html:126
 msgid "Old downloads"
-msgstr ""
+msgstr "Παλαιότερες λήψεις"
 
 #: downloads.html:133 screenshots.html:9
 msgid "Version"
-msgstr ""
+msgstr "Έκδοση"
 
 #: main.html:6
 msgid "About &amp; Features"
@@ -415,11 +415,11 @@ msgstr ""
 
 #: main.html:11
 msgid "Listen to internet radio from"
-msgstr ""
+msgstr "Ακούστε ιντερνετικό ραδιόφωνο από"
 
 #: main.html:22
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "Δημιουργία έξυπνης και δυναμικής λίστας αναπαραγωγής."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -431,7 +431,7 @@ msgstr ""
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Αναπαραγωγή μουσικών CD."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -443,7 +443,7 @@ msgstr ""
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "Μετατροπή μουσικής σε MP3, ogg Vorbis, ogg Speex, FLAC ή AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -455,7 +455,7 @@ msgstr ""
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Κάντε λήψη εξώφυλλων για άλμπουμ από το Last.fm και το Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -510,19 +510,19 @@ msgstr ""
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
-msgstr ""
+msgstr "Κάντε λήψη της τελευταίας έκδοσης τώρα"
 
 #: main.html:56
 msgid "Download Clementine"
-msgstr ""
+msgstr "Κάντε λήψη του Clementine"
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "για WIndows, Mac OS X και Linux"
 
 #: main.html:70
 msgid "Announcement"
-msgstr ""
+msgstr "Ανακοίνωση"
 
 #: main.html:71
 msgid "Changelog"
@@ -530,15 +530,15 @@ msgstr ""
 
 #: main.html:72
 msgid "Show all downloads"
-msgstr ""
+msgstr "Εμφάνιση όλων των μεταφορτώσεων"
 
 #: main.html:101
 msgid "News"
-msgstr ""
+msgstr "Νέα"
 
 #: participate.html:8
 msgid "Need help?"
-msgstr ""
+msgstr "Χρειάζεστε βοήθεια;"
 
 #: participate.html:12
 msgid "Come chat with us at the"
@@ -546,7 +546,7 @@ msgstr ""
 
 #: participate.html:12
 msgid "channel on Freenode."
-msgstr ""
+msgstr "Κανάλι στο Freenode."
 
 #: participate.html:13
 msgid ""
@@ -556,7 +556,7 @@ msgstr ""
 
 #: participate.html:16
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: participate.html:18
 msgid ""
@@ -566,11 +566,11 @@ msgstr ""
 
 #: participate.html:21
 msgid "Support and discussion group"
-msgstr ""
+msgstr "Ομάδα υποστήριξης και συζητήσεων"
 
 #: participate.html:26
 msgid "Collaborate"
-msgstr ""
+msgstr "Συνεργασία"
 
 #: participate.html:28
 msgid "Reporting bugs and proposing patches"
@@ -592,23 +592,23 @@ msgstr ""
 
 #: participate.html:37
 msgid "Translating the interface"
-msgstr ""
+msgstr "Μετάφραση του περιβάλλοντος εργασίας"
 
 #: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "Άν θέλετε να μεταφράσετε τον Clementine σε μια άλλη γλώσσα, μπορείτε να το κάνετε στην σελίδα μεταφράσεων Transifex."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "Μπορείτε να κάνετε την μετάφραση απευθείας στο Transifex ή να κατεβάσετε το αρχείο .po από την ιστοσελίδα και μετά να το στείλετε σε εμάς μέσο email."
 
 #: participate.html:43
 msgid "Transifex translations"
-msgstr ""
+msgstr "Μεταφράσεις Transifex"
 
 #: participate.html:46
 msgid "Hacking"
@@ -620,7 +620,7 @@ msgstr ""
 
 #: participate.html:88
 msgid "Social Networking"
-msgstr ""
+msgstr "Κοινωνική δικτύωση"
 
 #: participate.html:90
 msgid ""
@@ -630,12 +630,12 @@ msgstr ""
 
 #: participate.html:94
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "Ο Clementine στο Facebook"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Ο Clementine στο Twitter"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
-msgstr ""
+msgstr "Ο Clementine στο Last.fm"
