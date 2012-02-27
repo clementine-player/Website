@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Pavel Fric <pavelfric@seznam.cz>, 2012.
-#   <pavelfric@seznam.cz>, 2011.
+#   <pavelfric@seznam.cz>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-02-15 17:09-0800\n"
-"PO-Revision-Date: 2012-02-14 22:22+0000\n"
+"PO-Revision-Date: 2012-02-26 20:37+0000\n"
 "Last-Translator: fri <pavelfric@seznam.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -337,7 +337,7 @@ msgstr "Sestavení Clementine ze zdrojových souborů je na Linuxu jednoduché."
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Stáhněe balíček zdrojového kódu ze seznamu výše, a v terminálu zadejte:"
+msgstr "Stáhněte balíček zdrojového kódu ze seznamu výše, a v terminálu zadejte:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
@@ -349,7 +349,7 @@ msgstr "Nejnovější vývojové balíčky"
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr "Vývoj Clementine prebíhá v"
+msgstr "Vývoj Clementine probíhá v"
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
@@ -357,7 +357,7 @@ msgstr "úložišti git"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Vyzkoušejte kód spuštěním"
+msgstr "Vyzkoušejte kód zadáním příkazu:"
 
 #: downloads.html:99 participate.html:61
 msgid ""
@@ -451,11 +451,11 @@ msgstr "Upravujte značky souborů MP3 a OGG, uspořádejte svoji hudbu."
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Získejte chýbějící značky z MusicBrainz."
+msgstr "Získejte chybějící značky z MusicBrainz."
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Stahujte chýbějící obaly alb z Last.fm a Amazonu."
+msgstr "Stahujte chybějící obaly alb z Last.fm a Amazonu."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -506,7 +506,7 @@ msgstr "Je inspirován"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "zaměření na rychlé a jednoduše použitelné rozhraní pro hledání a přehrávání vaší hudby."
+msgstr "se zaměření na rychlé a jednoduše použitelné rozhraní pro hledání a přehrávání vaší hudby."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
@@ -552,7 +552,7 @@ msgstr "kanále na Freenode."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "<b>Vvydržte, prosím, po položení otázky</b> - můžeme být v jiném časovém pásmu, takže vaši otázku neuvidíme hned."
+msgstr "<b>Vydržte, prosím, po položení otázky</b> - můžeme být v jiném časovém pásmu, takže vaši otázku neuvidíme hned."
 
 #: participate.html:16
 msgid "Forum"
