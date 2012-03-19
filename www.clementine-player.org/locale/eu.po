@@ -3,67 +3,66 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Murat Sahin <martinamca@gmail.com>, 2012.
-#   <yusufbesir1@gmail.com>, 2012.
+#   <mikel@hamahiru.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-03-09 20:11+0000\n"
-"PO-Revision-Date: 2012-03-18 22:13+0000\n"
-"Last-Translator: Murat Sahin <martinamca@gmail.com>\n"
+"PO-Revision-Date: 2012-03-12 10:48+0000\n"
+"Last-Translator: azken_tximinoa <mikel@hamahiru.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine Music Player"
+msgstr "Clementine musika erreproduzigailua"
 
 #: base.html:38
 msgid "About"
-msgstr "Hakkında"
+msgstr "Honi buruz"
 
 #: base.html:39 downloads.html:3
 msgid "Downloads"
-msgstr "Yüklemeler"
+msgstr "Deskargak"
 
 #: base.html:40 main.html:79 screenshots.html:3
 msgid "Screenshots"
-msgstr "Ekran görüntüleri"
+msgstr "Pantaila-argazkiak"
 
 #: base.html:41 participate.html:3
 msgid "Participate"
-msgstr "Katıl"
+msgstr "Parte hartu"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4'ten ilham alan farklı platformlarda çalışan bir müzik oynatıcısı olan "
+msgstr "Amarok 1.4-ean inspiraturiko musika erreproduzigailu plataforma-anitza"
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine GPL v3 lisansı altında yayınlanan Özgür Yazlımdır. Bu internet sitesi CC-BY-SA lisansı ile lisanslanmıştır."
+msgstr "Clementine GPL v3 pean dagoen software librea da. Webgune hau CC-BY-SA pean lizentziaturik dago."
 
 #: base.html:70
 msgid "Development by"
-msgstr "Geliştirenler"
+msgstr "Garapena:"
 
 #: base.html:70 main.html:18 main.html.py:19
 msgid "and"
-msgstr "ve"
+msgstr "eta"
 
 #: base.html:72
 msgid "Website by"
-msgstr "İnternet sitesinin geliştiricisi"
+msgstr "Webgunea:"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr "Transcoding ayarları"
+msgstr ""
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
@@ -71,7 +70,7 @@ msgstr ""
 
 #: data.py:10
 msgid "Global search options"
-msgstr "Genel arama seçenekleri"
+msgstr ""
 
 #: data.py:11
 msgid "Grooveshark integration"
@@ -87,7 +86,7 @@ msgstr ""
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
-msgstr "Otomatik tamamlamalı yeni etiket düzenleyici"
+msgstr "Autobetetze funtzioa duen etiketa-editore berria"
 
 #: data.py:17
 msgid "Track slider tooltip on Mac OS X"
@@ -95,91 +94,91 @@ msgstr ""
 
 #: data.py:20
 msgid "Artist photos and biographies"
-msgstr "Sanatçı fotoğrafları ve biyografileri"
+msgstr "Artisten argazki eta biografiak"
 
 #: data.py:21
 msgid "Lyrics"
-msgstr "Şarkı sözleri"
+msgstr "Letrak"
 
 #: data.py:22
 msgid "Icecast radio stations"
-msgstr "Icecast radyo istasyonları"
+msgstr "Icecast irratiak"
 
 #: data.py:23
 msgid "Smart playlists and kittens"
-msgstr "Akıllı çalma listeleri ve kedicikler"
+msgstr "Erreprodukzio-zerrenda adimendunak eta katutxoak"
 
 #: data.py:26
 msgid "The queue manager on Windows 7"
-msgstr "Windows 7'de sıralama yöneticisi"
+msgstr "Ilara-kudeatzailea Windows 7-n"
 
 #: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "Musika iPod batera kopiatzen Ubuntun"
 
 #: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "Clementine 0.5 Ubun...LORIA OSOA HIPNOAPOARENTZAT"
 
 #: data.py:29
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Mac OS X üzerinde Clementine 0.5"
+msgstr "Clementine 0.5 Mac OS X-en"
 
 #: data.py:32
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Ubuntu üzerinde Clementine 0.4"
+msgstr "Clementine 0.4 Ubuntun"
 
 #: data.py:33
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Windows 7 üzerinde Clementine 0.4"
+msgstr "Clementine 0.4 Windows 7n"
 
 #: data.py:34
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr "projectM ile Clementine 0.4 görselleştirmeleri"
+msgstr ""
 
 #: data.py:35
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Mac OS X için Clementine 0.4"
+msgstr "Clementine 0.4 Mac OS X-en"
 
 #: data.py:38
 msgid "Last.fm tag radio"
-msgstr "Last.fm etiket radyosu"
+msgstr "Last.fm-ko etiketa irratia"
 
 #: data.py:39
 msgid "Searching the library"
-msgstr "Kütüphaneyi arıyor"
+msgstr "Bilduman bilatzen"
 
 #: data.py:40 data.py:46
 msgid "The tag editor on Windows"
-msgstr "Windows'da etiket düzenleyicisi"
+msgstr "Etiketa editorea Windows-en"
 
 #: data.py:41
 msgid "The cover manager on Mac OS X"
-msgstr "Mac OS X'de kapak yöneticisi"
+msgstr "Azal-kudeatzailea Mac OS X-en"
 
 #: data.py:44
 msgid "Playback on Linux"
-msgstr "Linux üzerinde playback"
+msgstr ""
 
 #: data.py:45
 msgid "Last.fm support"
-msgstr "Last.fm desteği"
+msgstr ""
 
 #: data.py:47
 msgid "Growl notifications on Mac OS X"
-msgstr "Mac OS X üzerinde growl duyuruları"
+msgstr ""
 
 #: data.py:142
 msgid "Source code"
-msgstr "Kaynak kodu"
+msgstr "Iturburu-kodea"
 
 #: data.py:157
 msgid "Source"
-msgstr "Kaynak"
+msgstr "Iturria"
 
 #: data.py:189
 msgid "Version 0.2 released"
-msgstr "0.2 sürümü yayınlandı"
+msgstr ""
 
 #: data.py:190
 msgid ""
@@ -190,7 +189,7 @@ msgstr ""
 
 #: data.py:196
 msgid "Version 0.3 released"
-msgstr "0.3 sürümü yayınlandı"
+msgstr ""
 
 #: data.py:197
 msgid ""
@@ -202,7 +201,7 @@ msgstr ""
 
 #: data.py:205
 msgid "Version 0.4 released"
-msgstr "0.4 sürümü yayınlandı"
+msgstr ""
 
 #: data.py:206
 msgid ""
@@ -216,7 +215,7 @@ msgstr ""
 
 #: data.py:215
 msgid "Version 0.5 released"
-msgstr "0.5 sürümü yayınlandı"
+msgstr ""
 
 #: data.py:216
 msgid ""
@@ -237,7 +236,7 @@ msgstr ""
 
 #: data.py:232
 msgid "Version 0.6 released"
-msgstr "0.6 sürümü yayınlandı"
+msgstr ""
 
 #: data.py:233
 msgid ""
@@ -254,7 +253,7 @@ msgstr ""
 
 #: data.py:245
 msgid "Version 0.7 released"
-msgstr "0.7 sürümü yayınlandı"
+msgstr ""
 
 #: data.py:246
 msgid ""
@@ -273,7 +272,7 @@ msgstr ""
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr "Sürüm 1.0 yayınlandı"
+msgstr ""
 
 #: data.py:261
 msgid ""
@@ -291,73 +290,73 @@ msgstr ""
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr "En son indirilenler"
+msgstr "Azken deskargak."
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "İşletim sisteminiz için Clementine'in kararlı en son sürümünü yükleyin."
+msgstr "Eskuratu ezazu Clementineren azken bertsio egonkorra zure sistema eragilerako."
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr "Diğer işletim sistemleri için indirilecek dosyalar"
+msgstr "Deskargak beste sistema eragile batzuetarako"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
-msgstr "Ubuntu PPA"
+msgstr ""
 
 #: downloads.html:55
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Ubuntu üzerindeki en son Clementine sürümünü resmi PPA'dan indirebilirsiniz:"
+msgstr ""
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr "Diğer İndirilenler"
+msgstr ""
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr "Resmi olmayan paketler"
+msgstr ""
 
 #: downloads.html:67
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr "Eğer kendi dağıtımınızın yukarıda listelendiğini görmüyorsanız belki başka birisi sizin için resmi olmayan bir paket oluşturmuş olabilir."
+msgstr ""
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr "Kaynaktan derleniyor"
+msgstr ""
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Clementine'i Linux üzerind kaynak koddan derlemek kolaydır."
+msgstr ""
 
 #: downloads.html:78
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Yukarıdaki listeden kaynak kod paketin indirin ve bir terminal penceresine aşağıdakileri yazın:"
+msgstr ""
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
-msgstr "Talimatların ve bağımlılık listesinin tamamı"
+msgstr ""
 
 #: downloads.html:91
 msgid "Bleeding edge packages"
-msgstr "En yeni paketler"
+msgstr ""
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr "Clementine geliştirmeleri"
+msgstr ""
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr "git deposu"
+msgstr ""
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Şu komutu çalıştırarak kodu kontrol edin:"
+msgstr ""
 
 #: downloads.html:99 participate.html:61
 msgid ""
@@ -367,59 +366,59 @@ msgstr ""
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
-msgstr "Mac OS X geliştirme inşaları"
+msgstr ""
 
 #: downloads.html:105 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Ubuntu Lucid (10.04) geliştirme inşaları"
+msgstr ""
 
 #: downloads.html:107 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Ubuntu Maverick (10.10) geliştirme inşaları"
+msgstr ""
 
 #: downloads.html:109 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Ubuntu Natty (11.04) geliştirme inşaları"
+msgstr ""
 
 #: downloads.html:111 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Ubuntu Oneiric (11.10) geliştirme inşaları"
+msgstr ""
 
 #: downloads.html:113 participate.html:75
 msgid "Windows development builds"
-msgstr "Windows geliştirme inşaları"
+msgstr ""
 
 #: downloads.html:115 participate.html:77
 msgid "Buildbot"
-msgstr "Buildbot"
+msgstr ""
 
 #: downloads.html:118 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Bu geliştirme inşaları için ayrıca bir Ubuntu PPA var:"
+msgstr ""
 
 #: downloads.html:126
 msgid "Old downloads"
-msgstr "Eski indirmeler"
+msgstr ""
 
 #: downloads.html:133 screenshots.html:9
 msgid "Version"
-msgstr "Sürüm"
+msgstr "Bertsioa"
 
 #: main.html:6
 msgid "About &amp; Features"
-msgstr "Hakkında &amp; Özellikler"
+msgstr ""
 
 #: main.html:10
 msgid "Search and play your local music library."
-msgstr "Yerel müzik kütüphanenizi arayın ve çalın."
+msgstr ""
 
 #: main.html:11
 msgid "Listen to internet radio from"
-msgstr "Üzerinden internet radyosu dinle"
+msgstr ""
 
 #: main.html:22
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Akıllı ve dinamik çalma listeleri yarat"
+msgstr ""
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -431,7 +430,7 @@ msgstr ""
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr "Ses CD'si çal."
+msgstr ""
 
 #: main.html:26
 msgid "Visualisations from"
@@ -439,27 +438,27 @@ msgstr ""
 
 #: main.html:27
 msgid "Lyrics and artist biographies and photos."
-msgstr "Şarkı sözleri ve sanatçı geçmişleri ve fotoğrafları."
+msgstr ""
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Müziği MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC olarak yeniden kaydet."
+msgstr ""
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "MP3 ve OGG dosya biçimlerinin etiketlerini düzenleyin, müziğinizi organize edin."
+msgstr ""
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Eksik etiketleri MusicBrainz üzerinden çekin."
+msgstr ""
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Eksik albüm kapağını Last.fm ve Amazon üzerinden indir."
+msgstr ""
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Bir çok sistemi destekler - Windows, Mac OS X ve Linux üzerinde çalışır."
+msgstr ""
 
 #: main.html:33
 msgid ""
@@ -480,27 +479,27 @@ msgstr ""
 
 #: main.html:35
 msgid "Copy music to your"
-msgstr "Müziğinizi"
+msgstr ""
 
 #: main.html:35
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP veya USB çalara kopyalayın."
+msgstr ""
 
 #: main.html:36
 msgid "Queue manager."
-msgstr "Sıralama yöneticisi."
+msgstr ""
 
 #: main.html:42
 msgid "is a modern music player and library organizer"
-msgstr "modern bir müzik çalar ve kütüphane düzenleyicisidir"
+msgstr ""
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementime birden fazla platform üzerinde çalışan bir müzikçalardır."
+msgstr ""
 
 #: main.html:47
 msgid "It is inspired by"
-msgstr "Esinlenmiştir"
+msgstr ""
 
 #: main.html:48
 msgid ""
@@ -510,39 +509,39 @@ msgstr ""
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
-msgstr "Son sürümü şimdi indir"
+msgstr ""
 
 #: main.html:56
 msgid "Download Clementine"
-msgstr "Clementine'i indir"
+msgstr ""
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr "Windows, Mac OS X ve Linüx için"
+msgstr ""
 
 #: main.html:70
 msgid "Announcement"
-msgstr "Duyuru"
+msgstr ""
 
 #: main.html:71
 msgid "Changelog"
-msgstr "Değişiklik listesi"
+msgstr ""
 
 #: main.html:72
 msgid "Show all downloads"
-msgstr "Bütün indirmeleri göster"
+msgstr ""
 
 #: main.html:101
 msgid "News"
-msgstr "Haberler"
+msgstr "Albisteak"
 
 #: participate.html:8
 msgid "Need help?"
-msgstr "Yardıma mı ihtiyacınız var?"
+msgstr "Laguntza behar?"
 
 #: participate.html:12
 msgid "Come chat with us at the"
-msgstr "Bizimle konuşmak için"
+msgstr ""
 
 #: participate.html:12
 msgid "channel on Freenode."
@@ -552,25 +551,25 @@ msgstr ""
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "<b>Bir soru sorduktan sonra takip etmeyi</b> unutmayın lütfen - çünkü biz farklı bir saat diliminde olabiliriz ve bu yüzden sorunuzu hemen göremeyebiliriz."
+msgstr ""
 
 #: participate.html:16
 msgid "Forum"
-msgstr "Forum"
+msgstr "Foroa"
 
 #: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine forum/e-posta listesi/genel tartışma grupları için Google Groups'u kullanıyor."
+msgstr "Clementine-k Google Groups darabil bere foro/posta-zerrenda/eztabaida orokorreko talde modura."
 
 #: participate.html:21
 msgid "Support and discussion group"
-msgstr "Destek ve tartışma grupları"
+msgstr ""
 
 #: participate.html:26
 msgid "Collaborate"
-msgstr "Birlikte çalışmak için"
+msgstr ""
 
 #: participate.html:28
 msgid "Reporting bugs and proposing patches"
@@ -588,7 +587,7 @@ msgstr ""
 
 #: participate.html:34
 msgid "Issue tracker"
-msgstr "Hata takip edici"
+msgstr ""
 
 #: participate.html:37
 msgid "Translating the interface"
@@ -598,7 +597,7 @@ msgstr ""
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Eğer Clementine'i başka bir dile çevirmek istiyorsanız bunu Transifex çeviri sayfaları üzerinden gerçekleştirebilirsiniz."
+msgstr "Clementine beste hizkuntza batera itzuli nahi baduzu, hala egin dezakezu Transifex itzulpenen orrian."
 
 #: participate.html:40
 msgid ""
@@ -608,19 +607,19 @@ msgstr ""
 
 #: participate.html:43
 msgid "Transifex translations"
-msgstr "Transifex çevirileri"
+msgstr "Transifex itzulpenak"
 
 #: participate.html:46
 msgid "Hacking"
-msgstr "Hackleme"
+msgstr ""
 
 #: participate.html:57
 msgid "How to compile Clementine from source"
-msgstr "Clementine kaynak koddan nasıl derlenir"
+msgstr "Nola konpilatu Clementine iturburu-kodetik abiatuz"
 
 #: participate.html:88
 msgid "Social Networking"
-msgstr "Sosyal Ağ"
+msgstr ""
 
 #: participate.html:90
 msgid ""
@@ -630,12 +629,12 @@ msgstr ""
 
 #: participate.html:94
 msgid "Clementine on Facebook"
-msgstr "Facebook üzerinde Clementine"
+msgstr "Clementine Facebooken"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr "Twitter üzerinde Clementine"
+msgstr "Clementine Twitterren"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
-msgstr "Last.fm üzerinde Clementine"
+msgstr "Clementine Last.fm-n"

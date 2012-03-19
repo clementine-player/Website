@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <ricsipontaz@googlemail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-03-09 20:11+0000\n"
-"PO-Revision-Date: 2012-02-01 23:58+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2012-03-18 19:07+0000\n"
+"Last-Translator: ricsipontaz <ricsipontaz@googlemail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine Zenelejátszó"
+msgstr "Clementine zenelejátszó"
 
 #: base.html:38
 msgid "About"
@@ -61,19 +62,19 @@ msgstr "A weboldalt készítette"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Átkódoló beállítások"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Albumok keresése a Spotify-n a globális kereséssel"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Globális keresési beállítások"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Grooveshark integráció"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -271,7 +272,7 @@ msgstr "A Clementine ebben a kiadásban egy új címkeszerkesztőt kapott automa
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Megjelent az 1.0-ás verzió"
 
 #: data.py:261
 msgid ""
@@ -285,7 +286,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Ettől a kiadástól támogatott a <a href=\"http://www.spotify.com\">Spotify</a>, a <a href=\"http://grooveshark.com\">Grooveshark</a> és a <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> is. Ezen kívül megjelent a Globális keresés lehetősége, segítségével könnyeben kereshetünk zenéket a gyűjteményünkben vagy az interneten. További újdonságok az audio CD támogatása, további átkódolási lehetőségek, továbbfejlesztett beállítások ablak, intelligensebb albumborító kereső és rengeteg hibajavítás. További információ a <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">változások listájában</a> található."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -297,7 +298,7 @@ msgstr "Töltsd le a legfrissebb stabil Clementine verziót az operációs rends
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Letöltés más operációs rendszerekre"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -429,7 +430,7 @@ msgstr "CUE fájlok kezelése"
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Audio CD-k lejátszása."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -453,7 +454,7 @@ msgstr "Hiányzó számcímkék kiegészítése MusicBrainz segítségével"
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Hiányzó albumborítók letöltése a Last.fm és az Amazon oldalakról."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -490,7 +491,7 @@ msgstr "Sorkezelő"
 
 #: main.html:42
 msgid "is a modern music player and library organizer"
-msgstr "egy modern zenelejátszó és zenetár kezelő"
+msgstr "egy modern zenelejátszó és zenetárkezelő"
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
