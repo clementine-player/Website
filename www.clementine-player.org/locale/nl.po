@@ -3,194 +3,193 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
-#   <pencininkas4@gmail.com>, 2012.
+#   <mj.vanthoor@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-03-19 14:18+0100\n"
-"PO-Revision-Date: 2012-03-29 18:07+0000\n"
-"Last-Translator: pencininkas4 <pencininkas4@gmail.com>\n"
+"PO-Revision-Date: 2012-03-29 23:53+0000\n"
+"Last-Translator: mjvanthoor <mj.vanthoor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine muzikos grotuvas"
+msgstr "Clementine Muziekspeler"
 
 #: base.html:38
 msgid "About"
-msgstr "Apie"
+msgstr "Over"
 
 #: base.html:39 downloads.html:3
 msgid "Downloads"
-msgstr "Atsiuntimai"
+msgstr "Downloads"
 
 #: base.html:40 main.html:79 screenshots.html:3
 msgid "Screenshots"
-msgstr "Ekrano nuotraukos"
+msgstr "Schermafdrukken"
 
 #: base.html:41 participate.html:3
 msgid "Participate"
-msgstr "Prisidėti"
+msgstr "Meehelpen"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Įvairių platformų muzikos grotuvas įkvėptas Amarok 1.4"
+msgstr "Een multi-platform muziekspeler, geïnspireerd door Amarok 1.4."
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine yra laisva programinė įranga pagal GPL v3. Šios svetainės teisės saugomos pagal CC-BY-SA."
+msgstr "Clementine is Vrije Software, onder de GPL v3 licentie. Deze site heeft CC-BY-SA als licentie."
 
 #: base.html:70
 msgid "Development by"
-msgstr "Sukūrė"
+msgstr "Ontwikkeld door"
 
 #: base.html:70 main.html:18 main.html.py:19
 msgid "and"
-msgstr "ir"
+msgstr "en"
 
 #: base.html:72
 msgid "Website by"
-msgstr "Svetainę sukūrė"
+msgstr "Website ontwikkeld door"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr "Perkodavimo nustatymai"
+msgstr "Instellingen voor transcodering"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr "Globaliai ieškant raskite albumus Spotify sistemoje"
+msgstr "Globale zoekoptie: vind albums op Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr "Globalios paieškos parinktys"
+msgstr "Globale zoekopties"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr "Grooveshark integracija"
+msgstr "Integratie van Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
-msgstr "Dainos žodžių ir takelio slinkiklio paaiškinimas"
+msgstr "Tooltip voor \"Tekst en nummer\"-schuif"
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
-msgstr "MusicBrainz sutvarko nepažymėtus failus"
+msgstr "MusicBrainz is niet-getagde bestanden aan het bijwerken"
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
-msgstr "Naujas žymių redaktorius su automatiniu užbaigimu"
+msgstr "Nieuwe tag-editor met automatisch completeren"
 
 #: data.py:17
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Takelio slinkiklio paaiškinimas Mac OS X"
+msgstr "Tooltip voor \"Track\"-schuif op OS X"
 
 #: data.py:20
 msgid "Artist photos and biographies"
-msgstr "Atlikėjo nuotraukos ir biografijos"
+msgstr "Foto's en biografieën van artiesten"
 
 #: data.py:21
 msgid "Lyrics"
-msgstr "Dainų žodžiai"
+msgstr "Teksten"
 
 #: data.py:22
 msgid "Icecast radio stations"
-msgstr "Icecast radijo stotys"
+msgstr "Icecast radiostations"
 
 #: data.py:23
 msgid "Smart playlists and kittens"
-msgstr "Išmanūs grojaraščiai ir kačiukai"
+msgstr "Slimme afspeellijsten en poesjes"
 
 #: data.py:26
 msgid "The queue manager on Windows 7"
-msgstr "Eilės tvarkyklė Windows 7 platformoje"
+msgstr "Wachtrijbeheerder in Windows 7"
 
 #: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
-msgstr "Kopijuojama muzika į iPod“ Ubuntu platformoje"
+msgstr "Muziek kopiëren naar een iPod in Ubuntu"
 
 #: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 Ubu... ŠLOVĖ HYPNOTOAD'ui"
+msgstr "Clementine 0.5 op Ubu....ALLE GLORIE VOOR DE HYPNOTOAD"
 
 #: data.py:29
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 Mac OS X platformoje"
+msgstr "Clementine 0.5 onder Mac OS X"
 
 #: data.py:32
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 Ubuntu platformoje"
+msgstr "Clementine 0.4 onder Ubuntu"
 
 #: data.py:33
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 Ubuntu Windows 7 platformoje"
+msgstr "Clementine 0.4 onder Windows 7"
 
 #: data.py:34
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr "Clementine 0.4 vizualizacija su projectM"
+msgstr "Clementine 0.4 visualisaties via ProjectM"
 
 #: data.py:35
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 Mac OS X platformoje"
+msgstr "Clementine 0.4 onder Mac OS X"
 
 #: data.py:38
 msgid "Last.fm tag radio"
-msgstr "Last.fm gairių radijas"
+msgstr "Last.fm tag radio"
 
 #: data.py:39
 msgid "Searching the library"
-msgstr "Ieškoma fonotekoje"
+msgstr "Zoeken in de bibliotheek"
 
 #: data.py:40 data.py:46
 msgid "The tag editor on Windows"
-msgstr "Gairių rengyklė Windows platformoje"
+msgstr "Tag-editor onder Windows"
 
 #: data.py:41
 msgid "The cover manager on Mac OS X"
-msgstr "Viršelių tvarkyklė Mac OS X platformoje"
+msgstr "Albumhoes onder Mac OS X"
 
 #: data.py:44
 msgid "Playback on Linux"
-msgstr "Grojimas Linux platformoje"
+msgstr "Afspelen onder Linux"
 
 #: data.py:45
 msgid "Last.fm support"
-msgstr "Last.fm palaikymas"
+msgstr "Ondersteuning voor Last.fm"
 
 #: data.py:47
 msgid "Growl notifications on Mac OS X"
-msgstr "Growl pranešimai Mac OS X platformoje"
+msgstr "Growl-notificaties onder Mac OS X"
 
 #: data.py:142
 msgid "Source code"
-msgstr "Išeities kodas"
+msgstr "Broncode"
 
 #: data.py:157
 msgid "Source"
-msgstr "Šaltinis"
+msgstr "Bron"
 
 #: data.py:189
 msgid "Version 0.2 released"
-msgstr "Išleista 0.2 versija"
+msgstr "Versie 0.2 is uitgegeven"
 
 #: data.py:190
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Praėjo tik mėnesis kai mes išleidome pirmą Clementine versiją. Ši versija turi albumų viršelius, geresnį „Įvairių atlikėjų“ aptikimą, palaiko grojaraščių įkėlimą, ir daug daugiau."
+msgstr "Het is net een maand geleden sinds we de eerste versie van Clementine hebben uitgegeven. Deze nieuwe versie heeft albumhoezen, betere detectie voor \"Various Artists\"-albums, ondersteuning voor het laden van afspeellijsten, en nog veel meer."
 
 #: data.py:196
 msgid "Version 0.3 released"
-msgstr "Išleista 0.3 versija"
+msgstr "Versie 0.3 is uitgegeven"
 
 #: data.py:197
 msgid ""
@@ -198,11 +197,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Šiame leidime mes persijungėme į GStreamer visose platformose, tai reiškia, kad analizatorius ir takelių suliejimas dabar veiks ir Windows platformoje. Naujose savybėse yra glotnintuvas, daugiau fonotekos grupavimo pasirinkimų, gražesnis OSD, nuotolinis valdymas iš komandinės eilutės ir MPRIS, taip pat lengvesnis žymių redagavimas."
+msgstr "In deze uitgave zijn we op alle platformen overgeschakeld op GStreamer. Dit betekent dat analyzeren en cross-faden van muziekstukken ook onder Windows werkt. Nieuwe functies zijn onder andere een equalizer, meer groeperingsopties voor de bibliotheek, een mooier OSD, afstandsbediening vanaf de commandoregel, MPRIS, en gemakkelijker bijwerken van tags."
 
 #: data.py:205
 msgid "Version 0.4 released"
-msgstr "Išleista 0.4 versija"
+msgstr "Versie 0.4 is uitgegeven."
 
 #: data.py:206
 msgid ""
@@ -212,11 +211,11 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Šiame leidime atsiranda grojaraščiai, grojaraščių paieška, projectM vizualizacijos, Magnatune integracija, ReplayGain garso normalizavimas ir muzikos perkodavimas. Mes pataisėme daugybę klaidų - paieška didelėse fonotekose paieška dabar yra daug greitesnė, grojimas daug stabilesnis Windows platformoje, simbolių koduotės problemos pataisytos, nuotoliniai grojaraščiai turėtų tinkamai įsikelti visą laiką."
+msgstr "Deze uitgave bevat afspeellijsten in tabbladen, zoeken in afspeellijsten, ProjectM Visualiseringen, Magnatune-integratie, ReplayGain voor het normaliseren van het volume, en transcoderen van muziek. We hebben ladingen fouten opgelost: zoeken in grote bibliotheken gaat nu veel sneller, afspelen is betrouwbaarder op Windows, karaktercoderingsproblemen zijn opgelost, en externe afspeellijsten zouden altijd correct moeten laden."
 
 #: data.py:215
 msgid "Version 0.5 released"
-msgstr "Išleista 0.5 versija"
+msgstr "Versie 0.5 is uitgegeven"
 
 #: data.py:216
 msgid ""
@@ -233,11 +232,11 @@ msgid ""
 " load of memory leaks and reduced CPU usage while playing music. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Šis leidimas palaiko prijungiamus įrenginius su Clementine.  Dabar jūs galite perkelti savo dainas į savo iPod, iPhone, MTP arba į USB laikmeną.  Žiūrėkite <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\"> wiki, jei norite daugiau informacijos</a>.  Palaikymas naudojant <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">bevielis Wii</a> kaip valdymo funkcija pridėta iš anksto. Dar pridėtas „Queue“ valdiklis, organizuotas failų naršyklės dialogas, automatiniai automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">full changelog</a> for more information."
+msgstr "Deze versie voegt ondersteuning voor draagbare apparaten toe aan Clementine. U kunt nu muziekstukken kopiëren naar uw iPod, iPhone, MTP-speler, of uw USB-stick. Zie <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">deze pagina in de Wiki</a> voor meer informatie. Er is ook ondersteuning voor de <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a> toegevoegd; deze kan nu als afstandabediening worden gebruikt. Andere nieuwe mogelijkheden zijn de Wachtrijbeheerder, een dialoogvenster om bestanden te organiseren, automatisch uitrekken van kolommen in de afspeellijst, het laden van ingevoegde ad3v2 albumhoezen, meer opties voor het scannen van de bibliotheek, slepen-en-neerzetten tussen afspeellijsten, en een HYPNOTOAD. We hebben de opstarttijd gehalveerd, en een heleboel fouten en geheugenlekken hersteld. Het CPU-gebruik tijdens het afspelen van muziekstukken is verminderd. Zie de <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">lijst met aanpassingen</a> voor meer informatie."
 
 #: data.py:232
 msgid "Version 0.6 released"
-msgstr "Išleista 0.6 versija"
+msgstr "Versie 0.6 is uitgegeven"
 
 #: data.py:233
 msgid ""
@@ -250,11 +249,11 @@ msgid ""
 "href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgstr "Deze versie voorziet in twee nieuwe informatiegedeelten om teksten, statistieken, biografieën van artiesten, foto's en lijsten van tags betreffende vergelijkbare artiesten te laten zien. Wij hebben de zijbalk opnieuw ontworpen (u kunt teruggaan naar de oude, door er met de rechter-muisknop op te klikken), er zijn ratings, afspeeltellers, en een teller voor overgeslagen muziekstukken toegevoegd. U kunt slimme, dynamische afspeellijsten maken aan de hand van de muziek in uw bibliotheek, maar u kunt ook luisteren naar muziek van <a href=\"http://www.jamendo.com/\">Jamendo</a>, en Icecast radiostations. Zie <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">volledige lijst van wijzigingen</a> voor een compleet overzicht."
 
 #: data.py:245
 msgid "Version 0.7 released"
-msgstr "Išleista 0.7 versija"
+msgstr "Versie 0.7 is uitgegeven"
 
 #: data.py:246
 msgid ""
@@ -269,11 +268,11 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgstr "In deze versie verkrijgt Clementine een volledig nieuwe tag editor, met auto-aanvullingsmogelijkheden, en de mogelijkheid om muziek te herkennen. Missende tags worden automatisch opgehaald van MusicBrainz. CUE-sheets worden nu ondersteund - ze worden automatisch gedetecteerd als de muziekbibliotheek wordt gescand, en elk nummer zal apart worden weergegeven. We hebben een heleboel kleine verbeteringen aangebracht, zoals het laten zien van albumhoezen in de bibliotheektab, het grijs maken van verwijderde muziekstukken, een optie \"Tonen in bestandsbeheerder\", ondersteuning voor proxy-servers, een \"Scan volledige bibliotheek\"-optie, en een nieuwe tooltip voor de zoekschuif, zodat er nu accurater binnen een muziekstuk gezocht kan worden. Zie <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">de volledige lijst van veranderingen</a> voor meer informatie."
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr "Išleista 1.0 versija"
+msgstr "Versie 1.0 is uitgegeven"
 
 #: data.py:261
 msgid ""
@@ -287,19 +286,19 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Deze versie voegt ondersteuning toe voor <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. We hebben ook een globale zoekfunctie toegevoegd, die het mogelijk maakt om gemakkelijk muziek te vinden die of in uw bibliotheek zit, of zich op het internet bevindt. Andere mogelijkheden zijn ondersteuning voor Audio-CD's, meer transcoderingsopties, een verbeterd instellingenvenster, beter en slimmer zoeken naar albumhoezen, Er zijn een heleboel fouten hersteld. Zie <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">de lijst van veranderingen</a> voor meer informatie."
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr "Paskutiniai atsiuntimai"
+msgstr "Nieuwste downloads"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Gauti naujausią stabilią Clementine versiją Jūsų operacinei sistemai"
+msgstr "Verkrijg de nieuwste stabiele versie van Clementine voor uw besturingssysteem."
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr "Atsiuntimai kitoms operacinėms sistemoms"
+msgstr "Downloads voor andere besturingssystemen"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -309,333 +308,333 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Galite atsisiųsti naujausią Clementine versiją Ubuntu sistemai iš oficialaus PPA:"
+msgstr "U kunt de nieuwste versie van Clementine voor Ubuntu downloaden vanuit de officiële PPA:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr "Kiti atsiuntimai"
+msgstr "Andere downloads"
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr "Oficialūs paketai"
+msgstr "Onofficiële pakketten:"
 
 #: downloads.html:67
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr "Jei nematote savo distribucijos aukščiau esančiame sąraše, tai kažkas kitas gali būti sukūręs neoficialų paketą Jums."
+msgstr "Als u uw distributie niet in de lijst hierboven ziet staan, dan kan het toch zo zijn dat iemand anders een onofficiëel pakket voor uw distributie heeft gemaakt."
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr "Kopiliuoti iš šaltinio"
+msgstr "Compileren vanuit de broncode"
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Kompiliuoti Clementine iš išeities kodo yra lengva Linux'e"
+msgstr "Clementine's broncode compileren is gemakkelijk op Linux."
 
 #: downloads.html:78
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Atsisiųsti išeities kodo paketą iš sąrašo aukščiau ir terminalo lange:"
+msgstr "Download het broncodepakket uit de bovenstaande lijst, en typ in een terminalvenster:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
-msgstr "Pilnos instrukcijos ir priklausomybių sąrašas"
+msgstr "Volledige instructions, en een lijst van afhankelijkheden"
 
 #: downloads.html:91
 msgid "Bleeding edge packages"
-msgstr "Eksperimentiniai paketai"
+msgstr "De allernieuwste pakketten (\"bleeding edge\")"
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr "Clementine programavimas vyksta"
+msgstr "Ontwikkeling van Clementine gebeurt in"
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr "git saugykloje"
+msgstr "Het git-repository"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Patikrinti kodą vykdant:"
+msgstr "Bekijk de code op de volgende manier:"
 
 #: downloads.html:99 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr "Jei nenorite patys kompiliuoti vystomos versijos, pamėginkite vieną iš mūsų kas valandą gaminamų paketų:"
+msgstr "Als u de ontwikkelilngsversie niet zelf wilt compileren, probeer dan een van deze pakketten die per uur worden gegenereerd:"
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
-msgstr "Mac OS X programavimo produktai"
+msgstr "Mac OSX ontwikkelingsversies"
 
 #: downloads.html:105 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Ubuntu Lucid (10.04) programavimo produktai"
+msgstr "Ubuntu Lucid (10.04) ontwikkelingsversies"
 
 #: downloads.html:107 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Ubuntu Maverick (10.10) programavimo produktai"
+msgstr "Ubuntu Maverick (10.10) ontwikkelingsversies"
 
 #: downloads.html:109 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Ubuntu Natty (11.04) programavimo produktai"
+msgstr "Ubuntu Natty (10.04) ontwikkelingsversies"
 
 #: downloads.html:111 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Ubuntu Oneiric (11.10) programavimo produktai"
+msgstr "Ubuntu Oneiric (11.10) ontwikkelingsversies"
 
 #: downloads.html:113 participate.html:75
 msgid "Windows development builds"
-msgstr "Windows programavimo produktai"
+msgstr "Windows ontwikkelingsversies"
 
 #: downloads.html:115 participate.html:77
 msgid "Buildbot"
-msgstr "Gaminimo botas"
+msgstr "Buildbot"
 
 #: downloads.html:118 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Taip pat yra Ubuntu PPA šiems programavimo produktams:"
+msgstr "Er is ook een PPA voor de volgende ontwikkelingsversies:"
 
 #: downloads.html:126
 msgid "Old downloads"
-msgstr "Seni atsiuntimai"
+msgstr "Oude downloads"
 
 #: downloads.html:133 screenshots.html:9
 msgid "Version"
-msgstr "Versija"
+msgstr "Versie"
 
 #: main.html:6
 msgid "About &amp; Features"
-msgstr "Apie &amp; savybes"
+msgstr "Informatie &amp; Mogelijkheden"
 
 #: main.html:10
 msgid "Search and play your local music library."
-msgstr "Ieškoti ir groti Jūsų vietinę fonoteką."
+msgstr "Afspelen van, en zoeken in uw lokale muziekbibliotheek"
 
 #: main.html:11
 msgid "Listen to internet radio from"
-msgstr "Klausyti internetinio radijo iš"
+msgstr "Naar internetradio luisteren:"
 
 #: main.html:22
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Kurkite išmaniuosius ir dinaminius grojaraščius."
+msgstr "Maak slimme en dynamische afspeellijsten."
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Grojaraščiai kortelėse, importuoti ir eksportuoti M3U, XSPF, PLS ir ASX."
+msgstr "Getabde afspeellijsten, importeren en exporteren van M3U, XSPF, PLS en ASX."
 
 #: main.html:24
 msgid "CUE sheet support."
-msgstr "CUE lapų palaikymas."
+msgstr "Ondersteuning voor CUE-sheets."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr "Groti Audio CD."
+msgstr "Afspelen van audio-CD's."
 
 #: main.html:26
 msgid "Visualisations from"
-msgstr "Vizualizacijos iš"
+msgstr "Visualisaties van"
 
 #: main.html:27
 msgid "Lyrics and artist biographies and photos."
-msgstr "Dainų žodžiai ir atlikėjo nuotraukos ir biografijos."
+msgstr "Teksten, biografieën en foto's van artiesten."
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Perkoduoti muziką į MP3, Ogg Vorbis, Ogg Speex, FLAC ar AAC."
+msgstr "Muziek transcoderen in MP3, Ogg Vorbis, Ogg Speex, FLAC, of AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Taisykite žymes MP3 ir OGG failuose, organizuokite savo muziką."
+msgstr "Tags bewerken voor MP3 en OGG-bestanden, om uw muziek te organiseren."
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Gaukite trūkstamas žymas iš MusicBrainz."
+msgstr "Missende tags ophalen van MusicBrainz."
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Atsisiųskite trūkstamus albumų viršelius iš Last.fm ir Amazon."
+msgstr "Missende albumhoezen downloaden van Last.fm en Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Įvairių platformų - veikia Windows, Mac OS X ir Linux platformose."
+msgstr "Multi-platform: werkt onder Windows, Mac OS X en Linux."
 
 #: main.html:33
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Vidiniai darbastalio prašimai Linux (libnotify) ir Mac OS X (Growl) platformose."
+msgstr "OS-eigen berichten onder Linux (libnotify) en Mac OS X (Growl)."
 
 #: main.html:34
 msgid "Remote control using a"
-msgstr "Nuotolinis valdymas naudojant"
+msgstr "Afstandsbediening via gebruik van"
 
 #: main.html:34
 msgid "Wii Remote"
-msgstr "Wii valdymo pultas"
+msgstr "Wii Remote"
 
 #: main.html:34
 msgid "MPRIS or the command-line."
-msgstr "MPRIS komandinėje eilutėje."
+msgstr "MPRIS of de commando-regel."
 
 #: main.html:35
 msgid "Copy music to your"
-msgstr "Kopijuoti muziką į Jūsų"
+msgstr "Kopieer muziek naar uw"
 
 #: main.html:35
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP ar USB grotuvą."
+msgstr "iPod, iPhone, MTP of USB-massaopslag."
 
 #: main.html:36
 msgid "Queue manager."
-msgstr "Eilės tvarkyklė."
+msgstr "Wachtrijbeheerder."
 
 #: main.html:42
 msgid "is a modern music player and library organizer"
-msgstr "yra modernus muzikos grotuvas ir fonotekos organizatorius"
+msgstr "is een moderne muziekspeler en bibliotheekorganisator"
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine yra įvairių platformų muzikos grotuvas."
+msgstr "Clementine is een multi-platformspeler."
 
 #: main.html:47
 msgid "It is inspired by"
-msgstr "Yra įkvėptas"
+msgstr "Hij is geïnspireerd door"
 
 #: main.html:48
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "telkiamas dėmesys į greitą ir lengvai valdomą sąsają ieškant ir grojant Jūsų muziką."
+msgstr "concentreert zich op een snelle, en gemakkelijk te gebruiken gebruikersinterface voor het zoeken afspelen van uw muziek."
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
-msgstr "Atsisiųsti naujausią versiją dabar"
+msgstr "Download nu de nieuwste versie"
 
 #: main.html:56
 msgid "Download Clementine"
-msgstr "Atsisiųsti Clementine"
+msgstr "Download Clementine"
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr "Windows, Mac OS X ir Linux platformoms"
+msgstr "voor Windows, Mac OS X en Linux"
 
 #: main.html:70
 msgid "Announcement"
-msgstr "Pranešimas"
+msgstr "Aankondiging"
 
 #: main.html:71
 msgid "Changelog"
-msgstr "Pakeitimai"
+msgstr "Lijst met veranderingen"
 
 #: main.html:72
 msgid "Show all downloads"
-msgstr "Rodyti visus atsiuntimus"
+msgstr "Toon alle downloads"
 
 #: main.html:101
 msgid "News"
-msgstr "Naujienos"
+msgstr "Nieuws"
 
 #: participate.html:8
 msgid "Need help?"
-msgstr "Reikia pagalbos?"
+msgstr "Hulp nodig?"
 
 #: participate.html:12
 msgid "Come chat with us at the"
-msgstr "Ateikite paplepėti su mumis čia:"
+msgstr "Kom, chat met ons in de"
 
 #: participate.html:12
 msgid "channel on Freenode."
-msgstr "kanalas Freenode serveryje."
+msgstr "kanaal op Freenode."
 
 #: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "Prašome <b>truputį palaukti paklausus klausimo</b> - mes galime būti skirtingose laiko juostose, taigi galime nepamatyti Jūsų klausimo iš karto."
+msgstr "Denkt u eraan even <b>rond te blijven hangen</b> na het stellen van uw vraag. Wij bevinden ons wellicht in een andere tijdszone, en zullen uw vraag niet altijd direct zien."
 
 #: participate.html:16
 msgid "Forum"
-msgstr "Forumas"
+msgstr "Forum"
 
 #: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine naudoja Google grupes savo forumui/susirašinėjimo sąrašui/bendrų diskusijų sąrašui."
+msgstr "Clementine gebruikt Google Groups voor dit forum en onze mailing list, en voor de discussiegroep."
 
 #: participate.html:21
 msgid "Support and discussion group"
-msgstr "Palaikymo ir diskusijų grupė"
+msgstr "Ondersteunings- en discussiegroep"
 
 #: participate.html:26
 msgid "Collaborate"
-msgstr "Bendradarbiauti"
+msgstr "Samenwerken"
 
 #: participate.html:28
 msgid "Reporting bugs and proposing patches"
-msgstr "Raportuoti klaidas ir siūlyti pataisymus"
+msgstr "Melden van fouten, en patches indienen"
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr "Clementine naudoja Google grupes programavimui ir trūkumų sekimui."
+msgstr "Clementine gebruikt Google Code voor ontwikkeling en foutopsporing."
 
 #: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Jei aptikote Clementine klaidą, prašome nueiti į trūkumų sekiklį ir sukurti naują pranešimą."
+msgstr "Als u een fout in Clementine heeft gevonden, ga dan naar de \"Issue Tracker\", en maak een nieuw bericht aan."
 
 #: participate.html:34
 msgid "Issue tracker"
-msgstr "Trūkumų sekiklis"
+msgstr "Issue Tracker"
 
 #: participate.html:37
 msgid "Translating the interface"
-msgstr "Sąsajos vertimas"
+msgstr "Vertalen van de gebruikersinterface"
 
 #: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Jei norite versti Clementi į kitą kalbą, tai galite daryti Transifex vertimų puslapyje."
+msgstr "Als u Clementine in een andere taal zou willen vertalen, dan kunt u dat doen op de Transifex vertalingspagina."
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Galite versti tiesiai Transifex'e, arba atsisiųsti .po failą iš svetainės, o vėliau atsiųsti el. paštu mums atgal."
+msgstr "U kunt de vertaling direct op Transifex doen, of een .po file downloaden van de site, en hem na vertaling naar ons terugsturen per e-mail."
 
 #: participate.html:43
 msgid "Transifex translations"
-msgstr "Transifex vertimai"
+msgstr "Transifex Vertalingen"
 
 #: participate.html:46
 msgid "Hacking"
-msgstr "Hackinimas"
+msgstr "Programmeren"
 
 #: participate.html:57
 msgid "How to compile Clementine from source"
-msgstr "Kai kompiliuoti Clementine iš išeities kodo"
+msgstr "Clementine compileren vanaf de broncode"
 
 #: participate.html:88
 msgid "Social Networking"
-msgstr "Socialinis tinklas"
+msgstr "Social Network"
 
 #: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Mums patiktų Jūsų palaikymas prisijungiant prie mūsų Jūsų mėgstamiausiame socialiniame tinkle!"
+msgstr "We zien graag dat u Clementine helpt door ons te volgen via uw favoriete sociale netwerk."
 
 #: participate.html:94
 msgid "Clementine on Facebook"
-msgstr "Clementine Facebook'e"
+msgstr "Clementine op Facebook"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr "Clementine Twitter'yje"
+msgstr "Clementine op Twitter"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
-msgstr "Clementine Last.fm'e"
+msgstr "Clementine op Last.fm"
