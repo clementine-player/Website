@@ -1,4 +1,4 @@
-LANGUAGES=de hu it pt ru sk es fr pt_BR sv uk vi sl fi br cs et ia nn tr_TR ca hr lt el ka uz eu
+LANGUAGES=de hu it pt ru sk es fr pt_BR sv uk vi sl fi br cs et ia nn tr_TR ca hr lt el ka uz eu nl
 
 all: pot $(addprefix mo-,${LANGUAGES})
 
