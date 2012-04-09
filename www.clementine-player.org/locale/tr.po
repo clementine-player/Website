@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-03-31 17:31+0200\n"
-"PO-Revision-Date: 2012-03-19 20:11+0000\n"
-"Last-Translator: Murat Ikilik <>\n"
+"PO-Revision-Date: 2012-04-04 08:25+0000\n"
+"Last-Translator: Murat Sahin <martinamca@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine Music Player"
+msgstr "Clementine Müzik Çalar"
 
 #: base.html:38
 msgid "About"
@@ -42,7 +42,7 @@ msgstr "Katıl"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4'ten ilham alan farklı platformlarda çalışan bir müzik oynatıcısı olan "
+msgstr "Amarok 1.4'ten ilham alan, farklı platformlarda çalışan bir müzik oynatıcısı olan "
 
 #: base.html:69
 msgid ""
@@ -140,7 +140,7 @@ msgstr "projectM ile Clementine 0.4 görselleştirmeleri"
 
 #: data.py:35
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Mac OS X için Clementine 0.4"
+msgstr "Mac OS X üzerinde Clementine 0.4"
 
 #: data.py:38
 msgid "Last.fm tag radio"
@@ -187,7 +187,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Biz Clementine ilk sürümü beri sadece bir ay içinde oldu. Bu yeni sürüm albüm kapak-sanat, daha iyi \"Çeşitli Sanatçılar\" algılama, çalma listeleri yükleme için destek ve çok daha fazlasını sunuyor."
+msgstr "Clementine'in ilk sürümünün yayınlanmasın üzerinden sadece bir ay geçti. Bu yeni sürüm albüm kapak-sanatı, daha iyi \"Çeşitli Sanatçılar\" algılaması, çalma listelerinin yüklenmesi için destek ve çok daha fazlasını sunuyor."
 
 #: data.py:196
 msgid "Version 0.3 released"
@@ -292,7 +292,7 @@ msgstr "Bu sürümde href=\"http://www.spotify.com\"> Spotify </ a> <a href=\"ht
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr "En son indirilenler"
+msgstr "En son kurulum dosyaları"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
@@ -314,7 +314,7 @@ msgstr "Ubuntu üzerindeki en son Clementine sürümünü resmi PPA'dan indirebi
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr "Diğer İndirilenler"
+msgstr "Diğer kurulum dosyaları"
 
 #: downloads.html:65
 msgid "Unofficial packages"
@@ -328,11 +328,11 @@ msgstr "Eğer kendi dağıtımınızın yukarıda listelendiğini görmüyorsan�
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr "Kaynaktan derleniyor"
+msgstr "Kaynaktan derlemek"
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Clementine'i Linux üzerind kaynak koddan derlemek kolaydır."
+msgstr "Clementine'i, Linux üzerinde kaynak koddan derlemek kolaydır."
 
 #: downloads.html:78
 msgid ""
@@ -350,15 +350,15 @@ msgstr "En yeni paketler"
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr "Clementine geliştirmeleri"
+msgstr "Clementine'in geliştirilmesi için"
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr "git deposu"
+msgstr "git deposu kullanılır"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Şu komutu çalıştırarak kodu kontrol edin:"
+msgstr "Şu komutu çalıştırarak kodlara göz atabilirsiniz:"
 
 #: downloads.html:99 participate.html:61
 msgid ""
@@ -400,7 +400,7 @@ msgstr "Bu geliştirme inşaları için ayrıca bir Ubuntu PPA var:"
 
 #: downloads.html:126
 msgid "Old downloads"
-msgstr "Eski indirmeler"
+msgstr "Eski kurulum dosyaları"
 
 #: downloads.html:133 screenshots.html:9
 msgid "Version"

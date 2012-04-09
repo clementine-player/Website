@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-03-31 17:31+0200\n"
-"PO-Revision-Date: 2012-03-10 22:30+0000\n"
+"PO-Revision-Date: 2012-04-04 09:59+0000\n"
 "Last-Translator: fri <pavelfric@seznam.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -464,7 +464,7 @@ msgstr "Víceplatformnost - pracuje na Windows, Mac OS X a Linuxu."
 #: main.html:33
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Původní oznámení na ploše na Linuxe (libnotify) a Mac OS X (Growl)"
+msgstr "Původní oznámení na ploše na Linuxu (libnotify) a Mac OS X (Growl)"
 
 #: main.html:34
 msgid "Remote control using a"
@@ -542,7 +542,7 @@ msgstr "Potřebujete pomoc?"
 
 #: participate.html:12
 msgid "Come chat with us at the"
-msgstr "Pojďte si pohovořit s námi na"
+msgstr "Pojďte si s námi pohovořit na"
 
 #: participate.html:12
 msgid "channel on Freenode."
@@ -604,7 +604,7 @@ msgstr "Pokud chcete Clementine přeložit do dalšího jazyka, můžete to udě
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Můžete buď udělat překlad přímo na Transifexu, nebo stáhnout sobor .po ze stránky, a potom nám jej poslat zpět."
+msgstr "Překlad můžete udělat buď přímo na Transifexu, nebo stáhnout sobor .po ze stránky, a potom nám jej poslat zpět."
 
 #: participate.html:43
 msgid "Transifex translations"
