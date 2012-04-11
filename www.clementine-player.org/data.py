@@ -273,7 +273,7 @@ NEWS = [
 LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
   "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt", "cs", "el", "ka", "uz",
-  "eu", "nl",
+  "eu", "nl", "pl",
 ]
 
 LANGUAGE_NAMES = {
@@ -366,7 +366,7 @@ LANGUAGE_NAMES = {
   "or": "Oriya",
   "ps": "Pashto",
   "fa": "Persian",
-  "pl": "Polish",
+  "pl": "polski",
   "pt": "Português",
   "pt_BR": "Português Brasileiro",
   "pa": "Punjabi",
