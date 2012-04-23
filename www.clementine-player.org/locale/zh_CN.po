@@ -3,192 +3,193 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <cxiaojian@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-04-11 18:15+0200\n"
-"PO-Revision-Date: 2012-03-14 14:43+0000\n"
-"Last-Translator: Umidjon Almasov <u.almasov@gmail.com>\n"
+"PO-Revision-Date: 2012-04-21 00:27+0000\n"
+"Last-Translator: xaojan <cxiaojian@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uz\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine musiqa pleyeri"
+msgstr "Clementine 音乐播放器"
 
 #: base.html:38
 msgid "About"
-msgstr "Dastur haqida"
+msgstr "关于"
 
 #: base.html:39 downloads.html:3
 msgid "Downloads"
-msgstr "Yuklab olish"
+msgstr "下载"
 
 #: base.html:40 main.html:79 screenshots.html:3
 msgid "Screenshots"
-msgstr "Rasmlari"
+msgstr "截图"
 
 #: base.html:41 participate.html:3
 msgid "Participate"
-msgstr "Ishtirok etish"
+msgstr "参与"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4 asosida yaratilgan krossplatforma musiqa pleyeri"
+msgstr "受 Amarok 1.4 启发的跨平台音乐播放器"
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine bu GPL v3 litsenziyasi ostidagi erkin dasturiy ta'minot. Ushbu sahifa CC-BY-SA litsinziyasi ostida."
+msgstr "Clementine 是一款遵循 GPL v3 协议的免费软件，本网站采用 CC-BY-SA 许可。"
 
 #: base.html:70
 msgid "Development by"
-msgstr "Tuzuvchilar:"
+msgstr "开发者是"
 
 #: base.html:70 main.html:18 main.html.py:19
 msgid "and"
-msgstr "va"
+msgstr "与"
 
 #: base.html:72
 msgid "Website by"
-msgstr "veb sahifa tuzuvchilari:"
+msgstr "网站设计"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr "Transkodlash moslamalari"
+msgstr "转码设置"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr "Spotify'da albomlarni global qidirish yordamida topish"
+msgstr "在 Spotify 全局搜索专辑"
 
 #: data.py:10
 msgid "Global search options"
-msgstr "Global qidirish parametrlari"
+msgstr "全局搜索设置"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr "Grooveshark bilan integratsiya"
+msgstr "整合 Grooveshark"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
-msgstr "Qo'shiq matnlari va trek slayder xabarlari"
+msgstr "歌词和进度条提示"
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
-msgstr "MusicBrainz fayl teglarini tuzatmoqda"
+msgstr "使用 MusicBrainz 整理未加标签的文件"
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
-msgstr "Yangi teglar tahrirchisi avtoqo'shish xususiyati bilan"
+msgstr "带自动完成功能的新标签编辑器"
 
 #: data.py:17
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Mac OS X'da trek slayder xabari"
+msgstr "在 Mac OS X 中显示的进度条提示"
 
 #: data.py:20
 msgid "Artist photos and biographies"
-msgstr "Artistlar suratlari va tarjimai hollari"
+msgstr "艺人简介与照片"
 
 #: data.py:21
 msgid "Lyrics"
-msgstr "Qo'shiq matnlari"
+msgstr "歌词"
 
 #: data.py:22
 msgid "Icecast radio stations"
-msgstr "Icecast radio stansiyalari"
+msgstr "Icecast 电台"
 
 #: data.py:23
 msgid "Smart playlists and kittens"
-msgstr "Aqlli playlistlar va kittens"
+msgstr "智能播放列表"
 
 #: data.py:26
 msgid "The queue manager on Windows 7"
-msgstr "Windows 7'da navbat boshqaruvchisi"
+msgstr "Windows 7 中的队列管理器"
 
 #: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
-msgstr "Ubuntu'da iPod'ga musiqani nusxa olish"
+msgstr "从 iPod 中复制音乐到 Ubuntu"
 
 #: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
+msgstr "Clementine 0.5 运行于 Ubu...ALL GLORY TO THE HYPNOTOAD"
 
 #: data.py:29
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 Mac OS X'da"
+msgstr "Clementine 0.5 运行于 Mac OS X"
 
 #: data.py:32
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 Ubuntu'da"
+msgstr "Clementine 0.4 运行于 Ubuntu"
 
 #: data.py:33
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 Windows 7'da"
+msgstr "Clementine 0.4 on Windows 7"
 
 #: data.py:34
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr "Clementine 0.4 projectM vizualizatsiyalari bilan"
+msgstr "Clementine 0.4 来自 projectM 的可视化效果"
 
 #: data.py:35
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 Mac OS X'da"
+msgstr "Clementine 0.4 运行于 Mac OS X"
 
 #: data.py:38
 msgid "Last.fm tag radio"
-msgstr "Last.fm radio teglari"
+msgstr "Last.fm 标签电台"
 
 #: data.py:39
 msgid "Searching the library"
-msgstr "Musiqa kutubxonasida qidirish"
+msgstr "搜索媒体库"
 
 #: data.py:40 data.py:46
 msgid "The tag editor on Windows"
-msgstr "Windows'da teglar tahrirchisi"
+msgstr "运行于 Windows 的标签编辑器"
 
 #: data.py:41
 msgid "The cover manager on Mac OS X"
-msgstr "Mac OS X'da albom rasmlari boshqaruvchisi"
+msgstr "运行于 Mac OS X 的封面管理器"
 
 #: data.py:44
 msgid "Playback on Linux"
-msgstr "Linux'da musiqani ijro ettirish"
+msgstr "运行于 Linux 的回放"
 
 #: data.py:45
 msgid "Last.fm support"
-msgstr "Last.fm qo'llashi"
+msgstr "支持 Last.fm"
 
 #: data.py:47
 msgid "Growl notifications on Mac OS X"
-msgstr "Mac OS X'da Growl xabarlari"
+msgstr " Mac OS X 的 Growl 提示"
 
 #: data.py:142
 msgid "Source code"
-msgstr "Manba kodi"
+msgstr "源代码"
 
 #: data.py:157
 msgid "Source"
-msgstr "Manba"
+msgstr "来源"
 
 #: data.py:189
 msgid "Version 0.2 released"
-msgstr "Versiya 0.2 chiqdi"
+msgstr "发布 0.2 版本"
 
 #: data.py:190
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Clementine birinchi versiyasi chiqqandan keyin bir oy o'tdi. Ushbu yangi versiyada albom rasmlari, \"Boshqa artisrlar\"ni yaxshiroq aniqlash, pleylistlarni yuklash va boshqa xususiyatlar kiritilgan."
+msgstr "在距离我们发布首个 Clementine 版本一个月后，此次更新支持专辑封面、更智能的“群星”识别，支持载入播放列表以及更多。"
 
 #: data.py:196
 msgid "Version 0.3 released"
-msgstr "Versiya 0.3 chiqdi"
+msgstr "发布 0.3 版本"
 
 #: data.py:197
 msgid ""
@@ -196,11 +197,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Ushbu versiyada biz hamma platformalarda GStreamer'ga o'tdik, demak analizator va trekdan trekka o'tish Windowsda endi ishlaydi. Yangi xususiyatlar bu ekvalayzer, ko'proq guruhlarga bo'lish, yaxshiroq OSD, buyruq satri va MPRIS'dan masofadagi boshqarish"
+msgstr "这个更新我们把所有平台都切换到GStreamer，这意味着不同音轨之间的 analyzer 和 crossfading 能够在 Windows 下工作。新特性包括一个均衡器、更多的库分组选项、良好的OSD、通过命令行远程控制和 MPRIS，以及更加简便地编辑标签。"
 
 #: data.py:205
 msgid "Version 0.4 released"
-msgstr "Versiya 0.4 chiqdi"
+msgstr "发布 0.4 版本"
 
 #: data.py:206
 msgid ""
@@ -210,11 +211,11 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Ushbu versiyada tablar, pleylistlarni qidirish, projectM vizualizatsiyalari, Magnatune bilan integratsiya, ReplayGain ovozni normalashtirish va musiqani transkodlash. Ancha xatolar tuzatildi - qidirish endi tezroq ishlaydi, Windows'da ijro ettirish yaxshilandi, kodirovka muammolari bartaraf etildi, masofadagi pleylistlar to'g'ri yuklanadi."
+msgstr "此次更新的新特性包括播放列表标签、播放列表查找、projectM的可视化效果、整合Magnatune、回放增益时音量正常化以及音频转码。我们也修复了大量的漏洞 — 现在搜索更大的库的速度快了一些，Windows下的回放更加可靠，字符编码的问题也被修复，还有远程播放列表现在能够正常读取了。"
 
 #: data.py:215
 msgid "Version 0.5 released"
-msgstr "Versiya 0.5 chiqdi"
+msgstr "发布 0.5 版本"
 
 #: data.py:216
 msgid ""
@@ -231,11 +232,11 @@ msgid ""
 " load of memory leaks and reduced CPU usage while playing music. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">the wiki for more information</a>.  Support for using a <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music.  Qo'shimcha ma'lumot olish uchun <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">o'zgartirishlar to'liq ro'yxatini</a> ko'ring."
+msgstr "此次更新增强了 Clementine 对移动设备的支持。  您现在可以复制音乐到您的 iPod、iPhone、MTP 或者 大容量的USB设备。  更多详情请 <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">查阅 wiki 以获取信息</a>。  而且现在可以使用 <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii 遥控器</a> 来控制 Clementine。  其它的新特性包括队列管理器、整理文件对话框、播放列表自动调整栅格、读取内嵌的 id3v2 专辑封面、更多的媒体库扫描选项、不同播放列表的拖拽操作、和一个 hypnotoad。  而且我们也减少了启动时间、修正了诸多内存泄露以及降低了播放音乐时的 CPU 占用率。获取更多信息请查阅<a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">完整的更新日志</a>。"
 
 #: data.py:232
 msgid "Version 0.6 released"
-msgstr "Versiya 0.6 chiqdi"
+msgstr "发布 0.6 版本"
 
 #: data.py:233
 msgid ""
@@ -248,11 +249,11 @@ msgid ""
 "href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. Qo'shimcha ma'lumot olish uchun <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">o'zgartirishlar to'liq ro'yxatini</a> ko'ring."
+msgstr "此次更新带来了两个新的信息面板：用来显示歌词、歌曲统计、艺人介绍、照片、标签列表；以及显示相似艺人。  我们也重新设计了侧边栏(当然您也可以通过右击切换回去)，并且添加了评分、播放统计和跳过统计。  您可以为媒体库中的音乐创建一个智能的动态列表，收听来自 <a href=\"http://www.jamendo.com/\">Jamendo</a> 和 Icecast 的电台。获取更多信息请查阅<a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">完整的更新日志</a>。"
 
 #: data.py:245
 msgid "Version 0.7 released"
-msgstr "Versiya 0.7 chiqdi"
+msgstr "发布 0.7 版本"
 
 #: data.py:246
 msgid ""
@@ -267,11 +268,11 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. Qo'shimcha ma'lumot olish uchun <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">o'zgartirishlar to'liq ro'yxatini</a> ko'ring."
+msgstr "此次更新 Clementine 新增一个能够自动识别音乐并且从 MusicBrainz 上获取缺失标签的全新标签编辑器。  现在已经支持 CUE sheets —— 它能够在扫描媒体库时自动把每个音轨单独罗列出来。  我们也做了很多小的改进比如在媒体库标签中显示专辑封面、已经被删除的歌曲会变成灰色、“在文件浏览器中显示”选项、支持网络代理、“重新扫描媒体库”选项、以及新的进度栏提示，您可以通过此功能更精确地了解歌曲的时间轴。获取更多信息请查阅<a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">完整的更新日志</a>。"
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr "Versiya 1.0 chiqdi"
+msgstr "发布 1.0 版本"
 
 #: data.py:261
 msgid ""
@@ -285,19 +286,19 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Ushbu versiyada <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> va <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> xizmatlari qo'shilgan.  Biz kompyuterda va internetda musiqani oson topish uchun Global Qidirish xususiyatini ham qo'shdik. Boshqa xususiyatlar bu audio CD qo'llash, transkoder parametrlari, yaxshilangan moslamalar oynasi, albom rasmlarni qidirish va ko'plab boshqa xatolar tuzatildi. Qo'shimcha ma'lumot olish uchun <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">o'zgartirishlar to'liq ro'yxatini</a> ko'ring."
+msgstr "此次更新添加了对 <a href=\"http://www.spotify.com\">Spotify</a>，<a href=\"http://grooveshark.com\">Grooveshark</a> 和 <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> 的支持。我们也添加了全局搜索功能，您可以很方便地搜索媒体库里或者网络上的音乐。其它新增特性包含支持音乐CD、更多的转码选项、改进了设置对话框、自动补全封面专辑以及大量的BUG。获取更多信息请查阅<a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">完整的更新日志</a>。"
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr "So'ngi versiyalar"
+msgstr "下载最新版"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Operatsion tizimingiz uchun Clementine so'ngi turg'un versiyasini oling."
+msgstr "获取适合您操作系统的 Clementine 最新版本。"
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr "Boshqa operatsion tizimlar uchun versiyalar"
+msgstr "下载其它操作系统版本"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -307,333 +308,333 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Ubuntu uchun Clementine so'ngi versiyasini rasmiy PPA'dan yuklab olishingiz mumkin"
+msgstr "您可以在 Ubuntu 中通过官方 PPA 下载到最新版本的 Clementine："
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr "Boshqa versiyalar"
+msgstr "其它下载"
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr "Norasmiy paketlar"
+msgstr "非官方包"
 
 #: downloads.html:67
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr "Agar ro'yxatda distributivingizni topolmagan bo'lsangiz, balki kimdir siz uchun norasmiy paket yaratgandir."
+msgstr "如果您没有在下方的列表中找到您所用的发行版，那么可能有其他人为您创建了非官方的安装包。"
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr "Manba kodidan kompilyatsiya qilish"
+msgstr "从源码编译"
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Linux'da Clementine manba kodidan kompilyatsiya qilish oson"
+msgstr "在 Linux 中很容易编译  Clementine"
 
 #: downloads.html:78
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Yuqoridagi ro'yxatdan manba kodi paketini yuklab oling va terminalda bajaring:"
+msgstr "从下方的列表中下载源代码，然后再终端中输入："
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
-msgstr "To'liq yo'riqnomalar va bog'lanishlar ro'yxati"
+msgstr "完整说明与所需依赖列表"
 
 #: downloads.html:91
 msgid "Bleeding edge packages"
-msgstr "Tuzuvchilar uchun versiyalar"
+msgstr "技术体验包"
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr "Clementine dasturlash"
+msgstr "Clementine 的代码托管在"
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr "git repozitoriyda"
+msgstr "git 仓库"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Kodni tekshirish uchun bajaring:"
+msgstr "通过下列指令检出源代码："
 
 #: downloads.html:99 participate.html:61
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr "Agar tuzuvchi versiyadan kompilyatsiya qilishni istamasangiz, soatli paketlardan o'rnatib ko'ring:"
+msgstr "如果您不想自己编译代码，可以通过下列方式获取每小时更新的安装包："
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
-msgstr "Mac OS X tuzuvchilar versiyasi"
+msgstr "Mac OS X 开发版本"
 
 #: downloads.html:105 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Ubuntu Lucid (10.04) tuzuvchilar versiyasi"
+msgstr "Ubuntu Lucid (10.04) 开发版本"
 
 #: downloads.html:107 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Ubuntu Maverick (10.10) tuzuvchilar versiyasi"
+msgstr "Ubuntu Maverick (10.10) 开发版本"
 
 #: downloads.html:109 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Ubuntu Natty (11.04) tuzuvchilar versiyasi"
+msgstr "Ubuntu Natty (11.04) 开发版本"
 
 #: downloads.html:111 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Ubuntu Oneiric (11.10) tuzuvchilar versiyasi"
+msgstr "Ubuntu Oneiric (11.10) 开发版本"
 
 #: downloads.html:113 participate.html:75
 msgid "Windows development builds"
-msgstr "Windows tuzuvchilar versiyasi"
+msgstr "Windows 开发版本"
 
 #: downloads.html:115 participate.html:77
 msgid "Buildbot"
-msgstr "Buildbot"
+msgstr "编译机器人"
 
 #: downloads.html:118 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Ushbu tuzuvchr versiyalar uchun  Ubuntu PPA ham mavjud"
+msgstr "这还有一个提供开发版本的 Ubuntu PPA："
 
 #: downloads.html:126
 msgid "Old downloads"
-msgstr "Oldingi versiyalar"
+msgstr "老版本下载"
 
 #: downloads.html:133 screenshots.html:9
 msgid "Version"
-msgstr "Versiya"
+msgstr "版本"
 
 #: main.html:6
 msgid "About &amp; Features"
-msgstr "Dastur xususiyatlari"
+msgstr "关于 &amp; 特点"
 
 #: main.html:10
 msgid "Search and play your local music library."
-msgstr "Musiqani qidirish va ijro ettirish"
+msgstr "搜索并播放您的媒体库"
 
 #: main.html:11
 msgid "Listen to internet radio from"
-msgstr "Radio eshitish"
+msgstr "收听这些网络电台"
 
 #: main.html:22
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Aqlli va dinamik pleylistlarni yaratish"
+msgstr "创建智能播放列表和动态播放列表。"
 
 #: main.html:23
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Tablar, pleylistlarni M3U, XSPF, PLS va ASX import va eksport qilish."
+msgstr "标签式播放列表，导入或导出 M3U，XSPF，PLS 和 ASX。"
 
 #: main.html:24
 msgid "CUE sheet support."
-msgstr "CUE sheet qo'llash."
+msgstr "支持 CUE sheet。"
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr "Audio CD ijro ettirish."
+msgstr "播放音乐CD。"
 
 #: main.html:26
 msgid "Visualisations from"
-msgstr "Vizualizatsiyalar:"
+msgstr "可视化效果来自"
 
 #: main.html:27
 msgid "Lyrics and artist biographies and photos."
-msgstr "Qo'shiq matnlari, artistlar tarjimai hollari va fotosuratlari"
+msgstr "歌词以及艺人的照片与简介。"
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Musiqani MP3, Ogg Vorbis, Ogg Speex, FLAC yoki AAC formatlariga o'tkazish."
+msgstr "转换音频格式至 MP3, Ogg Vorbis, Ogg Speex, FLAC 或者 AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "MP3 va OGG fayllar teglarini tahrirlash, musiqangizni boshqarish"
+msgstr "编辑 MP3 和 OGG 文件的标签，管理您的音乐。"
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Teglarni MusicBrainz'dan olish."
+msgstr "通过 MusicBrainz 获取缺失的标签。"
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Albom rasmlarini Last.fm va Amazon'dan yuklab olish"
+msgstr "通过 Last.fm 和 Amazon 自动补全封面。"
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Krossplatforma - Windows, Mac OS X va Linux'da ishlaydi."
+msgstr "跨平台 - 完美运行于 Windows，Mac OS X 和 Linux。"
 
 #: main.html:33
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr " Linux'da (libnotify) va Mac OS X'da (Growl) xabarlar"
+msgstr "原生支持 Linux (libnotify) 和 Mac OS X (Growl) 的桌面提醒。"
 
 #: main.html:34
 msgid "Remote control using a"
-msgstr "Masofadagi boshqarish:"
+msgstr "远程操控支持"
 
 #: main.html:34
 msgid "Wii Remote"
-msgstr "Wii Remote"
+msgstr "Wii 遥控器"
 
 #: main.html:34
 msgid "MPRIS or the command-line."
-msgstr "MPRIS yoki buyruq satri."
+msgstr "MPRIS 或者其它命令行。"
 
 #: main.html:35
 msgid "Copy music to your"
-msgstr "Musiqani nusxa olish:"
+msgstr "复制您的音乐至"
 
 #: main.html:35
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP yoki USB pleyer."
+msgstr "iPod, iPhone, MTP 或者大容量 USB 播放器。"
 
 #: main.html:36
 msgid "Queue manager."
-msgstr "Navbat boshqaruvchisi."
+msgstr "队列管理器。"
 
 #: main.html:42
 msgid "is a modern music player and library organizer"
-msgstr "bu zamonaviy musiqa pleyeri va boshqaruvchisi"
+msgstr "是一款现代音乐播放器和媒体库管理器"
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine bu ko'p platformali musiqa pleyeri."
+msgstr "Clementine 是一款多平台音乐播放器。"
 
 #: main.html:47
 msgid "It is inspired by"
-msgstr "U uchun asos bo'lgan"
+msgstr "它的灵感来源于"
 
 #: main.html:48
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "musiqani qidirish va ijro ettirish uchun tez va qulay interfeys."
+msgstr "致力于开发一个易于使用的界面，令您能够快速地搜索和播放您的音乐。"
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
-msgstr "So'ngi versiyani yuklab oling"
+msgstr "立即下载最新版本"
 
 #: main.html:56
 msgid "Download Clementine"
-msgstr "Clementine yuklab oling"
+msgstr "下载 Clementine"
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr "Windows, Mac OS X va Linux uchun"
+msgstr "支持 Windows，Mac OS X 和 Linux"
 
 #: main.html:70
 msgid "Announcement"
-msgstr "Yangiliklar"
+msgstr "公告"
 
 #: main.html:71
 msgid "Changelog"
-msgstr "O'zgartirishlar"
+msgstr "更新日志"
 
 #: main.html:72
 msgid "Show all downloads"
-msgstr "Hamma versiyalarni ko'rsatish"
+msgstr "显示所有下载"
 
 #: main.html:101
 msgid "News"
-msgstr "Yangiliklar"
+msgstr "新闻"
 
 #: participate.html:8
 msgid "Need help?"
-msgstr "Yordam kerakmi?"
+msgstr "需要帮助？"
 
 #: participate.html:12
 msgid "Come chat with us at the"
-msgstr "Biz bilan aloqada bo'ling"
+msgstr "和我们一起在"
 
 #: participate.html:12
 msgid "channel on Freenode."
-msgstr "Freenode'dagi kanal orqali."
+msgstr "的 Freenode 频道中交流。"
 
 #: participate.html:13
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "<b>Savolni bergandan keyin qaytib kelishni</b> unutmang - biz boshqa soat hududida bo'lishimiz mumkin, shuning uchun savolingizga darhol javob berolmasligimiz mumkin."
+msgstr "请务必 <b>耐心等待解答</b> - 我们可能不在同个时区，所以未必能够马上看到您的问题。"
 
 #: participate.html:16
 msgid "Forum"
-msgstr "Forum"
+msgstr "论坛"
 
 #: participate.html:18
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine forum/mailing list/mulohazalar bosh guruhi uchun Google Groups'dan foydalanmoqda."
+msgstr "Clementine 使用 Gogole Group 作为论坛/邮件列表/讨论组。"
 
 #: participate.html:21
 msgid "Support and discussion group"
-msgstr "Qo'llab-quvvatlash va mulohazalar guruhi"
+msgstr "支持与交流论坛"
 
 #: participate.html:26
 msgid "Collaborate"
-msgstr "Hamkorlik"
+msgstr "合作"
 
 #: participate.html:28
 msgid "Reporting bugs and proposing patches"
-msgstr "Xato haqida xabar berish va tuzatish"
+msgstr "报告 BUG 和提供补丁"
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr "Clementine dasturlash va muammolarni tuzatish uchun  Google Code'dan foydalanmoqda."
+msgstr "Clementine 使用 Google Code 作为开发与问题追踪。"
 
 #: participate.html:31
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Clementine'da xato topgan bo'lsangiz, muammolarni ro'yxatga olish sahifasida xabar bering."
+msgstr "如果您发现了 Clementine 的 BUG，请在此贴出您的问题。"
 
 #: participate.html:34
 msgid "Issue tracker"
-msgstr "Muammolarni ro'yxatga olish"
+msgstr "问题跟踪"
 
 #: participate.html:37
 msgid "Translating the interface"
-msgstr "Interfeysni tarjima qilish"
+msgstr "翻译程序"
 
 #: participate.html:39
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Clementine Transifex tarjimalar sahifasida boshqa tilga tarjima qilishingiz mumkin."
+msgstr "您可以通过 Transifex 的翻译页面将 Clementine 翻译成其它语言。"
 
 #: participate.html:40
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Siz tarjimani bevosita Transifex sahifasida qilishingiz mumkin yoki .po faylni yuklab olib so'ng bizga email orqali yuborishingiz mumkin."
+msgstr "您可以直接在 Transifex 上进行翻译，又或者从网站上下载一个 .po 文件然后通过邮件反馈给我们。"
 
 #: participate.html:43
 msgid "Transifex translations"
-msgstr "Transifex tarjimalari"
+msgstr "Transifex 翻译"
 
 #: participate.html:46
 msgid "Hacking"
-msgstr "Manba kodi bilan ishlash"
+msgstr "测试"
 
 #: participate.html:57
 msgid "How to compile Clementine from source"
-msgstr "Clementine manba kodidan kompilyatsiya qilish qo'llanmasi"
+msgstr "如果从源码编译 Clementine"
 
 #: participate.html:88
 msgid "Social Networking"
-msgstr "Ijtimoiy tarmoqlar"
+msgstr "社交网络"
 
 #: participate.html:90
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Siz yaxshi ko'radigan ijtimoiy tarmoq sahifasida Clementine qo'llab-quvvatlasangiz biz xursand bo'lardik!"
+msgstr "我们也希望您能够把 Clementine 加入到您喜爱的社交网络中！"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
-msgstr "Clementine Facebook'da"
+msgstr "Clementine 在 Facebook"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr "Clementine Twitter'da"
+msgstr "Clementine 在 Twitter"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
-msgstr "Clementine Last.fm'da"
+msgstr "Clementine 在 Last.fm"

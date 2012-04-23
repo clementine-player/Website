@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Daniel Sandman <revoltism@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-04-11 18:15+0200\n"
-"PO-Revision-Date: 2012-02-01 23:58+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2012-04-21 13:18+0000\n"
+"Last-Translator: Daniel Sandman <revoltism@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,35 +62,35 @@ msgstr "Webbplatsen av"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Omkodningsinställningar"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Global sök hittar album på Spotify"
 
 #: data.py:10
 msgid "Global search options"
-msgstr ""
+msgstr "Globala sökalternativ"
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Groovesharkintegrering"
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "Verktygstips till text och spårreglage "
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "MusicBrainz fixar otaggade filer"
 
 #: data.py:16
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "Ny tag-redigerare med automatisk komplettering"
 
 #: data.py:17
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Verktygstips för spårreglage i Mac OS X"
 
 #: data.py:20
 msgid "Artist photos and biographies"
@@ -267,11 +268,11 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgstr "I den här versionen får Clementine en helt ny dialogruta för att redigera taggar. Dialogrutan kommer med automatisk komplettering, förmåga att automatiskt identifiera musik och hämta saknade taggar från MusicBrainz. CUE-sheets har nu stöd - de upptäcks automatiskt när du skannar ditt bibliotek och varje spår kommer att dyka upp separat. Vi har gjort en massa små förbättringar som att visa skivomslag i fliken Bibliotek, gråa ut raderade låtar, ett \"Visa i filhanteraren\" alternativ, stöd till nätverksproxyservrar, ett \"Skanna om hela bibliotek\" alternativ, och ett nytt verktygstips för spårreglaget som hjälper dig att söka mer exakt till en specifik plats i en låt. Se <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> hela changelog </ a> för mer information."
 
 #: data.py:260
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Version 1.0 released"
 
 #: data.py:261
 msgid ""
@@ -285,7 +286,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Den här utgåvan innehåller <a href=\"http://www.spotify.com\"> Spotify </ a>, <a href=\"http://grooveshark.com\"> Grooveshark </ a> och <a href = \"http://www.sky.fm/ \"> SKY.fm </ a> / <a href=\"http://www.di.fm/\"> digitalt Importerat </ a> stöd. Vi har också lagt till en global sökfunktion som gör att du enkelt hittar musik som är antingen i biblioteket eller på Internet. Andra funktioner inkluderar CD-skiva stöd, fler alternativa omkodare, en förbättrad dialogruta, smartare albumsökningar och massor av buggfixar. Se <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> hela changelog </ a> för mer information."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -297,7 +298,7 @@ msgstr "Hämta den senaste stabila versionen av Clementine för ditt operativsys
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Nerladdning för andra operativsystem"
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
@@ -381,7 +382,7 @@ msgstr "Utvecklingsversioner för Ubuntu Natty (11.04)"
 
 #: downloads.html:111 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr ""
+msgstr "Ubuntu Oneiric (11.10) development builds"
 
 #: downloads.html:113 participate.html:75
 msgid "Windows development builds"
@@ -425,11 +426,11 @@ msgstr "Flikbaserade spellistor, importera och exportera M3U, XSPF, PLS och ASX.
 
 #: main.html:24
 msgid "CUE sheet support."
-msgstr ""
+msgstr "CUE-sheet stöd."
 
 #: main.html:25
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Spela upp CD-skivor."
 
 #: main.html:26
 msgid "Visualisations from"
@@ -449,11 +450,11 @@ msgstr "Redigera taggar i MP3- och OGG-filer, organisera din musik."
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "Hämta saknade taggar från MusicBrainz."
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Ladda ner saknade omslag för album från Last.fm och Amazon."
 
 #: main.html:32
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -624,7 +625,7 @@ msgstr "Sociala nätverk"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "Vi hade mer än gärna sett ditt stöd av Clementine genom att följa oss på ditt sociala nätverk!"
 
 #: participate.html:94
 msgid "Clementine on Facebook"
@@ -632,7 +633,7 @@ msgstr "Clementine på Facebook"
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine på Twitter"
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
