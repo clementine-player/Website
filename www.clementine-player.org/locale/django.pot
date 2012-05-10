@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-11 18:15+0200\n"
+"POT-Creation-Date: 2012-05-10 12:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,30 +166,30 @@ msgstr ""
 msgid "Growl notifications on Mac OS X"
 msgstr ""
 
-#: data.py:142
+#: data.py:144
 msgid "Source code"
 msgstr ""
 
-#: data.py:157
+#: data.py:160
 msgid "Source"
 msgstr ""
 
-#: data.py:189
+#: data.py:194
 msgid "Version 0.2 released"
 msgstr ""
 
-#: data.py:190
+#: data.py:195
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:196
+#: data.py:201
 msgid "Version 0.3 released"
 msgstr ""
 
-#: data.py:197
+#: data.py:202
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -197,11 +197,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:205
+#: data.py:210
 msgid "Version 0.4 released"
 msgstr ""
 
-#: data.py:206
+#: data.py:211
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -211,11 +211,11 @@ msgid ""
 "the time."
 msgstr ""
 
-#: data.py:215
+#: data.py:220
 msgid "Version 0.5 released"
 msgstr ""
 
-#: data.py:216
+#: data.py:221
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -231,11 +231,11 @@ msgid ""
 "source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:232
+#: data.py:237
 msgid "Version 0.6 released"
 msgstr ""
 
-#: data.py:233
+#: data.py:238
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -248,11 +248,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:245
+#: data.py:250
 msgid "Version 0.7 released"
 msgstr ""
 
-#: data.py:246
+#: data.py:251
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -267,11 +267,11 @@ msgid ""
 "for more information."
 msgstr ""
 
-#: data.py:260
+#: data.py:265
 msgid "Version 1.0 released"
 msgstr ""
 
-#: data.py:261
+#: data.py:266
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href="
 "\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/"
@@ -380,23 +380,27 @@ msgstr ""
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr ""
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:113
+msgid "Ubuntu Precise (12.04) development builds"
+msgstr ""
+
+#: downloads.html:115 participate.html:75
 msgid "Windows development builds"
 msgstr ""
 
-#: downloads.html:115 participate.html:77
+#: downloads.html:117 participate.html:77
 msgid "Buildbot"
 msgstr ""
 
-#: downloads.html:118 participate.html:80
+#: downloads.html:120 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 
-#: downloads.html:126
+#: downloads.html:128
 msgid "Old downloads"
 msgstr ""
 
-#: downloads.html:133 screenshots.html:9
+#: downloads.html:135 screenshots.html:9
 msgid "Version"
 msgstr ""
 
