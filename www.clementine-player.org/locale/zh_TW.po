@@ -3,62 +3,61 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Peter Jespersen <flywheeldk@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-05-23 08:48-0700\n"
-"PO-Revision-Date: 2012-05-20 15:01+0000\n"
-"Last-Translator: Peter Jespersen <flywheeldk@gmail.com>\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine Musikafspiller"
+msgstr ""
 
 #: base.html:38
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 #: base.html:39 downloads.html:3
 msgid "Downloads"
-msgstr "Hent"
+msgstr ""
 
 #: base.html:40 main.html:79 screenshots.html:3
 msgid "Screenshots"
-msgstr "Skærmbilleder"
+msgstr ""
 
 #: base.html:41 participate.html:3
 msgid "Participate"
-msgstr "Deltag"
+msgstr ""
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "En multiplatform musikafspiller, inspireret af Amarok 1.4"
+msgstr ""
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine er Fri Software under GPL v3. Denne hjemmeside er licenseret under CC-BY-SA."
+msgstr ""
 
 #: base.html:70
 msgid "Development by"
-msgstr "Udviklet af"
+msgstr ""
 
 #: base.html:71 main.html:18 main.html.py:19
 msgid "and"
-msgstr "og"
+msgstr ""
 
 #: base.html:73
 msgid "Website by"
-msgstr "Hjemmeside af"
+msgstr ""
 
 #: data.py:8
 msgid "Transcoding settings"
@@ -74,7 +73,7 @@ msgstr ""
 
 #: data.py:11
 msgid "Grooveshark integration"
-msgstr "Grooveshark integration"
+msgstr ""
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
@@ -98,11 +97,11 @@ msgstr ""
 
 #: data.py:21
 msgid "Lyrics"
-msgstr "Tekst"
+msgstr ""
 
 #: data.py:22
 msgid "Icecast radio stations"
-msgstr "Icecast radiostationer"
+msgstr ""
 
 #: data.py:23
 msgid "Smart playlists and kittens"
@@ -110,11 +109,11 @@ msgstr ""
 
 #: data.py:26
 msgid "The queue manager on Windows 7"
-msgstr "Køhåndteringen i Windows 7"
+msgstr ""
 
 #: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
-msgstr "Kopierer musik til iPod i Ubuntu"
+msgstr ""
 
 #: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
@@ -122,15 +121,15 @@ msgstr ""
 
 #: data.py:29
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 på Mac OS X"
+msgstr ""
 
 #: data.py:32
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 på Ubuntu"
+msgstr ""
 
 #: data.py:33
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 på Windows 7"
+msgstr ""
 
 #: data.py:34
 msgid "Clementine 0.4 visualisations with projectM"
@@ -138,7 +137,7 @@ msgstr ""
 
 #: data.py:35
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 på Mac OS X"
+msgstr ""
 
 #: data.py:38
 msgid "Last.fm tag radio"
@@ -146,7 +145,7 @@ msgstr ""
 
 #: data.py:39
 msgid "Searching the library"
-msgstr "Søger i biblioteket"
+msgstr ""
 
 #: data.py:40 data.py:46
 msgid "The tag editor on Windows"
@@ -158,11 +157,11 @@ msgstr ""
 
 #: data.py:44
 msgid "Playback on Linux"
-msgstr "Afspil i Linux"
+msgstr ""
 
 #: data.py:45
 msgid "Last.fm support"
-msgstr "Understøttelse af Last.fm "
+msgstr ""
 
 #: data.py:47
 msgid "Growl notifications on Mac OS X"
@@ -170,15 +169,15 @@ msgstr ""
 
 #: data.py:144
 msgid "Source code"
-msgstr "Kildekode"
+msgstr ""
 
 #: data.py:160
 msgid "Source"
-msgstr "Kilde"
+msgstr ""
 
 #: data.py:194
 msgid "Version 0.2 released"
-msgstr "Version 0.2 lanceret"
+msgstr ""
 
 #: data.py:195
 msgid ""
@@ -189,7 +188,7 @@ msgstr ""
 
 #: data.py:201
 msgid "Version 0.3 released"
-msgstr "Version 0.3 lanceret"
+msgstr ""
 
 #: data.py:202
 msgid ""
@@ -201,7 +200,7 @@ msgstr ""
 
 #: data.py:210
 msgid "Version 0.4 released"
-msgstr "Version 0.4 lanceret"
+msgstr ""
 
 #: data.py:211
 msgid ""
@@ -215,7 +214,7 @@ msgstr ""
 
 #: data.py:220
 msgid "Version 0.5 released"
-msgstr "Version 0.5 lanceret"
+msgstr ""
 
 #: data.py:221
 msgid ""
@@ -236,7 +235,7 @@ msgstr ""
 
 #: data.py:237
 msgid "Version 0.6 released"
-msgstr "Version 0.6 lanceret"
+msgstr ""
 
 #: data.py:238
 msgid ""
@@ -253,7 +252,7 @@ msgstr ""
 
 #: data.py:250
 msgid "Version 0.7 released"
-msgstr "Version 0.7 lanceret"
+msgstr ""
 
 #: data.py:251
 msgid ""
@@ -272,7 +271,7 @@ msgstr ""
 
 #: data.py:265
 msgid "Version 1.0 released"
-msgstr "Version 1.0 lanceret"
+msgstr ""
 
 #: data.py:266
 msgid ""
@@ -290,11 +289,11 @@ msgstr ""
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr "Seneste hentede"
+msgstr ""
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Hent den seneste stabile version af Clementine til dit styresystem."
+msgstr ""
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
@@ -302,7 +301,7 @@ msgstr ""
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
-msgstr "Ubuntu PPA"
+msgstr ""
 
 #: downloads.html:55
 msgid ""
@@ -316,7 +315,7 @@ msgstr ""
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr "Uofficielle pakker"
+msgstr ""
 
 #: downloads.html:67
 msgid ""
@@ -406,7 +405,7 @@ msgstr ""
 
 #: downloads.html:135 screenshots.html:9
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: main.html:6
 msgid "About &amp; Features"
@@ -483,15 +482,15 @@ msgstr ""
 
 #: main.html:35
 msgid "Copy music to your"
-msgstr "Kopier musik til din"
+msgstr ""
 
 #: main.html:35
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP eller MSD USB afspiller."
+msgstr ""
 
 #: main.html:36
 msgid "Queue manager."
-msgstr "Køhåndtering"
+msgstr ""
 
 #: main.html:42
 msgid "is a modern music player and library organizer"
@@ -499,11 +498,11 @@ msgstr ""
 
 #: main.html:46
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine er en multiplatform musikafspiller."
+msgstr ""
 
 #: main.html:47
 msgid "It is inspired by"
-msgstr "det er inspireret af"
+msgstr ""
 
 #: main.html:48
 msgid ""
@@ -513,23 +512,23 @@ msgstr ""
 
 #: main.html:55 main.html.py:64
 msgid "Download the latest version now"
-msgstr "Hent seneste version nu"
+msgstr ""
 
 #: main.html:56
 msgid "Download Clementine"
-msgstr "Hent Clementine"
+msgstr ""
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr "Til Windows, OS X og Linux"
+msgstr ""
 
 #: main.html:70
 msgid "Announcement"
-msgstr "Annoncering"
+msgstr ""
 
 #: main.html:71
 msgid "Changelog"
-msgstr "Ændringslog"
+msgstr ""
 
 #: main.html:72
 msgid "Show all downloads"
@@ -537,7 +536,7 @@ msgstr ""
 
 #: main.html:101
 msgid "News"
-msgstr "Nyheder"
+msgstr ""
 
 #: participate.html:8
 msgid "Need help?"
@@ -549,7 +548,7 @@ msgstr ""
 
 #: participate.html:12
 msgid "channel on Freenode."
-msgstr "kanal på Freenode."
+msgstr ""
 
 #: participate.html:13
 msgid ""
@@ -559,7 +558,7 @@ msgstr ""
 
 #: participate.html:16
 msgid "Forum"
-msgstr "Forum"
+msgstr ""
 
 #: participate.html:18
 msgid ""
@@ -611,7 +610,7 @@ msgstr ""
 
 #: participate.html:43
 msgid "Transifex translations"
-msgstr "Transifex oversættelser"
+msgstr ""
 
 #: participate.html:46
 msgid "Hacking"
@@ -633,12 +632,12 @@ msgstr ""
 
 #: participate.html:94
 msgid "Clementine on Facebook"
-msgstr "Clementine på Facebook"
+msgstr ""
 
 #: participate.html:97
 msgid "Clementine on Twitter"
-msgstr "Clementine på Twitter"
+msgstr ""
 
 #: participate.html:100
 msgid "Clementine on Last.fm"
-msgstr "Clementine på Last.fm"
+msgstr ""
