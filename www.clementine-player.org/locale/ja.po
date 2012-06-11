@@ -3,63 +3,62 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Cheng-Hong Wu <stu2731652@gmail.com>, 2012.
-# taijuin lee <taijuin@gmail.com>, 2012.
+# Yoshihito YOSHINO <yy.y.ja.jp+transifex@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-05-23 08:48-0700\n"
-"PO-Revision-Date: 2012-06-10 11:56+0000\n"
-"Last-Translator: Cheng-Hong Wu <stu2731652@gmail.com>\n"
+"PO-Revision-Date: 2012-06-10 15:14+0000\n"
+"Last-Translator: Yoshihito YOSHINO <yy.y.ja.jp+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #: base.html:7
 msgid "Clementine Music Player"
-msgstr "Clementine 音樂播放器"
+msgstr "Clementine Music Player"
 
 #: base.html:38
 msgid "About"
-msgstr "關於"
+msgstr "Clementine について"
 
 #: base.html:39 downloads.html:3
 msgid "Downloads"
-msgstr "下載"
+msgstr "ダウンロード"
 
 #: base.html:40 main.html:79 screenshots.html:3
 msgid "Screenshots"
-msgstr "螢幕擷圖"
+msgstr "スクリーンショット"
 
 #: base.html:41 participate.html:3
 msgid "Participate"
-msgstr "參與"
+msgstr "参加する"
 
 #: base.html:45
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "一個跨平台的音樂播放器，靈感來自於 Amarok 1.4 版"
+msgstr "Amarok 1.4 にインスパイアされたクロスプラットフォームなミュージックプレイヤー"
 
 #: base.html:69
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine 是在 GPL v3 授權下的自由軟體。本網站則是屬於 CC-BY-SA 授權之下。"
+msgstr "Clementine は GPL v3 のフリーソフトウェアです。このサイトは CC-BY-SA でライセンスされています。"
 
 #: base.html:70
 msgid "Development by"
-msgstr "發展由"
+msgstr ""
 
 #: base.html:71 main.html:18 main.html.py:19
 msgid "and"
-msgstr "和"
+msgstr ""
 
 #: base.html:73
 msgid "Website by"
-msgstr "網站由"
+msgstr ""
 
 #: data.py:8
 msgid "Transcoding settings"
@@ -79,7 +78,7 @@ msgstr ""
 
 #: data.py:14
 msgid "Lyrics and track slider tooltip"
-msgstr "歌詞和曲目滑桿工具提示"
+msgstr ""
 
 #: data.py:15
 msgid "MusicBrainz fixing untagged files"
@@ -99,7 +98,7 @@ msgstr ""
 
 #: data.py:21
 msgid "Lyrics"
-msgstr "歌詞"
+msgstr ""
 
 #: data.py:22
 msgid "Icecast radio stations"
@@ -111,11 +110,11 @@ msgstr ""
 
 #: data.py:26
 msgid "The queue manager on Windows 7"
-msgstr "在Windows 7的佇列管理員"
+msgstr ""
 
 #: data.py:27
 msgid "Copying music to an iPod in Ubuntu"
-msgstr "在Ubuntu中，複製音樂到一台 iPod"
+msgstr ""
 
 #: data.py:28
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
@@ -151,7 +150,7 @@ msgstr ""
 
 #: data.py:40 data.py:46
 msgid "The tag editor on Windows"
-msgstr "在Windows上的標籤編輯器"
+msgstr ""
 
 #: data.py:41
 msgid "The cover manager on Mac OS X"
@@ -159,11 +158,11 @@ msgstr ""
 
 #: data.py:44
 msgid "Playback on Linux"
-msgstr "在Linux上播放"
+msgstr ""
 
 #: data.py:45
 msgid "Last.fm support"
-msgstr "Last.fm 的支援"
+msgstr ""
 
 #: data.py:47
 msgid "Growl notifications on Mac OS X"
@@ -171,7 +170,7 @@ msgstr ""
 
 #: data.py:144
 msgid "Source code"
-msgstr "原始碼"
+msgstr ""
 
 #: data.py:160
 msgid "Source"
@@ -273,7 +272,7 @@ msgstr ""
 
 #: data.py:265
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "バージョン 1.0 リリース"
 
 #: data.py:266
 msgid ""
@@ -291,11 +290,11 @@ msgstr ""
 
 #: downloads.html:8
 msgid "Latest downloads"
-msgstr ""
+msgstr "最新のダウンロード"
 
 #: downloads.html:12
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "ご利用のオペレーティングシステム向けの Clementine の最新の安定版をダウンロードしましょう。"
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
@@ -303,7 +302,7 @@ msgstr ""
 
 #: downloads.html:53
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "Ubuntu PPA"
 
 #: downloads.html:55
 msgid ""
@@ -313,11 +312,11 @@ msgstr ""
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr ""
+msgstr "その他のダウンロード"
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr ""
+msgstr "非公式パッケージ"
 
 #: downloads.html:67
 msgid ""
@@ -327,11 +326,11 @@ msgstr ""
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr ""
+msgstr "ソースからコンパイルする"
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "Clementine をソースからコンパイルするのは Linux 上なら簡単です。"
 
 #: downloads.html:78
 msgid ""
@@ -353,7 +352,7 @@ msgstr ""
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr ""
+msgstr "git レポジトリ"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
@@ -407,7 +406,7 @@ msgstr ""
 
 #: downloads.html:135 screenshots.html:9
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: main.html:6
 msgid "About &amp; Features"
@@ -526,19 +525,19 @@ msgstr ""
 
 #: main.html:70
 msgid "Announcement"
-msgstr ""
+msgstr "お知らせ"
 
 #: main.html:71
 msgid "Changelog"
-msgstr ""
+msgstr "変更履歴"
 
 #: main.html:72
 msgid "Show all downloads"
-msgstr ""
+msgstr "全ダウンロードを表示"
 
 #: main.html:101
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 #: participate.html:8
 msgid "Need help?"
