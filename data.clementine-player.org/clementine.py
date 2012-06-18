@@ -173,6 +173,7 @@ class GeolocatePage(webapp2.RequestHandler):
         'latlng': self.request.headers['X-Appengine-Citylatlong'],
         'country': self.request.headers['X-Appengine-Country']
       }
+      self.response.headers['Content-Type'] = 'application/json'
       json.dump(data, self.response.out)
     else:
       self.error(404)
