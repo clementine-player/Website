@@ -10,6 +10,7 @@ from google.appengine.ext.webapp import template
 
 import colorsys
 import hmac
+import json
 import logging
 import webapp2
 
@@ -162,6 +163,21 @@ class CountersPage(webapp2.RequestHandler):
           'counters': rows }))
 
 
+class GeolocatePage(webapp2.RequestHandler):
+  def get(self):
+    if ('X-Appengine-City' in self.request.headers and
+        'X-Appengine-Citylatlong' in self.request.headers and
+        'X-Appengine-Country' in self.request.headers):
+      data = {
+        'city': self.request.headers['X-Appengine-City'],
+        'latlng': self.request.headers['X-Appengine-Citylatlong'],
+        'country': self.request.headers['X-Appengine-Country']
+      }
+      json.dump(data, self.response.out)
+    else:
+      self.error(404)
+
+
 app = webapp2.WSGIApplication(
   [
     (r'/sparkle', MacSparklePage),
@@ -170,5 +186,6 @@ app = webapp2.WSGIApplication(
     (r'/rainymood', RainPage),
     (r'/counters', CountersPage),
     (r'/icecast-directory', IcecastPage),
+    (r'/geolocate', GeolocatePage),
   ],
   debug=True)
