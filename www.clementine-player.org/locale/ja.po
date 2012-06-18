@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-05-23 08:48-0700\n"
-"PO-Revision-Date: 2012-06-10 15:14+0000\n"
+"PO-Revision-Date: 2012-06-11 16:21+0000\n"
 "Last-Translator: Yoshihito YOSHINO <yy.y.ja.jp+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "Clementine は GPL v3 のフリーソフトウェアです。このサ�
 
 #: base.html:70
 msgid "Development by"
-msgstr ""
+msgstr "開発者: "
 
 #: base.html:71 main.html:18 main.html.py:19
 msgid "and"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: base.html:73
 msgid "Website by"
-msgstr ""
+msgstr "ウェブサイト制作: "
 
 #: data.py:8
 msgid "Transcoding settings"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: data.py:21
 msgid "Lyrics"
-msgstr ""
+msgstr "歌詞"
 
 #: data.py:22
 msgid "Icecast radio stations"
@@ -170,11 +170,11 @@ msgstr ""
 
 #: data.py:144
 msgid "Source code"
-msgstr ""
+msgstr "ソースコード"
 
 #: data.py:160
 msgid "Source"
-msgstr ""
+msgstr "ソース"
 
 #: data.py:194
 msgid "Version 0.2 released"
@@ -521,7 +521,7 @@ msgstr ""
 
 #: main.html:65
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "Windows, Mac OS X および Linux 用"
 
 #: main.html:70
 msgid "Announcement"
