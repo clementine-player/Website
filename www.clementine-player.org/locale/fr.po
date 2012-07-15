@@ -5,14 +5,15 @@
 # Translators:
 #   <arnaud.bienner@gmail.com>, 2012.
 # Poutre Maicosuel <>, 2012.
+#   <soroalexandre@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-05-23 08:48-0700\n"
-"PO-Revision-Date: 2012-06-17 22:06+0000\n"
-"Last-Translator: Poutre Maicosuel <>\n"
-"Language-Team: French (http://www.transifex.net/projects/p/clementine/language/fr/)\n"
+"PO-Revision-Date: 2012-06-28 13:27+0000\n"
+"Last-Translator: Kevin_Dows <soroalexandre@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/clementine/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -198,7 +199,7 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Dans cette version, nous sommes passé à GStreamer sur toutes les plateformes, ce qui signifie que l'analyseur et que les fondus entre les pistes fonctionnent dorénavant sous Windows. Les nouvelles fonctionnalités comprennent un égaliseur, plus d'options de regroupement pour la bibliothèque, une plus belle OSD, le contrôle à distance depuis la ligne de commande et MPRIS, et un éditeur de tags plus intuitif."
+msgstr "Dans cette version, nous sommes passés à GStreamer sur toutes les plateformes, ce qui signifie que l'analyseur et que les fondus entre les pistes fonctionnent dorénavant sous Windows. Les nouvelles fonctionnalités comprennent un égaliseur, plus d'options de regroupement pour la bibliothèque, une plus belle OSD, le contrôle à distance depuis la ligne de commande et MPRIS, et un éditeur de tags plus intuitif."
 
 #: data.py:210
 msgid "Version 0.4 released"
@@ -212,7 +213,7 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Cette version ajoute les fonctionnalités d'onglets pour les listes de lecture, la recherche dans les listes de lecture, les visualisations (en utilisant projectM), l'intégration de Magnatune, la normalisation du volume ReplayGain et le transcodage de musique. Les problèmes de chargement ont aussi été corrigés (la recherche dans de grandes bibliothèques est maintenant plus rapide, la lecture est plus fiable sous Windows, les problèmes d'encodage sous maintenant corrigés, et les listes de lecture à distance se chargent correctement tout le temps)."
+msgstr "Cette version ajoute les fonctionnalités d'onglets pour les listes de lecture, la recherche dans les listes de lecture, les visualisations (en utilisant projectM), l'intégration de Magnatune, la normalisation du volume ReplayGain et le transcodage de musique. Des problèmes de chargement ont également été corrigés (la recherche dans de grandes bibliothèques est maintenant plus rapide, la lecture est plus fiable sous Windows, les problèmes d'encodage sous maintenant corrigés, et les listes de lecture à distance se chargent correctement tout le temps)."
 
 #: data.py:220
 msgid "Version 0.5 released"
@@ -233,7 +234,7 @@ msgid ""
 " load of memory leaks and reduced CPU usage while playing music. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Cette version ajoute le support pour l'utilisation de périphériques portables avec Clementine : vous pouvez maintenant copier vos musique sur votre iPod, iPhone et sur les périphériques de stockages USB et MTP. Voir <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">le wiki pour plus d'informations</a>. Le support pour l'utilisation d'une <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wiimote</a> pour le contrôle à distance a été ajouté.Les autres fonctionnalités ajoutées comportent une liste d'attente, une fenêtre pour l'organisation des fichiers, l'étirement automatique des colonnes des listes de lecture, le chargement des jaquettes incorporés id3v2, plus d'options pour le parcours de la bibliothèque, le glisser-déposer entre les listes de lecture, et un crapaud hypnotique. Le temps de démarrage a aussi été réduit de plus de moitié, des fuites mémoires ont été corrigées, et l'utilisation du CPU a été réduite durant la lecture. Voir les <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">notes de versions</a> pour plus d'informations."
+msgstr "Cette version ajoute le support pour l'utilisation de périphériques portables avec Clementine : vous pouvez maintenant copier vos musiques sur votre iPod, iPhone ainsi que sur les périphériques de stockages USB et MTP. Voir <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">le wiki pour plus d'informations</a>. Le support pour l'utilisation d'une <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wiimote</a> pour le contrôle à distance a été ajouté.Les autres fonctionnalités ajoutées comportent une liste d'attente, une fenêtre pour l'organisation des fichiers, l'étirement automatique des colonnes des listes de lecture, le chargement des jaquettes incorporés id3v2, plus d'options pour le parcours de la bibliothèque, le glisser-déposer entre les listes de lecture, et un crapaud hypnotique. Le temps de démarrage a aussi été réduit de plus de moitié, des fuites mémoires ont été corrigées, et l'utilisation du CPU a été réduite durant la lecture. Voir les <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">notes de versions</a> pour plus d'informations."
 
 #: data.py:237
 msgid "Version 0.6 released"
@@ -250,7 +251,7 @@ msgid ""
 "href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Cette version ajoute deux nouveaux panneaux d'information pour visualiser les paroles, les statistiques, les biographies des artistes, des photos et la liste des tags et des artistes similaires. Nous avons modifié la barre latérale (mais vous pouvez toujours remettre l'ancienne en faisant un clic droit dessus), et aussi ajouter la notation, un compteur de morceaux écoutés et sautés. Vous pouvez désormais créer des listes de lecture dynamiques et intelligentes utilisant des morceaux de votre bibliothèque, et écouter de la musique depuis<a href=\"http://www.jamendo.com/\">Jamendo</a> et les stations radio Icecast. Voir les <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">notes de versions</a> pour plus d'informations."
+msgstr "Cette version ajoute deux nouveaux panneaux d'information pour visualiser les paroles, les statistiques, les biographies des artistes, des photos et la liste des tags et des artistes similaires. Nous avons modifié la barre latérale (mais vous pouvez toujours remettre l'ancienne en faisant un clic droit dessus), ajouté les notations, ainsi qu'un compteur de morceaux écoutés et sautés. Vous pouvez désormais créer des listes de lecture dynamiques et intelligentes utilisant des morceaux de votre bibliothèque, et écouter de la musique depuis<a href=\"http://www.jamendo.com/\">Jamendo</a> et les stations radio Icecast. Voir les <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">notes de versions</a> pour plus d'informations."
 
 #: data.py:250
 msgid "Version 0.7 released"
@@ -269,7 +270,7 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Clementine a maintenant un tout nouveau éditeur de tag avec l'autocomplétion, et la possibilité d'identifier automatiquement votre musique et de récupérer les tags associés en utilisant MusicBrainz. Les CUE sheets sont maintenant supportées (elle sont détectées automatiquement lors de l'analyse de la bibliothèque, et chaque morceau apparaîtra séparément).\nNous avons réalisé beaucoup de petites améliorations, comme la possibilité d'afficher les pochettes d'album dans l'onglet Bibliothèque, griser les morceaux qui ont été supprimés, une option pour « Afficher dans le navigateur de fichiers », le support des serveurs mandataires (proxy), une option pour refaire une analyse complète de votre collection, et l'ajout d'une popup pour le curseur qui permet de se déplacer plus précisément dans un morceau.\nVoir les  <a href=\"http://clementine-player.googlecode.com/svn/trunk/Changelog\">notes de versions</a> pour plus d'informations."
+msgstr "Clementine a maintenant un tout nouveau éditeur de tag comprenant l'autocomplétion, ainsi que la possibilité d'identifier automatiquement votre musique et de récupérer les tags associés en utilisant MusicBrainz. Les CUE sheets sont maintenant supportées (elle sont détectées automatiquement lors de l'analyse de la bibliothèque, et chaque morceau apparaîtra séparément).\nNous avons réalisé beaucoup de petites améliorations, comme la possibilité d'afficher les pochettes d'album dans l'onglet Bibliothèque, griser les morceaux qui ont été supprimés, une option pour « Afficher dans le navigateur de fichiers », le support des serveurs mandataires (proxy), une option permettant de refaire une analyse complète de votre collection, et l'ajout d'une popup pour le curseur qui permet de se déplacer plus précisément dans un morceau.\nVoir les  <a href=\"http://clementine-player.googlecode.com/svn/trunk/Changelog\">notes de versions</a> pour plus d'informations."
 
 #: data.py:265
 msgid "Version 1.0 released"
@@ -287,7 +288,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Cette version intègre <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> et <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Nous avons aussi ajouté la fonctionnalité de « Recherche globale » qui permet de rechercher facilement de la musique dans votre bibliothèque locale ou sur Internet. Les autres ajouts sont le support des CD audio, d'avantage d'options pour le transcodeur, une fenêtre des préférences améliorée, une recherche de pochette plus intelligente, et beaucoup de corrections diverses. Voir les <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">notes de versions</a> pour plus d'informations."
+msgstr "Cette version intègre <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> et <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Nous avons aussi ajouté la fonctionnalité de « Recherche globale » qui permet de rechercher facilement de la musique dans votre bibliothèque locale ou sur Internet. Les autres ajouts sont le support des CD audio, d'avantage d'options pour le transcodeur, une fenêtre de préférences améliorée, une recherche de pochette plus intelligente, ainsi que de nombreuses corrections diverses. Voir les <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">notes de versions</a> pour plus d'informations."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -363,7 +364,7 @@ msgstr "Récupérez le code en exécutant :"
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr "Si vous préférez ne pas compiler la version de développement vous-même, essayer un de nos paquets récents."
+msgstr "Si vous préférez ne pas compiler la version de développement vous-même, essayez un de nos paquets récents."
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
@@ -455,7 +456,7 @@ msgstr "Éditez les tags sur vos fichiers MP3 ou OGG, organisez votre musique."
 
 #: main.html:30
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Compléter les tags automatiquement avec MusicBrainz."
+msgstr "Complétez les tags automatiquement avec MusicBrainz."
 
 #: main.html:31
 msgid "Download missing album cover art from Last.fm and Amazon."
