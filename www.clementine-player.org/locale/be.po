@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-05-23 08:48-0700\n"
-"PO-Revision-Date: 2012-08-24 21:23+0000\n"
+"PO-Revision-Date: 2012-08-29 11:30+0000\n"
 "Last-Translator: Fiodar Maroźka <fyodormorozko95@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: data.py:220
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "Выйшла вэрсыя 0.5"
 
 #: data.py:221
 msgid ""
@@ -308,15 +308,15 @@ msgstr "Рэпазыторый PPA для Ubuntu"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "Вы можаце спампаваць апошнюю вэрсыю Clementine для Ubuntu з афіцыйнага PPA:"
 
 #: downloads.html:63 downloads.html.py:71
 msgid "Other Downloads"
-msgstr ""
+msgstr "Іншыя Запампоўкі"
 
 #: downloads.html:65
 msgid "Unofficial packages"
-msgstr ""
+msgstr "Неафіцыйныя зборкі"
 
 #: downloads.html:67
 msgid ""
@@ -326,11 +326,11 @@ msgstr ""
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr ""
+msgstr "Кампіляцыя з зыходнікаў"
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "Скампіляваць Clementine з зыходнікаў проста на Linux."
 
 #: downloads.html:78
 msgid ""
@@ -340,7 +340,7 @@ msgstr ""
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "Поўныя інструкцыі ды сьпіс залежнасьцяў"
 
 #: downloads.html:91
 msgid "Bleeding edge packages"
@@ -348,11 +348,11 @@ msgstr ""
 
 #: downloads.html:93 participate.html:48
 msgid "Development on Clementine happens in"
-msgstr ""
+msgstr "Распрацоўка Clementine адбываецца ў"
 
 #: downloads.html:95 participate.html:50
 msgid "the git repository"
-msgstr ""
+msgstr "рэпазыторыю git"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
@@ -362,27 +362,27 @@ msgstr ""
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
+msgstr "Калі вы не жадаеце кампіляваць распрацоўніцкую вэрсыю самастойна, паспрабуўце адну са штогадзінных зборак:"
 
 #: downloads.html:103 participate.html:65
 msgid "Mac OS X development builds"
-msgstr ""
+msgstr "Распрацоўніцкія зборкі для Mac OS X"
 
 #: downloads.html:105 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr ""
+msgstr "Распрацоўніцкія зборкі для Ubuntu Lucid (10.04)"
 
 #: downloads.html:107 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr ""
+msgstr "Распрацоўніцкія зборкі для Ubuntu Maverick (10.10)"
 
 #: downloads.html:109 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr ""
+msgstr "Распрацоўніцкія зборкі для Ubuntu Natty (11.04)"
 
 #: downloads.html:111 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr ""
+msgstr "Распрацоўніцкія зборкі для Ubuntu Oneiric (11.10)"
 
 #: downloads.html:113
 msgid "Ubuntu Precise (12.04) development builds"
@@ -390,19 +390,19 @@ msgstr ""
 
 #: downloads.html:115 participate.html:75
 msgid "Windows development builds"
-msgstr ""
+msgstr "Распрацоўніцкія зборкі для Windows"
 
 #: downloads.html:117 participate.html:77
 msgid "Buildbot"
-msgstr ""
+msgstr "Buildbot"
 
 #: downloads.html:120 participate.html:80
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr ""
+msgstr "Таксама PPA для Ubuntu для гэтых распрацоўніцкіх зборак:"
 
 #: downloads.html:128
 msgid "Old downloads"
-msgstr ""
+msgstr "Старыя запампоўкі"
 
 #: downloads.html:135 screenshots.html:9
 msgid "Version"
