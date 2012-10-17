@@ -21,8 +21,8 @@ from pygooglechart import SimpleLineChart
 import models
 import tasks
 
-RAINYMOOD_URL = 'http://173.193.205.68/audio/RainyMood.mp3'
-BACKUP_RAINYMOOD_URL = 'http://images.clementine-player.org/RainyMood.mp3'
+RAINYMOOD_URL = 'http://images.clementine-player.org/RainyMood.mp3'
+BACKUP_RAINYMOOD_URL = 'http://cloud.clementine-player.org/RainyMood.mp3'
 ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
 
 RAINYMOOD_MEMCACHE_KEY = 'rainymood'
