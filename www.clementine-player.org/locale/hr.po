@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-09-10 10:15+0200\n"
-"PO-Revision-Date: 2012-05-11 14:43+0000\n"
+"PO-Revision-Date: 2012-10-17 22:28+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr "Web stranica:"
 
 #: data.py:8
 msgid "Transcoding settings"
-msgstr "Postavke enkodiranja"
+msgstr "Postavke enkôdiranja"
 
 #: data.py:9
 msgid "Global search finding albums on Spotify"
@@ -147,7 +147,7 @@ msgstr "Last.fm oznaka radia"
 
 #: data.py:39
 msgid "Searching the library"
-msgstr "Pretraživanje zbirke glazbe"
+msgstr "Pretraživanje fonoteke"
 
 #: data.py:40 data.py:46
 msgid "The tag editor on Windows"
@@ -171,7 +171,7 @@ msgstr "Growl obavijesti na Mac OS X"
 
 #: data.py:144
 msgid "Source code"
-msgstr "Izvorni kod"
+msgstr "Izvorni kôd"
 
 #: data.py:160
 msgid "Source"
@@ -198,7 +198,7 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "U ovom izdanju smo se prebacili na GStreamer na svim platformama, što znači da analizator i postepeni prijelaz između pjesama će sada raditi i na Windowsima. Nove značajke uključuju ekvalizator, više mogućnosti grupiranja zbirke glazbe, ljepši OSD, daljinsko upravljanje iz naredbenog retka, MPRIS i lakše uređivanje oznaka."
+msgstr "U ovom izdanju smo se prebacili na GStreamer na svim platformama, što znači da analizator i postepeni prijelaz između pjesama će sada raditi i na Windowsima. Nove značajke uključuju ekvalizator, više mogućnosti grupiranja fonoteke, ljepši OSD, daljinsko upravljanje iz naredbenog retka, MPRIS i lakše uređivanje oznaka."
 
 #: data.py:210
 msgid "Version 0.4 released"
@@ -212,7 +212,7 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Nove značajke u ovom izdanju; otvaranje popisa izvođenja u novim karticama, pretraživanje popisa izvođenja, projectM vizualizacija, Magnatune integracija, ReplayGain normalizacija zvuka i enkodiranje glazbe. Popravili smo i hrpu greški - pretraživanje velikih zbiraka glazbe je sada puno brže, reprodukcija je puno više pouzdanija na Windowsima, problemi znakova kodiranja su sada popravljeni i udaljeni popisi izvođenja trebali bi se cijelo vrijeme učitavati ispravno."
+msgstr "Nove značajke u ovom izdanju; otvaranje popisa izvođenja u novim karticama, pretraživanje popisa izvođenja, projectM vizualizacija, Magnatune integracija, ReplayGain normalizacija zvuka i enkôdiranje glazbe. Popravili smo i hrpu greški - pretraživanje velikih fonoteka je sada puno brže, reprodukcija je puno više pouzdanija na Windowsima, problemi znakova kôdiranja su sada popravljeni i udaljeni popisi izvođenja trebali bi se cijelo vrijeme učitavati ispravno."
 
 #: data.py:220
 msgid "Version 0.5 released"
@@ -233,7 +233,7 @@ msgid ""
 " load of memory leaks and reduced CPU usage while playing music. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "U ovom izdanju dodana je podrška za korištenje prijenosnih uređaja iz Clementine.  Sada možete kopirati pjesme na vaš iPod, iPhone, MTP ili USB uređaj za pohranu podataka.  Pogledajte <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">wiki za više informacija</a>.  Dodana je podrška za korištenje <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii daljinskog upravljača</a>.  Ostale značajke uključuju upravljanje odabranim pjesmama za reprodukciju, dijalog organiziranja datoteka, automatsko prilagođavanje stupaca u popisima izvođenja, učitavanje ugrađenih id3v2 omota albuma, više mogućnosti pretraživanja zbirke glazbe, povlačenje i ispuštanje pjesama između popisa izvođenja i hypnotoad.  Također smo smanjili vrijeme pokretanja za više od pola, popravljeno je preopterećenje memorije i smanjena je upotreba procesora za vrijeme sviranja glazbe. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis promjena</a> za više informacija."
+msgstr "U ovom izdanju dodana je podrška za korištenje prijenosnih uređaja iz Clementine.  Sada možete kopirati pjesme na vaš iPod, iPhone, MTP ili USB uređaj za pohranu podataka.  Pogledajte <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">wiki za više informacija</a>.  Dodana je podrška za korištenje <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii daljinskog upravljača</a>.  Ostale značajke uključuju upravljanje odabranim pjesmama za reprodukciju, dijalog organiziranja datoteka, automatsko prilagođavanje stupaca u popisima izvođenja, učitavanje ugrađenih id3v2 omota albuma, više mogućnosti pretraživanja fonoteke, povlačenje i ispuštanje pjesama između popisa izvođenja i hypnotoad.  Također smo smanjili vrijeme pokretanja za više od pola, popravljeno je preopterećenje memorije i smanjena je upotreba procesora za vrijeme sviranja glazbe. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis promjena</a> za više informacija."
 
 #: data.py:237
 msgid "Version 0.6 released"
@@ -250,7 +250,7 @@ msgid ""
 "href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Nove značajke u ovom izdanju; dva nova okna informacija koja prikazuju tekstove pjesama, statistiku pjesme, životopis izvođača, fotografije i popis oznaka i sličnih izvođača.  Redizajnirali smo bočnu traku (iako možete vratiti staru traku desnim klikom na nju), dodano je ocjenjivanje pjesama, broj izvođenja i broj preskoka izvođenja.  Možete izraditi pametne i dinamične popise izvođenja od pjesama iz vaše zbirke glazbe, sada možete slušati glazbu iz <a href=\"http://www.jamendo.com/\">Jamendo</a> i Icecast radio stanica. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis izmjena</a> za više informacija."
+msgstr "Nove značajke u ovom izdanju; dva nova okna informacija koja prikazuju tekstove pjesama, statistiku pjesme, životopis izvođača, fotografije i popis oznaka i sličnih izvođača.  Redizajnirali smo bočnu traku (iako možete vratiti staru traku desnim klikom na nju), dodano je ocjenjivanje pjesama, broj izvođenja i broj preskoka izvođenja.  Možete izraditi pametne i dinamične popise izvođenja od pjesama iz vaše fonoteke, sada možete slušati glazbu iz <a href=\"http://www.jamendo.com/\">Jamendo</a> i Icecast radio stanica. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis izmjena</a> za više informacija."
 
 #: data.py:250
 msgid "Version 0.7 released"
@@ -269,7 +269,7 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "U ovom izdanju Clementine dobiva novi dijalog uređivanja pjesama sa automatskim dovršavanjem oznaka i mogućnosti automatskog prepoznavanja glazbe i preuzimanja oznaka koje nedostaju sa MusicBrainza.  CUE popisi su sada podržani - oni se otkrivaju automatski prilikom pretraživanja vaše zbirke glazbe i svaka pjesma će biti prikazana zasebno.  Napravili smo hrpu manjih poboljšanja kao što su; prikazivanje omota albuma u kartici zbirke glazbe, obrisane pjesme će posivjeti na popisu izvođenja, \"Prikaži u pregledniku datoteka\" mogućnost, podršku za mrežni proxy, \"Pretražite ponovno cijelu zbirku glazbe\" mogućnost, i nove obavijesti klizača pjesme koji vam pomaže u točnijem traženju određenog položaja u pjesmi. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis promjena</a> za više informacija."
+msgstr "U ovom izdanju Clementine dobiva novi dijalog uređivanja pjesama sa automatskim dovršavanjem oznaka i mogućnosti automatskog prepoznavanja glazbe i preuzimanja oznaka koje nedostaju sa MusicBrainza.  CUE popisi su sada podržani - oni se otkrivaju automatski prilikom pretraživanja vaše fonoteke i svaka pjesma će biti prikazana zasebno.  Napravili smo hrpu manjih poboljšanja kao što su; prikazivanje omota albuma u kartici fonoteke, obrisane pjesme će posivjeti na popisu izvođenja, \"Prikaži u pregledniku datoteka\" mogućnost, podršku za mrežni proxy, \"Pretražite ponovno cijelu zbirku glazbe\" mogućnost, i nove obavijesti klizača pjesme koji vam pomaže u točnijem traženju određenog položaja u pjesmi. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis promjena</a> za više informacija."
 
 #: data.py:265
 msgid "Version 1.0 released"
@@ -287,7 +287,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Ovo izdanje uključuje <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> i <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> podršku.  Također smo dodali značajku globalnog pretraživanja koja vam omogućuje lako pronalaženje glazbe, bilo da se nalazi u vašoj zbirci glazbe ili na Internetu. Ostale značajke uključuju audio CD podršku, više mogućnosti enkodera glazbe, poboljšani dijalog postavki, pametnije pretraživanje omota albuma i hrpa ispravljenih greški. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis promjena</a> za više informacija."
+msgstr "Ovo izdanje uključuje <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> i <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> podršku.  Također smo dodali značajku globalnog pretraživanja koja vam omogućuje lako pronalaženje glazbe, bilo da se nalazi u vašoj fonoteci ili na Internetu. Ostale značajke uključuju audio CD podršku, više mogućnosti enkôdera glazbe, poboljšani dijalog postavki, pametnije pretraživanje omota albuma i hrpa ispravljenih greški. Pogledajte <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">cijeli popis promjena</a> za više informacija."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -327,17 +327,17 @@ msgstr "Ako ne vidite svoju distribuciju na popisu iznad možda je netko drugi n
 
 #: downloads.html:75
 msgid "Compiling from source"
-msgstr "Prevođenje sa izvornog koda"
+msgstr "Prevođenje sa izvornog kôda"
 
 #: downloads.html:77
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Prevođenje Clementine sa izvornog koda je lagano na Linuxu."
+msgstr "Prevođenje Clementine sa izvornog kôda je lagano na Linuxu."
 
 #: downloads.html:78
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Preuzmite paket izvornog koda sa popisa iznad i unesite ove naredbe u terminal:"
+msgstr "Preuzmite paket izvornog kôda sa popisa iznad i unesite ove naredbe u terminal:"
 
 #: downloads.html:87
 msgid "Full instructions and list of dependencies"
@@ -357,7 +357,7 @@ msgstr "git repozitoriju"
 
 #: downloads.html:95 participate.html:51
 msgid "Check out the code by running:"
-msgstr "Preuzmite izvorni kod pokretanjem naredbe:"
+msgstr "Preuzmite izvorni kôd pokretanjem naredbe:"
 
 #: downloads.html:99 participate.html:61
 msgid ""
@@ -415,7 +415,7 @@ msgstr "O Clementine &amp; Značajke"
 
 #: main.html:10
 msgid "Search and play your local music library."
-msgstr "Pretraživajte i svirajte vašu lokalnu zbirku glazbe."
+msgstr "Pretraživajte i svirajte vašu lokalnu fonoteku."
 
 #: main.html:11
 msgid "Listen to internet radio from"
@@ -447,7 +447,7 @@ msgstr "Tekstovi pjesama, životopisi izvođača i fotografije."
 
 #: main.html:28
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Enkodirajte glazbu u MP3, Ogg Vorbis, Ogg Speex, FLAC ili AAC."
+msgstr "Enkôdirajte glazbu u MP3, Ogg Vorbis, Ogg Speex, FLAC ili AAC."
 
 #: main.html:29
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -582,7 +582,7 @@ msgstr "Prijavljivanje grešaka i predlaganje zakrpa"
 
 #: participate.html:30
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr "Clementine koristi Google kod za razvoj i praćenje problema."
+msgstr "Clementine koristi Google kôd za razvoj i praćenje problema."
 
 #: participate.html:31
 msgid ""
@@ -620,7 +620,7 @@ msgstr "Hakiranje"
 
 #: participate.html:57
 msgid "How to compile Clementine from source"
-msgstr "Kako prevesti Clementine sa izvornog koda"
+msgstr "Kako prevesti Clementine sa izvornog kôda"
 
 #: participate.html:88
 msgid "Social Networking"
