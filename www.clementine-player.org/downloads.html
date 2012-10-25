@@ -92,12 +92,14 @@ sudo make install</pre>
 
 <p>{% trans "Development on Clementine happens in" %}
 <a href="http://code.google.com/p/clementine-player/source/checkout">
-{% trans "the git repository" %}</a>.  {% trans "Check out the code by running:" %}</p>
+{% trans "the git repository" %}</a>.
+{% trans "Check out the code by running:" %}</p>
 
 <pre>git clone https://code.google.com/p/clementine-player/ clementine-player</pre>
 
 <p>{% trans "If you'd prefer not to compile the development version yourself then try one of the hourly packages:" %}</p>
 
+{# THIS LIST IS DUPLICATED IN participate.html #}
 <ul>
   <li><a href="http://builds.clementine-player.org/mac/">
     {% trans "Mac OS X development builds" %}</a></li>
@@ -111,6 +113,8 @@ sudo make install</pre>
     {% trans "Ubuntu Oneiric (11.10) development builds" %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-precise/">
     {% trans "Ubuntu Precise (12.04) development builds" %}</a></li>
+  <li><a href="http://builds.clementine-player.org/ubuntu-quantal/">
+    {% trans "Ubuntu Quantal (12.10) development builds" %}</a></li>
   <li><a href="http://builds.clementine-player.org/win32/">
     {% trans "Windows development builds" %}</a></li>
   <li><a href="http://buildbot.clementine-player.org/waterfall">

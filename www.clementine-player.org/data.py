@@ -2,8 +2,14 @@
 
 def _(x): return x
 
-LATEST_VERSION = '1.0'
+LATEST_VERSION = '1.1'
 SCREENSHOTS = [
+  {'version': '1.1', 'entries': [
+    {'file': 'clementine-1.1-1.png', 'title': _('Podcasts')},
+    {'file': 'clementine-1.1-2.png', 'title': _('Google Drive')},
+    {'file': 'clementine-1.1-3.png', 'title': _('New global search interface')},
+    {'file': 'clementine-1.1-4.png', 'title': _('Moodbars')},
+  ]},
   {'version': '1.0', 'entries': [
     {'file': 'clementine-1.0-1.png', 'title': _('Transcoding settings')},
     {'file': 'clementine-1.0-2.png', 'title': _('Global search finding albums on Spotify')},
@@ -49,6 +55,28 @@ SCREENSHOTS = [
 ]
 DOWNLOAD_BASE_URL = 'http://clementine-player.googlecode.com/files/'
 DOWNLOADS = [
+  {'os': 'ubuntu',      'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~lucid_i386.deb'},
+  {'os': 'ubuntu',      'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~lucid_amd64.deb'},
+  {'os': 'umaverick',   'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~maverick_i386.deb'},
+  {'os': 'umaverick',   'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~maverick_amd64.deb'},
+  {'os': 'unatty',      'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~natty_i386.deb'},
+  {'os': 'unatty',      'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~natty_amd64.deb'},
+  {'os': 'uoneiric',    'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~oneiric_i386.deb'},
+  {'os': 'uoneiric',    'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~oneiric_amd64.deb'},
+  {'os': 'uprecise',    'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~precise_i386.deb'},
+  {'os': 'uprecise',    'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~precise_amd64.deb'},
+  {'os': 'uquantal',    'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~quantal_amd64.deb'},
+  {'os': 'uquantal',    'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~quantal_i386.deb'},
+  {'os': 'squeeze',     'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.0~squeeze_i386.deb'},
+  {'os': 'squeeze',     'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.0~squeeze_amd64.deb'},
+  {'os': 'fedora16',    'ver': '1.1', 'arch': 32, 'name': 'clementine-1.1.0-1.fc16.i686.rpm'},
+  {'os': 'fedora16',    'ver': '1.1', 'arch': 64, 'name': 'clementine-1.1.0-1.fc16.x86_64.rpm'},
+  {'os': 'fedora15',    'ver': '1.1', 'arch': 32, 'name': 'clementine-1.1.0-1.fc17.i686.rpm'},
+  {'os': 'fedora15',    'ver': '1.1', 'arch': 64, 'name': 'clementine-1.1.0-1.fc17.x86_64.rpm'},
+  {'os': 'windows',     'ver': '1.1', 'arch': 0,  'name': 'ClementineSetup-1.1.0.exe'},
+  {'os': 'snowleopard', 'ver': '1.1', 'arch': 0,  'name': 'clementine-1.1.0.dmg'},
+  {'os': 'source',      'ver': '1.1', 'arch': 0,  'name': 'clementine-1.1.0.tar.gz'},
+
   {'os': 'ubuntu',      'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.1~lucid_i386.deb'},
   {'os': 'ubuntu',      'ver': '1.0', 'arch': 64, 'name': 'clementine_1.0.1~lucid_amd64.deb'},
   {'os': 'umaverick',   'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.1~maverick_i386.deb'},
@@ -147,6 +175,7 @@ DISPLAY_OS = {
   'unatty':      'Ubuntu Natty (11.04)',
   'uoneiric':    'Ubuntu Oneiric (11.10)',
   'uprecise':    'Ubuntu Precise (12.04)',
+  'uquantal':    'Ubuntu Quantal (12.10)',
   'squeeze':     'Debian Squeeze',
   'fedora':      'Fedora 13',
   'fedora14':    'Fedora 14',
@@ -163,6 +192,7 @@ SHORT_DISPLAY_OS = {
   'unatty':      'Natty',
   'uoneiric':    'Oneiric',
   'uprecise':    'Precise',
+  'uquantal':    'Quantal',
   'squeeze':     'Squeeze',
   'fedora':      'Fedora 13',
   'fedora14':    'Fedora 14',
@@ -179,6 +209,7 @@ OS_LOGOS = {
   'unatty':      'ubuntu-logo.png',
   'uoneiric':    'ubuntu-logo.png',
   'uprecise':    'ubuntu-logo.png',
+  'uquantal':    'ubuntu-logo.png',
   'squeeze':     'squeeze-logo.png',
   'fedora':      'fedora-logo.png',
   'fedora14':    'fedora-logo.png',
@@ -270,7 +301,21 @@ NEWS = [
       'easily find music that\'s either in your library or on the Internet. ' \
       'Other features include audio CD support, more transcoder options, an ' \
       'improved settings dialog, smarter album cover searches, and loads of bug fixes. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0">' \
+      'full changelog</a> for more information.')
+  },
+  {
+    'timestamp': 1351141875,
+    'title': _('Version 1.1 released'),
+    'content': _('This release adds long-awaited Podcast support including '
+      'integration and synchronisation with <a href="gpodder.net">gpooder.net</a>. '
+      'Music from <a href="http://soundcloud.com/">Soundcloud</a> and '
+      '<a href="http://www.jazzradio.com/">jazzradio.com</a> is available in '
+      'the Internet tab in the sidebar, as well as any songs you\'ve uploaded '
+      'to <a href="http://drive.google.com/start">Google Drive</a>. '
+      'Clementine will also now show moodbars for the music you play from your '
+      'local disc. '
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1">'
       'full changelog</a> for more information.')
   },
   # For timestamp: python -c "import time; print int(time.time())"
