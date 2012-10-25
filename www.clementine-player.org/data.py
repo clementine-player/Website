@@ -308,7 +308,7 @@ NEWS = [
     'timestamp': 1351141875,
     'title': _('Version 1.1 released'),
     'content': _('This release adds long-awaited Podcast support including '
-      'integration and synchronisation with <a href="gpodder.net">gpooder.net</a>. '
+      'integration and synchronisation with <a href="gpodder.net">gpodder.net</a>. '
       'Music from <a href="http://soundcloud.com/">Soundcloud</a> and '
       '<a href="http://www.jazzradio.com/">jazzradio.com</a> is available in '
       'the Internet tab in the sidebar, as well as any songs you\'ve uploaded '
