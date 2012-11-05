@@ -3,15 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Alessandro  <kill.alex@hotmail.it>, 2012.
 #   <clabacchio@gmail.com>, 2012.
+#   <rollopack@gmail.com>, 2012.
 # Vincenzo Reale <vinx.reale@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-10-25 07:47+0200\n"
-"PO-Revision-Date: 2012-10-25 06:30+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2012-10-29 19:07+0000\n"
+"Last-Translator: Alessandro <kill.alex@hotmail.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,19 +65,19 @@ msgstr "Sito creato da"
 
 #: data.py:8
 msgid "Podcasts"
-msgstr ""
+msgstr "Podcasts"
 
 #: data.py:9
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #: data.py:10
 msgid "New global search interface"
-msgstr ""
+msgstr "Nuova interfaccia di ricerca globale"
 
 #: data.py:11
 msgid "Moodbars"
-msgstr ""
+msgstr "Moodbars"
 
 #: data.py:14
 msgid "Transcoding settings"
@@ -303,11 +305,11 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog?name=release-1.0\">full "
 "changelog</a> for more information."
-msgstr ""
+msgstr "Questa versione aggiunge il supporto a <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> e <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Abbiamo aggiunto anche una funzionalità di ricerca globale che consente di trovare facilmente musica presente sia nella vostra raccolta che su Internet. Le altre funzionalità includono il supporto dei CD audio, ulteriori opzioni di transcodifica, una finestra delle impostazioni migliorata, una ricerca più efficiente delle copertine degli album e molte correzioni di bug. Vedere il <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">changelog completo</a> per ulteriori informazioni."
 
 #: data.py:309
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Rilasciata la versione 1.1"
 
 #: data.py:310
 msgid ""
@@ -321,7 +323,7 @@ msgid ""
 "<a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "Questa versione aggiunge il tanto atteso supporto ai Podcast, compresa l'integrazione con <a href=\"gpodder.net\">gpooder.net</a>. La musica proveniente da <a href=\"http://soundcloud.com/\">Soundcloud</a> e <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> è disponibile nella sezione Internet della barra di stato, così come ogni canzone che hai uploadato su <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine mostrerà anche le moodbars per la musica che riproduci dal tuo disco locale. Guarda il <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">changelog completo</a> per maggiori informazioni."
 
 #: downloads.html:8
 msgid "Latest downloads"
@@ -425,7 +427,7 @@ msgstr "Versioni di sviluppo di Ubuntu Precise (12.04)"
 
 #: downloads.html:117 participate.html:78
 msgid "Ubuntu Quantal (12.10) development builds"
-msgstr ""
+msgstr "Versioni di sviluppo per Ubuntu Quantal (12.10)"
 
 #: downloads.html:119 participate.html:80
 msgid "Windows development builds"
@@ -461,7 +463,7 @@ msgstr "Ascoltare radio via internet da"
 
 #: main.html:25
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "Cerca e riproduci la canzone che hai caricato su"
 
 #: main.html:28
 msgid "Create smart playlists and dynamic playlists."
@@ -501,7 +503,7 @@ msgstr "Scarica i tag mancanti da MusicBrainz."
 
 #: main.html:37
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Scopri e scarica Podcasts."
 
 #: main.html:38
 msgid "Download missing album cover art from Last.fm and Amazon."
