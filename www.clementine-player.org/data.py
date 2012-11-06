@@ -310,15 +310,15 @@ NEWS = [
   {
     'timestamp': 1351141875,
     'title': _('Version 1.1 released'),
-    'content': _('This release adds long-awaited Podcast support including '
-      'integration and synchronisation with <a href="//gpodder.net">gpodder.net</a>. '
-      'Music from <a href="http://soundcloud.com/">Soundcloud</a> and '
-      '<a href="http://www.jazzradio.com/">jazzradio.com</a> is available in '
-      'the Internet tab in the sidebar, as well as any songs you\'ve uploaded '
-      'to <a href="http://drive.google.com/start">Google Drive</a>. '
-      'Clementine will also now show moodbars for the music you play from your '
-      'local disc. '
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1">'
+    'content': _('This release adds long-awaited Podcast support including ' \
+      'integration and synchronisation with <a href="//gpodder.net">gpodder.net</a>. ' \
+      'Music from <a href="http://soundcloud.com/">Soundcloud</a> and ' \
+      '<a href="http://www.jazzradio.com/">jazzradio.com</a> is available in ' \
+      'the Internet tab in the sidebar, as well as any songs you\'ve uploaded ' \
+      'to <a href="http://drive.google.com/start">Google Drive</a>. ' \
+      'Clementine will also now show moodbars for the music you play from your ' \
+      'local disc. ' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1">' \
       'full changelog</a> for more information.')
   },
   # For timestamp: python -c "import time; print int(time.time())"
