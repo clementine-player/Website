@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2012-10-25 07:47+0200\n"
-"PO-Revision-Date: 2012-10-25 06:30+0000\n"
+"POT-Creation-Date: 2012-11-06 22:59+0100\n"
+"PO-Revision-Date: 2012-11-06 23:04+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -188,26 +188,26 @@ msgstr ""
 msgid "Source code"
 msgstr ""
 
-#: data.py:189
+#: data.py:190
 msgid "Source"
 msgstr ""
 
-#: data.py:225
+#: data.py:228
 msgid "Version 0.2 released"
 msgstr ""
 
-#: data.py:226
+#: data.py:229
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:232
+#: data.py:235
 msgid "Version 0.3 released"
 msgstr ""
 
-#: data.py:233
+#: data.py:236
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -215,11 +215,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:241
+#: data.py:244
 msgid "Version 0.4 released"
 msgstr ""
 
-#: data.py:242
+#: data.py:245
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -229,11 +229,11 @@ msgid ""
 "the time."
 msgstr ""
 
-#: data.py:251
+#: data.py:254
 msgid "Version 0.5 released"
 msgstr ""
 
-#: data.py:252
+#: data.py:255
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -250,11 +250,11 @@ msgid ""
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:268
+#: data.py:271
 msgid "Version 0.6 released"
 msgstr ""
 
-#: data.py:269
+#: data.py:272
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -267,11 +267,11 @@ msgid ""
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:281
+#: data.py:284
 msgid "Version 0.7 released"
 msgstr ""
 
-#: data.py:282
+#: data.py:285
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -286,11 +286,11 @@ msgid ""
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:296
+#: data.py:299
 msgid "Version 1.0 released"
 msgstr ""
 
-#: data.py:297
+#: data.py:300
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -304,15 +304,15 @@ msgid ""
 "changelog</a> for more information."
 msgstr ""
 
-#: data.py:309
+#: data.py:312
 msgid "Version 1.1 released"
 msgstr ""
 
-#: data.py:310
+#: data.py:313
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"gpodder.net\">gpooder.net</a>. Music from <a "
-"href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
+"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
+"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
 "href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
 "Internet tab in the sidebar, as well as any songs you've uploaded to <a "
 "href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
