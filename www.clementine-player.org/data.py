@@ -74,7 +74,7 @@ DOWNLOADS = [
   {'os': 'fedora17',    'ver': '1.1', 'arch': 32, 'name': 'clementine-1.1.1-1.fc17.i686.rpm'},
   {'os': 'fedora17',    'ver': '1.1', 'arch': 64, 'name': 'clementine-1.1.1-1.fc17.x86_64.rpm'},
   {'os': 'windows',     'ver': '1.1', 'arch': 0,  'name': 'ClementineSetup-1.1.1.exe'},
-  {'os': 'snowleopard', 'ver': '1.1', 'arch': 0,  'name': 'clementine-1.1.1.dmg'},
+  {'os': 'snowleopard', 'ver': '1.1', 'arch': 0,  'name': 'clementine-1.1.0.dmg'},
   {'os': 'source',      'ver': '1.1', 'arch': 0,  'name': 'clementine-1.1.1.tar.gz'},
 
   {'os': 'ubuntu',      'ver': '1.0', 'arch': 32, 'name': 'clementine_1.0.1~lucid_i386.deb'},
