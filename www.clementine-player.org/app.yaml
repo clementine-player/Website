@@ -1,4 +1,4 @@
-application: clementine-www
+application: clementine-web
 version: release-1-1
 runtime: python
 api_version: 1
