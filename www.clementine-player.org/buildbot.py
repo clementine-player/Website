@@ -3,6 +3,7 @@ import os
 import urllib
 import urllib2
 
+from google.appengine.api import memcache
 from google.appengine.api import taskqueue
 
 from google.appengine.ext import db
@@ -98,8 +99,13 @@ class RefreshBuildPage(webapp.RequestHandler):
 
 class BuildsPage(webapp.RequestHandler):
   def get(self):
-    query = BuildResult.all()
-    self.RenderTemplate({'builds': query.run()})
+    builds = memcache.get('builds')
+    if builds is None:
+      query = BuildResult.all()
+      builds = query.fetch(30)
+      memcache.set('builds', builds)
+
+    self.RenderTemplate({'builds': builds})
 
   def RenderTemplate(self, params):
     template_path = os.path.join(os.path.dirname(__file__), 'builds.html')
