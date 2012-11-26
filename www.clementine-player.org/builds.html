@@ -7,7 +7,9 @@
     {% for build in builds %}
       <div>
         <h3>{{ build.builder }}</h3>
-        {{ build.build_number }} - {{ build.revision }} - {{ build.filename }}
+        <a href="http://buildbot.clementine-player.org/builders/{{ build.builder }}/builds/{{ build.build_number }}">
+          {{ build.build_number }}</a>
+        - {{ build.revision }} - {{ build.filename }}
       </div>
     {% endfor %}
   </body>
