@@ -9,7 +9,9 @@
         <h3>{{ build.builder }}</h3>
         <a href="http://buildbot.clementine-player.org/builders/{{ build.builder }}/builds/{{ build.build_number }}">
           {{ build.build_number }}</a>
-        - {{ build.revision }} - {{ build.filename }}
+        <a href="http://code.google.com/p/clementine-player/source/detail?r={{build.revision}}">
+          {{ build.revision }}</a>
+        - {{ build.filename }}
       </div>
     {% endfor %}
   </body>
