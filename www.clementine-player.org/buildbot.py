@@ -107,7 +107,7 @@ class BuildsPage(webapp2.RequestHandler):
       query = BuildResult.all()
       builds = query.fetch(30)
       if builds:
-        memcache.set('builds', builds)
+        memcache.set('builds', builds, time=300)
 
     self.RenderTemplate({'builds': builds})
 
