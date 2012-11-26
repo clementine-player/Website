@@ -14,33 +14,36 @@ SELECT_TEMPLATE='select=%s'
 BUILDER='Mac Release'
 
 BUILDERS=[
-    'Mac Release',
-    'Deb Lucid 32-bit',
-    'Deb Lucid 64-bit',
-    'Deb Natty 32-bit',
-    'Deb Natty 64-bit',
-    'Deb Oneiric 32-bit',
-    'Deb Oneiric 64-bit',
-    'Deb Precise 32-bit',
-    'Deb Precise 64-bit',
-    'Deb Quantal 32-bit',
-    'Deb Quantal 64-bit',
-    'MinGW-w64 Release',
+    ('Mac Release',       '/mac'),
+    ('Deb Lucid 32-bit',   '/ubuntu-lucid'),
+    ('Deb Lucid 64-bit',   '/ubuntu-lucid'),
+    ('Deb Natty 32-bit',   '/ubuntu-natty'),
+    ('Deb Natty 64-bit',   '/ubuntu-natty'),
+    ('Deb Oneiric 32-bit', '/ubuntu-oneiric'),
+    ('Deb Oneiric 64-bit', '/ubuntu-oneiric'),
+    ('Deb Precise 32-bit', '/ubuntu-precise'),
+    ('Deb Precise 64-bit', '/ubuntu-precise'),
+    ('Deb Quantal 32-bit', '/ubuntu-quantal'),
+    ('Deb Quantal 64-bit', '/ubuntu-quantal'),
+    ('MinGW-w64 Release',  '/win32/release'),
 ]
+
+BASE_BUILD_URL='http://builds.clementine-player.org'
 
 LAST_BUILDS = ['-%d' % x for x in range(1, 6)]
 
 class BuildResult(object):
-  def __init__(self, builder, build_number, revision, filename):
+  def __init__(self, builder, build_number, revision, filename, url):
     self.builder = builder
     self.build_number = build_number
     self.revision = revision
     self.filename = filename
+    self.url = url
 
   def __str__(self):
     return '%s - %s - %s' % (self.build_number, self.revision, self.filename)
 
-def GetLastSuccessfulBuild(builder):
+def GetLastSuccessfulBuild(builder, base_url):
   url = (BUILDBOT_URL_TEMPLATE % urllib.quote(builder)) + '&'.join([
       SELECT_TEMPLATE % x for x in LAST_BUILDS])
 
@@ -60,13 +63,14 @@ def GetLastSuccessfulBuild(builder):
         builder,
         build['number'],
         properties['got_revision'],
-        properties['output-filename'])
+        properties['output-filename'],
+        BASE_BUILD_URL + base_url + '/' + properties['output-filename'])
     return last_successful_build
 
 
 class BuildsPage(webapp.RequestHandler):
   def get(self):
-    builds = [GetLastSuccessfulBuild(x) for x in BUILDERS]
+    builds = [GetLastSuccessfulBuild(x[0], x[1]) for x in BUILDERS]
     self.RenderTemplate({'builds': builds})
 
   def RenderTemplate(self, params):

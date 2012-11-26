@@ -11,7 +11,9 @@
           {{ build.build_number }}</a>
         <a href="http://code.google.com/p/clementine-player/source/detail?r={{build.revision}}">
           {{ build.revision }}</a>
-        - {{ build.filename }}
+        <a href="{{ build.url }}">
+          {{ build.filename }}
+        </a>
       </div>
     {% endfor %}
   </body>
