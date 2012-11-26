@@ -31,7 +31,7 @@ BUILDERS=[
     ('Rpm Fedora 16 32-bit', '/fedora-16'),
     ('Rpm Fedora 16 64-bit', '/fedora-16'),
     ('Rpm Fedora 17 32-bit', '/fedora-17'),
-    ('Rpm Fedora 16 64-bit', '/fedora-17'),
+    ('Rpm Fedora 17 64-bit', '/fedora-17'),
     ('MinGW-w64 Release',    '/win32/release'),
 ]
 
@@ -98,8 +98,8 @@ class RefreshBuildPage(webapp.RequestHandler):
 
 class BuildsPage(webapp.RequestHandler):
   def get(self):
-    builds = [GetLastSuccessfulBuild(x[0], x[1]) for x in BUILDERS]
-    self.RenderTemplate({'builds': builds})
+    query = BuildResult.all()
+    self.RenderTemplate({'builds': query.run()})
 
   def RenderTemplate(self, params):
     template_path = os.path.join(os.path.dirname(__file__), 'builds.html')
