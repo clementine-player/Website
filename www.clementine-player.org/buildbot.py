@@ -14,18 +14,22 @@ SELECT_TEMPLATE='select=%s'
 BUILDER='Mac Release'
 
 BUILDERS=[
-    ('Mac Release',       '/mac'),
-    ('Deb Lucid 32-bit',   '/ubuntu-lucid'),
-    ('Deb Lucid 64-bit',   '/ubuntu-lucid'),
-    ('Deb Natty 32-bit',   '/ubuntu-natty'),
-    ('Deb Natty 64-bit',   '/ubuntu-natty'),
-    ('Deb Oneiric 32-bit', '/ubuntu-oneiric'),
-    ('Deb Oneiric 64-bit', '/ubuntu-oneiric'),
-    ('Deb Precise 32-bit', '/ubuntu-precise'),
-    ('Deb Precise 64-bit', '/ubuntu-precise'),
-    ('Deb Quantal 32-bit', '/ubuntu-quantal'),
-    ('Deb Quantal 64-bit', '/ubuntu-quantal'),
-    ('MinGW-w64 Release',  '/win32/release'),
+    ('Mac Release',          '/mac'),
+    ('Deb Lucid 32-bit',     '/ubuntu-lucid'),
+    ('Deb Lucid 64-bit',     '/ubuntu-lucid'),
+    ('Deb Natty 32-bit',     '/ubuntu-natty'),
+    ('Deb Natty 64-bit',     '/ubuntu-natty'),
+    ('Deb Oneiric 32-bit',   '/ubuntu-oneiric'),
+    ('Deb Oneiric 64-bit',   '/ubuntu-oneiric'),
+    ('Deb Precise 32-bit',   '/ubuntu-precise'),
+    ('Deb Precise 64-bit',   '/ubuntu-precise'),
+    ('Deb Quantal 32-bit',   '/ubuntu-quantal'),
+    ('Deb Quantal 64-bit',   '/ubuntu-quantal'),
+    ('Rpm Fedora 16 32-bit', '/fedora-16'),
+    ('Rpm Fedora 16 64-bit', '/fedora-16'),
+    ('Rpm Fedora 17 32-bit', '/fedora-17'),
+    ('Rpm Fedora 16 64-bit', '/fedora-17'),
+    ('MinGW-w64 Release',    '/win32/release'),
 ]
 
 BASE_BUILD_URL='http://builds.clementine-player.org'
