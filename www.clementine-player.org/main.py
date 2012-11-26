@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-from google.appengine.dist import use_library
-use_library('django', '1.2')
+import webapp2
 
 # This has to be done before loading google.appengine.ext.webapp.template
 import django.conf
@@ -17,9 +15,7 @@ django.conf.settings.configure(
 )
 
 from google.appengine.ext import db
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
 
 from data import *
 from django.template import RequestContext
@@ -33,7 +29,7 @@ import logging
 import re
 
 
-class BasePage(webapp.RequestHandler):
+class BasePage(webapp2.RequestHandler):
   def MakePage(self, template_file, language, extra_params=None):
     root_page = "/"
 
@@ -159,13 +155,13 @@ class ParticipatePage(BasePage):
   def get(self, language):
     self.MakePage('participate.html', language)
 
-class WiimotePage(webapp.RequestHandler):
+class WiimotePage(webapp2.RequestHandler):
   def get(self):
     self.redirect('http://code.google.com/p/clementine-player/wiki/WiiRemotes')
 
 
 LANG_RE = r'/(?:([a-zA-Z]{2}(?:_[a-zA-Z]{2})?)/?)?'
-application = webapp.WSGIApplication(
+app = webapp2.WSGIApplication(
   [
     (LANG_RE + '',            MainPage),
     (LANG_RE + 'about',       MainPage),
@@ -175,9 +171,3 @@ application = webapp.WSGIApplication(
     (r'/wiimote',             WiimotePage),
   ],
   debug=True)
-
-def main():
-  run_wsgi_app(application)
-
-if __name__ == '__main__':
-  main()

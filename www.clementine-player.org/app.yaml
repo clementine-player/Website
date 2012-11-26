@@ -1,7 +1,14 @@
 application: clementine-web
 version: release-1-1
-runtime: python
+runtime: python27
 api_version: 1
+threadsafe: true
+
+libraries:
+- name: django
+  version: "1.2"
+- name: webapp2
+  version: "2.5.1"
 
 
 handlers:
@@ -30,18 +37,18 @@ handlers:
   expiration: "7d"
 
 - url: /thumbnails/.*
-  script: thumbnailer.py
+  script: thumbnailer.app
 
 - url: /builds
-  script: buildbot.py
+  script: buildbot.app
 
 - url: /_cron/refresh_builds
-  script: buildbot.py
+  script: buildbot.app
   login: admin
 
 - url: /_tasks/refresh_build
-  script: buildbot.py
+  script: buildbot.app
   login: admin
 
 - url: /.*
-  script: main.py
+  script: main.app

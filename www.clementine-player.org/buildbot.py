@@ -2,14 +2,13 @@ import json
 import os
 import urllib
 import urllib2
+import webapp2
 
 from google.appengine.api import memcache
 from google.appengine.api import taskqueue
 
 from google.appengine.ext import db
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
 
 BUILDBOT_URL_TEMPLATE=('http://buildbot.clementine-player.org/json/' +
                        'builders/%s/builds/?')
@@ -79,17 +78,21 @@ def GetLastSuccessfulBuild(builder, base_url):
 
 def RefreshLatestBuilds():
   for build in BUILDERS:
-    taskqueue.add(url='/_tasks/refresh_build', params={
-        'builder': build[0],
-        'base_url': build[1]})
+    taskqueue.add(
+        url='/_tasks/refresh_build',
+        params={
+          'builder': build[0],
+          'base_url': build[1],
+        },
+        queue_name='builds')
 
 
-class RefreshBuildsPage(webapp.RequestHandler):
+class RefreshBuildsPage(webapp2.RequestHandler):
   def get(self):
     RefreshLatestBuilds()
 
 
-class RefreshBuildPage(webapp.RequestHandler):
+class RefreshBuildPage(webapp2.RequestHandler):
   def post(self):
     builder = self.request.get('builder')
     base_url = self.request.get('base_url')
@@ -97,7 +100,7 @@ class RefreshBuildPage(webapp.RequestHandler):
     build.put()
 
 
-class BuildsPage(webapp.RequestHandler):
+class BuildsPage(webapp2.RequestHandler):
   def get(self):
     builds = memcache.get('builds')
     if builds is None:
@@ -112,17 +115,10 @@ class BuildsPage(webapp.RequestHandler):
     self.response.out.write(template.render(template_path, params))
 
 
-application = webapp.WSGIApplication(
+app = webapp2.WSGIApplication(
     [
         ('/builds', BuildsPage),
         ('/_tasks/refresh_build', RefreshBuildPage),
         ('/_cron/refresh_builds', RefreshBuildsPage),
     ],
     debug=True)
-
-
-def main():
-  run_wsgi_app(application)
-
-if __name__ == '__main__':
-  main()

@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-from google.appengine.dist import use_library
-use_library('django', '1.1')
+import webapp2
 
 from google.appengine.api import images
 from google.appengine.api import memcache
 from google.appengine.api import urlfetch
-from google.appengine.ext import webapp
-from google.appengine.ext.webapp.util import run_wsgi_app
 
 import logging
 import urlparse
@@ -17,7 +13,7 @@ import urlparse
 MEMCACHE_NAMESPACE = 'thumbnailer'
 WIDTH = 440
 
-class Thumbnailer(webapp.RequestHandler):
+class Thumbnailer(webapp2.RequestHandler):
   def get(self, filename):
     # Check memcache first
     data = memcache.get(filename, MEMCACHE_NAMESPACE)
@@ -49,15 +45,8 @@ class Thumbnailer(webapp.RequestHandler):
     self.response.out.write(data)
 
 
-application = webapp.WSGIApplication(
+app = webapp2.WSGIApplication(
   [
     (r'/thumbnails/([a-zA-Z0-9\.-]*)', Thumbnailer),
   ],
   debug=True)
-
-def main():
-  run_wsgi_app(application)
-
-if __name__ == '__main__':
-  main()
-
