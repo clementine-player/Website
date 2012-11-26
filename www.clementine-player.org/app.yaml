@@ -35,5 +35,13 @@ handlers:
 - url: /builds
   script: buildbot.py
 
+- url: /_cron/refresh_builds
+  script: buildbot.py
+  login: admin
+
+- url: /_tasks/refresh_build
+  script: buildbot.py
+  login: admin
+
 - url: /.*
   script: main.py

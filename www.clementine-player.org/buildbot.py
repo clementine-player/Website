@@ -3,6 +3,9 @@ import os
 import urllib
 import urllib2
 
+from google.appengine.api import taskqueue
+
+from google.appengine.ext import db
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
@@ -36,13 +39,12 @@ BASE_BUILD_URL='http://builds.clementine-player.org'
 
 LAST_BUILDS = ['-%d' % x for x in range(1, 6)]
 
-class BuildResult(object):
-  def __init__(self, builder, build_number, revision, filename, url):
-    self.builder = builder
-    self.build_number = build_number
-    self.revision = revision
-    self.filename = filename
-    self.url = url
+class BuildResult(db.Model):
+  builder = db.StringProperty()
+  build_number = db.IntegerProperty()
+  revision = db.StringProperty()
+  filename = db.StringProperty()
+  url = db.LinkProperty()
 
   def __str__(self):
     return '%s - %s - %s' % (self.build_number, self.revision, self.filename)
@@ -64,12 +66,34 @@ def GetLastSuccessfulBuild(builder, base_url):
     last_successful_build = build['number']
     properties = dict([(x[0], x[1]) for x in build['properties']])
     last_successful_build = BuildResult(
-        builder,
-        build['number'],
-        properties['got_revision'],
-        properties['output-filename'],
-        BASE_BUILD_URL + base_url + '/' + properties['output-filename'])
+        key_name=builder,
+        builder=builder,
+        build_number=build['number'],
+        revision=properties['got_revision'],
+        filename=properties['output-filename'],
+        url=(BASE_BUILD_URL + base_url + '/' +
+                  properties['output-filename']))
     return last_successful_build
+
+
+def RefreshLatestBuilds():
+  for build in BUILDERS:
+    taskqueue.add(url='/_tasks/refresh_build', params={
+        'builder': build[0],
+        'base_url': build[1]})
+
+
+class RefreshBuildsPage(webapp.RequestHandler):
+  def get(self):
+    RefreshLatestBuilds()
+
+
+class RefreshBuildPage(webapp.RequestHandler):
+  def post(self):
+    builder = self.request.get('builder')
+    base_url = self.request.get('base_url')
+    build = GetLastSuccessfulBuild(builder, base_url)
+    build.put()
 
 
 class BuildsPage(webapp.RequestHandler):
@@ -85,6 +109,8 @@ class BuildsPage(webapp.RequestHandler):
 application = webapp.WSGIApplication(
     [
         ('/builds', BuildsPage),
+        ('/_tasks/refresh_build', RefreshBuildPage),
+        ('/_cron/refresh_builds', RefreshBuildsPage),
     ],
     debug=True)
 
