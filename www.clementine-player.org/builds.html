@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latest successful Clementine builds</title>
+  </head>
+  <body>
+    {% for build in builds %}
+      <div>
+        <h3>{{ build.builder }}</h3>
+        {{ build.build_number }} - {{ build.revision }} - {{ build.filename }}
+      </div>
+    {% endfor %}
+  </body>
+</html>

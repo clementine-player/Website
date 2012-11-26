@@ -32,5 +32,8 @@ handlers:
 - url: /thumbnails/.*
   script: thumbnailer.py
 
+- url: /builds
+  script: buildbot.py
+
 - url: /.*
   script: main.py
