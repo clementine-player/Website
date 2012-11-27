@@ -2,18 +2,54 @@
 <html>
   <head>
     <title>Latest successful Clementine builds</title>
+    <style>
+      body {
+        background-color: rgba(219, 104, 53, 0.35);
+        font: normal 13px arial;
+        padding-left: 20px;
+      }
+      h2 {
+        margin-left: 20px;
+      }
+      a {
+        color: #36c;
+      }
+      .title {
+        font-size: 150%;
+      }
+      .build {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        max-width: 500px;
+        padding: 8px;
+        -webkit-transition: box-shadow .218s;
+      }
+      .build:hover {
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
+      }
+    </style>
   </head>
   <body>
+    <div>
+      <h2>Latest successful builds</h2>
+    </div>
+
     {% for build in builds %}
-      <div>
-        <h3>{{ build.builder }}</h3>
-        <a href="http://buildbot.clementine-player.org/builders/{{ build.builder }}/builds/{{ build.build_number }}">
-          {{ build.build_number }}</a>
-        <a href="http://code.google.com/p/clementine-player/source/detail?r={{build.revision}}">
-          {{ build.revision }}</a>
-        <a href="{{ build.url }}">
-          {{ build.filename }}
-        </a>
+      <div class="build">
+        <div>
+          <a href="http://buildbot.clementine-player.org/builders/{{ build.builder }}/builds/{{ build.build_number }}">
+            <span class="title">{{ build.builder }}</span></a>
+          <a href="http://code.google.com/p/clementine-player/source/detail?r={{build.revision}}">
+            {{ build.revision }}
+          </a>
+        </div>
+        <div>
+          <a href="{{ build.url }}">
+            {{ build.filename }}
+          </a>
+        </div>
       </div>
     {% endfor %}
   </body>
