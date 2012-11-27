@@ -1,3 +1,4 @@
+import jinja2
 import json
 import os
 import urllib
@@ -6,9 +7,10 @@ import webapp2
 
 from google.appengine.api import memcache
 from google.appengine.api import taskqueue
-
 from google.appengine.ext import db
-from google.appengine.ext.webapp import template
+
+jinja_environment = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
 BUILDBOT_URL_TEMPLATE=('http://buildbot.clementine-player.org/json/' +
                        'builders/%s/builds/?')
@@ -117,7 +119,8 @@ class BuildsPage(webapp2.RequestHandler):
 
   def RenderTemplate(self, params):
     template_path = os.path.join(os.path.dirname(__file__), 'builds.html')
-    self.response.out.write(template.render(template_path, params))
+    template = jinja_environment.get_template('builds.html')
+    self.response.out.write(template.render(params))
 
 
 app = webapp2.WSGIApplication(
