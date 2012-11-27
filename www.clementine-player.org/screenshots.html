@@ -1,16 +1,15 @@
 {% extends "base.html" %}
-{% load i18n %}
-{% block title %}{% trans "Screenshots" %} | {% endblock %}
+{% block title %}{% trans %}Screenshots{% endtrans %} | {% endblock %}
 {% block path %}/screenshots{% endblock %}
 
 {% block content %}
 
 {% for group in screenshots %}
-  <h1>{% trans "Version" %} {{ group.version }}</h1>
+  <h1>{% trans %}Version{% endtrans %} {{ group.version }}</h1>
 
   <table class="screenshots_table">
   {% for entry in group.entries %}
-    {% if not forloop.counter|divisibleby:"2" %}
+    {% if not loop.index0 % 2  %}
       <tr>
     {% endif %}
     <td class="screenshot">
@@ -19,7 +18,7 @@
       </a>
       <p>{{ entry.title }}</p>
     </td>
-    {% if forloop.counter|divisibleby:"2" or forloop.last %}
+    {% if loop.index0 % 2 or loop.last %}
       </tr>
     {% endif %}
   {% endfor %}

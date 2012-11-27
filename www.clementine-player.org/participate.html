@@ -1,88 +1,87 @@
 {% extends "base.html" %}
-{% load i18n %}
-{% block title %}{% trans "Participate" %} | {% endblock %}
+{% block title %}{% trans %}Participate{% endtrans %} | {% endblock %}
 {% block path %}/participate{% endblock %}
 
 {% block content %}
 
-<h1>{% trans "Need help?" %}</h1>
+<h1>{% trans %}Need help?{% endtrans %}</h1>
 
 <h2>IRC</h2>
 
-<p>{% trans "Come chat with us at the" %} <span class="command">#clementine</span> {% trans "channel on Freenode." %}
-{% trans "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away." %}
+<p>{% trans %}Come chat with us at the{% endtrans %} <span class="command">#clementine</span> {% trans %}channel on Freenode.{% endtrans %}
+{% trans %}Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away.{% endtrans %}
 </p>
 
-<h2>{% trans "Forum" %}</h2>
+<h2>{% trans %}Forum{% endtrans %}</h2>
 
-<p>{% trans "Clementine uses Google Groups for its forum/mailing list/general discussion group." %}</p>
+<p>{% trans %}Clementine uses Google Groups for its forum/mailing list/general discussion group.{% endtrans %}</p>
 
 <ul>
-  <li><a href="http://groups.google.com/group/clementine-player">{% trans "Support and discussion group" %}</a></li>
+  <li><a href="http://groups.google.com/group/clementine-player">{% trans %}Support and discussion group{% endtrans %}</a></li>
 </ul>
 
 <hr class="division" />
 
-<h1>{% trans "Collaborate" %}</h1>
+<h1>{% trans %}Collaborate{% endtrans %}</h1>
 
-<h2>{% trans "Reporting bugs and proposing patches" %}</h2>
+<h2>{% trans %}Reporting bugs and proposing patches{% endtrans %}</h2>
 
-<p>{% trans "Clementine uses Google Code for development and issue tracking." %}
-{% trans "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue." %}</p>
-
-<ul>
-  <li><a href="http://code.google.com/p/clementine-player/issues/list">{% trans "Issue tracker" %}</a></li>
-</ul>
-
-<h2>{% trans "Translating the interface" %}</h2>
-
-<p>{% trans "If you'd like to translate Clementine into another language you can do so on the Transifex translations page." %}
-{% trans "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us." %}</p>
+<p>{% trans %}Clementine uses Google Code for development and issue tracking.{% endtrans %}
+{% trans %}If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue.{% endtrans %}</p>
 
 <ul>
-  <li><a href="https://www.transifex.net/projects/p/clementine/">{% trans "Transifex translations" %}</a></li>
+  <li><a href="http://code.google.com/p/clementine-player/issues/list">{% trans %}Issue tracker{% endtrans %}</a></li>
 </ul>
 
-<h2>{% trans "Hacking" %}</h2>
+<h2>{% trans %}Translating the interface{% endtrans %}</h2>
 
-<p>{% trans "Development on Clementine happens in" %}
+<p>{% trans %}If you'd like to translate Clementine into another language you can do so on the Transifex translations page.{% endtrans %}
+{% trans %}You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us.{% endtrans %}</p>
+
+<ul>
+  <li><a href="https://www.transifex.net/projects/p/clementine/">{% trans %}Transifex translations{% endtrans %}</a></li>
+</ul>
+
+<h2>{% trans %}Hacking{% endtrans %}</h2>
+
+<p>{% trans %}Development on Clementine happens in{% endtrans %}
 <a href="http://code.google.com/p/clementine-player/source/checkout">
-{% trans "the git repository" %}</a>.
-{% trans "Check out the code by running:" %}</p>
+{% trans %}the git repository{% endtrans %}</a>.
+{% trans %}Check out the code by running:{% endtrans %}</p>
 
 <pre>git clone https://code.google.com/p/clementine-player/ clementine-player</pre>
 
 <ul>
   <li><a href="http://code.google.com/p/clementine-player/wiki/CompilingFromSource">
-    {% trans "How to compile Clementine from source" %}</a>
+    {% trans %}How to compile Clementine from source{% endtrans %}</a>
   </li>
 </ul>
 
-<p>{% trans "If you'd prefer not to compile the development version yourself then try one of the hourly packages:" %}</p>
+<p>{% trans %}If you'd prefer not to compile the development version yourself then try one of the hourly packages:{% endtrans %}</p>
 
 {# THIS LIST IS DUPLICATED IN downloads.html #}
 <ul>
   <li><a href="http://builds.clementine-player.org/mac/">
-    {% trans "Mac OS X development builds" %}</a></li>
+    {% trans %}Mac OS X development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-lucid/">
-    {% trans "Ubuntu Lucid (10.04) development builds" %}</a></li>
+    {% trans %}Ubuntu Lucid (10.04) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-maverick/">
-    {% trans "Ubuntu Maverick (10.10) development builds" %}</a></li>
+    {% trans %}Ubuntu Maverick (10.10) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-natty/">
-    {% trans "Ubuntu Natty (11.04) development builds" %}</a></li>
+    {% trans %}Ubuntu Natty (11.04) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-oneiric/">
-    {% trans "Ubuntu Oneiric (11.10) development builds" %}</a></li>
+    {% trans %}Ubuntu Oneiric (11.10) development builds{% endtrans %}</a></li>
     <li><a href="http://builds.clementine-player.org/ubuntu-precise/">
-    {% trans "Ubuntu Precise (12.04) development builds" %}</a></li>
+    {% trans %}Ubuntu Precise (12.04) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-quantal/">
-    {% trans "Ubuntu Quantal (12.10) development builds" %}</a></li>
+    {% trans %}Ubuntu Quantal (12.10) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/win32/">
-    {% trans "Windows development builds" %}</a></li>
+    {% trans %}Windows development builds{% endtrans %}</a></li>
   <li><a href="http://buildbot.clementine-player.org/waterfall">
-    {% trans "Buildbot" %}</a></li>
+    {% trans %}Buildbot{% endtrans %}</a></li>
 </ul>
 
-<p>{% trans "There's also an Ubuntu PPA for these development builds:" %}</p>
+<p>{% trans %}There's also an Ubuntu PPA for these development builds:{% endtrans %}</p>
 
 <pre>sudo add-apt-repository ppa:me-davidsansome/clementine-dev
 sudo apt-get update
@@ -90,19 +89,19 @@ sudo apt-get install clementine</pre>
 
 
 <hr class="division" />
-<h1>{% trans "Social Networking" %}</h1>
+<h1>{% trans %}Social Networking{% endtrans %}</h1>
 
-<p>{% trans "We'd love to see you support Clementine by joining us on your favourite social networking site!" %}</p>
+<p>{% trans %}We'd love to see you support Clementine by joining us on your favourite social networking site!{% endtrans %}</p>
 
 <ul>
   <li><a href="http://www.facebook.com/pages/Clementine-Player/122395291132938">
-    {% trans "Clementine on Facebook" %}</a>
+    {% trans %}Clementine on Facebook{% endtrans %}</a>
   </li>
   <li><a href="http://twitter.com/clementine_app">
-    {% trans "Clementine on Twitter" %}</a>
+    {% trans %}Clementine on Twitter{% endtrans %}</a>
   </li>
   <li><a href="http://www.last.fm/group/Clementine">
-    {% trans "Clementine on Last.fm" %}</a>
+    {% trans %}Clementine on Last.fm{% endtrans %}</a>
   </li>
   <br />
   <li style="list-style-image: none; list-style-type: none">

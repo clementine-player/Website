@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
 
+import jinja2
 import os
 import webapp2
 
-# This has to be done before loading google.appengine.ext.webapp.template
-import django.conf
-django.conf.settings.configure(
-  DEBUG=False,
-  TEMPLATE_DEBUG=False,
-  TEMPLATE_LOADERS=(
-    'django.template.loaders.filesystem.load_template_source',
-  ),
-  LOCALE_PATHS=[os.path.join(os.path.dirname(__file__), "locale")],
-)
+from webapp2_extras import i18n
 
-from google.appengine.ext import db
-from google.appengine.ext.webapp import template
+from data import DISPLAY_OS
+from data import DOWNLOAD_BASE_URL
+from data import DOWNLOADS
+from data import LANGUAGE_NAMES
+from data import LANGUAGES
+from data import LATEST_VERSION
+from data import NEWS
+from data import OS_LOGOS
+from data import SCREENSHOTS
+from data import SHORT_DISPLAY_OS
 
-from data import *
-from django.template import RequestContext
-from django.utils import translation
-from django.utils.translation import ugettext as _
+jinja_environment = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
+    extensions=['jinja2.ext.i18n', 'jinja2.ext.with_'])
+jinja_environment.install_gettext_translations(i18n)
 
 import copy
 import datetime
@@ -34,33 +34,24 @@ class BasePage(webapp2.RequestHandler):
     root_page = "/"
 
     if language is None:
-      # Guess the language
-      self.request.COOKIES = {}
-      self.request.META = os.environ
-
-      language = translation.get_language_from_request(self.request)
-      language.replace('-', '_')
-      if not re.match(r'^[a-zA-Z]{2}(?:_[a-zA-Z]{2})?$', language):
-        language = 'en'
+      pass
     else:
       root_page = "/%s/" % language
-
+      i18n.get_i18n().set_locale(language)
 
     if extra_params is None:
       extra_params = {}
 
     # i18n
-    translation.activate(language)
-    self.request.LANGUAGE_CODE = translation.get_language()
-    self.response.headers['Content-Language'] = translation.get_language()
+    self.response.headers['Content-Language'] = i18n.get_i18n().locale
 
     # Add extra display information to the list of downloads
     downloads = copy.deepcopy(DOWNLOADS)
     for d in downloads:
       display_os = DISPLAY_OS[d['os']]
       short_display_os = SHORT_DISPLAY_OS[d['os']]
-      d['display_os'] = _(display_os)
-      d['short_os'] = _(short_display_os)
+      d['display_os'] = i18n.gettext(display_os)
+      d['short_os'] = i18n.gettext(short_display_os)
       d['os_logo'] = OS_LOGOS[d['os']]
 
     # Add datetime objects to the list of news
@@ -69,14 +60,14 @@ class BasePage(webapp2.RequestHandler):
       title = n['title']
       content = n['content']
       n['datetime'] = datetime.datetime.fromtimestamp(n['timestamp'])
-      n['title'] = _(title)
-      n['content'] = _(content)
+      n['title'] = i18n.gettext(title)
+      n['content'] = i18n.gettext(content)
 
     screenshots = copy.deepcopy(SCREENSHOTS)
     for s in screenshots:
       for e in s['entries']:
         title = e['title']
-        e['title'] = _(title)
+        e['title'] = i18n.gettext(title)
 
     # Try to detect the user's OS and architecture
     ua = self.request.headers['User-Agent'].lower()
@@ -106,8 +97,8 @@ class BasePage(webapp2.RequestHandler):
     if best_download is not None:
       display_os = DISPLAY_OS[best_download['os']]
       short_display_os = SHORT_DISPLAY_OS[best_download['os']]
-      best_download['display_os'] = _(display_os)
-      best_download['short_os'] = _(short_display_os)
+      best_download['display_os'] = i18n.gettext(display_os)
+      best_download['short_os'] = i18n.gettext(short_display_os)
       best_download['os_logo'] = OS_LOGOS[best_download['os']]
 
     languages = [{'code': x, 'name': LANGUAGE_NAMES[x], 'current': x == language} for x in LANGUAGES]
@@ -128,10 +119,8 @@ class BasePage(webapp2.RequestHandler):
     }
     params.update(extra_params)
 
-    path = os.path.join(os.path.dirname(__file__), template_file)
-
-    t = template.load(path)
-    self.response.out.write(t.render(RequestContext(self.request, params)))
+    template = jinja_environment.get_template(template_file)
+    self.response.out.write(template.render(params))
 
   def FindDownload(self, os, arch=0):
     return copy.deepcopy([x for x in DOWNLOADS if x['os'] == os
@@ -160,6 +149,12 @@ class WiimotePage(webapp2.RequestHandler):
     self.redirect('http://code.google.com/p/clementine-player/wiki/WiiRemotes')
 
 
+config = {}
+config['webapp2_extras.i18n'] = {
+    'domains': ['django'],
+    'translations_path': os.path.join(os.path.dirname(__file__), 'locale'),
+}
+
 LANG_RE = r'/(?:([a-zA-Z]{2}(?:_[a-zA-Z]{2})?)/?)?'
 app = webapp2.WSGIApplication(
   [
@@ -170,4 +165,5 @@ app = webapp2.WSGIApplication(
     (LANG_RE + 'participate', ParticipatePage),
     (r'/wiimote',             WiimotePage),
   ],
+  config=config,
   debug=True)

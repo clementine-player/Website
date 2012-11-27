@@ -6,9 +6,11 @@ threadsafe: true
 
 libraries:
 - name: django
-  version: "1.2"
+  version: "1.4"
 - name: webapp2
   version: "2.5.1"
+- name: jinja2
+  version: "2.6"
 
 
 handlers:

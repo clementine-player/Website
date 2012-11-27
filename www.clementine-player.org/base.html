@@ -1,10 +1,8 @@
-{% load i18n %}
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>{% block title %}{% endblock %}{% trans "Clementine Music Player" %}</title>
+  <title>{% block title %}{% endblock %}{% trans %}Clementine Music Player{% endtrans %}</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/defaults.css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
@@ -35,14 +33,14 @@
 
         <div id="primary-links">
           <ul class="links">
-            <li class="menu first"><a href="about">{% trans "About" %}</a></li>
-            <li class="menu"><a href="downloads">{% trans "Downloads" %}</a></li>
-            <li class="menu"><a href="screenshots" title="Clementine screenshots">{% trans "Screenshots" %}</a></li>
-            <li class="menu last"><a href="participate" title="Participate">{% trans "Participate" %}</a></li>
+            <li class="menu first"><a href="about">{% trans %}About{% endtrans %}</a></li>
+            <li class="menu"><a href="downloads">{% trans %}Downloads{% endtrans %}</a></li>
+            <li class="menu"><a href="screenshots" title="Clementine screenshots">{% trans %}Screenshots{% endtrans %}</a></li>
+            <li class="menu last"><a href="participate" title="Participate">{% trans %}Participate{% endtrans %}</a></li>
           </ul>
         </div>
 
-        <span id="site-slogan">{% trans "A cross-platform music player inspired by Amarok 1.4" %}</span>
+        <span id="site-slogan">{% trans %}A cross-platform music player inspired by Amarok 1.4{% endtrans %}</span>
       </div>
 
       <div id="container" class="clear-block">
@@ -59,18 +57,19 @@
     <div id="footer">
       <div id="block-block-1" class="block block-block">
         <div class="content">
-          <p>{% for lang in languages|dictsort:"name" %}
+          <p>
+          {% for lang in languages|sort(attribute='name') %}
             {% if lang.current %}
               <span class="language">{{ lang.name }}</span>
             {% else %}
               <a class="language" href="/{{ lang.code }}{% block path %}{% endblock %}">{{ lang.name }}</a>
             {% endif %}
           {% endfor %}</p>
-          <p>{% trans "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA." %}</p>
-          <p>{% trans "Development by" %} <a href="mailto:me@davidsansome.com">David Sansome</a>,
-            <a href="mailto:john.maguire@gmail.com">John Maguire</a> {% trans "and" %}
+          <p>{% trans %}Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA.{% endtrans %}</p>
+          <p>{% trans %}Development by{% endtrans %} <a href="mailto:me@davidsansome.com">David Sansome</a>,
+            <a href="mailto:john.maguire@gmail.com">John Maguire</a> {% trans %}and{% endtrans %}
             <a href="mailto:arnaud.bienner@gmail.com">Arnaud Bienner</a>.
-            {% trans "Website by" %} <a href="mailto:cjenkins@softwarelibrecr.org">Carlos Jenkins</a>.
+            {% trans %}Website by{% endtrans %} <a href="mailto:cjenkins@softwarelibrecr.org">Carlos Jenkins</a>.
           </p>
         </div>
       </div>

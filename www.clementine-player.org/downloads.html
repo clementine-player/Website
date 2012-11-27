@@ -1,18 +1,17 @@
 {% extends "base.html" %}
-{% load i18n %}
-{% block title %}{% trans "Downloads" %} | {% endblock %}
+{% block title %}{% trans %}Downloads{% endtrans %} | {% endblock %}
 {% block path %}/downloads{% endblock %}
 
 {% block content %}
 
-<h1>{% trans "Latest downloads" %}</h1>
+<h1>{% trans %}Latest downloads{% endtrans %}</h1>
 
 
 <div class="downloadscontainer">
-  <p>{% trans "Get the latest stable version of Clementine for your operating system." %}</p>
+  <p>{% trans %}Get the latest stable version of Clementine for your operating system.{% endtrans %}</p>
 
   {% if best_download %}
-    {% with best_download as d %}
+    {% with d = best_download %}
     <div class="best-download thindownload">
       <a href="{{ download_base_url }}{{ d.name }}">
         <img class="icon" src="/images/{{ d.os }}-logo.png" />
@@ -31,11 +30,11 @@
     <div style="clear: both"></div>
 
     <p>
-      {% trans "Downloads for other operating systems" %}
+      {% trans %}Downloads for other operating systems{% endtrans %}
     </p>
   {% endif %}
 
-  {% for d in latest_downloads|dictsort:"os" %}
+  {% for d in latest_downloads|sort(attribute="os") %}
     <div class="thindownload" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
       <a href="{{ download_base_url }}{{ d.name }}">
         <img class="icon" src="/images/{{ d.os_logo }}" />
@@ -50,9 +49,9 @@
 </div>
 
 <div style="clear:both;"></div>
-<h2>{% trans "Ubuntu PPA" %}</h2>
+<h2>{% trans %}Ubuntu PPA{% endtrans %}</h2>
 
-<p>{% trans "You can download the latest version of Clementine on Ubuntu from the official PPA:" %}</p>
+<p>{% trans %}You can download the latest version of Clementine on Ubuntu from the official PPA:{% endtrans %}</p>
 
 <pre>sudo add-apt-repository ppa:me-davidsansome/clementine
 sudo apt-get update
@@ -60,22 +59,22 @@ sudo apt-get install clementine</pre>
 
 <div style="clear:both;"></div>
 <hr class="division" />
-<h1>{% trans "Other Downloads" %}</h1>
+<h1>{% trans %}Other Downloads{% endtrans %}</h1>
 
-<h2>{% trans "Unofficial packages" %}</h2>
+<h2>{% trans %}Unofficial packages{% endtrans %}</h2>
 
-<p>{% trans "If you don't see your distribution listed above then someone else might have created an unofficial package for you." %}</p>
+<p>{% trans %}If you don't see your distribution listed above then someone else might have created an unofficial package for you.{% endtrans %}</p>
 
 <ul>
   <li><a href="http://code.google.com/p/clementine-player/wiki/OtherDownloads">
-    {% trans "Other Downloads" %}</a>
+    {% trans %}Other Downloads{% endtrans %}</a>
   </li>
 </ul>
 
-<h2>{% trans "Compiling from source" %}</h2>
+<h2>{% trans %}Compiling from source{% endtrans %}</h2>
 
-<p>{% trans "Compiling Clementine from source is easy on Linux." %}
-{% trans "Download the source code package from the list above, and in a terminal window:" %}</p>
+<p>{% trans %}Compiling Clementine from source is easy on Linux.{% endtrans %}
+{% trans %}Download the source code package from the list above, and in a terminal window:{% endtrans %}</p>
 
 <pre>cd bin
 cmake ..
@@ -84,44 +83,44 @@ sudo make install</pre>
 
 <ul>
   <li><a href="http://code.google.com/p/clementine-player/wiki/CompilingFromSource">
-    {% trans "Full instructions and list of dependencies" %}</a>
+    {% trans %}Full instructions and list of dependencies{% endtrans %}</a>
   </li>
 </ul>
 
-<h2>{% trans "Bleeding edge packages" %}</h2>
+<h2>{% trans %}Bleeding edge packages{% endtrans %}</h2>
 
-<p>{% trans "Development on Clementine happens in" %}
+<p>{% trans %}Development on Clementine happens in{% endtrans %}
 <a href="http://code.google.com/p/clementine-player/source/checkout">
-{% trans "the git repository" %}</a>.
-{% trans "Check out the code by running:" %}</p>
+{% trans %}the git repository{% endtrans %}</a>.
+{% trans %}Check out the code by running:{% endtrans %}</p>
 
 <pre>git clone https://code.google.com/p/clementine-player/ clementine-player</pre>
 
-<p>{% trans "If you'd prefer not to compile the development version yourself then try one of the hourly packages:" %}</p>
+<p>{% trans %}If you'd prefer not to compile the development version yourself then try one of the hourly packages:{% endtrans %}</p>
 
 {# THIS LIST IS DUPLICATED IN participate.html #}
 <ul>
   <li><a href="http://builds.clementine-player.org/mac/">
-    {% trans "Mac OS X development builds" %}</a></li>
+    {% trans %}Mac OS X development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-lucid/">
-    {% trans "Ubuntu Lucid (10.04) development builds" %}</a></li>
+    {% trans %}Ubuntu Lucid (10.04) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-maverick/">
-    {% trans "Ubuntu Maverick (10.10) development builds" %}</a></li>
+    {% trans %}Ubuntu Maverick (10.10) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-natty/">
-    {% trans "Ubuntu Natty (11.04) development builds" %}</a></li>
+    {% trans %}Ubuntu Natty (11.04) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-oneiric/">
-    {% trans "Ubuntu Oneiric (11.10) development builds" %}</a></li>
+    {% trans %}Ubuntu Oneiric (11.10) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-precise/">
-    {% trans "Ubuntu Precise (12.04) development builds" %}</a></li>
+    {% trans %}Ubuntu Precise (12.04) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-quantal/">
-    {% trans "Ubuntu Quantal (12.10) development builds" %}</a></li>
+    {% trans %}Ubuntu Quantal (12.10) development builds{% endtrans %}</a></li>
   <li><a href="http://builds.clementine-player.org/win32/">
-    {% trans "Windows development builds" %}</a></li>
+    {% trans %}Windows development builds{% endtrans %}</a></li>
   <li><a href="http://buildbot.clementine-player.org/waterfall">
-    {% trans "Buildbot" %}</a></li>
+    {% trans %}Buildbot{% endtrans %}</a></li>
 </ul>
 
-<p>{% trans "There's also an Ubuntu PPA for these development builds:" %}</p>
+<p>{% trans %}There's also an Ubuntu PPA for these development builds:{% endtrans %}</p>
 
 <pre>sudo add-apt-repository ppa:me-davidsansome/clementine-dev
 sudo apt-get update
@@ -129,16 +128,18 @@ sudo apt-get install clementine</pre>
 
 
 <hr class="division" />
-<h1>{% trans "Old downloads" %}</h1>
+<h1>{% trans %}Old downloads{% endtrans %}</h1>
 
-{% for d in old_downloads|dictsortreversed:"ver" %}
-  {% ifchanged d.ver %}
-    {% if not forloop.first %}
+{% set last_version = '' %}
+{% for d in old_downloads|sort(attribute="ver")|reverse %}
+  {% if last_version != d.ver %}
+    {%if not loop.first %}
       </ul>
     {% endif %}
-    <h2>{% trans "Version" %} {{ d.ver }}</h2>
+    <h2>{% trans %}Version{% endtrans %} {{ d.ver }}</h2>
     <ul>
-  {% endifchanged %}
+  {% endif %}
+  {%set last_version = d.ver %}
 
   <li>
     <a href="{{ download_base_url }}{{ d.name }}">
@@ -149,7 +150,7 @@ sudo apt-get install clementine</pre>
     </a>
   </li>
 
-  {% if forloop.last %}
+  {% if loop.last %}
     </ul>
   {% endif %}
 {% endfor %}
