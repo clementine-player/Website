@@ -53,6 +53,9 @@ handlers:
   secure: always
   login: required
 
+- url: /skydrive
+  script: skydrive.app
+
 - url: /.*
   script: clementine.app
 
