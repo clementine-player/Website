@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 #   <arnaud.bienner@gmail.com>, 2012.
 # Pavel Fric <pavelfric@seznam.cz>, 2012.
@@ -9,56 +9,58 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2012-11-26 23:37+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-16 15:21+0100\n"
 "PO-Revision-Date: 2012-11-07 22:57+0000\n"
 "Last-Translator: fri <pavelfric@seznam.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: base.html:7
+#: base.html:5
 msgid "Clementine Music Player"
 msgstr "Hudební přehrávač Clementine"
 
-#: base.html:38
+#: base.html:36
 msgid "About"
 msgstr "O programu"
 
-#: base.html:39 downloads.html:3
+#: base.html:37 downloads.html:2
 msgid "Downloads"
 msgstr "Stažení"
 
-#: base.html:40 main.html:86 screenshots.html:3
+#: base.html:38 main.html:85 screenshots.html:2
 msgid "Screenshots"
 msgstr "Snímky obrazovky"
 
-#: base.html:41 participate.html:3
+#: base.html:39 participate.html:2
 msgid "Participate"
 msgstr "Zapojte se"
 
-#: base.html:45
+#: base.html:43
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Víceplatformní hudební přehrávač inspirovaný Amarokem 1.4"
 
-#: base.html:69
+#: base.html:68
 msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
-msgstr "Clementine je Free Software pod licencí GPL v3. Tyto stránky jsou licencovány pod CC-BY-SA."
+"Clementine is Free Software under the GPL v3. This site is licensed under CC-"
+"BY-SA."
+msgstr ""
+"Clementine je Free Software pod licencí GPL v3. Tyto stránky jsou "
+"licencovány pod CC-BY-SA."
 
-#: base.html:70
+#: base.html:69
 msgid "Development by"
 msgstr "Vývoj"
 
-#: base.html:71 main.html:22
+#: base.html:70 main.html:21
 msgid "and"
 msgstr "a"
 
-#: base.html:73
+#: base.html:72
 msgid "Website by"
 msgstr "Stránky vytvořil"
 
@@ -203,7 +205,10 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Je to více jak měsíc, co jsme vydali první verzi Clementine. Tato nová verze obsahuje podporu pro obaly alb, lepší zjišťování Různých umělců, podporu pro nahrávání seznamů skladeb a mnohem více."
+msgstr ""
+"Je to více jak měsíc, co jsme vydali první verzi Clementine. Tato nová verze "
+"obsahuje podporu pro obaly alb, lepší zjišťování Různých umělců, podporu pro "
+"nahrávání seznamů skladeb a mnohem více."
 
 #: data.py:235
 msgid "Version 0.3 released"
@@ -215,7 +220,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "V tomto vydání jsme přešli na GStreamer na všech platformách, což znamená, že analyzátor a prolínání mezi skladbami nyní bude pracovat na Windows. Nové vlastnosti zahrnují ekvalizér, další volby pro seskupování sbírky, hezčí OSD, vzdálené ovládání z příkazového řádku a MPRIS a lehčí upravování značek."
+msgstr ""
+"V tomto vydání jsme přešli na GStreamer na všech platformách, což znamená, "
+"že analyzátor a prolínání mezi skladbami nyní bude pracovat na Windows. Nové "
+"vlastnosti zahrnují ekvalizér, další volby pro seskupování sbírky, hezčí "
+"OSD, vzdálené ovládání z příkazového řádku a MPRIS a lehčí upravování značek."
 
 #: data.py:244
 msgid "Version 0.4 released"
@@ -225,11 +234,17 @@ msgstr "Vyšla verze 0.4"
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
+"music transcoding. We've fixed loads of bugs too - searching large libraries "
+"is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Toto vydání zahrnuje seznamy skladeb v kartách, prohledávání seznamu skladeb, vizualizace projectM, zapojení Magnatune, normalizaci hlasitosti pomocí ReplayGain a překódování hudby. Také byla opravena spousta chyb - prohledávání velkých sbírek je nyní o hodně rychlejší, přehrávání je na Windows spolehlivější, potíže s kódováním znaků jsou opraveny a vzdálené seznamy skladeb by se měly nahrávat po celou dobu správně."
+msgstr ""
+"Toto vydání zahrnuje seznamy skladeb v kartách, prohledávání seznamu "
+"skladeb, vizualizace projectM, zapojení Magnatune, normalizaci hlasitosti "
+"pomocí ReplayGain a překódování hudby. Také byla opravena spousta chyb - "
+"prohledávání velkých sbírek je nyní o hodně rychlejší, přehrávání je na "
+"Windows spolehlivější, potíže s kódováním znaků jsou opraveny a vzdálené "
+"seznamy skladeb by se měly nahrávat po celou dobu správně."
 
 #: data.py:254
 msgid "Version 0.5 released"
@@ -239,18 +254,30 @@ msgstr "Vyšla verze 0.5"
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/PortableDevices\">the wiki for more information</a>.  Support "
-"for using a <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/WiiRemotes\">Wii Remote</a> as a remote control has been added."
-"  Other features include a Queue Manager, an Organise Files dialog, "
-"automatically stretching columns in the playlist, loading embedded id3v2 "
-"cover art, more library scanning options, drag and drop between playlists, "
-"and a hypnotoad.  We've also reduced startup time by more than half, fixed a"
-" load of memory leaks and reduced CPU usage while playing music. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Toto vydání přidává podporu pro užití přenosných zařízení s Clementine.  Nyní můžete kopírovat písně do svého zařízení iPod, iPhone, MTP nebo hromadného úložiště USB.  Více informací hledejte na <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\"></a>.  Byla přidána podpora pro používání vzdáleného ovládání <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a>.  Další vlastnosti zahrnují správce řady, dialog pro uspořádání souborů, automatické roztažení sloupců v seznamu skladeb, nahrání vloženého obrázku obalu (id3v2), další volby pro hledání ve sbírce, táhni a pusť mezi seznamy skladeb a hypnožábu.  O více než polovinu byl zkrácen čas spuštění, opraveny úniky při nahrávání paměti a zmenšeno užití CPU při přehrávání hudby. Další informace hledejte v <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">úplném seznamu změn</a>."
+"See <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices"
+"\">the wiki for more information</a>.  Support for using a <a href=\"http://"
+"code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a> as a "
+"remote control has been added.  Other features include a Queue Manager, an "
+"Organise Files dialog, automatically stretching columns in the playlist, "
+"loading embedded id3v2 cover art, more library scanning options, drag and "
+"drop between playlists, and a hypnotoad.  We've also reduced startup time by "
+"more than half, fixed a load of memory leaks and reduced CPU usage while "
+"playing music. See the <a href=\"http://code.google.com/p/clementine-player/"
+"source/browse/Changelog\">full changelog</a> for more information."
+msgstr ""
+"Toto vydání přidává podporu pro užití přenosných zařízení s Clementine.  "
+"Nyní můžete kopírovat písně do svého zařízení iPod, iPhone, MTP nebo "
+"hromadného úložiště USB.  Více informací hledejte na <a href=\"http://code."
+"google.com/p/clementine-player/wiki/PortableDevices\"></a>.  Byla přidána "
+"podpora pro používání vzdáleného ovládání <a href=\"http://code.google.com/p/"
+"clementine-player/wiki/WiiRemotes\">Wii Remote</a>.  Další vlastnosti "
+"zahrnují správce řady, dialog pro uspořádání souborů, automatické roztažení "
+"sloupců v seznamu skladeb, nahrání vloženého obrázku obalu (id3v2), další "
+"volby pro hledání ve sbírce, táhni a pusť mezi seznamy skladeb a hypnožábu.  "
+"O více než polovinu byl zkrácen čas spuštění, opraveny úniky při nahrávání "
+"paměti a zmenšeno užití CPU při přehrávání hudby. Další informace hledejte v "
+"<a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog"
+"\">úplném seznamu změn</a>."
 
 #: data.py:271
 msgid "Version 0.6 released"
@@ -261,13 +288,22 @@ msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
 "artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Toto vydání obsahuje dvě nové informační tabulky, jež ukazují slova písní, statistiky písní, životopisy umělců, fotografie a seznamy značek a podobné umělce.  Nové podoby se dostalo postrannímu panelu (přepnout zpět si jej můžete klepnutím pravým tlačítkem myši na něj) a bylo také přidáno hodnocení, počty přehrání a počty přeskočení.  Můžete vytvářet chytré a dynamické seznamy skladeb z písní ve vaší sbírce, a můžete nyní hudbu poslouchat i z rádií<a href=\"http://www.jamendo.com/\">Jamendo</a> a Icecast. Další informace hledejte v <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">úplném seznamu změn</a>."
+"right clicking on it), and also added ratings, play counts and skip counts.  "
+"You can create smart and dynamic playlists from songs in your library, and "
+"also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</"
+"a> and Icecast radio stations. See the <a href=\"http://code.google.com/p/"
+"clementine-player/source/browse/Changelog\">full changelog</a> for more "
+"information."
+msgstr ""
+"Toto vydání obsahuje dvě nové informační tabulky, jež ukazují slova písní, "
+"statistiky písní, životopisy umělců, fotografie a seznamy značek a podobné "
+"umělce.  Nové podoby se dostalo postrannímu panelu (přepnout zpět si jej "
+"můžete klepnutím pravým tlačítkem myši na něj) a bylo také přidáno "
+"hodnocení, počty přehrání a počty přeskočení.  Můžete vytvářet chytré a "
+"dynamické seznamy skladeb z písní ve vaší sbírce, a můžete nyní hudbu "
+"poslouchat i z rádií<a href=\"http://www.jamendo.com/\">Jamendo</a> a "
+"Icecast. Další informace hledejte v <a href=\"http://code.google.com/p/"
+"clementine-player/source/browse/Changelog\">úplném seznamu změn</a>."
 
 #: data.py:284
 msgid "Version 0.7 released"
@@ -280,13 +316,24 @@ msgid ""
 "missing tags from MusicBrainz.  CUE sheets are now supported - they are "
 "detected automatically when scanning your library and each track will show "
 "up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show "
+"in file browser\" option, support for network proxies, a \"Full library "
 "rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "V tomto vydání Clementine dostává úplně nový dialog na úpravu značek s automatickým doplňováním a schopnost automaticky určit hudbu a natáhnout chybějící značky z MusicBrainz.  Nyní jsou podporovány listy CUEd - jsou zjištěny automaticky při prohledávání sbírky a každá skladba se objeví samostatně.  Udělalo se hodně malých vylepšení, jako ukazování obalů alb na kartě se sbírkou, zešedivění smazaných písní, volba \"Ukázat v prohlížeči souborů\", podpora pro síťové proxy, volba pro úplné prohledání sbírky a nová nástrojová rada pro posuvník skladby, jenž vám pomůže najít daleko přesněji určité místo v písni. Další informace hledejte v <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">úplném seznamu změn</a>."
+"more accurately to a specific place in a song. See the <a href=\"http://code."
+"google.com/p/clementine-player/source/browse/Changelog\">full changelog</a> "
+"for more information."
+msgstr ""
+"V tomto vydání Clementine dostává úplně nový dialog na úpravu značek s "
+"automatickým doplňováním a schopnost automaticky určit hudbu a natáhnout "
+"chybějící značky z MusicBrainz.  Nyní jsou podporovány listy CUEd - jsou "
+"zjištěny automaticky při prohledávání sbírky a každá skladba se objeví "
+"samostatně.  Udělalo se hodně malých vylepšení, jako ukazování obalů alb na "
+"kartě se sbírkou, zešedivění smazaných písní, volba \"Ukázat v prohlížeči "
+"souborů\", podpora pro síťové proxy, volba pro úplné prohledání sbírky a "
+"nová nástrojová rada pro posuvník skladby, jenž vám pomůže najít daleko "
+"přesněji určité místo v písni. Další informace hledejte v <a href=\"http://"
+"code.google.com/p/clementine-player/source/browse/Changelog\">úplném seznamu "
+"změn</a>."
 
 #: data.py:299
 msgid "Version 1.0 released"
@@ -294,17 +341,26 @@ msgstr "Vyšla verze 1.0"
 
 #: data.py:300
 msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
-"/clementine-player/source/browse/Changelog?name=release-1.0\">full "
-"changelog</a> for more information."
-msgstr "Toto vydání přidává podporu pro <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> a <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  Také byla přidána vyhledávací funkce, která vám umožní snadné nalezení hudby, jež je buď ve vaší hudební sbírce (knihovně) nebo na internetu. Další vlastnosti se týkají zahrnutí podpory pro zvukové nosiče CD, více voleb pro překódování, vylepšený dialog pro nastavení, chytřejší hledání obalů alb a přehršli oprav chyb. Další informace najdete v <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">úplném seznamu změn</a>."
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href="
+"\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/"
+"\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  "
+"We've also added a Global Search feature that allows you to easily find "
+"music that's either in your library or on the Internet. Other features "
+"include audio CD support, more transcoder options, an improved settings "
+"dialog, smarter album cover searches, and loads of bug fixes. See the <a "
+"href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?"
+"name=release-1.0\">full changelog</a> for more information."
+msgstr ""
+"Toto vydání přidává podporu pro <a href=\"http://www.spotify.com\">Spotify</"
+"a>, <a href=\"http://grooveshark.com\">Grooveshark</a> a <a href=\"http://"
+"www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</"
+"a>.  Také byla přidána vyhledávací funkce, která vám umožní snadné nalezení "
+"hudby, jež je buď ve vaší hudební sbírce (knihovně) nebo na internetu. Další "
+"vlastnosti se týkají zahrnutí podpory pro zvukové nosiče CD, více voleb pro "
+"překódování, vylepšený dialog pro nastavení, chytřejší hledání obalů alb a "
+"přehršli oprav chyb. Další informace najdete v <a href=\"http://code.google."
+"com/p/clementine-player/source/browse/Changelog?name=release-1.0\">úplném "
+"seznamu změn</a>."
 
 #: data.py:312
 msgid "Version 1.1 released"
@@ -314,379 +370,407 @@ msgstr "Byla vydána verze 1.1"
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
-"more information."
-msgstr "Toto vydání přidává dlouho očekávanou podporu pro Podcast včetně integrace a synchronizace s <a href=\"//gpodder.net\">gpodder.net</a>. Hudba z <a href=\"http://soundcloud.com/\">Soundcloud</a> a <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> je dostupná na kartě Internet v postranním panelu, stejně tak všechny vámi na<a href=\"http://drive.google.com/start\">Google Drive</a> nahrané písně . Clementine bude rovněž ukazovat náladové proužky k hudbě přehrávané z vašeho místního disku. Další informace hledejte v <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">úplném seznamu změn</a>."
+"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www."
+"jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the "
+"sidebar, as well as any songs you've uploaded to <a href=\"http://drive."
+"google.com/start\">Google Drive</a>. Clementine will also now show moodbars "
+"for the music you play from your local disc. See the <a href=\"http://code."
+"google.com/p/clementine-player/source/browse/Changelog?"
+"name=release-1.1\">full changelog</a> for more information."
+msgstr ""
+"Toto vydání přidává dlouho očekávanou podporu pro Podcast včetně integrace a "
+"synchronizace s <a href=\"//gpodder.net\">gpodder.net</a>. Hudba z <a href="
+"\"http://soundcloud.com/\">Soundcloud</a> a <a href=\"http://www.jazzradio."
+"com/\">jazzradio.com</a> je dostupná na kartě Internet v postranním panelu, "
+"stejně tak všechny vámi na<a href=\"http://drive.google.com/start\">Google "
+"Drive</a> nahrané písně . Clementine bude rovněž ukazovat náladové proužky k "
+"hudbě přehrávané z vašeho místního disku. Další informace hledejte v <a href="
+"\"http://code.google.com/p/clementine-player/source/browse/Changelog?"
+"name=release-1.1\">úplném seznamu změn</a>."
 
-#: downloads.html:8
+#: downloads.html:7
 msgid "Latest downloads"
 msgstr "Poslední soubory na stáhnutí"
 
-#: downloads.html:12
+#: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr "Stáhnout poslední stabilní verzi Clementine pro váš operační systém."
 
-#: downloads.html:34
+#: downloads.html:33
 msgid "Downloads for other operating systems"
 msgstr "Soubory na stáhnutí pro ostatní operační systémy"
 
-#: downloads.html:53
+#: downloads.html:52
 msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
-#: downloads.html:55
+#: downloads.html:54
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Můžete stáhnout poslední verzi Clementine pro Ubuntu z oficiálního PPA:"
+msgstr ""
+"Můžete stáhnout poslední verzi Clementine pro Ubuntu z oficiálního PPA:"
 
-#: downloads.html:63 downloads.html.py:71
+#: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
 msgstr "Další soubory na stáhnutí"
 
-#: downloads.html:65
+#: downloads.html:64
 msgid "Unofficial packages"
 msgstr "Neoficiální balíčky"
 
-#: downloads.html:67
+#: downloads.html:66
 msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
-msgstr "Pokud nevidíte svoji distribuci uvedenu výše, potom někdo možná pro vás vytvořil neoficiální balíček."
+"If you don't see your distribution listed above then someone else might have "
+"created an unofficial package for you."
+msgstr ""
+"Pokud nevidíte svoji distribuci uvedenu výše, potom někdo možná pro vás "
+"vytvořil neoficiální balíček."
 
-#: downloads.html:75
+#: downloads.html:74
 msgid "Compiling from source"
 msgstr "Sestavení ze zdrojových souborů"
 
-#: downloads.html:77
+#: downloads.html:76
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Sestavení Clementine ze zdrojových souborů je na Linuxu jednoduché."
 
-#: downloads.html:78
+#: downloads.html:77
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Stáhněte balíček zdrojového kódu ze seznamu výše, a v terminálu zadejte:"
+msgstr ""
+"Stáhněte balíček zdrojového kódu ze seznamu výše, a v terminálu zadejte:"
 
-#: downloads.html:87
+#: downloads.html:86
 msgid "Full instructions and list of dependencies"
 msgstr "Úplné pokyny a seznam závislostí"
 
-#: downloads.html:91
+#: downloads.html:90
 msgid "Bleeding edge packages"
 msgstr "Nejnovější vývojové balíčky"
 
-#: downloads.html:93 participate.html:48
+#: downloads.html:92 participate.html:47
 msgid "Development on Clementine happens in"
 msgstr "Vývoj Clementine probíhá v"
 
-#: downloads.html:95 participate.html:50
+#: downloads.html:94 participate.html:49
 msgid "the git repository"
 msgstr "úložišti git"
 
-#: downloads.html:96 participate.html:51
+#: downloads.html:95 participate.html:50
 msgid "Check out the code by running:"
 msgstr "Vyzkoušejte kód zadáním příkazu:"
 
-#: downloads.html:100 participate.html:61
+#: downloads.html:99 participate.html:60
 msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "Pokud dáváte přednost nesestavovat si sám vývojovou verzi, potom zkuste jeden z hodinových balíčků:"
+"If you'd prefer not to compile the development version yourself then try one "
+"of the hourly packages:"
+msgstr ""
+"Pokud dáváte přednost nesestavovat si sám vývojovou verzi, potom zkuste "
+"jeden z hodinových balíčků:"
 
-#: downloads.html:105 participate.html:66
+#: downloads.html:104 participate.html:65
 msgid "Mac OS X development builds"
 msgstr "Vývojové sestavení pro Mac OS X"
 
-#: downloads.html:107 participate.html:68
+#: downloads.html:106 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Vývojové sestavení pro Ubuntu Lucid (10.04)"
 
-#: downloads.html:109 participate.html:70
+#: downloads.html:108 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Vývojové sestavení pro Ubuntu Maverick (10.10)"
 
-#: downloads.html:111 participate.html:72
+#: downloads.html:110 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Vývojové sestavení pro Ubuntu Natty (11.04)"
 
-#: downloads.html:113 participate.html:74
+#: downloads.html:112 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Vývojové sestavení pro Ubuntu Oneiric (11.10)"
 
-#: downloads.html:115 participate.html:76
+#: downloads.html:114 participate.html:75
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "Ubuntu Precise (12.04) vývojářská sestavení"
 
-#: downloads.html:117 participate.html:78
+#: downloads.html:116 participate.html:77
 msgid "Ubuntu Quantal (12.10) development builds"
 msgstr "Vývojářská sestavení pro Ubuntu Quantal (12.10)"
 
-#: downloads.html:119 participate.html:80
+#: downloads.html:118 participate.html:79
 msgid "Windows development builds"
 msgstr "Vývojové sestavení pro Windows"
 
-#: downloads.html:121 participate.html:82
+#: downloads.html:120 participate.html:81
 msgid "Buildbot"
 msgstr "Sestavovací stroj"
 
-#: downloads.html:124 participate.html:85
+#: downloads.html:123 participate.html:84
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Je tu též Ubuntu PPA s těmito vývojovými sestaveními:"
 
-#: downloads.html:132
+#: downloads.html:131
 msgid "Old downloads"
 msgstr "Staré soubory na stáhnutí"
 
-#: downloads.html:139 screenshots.html:9
+#: downloads.html:139 screenshots.html:8
 msgid "Version"
 msgstr "Verze"
 
-#: main.html:6
+#: main.html:5
 msgid "About &amp; Features"
 msgstr "O programu &amp; Vlastnosti"
 
-#: main.html:10
+#: main.html:9
 msgid "Search and play your local music library."
 msgstr "Vyhledávejte a přehrávejte svoji hudební sbírku."
 
-#: main.html:11
+#: main.html:10
 msgid "Listen to internet radio from"
 msgstr "Poslouchejte internetová rádia z"
 
-#: main.html:25
+#: main.html:24
 msgid "Search and play songs you've uploaded to"
 msgstr "Hledání a přehrávání vámi nahraných písní"
 
-#: main.html:28
+#: main.html:27
 msgid "Create smart playlists and dynamic playlists."
 msgstr "Vytvářejte chytré a dynamické seznamy skladeb."
 
-#: main.html:29
+#: main.html:28
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Seznamy skladeb na kartách, zavádějte a vyvádějte M3U, XSPF, PLS a ASX."
+msgstr ""
+"Seznamy skladeb na kartách, zavádějte a vyvádějte M3U, XSPF, PLS a ASX."
 
-#: main.html:30
+#: main.html:29
 msgid "CUE sheet support."
 msgstr "Podpora pro seznamy CUE."
 
-#: main.html:31
+#: main.html:30
 msgid "Play audio CDs."
 msgstr "Přehrávajte audio CD."
 
-#: main.html:32
+#: main.html:31
 msgid "Visualisations from"
 msgstr "Vizualizace z"
 
-#: main.html:33
+#: main.html:32
 msgid "Lyrics and artist biographies and photos."
 msgstr "Texty písní, životopisy a fotky umělců."
 
-#: main.html:34
+#: main.html:33
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
 msgstr "Převádějte hudbu do MP3, Ogg Vorbis, Ogg Speex, FLAC nebo AAC."
 
-#: main.html:35
+#: main.html:34
 msgid "Edit tags on MP3 and OGG files, organise your music."
 msgstr "Upravujte značky souborů MP3 a OGG, uspořádejte svoji hudbu."
 
-#: main.html:36
+#: main.html:35
 msgid "Fetch missing tags from MusicBrainz."
 msgstr "Získejte chybějící značky z MusicBrainz."
 
-#: main.html:37
+#: main.html:36
 msgid "Discover and download Podcasts."
 msgstr "nalézání a stahování podcastů."
 
-#: main.html:38
+#: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
 msgstr "Stahujte chybějící obaly alb z Last.fm a Amazonu."
 
-#: main.html:39
+#: main.html:38
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Víceplatformnost - pracuje na Windows, Mac OS X a Linuxu."
 
-#: main.html:40
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+#: main.html:39
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Původní oznámení na ploše na Linuxu (libnotify) a Mac OS X (Growl)"
 
-#: main.html:41
+#: main.html:40
 msgid "Remote control using a"
 msgstr "Ovládání na dálku pomocí"
 
-#: main.html:41
+#: main.html:40
 msgid "Wii Remote"
 msgstr "dálkového ovladače Wii"
 
-#: main.html:41
+#: main.html:40
 msgid "MPRIS or the command-line."
 msgstr "MPRIS nebo příkazového řádku."
 
-#: main.html:42
+#: main.html:41
 msgid "Copy music to your"
 msgstr "Kopírujte hudbu na svůj"
 
-#: main.html:42
+#: main.html:41
 msgid "iPod, iPhone, MTP or mass-storage USB player."
 msgstr "iPod, iPhone, MTP nebo do přehrávače s úložištěm USB."
 
-#: main.html:43
+#: main.html:42
 msgid "Queue manager."
 msgstr "Správce pořadí"
 
-#: main.html:49
+#: main.html:48
 msgid "is a modern music player and library organizer"
 msgstr "je moderní hudební přehrávač a správce hudební sbírky"
 
-#: main.html:53
+#: main.html:52
 msgid "Clementine is a multiplatform music player."
 msgstr "Clementine je víceplatformní hudební přehrávač."
 
-#: main.html:54
+#: main.html:53
 msgid "It is inspired by"
 msgstr "Je inspirován přehrávačem"
 
-#: main.html:55
+#: main.html:54
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "záměrem je pak rychlé a jednoduše použitelné rozhraní pro hledání a přehrávání hudby."
+msgstr ""
+"záměrem je pak rychlé a jednoduše použitelné rozhraní pro hledání a "
+"přehrávání hudby."
 
-#: main.html:62 main.html.py:71
+#: main.html:61 main.html.py:70
 msgid "Download the latest version now"
 msgstr "Stáhnout nejnovější verzi"
 
-#: main.html:63
+#: main.html:62
 msgid "Download Clementine"
 msgstr "Stáhnout Clementine"
 
-#: main.html:72
+#: main.html:71
 msgid "for Windows, Mac OS X and Linux"
 msgstr "pro Windows, Mac OS X a Linux"
 
-#: main.html:77
+#: main.html:76
 msgid "Announcement"
 msgstr "Oznámení"
 
-#: main.html:78
+#: main.html:77
 msgid "Changelog"
 msgstr "Seznam změn"
 
-#: main.html:79
+#: main.html:78
 msgid "Show all downloads"
 msgstr "Zobrazit všechny soubory na stáhnutí"
 
-#: main.html:108
+#: main.html:107
 msgid "News"
 msgstr "Novinky"
 
-#: participate.html:8
+#: participate.html:7
 msgid "Need help?"
 msgstr "Potřebujete pomoc?"
 
-#: participate.html:12
+#: participate.html:11
 msgid "Come chat with us at the"
 msgstr "Pojďte si s námi pohovořit na"
 
-#: participate.html:12
+#: participate.html:11
 msgid "channel on Freenode."
 msgstr "kanále na Freenode."
 
-#: participate.html:13
+#: participate.html:12
 msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "<b>Vydržte, prosím, po položení otázky</b> - můžeme být v jiném časovém pásmu, takže vaši otázku neuvidíme hned."
+"Please remember to <b>stick around after asking a question</b> - we might be "
+"in a different timezone so won't see your question right away."
+msgstr ""
+"<b>Vydržte, prosím, po položení otázky</b> - můžeme být v jiném časovém "
+"pásmu, takže vaši otázku neuvidíme hned."
 
-#: participate.html:16
+#: participate.html:15
 msgid "Forum"
 msgstr "Fórum"
 
-#: participate.html:18
+#: participate.html:17
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine používá Google Groups na fórum/poštovní seznam/všeobecnou diskuzní skupinu."
+msgstr ""
+"Clementine používá Google Groups na fórum/poštovní seznam/všeobecnou "
+"diskuzní skupinu."
 
-#: participate.html:21
+#: participate.html:20
 msgid "Support and discussion group"
 msgstr "Podpora a diskuzní skupina"
 
-#: participate.html:26
+#: participate.html:25
 msgid "Collaborate"
 msgstr "Spolupráce"
 
-#: participate.html:28
+#: participate.html:27
 msgid "Reporting bugs and proposing patches"
 msgstr "Hlášení chyb a navrhování oprav"
 
-#: participate.html:30
+#: participate.html:29
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr "Clementine používá Google Code na vývoj a sledování věcí."
 
-#: participate.html:31
+#: participate.html:30
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Pokud jste v Clementine našli chybu, navštivte, prosím, středisko nedostatků a vytvořte novou záležitost."
+msgstr ""
+"Pokud jste v Clementine našli chybu, navštivte, prosím, středisko nedostatků "
+"a vytvořte novou záležitost."
 
-#: participate.html:34
+#: participate.html:33
 msgid "Issue tracker"
 msgstr "Středisko nedostatků"
 
-#: participate.html:37
+#: participate.html:36
 msgid "Translating the interface"
 msgstr "Překládání rozhraní"
 
-#: participate.html:39
+#: participate.html:38
 msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
-msgstr "Pokud chcete Clementine přeložit do dalšího jazyka, můžete to udělat na stránce s překlady na Transifexu."
+"If you'd like to translate Clementine into another language you can do so on "
+"the Transifex translations page."
+msgstr ""
+"Pokud chcete Clementine přeložit do dalšího jazyka, můžete to udělat na "
+"stránce s překlady na Transifexu."
 
-#: participate.html:40
+#: participate.html:39
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Překlad můžete udělat buď přímo na Transifexu, nebo stáhnout sobor .po ze stránky, a potom nám jej poslat zpět."
+msgstr ""
+"Překlad můžete udělat buď přímo na Transifexu, nebo stáhnout sobor .po ze "
+"stránky, a potom nám jej poslat zpět."
 
-#: participate.html:43
+#: participate.html:42
 msgid "Transifex translations"
 msgstr "Překlady Transifex"
 
-#: participate.html:46
+#: participate.html:45
 msgid "Hacking"
 msgstr "Pro zkušené"
 
-#: participate.html:57
+#: participate.html:56
 msgid "How to compile Clementine from source"
 msgstr "Jak Clementine sestavit ze zdrojových souborů"
 
-#: participate.html:93
+#: participate.html:92
 msgid "Social Networking"
 msgstr "Společenské sítě"
 
-#: participate.html:95
+#: participate.html:94
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Jsme rádi, když vás vidíme podporovat Clementine připojením se na vaší oblíbené společenské síti!"
+msgstr ""
+"Jsme rádi, když vás vidíme podporovat Clementine připojením se na vaší "
+"oblíbené společenské síti!"
 
-#: participate.html:99
+#: participate.html:98
 msgid "Clementine on Facebook"
 msgstr "Clementine na službě Facebook"
 
-#: participate.html:102
+#: participate.html:101
 msgid "Clementine on Twitter"
 msgstr "Clementine na službě Twitter"
 
-#: participate.html:105
+#: participate.html:104
 msgid "Clementine on Last.fm"
 msgstr "Clementine na službě Last.fm"

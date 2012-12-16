@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>{% block title %}{% endblock %}{% trans %}Clementine Music Player{% endtrans %}</title>
+  <title>{% block title %}{% endblock %}{{ _("Clementine Music Player") }}</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/defaults.css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
@@ -33,14 +33,14 @@
 
         <div id="primary-links">
           <ul class="links">
-            <li class="menu first"><a href="about">{% trans %}About{% endtrans %}</a></li>
-            <li class="menu"><a href="downloads">{% trans %}Downloads{% endtrans %}</a></li>
-            <li class="menu"><a href="screenshots" title="Clementine screenshots">{% trans %}Screenshots{% endtrans %}</a></li>
-            <li class="menu last"><a href="participate" title="Participate">{% trans %}Participate{% endtrans %}</a></li>
+            <li class="menu first"><a href="about">{{ _("About") }}</a></li>
+            <li class="menu"><a href="downloads">{{ _("Downloads") }}</a></li>
+            <li class="menu"><a href="screenshots" title="Clementine screenshots">{{ _("Screenshots") }}</a></li>
+            <li class="menu last"><a href="participate" title="Participate">{{ _("Participate") }}</a></li>
           </ul>
         </div>
 
-        <span id="site-slogan">{% trans %}A cross-platform music player inspired by Amarok 1.4{% endtrans %}</span>
+        <span id="site-slogan">{{ _("A cross-platform music player inspired by Amarok 1.4") }}</span>
       </div>
 
       <div id="container" class="clear-block">
@@ -65,11 +65,11 @@
               <a class="language" href="/{{ lang.code }}{% block path %}{% endblock %}">{{ lang.name }}</a>
             {% endif %}
           {% endfor %}</p>
-          <p>{% trans %}Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA.{% endtrans %}</p>
-          <p>{% trans %}Development by{% endtrans %} <a href="mailto:me@davidsansome.com">David Sansome</a>,
-            <a href="mailto:john.maguire@gmail.com">John Maguire</a> {% trans %}and{% endtrans %}
+          <p>{{ _("Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA.") }}</p>
+          <p>{{ _("Development by") }} <a href="mailto:me@davidsansome.com">David Sansome</a>,
+            <a href="mailto:john.maguire@gmail.com">John Maguire</a> {{ _("and") }}
             <a href="mailto:arnaud.bienner@gmail.com">Arnaud Bienner</a>.
-            {% trans %}Website by{% endtrans %} <a href="mailto:cjenkins@softwarelibrecr.org">Carlos Jenkins</a>.
+            {{ _("Website by") }} <a href="mailto:cjenkins@softwarelibrecr.org">Carlos Jenkins</a>.
           </p>
         </div>
       </div>

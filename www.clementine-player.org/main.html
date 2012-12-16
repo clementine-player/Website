@@ -2,12 +2,12 @@
 {% block path %}/{% endblock %}
 
 {% block content %}
-<h1>{% trans %}About &amp; Features{% endtrans %}</h1>
+<h1>{{ _("About &amp; Features") }}</h1>
 
 <div style="float: right; margin-top: 15px; width: 50%;" id="features">
   <ul>
-    <li>{% trans %}Search and play your local music library.{% endtrans %}</li>
-    <li>{% trans %}Listen to internet radio from{% endtrans %}
+    <li>{{ _("Search and play your local music library.") }}</li>
+    <li>{{ _("Listen to internet radio from") }}
       <a href="http://www.spotify.com/">Spotify</a>,
       <a href="http://grooveshark.com/">Grooveshark</a>,
       <a href="http://last.fm/">Last.fm</a>,
@@ -18,48 +18,48 @@
       <a href="http://www.di.fm/">Digitally Imported</a>,
       <a href="http://www.jazzradio.com/">JAZZRADIO.com</a>,
       <a href="http://soundcloud.com/">Soundcloud</a>,
-      {% trans %}and{% endtrans %}
+      {{ _("and") }}
       <a href="http://dir.xiph.org/">Icecast</a>.
     </li>
-    <li>{% trans %}Search and play songs you've uploaded to{% endtrans %}
+    <li>{{ _("Search and play songs you've uploaded to") }}
       <a href="http://drive.google.com/start">Google Drive</a>.
     </li>
-    <li>{% trans %}Create smart playlists and dynamic playlists.{% endtrans %}</li>
-    <li>{% trans %}Tabbed playlists, import and export M3U, XSPF, PLS and ASX.{% endtrans %}</li>
-    <li>{% trans %}CUE sheet support.{% endtrans %}</li>
-    <li>{% trans %}Play audio CDs.{% endtrans %}</li>
-    <li>{% trans %}Visualisations from{% endtrans %} <a href="http://projectm.sourceforge.net/">projectM</a>.</li>
-    <li>{% trans %}Lyrics and artist biographies and photos.{% endtrans %}</li>
-    <li>{% trans %}Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC.{% endtrans %}</li>
-    <li>{% trans %}Edit tags on MP3 and OGG files, organise your music.{% endtrans %}</li>
-    <li>{% trans %}Fetch missing tags from MusicBrainz.{% endtrans %}</li>
-    <li>{% trans %}Discover and download Podcasts.{% endtrans %}</li>
-    <li>{% trans %}Download missing album cover art from Last.fm and Amazon.{% endtrans %}</li>
-    <li>{% trans %}Cross-platform - works on Windows, Mac OS X and Linux.{% endtrans %}</li>
-    <li>{% trans %}Native desktop notifications on Linux (libnotify) and Mac OS X (Growl).{% endtrans %}</li>
-    <li>{% trans %}Remote control using a{% endtrans %} <a href="http://code.google.com/p/clementine-player/wiki/WiiRemotes">{% trans %}Wii Remote{% endtrans %}</a>, {% trans %}MPRIS or the command-line.{% endtrans %}</li>
-    <li>{% trans %}Copy music to your{% endtrans %} <a href="http://code.google.com/p/clementine-player/wiki/PortableDevices">{% trans %}iPod, iPhone, MTP or mass-storage USB player.{% endtrans %}</a></li>
-    <li>{% trans %}Queue manager.{% endtrans %}</li>
+    <li>{{ _("Create smart playlists and dynamic playlists.") }}</li>
+    <li>{{ _("Tabbed playlists, import and export M3U, XSPF, PLS and ASX.") }}</li>
+    <li>{{ _("CUE sheet support.") }}</li>
+    <li>{{ _("Play audio CDs.") }}</li>
+    <li>{{ _("Visualisations from") }} <a href="http://projectm.sourceforge.net/">projectM</a>.</li>
+    <li>{{ _("Lyrics and artist biographies and photos.") }}</li>
+    <li>{{ _("Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC.") }}</li>
+    <li>{{ _("Edit tags on MP3 and OGG files, organise your music.") }}</li>
+    <li>{{ _("Fetch missing tags from MusicBrainz.") }}</li>
+    <li>{{ _("Discover and download Podcasts.") }}</li>
+    <li>{{ _("Download missing album cover art from Last.fm and Amazon.") }}</li>
+    <li>{{ _("Cross-platform - works on Windows, Mac OS X and Linux.") }}</li>
+    <li>{{ _("Native desktop notifications on Linux (libnotify) and Mac OS X (Growl).") }}</li>
+    <li>{{ _("Remote control using a") }} <a href="http://code.google.com/p/clementine-player/wiki/WiiRemotes">{{ _("Wii Remote") }}</a>, {{ _("MPRIS or the command-line.") }}</li>
+    <li>{{ _("Copy music to your") }} <a href="http://code.google.com/p/clementine-player/wiki/PortableDevices">{{ _("iPod, iPhone, MTP or mass-storage USB player.") }}</a></li>
+    <li>{{ _("Queue manager.") }}</li>
   </ul>
 </div>
 
 <p style="font-size: 24px; line-height: 30px;">
   <span style="font-weight: bold; color: rgb(253, 145, 70);">Clementine</span>
-  {% trans %}is a modern music player and library organizer{% endtrans %}
+  {{ _("is a modern music player and library organizer") }}
 </p>
 
 <p>
-  {% trans %}Clementine is a multiplatform music player.{% endtrans %}
-  {% trans %}It is inspired by{% endtrans %} <a href="http://amarok.kde.org/">Amarok 1.4</a>,
-  {% trans %}focusing on a fast and easy-to-use interface for searching and playing your music.{% endtrans %}
+  {{ _("Clementine is a multiplatform music player.") }}
+  {{ _("It is inspired by") }} <a href="http://amarok.kde.org/">Amarok 1.4</a>,
+  {{ _("focusing on a fast and easy-to-use interface for searching and playing your music.") }}
 </p>
 
 <div id="download-block">
   {% if best_download %}
     <div onclick="location.href='{{ download_base_url }}{{ best_download.name }}';" id="download-button">
       <p id="download-title">Clementine <span id="download-version">{{ best_download.ver }}</span></p>
-      <p>{% trans %}Download the latest version now{% endtrans %}</p>
-      <img src="/images/{{ best_download.os_logo }}" id="download-logo" alt="{% trans %}Download Clementine{% endtrans %}" />
+      <p>{{ _("Download the latest version now") }}</p>
+      <img src="/images/{{ best_download.os_logo }}" id="download-logo" alt="{{ _("Download Clementine") }}" />
       <p id="download-os">{{ best_download.short_os }}</p>
       {% if best_download.arch %}
         <p id="download-arch">{{ best_download.arch }}-bit</p>
@@ -67,22 +67,22 @@
   {% else %}
     <div onclick="location.href='downloads';" id="download-button">
       <p id="download-title">Clementine <span id="download-version">{{ latest_version }}</span></p>
-      <p>{% trans %}Download the latest version now{% endtrans %}</p>
-      <p>{% trans %}for Windows, Mac OS X and Linux{% endtrans %}</p>
+      <p>{{ _("Download the latest version now") }}</p>
+      <p>{{ _("for Windows, Mac OS X and Linux") }}</p>
   {% endif %}
   </div>
 
   <div id="download-otherlinks">
-    <a href="#news">{% trans %}Announcement{% endtrans %}</a> -
-    <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">{% trans %}Changelog{% endtrans %}</a> -
-    <a href="downloads">{% trans %}Show all downloads{% endtrans %}</a>
+    <a href="#news">{{ _("Announcement") }}</a> -
+    <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">{{ _("Changelog") }}</a> -
+    <a href="downloads">{{ _("Show all downloads") }}</a>
   </div>
 </div>
 
 <div style="clear: both;"></div>
 <hr class="division" />
 
-<h1>{% trans %}Screenshots{% endtrans %}</h1>
+<h1>{{ _("Screenshots") }}</h1>
 
 <table>
 {% for entry in latest_screenshots %}
@@ -104,7 +104,7 @@
 <div style="clear: both;"></div>
 <hr class="division" />
 
-<h1>{% trans %}News{% endtrans %}</h1>
+<h1>{{ _("News") }}</h1>
 <a name="news"></a>
 
 {% for n in news|sort(attribute="timestamp")|reverse %}

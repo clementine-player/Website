@@ -1,14 +1,14 @@
 {% extends "base.html" %}
-{% block title %}{% trans %}Downloads{% endtrans %} | {% endblock %}
+{% block title %}{{ _("Downloads") }} | {% endblock %}
 {% block path %}/downloads{% endblock %}
 
 {% block content %}
 
-<h1>{% trans %}Latest downloads{% endtrans %}</h1>
+<h1>{{ _("Latest downloads") }}</h1>
 
 
 <div class="downloadscontainer">
-  <p>{% trans %}Get the latest stable version of Clementine for your operating system.{% endtrans %}</p>
+  <p>{{ _("Get the latest stable version of Clementine for your operating system.") }}</p>
 
   {% if best_download %}
     {% with d = best_download %}
@@ -30,7 +30,7 @@
     <div style="clear: both"></div>
 
     <p>
-      {% trans %}Downloads for other operating systems{% endtrans %}
+      {{ _("Downloads for other operating systems") }}
     </p>
   {% endif %}
 
@@ -49,9 +49,9 @@
 </div>
 
 <div style="clear:both;"></div>
-<h2>{% trans %}Ubuntu PPA{% endtrans %}</h2>
+<h2>{{ _("Ubuntu PPA") }}</h2>
 
-<p>{% trans %}You can download the latest version of Clementine on Ubuntu from the official PPA:{% endtrans %}</p>
+<p>{{ _("You can download the latest version of Clementine on Ubuntu from the official PPA:") }}</p>
 
 <pre>sudo add-apt-repository ppa:me-davidsansome/clementine
 sudo apt-get update
@@ -59,22 +59,22 @@ sudo apt-get install clementine</pre>
 
 <div style="clear:both;"></div>
 <hr class="division" />
-<h1>{% trans %}Other Downloads{% endtrans %}</h1>
+<h1>{{ _("Other Downloads") }}</h1>
 
-<h2>{% trans %}Unofficial packages{% endtrans %}</h2>
+<h2>{{ _("Unofficial packages") }}</h2>
 
-<p>{% trans %}If you don't see your distribution listed above then someone else might have created an unofficial package for you.{% endtrans %}</p>
+<p>{{ _("If you don't see your distribution listed above then someone else might have created an unofficial package for you.") }}</p>
 
 <ul>
   <li><a href="http://code.google.com/p/clementine-player/wiki/OtherDownloads">
-    {% trans %}Other Downloads{% endtrans %}</a>
+    {{ _("Other Downloads") }}</a>
   </li>
 </ul>
 
-<h2>{% trans %}Compiling from source{% endtrans %}</h2>
+<h2>{{ _("Compiling from source") }}</h2>
 
-<p>{% trans %}Compiling Clementine from source is easy on Linux.{% endtrans %}
-{% trans %}Download the source code package from the list above, and in a terminal window:{% endtrans %}</p>
+<p>{{ _("Compiling Clementine from source is easy on Linux.") }}
+{{ _("Download the source code package from the list above, and in a terminal window:") }}</p>
 
 <pre>cd bin
 cmake ..
@@ -83,44 +83,44 @@ sudo make install</pre>
 
 <ul>
   <li><a href="http://code.google.com/p/clementine-player/wiki/CompilingFromSource">
-    {% trans %}Full instructions and list of dependencies{% endtrans %}</a>
+    {{ _("Full instructions and list of dependencies") }}</a>
   </li>
 </ul>
 
-<h2>{% trans %}Bleeding edge packages{% endtrans %}</h2>
+<h2>{{ _("Bleeding edge packages") }}</h2>
 
-<p>{% trans %}Development on Clementine happens in{% endtrans %}
+<p>{{ _("Development on Clementine happens in") }}
 <a href="http://code.google.com/p/clementine-player/source/checkout">
-{% trans %}the git repository{% endtrans %}</a>.
-{% trans %}Check out the code by running:{% endtrans %}</p>
+{{ _("the git repository") }}</a>.
+{{ _("Check out the code by running:") }}</p>
 
 <pre>git clone https://code.google.com/p/clementine-player/ clementine-player</pre>
 
-<p>{% trans %}If you'd prefer not to compile the development version yourself then try one of the hourly packages:{% endtrans %}</p>
+<p>{{ _("If you'd prefer not to compile the development version yourself then try one of the hourly packages:") }}</p>
 
 {# THIS LIST IS DUPLICATED IN participate.html #}
 <ul>
   <li><a href="http://builds.clementine-player.org/mac/">
-    {% trans %}Mac OS X development builds{% endtrans %}</a></li>
+    {{ _("Mac OS X development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-lucid/">
-    {% trans %}Ubuntu Lucid (10.04) development builds{% endtrans %}</a></li>
+    {{ _("Ubuntu Lucid (10.04) development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-maverick/">
-    {% trans %}Ubuntu Maverick (10.10) development builds{% endtrans %}</a></li>
+    {{ _("Ubuntu Maverick (10.10) development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-natty/">
-    {% trans %}Ubuntu Natty (11.04) development builds{% endtrans %}</a></li>
+    {{ _("Ubuntu Natty (11.04) development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-oneiric/">
-    {% trans %}Ubuntu Oneiric (11.10) development builds{% endtrans %}</a></li>
+    {{ _("Ubuntu Oneiric (11.10) development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-precise/">
-    {% trans %}Ubuntu Precise (12.04) development builds{% endtrans %}</a></li>
+    {{ _("Ubuntu Precise (12.04) development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/ubuntu-quantal/">
-    {% trans %}Ubuntu Quantal (12.10) development builds{% endtrans %}</a></li>
+    {{ _("Ubuntu Quantal (12.10) development builds") }}</a></li>
   <li><a href="http://builds.clementine-player.org/win32/">
-    {% trans %}Windows development builds{% endtrans %}</a></li>
+    {{ _("Windows development builds") }}</a></li>
   <li><a href="http://buildbot.clementine-player.org/waterfall">
-    {% trans %}Buildbot{% endtrans %}</a></li>
+    {{ _("Buildbot") }}</a></li>
 </ul>
 
-<p>{% trans %}There's also an Ubuntu PPA for these development builds:{% endtrans %}</p>
+<p>{{ _("There's also an Ubuntu PPA for these development builds:") }}</p>
 
 <pre>sudo add-apt-repository ppa:me-davidsansome/clementine-dev
 sudo apt-get update
@@ -128,7 +128,7 @@ sudo apt-get install clementine</pre>
 
 
 <hr class="division" />
-<h1>{% trans %}Old downloads{% endtrans %}</h1>
+<h1>{{ _("Old downloads") }}</h1>
 
 {% set last_version = '' %}
 {% for d in old_downloads|sort(attribute="ver")|reverse %}
@@ -136,7 +136,7 @@ sudo apt-get install clementine</pre>
     {%if not loop.first %}
       </ul>
     {% endif %}
-    <h2>{% trans %}Version{% endtrans %} {{ d.ver }}</h2>
+    <h2>{{ _("Version") }} {{ d.ver }}</h2>
     <ul>
   {% endif %}
   {%set last_version = d.ver %}
