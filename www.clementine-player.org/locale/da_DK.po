@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2012-11-26 23:37+0100\n"
+"POT-Creation-Date: 2012-12-16 15:21+0100\n"
 "PO-Revision-Date: 2012-11-06 23:04+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,45 +18,45 @@ msgstr ""
 "Language: da_DK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: base.html:7
+#: base.html:5
 msgid "Clementine Music Player"
 msgstr "Clementine Musikafspiller"
 
-#: base.html:38
+#: base.html:36
 msgid "About"
 msgstr ""
 
-#: base.html:39 downloads.html:3
+#: base.html:37 downloads.html:2
 msgid "Downloads"
 msgstr ""
 
-#: base.html:40 main.html:86 screenshots.html:3
+#: base.html:38 main.html:85 screenshots.html:2
 msgid "Screenshots"
 msgstr ""
 
-#: base.html:41 participate.html:3
+#: base.html:39 participate.html:2
 msgid "Participate"
 msgstr "Deltag"
 
-#: base.html:45
+#: base.html:43
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr ""
 
-#: base.html:69
+#: base.html:68
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr ""
 
-#: base.html:70
+#: base.html:69
 msgid "Development by"
 msgstr "Udviklet af"
 
-#: base.html:71 main.html:22
+#: base.html:70 main.html:21
 msgid "and"
 msgstr "og"
 
-#: base.html:73
+#: base.html:72
 msgid "Website by"
 msgstr ""
 
@@ -322,369 +322,369 @@ msgid ""
 "more information."
 msgstr ""
 
-#: downloads.html:8
+#: downloads.html:7
 msgid "Latest downloads"
 msgstr ""
 
-#: downloads.html:12
+#: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr ""
 
-#: downloads.html:34
+#: downloads.html:33
 msgid "Downloads for other operating systems"
 msgstr ""
 
-#: downloads.html:53
+#: downloads.html:52
 msgid "Ubuntu PPA"
 msgstr ""
 
-#: downloads.html:55
+#: downloads.html:54
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
 msgstr ""
 
-#: downloads.html:63 downloads.html.py:71
+#: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
 msgstr ""
 
-#: downloads.html:65
+#: downloads.html:64
 msgid "Unofficial packages"
 msgstr ""
 
-#: downloads.html:67
+#: downloads.html:66
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr ""
 
-#: downloads.html:75
+#: downloads.html:74
 msgid "Compiling from source"
 msgstr ""
 
-#: downloads.html:77
+#: downloads.html:76
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr ""
 
-#: downloads.html:78
+#: downloads.html:77
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr ""
 
-#: downloads.html:87
+#: downloads.html:86
 msgid "Full instructions and list of dependencies"
 msgstr ""
 
-#: downloads.html:91
+#: downloads.html:90
 msgid "Bleeding edge packages"
 msgstr ""
 
-#: downloads.html:93 participate.html:48
+#: downloads.html:92 participate.html:47
 msgid "Development on Clementine happens in"
 msgstr ""
 
-#: downloads.html:95 participate.html:50
+#: downloads.html:94 participate.html:49
 msgid "the git repository"
 msgstr ""
 
-#: downloads.html:96 participate.html:51
+#: downloads.html:95 participate.html:50
 msgid "Check out the code by running:"
 msgstr ""
 
-#: downloads.html:100 participate.html:61
+#: downloads.html:99 participate.html:60
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
 msgstr ""
 
-#: downloads.html:105 participate.html:66
+#: downloads.html:104 participate.html:65
 msgid "Mac OS X development builds"
 msgstr ""
 
-#: downloads.html:107 participate.html:68
+#: downloads.html:106 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr ""
 
-#: downloads.html:109 participate.html:70
+#: downloads.html:108 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr ""
 
-#: downloads.html:111 participate.html:72
+#: downloads.html:110 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr ""
 
-#: downloads.html:113 participate.html:74
+#: downloads.html:112 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr ""
 
-#: downloads.html:115 participate.html:76
+#: downloads.html:114 participate.html:75
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr ""
 
-#: downloads.html:117 participate.html:78
+#: downloads.html:116 participate.html:77
 msgid "Ubuntu Quantal (12.10) development builds"
 msgstr ""
 
-#: downloads.html:119 participate.html:80
+#: downloads.html:118 participate.html:79
 msgid "Windows development builds"
 msgstr ""
 
-#: downloads.html:121 participate.html:82
+#: downloads.html:120 participate.html:81
 msgid "Buildbot"
 msgstr ""
 
-#: downloads.html:124 participate.html:85
+#: downloads.html:123 participate.html:84
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 
-#: downloads.html:132
+#: downloads.html:131
 msgid "Old downloads"
 msgstr ""
 
-#: downloads.html:139 screenshots.html:9
+#: downloads.html:139 screenshots.html:8
 msgid "Version"
 msgstr ""
 
-#: main.html:6
+#: main.html:5
 msgid "About &amp; Features"
 msgstr ""
 
-#: main.html:10
+#: main.html:9
 msgid "Search and play your local music library."
 msgstr ""
 
-#: main.html:11
+#: main.html:10
 msgid "Listen to internet radio from"
 msgstr ""
 
-#: main.html:25
+#: main.html:24
 msgid "Search and play songs you've uploaded to"
 msgstr ""
 
-#: main.html:28
+#: main.html:27
 msgid "Create smart playlists and dynamic playlists."
 msgstr ""
 
-#: main.html:29
+#: main.html:28
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
 msgstr ""
 
-#: main.html:30
+#: main.html:29
 msgid "CUE sheet support."
 msgstr ""
 
-#: main.html:31
+#: main.html:30
 msgid "Play audio CDs."
 msgstr ""
 
-#: main.html:32
+#: main.html:31
 msgid "Visualisations from"
 msgstr ""
 
-#: main.html:33
+#: main.html:32
 msgid "Lyrics and artist biographies and photos."
 msgstr ""
 
-#: main.html:34
+#: main.html:33
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
 msgstr ""
 
-#: main.html:35
+#: main.html:34
 msgid "Edit tags on MP3 and OGG files, organise your music."
 msgstr ""
 
-#: main.html:36
+#: main.html:35
 msgid "Fetch missing tags from MusicBrainz."
 msgstr ""
 
-#: main.html:37
+#: main.html:36
 msgid "Discover and download Podcasts."
 msgstr ""
 
-#: main.html:38
+#: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
 msgstr ""
 
-#: main.html:39
+#: main.html:38
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr ""
 
-#: main.html:40
+#: main.html:39
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr ""
 
-#: main.html:41
+#: main.html:40
 msgid "Remote control using a"
 msgstr ""
 
-#: main.html:41
+#: main.html:40
 msgid "Wii Remote"
 msgstr ""
 
-#: main.html:41
+#: main.html:40
 msgid "MPRIS or the command-line."
 msgstr ""
 
-#: main.html:42
+#: main.html:41
 msgid "Copy music to your"
 msgstr ""
 
-#: main.html:42
+#: main.html:41
 msgid "iPod, iPhone, MTP or mass-storage USB player."
 msgstr ""
 
-#: main.html:43
+#: main.html:42
 msgid "Queue manager."
 msgstr ""
 
-#: main.html:49
+#: main.html:48
 msgid "is a modern music player and library organizer"
 msgstr ""
 
-#: main.html:53
+#: main.html:52
 msgid "Clementine is a multiplatform music player."
 msgstr ""
 
-#: main.html:54
+#: main.html:53
 msgid "It is inspired by"
 msgstr ""
 
-#: main.html:55
+#: main.html:54
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
 
-#: main.html:62 main.html.py:71
+#: main.html:61 main.html.py:70
 msgid "Download the latest version now"
 msgstr ""
 
-#: main.html:63
+#: main.html:62
 msgid "Download Clementine"
 msgstr ""
 
-#: main.html:72
+#: main.html:71
 msgid "for Windows, Mac OS X and Linux"
 msgstr ""
 
-#: main.html:77
+#: main.html:76
 msgid "Announcement"
 msgstr ""
 
-#: main.html:78
+#: main.html:77
 msgid "Changelog"
 msgstr ""
 
-#: main.html:79
+#: main.html:78
 msgid "Show all downloads"
 msgstr ""
 
-#: main.html:108
+#: main.html:107
 msgid "News"
 msgstr ""
 
-#: participate.html:8
+#: participate.html:7
 msgid "Need help?"
 msgstr ""
 
-#: participate.html:12
+#: participate.html:11
 msgid "Come chat with us at the"
 msgstr ""
 
-#: participate.html:12
+#: participate.html:11
 msgid "channel on Freenode."
 msgstr ""
 
-#: participate.html:13
+#: participate.html:12
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
 msgstr ""
 
-#: participate.html:16
+#: participate.html:15
 msgid "Forum"
 msgstr ""
 
-#: participate.html:18
+#: participate.html:17
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
 msgstr ""
 
-#: participate.html:21
+#: participate.html:20
 msgid "Support and discussion group"
 msgstr ""
 
-#: participate.html:26
+#: participate.html:25
 msgid "Collaborate"
 msgstr ""
 
-#: participate.html:28
+#: participate.html:27
 msgid "Reporting bugs and proposing patches"
 msgstr ""
 
-#: participate.html:30
+#: participate.html:29
 msgid "Clementine uses Google Code for development and issue tracking."
 msgstr ""
 
-#: participate.html:31
+#: participate.html:30
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr ""
 
-#: participate.html:34
+#: participate.html:33
 msgid "Issue tracker"
 msgstr ""
 
-#: participate.html:37
+#: participate.html:36
 msgid "Translating the interface"
 msgstr ""
 
-#: participate.html:39
+#: participate.html:38
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
 msgstr ""
 
-#: participate.html:40
+#: participate.html:39
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr ""
 
-#: participate.html:43
+#: participate.html:42
 msgid "Transifex translations"
 msgstr ""
 
-#: participate.html:46
+#: participate.html:45
 msgid "Hacking"
 msgstr ""
 
-#: participate.html:57
+#: participate.html:56
 msgid "How to compile Clementine from source"
 msgstr ""
 
-#: participate.html:93
+#: participate.html:92
 msgid "Social Networking"
 msgstr ""
 
-#: participate.html:95
+#: participate.html:94
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr ""
 
-#: participate.html:99
+#: participate.html:98
 msgid "Clementine on Facebook"
 msgstr ""
 
-#: participate.html:102
+#: participate.html:101
 msgid "Clementine on Twitter"
 msgstr ""
 
-#: participate.html:105
+#: participate.html:104
 msgid "Clementine on Last.fm"
 msgstr ""

@@ -3,62 +3,61 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <myrvold.martin@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2012-12-16 15:21+0100\n"
-"PO-Revision-Date: 2012-11-06 23:04+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nn\n"
+"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: base.html:5
 msgid "Clementine Music Player"
-msgstr "Clementine Musikkspelar"
+msgstr ""
 
 #: base.html:36
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 #: base.html:37 downloads.html:2
 msgid "Downloads"
-msgstr "Nedlastingar"
+msgstr ""
 
 #: base.html:38 main.html:85 screenshots.html:2
 msgid "Screenshots"
-msgstr "Skjermbilete"
+msgstr ""
 
 #: base.html:39 participate.html:2
 msgid "Participate"
-msgstr "Deltek"
+msgstr ""
 
 #: base.html:43
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Ein musikkspelar inspirert av Amarok 1.4 som fungerar på fleire plattformar"
+msgstr ""
 
 #: base.html:68
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine er Åpen Programvare under GPL v3. Denne nettsida har lisens under CC-BY-SA."
+msgstr ""
 
 #: base.html:69
 msgid "Development by"
-msgstr "Utvikla av"
+msgstr ""
 
 #: base.html:70 main.html:21
 msgid "and"
-msgstr "og"
+msgstr ""
 
 #: base.html:72
 msgid "Website by"
-msgstr "Nettsida av"
+msgstr ""
 
 #: data.py:8
 msgid "Podcasts"
@@ -94,7 +93,7 @@ msgstr ""
 
 #: data.py:20
 msgid "Lyrics and track slider tooltip"
-msgstr "Tekst og spor verktøytips"
+msgstr ""
 
 #: data.py:21
 msgid "MusicBrainz fixing untagged files"
@@ -324,11 +323,11 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr "Siste nedlastingar"
+msgstr ""
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Få den siste stabile versjonen av Clementine for ditt operativsystem."
+msgstr ""
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -336,7 +335,7 @@ msgstr ""
 
 #: downloads.html:52
 msgid "Ubuntu PPA"
-msgstr "Ubuntu PPA"
+msgstr ""
 
 #: downloads.html:54
 msgid ""
