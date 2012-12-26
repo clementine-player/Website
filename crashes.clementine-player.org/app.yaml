@@ -1,14 +1,49 @@
-application: clementine-crashes
+application: clementine-crashes-hrd
 version: dev
-runtime: python
+runtime: python27
 api_version: 1
+threadsafe: true
+
+libraries:
+- name: jinja2
+  version: latest
 
 handlers:
 - url: /getuploadurl
-  script: upload.py
+  script: upload.app
 
-- url: /uploadhandler
-  script: upload.py
+- url: /upload/.*
+  script: upload.app
+
+- url: /_uploadhandler/.*
+  script: upload.app
+
+
+- url: /symbolcheck
+  script: download.app
+
+- url: /symbols/.*
+  script: download.app
+
+
+- url: /rawcrash/.*
+  script: processing.app
+
+- url: /processcrash/.*
+  script: processing.app
+
+
+- url: /crashes.*
+  script: crashes.app
+
+- url: /crash/.*
+  script: crashes.app
+
+
+- url: /static
+  static_dir: static
+  expiration: "7d"
+
 
 - url: /.*
-  script: index.py
+  script: index.app

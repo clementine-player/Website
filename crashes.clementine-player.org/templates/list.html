@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Clementine Crashes</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["table"]});
+    </script>
+    <script type="text/javascript" src="/static/list.js"></script>
+  </head>
+
+  <body>
+    <div id="crash_table"></div>
+  </body>
+
+  <script>
+    var crash_data = {{ crash_data }};
+  </script>
+</html>

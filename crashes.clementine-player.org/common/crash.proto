@@ -1,0 +1,40 @@
+message Metadata {
+  optional string os = 1;
+  optional string os_version = 2;
+
+  optional string cpu = 3;
+  optional string cpu_info = 4;
+  optional int32 cpu_count = 5;
+
+  optional string crash_reason = 6;
+  optional string crash_address = 7;
+  optional int32 crash_thread = 8;
+}
+
+message Module {
+  optional string code_file = 1;
+  optional string version = 2;
+  optional string debug_file = 3;
+  optional string debug_hash = 4;
+  optional string start_address = 5;
+  optional string end_address = 6;
+  optional bool is_main_module = 7;
+}
+
+message Frame {
+  optional string module = 1;
+  optional string function = 2;
+  optional string filename = 3;
+  optional int32 line = 4;
+  optional string offset = 5;
+}
+
+message Thread {
+  repeated Frame frame = 1;
+}
+
+message Crash {
+  optional Metadata metadata = 1;
+  repeated Module module = 2;
+  repeated Thread thread = 3;
+}
