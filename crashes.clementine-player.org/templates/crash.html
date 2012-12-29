@@ -1,0 +1,118 @@
+{% extends "templates/base.html" %}
+{% block content %}
+  {% if not crash_pb %}
+    <div class="alert">
+      <h4>Warning!</h4>
+      This crash report is still being processed.  It can take between 30-60
+      minutes for the stack trace to be shown here.
+    </div>
+  {% endif %}
+
+  <a name="crash-report-metadata"></a>
+  <h3>Crash report metadata</h3>
+  <table class="table table-condensed table-bordered">
+    <tr>
+      <th>Time reported</th>
+      <td>{{ info.time_reported.isoformat() }}</td>
+    </tr>
+    <tr>
+      <th>Application version</th>
+      <td>{{ info.version }}</td>
+    </tr>
+    <tr>
+      <th>Qt version</th>
+      <td>{{ info.qt_version }}</td>
+    </tr>
+    <tr>
+      <th>OS</th>
+      <td>{{ info.os }}</td>
+    </tr>
+    <tr>
+      <th>OS version</th>
+      <td>{{ info.os_version }}</td>
+    </tr>
+  </table>
+
+  {% if crash_pb %}
+    <a name="minidump-metadata"></a>
+    <h3>Minidump metadata</h3>
+    <table class="table table-condensed table-bordered">
+      <tr>
+        <th>OS</th>
+        <td>{{ crash_pb.metadata.os }}</td>
+      </tr>
+      <tr>
+        <th>OS version</th>
+        <td>{{ crash_pb.metadata.os_version }}</td>
+      </tr>
+      <tr>
+        <th>CPU</th>
+        <td>{{ crash_pb.metadata.cpu }}</td>
+      </tr>
+      <tr>
+        <th>CPU info</th>
+        <td>{{ crash_pb.metadata.cpu_info }}</td>
+      </tr>
+      <tr>
+        <th>CPU count</th>
+        <td>{{ crash_pb.metadata.cpu_count }}</td>
+      </tr>
+      <tr>
+        <th>Crash reason</th>
+        <td>{{ crash_pb.metadata.crash_reason }}</td>
+      </tr>
+      <tr>
+        <th>Crash address</th>
+        <td>{{ crash_pb.metadata.crash_address }}</td>
+      </tr>
+      <tr>
+        <th>Crashed thread</th>
+        <td>{{ crash_pb.metadata.crash_thread }}</td>
+      </tr>
+    </table>
+
+    <h3>Stack traces</h3>
+    <table class="table table-condensed table-stacktrace">
+      {% for thread in crash_pb.thread %}
+        <tr class="thread-title">
+          <th colspan="4">
+            <a name="thread-{{ loop.index0 }}"></a>
+            Thread {{ loop.index0 }}
+            {% if loop.index0 == crash_pb.metadata.crash_thread %}
+              <span class="label label-important">Crashed</span>
+            {% endif %}
+          </th>
+        </tr>
+
+        {% for frame in thread.frame %}
+          <tr>
+            <td class="frame-number">{{ loop.index }}</td>
+            <td>{{ frame.module }}</td>
+            <td>{{ frame.function }}</td>
+            <td>
+              {% if frame.filename and frame.line %}
+                {{ frame.filename }}:{{ frame.line }}
+              {% else %}
+                {{ frame.offset }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+    {% endfor %}
+    </table>
+
+    <a name="loaded-modules"></a>
+    <h3>Loaded modules</h3>
+    <table class="table table-condensed">
+      {% for module in crash_pb.module %}
+        <tr>
+          <td>{{ module.code_file }}</td>
+          <td>{{ module.debug_hash }}</td>
+          <td>{{ module.start_address }}</td>
+          <td>{{ module.end_address }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+  {% endif %}
+{% endblock %}

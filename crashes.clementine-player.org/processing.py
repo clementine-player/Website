@@ -68,7 +68,6 @@ class ProcessCrashPage(utils.ExceptionHandlerMixin, webapp2.RequestHandler):
       raise utils.BadRequest("Missing required parameter 'task_id'")
 
     # Try parsing the protobuf to check it's valid.
-    logging.info("crash_pb_b64: %r", serialised_crash_pb)
     try:
       crash_pb2.Crash().MergeFromString(serialised_crash_pb)
     except googlepb.protobuf.message.DecodeError, ex:

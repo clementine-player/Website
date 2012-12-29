@@ -15,6 +15,10 @@ class CrashInfo(db.Model):
   os         = db.StringProperty()
   os_version = db.StringProperty()
 
+  # On Linux we get the whole of /etc/lsb-release in os_version.  Try to shorten
+  # it a bit for this field.
+  short_os_version = db.StringProperty()
+
   # This random string is generated when the crash is reported and passed to the
   # processor in the task queue payload.  The processor must pass it back to
   # retreive the raw blob.

@@ -163,12 +163,12 @@ class Processor(object):
     return crash_pb
 
 
-def ProcessTask(task, payload, processor):
+def ProcessTask(task_id, crash_key, access_token, processor):
   # Fetch the crash report
   url = RAW_CRASH_URL % (processor.symbol_cache.crashreporting_hostname,
-                         payload["key"])
+                         crash_key)
   auth_headers = {
-      "Authorization": "Token %s" % payload["access_token"],
+      "Authorization": "Token %s" % access_token,
   }
   response = requests.get(url, headers=auth_headers)
 
@@ -187,13 +187,12 @@ def ProcessTask(task, payload, processor):
 
   # Serialise the crash and send it back to appengine.
   url = PROCESS_CRASH_URL % (processor.symbol_cache.crashreporting_hostname,
-                             payload["key"])
-  logging.info("crash_pb: %r", crash_pb.SerializeToString())
+                             crash_key)
   response = requests.post(url,
       headers=auth_headers,
       data={
           "crash_pb_b64": base64.b64encode(crash_pb.SerializeToString()),
-          "task_id": task["id"],
+          "task_id": task_id,
       },
   )
   if not response.ok:
@@ -221,7 +220,8 @@ def PollQueue(task_api, processor):
         payload = json.loads(base64.b64decode(task["payloadBase64"]))
         logging.info("Processing task: %s", payload)
 
-        ProcessTask(task, payload, processor)
+        ProcessTask(task["id"], payload["key"], payload["access_token"],
+                    processor)
       except Exception:
         logging.exception("Error processing task")
 
@@ -237,6 +237,8 @@ def main():
   parser.add_argument("--symbols_directory", default=DEFAULT_SYMBOLS_DIRECTORY)
   parser.add_argument("--stackwalk_binary", default=DEFAULT_STACKWALK_BINARY)
   parser.add_argument("--crashreporting_hostname", default=DEFAULT_CRASHREPORTING_HOSTNAME)
+  parser.add_argument("--onlyone", metavar="key:access_token",
+      help="Process a single crash, don't poll the task queue")
   args = parser.parse_args()
 
   gflags.FLAGS.SetDefault("auth_local_webserver", False)
@@ -264,8 +266,13 @@ def main():
   cache = SymbolCache(args.symbols_directory, args.crashreporting_hostname)
   processor = Processor(cache, args.stackwalk_binary)
 
-  # Start polling for new tasks.
-  PollQueue(task_api, processor)
+  if args.onlyone:
+    # Just process this one crash.
+    key, access_token = args.onlyone.split(":")
+    ProcessTask("<unknown>", key, access_token, processor)
+  else:
+    # Start polling for new tasks.
+    PollQueue(task_api, processor)
 
 
 if __name__ == "__main__":

@@ -6,6 +6,7 @@ from google.appengine.ext.webapp import blobstore_handlers
 import json
 import logging
 import random
+import re
 import string
 import urllib
 import webapp2
@@ -29,6 +30,8 @@ ALLOWED_CRASH_ARGUMENTS = [
 
 ACCESS_TOKEN_LENGTH = 64
 ACCESS_TOKEN_ALPHABET = string.ascii_letters + string.digits
+
+LINUX_OS_VERSION_RE = re.compile(r'([A-Z_]+)=(?:([\w]+)|"([^"]+)")')
 
 
 class DeprecatedPage(webapp2.RequestHandler):
@@ -64,6 +67,23 @@ class UploadHandlerPage(utils.ExceptionHandlerMixin,
     return ''.join(random.choice(ACCESS_TOKEN_ALPHABET)
                    for _ in xrange(ACCESS_TOKEN_LENGTH))
 
+  def ShortenOSVersion(self, os_version):
+    fields = {
+        key: unquoted_value or quoted_value
+        for (key, unquoted_value, quoted_value)
+        in LINUX_OS_VERSION_RE.findall(os_version)
+    }
+
+    if "DISTRIB_DESCRIPTION" in fields:
+      return fields["DISTRIB_DESCRIPTION"]
+
+    if "DISTRIB_ID" in fields:
+      if "DISTRIB_RELEASE" in fields:
+        return "%s %s" % (fields["DISTRIB_ID"], fields["DISTRIB_RELEASE"])
+      return fields["DISTRIB_ID"]
+
+    return os_version
+
   def HandleCrash(self):
     blob = self.get_uploads()[0]
     with utils.FragileBlob(blob):
@@ -75,6 +95,9 @@ class UploadHandlerPage(utils.ExceptionHandlerMixin,
         value = self.request.get(arg, default_value=None)
         if value is not None:
           setattr(crash_info, arg, value)
+
+      if crash_info.os_version:
+        crash_info.os_version = self.ShortenOSVersion(crash_info.os_version)
 
       # Generate a random access token
       crash_info.access_token = self.CreateRandomAccessToken()
