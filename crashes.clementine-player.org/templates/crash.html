@@ -91,7 +91,7 @@
             <td>{{ frame.function }}</td>
             <td>
               {% if frame.filename and frame.line %}
-                {{ frame.filename }}:{{ frame.line }}
+                {{ LinkifySource(frame.filename, frame.line) }}
               {% else %}
                 {{ frame.offset }}
               {% endif %}
