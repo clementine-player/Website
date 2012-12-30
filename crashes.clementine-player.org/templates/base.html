@@ -16,6 +16,15 @@
         <a class="brand" href="/">Clementine Crashes</a>
         <ul class="nav">
           <li class="active"><a href="/">All crashes</a></li>
+
+        </ul>
+        <ul class="nav pull-right">
+          {% if user %}
+            <li><a href="{{ logout_url }}">Logout</a></li>
+            <span class="navbar-text">{{ user.email() }}</span>
+          {% else %}
+            <li><a href="{{ login_url }}">Login</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>

@@ -3,8 +3,15 @@
   {% if not crash_pb %}
     <div class="alert">
       <h4>Warning!</h4>
-      This crash report is still being processed.  It can take between 30-60
-      minutes for the stack trace to be shown here.
+      <p>This crash report is still being processed.  It can take between 30-60
+      minutes for the stack trace to be shown here.</p>
+      {% if user_is_admin %}
+        <p>If you're impatient you can process this crash report locally:</p>
+        <pre>
+python processor/main.py --symbols_directory /tmp/symbols \
+                         --crashreporting_hostname {{ hostname }} \
+                         --onlyone {{ info.key() }}:{{ info.access_token }} </pre>
+      {% endif %}
     </div>
   {% endif %}
 
@@ -70,7 +77,27 @@
         <td>{{ crash_pb.metadata.crash_thread }}</td>
       </tr>
     </table>
+  {% endif %}
 
+  {% if log_size_bytes %}
+    <h3>Log</h3>
+    <p>A {{ log_size_bytes|filesizeformat }} log file was uploaded with this
+    crash report.</p>
+
+    {% if user_is_admin and log_text %}
+      <pre class="logtext">{{ log_text|FormatLogText }}</pre>
+    {% else %}
+      <div class="alert">
+        Log files may contain personal information and are only visible to
+        administrators.
+        {% if not user %}
+          <a href="{{ login_url }}">Login</a>.
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endif %}
+
+  {% if crash_pb %}
     <h3>Stack traces</h3>
     <table class="table table-condensed table-stacktrace">
       {% for thread in crash_pb.thread %}

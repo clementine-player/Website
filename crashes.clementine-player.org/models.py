@@ -5,13 +5,15 @@ class CrashInfo(db.Model):
   # The minidump's key in blobstore
   blob_key = blobstore.BlobReferenceProperty()
 
+  # The log file's key in blobstore.  Might not be present.
+  log_blob_key = blobstore.BlobReferenceProperty()
+
   # The time the crash was reported
   time_reported = db.DateTimeProperty(auto_now_add=True)
 
   # Fields provided by the client
   version    = db.StringProperty()
   qt_version = db.StringProperty()
-  exe_md5    = db.StringProperty()
   os         = db.StringProperty()
   os_version = db.StringProperty()
 

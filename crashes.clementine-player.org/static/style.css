@@ -18,6 +18,29 @@ table.table td {
 .table-stacktrace tr.thread-title th {
 }
 
+.logtext {
+  font-size: 9pt;
+}
+
+.logline-DEBUG {
+  color: #555;
+}
+
+.logline-INFO {
+  color: #000;
+}
+
+.logline-WARN {
+  color: #F00;
+}
+
+.logline-ERROR {
+  color: #F00;
+  font-weight: bold;
+}
+
+
+
 
 /* Sidenav for Docs
 -------------------------------------------------- */

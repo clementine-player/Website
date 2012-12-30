@@ -23,7 +23,6 @@ ALLOWED_UPLOAD_TYPES = {
 ALLOWED_CRASH_ARGUMENTS = [
   "version",
   "qt_version",
-  "exe_md5",
   "os",
   "os_version",
 ]
@@ -85,24 +84,35 @@ class UploadHandlerPage(utils.ExceptionHandlerMixin,
     return os_version
 
   def HandleCrash(self):
-    blob = self.get_uploads()[0]
-    with utils.FragileBlob(blob):
-      crash_info = models.CrashInfo(blob_key=blob.key())
+    minidump_blob = self.get_uploads(field_name="data")[0]
 
-      # If the client provided any query arguments then set those on the datastore
-      # entry too.
-      for arg in ALLOWED_CRASH_ARGUMENTS:
-        value = self.request.get(arg, default_value=None)
-        if value is not None:
-          setattr(crash_info, arg, value)
+    try:
+      log_blob = self.get_uploads(field_name="log")[0]
+    except IndexError:
+      log_blob = None
 
-      if crash_info.os_version:
-        crash_info.os_version = self.ShortenOSVersion(crash_info.os_version)
+    with utils.FragileBlob(minidump_blob):
+      with utils.FragileBlob(log_blob):
+        crash_info = models.CrashInfo()
+        crash_info.blob_key = minidump_blob.key()
 
-      # Generate a random access token
-      crash_info.access_token = self.CreateRandomAccessToken()
+        if log_blob is not None:
+          crash_info.log_blob_key = log_blob.key()
 
-      db.put(crash_info)
+        # If the client provided any query arguments then set those on the
+        # datastore entry too.
+        for arg in ALLOWED_CRASH_ARGUMENTS:
+          value = self.request.get(arg, default_value=None)
+          if value is not None:
+            setattr(crash_info, arg, value)
+
+        if crash_info.os_version:
+          crash_info.os_version = self.ShortenOSVersion(crash_info.os_version)
+
+        # Generate a random access token
+        crash_info.access_token = self.CreateRandomAccessToken()
+
+        db.put(crash_info)
 
     # Add the crash report to the task queue.
     task_payload = {

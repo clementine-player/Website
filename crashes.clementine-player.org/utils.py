@@ -45,6 +45,7 @@ class FragileBlob(object):
 
   def __exit__(self, exc_type, exc_value, traceback):
     if exc_type is not None:
-      logging.info("Deleting blob '%s' after exception in handler",
-                   self.blob.key())
-      self.blob.delete()
+      if self.blob is not None:
+        logging.info("Deleting blob '%s' after exception in handler",
+                     self.blob.key())
+        self.blob.delete()
