@@ -324,9 +324,9 @@ NEWS = [
   # For timestamp: python -c "import time; print int(time.time())"
 ]
 LANGUAGES = [
-  "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_br", "sv", "uk",
-  "vi", "sl", "fi", "br", "tr_tr", "ca", "hr", "lt", "cs", "el", "ka", "uz",
-  "eu", "nl", "pl", "zh_cn", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_tw",
+  "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
+  "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt", "cs", "el", "ka", "uz",
+  "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
 ]
 
 LANGUAGE_NAMES = {
@@ -354,8 +354,8 @@ LANGUAGE_NAMES = {
   "km": u"Cambodian",
   "ca": u"Català",
   "zh": u"Chinese",
-  "zh_cn": u"中文",
-  "zh_tw": u"繁體字",
+  "zh_CN": u"中文",
+  "zh_TW": u"繁體字",
   "co": u"Corsican",
   "hr": u"hrvatski",
   "cs": u"čeština",
@@ -423,7 +423,7 @@ LANGUAGE_NAMES = {
   "fa": u"Persian",
   "pl": u"polski",
   "pt": u"Português",
-  "pt_br": u"Português Brasileiro",
+  "pt_BR": u"Português Brasileiro",
   "pa": u"Punjabi",
   "qu": u"Quechua",
   "rm": u"RhaetoRomance",
@@ -457,7 +457,7 @@ LANGUAGE_NAMES = {
   "to": u"Tonga",
   "ts": u"Tsonga",
   "tr": u"Türkçe",
-  "tr_tr": u"Türkçe",
+  "tr_TR": u"Türkçe",
   "tk": u"Turkmen",
   "tw": u"Twi",
   "ug": u"Uigur",

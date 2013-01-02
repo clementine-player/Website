@@ -134,7 +134,7 @@ class BasePage(webapp2.RequestHandler):
     accepted_languages_header = self.request.headers['Accept-Language']
     accepted_languages = [language.split(';')[0].replace('-', '_').lower() for language in accepted_languages_header.split(',')]
     for accepted_language in accepted_languages:
-      if accepted_language in LANGUAGES:
+      if accepted_language in [language.lower() for language in LANGUAGES]:
         return accepted_language
     return None
 
