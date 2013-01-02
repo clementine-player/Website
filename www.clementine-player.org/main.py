@@ -34,9 +34,11 @@ class BasePage(webapp2.RequestHandler):
     root_page = "/"
 
     if language is None:
-      pass
+      language = self.GetLanguageFromRequest()
     else:
       root_page = "/%s/" % language
+
+    if language is not None:
       i18n.get_i18n().set_locale(language)
 
     if extra_params is None:
@@ -126,6 +128,15 @@ class BasePage(webapp2.RequestHandler):
     return copy.deepcopy([x for x in DOWNLOADS if x['os'] == os
                                               and x['arch'] == arch
                                               and x['ver'] == LATEST_VERSION][0])
+
+  # Similar to django.utils.translation.get_language_from_request which has no equivalent in jinja2
+  def GetLanguageFromRequest(self):
+    accepted_languages_header = self.request.headers['Accept-Language']
+    accepted_languages = [language.split(';')[0].replace('-', '_').lower() for language in accepted_languages_header.split(',')]
+    for accepted_language in accepted_languages:
+      if accepted_language in LANGUAGES:
+        return accepted_language
+    return None
 
 
 class MainPage(BasePage):
