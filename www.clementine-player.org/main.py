@@ -131,6 +131,9 @@ class BasePage(webapp2.RequestHandler):
 
   # Similar to django.utils.translation.get_language_from_request which has no equivalent in jinja2
   def GetLanguageFromRequest(self):
+    if not 'Accept-Language' in self.request.headers:
+      return None
+
     accepted_languages_header = self.request.headers['Accept-Language']
     accepted_languages = [language.split(';')[0].replace('-', '_').lower() for language in accepted_languages_header.split(',')]
     for accepted_language in accepted_languages:
