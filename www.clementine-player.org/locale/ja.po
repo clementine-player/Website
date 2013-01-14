@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Yoshihito YOSHINO <yy.y.ja.jp+transifex@gmail.com>, 2012.
+# Yoshihito YOSHINO <yy.y.ja.jp+transifex@gmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2012-12-23 03:57+0000\n"
+"PO-Revision-Date: 2013-01-12 15:59+0000\n"
 "Last-Translator: Yoshihito YOSHINO <yy.y.ja.jp+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -306,7 +306,7 @@ msgstr ""
 
 #: data.py:312
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "バージョン 1.1 リリース"
 
 #: data.py:313
 msgid ""
