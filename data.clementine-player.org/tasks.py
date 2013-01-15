@@ -50,30 +50,27 @@ class SnapshotTask(webapp.RequestHandler):
     db.put(puts)
 
 
+# This should try to serve from Zaphod as much as possible, as Cloudfront can
+# get quite expensive.
 class CheckRainyMood(webapp.RequestHandler):
   def get(self):
-    url = memcache.get(clementine.RAINYMOOD_MEMCACHE_KEY)
-    if url is None:
-      url = clementine.RAINYMOOD_URL
-      memcache.set(clementine.RAINYMOOD_MEMCACHE_KEY, url)
+    # Check Zaphod is serving
     try:
-      response = urlfetch.fetch(url, method=urlfetch.HEAD, deadline=10)
+      response = urlfetch.fetch(
+          clementine.RAINYMOOD_URL, method=urlfetch.HEAD, deadline=10)
       if response.status_code < 200 or response.status_code > 300:
-        self.Switch(url, 'Check failed with code: %d' % response.status_code)
+        self.SwitchToBackup()
+      else:
+        memcache.set(
+            clementine.RAINYMOOD_MEMCACHE_KEY, clementine.RAINYMOOD_URL)
     except urlfetch.Error, e:
-      self.Switch(url, 'Check failed with error: %s' % e)
+      self.SwitchToBackup()
 
-  def Switch(self, current_url, reason):
-    if current_url == clementine.RAINYMOOD_URL:
-      new_url = clementine.BACKUP_RAINYMOOD_URL
-    else:
-      new_url = clementine.RAINYMOOD_URL
-    memcache.set(clementine.RAINYMOOD_MEMCACHE_KEY, new_url)
-    message = 'Rainy mood check failed:\n%s\nSwitched to: %s' % (reason, new_url)
-    try:
-      xmpp.send_message('john.maguire@gmail.com', message)
-    except:
-      logging.error(message)
+  def SwitchToBackup(self):
+    # Zaphod is down; switch to Cloudfront.
+    logging.error('Switching to backup rainymood url')
+    memcache.set(
+        clementine.RAINYMOOD_MEMCACHE_KEY, clementine.RAINYMOOD_BACKUP_URL)
 
 
 app = webapp.WSGIApplication(
