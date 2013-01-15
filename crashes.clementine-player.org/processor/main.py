@@ -244,7 +244,8 @@ def main():
   gflags.FLAGS.SetDefault("auth_local_webserver", False)
 
   logging.basicConfig(level=logging.DEBUG,
-                      format="%(asctime)s  %(levelname)s  %(message)s")
+                      format="%(asctime)s %(levelname)-7s %(message)s")
+  logging.getLogger("requests").setLevel(logging.WARNING)
 
   # Do the oauth stuff.
   oauth_cred_filename = os.path.expanduser(OAUTH2_CREDENTIALS_FILENAME)
