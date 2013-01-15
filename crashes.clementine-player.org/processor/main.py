@@ -134,7 +134,7 @@ class Processor(object):
           frame = thread.frame[frame_no]
 
         frame.module = parts[2]
-        frame.function = parts[3]
+        frame.function = self.CPPDemangle(parts[3])
         frame.filename = parts[4]
         frame.offset = parts[6]
 
@@ -142,6 +142,17 @@ class Processor(object):
           frame.line = int(parts[5])
 
     return ret
+
+  def CPPDemangle(self, symbol):
+    handle = subprocess.Popen(
+        ["c++filt", "-n", symbol], stdout=subprocess.PIPE)
+    output = handle.communicate()[0]
+
+    if handle.returncode == 0:
+      return output.strip()
+
+    logging.warning("Failed to demangle C++ symbol '%s'", symbol)
+    return symbol
 
   def ProcessDump(self, filename):
     # Run stalkwalk to get a list of modules we need to load symbols for.
