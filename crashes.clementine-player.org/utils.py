@@ -1,5 +1,15 @@
-import functools
+import base64
+import time
 import logging
+import urllib
+
+import Crypto.Hash.SHA256 as SHA256
+import Crypto.PublicKey.RSA as RSA
+import Crypto.Signature.PKCS1_v1_5 as PKCS1_v1_5
+
+import service_account_secrets
+
+DEFAULT_SIGNED_URL_EXPIRATION_SECS = 15 * 60  # 15 minutes
 
 
 class BadRequest(Exception):
@@ -21,31 +31,36 @@ class ExceptionHandlerMixin(object):
     logging.warning("Bad request raised by handler: %s", exception)
 
 
-def CheckAllowedUploadType(allowed_types):
-  def Decorator(func):
-    @functools.wraps(func)
-    def Wrapper(self, request_type):
-      if request_type not in allowed_types:
-        raise BadRequest(
-            "Bad upload type (expected one of %s)" % allowed_types)
+def SignedUrlParams(resource, verb, expiration, content_type):
+  expiration = str(int(expiration))
 
-      return func(self, request_type)
-    return Wrapper
-  return Decorator
+  # Generate the signature
+  string_to_sign = '\n'.join([
+    verb,
+    '',  # Content-MD5
+    content_type,
+    expiration,
+    resource,
+  ])
+
+  key = RSA.importKey(service_account_secrets.CLIENT_PRIVATE_KEY)
+  shahash = SHA256.new(string_to_sign)
+  signer = PKCS1_v1_5.new(key)
+  signature_bytes = signer.sign(shahash)
+  signature_b64 = base64.b64encode(signature_bytes)
+
+  return {
+    'GoogleAccessId': service_account_secrets.CLIENT_ID_EMAIL,
+    'Expires': expiration,
+    'Signature': signature_b64,
+  }
 
 
-class FragileBlob(object):
-  """Context manager that deletes the blob if an exception occurs."""
+def MakeSignedUrl(resource, verb='PUT', expiration=None,
+                  content_type='application/gzip'):
+  if expiration is None:
+    expiration = time.time() + DEFAULT_SIGNED_URL_EXPIRATION_SECS
 
-  def __init__(self, blob):
-    self.blob = blob
-
-  def __enter__(self):
-    pass
-
-  def __exit__(self, exc_type, exc_value, traceback):
-    if exc_type is not None:
-      if self.blob is not None:
-        logging.info("Deleting blob '%s' after exception in handler",
-                     self.blob.key())
-        self.blob.delete()
+  params = SignedUrlParams(resource, verb, expiration, content_type)
+  return 'https://storage.googleapis.com%s?%s' % (
+      resource, urllib.urlencode(params))

@@ -10,7 +10,7 @@
         <pre>
 python processor/main.py --symbols_directory /tmp/symbols \
                          --crashreporting_hostname {{ hostname }} \
-                         --onlyone {{ info.key() }}:{{ info.access_token }} </pre>
+                         --onlyone {{ info.key().id() }}</pre>
       {% endif %}
     </div>
   {% endif %}
@@ -79,13 +79,17 @@ python processor/main.py --symbols_directory /tmp/symbols \
     </table>
   {% endif %}
 
-  {% if log_size_bytes %}
+  {% if has_log_file %}
     <h3>Log</h3>
-    <p>A {{ log_size_bytes|filesizeformat }} log file was uploaded with this
-    crash report.</p>
+    <p>A log file was uploaded with this crash report.</p>
 
     {% if user_is_admin and log_text %}
       <pre class="logtext">{{ log_text|FormatLogText }}</pre>
+    {% elif log_error %}
+      <div class="alert alert-error">
+        An error occurred fetching the log file:
+        <pre>{{ log_error|escape }}</pre>
+      </div>
     {% else %}
       <div class="alert">
         Log files may contain personal information and are only visible to

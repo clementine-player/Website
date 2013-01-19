@@ -1,3 +1,4 @@
+from google.appengine.api import files
 from google.appengine.api import users
 
 import jinja2
@@ -171,13 +172,17 @@ class CrashPage(BasePage):
 
     # Get the log text if the user is an administrator.
     log_text = None
-    log_size_bytes = 0
-    if crash_info.log_blob_key:
-      log_info = crash_info.log_blob_key
-      log_size_bytes = log_info.size
+    log_error = None
+    has_log_file = False
+    if crash_info.log_gs_read_path:
+      has_log_file = True
       if users.is_current_user_admin():
-        reader = log_info.open()
-        log_text = reader.read()
+        try:
+          # Read only the first 1MB of the log.
+          with files.open('/gs' + crash_info.log_gs_read_path, 'r') as handle:
+            log_text = handle.read(2 ** 20)
+        except files.Error as ex:
+          log_error = str(ex)
 
     # Render the template
     self.Render('templates/crash.html', {
@@ -185,7 +190,8 @@ class CrashPage(BasePage):
       "info": crash_info,
       "crash_pb": crash_pb,
       "log_text": log_text,
-      "log_size_bytes": log_size_bytes,
+      "log_error": log_error,
+      "has_log_file": has_log_file,
       "LinkifySource": MakeLinkifySource(crash_info.version),
     })
 

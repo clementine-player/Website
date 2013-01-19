@@ -7,31 +7,23 @@ threadsafe: true
 libraries:
 - name: jinja2
   version: latest
+- name: pycrypto
+  version: latest
 
 handlers:
 # Deprecated URL used by old versions of Clementine.
 - url: /getuploadurl
   script: upload.app
 
-# Used when uploading crashes and symbols.
-- url: /upload/.*
-  script: upload.app
+# New API
+- url: /api/upload/symbols
+  script: symbols.app
 
-- url: /_uploadhandler/.*
-  script: upload.app
+- url: /api/upload/minidump
+  script: minidumps.app
 
-# Used by the crash processor.
-- url: /symbolcheck
-  script: download.app
-
-- url: /symbols/.*
-  script: download.app
-
-- url: /rawcrash/.*
-  script: processing.app
-
-- url: /processcrash/.*
-  script: processing.app
+- url: /api/upload/crashreport
+  script: minidumps.app
 
 # Static content.
 - url: /static

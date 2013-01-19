@@ -24,12 +24,15 @@ DEFAULT_CRASHREPORTING_HOSTNAME = "crashes.clementine-player.org"
 DEFAULT_SYMBOLS_DIRECTORY = "symbols"
 DEFAULT_STACKWALK_BINARY = "minidump_stackwalk"
 
-SYMBOLS_URL = "http://%s/symbols/%s/%s"
-RAW_CRASH_URL = "http://%s/rawcrash/%s"
-PROCESS_CRASH_URL = "http://%s/processcrash/%s"
+SYMBOLS_URL = "http://storage.googleapis.com/clementine_crashes_symbols/%s/%s"
+MINIDUMP_URL = "http://storage.googleapis.com/clementine_crashes_minidumps/%s"
+PROCESS_CRASH_URL = "http://%s/api/upload/crashreport"
 
 OAUTH2_CREDENTIALS_FILENAME = "~/.clementine-crash-processor.oauth2"
-OAUTH2_AUTHORIZATION_SCOPE = "https://www.googleapis.com/auth/taskqueue"
+OAUTH2_AUTHORIZATION_SCOPES = [
+    "https://www.googleapis.com/auth/taskqueue",
+    "https://www.googleapis.com/auth/devstorage.read_only",
+]
 OAUTH2_CLIENT_ID = "710082478004.apps.googleusercontent.com"
 OAUTH2_CLIENT_SECRET = "nrpCC58ECHs7YXY4z-m5pFRl"
 
@@ -45,41 +48,37 @@ class FetchSymbolsError(Exception):
 
 
 class SymbolCache(object):
-  def __init__(self, directory, crashreporting_hostname):
+  def __init__(self, directory, http):
     self.directory = directory
-    self.crashreporting_hostname = crashreporting_hostname
+    self.http = http
     self.disk_cache = lrudiskcache.LRUDiskCache(directory)
-    self.missing_symbols = set()
 
   def CacheKey(self, binary_name, binary_hash):
     return os.path.join(binary_name, binary_hash, "%s.sym" % binary_name)
 
   def LoadSymbols(self, binary_name, binary_hash):
     key = self.CacheKey(binary_name, binary_hash)
-    if key in self.missing_symbols or self.disk_cache.Contains(key):
+    if self.disk_cache.ContainsMissing(key) or self.disk_cache.Contains(key):
       return
 
     # Get the symbols from the server.
-    url = SYMBOLS_URL % (self.crashreporting_hostname, binary_name, binary_hash)
-    response = requests.get(url, stream=True)
+    url = SYMBOLS_URL % (binary_name, binary_hash)
+    response, content = self.http.request(url)
 
-    if response.status_code == 404:
+    if response.status == 404:
       # These symbols are probably never going to exist, so don't request them
       # again.
       logging.info("Missing symbols for %s (%s)", binary_name, binary_hash)
-      self.missing_symbols.add(key)
+      self.disk_cache.SetMissing(key)
       return
 
-    if not response.ok:
-      raise FetchSymbolsError(response.status_code, response.text)
+    if response.status != 200:
+      raise FetchSymbolsError(response.status, content)
 
     logging.info("Downloaded symbols for %s (%s)", binary_name, binary_hash)
 
     # Decompress the data and write it to the cache.
-    buf = cStringIO.StringIO()
-    shutil.copyfileobj(response.raw, buf)
-    buf.seek(0)
-
+    buf = cStringIO.StringIO(content)
     gzip_file = gzip.GzipFile(fileobj=buf)
     self.disk_cache.WriteFile(key, gzip_file.read())
 
@@ -174,45 +173,38 @@ class Processor(object):
     return crash_pb
 
 
-def ProcessTask(task_id, crash_key, access_token, processor):
+def ProcessTask(task_id, crash_key, http, crashreporting_hostname, processor):
   # Fetch the crash report
-  url = RAW_CRASH_URL % (processor.symbol_cache.crashreporting_hostname,
-                         crash_key)
-  auth_headers = {
-      "Authorization": "Token %s" % access_token,
-  }
-  response = requests.get(url, headers=auth_headers)
+  url = MINIDUMP_URL % crash_key
+  response, content = http.request(url)
 
-  if not response.ok:
+  if response.status != 200:
     logging.warning("Request for '%s' failed with status %d.  Content: %s",
-        url, response.status_code, response.text)
+        url, response.status, content)
     return
 
   with tempfile.NamedTemporaryFile() as temp_file:
     # Write it to a temporary file.
-    temp_file.write(response.content)
+    temp_file.write(content)
     temp_file.flush()
 
     # Analyze it.
     crash_pb = processor.ProcessDump(temp_file.name)
 
   # Serialise the crash and send it back to appengine.
-  url = PROCESS_CRASH_URL % (processor.symbol_cache.crashreporting_hostname,
-                             crash_key)
-  response = requests.post(url,
-      headers=auth_headers,
-      data={
-          "crash_pb_b64": base64.b64encode(crash_pb.SerializeToString()),
-          "task_id": task_id,
-      },
-  )
+  url = PROCESS_CRASH_URL % crashreporting_hostname
+  response = requests.post(url, data={
+      "crash_key": crash_key,
+      "crash_pb_b64": base64.b64encode(crash_pb.SerializeToString()),
+      "task_id": task_id,
+  })
   if not response.ok:
     logging.warning("Failed to post updated crash proto to '%s' "
                     "- status %d.  Content: %s",
         url, response.status_code, response.text)
 
 
-def PollQueue(task_api, processor):
+def PollQueue(task_api, http, crashreporting_hostname, processor):
   while True:
     start_time = time.time()
 
@@ -231,8 +223,9 @@ def PollQueue(task_api, processor):
         payload = json.loads(base64.b64decode(task["payloadBase64"]))
         logging.info("Processing task: %s", payload)
 
-        ProcessTask(task["id"], payload["key"], payload["access_token"],
-                    processor)
+        ProcessTask(
+            task["id"], payload["key"], http, crashreporting_hostname,
+            processor)
       except Exception:
         logging.exception("Error processing task")
 
@@ -248,7 +241,7 @@ def main():
   parser.add_argument("--symbols_directory", default=DEFAULT_SYMBOLS_DIRECTORY)
   parser.add_argument("--stackwalk_binary", default=DEFAULT_STACKWALK_BINARY)
   parser.add_argument("--crashreporting_hostname", default=DEFAULT_CRASHREPORTING_HOSTNAME)
-  parser.add_argument("--onlyone", metavar="key:access_token",
+  parser.add_argument("--onlyone", metavar="key",
       help="Process a single crash, don't poll the task queue")
   args = parser.parse_args()
 
@@ -267,7 +260,7 @@ def main():
   if credentials is None or credentials.invalid:
     flow = oauth2client.client.OAuth2WebServerFlow(
         OAUTH2_CLIENT_ID, OAUTH2_CLIENT_SECRET,
-        OAUTH2_AUTHORIZATION_SCOPE)
+        OAUTH2_AUTHORIZATION_SCOPES)
     credentials = oauth2client.tools.run(flow, storage)
 
   # Create an HTTP client and API client.
@@ -275,16 +268,17 @@ def main():
   task_api = apiclient.discovery.build("taskqueue", "v1beta2", http=http)
 
   # Load cached symbols.
-  cache = SymbolCache(args.symbols_directory, args.crashreporting_hostname)
+  cache = SymbolCache(args.symbols_directory, http)
   processor = Processor(cache, args.stackwalk_binary)
 
   if args.onlyone:
     # Just process this one crash.
-    key, access_token = args.onlyone.split(":")
-    ProcessTask("<unknown>", key, access_token, processor)
+    ProcessTask(
+        "<unknown>", args.onlyone, http, args.crashreporting_hostname,
+        processor)
   else:
     # Start polling for new tasks.
-    PollQueue(task_api, processor)
+    PollQueue(task_api, http, args.crashreporting_hostname, processor)
 
 
 if __name__ == "__main__":

@@ -1,11 +1,11 @@
 import unittest
 
-import upload
+import minidumps
 
 
-class UploadTest(unittest.TestCase):
+class MinidumpsTest(unittest.TestCase):
   def setUp(self):
-    self.handler = upload.UploadHandlerPage()
+    self.handler = minidumps.MinidumpUploadUrl()
 
   def testShortenOSVersion(self):
     data = [

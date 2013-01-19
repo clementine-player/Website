@@ -3,6 +3,7 @@ import errno
 import os
 
 DEFAULT_MAX_SIZE = 500 * (10 ** 20) # 500 MB
+MISSING_FILES_NAME = '.missing_files'
 
 class LRUDiskCache(object):
   def __init__(self, directory, max_size=DEFAULT_MAX_SIZE):
@@ -13,6 +14,17 @@ class LRUDiskCache(object):
     self._queue = collections.deque()
     self._refcount = collections.Counter()
     self.total_size = 0
+
+    self._missing_filename = os.path.join(directory, MISSING_FILES_NAME)
+    self._missing = set()
+
+    # Read the list of missing files.
+    try:
+      with open(self._missing_filename) as handle:
+        for line in handle:
+          self._missing.add(line.strip())
+    except IOError:
+      pass
 
     # Read keys that already exist in the cache.
     for root, dirs, files in os.walk(directory):
@@ -30,6 +42,17 @@ class LRUDiskCache(object):
     self._queue.appendleft(key)
     self._refcount[key] += 1
     return True
+
+  def ContainsMissing(self, key):
+    return key in self._missing
+
+  def SetMissing(self, key):
+    if key in self._missing:
+      return
+
+    self._missing.add(key)
+    with open(self._missing_filename, 'a') as handle:
+      handle.write('%s\n' % key)
 
   def _Insert(self, key, size):
     if key in self._data:

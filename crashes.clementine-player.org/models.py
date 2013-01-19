@@ -2,11 +2,9 @@ from google.appengine.ext import blobstore
 from google.appengine.ext import db
 
 class CrashInfo(db.Model):
-  # The minidump's key in blobstore
-  blob_key = blobstore.BlobReferenceProperty()
-
-  # The log file's key in blobstore.  Might not be present.
-  log_blob_key = blobstore.BlobReferenceProperty()
+  # Cloud Storage paths for the actual data.
+  minidump_gs_read_path = db.StringProperty()
+  log_gs_read_path      = db.StringProperty()
 
   # The time the crash was reported
   time_reported = db.DateTimeProperty(auto_now_add=True)
@@ -21,18 +19,15 @@ class CrashInfo(db.Model):
   # it a bit for this field.
   short_os_version = db.StringProperty()
 
-  # This random string is generated when the crash is reported and passed to the
-  # processor in the task queue payload.  The processor must pass it back to
-  # retreive the raw blob.
-  access_token = db.StringProperty()
-
   # A serialised Crash protobuf.  Set after the crash has been processed.
   serialised_crash_pb = db.BlobProperty()
 
 
 class Symbols(db.Model):
   # The symbol file is gzipped.
-  blob_key    = blobstore.BlobReferenceProperty()
   time_added  = db.DateTimeProperty(auto_now_add=True)
   binary_hash = db.StringProperty(required=True)
   binary_name = db.StringProperty(required=True)
+
+  # The path to the data in Cloud Storage.
+  gs_read_path = db.StringProperty(required=True)
