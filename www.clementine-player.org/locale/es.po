@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2012.
+# Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2012-2013.
 # Adrián Ramirez <buried.prophet@gmail.com>, 2012.
 # Adrián Ramirez Escalante <buried.prophet@gmail.com>, 2012.
 # Andres Sanchez <>, 2012.
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2012-11-28 20:21+0000\n"
+"PO-Revision-Date: 2013-01-19 02:58+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "Google Drive"
 
 #: data.py:10
 msgid "New global search interface"
-msgstr "Nuea interfaz de búsqueda global"
+msgstr "Nueva interfaz de búsqueda global"
 
 #: data.py:11
 msgid "Moodbars"
