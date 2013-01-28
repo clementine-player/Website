@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Alexandro Casanova <shorterfire@gmail.com>, 2013.
 #   <mmarcottulio@gmail.com>, 2012.
 #   <shorterfire@gmail.com>, 2012.
 # Weiller Cardoso <>, 2012.
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2012-12-09 17:44+0000\n"
+"PO-Revision-Date: 2013-01-25 12:00+0000\n"
 "Last-Translator: salmora8 <shorterfire@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -250,7 +251,7 @@ msgid ""
 " load of memory leaks and reduced CPU usage while playing music. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Esta versão adiciona suporte para a utilização de dispositivos portáteis com Clementine. Agora você já pode copiar músicas para seu iPod, iPhone, MTP ou dispositivo de armazenamento em massa via USB. Veja <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\"> o wiki para mais informações</a> . Suporte para a utilização de um <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\"> Wii Remote</a> como um controle remoto foi adicionado. Outras características incluem um gerenciador de filas, caixa de diálogo, organização automática de arquivos, alongamento das colunas na lista, carregamento de capa incorporado ao ID3v2, mais opções de digitalização da biblioteca, arrastar e soltar entre listas de reprodução, e um Hypnotoad. Nós também reduzimos o tempo de inicialização em mais da metade, corrigido um problema de carregamento de memória e diminuímos a utilização do processador durante a reprodução da música. Veja o <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> registro completo de mudanças</a> para mais informações."
+msgstr "Esta versão adiciona suporte para a utilização de dispositivos portáteis com Clementine. Agora você já pode copiar músicas para seu iPod, iPhone, MTP ou dispositivo de armazenamento em massa via USB. Veja <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\"> o wiki para mais informações</a> . Suporte para a utilização de um <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\"> Wii Remote</a> como um controle remoto foi adicionado. Outros recursos incluem um gerenciador de filas, caixa de diálogo, organização automática de arquivos, alongamento das colunas na lista, carregamento de capa incorporado ao ID3v2, mais opções de digitalização da biblioteca, arrastar e soltar entre listas de reprodução, e um Hypnotoad. Nós também reduzimos o tempo de inicialização em mais da metade, corrigido um problema de carregamento de memória e diminuímos a utilização do processador durante a reprodução da música. Veja o <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> registro completo de mudanças</a> para mais informações."
 
 #: data.py:271
 msgid "Version 0.6 released"
@@ -450,7 +451,7 @@ msgstr "Versão"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Sobre & Características"
+msgstr "Funcionalidades"
 
 #: main.html:9
 msgid "Search and play your local music library."
