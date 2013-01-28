@@ -121,7 +121,7 @@ python processor/main.py --symbols_directory /tmp/symbols \
             <td>{{ frame.module }}</td>
             <td>{{ frame.function }}</td>
             <td>
-              {% if frame.filename and frame.line %}
+              {% if frame.filename and frame.line and frame.module == 'clementine' %}
                 {{ LinkifySource(frame.filename, frame.line) }}
               {% else %}
                 {{ frame.offset }}
