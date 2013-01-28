@@ -6,9 +6,9 @@ threadsafe: true
 
 libraries:
 - name: jinja2
-  version: latest
+  version: 2.6
 - name: pycrypto
-  version: latest
+  version: 2.6
 
 handlers:
 # Deprecated URL used by old versions of Clementine.
