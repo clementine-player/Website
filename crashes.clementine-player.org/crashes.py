@@ -1,6 +1,7 @@
 from google.appengine.api import files
 from google.appengine.api import users
 
+import datetime
 import jinja2
 import jinja2.utils
 import json
@@ -98,6 +99,21 @@ def filesizeformat(value, binary=False):
         return '%.1f %s' % ((base * bytes / unit), prefix)
     return '%.1f %s' % ((base * bytes / unit), prefix)
 jinja_environment.filters["filesizeformat"] = filesizeformat
+
+
+def relativedate(value):
+  delta = (datetime.datetime.now() - value).total_seconds()
+
+  if delta < 0:
+    return "The future"
+  if delta < 60:
+    return "%d seconds ago" % delta
+  if delta < 60 * 60:
+    return "%d minutes ago" % (delta / 60)
+  if delta < 60 * 60 * 24:
+    return "%d hours ago" % (delta / (60 * 60))
+  return "%d days ago" % (delta / (60 * 60 * 24))
+jinja_environment.filters["relativedate"] = relativedate
 
 
 def FormatLogText(text):

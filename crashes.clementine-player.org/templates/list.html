@@ -19,7 +19,7 @@
             {{ "Processed" if crash.serialised_crash_pb else "Pending" }}
           </a>
         </td>
-        <td>{{ crash.time_reported.isoformat() }}</td>
+        <td>{{ crash.time_reported|relativedate }}</td>
         <td>{{ crash.version }}</td>
         <td>{{ crash.qt_version }}</td>
         <td>{{ crash.os }}</td>

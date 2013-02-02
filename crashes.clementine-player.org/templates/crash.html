@@ -20,7 +20,10 @@ python processor/main.py --symbols_directory /tmp/symbols \
   <table class="table table-condensed table-bordered">
     <tr>
       <th>Time reported</th>
-      <td>{{ info.time_reported.isoformat() }}</td>
+      <td>
+        {{ info.time_reported|relativedate }}
+        ({{ info.time_reported.strftime("%H:%M, %a %d %b %Y UTC") }})
+      </td>
     </tr>
     <tr>
       <th>Application version</th>
