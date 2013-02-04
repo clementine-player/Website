@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Johan Olesen <johan.olesen97@gmail.com>, 2013.
 # Peter Jespersen <flywheeldk@gmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2013-01-03 20:50+0000\n"
+"PO-Revision-Date: 2013-02-02 01:50+0000\n"
 "Last-Translator: Peter Jespersen <flywheeldk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +67,7 @@ msgstr ""
 
 #: data.py:9
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drev"
 
 #: data.py:10
 msgid "New global search interface"
@@ -86,7 +87,7 @@ msgstr ""
 
 #: data.py:16
 msgid "Global search options"
-msgstr ""
+msgstr "Globale søgemuligheder"
 
 #: data.py:17
 msgid "Grooveshark integration"
@@ -98,7 +99,7 @@ msgstr ""
 
 #: data.py:21
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "MusicBrainz fixer ikke-taggede filer"
 
 #: data.py:22
 msgid "New tag editor with autocompletion"
@@ -122,7 +123,7 @@ msgstr "Icecast radiostationer"
 
 #: data.py:29
 msgid "Smart playlists and kittens"
-msgstr ""
+msgstr "Smarte afspilningslister og killinger"
 
 #: data.py:32
 msgid "The queue manager on Windows 7"
@@ -134,7 +135,7 @@ msgstr "Kopierer musik til iPod i Ubuntu"
 
 #: data.py:34
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "Clementine 0.5 på Ubu.. ALL GLORY TO THE HYPNOTOAD"
 
 #: data.py:35
 msgid "Clementine 0.5 on Mac OS X"
@@ -182,7 +183,7 @@ msgstr "Understøttelse af Last.fm "
 
 #: data.py:53
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "Notifikationer på Mac OS X"
 
 #: data.py:172
 msgid "Source code"
@@ -201,7 +202,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
+msgstr "Det har været lidt over en måned siden vi udgav den første version af Clementine. Den nye version har flere features, som f.eks. album-art, bedre \"Various Artist\" detektion, og meget, meget mere."
 
 #: data.py:235
 msgid "Version 0.3 released"
@@ -306,7 +307,7 @@ msgstr ""
 
 #: data.py:312
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Version 1.1 udgivet"
 
 #: data.py:313
 msgid ""
@@ -390,7 +391,7 @@ msgstr "git repository"
 
 #: downloads.html:95 participate.html:50
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "Tjek koden ved at køre:"
 
 #: downloads.html:99 participate.html:60
 msgid ""
@@ -500,7 +501,7 @@ msgstr "Hent manglende tags fra MusicBrainz."
 
 #: main.html:36
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Opdag og hent podcasts."
 
 #: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
@@ -669,7 +670,7 @@ msgstr "Sådan kompileres Clementine fra kildekoden"
 
 #: participate.html:92
 msgid "Social Networking"
-msgstr ""
+msgstr "Social Networking"
 
 #: participate.html:94
 msgid ""
