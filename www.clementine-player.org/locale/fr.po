@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#  <arnaud.bienner@gmail.com>, 2013.
 #   <arnaud.bienner@gmail.com>, 2012.
 # Poutre Maicosuel <>, 2012.
 #   <soroalexandre@gmail.com>, 2012.
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2012-11-19 12:33+0000\n"
+"PO-Revision-Date: 2013-02-09 16:41+0000\n"
 "Last-Translator: arnaudbienner <arnaud.bienner@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/clementine/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: base.html:5
 msgid "Clementine Music Player"
-msgstr "Lecteur audio Clementine"
+msgstr "Lecteur de musique Clementine"
 
 #: base.html:36
 msgid "About"
