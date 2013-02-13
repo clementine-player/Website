@@ -20,6 +20,7 @@ import urllib
 import urllib2
 
 ADMINS=['hatstand', 'davidsansome']
+LMGTFY='http://lmgtfy.com/?q=%s'
 
 class AnnounceBot(irc.IRCClient):
   username = "%s-%s" % (NAME, VERSION)
@@ -83,7 +84,25 @@ class AnnounceBot(irc.IRCClient):
     elif message == 'test':
       self.SendMessage('Oh I\'m a lumberjack and I\'m ok. I sleep all night '
                        'and I work all day.')
+    elif re.match(r'lmgtfy .*', message):
+      query = re.sub(r'^lmgtfy *', '', message)
+      self.LetMeGoogleThatForYou(query)
 
+  def LetMeGoogleThatForYou(self, query):
+    url = LMGTFY % urllib.quote(query)
+    data = simplejson.dumps({'longUrl': url})
+    print 'Shortening %s' % data
+    request = urllib2.Request(
+        'https://www.googleapis.com/urlshortener/v1/url?key='
+        'AIzaSyAIctFM9t95xmDskXvJcz52AiU2X4TsX0Y',
+        data,
+        {'Content-Type': 'application/json'})
+    response = urllib2.urlopen(request)
+    response_data = response.read()
+    print response_data
+    url_json = simplejson.loads(response_data)
+    if 'id' in url_json:
+      self.SendMessage(url_json['id'])
 
 
 class AnnounceBotFactory(protocol.ReconnectingClientFactory):

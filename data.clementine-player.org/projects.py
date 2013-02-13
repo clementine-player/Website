@@ -119,7 +119,7 @@ class CommitPage(webapp2.RequestHandler):
     data = json.dumps({'longUrl':url})
     request = urllib2.Request(
         'https://www.googleapis.com/urlshortener/v1/url?key='
-        'AIzaSyB0MCh4zww04T6wj9z-imRHtHAGWT58TWo',
+        'AIzaSyAIctFM9t95xmDskXvJcz52AiU2X4TsX0Y',
         data,
         {'Content-Type': 'application/json'})
     url_json = json.load(urllib2.urlopen(request))
