@@ -70,7 +70,7 @@ class CheckRainyMood(webapp.RequestHandler):
     # Zaphod is down; switch to Cloudfront.
     logging.error('Switching to backup rainymood url')
     memcache.set(
-        clementine.RAINYMOOD_MEMCACHE_KEY, clementine.RAINYMOOD_BACKUP_URL)
+        clementine.RAINYMOOD_MEMCACHE_KEY, clementine.BACKUP_RAINYMOOD_URL)
 
 
 app = webapp.WSGIApplication(
