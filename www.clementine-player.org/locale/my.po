@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Yhal Htet Aung <jumoun@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-03-07 02:18+0000\n"
+"Last-Translator: Yhal Htet Aung <jumoun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,192 +20,192 @@ msgstr ""
 
 #: base.html:5
 msgid "Clementine Music Player"
-msgstr ""
+msgstr "ကလီမန်တိုင်းဂီတဖွင့်စက်"
 
 #: base.html:36
 msgid "About"
-msgstr ""
+msgstr "အကြောင်း"
 
 #: base.html:37 downloads.html:2
 msgid "Downloads"
-msgstr ""
+msgstr "ကူးဆွဲများ"
 
 #: base.html:38 main.html:85 screenshots.html:2
 msgid "Screenshots"
-msgstr ""
+msgstr "ဖန်သားပြင်ပုံရိပ်များ"
 
 #: base.html:39 participate.html:2
 msgid "Participate"
-msgstr ""
+msgstr "ပါဝင်"
 
 #: base.html:43
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr ""
+msgstr "အမာရော့ခ် 1.4 ထောက်ပံ့သောကွန်ပျူတာစနစ်များစွာဂီတဖွင့်စက်တစ်ခု"
 
 #: base.html:68
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
+msgstr "ကလီမန်တိုင်းသည်ဂျီပီအယ်ဗီ 3 လိုင်စင်နှင့်ထုတ်လုပ်ထားသောအခမဲ့ဆောဖ့်ဝဲဖြစ်ပါသည်။ ဒီဆိုက်သည်စီစီဘိုင်အက်စ်အေလိုင်စင်ယူထားပါသည်။"
 
 #: base.html:69
 msgid "Development by"
-msgstr ""
+msgstr "မှထုတ်လုပ်မှု"
 
 #: base.html:70 main.html:21
 msgid "and"
-msgstr ""
+msgstr "နှင့်"
 
 #: base.html:72
 msgid "Website by"
-msgstr ""
+msgstr "မှဝက်ဘ်ဆိုက်ရေးသား"
 
 #: data.py:8
 msgid "Podcasts"
-msgstr ""
+msgstr "ပို့စ်ကဒ်များ"
 
 #: data.py:9
 msgid "Google Drive"
-msgstr ""
+msgstr "ဂူဂယ်ဒရိုက်ဗ်"
 
 #: data.py:10
 msgid "New global search interface"
-msgstr ""
+msgstr "အများသံုးရှာဖွေမျက်နှာပြင်အသစ်"
 
 #: data.py:11
 msgid "Moodbars"
-msgstr ""
+msgstr "စိတ်နေစိတ်ထားဘားမျဉ်းများ"
 
 #: data.py:14
 msgid "Transcoding settings"
-msgstr ""
+msgstr "ပံုစံပြောင်းလဲခြင်းချိန်ညှိချက်"
 
 #: data.py:15
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "စပေါ့တီဖိုင်တွင်အများသံုးအယ်လဘမ်များရှာဖွေခြင်း"
 
 #: data.py:16
 msgid "Global search options"
-msgstr ""
+msgstr "အများသံုးရှာဖွေရွေးပိုင်ခွင့်များ"
 
 #: data.py:17
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "ဂရုရှက်ပေါင်းစပ်မှု"
 
 #: data.py:20
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "သီချင်းစာသားများနှင့်တေးသံလမ်းကြောဆလိုက်တာကိရိယာထိပ်"
 
 #: data.py:21
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "အမည်မရှိဖိုင်များမြူးဇစ်ဘရိန်းပြင်ဆင်ခြင်း"
 
 #: data.py:22
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "လိုလျှောက်ပြီးဆံုးမှုနှင့်အမည်တည်းဖြတ်သူအသစ်"
 
 #: data.py:23
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "မက်စ်အိုအက်စ်အိပ်စ်တွင်တေးသံလမ်းကြောဆလိုက်တာကိရိယာထိပ်"
 
 #: data.py:26
 msgid "Artist photos and biographies"
-msgstr ""
+msgstr "အနုပညာရှင်ဓာတ်ပုံများနှင့်အတ္ထုပ္ပတ္တိများ"
 
 #: data.py:27
 msgid "Lyrics"
-msgstr ""
+msgstr "သီချင်းစာသားများ"
 
 #: data.py:28
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "အိုင့်ကက်စ်ရေဒီယိုထုတ်လွှင့်မှုဌာနများ"
 
 #: data.py:29
 msgid "Smart playlists and kittens"
-msgstr ""
+msgstr "ချက်ချာသီချင်းစာရင်းများနှင့်ကြောင်ကလေးများ"
 
 #: data.py:32
 msgid "The queue manager on Windows 7"
-msgstr ""
+msgstr "ဝင်းဒိုးဆဲဗင်းတွင်စီတန်းမန်နေဂျာ"
 
 #: data.py:33
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "ဦးဘွန်တူတွင်ရှိအိုင်ပေါ့သို့ဂီတကူးယူနေ"
 
 #: data.py:34
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "ဦးဘွန်တူတွင်ကလီမန်တိုင်း၀.၅...အံ့မခန်းဖွယ်အားလံုးကိုဟိုက်ဖ်နိုဖားသို့"
 
 #: data.py:35
 msgid "Clementine 0.5 on Mac OS X"
-msgstr ""
+msgstr "မက်စ်အိုအက်စ်အိတ်စ်တွင်ကလီမန်တိုင်း 0.5 "
 
 #: data.py:38
 msgid "Clementine 0.4 on Ubuntu"
-msgstr ""
+msgstr "ဦးဘွန်တူတွင်ကလီမန်တိုင်း 0.4 "
 
 #: data.py:39
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "ဝင်းဒိုး 7 တွင်ကလီမန်တိုင်း 0.4 "
 
 #: data.py:40
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr ""
+msgstr "ကလီမန်တိုင်း၀.၄ပုံဖော်ကြည့်ခြင်းများနှင့်ပရောဂျက်အမ်"
 
 #: data.py:41
 msgid "Clementine 0.4 on Mac OS X"
-msgstr ""
+msgstr "မက်စ်အိုအက်စ်အိတ်စ်တွင်ကလီမန်တိုင်း 0.4"
 
 #: data.py:44
 msgid "Last.fm tag radio"
-msgstr ""
+msgstr "လက်စ်.အက်ဖ်အမ်အမည်ရေဒီယို"
 
 #: data.py:45
 msgid "Searching the library"
-msgstr ""
+msgstr "သီချင်းတိုက်ရှာဖွေခြင်း"
 
 #: data.py:46 data.py:52
 msgid "The tag editor on Windows"
-msgstr ""
+msgstr "ဝင်းဒိုးတွင်အမည်တည်းဖြတ်သူ"
 
 #: data.py:47
 msgid "The cover manager on Mac OS X"
-msgstr ""
+msgstr "မက်စ်အိုအက်စ်အိပ်စ်တွင်အဖုံးမန်နေဂျာ"
 
 #: data.py:50
 msgid "Playback on Linux"
-msgstr ""
+msgstr "လင်းနက်စ်တွင်ရှိပြန်ဖွင့်"
 
 #: data.py:51
 msgid "Last.fm support"
-msgstr ""
+msgstr "လက်စ်.အက်ဖ်အမ်အထောက်အကူ"
 
 #: data.py:53
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "မက်စ်အိုအက်စ်အိပ်စ်တွင်ဟိန်းသံသတိပေးချက်များ"
 
 #: data.py:172
 msgid "Source code"
-msgstr ""
+msgstr "ကုဒ်ရင်းမြစ်"
 
 #: data.py:190
 msgid "Source"
-msgstr ""
+msgstr "ရင်းမြစ်"
 
 #: data.py:228
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "ပံုစံ 0.2 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:229
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
+msgstr "ကလီမန်တိုင်းပထမပံုစံဖြန့်ချိပေးခဲ့တာတစ်လကျော်ကျော်ရှိသွားပြီ။ ယခုပံုစံအသစ်တွင်အယ်လဘမ်အနုပညာအဖုံး၊ ပိုကောင်းသော\"အနုပညာရှင်များအမျိုးမျိုး\" ရှာဖွေတွေ့ရှိခြင်း၊ သီချင်းစာရင်းများထည့်သွင်းခြင်းအတွက်အထောက်အကူနှင့်တစ်ခြားများစွာသောအင်္ဂါရပ်များပါဝင်။"
 
 #: data.py:235
 msgid "Version 0.3 released"
-msgstr ""
+msgstr "ပံုစံ 0.3 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:236
 msgid ""
@@ -212,11 +213,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
+msgstr "ယခုဖြန့်ချိမှုတွင်စက်လည်ပတ်စနစ်များစွာတွင်ရှိဂျီသီချင်းစီးကြောင်းသို့ပြောင်းရွေ့ထား၊ ယခုစိစစ်သူနှင့်တေးသံလမ်းကြောများအကြားအရောင်မှိန်ဖြတ်သန်းခြင်းဝင်းဒိုးတွင်အလုပ်လုပ်နိုင်။ အသံထိန်းညှိသူ၊ သီချင်းတိုက်အုပ်စုအလိုက်ရွေးပိုင်ခွင့်များ၊ ဖန်သားပြင်ပေါ်ပံုရိပ်လှလှပြသခြင်း၊ ကွန်မန်းလိုင်းနှင့်အမ်ပီအာအိုင်အက်စ်မှအဝေးထိန်းခြင်း၊ ပိုမိုလွယ်ကူသောအမည်တည်းဖြတ်ြခင်းစသည့်အင်္ဂါရပ်များပါဝင်။"
 
 #: data.py:244
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "ပံုစံ 0.4 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:245
 msgid ""
@@ -226,11 +227,11 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr ""
+msgstr "ယခုဖြန့်ချိမှုတွင်မျက်နှာစာသံုးသီချင်းစာရင်းများ၊ သီချင်းစာရင်းရှာဖွေမှု၊ ပရောဂျက်အမ်ပုံဖော်ကြည့်ခြင်းများ၊ မက်နကျွန်း၌ပေါင်းစပ်မှု၊ ရီပလေးဂိမ်းအသံပမာဏပုံမှန်ပြုလုပ်မှုနှင့်ဂီတပံုစံပြောင်းလဲခြင်းများပါဝင်။ ပရိုဂရမ်ယိုပေါက်များလည်းပြင်ဆင်ပြီးအပြင်ကြီးမားသောသီချင်းတိုက်များရှာဖွေမှုပိုမိုမြန်ဆန်လာ၊ ပြန်ဖွင့်ကဝင်းဒိုးပေါ်တွင်ပိုမိုအံ့ဝင်၊ အက္ခရာကုဒ်ပြောင်းခြင်းပြသနာများပြင်ဆင်ပြီး၊ အဝေးထိန်းသီချင်းစာရင်းများအချိန်တိုင်းမှန်ကန်စွာထည့်သွင်းနိုင်။"
 
 #: data.py:254
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "ပံုစံ 0.5 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:255
 msgid ""
@@ -247,11 +248,11 @@ msgid ""
 " load of memory leaks and reduced CPU usage while playing music. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgstr "ယခုပံုစံတွင်ကလီမန်တိုင်းကိုရွေ့ပြောင်းပစ္စည်းများနှင့်အသံုးပြုနိုင်ရန်ထည့်သွင်းထား။ အိုင်ပေါ့၊ အိုင်ဖုန်း၊ အမ်တီပီ(သို့)ယူအက်စ်ဘီသိုလှောင်စုပံုစက်သို့သီချင်းများကိုကူးယူနိုင်။ <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\"> အချက်အလက်များအတွက်ဝီကီတွင်ကြည့်ရှု။ <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">ဝီအဝေးထိန်းများ</a> ကိုအဝေးထိန်းကဲ့သို့အသံုးပြုနိုင်ရန်ထည့်သွင်းထား။ စီတန်းမန်နေဂျာ၊ ဖိုင်စုစည်းမှုအရေးအသား၊ သီချင်းစာရင်းတွင်ကော်လံများအလိုအလျောက်ဆွဲဆန့်၊ အိုင်ဒီ၃ဗီ၂အဖံုးအနုပညာမြှပ်ထည့်သွင်းခြင်း၊ သီချင်းတိုက်ရွေးပိုင်ခွင့်ဖတ်ရှုခြင်းများ၊ သီချင်းစာရင်းများအကြားဆွဲယူလွှတ်ချခြင်းနှင့်ဟိုက်ဖ်နိုဖားစသည့်တစ်ခြားအင်္ဂရပ်များပါဝင်။ စတင်ချိန်တစ်ဝက်ခန့်လျော့ချ၊ မှတ်ဉာဏ်ယိုပေါက်များပြင်ဆင်ခြင်းနှင့်ဂီတကိုနားဆင်နေစဉ်စီပီယူအသံုးချမှုများလျော့ချထား။ <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
 #: data.py:271
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "ပံုစံ 0.6 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:272
 msgid ""
@@ -264,11 +265,11 @@ msgid ""
 "href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
 " the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgstr "ယခုပံုစံတွင်သီချင်းစာသားများ၊ သီချင်းစာရင်းဇယား၊ အနုပညာရှင်အတ္ထုပ္ပတ္တိများ၊ ဓာတ်ပံုများနှင့်အမည်များစာရင်းများနှင့်တူညီအနုပညာရှင်များအားလံုးစသည့်အင်္ဂရပ်များပါဝင်။ ဘေးတိုင်ကိုပြန်လည်တည်ဆောက်ခါ၊ တန်ဖိုးဖြတ်ခြင်းများ၊ ဖွင့်သံအရေအတွက်များ၊ အရေအတွက်များခုန်ကျော်များလုပ်ဆောင်ပြီး။ သီချင်းတိုက်ရှိသီချင်းများမှချက်ချာသီချင်းစာရင်းများနှင့်သီချင်းစာရင်းအရှင်များဖန်တီးနိုင်ပြီး <a href=\"http://www.jamendo.com/\">ဂျမန်တို</a> နှင့်အိုင့်ကက်စ်ရေဒီယိုထုတ်လွှင့်မှုဌာနများမှဂီတများကိုနားဆင်နိုင်။ <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များကိုဤတွင်ကြည့်ရှုပါ။"
 
 #: data.py:284
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "ပံုစံ 0.7 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:285
 msgid ""
@@ -283,11 +284,11 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgstr "ယခုပံုစံထဲတွင်အလိုအလျောက်ပြီးစီးနိင်သည့်အသစ်စက်စက်အမည်တည်းဖြတ်အရေးအသားအင်္ဂရပ်ကလီမန်တိုင်းတွင်ပါဝင်ပြီးဂီတကိုအလိုအလျောက်စစ်ရွေးခြင်းနှင့်မြူးဇစ်ဘရိန်းမှပျောက်နေသောအမည်များယူဆောင်နိုင်။ ကယူးအပြားအထောက်အကူလည်းပါဝင် - သီချင်းတိုက်များကိုဖတ်ရှုသောအခါအလိုအလျောက်ရှာဖွေတွေ့ရှိနိုင်ပြီးတေးသံလမ်းကြောတစ်ခုဆီကိုသီးခြားစီပြသနိုင်။ သီချင်းတိုက်မျက်နှာစာတွင်အယ်လဘမ်အဖုံးများပြသခြင်း၊ ပယ်ဖျက်ပြီးသီချင်းများမီးခိုးရောင်ပြနိုင်ခြင်း၊ \"ဘရောက်ဇာထဲတွင်ပြသ\" ရွေးပိုင်ခွင့်များ၊ ကွန်ယက်ပရောက်ဇီများ၊ \"သီချင်းတိုက်အပြည့်ပြန်လည်ဖတ်ရှု\" ရွေးပိုင်ခွင့်များနှင့်သီချင်းကိုသတ်မှတ်နေရာတွင်တိကျစွာရှာဖွေရန်တေးသံလမ်းကြောဆလိုက်တာများအတွက်ကိရိယာထိပ်ပါဝင်။ <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
 #: data.py:299
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "ပံုစံ 1.0 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:300
 msgid ""
@@ -301,11 +302,11 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog?name=release-1.0\">full "
 "changelog</a> for more information."
-msgstr ""
+msgstr "ယခုပံုစံတွင် <a href=\"http://www.spotify.com\">စပေါ့တီဖိုင်</a>, <a href=\"http://grooveshark.com\">ဂရုရှက်</a> နှင့် <a href=\"http://www.sky.fm/\">စကိုင်း.အက်ဖ်အမ်</a>/<a href=\"http://www.di.fm/\">ကွန်ပျုတာစနစ်ဖြင့်တင်သွင်း</a> အထောက်အကူများပါဝင်။ သီချင်းတိုက်(သို့)အင်တာနက်ပေါ်တွင်ဂီတကိုလွယ်ကူစွာရှာနိုင်ရန်အများသံုးရှာဖွေအင်္ဂရပ်ထည့်သွင်းထား။ အသံဓာတ်ပြားများအထောက်အကူ၊ ပံုစံပြောင်းလဲခြင်းရွေးပိုင်ခွင့်များ၊ ပိုမိုကောင်းမွန်သောချိန်ညှိချက်အရေးအသား၊ ချက်ချာအယ်လ်ဘမ်အဖံုးရှာဖွေမှုများနှင့်ပရိုဂရမ်ယိုစိမ့်မှုများဖြေရှင်းပြီးများပါဝင်။ <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
 #: data.py:312
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "ပံုစံ 1.1 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:313
 msgid ""
@@ -319,371 +320,371 @@ msgid ""
 "<a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "ယခုပံုစံတွင် <a href=\"//gpodder.net\">ဂျီပေါ့တာ.နက်</a> ဖြင့်ပို့စ်ကဒ်ပေါင်းစပ်မှုနှင့်ညီတူညှိခြင်းအထောက်အကူပါဝင်။ <a href=\"http://soundcloud.com/\">ဆောင်းကလောက်</a> နှင့် <a href=\"http://www.jazzradio.com/\">ဂျက်စ်ရေဒီယို.ကွန်း</a> မှဂီတများကိုဘေးတိုင်ရှိအင်တာနက်မျက်နှာစာတွင်ရယူနိင်ပြီး <a href=\"http://drive.google.com/start\">ဂူဂယ်ဒရိုက်ဗ်</a> သို့ကူးတင်ပြီးသီချင်းများကိုပါရယူနိင်။ ချပ်ပြားဝိုင်းမှဖွင့်သောဂီတများကိုစိတ်နေစိတ်ထားဘားမျဉ်းပြသနိုင်။ <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "နောက်ဆံုးပေါ်ကူးဆွဲများ"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "သင့်ရဲ့စက်လည်ပတ်စနစ်သို့ကလီမန်တိုင်းနောက်ဆံုးထွက်တည်ငြိမ်ပံုစံရယူ။"
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "အခြားစက်လည်ပတ်ရေးစနစ်များအတွက်ကူးယူမှုများ"
 
 #: downloads.html:52
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "ဦးဘွန်တူးပီပီအေ"
 
 #: downloads.html:54
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "ဦးဘွန်တူတရားဝင်ပီပီအေမှကလီမန်တိုင်းနောက်ဆံုးပံုစံကူးဆွဲရယူနိုင်: "
 
 #: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
-msgstr ""
+msgstr "အခြားကူးဆွဲများ"
 
 #: downloads.html:64
 msgid "Unofficial packages"
-msgstr ""
+msgstr "တရားမဝင်အသုံးချပရိုဂရမ်များ"
 
 #: downloads.html:66
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "အထက်ဖော်ပြပါနေရာတွင်သင့်စက်လည်ပတ်စနစ်အတွက်ဖြန့်ဖြူးခြင်းမရှိပါကတစ်ယောက်ယောက်တွင်တရားမဝင်ပရိုဂရမ်အထုပ်များရှိနိုင်ပါသည်။"
 
 #: downloads.html:74
 msgid "Compiling from source"
-msgstr ""
+msgstr "ရင်းမြစ်မှအသုံးပြုခြင်း"
 
 #: downloads.html:76
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "ရင်းမြစ်မှကလီမန်တိုင်းကိုအသုံးပြုခြင်းသည်လင်းနက်စ်တွင်လွယ်ကူပါသည်။"
 
 #: downloads.html:77
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "အထက်ဖော်ပြပါစာရင်းမှရင်းမြစ်ကုဒ်ထုပ်ကိုကူးဆွဲပြီးခလုတ်ခုံအစုံဝင်းဒိုးထဲတွင်:"
 
 #: downloads.html:86
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "ညွှန်ကြားချက်များအပြည့်အစံုနှင့်မှီခိုကုဒ်များစာရင်း"
 
 #: downloads.html:90
 msgid "Bleeding edge packages"
-msgstr ""
+msgstr "ပြသနာရှိအနားပရိုဂရမ်အထုပ်များ"
 
 #: downloads.html:92 participate.html:47
 msgid "Development on Clementine happens in"
-msgstr ""
+msgstr "ကလီမန်တိုင်းကိုတီထွင်မှုသည်ဤတွင်ဖြစ်ပေါ်"
 
 #: downloads.html:94 participate.html:49
 msgid "the git repository"
-msgstr ""
+msgstr "ဂစ်ပရိုဂရမ်ဘဏ်"
 
 #: downloads.html:95 participate.html:50
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "စတင်ခြင်းဖြင့်ကုဒ်များကိုစစ်ဆေး:"
 
 #: downloads.html:99 participate.html:60
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
+msgstr "တီထွင်မှုပံုစံကိုအသုံးပြုလိုပါကနာရီတိုင်းဖြန့်ဖြုးသောပရိုဂရမ်အထုပ်များကိုသံုးကြည့်ပါ:"
 
 #: downloads.html:104 participate.html:65
 msgid "Mac OS X development builds"
-msgstr ""
+msgstr "မက်စ်အိုအက်စ်အိပ်စ်တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:106 participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr ""
+msgstr "ဦးဘွန်တူလူစစ်(၁၀.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:108 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr ""
+msgstr "ဦးဘွန်တူမဗာရက်စ်(၁၀.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:110 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr ""
+msgstr "ဦးဘွန်တူနက်တီ(၁၁.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:112 participate.html:73
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr ""
+msgstr "ဦးဘွန်တူအွန်အီရက်စ်(၁၁.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:114 participate.html:75
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "ဦးဘွန်တူပရီဆိုက်(၁၂.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:116 participate.html:77
 msgid "Ubuntu Quantal (12.10) development builds"
-msgstr ""
+msgstr "ဦးဘွန်တူကွန်တယ်(၁၂.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:118 participate.html:79
 msgid "Windows development builds"
-msgstr ""
+msgstr "ဝင်းဒိုးတီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
 #: downloads.html:120 participate.html:81
 msgid "Buildbot"
-msgstr ""
+msgstr "တည်ဆောက်စက်ရုပ်"
 
 #: downloads.html:123 participate.html:84
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr ""
+msgstr "တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များအတွက်အခြားဦးဘွန်တူပီပီအေ:"
 
 #: downloads.html:131
 msgid "Old downloads"
-msgstr ""
+msgstr "ကူးဆွဲအဟောင်းများ"
 
 #: downloads.html:139 screenshots.html:8
 msgid "Version"
-msgstr ""
+msgstr "ပုံစံ"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr ""
+msgstr "အကြောင်း&amp;အင်္ဂါရပ်များ"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "ဂီတတိုက်တွင်ရှာဖွေပြီးစတင်ဖွင့်"
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr ""
+msgstr "မှအင်တာနက်ရေဒီယိုနားထောင်"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "ကူးတင်ပြီးသီချင်းများကိုရှာဖွေပြီးစတင်ဖွင့်"
 
 #: main.html:27
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "ချက်ချာသီချင်းစာရင်းများနှင့်သီချင်းစာရင်းအရှင်များဖန်တီး။"
 
 #: main.html:28
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "မျက်နှာစာသံုးသီချင်းစာရင်းများ၊ တင်သွင်းနှင့်တင်ပို့ အမ်၃ယူ၊ အိစ်အက်စ်ပီအက်ဖ်၊ ပီအယ်အက်စ်နှင့်အေအက်စ်အိစ်။"
 
 #: main.html:29
 msgid "CUE sheet support."
-msgstr ""
+msgstr "ကယူးအပြားအထောက်အကူ။"
 
 #: main.html:30
 msgid "Play audio CDs."
-msgstr ""
+msgstr "အသံဓာတ်ပြားများဖွင့်"
 
 #: main.html:31
 msgid "Visualisations from"
-msgstr ""
+msgstr "မှပုံဖော်ကြည့်ခြင်းများ"
 
 #: main.html:32
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "သီချင်းစာသားများနှင့်အနုပညာရှင်အတ္ထုပ္ပတ္တိများနှင့်ဓာတ်ပံုများ။"
 
 #: main.html:33
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "အမ်ပီသရီး၊ အောဖ့်ဗော်ဘစ်စ်၊ အောဖ့်စဖိစ်၊ အက်ဖ်အယ်အေစီသို့အေအေစီကဲ့သို့ဂီတပံုစံပြောင်းလဲ။"
 
 #: main.html:34
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
+msgstr "အမ်ပီသရီးနှင့်အောဖ့်ဖိုင်များအမည်များတည်းဖြတ်ပြီးဂီတများစုစည်း။"
 
 #: main.html:35
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "မြူးဇစ်ဘရိန်းမှပျောက်နေသောအမည်များယူဆောင်"
 
 #: main.html:36
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "ပို့စ်ကဒ်များဖော်ထုတ်၊ကူးဆွဲ"
 
 #: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "လက်စ်.အက်ဖ်အမ်နှင့်အမေဇံုမှပျောက်နေသောအယ်လဘမ်အဖံုးအနုပညာကူးယူ"
 
 #: main.html:38
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr ""
+msgstr "စက်လည်ပတ်စနစ်များစွာ - ဝင်းဒိုး၊ မက်စ်အိုအက်စ်အိပ်စ်နှင့်လင်းနက်စ်တွင်အလုပ်လုပ်နိုင်။"
 
 #: main.html:39
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
+msgstr "လင်းနက်စ်(လစ်နိုတီဖိုင်း)နှင့်မက်စ်အိုအက်စ်အိပ်စ်(ဂရော့)တွင်ရှိစက်ရှိအလုပ်ခုံသတိပေးချက်များ"
 
 #: main.html:40
 msgid "Remote control using a"
-msgstr ""
+msgstr "နှင့်အဝေးထိန်းအသုံးပြု"
 
 #: main.html:40
 msgid "Wii Remote"
-msgstr ""
+msgstr "ဝီအဝေးထိန်း"
 
 #: main.html:40
 msgid "MPRIS or the command-line."
-msgstr ""
+msgstr "အမ်ပီအာအိုင်အက်စ်(သို့)ကွန်မန်းလိုင်း။"
 
 #: main.html:41
 msgid "Copy music to your"
-msgstr ""
+msgstr "ဂီတကိုကူးယူသင့်ရဲ့"
 
 #: main.html:41
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr ""
+msgstr "အိုင်ပေါ့၊ အိုင်ဖုန်း၊ အမ်တီပီ(သို့)သိုလှောင်စုပံုယူအက်စ်ဘီစက်။"
 
 #: main.html:42
 msgid "Queue manager."
-msgstr ""
+msgstr "စီတန်းမန်နေဂျာ။"
 
 #: main.html:48
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "ခေတ်မီသီချင်းဖွင့်စက်နှင့်သီချင်းတိုက်စီစဉ်သူတစ်ခုဖြစ်သည်"
 
 #: main.html:52
 msgid "Clementine is a multiplatform music player."
-msgstr ""
+msgstr "ကလီမန်တိုင်းသည်စနစ်များစွာဂီတဖွင့်စက်တစ်ခုဖြစ်သည်။"
 
 #: main.html:53
 msgid "It is inspired by"
-msgstr ""
+msgstr "မှဖြစ်အောင်လုပ်ဆောင်"
 
 #: main.html:54
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
+msgstr "ဂီတကိုလျှင်မြန်စွာရှာဖွေပြီးစတင်ဖွင့်နိုင်သောလွယ်ကူစွာအသံုးပြုနိင်သောမျက်နှာပြင်ထုတ်လုပ်ရန်ရည်မှန်းထား။"
 
 #: main.html:61 main.html.py:70
 msgid "Download the latest version now"
-msgstr ""
+msgstr "နောက်ဆံုးပံုစံအခုဆွဲယူ"
 
 #: main.html:62
 msgid "Download Clementine"
-msgstr ""
+msgstr "ကလီမန်တိုင်းကူးဆွဲ"
 
 #: main.html:71
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "ဝင်းဒိုး၊ မက်စ်အိုအက်စ်အိပ်စ်နှင့်လင်းနက်စ်အတွက်"
 
 #: main.html:76
 msgid "Announcement"
-msgstr ""
+msgstr "ထုတ်ပြန်ချက်"
 
 #: main.html:77
 msgid "Changelog"
-msgstr ""
+msgstr "ပြောင်းလဲမှုမှတ်တမ်း"
 
 #: main.html:78
 msgid "Show all downloads"
-msgstr ""
+msgstr "ကူးဆွဲများအားလံုးကိုပြသ"
 
 #: main.html:107
 msgid "News"
-msgstr ""
+msgstr "သတင်း"
 
 #: participate.html:7
 msgid "Need help?"
-msgstr ""
+msgstr "အကူအညီလိုအပ်?"
 
 #: participate.html:11
 msgid "Come chat with us at the"
-msgstr ""
+msgstr "ကျွန်တော်တို့နဲ့ဒီမှာစကားစမြည်လာပြောပါ"
 
 #: participate.html:11
 msgid "channel on Freenode."
-msgstr ""
+msgstr "ဖရီးနုတ်ပေါ်ရှိလေလှိုင်း"
 
 #: participate.html:12
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
+msgstr "<b>မေးခွန်းမေးပြီးနောက်ဆက်လက်ရှိနေပါ</b> - ဒေသစံတော်ချိန်မတူညီခြင်းကြောင့်သင့်ရဲ့မေးခွန်းများကိုချက်ခြင်းမမြင်နိုင်ပါ။"
 
 #: participate.html:15
 msgid "Forum"
-msgstr ""
+msgstr "ဆွေးနွေးပွဲ"
 
 #: participate.html:17
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
+msgstr "ဆွေးနွေးပွဲ/ပေးပို့စာရင်း/အထွေထွေဆွေးနွေးမှုအုပ်စုစသည့်ဂူဂယ်အုပ်စုများကိုကလီမန်တိုင်းအသံုးပြု။"
 
 #: participate.html:20
 msgid "Support and discussion group"
-msgstr ""
+msgstr "အထောက်အကူနှင့်ဆွေးနွေးမှုအုပ်စု"
 
 #: participate.html:25
 msgid "Collaborate"
-msgstr ""
+msgstr "ပူးပေါင်းဆောင်ရွက်"
 
 #: participate.html:27
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "ပရိုဂရမ်ယိုစိမ့်မှုများသတင်းပေးပို့ခြင်းနှင့်ဖာထေးမှုများဖြေရှင်းရန်ခွင့်တောင်းခြင်း"
 
 #: participate.html:29
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr ""
+msgstr "တီထွင်မှုနှင့်အကြောင်းကိစ္စခြေရာကောက်ရန်ဂူဂယ်ကုဒ်ကိုကလီမန်တိုင်းအသံုးပြု။"
 
 #: participate.html:30
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
+msgstr "ကလီမန်တိုင်းတွင်ပရိုဂရမ်ယိုစိမ့်မှုများတွေ့ပါကအကြောင်းကိစ္စခြေရာကောက်သူသို့သွားကာအကြောင်းကိစ္စဖန်တီးပါ။"
 
 #: participate.html:33
 msgid "Issue tracker"
-msgstr ""
+msgstr "အကြောင်းကိစ္စခြေရာကောက်သူ"
 
 #: participate.html:36
 msgid "Translating the interface"
-msgstr ""
+msgstr "ကြားခံမျက်နှာပြင်ဘာသာပြန်ခြင်း"
 
 #: participate.html:38
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "ကလီမန်တိုင်းကိုတစ်ခြားဘာသာစကားသို့ဘာသာပြန်လိုပါကထရန်စီဖက်စ်စာမျက်နှာတွင်လည်းဘာသာပြန်နိုင်ပါသည်။"
 
 #: participate.html:39
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "တရန်ဆီဖက်စ်တွင်တိုက်ရိုက်ဘာသာပြန်နိုင်(သို့).ပီအိုဖိုင်ကိုဆိုက်မှကူးယူပြီးအီးမေးလ်ပြန်ပို့ပေးပါ။"
 
 #: participate.html:42
 msgid "Transifex translations"
-msgstr ""
+msgstr "ထရန်စီဖက်စ်ဘာသာပြန်ဆိုခြင်းများ"
 
 #: participate.html:45
 msgid "Hacking"
-msgstr ""
+msgstr "ဟက်ကင်း"
 
 #: participate.html:56
 msgid "How to compile Clementine from source"
-msgstr ""
+msgstr "ရင်းမြစ်မှကလီမန်တိုင်းကိုဘယ်ကဲ့သို့အသုံးပြုခြင်း"
 
 #: participate.html:92
 msgid "Social Networking"
-msgstr ""
+msgstr "လူမှုရေးကွန်ရက်"
 
 #: participate.html:94
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "သင့်ရဲ့အနှစ်သက်ဆံုးလူမှုရေးကွန်ရက်ဆိုက်တွင်အတူပါဝင်ခြင်းဖြင့်ကလီမန်တိုင်းကိုဝိုင်းဝန်းကူညီကြပါ!"
 
 #: participate.html:98
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "ဖေ့စ်ဘုတ်တွင်ကလီမန်တိုင်း"
 
 #: participate.html:101
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "တွစ်တာတွင်ကလီမန်တိုင်း"
 
 #: participate.html:104
 msgid "Clementine on Last.fm"
-msgstr ""
+msgstr "လက်စ်.အက်ဖ်အမ်တွင်ကလီမန်တိုင်း"

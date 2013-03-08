@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <glasbarg@gmail.com>, 2011, 2012.
+#  <glasbarg@gmail.com>, 2013.
+#   <glasbarg@gmail.com>, 2011-2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-01-02 02:30+0100\n"
-"PO-Revision-Date: 2012-11-06 23:04+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-03-07 21:27+0000\n"
+"Last-Translator: Belvar <glasbarg@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +63,7 @@ msgstr "Lec'hienn internet gant :"
 
 #: data.py:8
 msgid "Podcasts"
-msgstr ""
+msgstr "Podkastoù"
 
 #: data.py:9
 msgid "Google Drive"
@@ -178,7 +179,7 @@ msgstr ""
 
 #: data.py:51
 msgid "Last.fm support"
-msgstr ""
+msgstr "Skoazell Last.fm"
 
 #: data.py:53
 msgid "Growl notifications on Mac OS X"
@@ -288,7 +289,7 @@ msgstr ""
 
 #: data.py:299
 msgid "Version 1.0 released"
-msgstr "Stumm 1.0 deuet er-maez"
+msgstr "Handelv 1.0 deuet er-maez"
 
 #: data.py:300
 msgid ""
@@ -350,7 +351,7 @@ msgstr "Pellgargadurioù all"
 
 #: downloads.html:64
 msgid "Unofficial packages"
-msgstr "Pakadoù nann ofisiel"
+msgstr "Pakadoù anofisiel"
 
 #: downloads.html:66
 msgid ""
@@ -448,7 +449,7 @@ msgstr "Handelv"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr ""
+msgstr "A-zivout &amp; Arc'hweloù"
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -559,7 +560,7 @@ msgstr ""
 
 #: main.html:61 main.html.py:70
 msgid "Download the latest version now"
-msgstr "Pellkargañ ar stumm diwezhan bremañ !"
+msgstr "Pellgargañ ar handelv ziwezhañ bremañ !"
 
 #: main.html:62
 msgid "Download Clementine"
@@ -571,11 +572,11 @@ msgstr "evit Windows, Mac OS X ha GNU/Linux"
 
 #: main.html:76
 msgid "Announcement"
-msgstr ""
+msgstr "Embannadenn"
 
 #: main.html:77
 msgid "Changelog"
-msgstr ""
+msgstr "Roll-istor ar c'hemmoù"
 
 #: main.html:78
 msgid "Show all downloads"
@@ -583,7 +584,7 @@ msgstr "Diskouez an holl pellgargadurioù"
 
 #: main.html:107
 msgid "News"
-msgstr "Traoù nevez"
+msgstr "Keleier"
 
 #: participate.html:7
 msgid "Need help?"
