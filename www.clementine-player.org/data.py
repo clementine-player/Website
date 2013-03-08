@@ -332,6 +332,7 @@ LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
   "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt", "cs", "el", "ka", "uz",
   "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
+  "my",
 ]
 
 LANGUAGE_NAMES = {
@@ -354,7 +355,7 @@ LANGUAGE_NAMES = {
   "bi": u"Bislama",
   "br": u"Brezhoneg",
   "bg": u"български език",
-  "my": u"Burmese",
+  "my": u"Burmese/Myanmar",  # Unicode name will not render for most people.
   "be": u"беларуская мова",
   "km": u"Cambodian",
   "ca": u"Català",
