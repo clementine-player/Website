@@ -332,7 +332,7 @@ LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
   "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt", "cs", "el", "ka", "uz",
   "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
-  "my",
+  "my", "id",
 ]
 
 LANGUAGE_NAMES = {
@@ -389,7 +389,7 @@ LANGUAGE_NAMES = {
   "hi": u"Hindi",
   "hu": u"Magyar",
   "is": u"Icelandic",
-  "id": u"Indonesian",
+  "id": u"Bahasa Indonesia",
   "ia": u"Interlingua",
   "ie": u"Interlingue",
   "iu": u"Inuktitut",
