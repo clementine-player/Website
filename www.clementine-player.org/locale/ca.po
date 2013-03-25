@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2013.
 # Arnau <Thunder.Tricking@gmail.com>, 2013.
@@ -9,15 +9,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-03-18 17:00+0100\n"
 "PO-Revision-Date: 2013-02-04 20:09+0000\n"
 "Last-Translator: LunarParks <Thunder.Tricking@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: base.html:5
@@ -46,11 +46,9 @@ msgstr "Un reproductor de música multi-plataforma inspirat en l'Amarok 1.4"
 
 #: base.html:78
 msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under CC-"
-"BY-SA."
-msgstr ""
-"Clementine és Programari Lliure sota la llicència GPL v3. Aquest lloc web té "
-"llicència CC-BY-SA."
+"Clementine is Free Software under the GPL v3. This site is licensed under "
+"CC-BY-SA."
+msgstr "Clementine és Programari Lliure sota la llicència GPL v3. Aquest lloc web té llicència CC-BY-SA."
 
 #: base.html:79
 msgid "Development by"
@@ -205,11 +203,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
-"Tot just fa un mes des de que vam publicar la primera versió de Clementine. "
-"Aquesta nova versió implementa portades d'àlbums, millor detecció d'àlbums "
-"amb \"Diversos artistes\", suport per a carregar llistes de reproucció, i "
-"molt més."
+msgstr "Tot just fa un mes des de que vam publicar la primera versió de Clementine. Aquesta nova versió implementa portades d'àlbums, millor detecció d'àlbums amb \"Diversos artistes\", suport per a carregar llistes de reproucció, i molt més."
 
 #: data.py:240
 msgid "Version 0.3 released"
@@ -221,12 +215,7 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
-"En aquesta versió hem canviat a GStreamer a totes les plataformes, de manera "
-"que l'analitzador i l'esvaïment i fusió entre cançons ara funciona a "
-"Windows. Les noves característiques inclouen un equalitzador, noves opcions "
-"d'agrupament a la biblioteca, un OSD millor, control remot des de la línia "
-"de comandes i MPRIS, i una edició d'etiquetes més senzilla."
+msgstr "En aquesta versió hem canviat a GStreamer a totes les plataformes, de manera que l'analitzador i l'esvaïment i fusió entre cançons ara funciona a Windows. Les noves característiques inclouen un equalitzador, noves opcions d'agrupament a la biblioteca, un OSD millor, control remot des de la línia de comandes i MPRIS, i una edició d'etiquetes més senzilla."
 
 #: data.py:249
 msgid "Version 0.4 released"
@@ -236,18 +225,11 @@ msgstr "Versió 0.4 alliberada"
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries "
-"is now much faster, playback is much more reliable on Windows, character "
+"music transcoding. We've fixed loads of bugs too - searching large libraries"
+" is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr ""
-"Aquesta versió inclou pestanyes per a les llistes de reproducció, cerca a la "
-"llista de reproducció, visualitzacions amb projectM, integració amb "
-"Magnatune, normalització de volum amb ReplayGain i transcodificació. També "
-"hem arreglat un munt d'errades - cercar a biblioteques grans ara és molt més "
-"ràpid, la reproducció a Windows és molt més fiable, els problemes de "
-"codificació de caràcters estan arreglats les llistes de reproducció remotes "
-"haurien de carregar-se correctament en tot moment."
+msgstr "Aquesta versió inclou pestanyes per a les llistes de reproducció, cerca a la llista de reproducció, visualitzacions amb projectM, integració amb Magnatune, normalització de volum amb ReplayGain i transcodificació. També hem arreglat un munt d'errades - cercar a biblioteques grans ara és molt més ràpid, la reproducció a Windows és molt més fiable, els problemes de codificació de caràcters estan arreglats les llistes de reproducció remotes haurien de carregar-se correctament en tot moment."
 
 #: data.py:259
 msgid "Version 0.5 released"
@@ -257,33 +239,18 @@ msgstr "Versió 0.5 alliberada"
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices"
-"\">the wiki for more information</a>.  Support for using a <a href=\"http://"
-"code.google.com/p/clementine-player/wiki/WiiRemotes\">Wii Remote</a> as a "
-"remote control has been added.  Other features include a Queue Manager, an "
-"Organise Files dialog, automatically stretching columns in the playlist, "
-"loading embedded id3v2 cover art, more library scanning options, drag and "
-"drop between playlists, and a hypnotoad.  We've also reduced startup time by "
-"more than half, fixed a load of memory leaks and reduced CPU usage while "
-"playing music. See the <a href=\"http://code.google.com/p/clementine-player/"
-"source/browse/Changelog\">full changelog</a> for more information."
-msgstr ""
-"Aquesta versió afegeix suport per a l'ús de dispositius portàtils amb "
-"Clementine. Ara podeu copiar cançons al vostre iPod, iPhone, MTP, o "
-"dispositiu d'emmagatzematge USB. Vegeu <a href=\"http://code.google.com/p/"
-"clementine-player/wiki/PortableDevices\">el wiki per a més informació</a> . "
-"S'ha afegit suport per a l'ús d'un <a href=\"http://code.google.com/p/"
-"clementine-player/wiki/WiiRemotes\">comandament de la Wii</a> com a "
-"comandament a distància. Altres característiques inclouen un gestor de "
-"llistes de reproducció, un quadre de diàleg per organitzar els arxius, "
-"ajustament automàtic de la mida de les columnes a la llista de reproducció, "
-"càrrega automàtica de la imatge de la portada inclosa en l'ID3v2, més "
-"opcions d'escaneig de la biblioteca, arrossegar i deixar anar a les llistes "
-"de reproducció, i un Hipnogripau. També s'ha reduït el temps d'arrencada més "
-"de la meitat, s'han arreglat un munt de problemes de gestió de memòria i "
-"s'ha reduït l'ús del processador durant la reproducció de música. Feu un cop "
-"d'ull al <a href=\"http://code.google.com/p/clementine-player/source/browse/"
-"Changelog\">llistat de canvis complet</a> per a més informació."
+"See <a href=\"http://code.google.com/p/clementine-"
+"player/wiki/PortableDevices\">the wiki for more information</a>.  Support "
+"for using a <a href=\"http://code.google.com/p/clementine-"
+"player/wiki/WiiRemotes\">Wii Remote</a> as a remote control has been added."
+"  Other features include a Queue Manager, an Organise Files dialog, "
+"automatically stretching columns in the playlist, loading embedded id3v2 "
+"cover art, more library scanning options, drag and drop between playlists, "
+"and a hypnotoad.  We've also reduced startup time by more than half, fixed a"
+" load of memory leaks and reduced CPU usage while playing music. See the <a "
+"href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">full changelog</a> for more information."
+msgstr "Aquesta versió afegeix suport per a l'ús de dispositius portàtils amb Clementine. Ara podeu copiar cançons al vostre iPod, iPhone, MTP, o dispositiu d'emmagatzematge USB. Vegeu <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">el wiki per a més informació</a> . S'ha afegit suport per a l'ús d'un <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">comandament de la Wii</a> com a comandament a distància. Altres característiques inclouen un gestor de llistes de reproducció, un quadre de diàleg per organitzar els arxius, ajustament automàtic de la mida de les columnes a la llista de reproducció, càrrega automàtica de la imatge de la portada inclosa en l'ID3v2, més opcions d'escaneig de la biblioteca, arrossegar i deixar anar a les llistes de reproducció, i un Hipnogripau. També s'ha reduït el temps d'arrencada més de la meitat, s'han arreglat un munt de problemes de gestió de memòria i s'ha reduït l'ús del processador durant la reproducció de música. Feu un cop d'ull al <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">llistat de canvis complet</a> per a més informació."
 
 #: data.py:276
 msgid "Version 0.6 released"
@@ -294,24 +261,13 @@ msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
 "artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts.  "
-"You can create smart and dynamic playlists from songs in your library, and "
-"also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</"
-"a> and Icecast radio stations. See the <a href=\"http://code.google.com/p/"
-"clementine-player/source/browse/Changelog\">full changelog</a> for more "
-"information."
-msgstr ""
-"Aquesta versió incorpora dos nous espais d'informació que mostren les "
-"lletres, les estadístiques de la cançó, biografies dels artistes, fotos i "
-"llistes d'etiquetes i artistes similars. S'ha redissenyat la barra lateral "
-"(tot i que podeu tornar a la versió anterior fent-hi clic amb el botó dret), "
-"així com també s'han afegit puntuacions i comptadors de reproducció i de "
-"passades. Podeu crear llistes de reproducció inteŀligents i dinàmiques a "
-"partir de les cançons de la vostra biblioteca, i també escoltar música des "
-"de <a href=\"http://www.jamendo.com/\">Jamendo</a> i emissores de ràdio "
-"Icecast. Feu un cop d'ull al <a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">llistat de canvis complet</a> per a més "
-"informació."
+"right clicking on it), and also added ratings, play counts and skip counts."
+"  You can create smart and dynamic playlists from songs in your library, and"
+" also now listen to music from <a "
+"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
+" the <a href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">full changelog</a> for more information."
+msgstr "Aquesta versió incorpora dos nous espais d'informació que mostren les lletres, les estadístiques de la cançó, biografies dels artistes, fotos i llistes d'etiquetes i artistes similars. S'ha redissenyat la barra lateral (tot i que podeu tornar a la versió anterior fent-hi clic amb el botó dret), així com també s'han afegit puntuacions i comptadors de reproducció i de passades. Podeu crear llistes de reproducció inteŀligents i dinàmiques a partir de les cançons de la vostra biblioteca, i també escoltar música des de <a href=\"http://www.jamendo.com/\">Jamendo</a> i emissores de ràdio Icecast. Feu un cop d'ull al <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">llistat de canvis complet</a> per a més informació."
 
 #: data.py:289
 msgid "Version 0.7 released"
@@ -324,25 +280,13 @@ msgid ""
 "missing tags from MusicBrainz.  CUE sheets are now supported - they are "
 "detected automatically when scanning your library and each track will show "
 "up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show "
-"in file browser\" option, support for network proxies, a \"Full library "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show"
+" in file browser\" option, support for network proxies, a \"Full library "
 "rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a href=\"http://code."
-"google.com/p/clementine-player/source/browse/Changelog\">full changelog</a> "
-"for more information."
-msgstr ""
-"En aquesta versió el Clementine incorpora una nova eina d'edició d'etiquetes "
-"amb autocompleció i l'habilitat d'identificar automàticament la música i "
-"obtenir les etiquetes que manquen des de MusicBrainz. Ara també suporta els "
-"fulls CUE - es detecten automàticament en escanejar la biblioteca i cada "
-"pista apareix per separat. S'han dut a terme un munt de petites millores com "
-"mostrar la portada dels àlbums a la pestanya de la biblioteca, enfosquint "
-"les cançons esborrades, una opció per mostrar el fitxer al navegador, suport "
-"per a proxies de xarxa, una opció per reescanejar tota la biblioteca, i una "
-"nova eina per a la barra de desplaçament de la cançó que permet cercar més "
-"acuradament un instant de la pista. Feu un cop d'ull al <a href=\"http://"
-"code.google.com/p/clementine-player/source/browse/Changelog\">llistat de "
-"canvis complet</a> per a més informació."
+"more accurately to a specific place in a song. See the <a "
+"href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog\">full changelog</a> for more information."
+msgstr "En aquesta versió el Clementine incorpora una nova eina d'edició d'etiquetes amb autocompleció i l'habilitat d'identificar automàticament la música i obtenir les etiquetes que manquen des de MusicBrainz. Ara també suporta els fulls CUE - es detecten automàticament en escanejar la biblioteca i cada pista apareix per separat. S'han dut a terme un munt de petites millores com mostrar la portada dels àlbums a la pestanya de la biblioteca, enfosquint les cançons esborrades, una opció per mostrar el fitxer al navegador, suport per a proxies de xarxa, una opció per reescanejar tota la biblioteca, i una nova eina per a la barra de desplaçament de la cançó que permet cercar més acuradament un instant de la pista. Feu un cop d'ull al <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">llistat de canvis complet</a> per a més informació."
 
 #: data.py:304
 msgid "Version 1.0 released"
@@ -350,15 +294,16 @@ msgstr "Versió 1.0 alliberada"
 
 #: data.py:305
 msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href="
-"\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/"
-"\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  "
-"We've also added a Global Search feature that allows you to easily find "
-"music that's either in your library or on the Internet. Other features "
-"include audio CD support, more transcoder options, an improved settings "
-"dialog, smarter album cover searches, and loads of bug fixes. See the <a "
-"href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?"
-"name=release-1.0\">full changelog</a> for more information."
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
+"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
+"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
+"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
+" a Global Search feature that allows you to easily find music that's either "
+"in your library or on the Internet. Other features include audio CD support,"
+" more transcoder options, an improved settings dialog, smarter album cover "
+"searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
+"/clementine-player/source/browse/Changelog?name=release-1.0\">full "
+"changelog</a> for more information."
 msgstr ""
 
 #: data.py:317
@@ -369,13 +314,14 @@ msgstr "Publicada la versió 1.1"
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www."
-"jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the "
-"sidebar, as well as any songs you've uploaded to <a href=\"http://drive."
-"google.com/start\">Google Drive</a>. Clementine will also now show moodbars "
-"for the music you play from your local disc. See the <a href=\"http://code."
-"google.com/p/clementine-player/source/browse/Changelog?"
-"name=release-1.1\">full changelog</a> for more information."
+"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
+"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
+"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
+"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
+"also now show moodbars for the music you play from your local disc. See the "
+"<a href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
+"more information."
 msgstr ""
 
 #: downloads.html:7
@@ -384,9 +330,7 @@ msgstr "Últimes descàrregues"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
-"Obteniu la darrera versió estable de Clementine per al vostre sistema "
-"operatiu."
+msgstr "Obteniu la darrera versió estable de Clementine per al vostre sistema operatiu."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -400,9 +344,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
-"Podeu descarregar la darrera versió de Clementine per a Ubuntu des del PPA "
-"oficial:"
+msgstr "Podeu descarregar la darrera versió de Clementine per a Ubuntu des del PPA oficial:"
 
 #: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
@@ -414,11 +356,9 @@ msgstr "Paquets no oficials"
 
 #: downloads.html:66
 msgid ""
-"If you don't see your distribution listed above then someone else might have "
-"created an unofficial package for you."
-msgstr ""
-"Si no trobeu la vostra distribució llistada a sobre és possible que algú ja "
-"hagi creat paquets no oficials."
+"If you don't see your distribution listed above then someone else might have"
+" created an unofficial package for you."
+msgstr "Si no trobeu la vostra distribució llistada a sobre és possible que algú ja hagi creat paquets no oficials."
 
 #: downloads.html:74
 msgid "Compiling from source"
@@ -432,9 +372,7 @@ msgstr "Compilar Clementine en Linux a partir de les fonts és fàcil."
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
-"Descarregueu el paquet amb el codi font de la llista de sobre, i a una "
-"finestra del terminal escriviu:"
+msgstr "Descarregueu el paquet amb el codi font de la llista de sobre, i a una finestra del terminal escriviu:"
 
 #: downloads.html:86
 msgid "Full instructions and list of dependencies"
@@ -458,11 +396,9 @@ msgstr "Comproveu el codi font executant:"
 
 #: downloads.html:99 participate.html:60
 msgid ""
-"If you'd prefer not to compile the development version yourself then try one "
-"of the hourly packages:"
-msgstr ""
-"Si preferiu no compilar per vosaltres mateixos la versió de desenvolupament "
-"aleshores podeu escollir un dels paquets d'última hora:"
+"If you'd prefer not to compile the development version yourself then try one"
+" of the hourly packages:"
+msgstr "Si preferiu no compilar per vosaltres mateixos la versió de desenvolupament aleshores podeu escollir un dels paquets d'última hora:"
 
 #: downloads.html:104 participate.html:65
 msgid "Mac OS X development builds"
@@ -474,8 +410,7 @@ msgstr "Compilacions de la versió desenvolupament per a Ubuntu Lucid (10.04)"
 
 #: downloads.html:108 participate.html:69
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr ""
-"Compilacions de la versió desenvolupament per a Ubuntu Maverick (10.10)"
+msgstr "Compilacions de la versió desenvolupament per a Ubuntu Maverick (10.10)"
 
 #: downloads.html:110 participate.html:71
 msgid "Ubuntu Natty (11.04) development builds"
@@ -503,9 +438,7 @@ msgstr "Robot de compilació"
 
 #: downloads.html:123 participate.html:84
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr ""
-"També hi ha un PPA d'Ubuntu per a aquestes compilacions de la versió de "
-"desenvolupament:"
+msgstr "També hi ha un PPA d'Ubuntu per a aquestes compilacions de la versió de desenvolupament:"
 
 #: downloads.html:131
 msgid "Old downloads"
@@ -533,14 +466,11 @@ msgstr "Busca i reprodueix les cançons que hagis pujat"
 
 #: main.html:27
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
-"Creeu llistes de reproducció inteŀligents i llistes de reproducció dinàmiques"
+msgstr "Creeu llistes de reproducció inteŀligents i llistes de reproducció dinàmiques"
 
 #: main.html:28
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
-"Pestanyes per a les llistes de reproducció, importació i exportació de M3U, "
-"XSPF, PLS i ASX."
+msgstr "Pestanyes per a les llistes de reproducció, importació i exportació de M3U, XSPF, PLS i ASX."
 
 #: main.html:29
 msgid "CUE sheet support."
@@ -564,8 +494,7 @@ msgstr "Transcodificació de música en MP3, Ogg Vorbis, Ogg Speex, FLAC o AAC."
 
 #: main.html:34
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
-"Editeu les etiquetes dels fitxers MP3 i OGG, organitzeu la vostra música."
+msgstr "Editeu les etiquetes dels fitxers MP3 i OGG, organitzeu la vostra música."
 
 #: main.html:35
 msgid "Fetch missing tags from MusicBrainz."
@@ -577,17 +506,16 @@ msgstr "Descobriu i descarregueu Podcasts"
 
 #: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
-"Descarregueu les portades d'àlbums que us manquen des de Last.fm i Amazon."
+msgstr "Descarregueu les portades d'àlbums que us manquen des de Last.fm i Amazon."
 
 #: main.html:38
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Multi-plataforma - funciona a Windows, Mac OS X i Linux."
 
 #: main.html:39
-msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
-"Notificacions a l'escriptori natives a Linux (libnotify) i Mac OS X (Growl)."
+msgid ""
+"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgstr "Notificacions a l'escriptori natives a Linux (libnotify) i Mac OS X (Growl)."
 
 #: main.html:40
 msgid "Remote control using a"
@@ -629,9 +557,7 @@ msgstr "Està inspirat en l'"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
-"centrant-se en una interfície ràpida i fàcil d'emprar per cercar i reproduir "
-"la vostra música"
+msgstr "centrant-se en una interfície ràpida i fàcil d'emprar per cercar i reproduir la vostra música"
 
 #: main.html:61 main.html.py:70
 msgid "Download the latest version now"
@@ -675,12 +601,9 @@ msgstr "a Freenode."
 
 #: participate.html:12
 msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be "
-"in a different timezone so won't see your question right away."
-msgstr ""
-"Si us plau procureu <b>esperar-vos una estona després fer una pregunta</b> - "
-"podríem trobar-nos en fusos horaris diferents i podríem no veure la pregunta "
-"immediatament."
+"Please remember to <b>stick around after asking a question</b> - we might be"
+" in a different timezone so won't see your question right away."
+msgstr "Si us plau procureu <b>esperar-vos una estona després fer una pregunta</b> - podríem trobar-nos en fusos horaris diferents i podríem no veure la pregunta immediatament."
 
 #: participate.html:15
 msgid "Forum"
@@ -690,9 +613,7 @@ msgstr "Fòrum"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
-"Clementine utilitza els Grups de Google per a fòrum/llistes de correu/grup "
-"de discussió."
+msgstr "Clementine utilitza els Grups de Google per a fòrum/llistes de correu/grup de discussió."
 
 #: participate.html:20
 msgid "Support and discussion group"
@@ -708,17 +629,13 @@ msgstr "Reporteu errades i proposeu pedaços"
 
 #: participate.html:29
 msgid "Clementine uses Google Code for development and issue tracking."
-msgstr ""
-"Clementine utilitza Google Code per al desenvolupament i el seguiment "
-"d'incidències."
+msgstr "Clementine utilitza Google Code per al desenvolupament i el seguiment d'incidències."
 
 #: participate.html:30
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
-"Si heu trobat una errada al Clementine, si us plau adreceu-vos al gestor "
-"d'incidències i obriu una nova incidència."
+msgstr "Si heu trobat una errada al Clementine, si us plau adreceu-vos al gestor d'incidències i obriu una nova incidència."
 
 #: participate.html:33
 msgid "Issue tracker"
@@ -730,19 +647,15 @@ msgstr "Traduint la interfície"
 
 #: participate.html:38
 msgid ""
-"If you'd like to translate Clementine into another language you can do so on "
-"the Transifex translations page."
-msgstr ""
-"Si voleu traduir el Clementine a qualsevol altra llengua podeu fer-ho a la "
-"pàgina de traduccions Transifex."
+"If you'd like to translate Clementine into another language you can do so on"
+" the Transifex translations page."
+msgstr "Si voleu traduir el Clementine a qualsevol altra llengua podeu fer-ho a la pàgina de traduccions Transifex."
 
 #: participate.html:39
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
-"Podeu fer la traducció directament a Transifex, o descarregar un fitxer .po "
-"de la pàgina i enviar-nos-el per correu electrònic."
+msgstr "Podeu fer la traducció directament a Transifex, o descarregar un fitxer .po de la pàgina i enviar-nos-el per correu electrònic."
 
 #: participate.html:42
 msgid "Transifex translations"
@@ -764,9 +677,7 @@ msgstr "Xarxes socials"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
-"Ens encantaria que donessis suport al Clementine unint-te a nosaltres a la "
-"teva xarxa social preferida!"
+msgstr "Ens encantaria que donessis suport al Clementine unint-te a nosaltres a la teva xarxa social preferida!"
 
 #: participate.html:98
 msgid "Clementine on Facebook"

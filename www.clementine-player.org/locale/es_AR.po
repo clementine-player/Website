@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2013-03-08 14:48+0100\n"
+"POT-Creation-Date: 2013-03-18 17:00+0100\n"
 "PO-Revision-Date: 2012-11-06 23:04+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,41 +22,41 @@ msgstr ""
 msgid "Clementine Music Player"
 msgstr ""
 
-#: base.html:36
+#: base.html:46
 msgid "About"
 msgstr "Acerca de"
 
-#: base.html:37 downloads.html:2
+#: base.html:47 downloads.html:2
 msgid "Downloads"
 msgstr "Descargas"
 
-#: base.html:38 main.html:85 screenshots.html:2
+#: base.html:48 main.html:85 screenshots.html:2
 msgid "Screenshots"
 msgstr ""
 
-#: base.html:39 participate.html:2
+#: base.html:49 participate.html:2
 msgid "Participate"
 msgstr "Participá"
 
-#: base.html:43
+#: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr ""
 
-#: base.html:68
+#: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr ""
 
-#: base.html:69
+#: base.html:79
 msgid "Development by"
 msgstr ""
 
-#: base.html:70 main.html:21
+#: base.html:80 main.html:21
 msgid "and"
 msgstr ""
 
-#: base.html:72
+#: base.html:82
 msgid "Website by"
 msgstr ""
 
