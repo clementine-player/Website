@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <devingregory@yandex.com>, 2012.
-# Irfan YAZICI <irfanyazici@gmail.com>, 2011.
-# Murat Ikilik <>, 2012.
-#   <sunder67@hotmail.com>, 2012.
-#   <yusufbesir1@gmail.com>, 2012.
+# devingregory <devingregory@yandex.com>, 2012
+# Irfan YAZICI <irfanyazici@gmail.com>, 2011
+# Murat ikilik <muratikilik@gmail.com>, 2012
+# zeugma <sunder67@hotmail.com>, 2012
+# yusufbesir1 <yusufbesir1@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

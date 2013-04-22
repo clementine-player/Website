@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sergii Galashyn <trovich@gmail.com>, 2011.
-# Yuri Chornoivan <yurchor@ukr.net>, 2011-2012.
+# Sergii Galashyn <trovich@gmail.com>, 2011
+# Yuri Chornoivan <yurchor@ukr.net>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

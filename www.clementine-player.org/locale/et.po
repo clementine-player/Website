@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Weiller Cardoso <>, 2013.
+# Weiller Cardoso <>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

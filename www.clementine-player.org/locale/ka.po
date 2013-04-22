@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# <arabulibeqa@yahoo.com>, 2012.
-#   <arabulibeqa@yahoo.com>, 2012.
-# Beqa Arabuli <arabulibeqa@gmail.com>, 2012.
+# arabuli <arabulibeqa@yahoo.com>, 2012
+# arabuli <arabulibeqa@yahoo.com>, 2012
+# Beqa Arabuli <arabulibeqa@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

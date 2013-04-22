@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <isolus@yopmail.com>, 2013.
-#   <mikel@hamahiru.org>, 2012.
+# isolus <isolus@yopmail.com>, 2013
+# azken_tximinoa <mikel@hamahiru.org>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

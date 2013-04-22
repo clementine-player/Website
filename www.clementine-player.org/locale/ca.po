@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2013.
-# Arnau <Thunder.Tricking@gmail.com>, 2013.
-# Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2012.
+# Adolfo Jayme <fitoschido@gmail.com>, 2013
+# LunarParks <Thunder.Tricking@gmail.com>, 2013
+# Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

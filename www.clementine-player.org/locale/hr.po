@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR Goran Vidovic <trebelnik2@gmail.com>, 2012.
-#   <trebelnik2@gmail.com>, 2012.
+# gogo <trebelnik2@gmail.com>, 2012
+# gogo <trebelnik2@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

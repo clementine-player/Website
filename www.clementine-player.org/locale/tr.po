@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Faruk Uzun <>, 2012.
-#   <kadirche@gmail.com>, 2012.
-# Murat Ikilik <>, 2012.
-# Murat Sahin <martinamca@gmail.com>, 2012.
-# Ufuk UYUMAZ <ufukuyumaz@gmail.com>, 2013.
-#   <yusufbesir1@gmail.com>, 2012.
+# Faruk Uzun <>, 2012
+# kadirc <kadirche@gmail.com>, 2012
+# Murat ikilik <muratikilik@gmail.com>, 2012
+# Murat Sahin <martinamca@gmail.com>, 2012
+# Ufuk Uyumaz <ufukuyumaz@gmail.com>, 2013
+# yusufbesir1 <yusufbesir1@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

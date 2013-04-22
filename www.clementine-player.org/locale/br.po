@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#  <glasbarg@gmail.com>, 2013.
-#   <glasbarg@gmail.com>, 2011-2012.
+# Belvar <glasbarg@gmail.com>, 2013
+# Belvar <glasbarg@gmail.com>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

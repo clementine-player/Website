@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <antony256@gmail.com>, 2011.
-#   <firew4lker@gmail.com>, 2012.
-#   <george.stefanakis@gmail.com>, 2012.
-# Γιάννης Ανθυμίδης <yannanth@gmail.com>, 2012.
+# Antony_256 <antony256@gmail.com>, 2011
+# firewalker <firew4lker@gmail.com>, 2012
+# geost <george.stefanakis@gmail.com>, 2012
+# Γιάννης Ανθυμίδης <yannanth@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

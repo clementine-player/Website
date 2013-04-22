@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# 현구 임 <bradlim980@gmail.com>, 2012.
+# 현구 임 <bradlim980@gmail.com>, 2012
+# kladess <kladess@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-03-18 17:00+0100\n"
-"PO-Revision-Date: 2012-11-06 23:04+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-04-20 16:48+0000\n"
+"Last-Translator: kladess <kladess@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -182,11 +183,11 @@ msgstr "Last.fm 지원"
 
 #: data.py:53
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "Mac OS X에서 "
 
 #: data.py:174
 msgid "Source code"
-msgstr ""
+msgstr "소스 "
 
 #: data.py:193
 msgid "Source"
@@ -194,7 +195,7 @@ msgstr ""
 
 #: data.py:233
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "버전 0.2 "
 
 #: data.py:234
 msgid ""
@@ -205,7 +206,7 @@ msgstr ""
 
 #: data.py:240
 msgid "Version 0.3 released"
-msgstr ""
+msgstr "버전 0.3 "
 
 #: data.py:241
 msgid ""
@@ -217,7 +218,7 @@ msgstr ""
 
 #: data.py:249
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "버전 0.4 "
 
 #: data.py:250
 msgid ""
@@ -231,7 +232,7 @@ msgstr ""
 
 #: data.py:259
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "버전 0.5 "
 
 #: data.py:260
 msgid ""
@@ -252,7 +253,7 @@ msgstr ""
 
 #: data.py:276
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "버전 0.6 "
 
 #: data.py:277
 msgid ""
@@ -269,7 +270,7 @@ msgstr ""
 
 #: data.py:289
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "버전 0.7"
 
 #: data.py:290
 msgid ""
@@ -324,11 +325,11 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "최신 버전 "
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "운영체제에 맞는 Clementine 최신 버전 "
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -336,21 +337,21 @@ msgstr ""
 
 #: downloads.html:52
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "우분투 PPA"
 
 #: downloads.html:54
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "공식 PPA에서 우분투를 위한 Clementine의 최신 버전을 다운로드 할 수 있습니다."
 
 #: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
-msgstr ""
+msgstr "그 외 "
 
 #: downloads.html:64
 msgid "Unofficial packages"
-msgstr ""
+msgstr "비공식 "
 
 #: downloads.html:66
 msgid ""
@@ -360,7 +361,7 @@ msgstr ""
 
 #: downloads.html:74
 msgid "Compiling from source"
-msgstr ""
+msgstr "소스로부터 "
 
 #: downloads.html:76
 msgid "Compiling Clementine from source is easy on Linux."

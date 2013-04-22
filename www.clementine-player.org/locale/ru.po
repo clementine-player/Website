@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andy Dufrane <>, 2012.
-#   <avireti@gmail.com>, 2012.
-#   <dronmax@gmail.com>, 2013.
-# Nikolay Golub <steaveball@gmail.com>, 2012.
-# Алексей Мусихин <malexlv@apollo.lv>, 2012.
-# Тимур Ибатуллин <timur@ibatullin.com>, 2012.
+# Andy Dufrane <>, 2012
+# avireti <avireti@gmail.com>, 2012
+# drmx <dronmax@gmail.com>, 2013
+# Nikolay Golub <steaveball@gmail.com>, 2012
+# Алексей Мусихин <malexlv@apollo.lv>, 2012
+# Тимур Ибатуллин <timur@ibatullin.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

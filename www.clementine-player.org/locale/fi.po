@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012.
-#   <moonwrist@moonwrist.org>, 2011.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012
+# Moonwrist <moonwrist@moonwrist.org>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

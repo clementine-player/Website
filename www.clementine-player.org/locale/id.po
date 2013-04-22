@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <tjung2steven@gmail.com>, 2013.
-#   <tjung.steven@gmail.com>, 2013.
-# Tjung Steven <tjung.steven@gmail.com>, 2013.
+# tjung <tjung.steven@gmail.com>, 2013
+# tjung <tjung.steven@gmail.com>, 2013
+# tjung <tjung.steven@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

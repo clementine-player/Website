@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <arnaud.bienner@gmail.com>, 2012.
-# Pavel Fric <pavelfric@seznam.cz>, 2012.
-#   <pavelfric@seznam.cz>, 2011-2012.
+# arnaudbienner <arnaud.bienner@gmail.com>, 2012
+# fri <pavelfric@seznam.cz>, 2012
+# fri <pavelfric@seznam.cz>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

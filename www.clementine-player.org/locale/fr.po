@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#  <arnaud.bienner@gmail.com>, 2013.
-#   <arnaud.bienner@gmail.com>, 2012.
-# Poutre Maicosuel <>, 2012.
-#   <soroalexandre@gmail.com>, 2012.
+# arnaudbienner <arnaud.bienner@gmail.com>, 2013
+# arnaudbienner <arnaud.bienner@gmail.com>, 2012
+# Faketag Fakenick <>, 2012
+# Kevin_Dows <soroalexandre@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

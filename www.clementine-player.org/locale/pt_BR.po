@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alexandro Casanova <shorterfire@gmail.com>, 2013.
-#   <mmarcottulio@gmail.com>, 2012.
-#   <shorterfire@gmail.com>, 2012.
-# Weiller Cardoso <>, 2012.
+# salmora8 <shorterfire@gmail.com>, 2013
+# Marco Tulio Costa <mmarcottulio@gmail.com>, 2012
+# salmora8 <shorterfire@gmail.com>, 2012
+# Weiller Cardoso <>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

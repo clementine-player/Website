@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <arnaud.bienner@gmail.com>, 2012.
-#   <janlaymann@googlemail.com>, 2012.
-#  <lenz.furrer@gmail.com>, 2013.
-#   <mail@profpatsch.de>, 2012.
-#   <the.crazy.zorro@googlemail.com>, 2012.
+# arnaudbienner <arnaud.bienner@gmail.com>, 2012
+# janlaymann <janlaymann@googlemail.com>, 2012
+# Lenzitsch <lenz.furrer@gmail.com>, 2013
+# Profpatsch <mail@profpatsch.de>, 2012
+# El_Zorro_Loco <the.crazy.zorro@googlemail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

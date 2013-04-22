@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <arnaud.bienner@gmail.com>, 2012.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
-#  Lê Trường An <truongan@linuxmail.org>, 2011, 2012.
-# Lê Trường An <truongan@linuxmail.org>, 2012.
+# arnaudbienner <arnaud.bienner@gmail.com>, 2012
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011
+# Lê Trường An <truongan@linuxmail.org>, 2011, 2012
+# Lê Trường An <truongan@linuxmail.org>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alessandro  <kill.alex@hotmail.it>, 2012.
-#   <clabacchio@gmail.com>, 2012.
-#   <rollopack@gmail.com>, 2012.
-# Vincenzo Reale <vinx.reale@gmail.com>, 2012.
+# Alessandro <kill.alex@hotmail.it>, 2012
+# clabacchio <clabacchio@gmail.com>, 2012
+# rollopack <rollopack@gmail.com>, 2012
+# Vincenzo Reale <vinx.reale@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Lukács Bence <lukacs.bence1@gmail.com>, 2012.
-#   <ricsipontaz@googlemail.com>, 2012.
+# lukibeni <lukacs.bence1@gmail.com>, 2012
+# ricsipontaz <ricsipontaz@googlemail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Daniel Sandman <revoltism@gmail.com>, 2012.
-#   <henmat@gmail.com>, 2012.
+# Daniel Sandman <revoltism@gmail.com>, 2012
+# hype <henmat@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
