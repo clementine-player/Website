@@ -5,13 +5,14 @@
 # Translators:
 # Daniel Sandman <revoltism@gmail.com>, 2012
 # hype <henmat@gmail.com>, 2012
+# elfa <thomas.elfstrom@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-03-18 17:00+0100\n"
-"PO-Revision-Date: 2012-11-06 23:04+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-05-04 00:31+0000\n"
+"Last-Translator: elfa <thomas.elfstrom@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,19 +64,19 @@ msgstr "Webbplatsen av"
 
 #: data.py:8
 msgid "Podcasts"
-msgstr ""
+msgstr "Podsändning"
 
 #: data.py:9
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #: data.py:10
 msgid "New global search interface"
-msgstr ""
+msgstr "Nytt globalt sökgränssnitt"
 
 #: data.py:11
 msgid "Moodbars"
-msgstr ""
+msgstr "Stämningsdiagram"
 
 #: data.py:14
 msgid "Transcoding settings"
@@ -303,11 +304,11 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog?name=release-1.0\">full "
 "changelog</a> for more information."
-msgstr ""
+msgstr "Den här utgåvan innehåller <a href=\"http://www.spotify.com\"> Spotify </ a>, <a href=\"http://grooveshark.com\"> Grooveshark </ a> och <a href = \"http://www.sky.fm/ \"> SKY.fm </ a> / <a href=\"http://www.di.fm/\"> digitalt Importerat </ a> stöd. Vi har också lagt till en global sökfunktion som gör att du enkelt hittar musik som är antingen i biblioteket eller på Internet. Andra funktioner inkluderar CD-skiva stöd, fler alternativa omkodare, en förbättrad dialogruta, smartare albumsökningar och massor av buggfixar. Se <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> hela changelog </ a> för mer information."
 
 #: data.py:317
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Version 1.1 släppt"
 
 #: data.py:318
 msgid ""
@@ -321,7 +322,7 @@ msgid ""
 "<a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "I den här versionen kommer efterlängtat stöd för poddsändningar som inkluderar integration och synkronisering med <a href=\"//gpodder.net\">gpodder.net</a>. Musik från <a href=\"http://soundcloud.com/\">Soundcloud</a> och <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> är tillgänglig i Internet-fliken i sidopanelen, tillsammans med de låtar du laddat upp till <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine visar nu även stämningsdiagram för musiken du spelar från lokala media. Se <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">full changelog</a> för mer information."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -425,7 +426,7 @@ msgstr "Ubuntu Precise (12.04) utvecklings builds"
 
 #: downloads.html:116 participate.html:77
 msgid "Ubuntu Quantal (12.10) development builds"
-msgstr ""
+msgstr "Utvecklingsversioner för Ubuntu Quantal (12.10)"
 
 #: downloads.html:118 participate.html:79
 msgid "Windows development builds"
@@ -461,7 +462,7 @@ msgstr "Lyssna på internetradio från"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "Sök och spela låtar du laddat upp till"
 
 #: main.html:27
 msgid "Create smart playlists and dynamic playlists."
@@ -501,7 +502,7 @@ msgstr "Hämta saknade taggar från MusicBrainz."
 
 #: main.html:36
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Upptäck och ladda ner poddsändningar."
 
 #: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
