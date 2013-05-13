@@ -6,6 +6,7 @@
 # Andy Dufrane <>, 2012
 # avireti <avireti@gmail.com>, 2012
 # drmx <dronmax@gmail.com>, 2013
+# John Maguire <john.maguire@gmail.com>, 2013
 # Nikolay Golub <steaveball@gmail.com>, 2012
 # Алексей Мусихин <malexlv@apollo.lv>, 2012
 # Тимур Ибатуллин <timur@ibatullin.com>, 2012
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-03-18 17:00+0100\n"
-"PO-Revision-Date: 2013-01-01 20:27+0000\n"
-"Last-Translator: drmx <dronmax@gmail.com>\n"
+"PO-Revision-Date: 2013-05-13 12:08+0000\n"
+"Last-Translator: John Maguire <john.maguire@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -289,7 +290,7 @@ msgid ""
 "more accurately to a specific place in a song. See the <a "
 "href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "В этой версии Clementine появился новый редактор тегов, поддерживающий автодополнение. Теперь есть возможность возможность автоматически определить музыку и получить отсутствующие теги с сервиса MusicBrainz. Также добавлена поддержка CUE листов - они определяются автоматически при сканировании библиотеки и каждый трек будет отображаться отдельно. Мы сделали несколько небольших улучшений, а именно:  показ обложек альбомов на вкладке Библиотека,  удаленные песни выделяются серым, добавлена поддержка прокси, есть возможность сделать полное пересканирование библиотеки, появилась новая всплывающая подсказка для полосы воспроизведения, которая позволяет  более точно указать определенное место в песне. См. <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> полный список изменений </ A> для получения дополнительной информации."
+msgstr "В этой версии Clementine появился новый редактор тегов, поддерживающий автодополнение. Теперь есть возможность возможность автоматически определить музыку и получить отсутствующие теги с сервиса MusicBrainz. Также добавлена поддержка CUE листов - они определяются автоматически при сканировании библиотеки и каждый трек будет отображаться отдельно. Мы сделали несколько небольших улучшений, а именно:  показ обложек альбомов на вкладке Библиотека,  удаленные песни выделяются серым, добавлена поддержка прокси, есть возможность сделать полное пересканирование библиотеки, появилась новая всплывающая подсказка для полосы воспроизведения, которая позволяет  более точно указать определенное место в песне. См. <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\"> полный список изменений </a> для получения дополнительной информации."
 
 #: data.py:304
 msgid "Version 1.0 released"
@@ -307,7 +308,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog?name=release-1.0\">full "
 "changelog</a> for more information."
-msgstr "Этот выпуск добавляет поддержку <a href=\"http://www.spotify.com\">Spotify</ a>, <a href=\"http://grooveshark.com\">Grooveshark</a> и <a href=\"http://www.sky.fm/ \">SKY.fm</ a>/<a href=\"http://www.di.fm/\">Digitally Imported</ a>. Мы также добавили глобальную функцию поиска которая позволяет легко найти музыку в вашей библиотеке или в Интернете. Добавлена поддержка аудио CD, увеличено количество настроек транскодера, улучшено диалоговое окно настройки, изменён умный поиски обложки альбома, добавлена загрузка исправлений. См. <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">полный список изменений</ a> для получения дополнительной информации."
+msgstr "Этот выпуск добавляет поддержку <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> и <a href=\"http://www.sky.fm/ \">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Мы также добавили глобальную функцию поиска которая позволяет легко найти музыку в вашей библиотеке или в Интернете. Добавлена поддержка аудио CD, увеличено количество настроек транскодера, улучшено диалоговое окно настройки, изменён умный поиски обложки альбома, добавлена загрузка исправлений. См. <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">полный список изменений</a> для получения дополнительной информации."
 
 #: data.py:317
 msgid "Version 1.1 released"
@@ -325,7 +326,7 @@ msgid ""
 "<a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
 "more information."
-msgstr "В этом выпуске добавлена ​​долгожданная поддержка подкастов включая интеграцию и синхронизацию с <a href=\"//gpodder.net\">gpodder.net</ a>. Музыка из <a href=\"http://soundcloud.com/\">Soundcloud</ a> и <a href=\"http://www.jazzradio.com/\">jazzradio.com</ a> доступна во вкладке Интернет в боковой панели. Также доступны любые песни загруженные в <a href=\"http://drive.google.com/start\">Google Drive</ a>. Clementine теперь показывает индикаторы настроения для песен проигрываемых с вашего жесткого диска. См. <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">полный список изменений</ a> для получения дополнительной информации."
+msgstr "В этом выпуске добавлена ​​долгожданная поддержка подкастов включая интеграцию и синхронизацию с <a href=\"//gpodder.net\">gpodder.net</a>. Музыка из <a  href=\"http://soundcloud.com/\">Soundcloud</a> и <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> доступна во вкладке Интернет в боковой панели. Также доступны любые песни загруженные в <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine теперь показывает индикаторы настроения для песен проигрываемых с вашего жесткого диска. См. <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">полный список изменений</a> для получения дополнительной информации."
 
 #: downloads.html:7
 msgid "Latest downloads"
