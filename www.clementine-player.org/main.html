@@ -109,7 +109,7 @@
 
 {% for n in news|sort(attribute="timestamp")|reverse %}
   <div>
-    <h3>{{ n.title }} - {{ n.datetime.strftime("%A %d %B %Y") }}</h3>
+    <h3>{{ n.title }} - {{ n.datetime|datetime(language) }}</h3>
 
     <p class="content">{{ n.content|safe }}</p>
   </div>

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import babel
 import jinja2
 import os
 import webapp2
@@ -21,6 +22,10 @@ jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
     extensions=['jinja2.ext.i18n', 'jinja2.ext.with_'])
 jinja_environment.install_gettext_translations(i18n)
+
+def format_datetime(value, language='en'):
+  return babel.dates.format_date(value, format='full', locale=language)
+jinja_environment.filters['datetime'] = format_datetime
 
 import copy
 import datetime
