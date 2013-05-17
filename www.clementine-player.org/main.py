@@ -43,8 +43,10 @@ class BasePage(webapp2.RequestHandler):
     else:
       root_page = "/%s/" % language
 
-    if language is not None:
-      i18n.get_i18n().set_locale(language)
+    if language is None:
+      language = 'en'
+
+    i18n.get_i18n().set_locale(language)
 
     if extra_params is None:
       extra_params = {}
