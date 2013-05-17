@@ -24,6 +24,10 @@ jinja_environment = jinja2.Environment(
 jinja_environment.install_gettext_translations(i18n)
 
 def format_datetime(value, language='en'):
+  # Babel supports fewer locales than we do so change to English for 
+  # unsupported locales.
+  if not babel.localedata.exists(language):
+    language = 'en'
   return babel.dates.format_date(value, format='full', locale=language)
 jinja_environment.filters['datetime'] = format_datetime
 
