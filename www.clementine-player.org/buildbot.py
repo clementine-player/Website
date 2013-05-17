@@ -1,5 +1,6 @@
 import jinja2
 import json
+import logging
 import os
 import urllib
 import urllib2
@@ -103,7 +104,10 @@ class RefreshBuildPage(webapp2.RequestHandler):
     builder = self.request.get('builder')
     base_url = self.request.get('base_url')
     build = GetLastSuccessfulBuild(builder, base_url)
-    build.put()
+    if build is not None:
+      build.put()
+    else:
+      logging.warning('No build for %s', builder)
 
 
 class BuildsPage(webapp2.RequestHandler):
