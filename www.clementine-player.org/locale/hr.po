@@ -4,13 +4,14 @@
 # 
 # Translators:
 # gogo <trebelnik2@gmail.com>, 2012
+# gogo <trebelnik2@gmail.com>, 2013
 # gogo <trebelnik2@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-05-13 14:10+0200\n"
-"PO-Revision-Date: 2012-11-12 15:41+0000\n"
+"PO-Revision-Date: 2013-05-28 21:43+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/clementine/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +42,7 @@ msgstr "Sudjelujte"
 
 #: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Više platformski svirač glazbe inspiriran Amarokom 1.4"
+msgstr "Višeplatformski svirač glazbe inspiriran Amarokom 1.4"
 
 #: base.html:78
 msgid ""
@@ -546,7 +547,7 @@ msgstr "je moderan glazbeni svirač i organizator kolekcija glazbe"
 
 #: main.html:52
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine je više platformski glazbeni svirač."
+msgstr "Clementine je višeplatformski glazbeni svirač."
 
 #: main.html:53
 msgid "It is inspired by"
