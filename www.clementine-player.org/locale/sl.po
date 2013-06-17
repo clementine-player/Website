@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# R33D3M33R <yellllow_m@yahoo.com>, 2012
+# R33D3M33R <andrejm@ubuntu.si>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-05-13 14:10+0200\n"
 "PO-Revision-Date: 2012-12-28 11:46+0000\n"
-"Last-Translator: R33D3M33R <yellllow_m@yahoo.com>\n"
+"Last-Translator: R33D3M33R <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/clementine/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
