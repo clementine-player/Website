@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme <fitoschido@gmail.com>, 2013
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
 # LunarParks <Thunder.Tricking@gmail.com>, 2013
 # Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2012
 msgid ""
