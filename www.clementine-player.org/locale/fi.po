@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-05-13 14:10+0200\n"
-"PO-Revision-Date: 2013-05-08 09:26+0000\n"
+"PO-Revision-Date: 2013-07-18 07:27+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/clementine/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -329,7 +329,7 @@ msgstr "Uusimmat tiedostot"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Lataa uusin vakaa versio Clementinestä haluamallesi käyttöjärjestelmälle."
+msgstr "Lataa Clementinen uusin vakaa versio haluamallesi käyttöjärjestelmälle."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -343,7 +343,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Voit ladata uusimman version Clementinestä Ubuntulle käyttäen virallista PPA:ta:"
+msgstr "Voit ladata Clementinen uusimman version Ubuntulle käyttäen virallista PPA:ta:"
 
 #: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
