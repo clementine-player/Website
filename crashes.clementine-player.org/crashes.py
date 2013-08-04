@@ -38,13 +38,14 @@ jinja_environment = jinja2.Environment(
 def CodesiteURLTemplate(version):
   query = ""
 
-  match = GIT_VERSION_RE.match(version)
-  if match:
-    query = "?r=" + match.group(1)
-  else:
-    match = RELEASED_VERSION_RE.match(version)
+  if version:
+    match = GIT_VERSION_RE.match(version)
     if match:
-      query = "?name=" + version
+      query = "?r=" + match.group(1)
+    else:
+      match = RELEASED_VERSION_RE.match(version)
+      if match:
+        query = "?name=" + version
 
   return CODESITE_URL_BASE % query
 
