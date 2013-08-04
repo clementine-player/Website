@@ -27,4 +27,17 @@
       </tr>
     {% endfor %}
   </table>
+
+  <ul class="pager">
+    {% if has_previous %}
+      <li class="previous"><a href="{{ previous_url }}">&larr; Newer</a></li>
+    {% else %}
+      <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+    {% endif %}
+    {% if has_next %}
+      <li class="next"><a href="{{ next_url }}">Older &rarr;</a></li>
+    {% else %}
+      <li class="next disabled"><a href="#">Older &rarr;</a></li>
+    {% endif %}
+  </ul>
 {% endblock %}

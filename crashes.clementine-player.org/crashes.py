@@ -27,6 +27,8 @@ LOG_LINE_RE = re.compile(
 CODESITE_URL_BASE = \
     "http://code.google.com/p/clementine-player/source/browse/%%s%s#%%d"
 
+ITEMS_PER_PAGE = 50
+
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
@@ -163,12 +165,30 @@ class BasePage(webapp2.RequestHandler):
 
 class IndexPage(BasePage):
   def get(self):
+    offset = int(self.request.get('offset', 0))
+
     # Get the data
-    crashes = list(models.CrashInfo.all())
+    query = models.CrashInfo.all()
+    query.order('-time_reported')
+    crashes = query.fetch(ITEMS_PER_PAGE, offset=offset)
+
+    # Should we display next/previous links?
+    has_previous = offset > 0
+    has_next = (
+        len(crashes) == ITEMS_PER_PAGE and
+        query.count(offset=offset, limit=ITEMS_PER_PAGE+1) > ITEMS_PER_PAGE)
+
+    previous_url = "%s?offset=%d" % (
+        self.request.path, max(0, offset - ITEMS_PER_PAGE))
+    next_url = "%s?offset=%d" % (self.request.path, offset + ITEMS_PER_PAGE)
 
     # Render the template
     self.Render('templates/list.html', {
       "crashes": crashes,
+      "has_previous": has_previous,
+      "has_next": has_next,
+      "previous_url": previous_url,
+      "next_url": next_url,
     })
 
 
