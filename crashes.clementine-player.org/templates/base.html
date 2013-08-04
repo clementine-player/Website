@@ -12,22 +12,22 @@
 
 <div class="container">
   <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="/">Clementine Crashes</a>
-        <ul class="nav">
+    <div class="container">
+      <a class="navbar-brand" href="/">Clementine Crashes</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav navbar-nav">
           <li class="active"><a href="/">All crashes</a></li>
-
-        </ul>
-        <ul class="nav pull-right">
-          {% if user %}
-            <li><a href="{{ logout_url }}">Logout</a></li>
-            <span class="navbar-text">{{ user.email() }}</span>
-          {% else %}
-            <li><a href="{{ login_url }}">Login</a></li>
-          {% endif %}
         </ul>
       </div>
+
+      <p class="navbar-text pull-right">
+        {% if user %}
+          {{ user.email() }}
+          <a href="{{ logout_url }}" class="navbar-link">Logout</a>
+        {% else %}
+          <a href="{{ login_url }}" class="navbar-link">Login</a>
+        {% endif %}
+      </ul>
     </div>
   </div>
 
