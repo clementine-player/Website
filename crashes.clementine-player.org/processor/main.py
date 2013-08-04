@@ -267,6 +267,12 @@ def main():
   http = credentials.authorize(httplib2.Http())
   task_api = apiclient.discovery.build("taskqueue", "v1beta2", http=http)
 
+  # Create the symbols directory if it doesn't exist already.
+  try:
+    os.makedirs(args.symbols_directory)
+  except os.error:
+    pass
+
   # Load cached symbols.
   cache = SymbolCache(args.symbols_directory, http)
   processor = Processor(cache, args.stackwalk_binary)

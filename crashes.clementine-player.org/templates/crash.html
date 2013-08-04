@@ -1,10 +1,18 @@
 {% extends "templates/base.html" %}
+{% block javascript_end %}
+  <script type="text/javascript">
+    $('#crash_tabbar a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  </script>
+{% endblock %}
+
 {% block content %}
   {% if not crash_pb %}
     <div class="alert">
-      <h4>Warning!</h4>
-      <p>This crash report is still being processed.  It can take between 30-60
-      minutes for the stack trace to be shown here.</p>
+      This crash report is still being processed.  It can take between 30-60
+      minutes for the stack trace to be shown here.
       {% if user_is_admin %}
         <p>If you're impatient you can process this crash report locally:</p>
         <pre>
@@ -15,138 +23,168 @@ python processor/main.py --symbols_directory /tmp/symbols \
     </div>
   {% endif %}
 
-  <a name="crash-report-metadata"></a>
-  <h3>Crash report metadata</h3>
-  <table class="table table-condensed table-bordered">
-    <tr>
-      <th>Time reported</th>
-      <td>
-        {{ info.time_reported|relativedate }}
-        ({{ info.time_reported.strftime("%H:%M, %a %d %b %Y UTC") }})
-      </td>
-    </tr>
-    <tr>
-      <th>Application version</th>
-      <td>{{ info.version }}</td>
-    </tr>
-    <tr>
-      <th>Qt version</th>
-      <td>{{ info.qt_version }}</td>
-    </tr>
-    <tr>
-      <th>OS</th>
-      <td>{{ info.os }}</td>
-    </tr>
-    <tr>
-      <th>OS version</th>
-      <td>{{ info.os_version }}</td>
-    </tr>
-  </table>
+  <ul id="crash_tabbar" class="nav nav-tabs">
+    <li class="active"><a href="#info" data-toggle="tab">Info</a></li>
+    <li><a href="#stack" data-toggle="tab">Stack traces</a></li>
+    <li><a href="#log" data-toggle="tab">Log</a></li>
+    <li><a href="#minidump" data-toggle="tab">Minidump info</a></li>
+    <li><a href="#modules" data-toggle="tab">Loaded modules</a></li>
+  </ul>
 
-  {% if crash_pb %}
-    <a name="minidump-metadata"></a>
-    <h3>Minidump metadata</h3>
-    <table class="table table-condensed table-bordered">
-      <tr>
-        <th>OS</th>
-        <td>{{ crash_pb.metadata.os }}</td>
-      </tr>
-      <tr>
-        <th>OS version</th>
-        <td>{{ crash_pb.metadata.os_version }}</td>
-      </tr>
-      <tr>
-        <th>CPU</th>
-        <td>{{ crash_pb.metadata.cpu }}</td>
-      </tr>
-      <tr>
-        <th>CPU info</th>
-        <td>{{ crash_pb.metadata.cpu_info }}</td>
-      </tr>
-      <tr>
-        <th>CPU count</th>
-        <td>{{ crash_pb.metadata.cpu_count }}</td>
-      </tr>
-      <tr>
-        <th>Crash reason</th>
-        <td>{{ crash_pb.metadata.crash_reason }}</td>
-      </tr>
-      <tr>
-        <th>Crash address</th>
-        <td>{{ crash_pb.metadata.crash_address }}</td>
-      </tr>
-      <tr>
-        <th>Crashed thread</th>
-        <td>{{ crash_pb.metadata.crash_thread }}</td>
-      </tr>
-    </table>
-  {% endif %}
-
-  {% if has_log_file %}
-    <h3>Log</h3>
-    <p>A log file was uploaded with this crash report.</p>
-
-    {% if user_is_admin and log_text %}
-      <pre class="logtext">{{ log_text|FormatLogText }}</pre>
-    {% elif log_error %}
-      <div class="alert alert-error">
-        An error occurred fetching the log file:
-        <pre>{{ log_error|escape }}</pre>
-      </div>
-    {% else %}
-      <div class="alert">
-        Log files may contain personal information and are only visible to
-        administrators.
-        {% if not user %}
-          <a href="{{ login_url }}">Login</a>.
-        {% endif %}
-      </div>
-    {% endif %}
-  {% endif %}
-
-  {% if crash_pb %}
-    <h3>Stack traces</h3>
-    <table class="table table-condensed table-stacktrace">
-      {% for thread in crash_pb.thread %}
-        <tr class="thread-title">
-          <th colspan="4">
-            <a name="thread-{{ loop.index0 }}"></a>
-            Thread {{ loop.index0 }}
-            {% if loop.index0 == crash_pb.metadata.crash_thread %}
-              <span class="label label-important">Crashed</span>
-            {% endif %}
-          </th>
-        </tr>
-
-        {% for frame in thread.frame %}
-          <tr>
-            <td class="frame-number">{{ loop.index }}</td>
-            <td>{{ frame.module }}</td>
-            <td>{{ frame.function }}</td>
-            <td>
-              {% if frame.filename and frame.line and frame.module == 'clementine' %}
-                {{ LinkifySource(frame.filename, frame.line) }}
-              {% else %}
-                {{ frame.offset }}
-              {% endif %}
-            </td>
-          </tr>
-        {% endfor %}
-    {% endfor %}
-    </table>
-
-    <a name="loaded-modules"></a>
-    <h3>Loaded modules</h3>
-    <table class="table table-condensed">
-      {% for module in crash_pb.module %}
+  <div id="crash_tabbarContent" class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+      <table class="table table-condensed table-bordered">
         <tr>
-          <td>{{ module.code_file }}</td>
-          <td>{{ module.debug_hash }}</td>
-          <td>{{ module.start_address }}</td>
-          <td>{{ module.end_address }}</td>
+          <th>Time reported</th>
+          <td>
+            {{ info.time_reported|relativedate }}
+            ({{ info.time_reported.strftime("%H:%M, %a %d %b %Y UTC") }})
+          </td>
         </tr>
-      {% endfor %}
-    </table>
+        <tr>
+          <th>Application version</th>
+          <td>{{ info.version }}</td>
+        </tr>
+        <tr>
+          <th>Qt version</th>
+          <td>{{ info.qt_version }}</td>
+        </tr>
+        <tr>
+          <th>OS</th>
+          <td>{{ info.os }}</td>
+        </tr>
+        <tr>
+          <th>OS version</th>
+          <td>{{ info.os_version }}</td>
+        </tr>
+      </table>
+    </div>
 
-  {% endif %}
+    <div class="tab-pane fade" id="stack">
+      {% if crash_pb %}
+        <table class="table table-condensed table-stacktrace">
+          {% for thread in crash_pb.thread %}
+            <tr class="thread-title">
+              <th colspan="4">
+                <a name="thread-{{ loop.index0 }}"></a>
+                Thread {{ loop.index0 }}
+                {% if loop.index0 == crash_pb.metadata.crash_thread %}
+                  <span class="label label-important">Crashed</span>
+                {% endif %}
+              </th>
+            </tr>
+
+            {% for frame in thread.frame %}
+              <tr>
+                <td class="frame-number">{{ loop.index }}</td>
+                <td>{{ frame.module }}</td>
+                <td>{{ frame.function }}</td>
+                <td>
+                  {% if frame.filename and frame.line and frame.module == 'clementine' %}
+                    {{ LinkifySource(frame.filename, frame.line) }}
+                  {% else %}
+                    {{ frame.offset }}
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+        {% endfor %}
+        </table>
+      {% else %}
+        <div class="alert">
+          Minidump info will be available after this crash report has been
+          processed.
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="tab-pane fade" id="log">
+      {% if has_log_file %}
+        {% if user_is_admin and log_text %}
+          <pre class="logtext">{{ log_text|FormatLogText }}</pre>
+        {% elif log_error %}
+          <div class="alert alert-error">
+            An error occurred fetching the log file:
+            <pre>{{ log_error|escape }}</pre>
+          </div>
+        {% else %}
+          <div class="alert">
+            Log files may contain personal information and are only visible to
+            administrators.
+            {% if not user %}
+              <a href="{{ login_url }}">Login</a>.
+            {% endif %}
+          </div>
+        {% endif %}
+      {% else %}
+        <div class="alert">
+          No log file was uploaded with this crash report.
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="tab-pane fade" id="minidump">
+      {% if crash_pb %}
+        <table class="table table-condensed table-bordered">
+          <tr>
+            <th>OS</th>
+            <td>{{ crash_pb.metadata.os }}</td>
+          </tr>
+          <tr>
+            <th>OS version</th>
+            <td>{{ crash_pb.metadata.os_version }}</td>
+          </tr>
+          <tr>
+            <th>CPU</th>
+            <td>{{ crash_pb.metadata.cpu }}</td>
+          </tr>
+          <tr>
+            <th>CPU info</th>
+            <td>{{ crash_pb.metadata.cpu_info }}</td>
+          </tr>
+          <tr>
+            <th>CPU count</th>
+            <td>{{ crash_pb.metadata.cpu_count }}</td>
+          </tr>
+          <tr>
+            <th>Crash reason</th>
+            <td>{{ crash_pb.metadata.crash_reason }}</td>
+          </tr>
+          <tr>
+            <th>Crash address</th>
+            <td>{{ crash_pb.metadata.crash_address }}</td>
+          </tr>
+          <tr>
+            <th>Crashed thread</th>
+            <td>{{ crash_pb.metadata.crash_thread }}</td>
+          </tr>
+        </table>
+      {% else %}
+        <div class="alert">
+          Minidump info will be available after this crash report has been
+          processed.
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="tab-pane fade" id="modules">
+      {% if crash_pb %}
+        <table class="table table-condensed">
+          {% for module in crash_pb.module %}
+            <tr>
+              <td>{{ module.code_file }}</td>
+              <td>{{ module.debug_hash }}</td>
+              <td>{{ module.start_address }}</td>
+              <td>{{ module.end_address }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+      {% else %}
+        <div class="alert">
+          Minidump info will be available after this crash report has been
+          processed.
+        </div>
+      {% endif %}
+    </div>
+  </div>
 {% endblock %}

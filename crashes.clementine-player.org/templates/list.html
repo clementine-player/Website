@@ -13,12 +13,12 @@
     {% for crash in crashes %}
       {% set status = "Processed" if crash.serialised_crash_pb else "Pending" %}
       <tr>
-        <td>{{ crash.key().id() }}</td>
         <td>
           <a href="/crash/{{ crash.key().id() }}">
-            {{ "Processed" if crash.serialised_crash_pb else "Pending" }}
+            {{ crash.key().id() }}
           </a>
         </td>
+        <td>{{ "Processed" if crash.serialised_crash_pb else "Pending" }}</td>
         <td>{{ crash.time_reported|relativedate }}</td>
         <td>{{ crash.version }}</td>
         <td>{{ crash.qt_version }}</td>
