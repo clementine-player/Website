@@ -47,7 +47,7 @@ class SymbolUploadUrls(utils.ExceptionHandlerMixin, webapp2.RequestHandler):
           gs_read_path=gs_path))
 
     # Put all the records in the datastore.
-    db.put_async(records)
+    db.put(records)
 
     # JSON encode the response.
     json.dump({
