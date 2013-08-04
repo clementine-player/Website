@@ -1,0 +1,33 @@
+{% macro render(crashes) -%}
+  <table class="table table-striped table-bordered table-hover">
+    <tr>
+      <th></th>
+      <th>ID</th>
+      <th>Status</th>
+      <th>Time reported</th>
+      <th>Version</th>
+      <th>Qt version</th>
+      <th>OS</th>
+      <th>OS version</th>
+    </tr>
+    {% for crash in crashes %}
+      {% set status = "Processed" if crash.serialised_crash_pb else "Pending" %}
+      <tr class="crash-row">
+        <td>
+          <input type="checkbox" name="id" value="{{ crash.key().id() }}" />
+        </td>
+        <td>
+          <a href="/crash/{{ crash.key().id() }}">
+            {{ crash.key().id() }}
+          </a>
+        </td>
+        <td>{{ "Processed" if crash.serialised_crash_pb else "Pending" }}</td>
+        <td>{{ crash.time_reported|relativedate }}</td>
+        <td>{{ crash.version }}</td>
+        <td>{{ crash.qt_version }}</td>
+        <td>{{ crash.os }}</td>
+        <td>{{ crash.os_version }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{%- endmacro %}

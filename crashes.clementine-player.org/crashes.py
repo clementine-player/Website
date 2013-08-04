@@ -1,5 +1,6 @@
 from google.appengine.api import files
 from google.appengine.api import users
+from google.appengine.ext import db
 
 import datetime
 import jinja2
@@ -149,6 +150,20 @@ def FormatLogText(text):
 jinja_environment.filters["FormatLogText"] = FormatLogText
 
 
+def MergeCrashes(crash_ids):
+  crashes = models.CrashInfo.get_by_id(crash_ids)
+  
+  # Create a new crash group.
+  # TODO(dsansome): When groups have comments, merge them into the new group.
+  group = models.CrashGroup()
+  group.put()
+
+  for crash in crashes:
+    crash.crash_group = group
+
+  db.put(crashes)
+
+
 class BasePage(webapp2.RequestHandler):
   def Render(self, template_filename, values):
     new_values = {
@@ -192,11 +207,21 @@ class IndexPage(BasePage):
       "next_url": next_url,
     })
 
+  def post(self):
+    crash_ids = self.request.get_all('id')
+    if crash_ids:
+      if self.request.get('action') == 'Merge':
+        MergeCrashes([int(x) for x in crash_ids])
+
+    self.redirect(self.request.url)
+
 
 class CrashPage(BasePage):
   def get(self, crash_id):
+    crash_id = int(crash_id)
+
     # Get the data.
-    crash_info = models.CrashInfo.get_by_id(int(crash_id))
+    crash_info = models.CrashInfo.get_by_id(crash_id)
     if crash_info is None:
       self.error(404)
       return
@@ -221,15 +246,25 @@ class CrashPage(BasePage):
         except files.Error as ex:
           log_error = str(ex)
 
+    # Get other crashes in this crash group.
+    crash_group = crash_info.crash_group
+    if crash_group:
+      other_crashes = [x for x in crash_group.crashinfo_set
+                       if x.key().id() != crash_id]
+    else:
+      other_crashes = []
+
     # Render the template
     self.Render('templates/crash.html', {
+      "crash_group": crash_group,
+      "crash_pb": crash_pb,
+      "has_log_file": has_log_file,
       "hostname": self.request.headers["host"],
       "info": crash_info,
-      "crash_pb": crash_pb,
-      "log_text": log_text,
-      "log_error": log_error,
-      "has_log_file": has_log_file,
       "LinkifySource": MakeLinkifySource(crash_info.version),
+      "log_error": log_error,
+      "log_text": log_text,
+      "other_crashes": other_crashes,
     })
 
 

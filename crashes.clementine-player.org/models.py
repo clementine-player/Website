@@ -1,6 +1,12 @@
 from google.appengine.ext import blobstore
 from google.appengine.ext import db
 
+class CrashGroup(db.Model):
+  # A reference to the issue on codesite.
+  issue_id = db.IntegerProperty()
+  issue_summary = db.StringProperty()
+
+
 class CrashInfo(db.Model):
   # Cloud Storage paths for the actual data.
   minidump_gs_read_path = db.StringProperty()
@@ -21,6 +27,9 @@ class CrashInfo(db.Model):
 
   # A serialised Crash protobuf.  Set after the crash has been processed.
   serialised_crash_pb = db.BlobProperty()
+
+  # Multiple crashes can be grouped together.
+  crash_group = db.ReferenceProperty(CrashGroup)
 
 
 class Symbols(db.Model):

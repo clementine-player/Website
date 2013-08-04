@@ -1,43 +1,27 @@
-{% extends "templates/base.html" %}
+{% extends 'templates/base.html' %}
+{% import 'templates/crash_table.html' as crash_table %}
 {% block content %}
-  <table class="table table-striped table-bordered table-hover">
-    <tr>
-      <td>ID</td>
-      <td>Status</td>
-      <td>Time reported</td>
-      <td>Version</td>
-      <td>Qt version</td>
-      <td>OS</td>
-      <td>OS version</td>
-    </tr>
-    {% for crash in crashes %}
-      {% set status = "Processed" if crash.serialised_crash_pb else "Pending" %}
-      <tr>
-        <td>
-          <a href="/crash/{{ crash.key().id() }}">
-            {{ crash.key().id() }}
-          </a>
-        </td>
-        <td>{{ "Processed" if crash.serialised_crash_pb else "Pending" }}</td>
-        <td>{{ crash.time_reported|relativedate }}</td>
-        <td>{{ crash.version }}</td>
-        <td>{{ crash.qt_version }}</td>
-        <td>{{ crash.os }}</td>
-        <td>{{ crash.os_version }}</td>
-      </tr>
-    {% endfor %}
-  </table>
+  <form method="POST">
+    {{ crash_table.render(crashes) }}
 
-  <ul class="pager">
-    {% if has_previous %}
-      <li class="previous"><a href="{{ previous_url }}">&larr; Newer</a></li>
-    {% else %}
-      <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-    {% endif %}
-    {% if has_next %}
-      <li class="next"><a href="{{ next_url }}">Older &rarr;</a></li>
-    {% else %}
-      <li class="next disabled"><a href="#">Older &rarr;</a></li>
-    {% endif %}
-  </ul>
+    <ul class="pager">
+      {% if has_previous %}
+        <li class="previous"><a href="{{ previous_url }}">&larr; Newer</a></li>
+      {% else %}
+        <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+      {% endif %}
+      {% if has_next %}
+        <li class="next"><a href="{{ next_url }}">Older &rarr;</a></li>
+      {% else %}
+        <li class="next disabled"><a href="#">Older &rarr;</a></li>
+      {% endif %}
+    </ul>
+
+    <div class="actions">
+      <input type="submit" name="action" value="Merge"
+             class="btn btn-primary btn-small" />
+      <input type="submit" name="action" value="Delete"
+             class="btn btn-danger btn-small" />
+    </div>
+  </form>
 {% endblock %}

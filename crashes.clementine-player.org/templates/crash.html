@@ -1,13 +1,5 @@
-{% extends "templates/base.html" %}
-{% block javascript_end %}
-  <script type="text/javascript">
-    $('#crash_tabbar a').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show');
-    });
-  </script>
-{% endblock %}
-
+{% extends 'templates/base.html' %}
+{% import 'templates/crash_table.html' as crash_table %}
 {% block content %}
   {% if not crash_pb %}
     <div class="alert">
@@ -58,6 +50,11 @@ python processor/main.py --symbols_directory /tmp/symbols \
           <td>{{ info.os_version }}</td>
         </tr>
       </table>
+
+      {% if crash_group and other_crashes %}
+        <h3>Other crashes</h3>
+        {{ crash_table.render(other_crashes) }}
+      {% endif %}
     </div>
 
     <div class="tab-pane fade" id="stack">

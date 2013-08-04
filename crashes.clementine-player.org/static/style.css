@@ -1,5 +1,6 @@
 body {
   padding-top: 60px;
+  overflow-y: scroll;
 }
 
 table.table td {
