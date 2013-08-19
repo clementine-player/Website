@@ -6,13 +6,14 @@
 # arabuli <arabulibeqa@yahoo.com>, 2012
 # arabuli <arabulibeqa@yahoo.com>, 2012
 # Beqa Arabuli <arabulibeqa@gmail.com>, 2012
+# George Machitidze <giomac@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-05-13 14:10+0200\n"
-"PO-Revision-Date: 2012-11-06 23:04+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-08-16 19:48+0000\n"
+"Last-Translator: George Machitidze <giomac@gmail.com>\n"
 "Language-Team: Georgian (http://www.transifex.com/projects/p/clementine/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +35,7 @@ msgstr "ჩამოტვირთვები"
 
 #: base.html:48 main.html:85 screenshots.html:2
 msgid "Screenshots"
-msgstr "სურათები"
+msgstr "ანაბეჭდები"
 
 #: base.html:49 participate.html:2
 msgid "Participate"
@@ -48,7 +49,7 @@ msgstr "მუსიკის მრავალპლატფორმულ�
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine არის უფასო პროგრამული უზრუნველყოფა GPL v3 ლიცენზიით. ეს საიტი ლიცენზირებულია CC-BY-SA-ს ქვეშ."
+msgstr "Clementine არის თავისუფალი პროგრამული უზრუნველყოფა GPL v3 ლიცენზიით. ეს საიტი ლიცენზირებულია CC-BY-SA-ის ქვეშ."
 
 #: base.html:79
 msgid "Development by"
@@ -96,15 +97,15 @@ msgstr "Grooveshark-ის ინტეგრაცია"
 
 #: data.py:20
 msgid "Lyrics and track slider tooltip"
-msgstr "ლირიკები და ინფორმაცია სიმღერის შესახებ"
+msgstr ""
 
 #: data.py:21
 msgid "MusicBrainz fixing untagged files"
-msgstr "ტეგების რედაქტირება MusicBrainz-ის გამოყენებით"
+msgstr "ჭდეების ჩასწორება MusicBrainz-ით"
 
 #: data.py:22
 msgid "New tag editor with autocompletion"
-msgstr "ტეგების ახალი რედაქტორი ავტო-დასრულების მხარდაჭერით"
+msgstr "ჭდეების ახალი რედაქტორი ავტოშევსების მხარდაჭერით"
 
 #: data.py:23
 msgid "Track slider tooltip on Mac OS X"
@@ -112,7 +113,7 @@ msgstr "ინფორმაცია სიმღერის შესახ�
 
 #: data.py:26
 msgid "Artist photos and biographies"
-msgstr "მომღერლის ფოტოები და ბიოგრაფიები"
+msgstr "შემსრულებლის ფოტოები და ბიოგრაფიები"
 
 #: data.py:27
 msgid "Lyrics"
@@ -486,7 +487,7 @@ msgstr "ვიზუალიზაციები"
 
 #: main.html:32
 msgid "Lyrics and artist biographies and photos."
-msgstr "ლირიკები, მომღერლის ბიოგრაფიები და ფოტოები."
+msgstr "ტექსტები, შემსრულებლის ბიოგრაფიები და ფოტოები."
 
 #: main.html:33
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."

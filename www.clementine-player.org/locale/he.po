@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# eliash <elia.shreidler@gmail.com>, 2013
 # ud1955 <ud1955@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-05-13 14:10+0200\n"
-"PO-Revision-Date: 2013-05-30 16:19+0000\n"
-"Last-Translator: ud1955 <ud1955@gmail.com>\n"
+"PO-Revision-Date: 2013-08-15 21:31+0000\n"
+"Last-Translator: eliash <elia.shreidler@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/clementine/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,19 +29,19 @@ msgstr "אודות"
 
 #: base.html:47 downloads.html:2
 msgid "Downloads"
-msgstr ""
+msgstr "הורדות"
 
 #: base.html:48 main.html:85 screenshots.html:2
 msgid "Screenshots"
-msgstr ""
+msgstr "צילומי מסך"
 
 #: base.html:49 participate.html:2
 msgid "Participate"
-msgstr ""
+msgstr "השתתף"
 
 #: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr ""
+msgstr "נגן מוזיקה חוצה פלטפורמות מבוסס על  Amarok 1.4"
 
 #: base.html:78
 msgid ""
@@ -50,15 +51,15 @@ msgstr ""
 
 #: base.html:79
 msgid "Development by"
-msgstr ""
+msgstr "מפותח על ידי"
 
 #: base.html:80 main.html:21
 msgid "and"
-msgstr ""
+msgstr "וגם"
 
 #: base.html:82
 msgid "Website by"
-msgstr ""
+msgstr "האתר נבנה על ידי"
 
 #: data.py:8
 msgid "Podcasts"
@@ -102,7 +103,7 @@ msgstr ""
 
 #: data.py:22
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "עורך תגיות חדש עם השלמה אוטומאטית"
 
 #: data.py:23
 msgid "Track slider tooltip on Mac OS X"
@@ -110,11 +111,11 @@ msgstr ""
 
 #: data.py:26
 msgid "Artist photos and biographies"
-msgstr ""
+msgstr "תמונות מבצע וביוגרפיה"
 
 #: data.py:27
 msgid "Lyrics"
-msgstr ""
+msgstr "מילות השיר"
 
 #: data.py:28
 msgid "Icecast radio stations"
@@ -122,7 +123,7 @@ msgstr ""
 
 #: data.py:29
 msgid "Smart playlists and kittens"
-msgstr ""
+msgstr "רשימת השמעה חכמה וחתלתולים"
 
 #: data.py:32
 msgid "The queue manager on Windows 7"
@@ -130,7 +131,7 @@ msgstr ""
 
 #: data.py:33
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "העתקת מוזיקה לאייפוד באובונטו"
 
 #: data.py:34
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
@@ -142,7 +143,7 @@ msgstr ""
 
 #: data.py:38
 msgid "Clementine 0.4 on Ubuntu"
-msgstr ""
+msgstr "קלמטין 0.4 על אובונטו"
 
 #: data.py:39
 msgid "Clementine 0.4 on Windows 7"
@@ -162,7 +163,7 @@ msgstr ""
 
 #: data.py:45
 msgid "Searching the library"
-msgstr ""
+msgstr "מחפש בספריה"
 
 #: data.py:46 data.py:52
 msgid "The tag editor on Windows"
