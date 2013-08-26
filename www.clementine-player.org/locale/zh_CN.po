@@ -4,13 +4,15 @@
 # 
 # Translators:
 # xaojan <cxiaojian@gmail.com>, 2012
+# walking <waling@mail.i2p>, 2013
+# xaojan <cxiaojian@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-05-13 14:10+0200\n"
-"PO-Revision-Date: 2012-11-06 23:04+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-08-19 13:36+0000\n"
+"Last-Translator: xtoaster <zhazhenzhong@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/clementine/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +64,7 @@ msgstr "网站设计"
 
 #: data.py:8
 msgid "Podcasts"
-msgstr ""
+msgstr "播客"
 
 #: data.py:9
 msgid "Google Drive"
@@ -70,11 +72,11 @@ msgstr ""
 
 #: data.py:10
 msgid "New global search interface"
-msgstr ""
+msgstr "全新的全局搜索界面"
 
 #: data.py:11
 msgid "Moodbars"
-msgstr ""
+msgstr "心情指示条"
 
 #: data.py:14
 msgid "Transcoding settings"
@@ -302,11 +304,11 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog?name=release-1.0\">full "
 "changelog</a> for more information."
-msgstr ""
+msgstr "本版加入 <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> 及 <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">数字化导入</a> 支持。 同时新增全局搜索功能，允许您方便地在本地和互联网上搜索音乐。其它功能包括音乐 CD 支持，更多的转码选项，改进后的设置对话框，更智能的专辑封面搜索，以及一堆错误修正。详见 <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">完整版本说明</a> 。"
 
 #: data.py:317
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "发布 1.1 版本"
 
 #: data.py:318
 msgid ""
@@ -320,7 +322,7 @@ msgid ""
 "<a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "本版新增期待已久的 Podcast 博客支持，及与 <a href=\"//gpodder.net\">gpodder.net</a> 的整合与同步。<a href=\"http://soundcloud.com/\">Soundcloud</a> 及 <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>，及您上传到 <a href=\"http://drive.google.com/start\">Google Drive</a>中的音乐，现在可以从侧边栏的网络标签中访问。Clementine 现在支持为本地光盘中的音乐显示心情指示。详见<a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">完整的版本说明</a>。"
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -420,11 +422,11 @@ msgstr "Ubuntu Oneiric (11.10) 开发版本"
 
 #: downloads.html:114 participate.html:75
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "Ubuntu Precise (12.04) 开发版本"
 
 #: downloads.html:116 participate.html:77
 msgid "Ubuntu Quantal (12.10) development builds"
-msgstr ""
+msgstr "Ubuntu Quantal (12.10) 开发版本"
 
 #: downloads.html:118 participate.html:79
 msgid "Windows development builds"
@@ -460,7 +462,7 @@ msgstr "收听这些网络电台"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "搜索播放您上传的音乐，支持"
 
 #: main.html:27
 msgid "Create smart playlists and dynamic playlists."
@@ -500,7 +502,7 @@ msgstr "通过 MusicBrainz 获取缺失的标签。"
 
 #: main.html:36
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "发现，下载 Podcast 播客。"
 
 #: main.html:37
 msgid "Download missing album cover art from Last.fm and Amazon."
