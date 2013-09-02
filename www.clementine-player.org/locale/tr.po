@@ -5,7 +5,7 @@
 # Translators:
 # Faruk Uzun <>, 2012
 # kadirc <kadirche@gmail.com>, 2012
-# Murat ikilik <muratikilik@gmail.com>, 2012
+# Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Sahin <martinamca@gmail.com>, 2012
 # Ufuk Uyumaz <ufukuyumaz@gmail.com>, 2013
 # volkangezer <volkangezer@gmail.com>, 2013
