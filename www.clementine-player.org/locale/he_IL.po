@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2013-05-13 14:10+0200\n"
-"PO-Revision-Date: 2013-06-01 02:23+0000\n"
-"Last-Translator: davidsansome <me@davidsansome.com>\n"
+"POT-Creation-Date: 2013-09-11 17:58+0200\n"
+"PO-Revision-Date: 2013-09-11 16:06+0000\n"
+"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Hebrew (Israel) (http://www.transifex.com/projects/p/clementine/language/he_IL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -187,26 +187,26 @@ msgstr ""
 msgid "Source code"
 msgstr ""
 
-#: data.py:193
+#: data.py:197
 msgid "Source"
 msgstr ""
 
-#: data.py:233
+#: data.py:245
 msgid "Version 0.2 released"
 msgstr ""
 
-#: data.py:234
+#: data.py:246
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:240
+#: data.py:252
 msgid "Version 0.3 released"
 msgstr ""
 
-#: data.py:241
+#: data.py:253
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -214,11 +214,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:249
+#: data.py:261
 msgid "Version 0.4 released"
 msgstr ""
 
-#: data.py:250
+#: data.py:262
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -228,11 +228,11 @@ msgid ""
 "the time."
 msgstr ""
 
-#: data.py:259
+#: data.py:271
 msgid "Version 0.5 released"
 msgstr ""
 
-#: data.py:260
+#: data.py:272
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -249,11 +249,11 @@ msgid ""
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:276
+#: data.py:288
 msgid "Version 0.6 released"
 msgstr ""
 
-#: data.py:277
+#: data.py:289
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -266,11 +266,11 @@ msgid ""
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:289
+#: data.py:301
 msgid "Version 0.7 released"
 msgstr ""
 
-#: data.py:290
+#: data.py:302
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -285,11 +285,11 @@ msgid ""
 "player/source/browse/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:304
+#: data.py:316
 msgid "Version 1.0 released"
 msgstr ""
 
-#: data.py:305
+#: data.py:317
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -303,11 +303,11 @@ msgid ""
 "changelog</a> for more information."
 msgstr ""
 
-#: data.py:317
+#: data.py:329
 msgid "Version 1.1 released"
 msgstr ""
 
-#: data.py:318
+#: data.py:330
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -401,47 +401,35 @@ msgstr ""
 msgid "Mac OS X development builds"
 msgstr ""
 
-#: downloads.html:106 participate.html:67
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr ""
-
-#: downloads.html:108 participate.html:69
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr ""
-
-#: downloads.html:110 participate.html:71
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr ""
-
-#: downloads.html:112 participate.html:73
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr ""
-
-#: downloads.html:114 participate.html:75
+#: downloads.html:106 participate.html:75
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr ""
 
-#: downloads.html:116 participate.html:77
+#: downloads.html:108 participate.html:77
 msgid "Ubuntu Quantal (12.10) development builds"
 msgstr ""
 
-#: downloads.html:118 participate.html:79
+#: downloads.html:110
+msgid "Ubuntu Raring (13.04) development builds"
+msgstr ""
+
+#: downloads.html:112 participate.html:79
 msgid "Windows development builds"
 msgstr ""
 
-#: downloads.html:120 participate.html:81
+#: downloads.html:114 participate.html:81
 msgid "Buildbot"
 msgstr ""
 
-#: downloads.html:123 participate.html:84
+#: downloads.html:117 participate.html:84
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 
-#: downloads.html:131
+#: downloads.html:125
 msgid "Old downloads"
 msgstr ""
 
-#: downloads.html:139 screenshots.html:8
+#: downloads.html:133 screenshots.html:8
 msgid "Version"
 msgstr ""
 
@@ -664,6 +652,22 @@ msgstr ""
 
 #: participate.html:56
 msgid "How to compile Clementine from source"
+msgstr ""
+
+#: participate.html:67
+msgid "Ubuntu Lucid (10.04) development builds"
+msgstr ""
+
+#: participate.html:69
+msgid "Ubuntu Maverick (10.10) development builds"
+msgstr ""
+
+#: participate.html:71
+msgid "Ubuntu Natty (11.04) development builds"
+msgstr ""
+
+#: participate.html:73
+msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr ""
 
 #: participate.html:92

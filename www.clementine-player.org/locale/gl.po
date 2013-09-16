@@ -3,63 +3,61 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# isolus <isolus@yopmail.com>, 2013
-# azken_tximinoa <mikel@hamahiru.org>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-09-11 17:58+0200\n"
-"PO-Revision-Date: 2013-09-11 16:06+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Basque (http://www.transifex.com/projects/p/clementine/language/eu/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Galician (http://www.transifex.com/projects/p/clementine/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: eu\n"
+"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: base.html:5
 msgid "Clementine Music Player"
-msgstr "Clementine musika erreproduzigailua"
+msgstr ""
 
 #: base.html:46
 msgid "About"
-msgstr "Honi buruz"
+msgstr ""
 
 #: base.html:47 downloads.html:2
 msgid "Downloads"
-msgstr "Deskargak"
+msgstr ""
 
 #: base.html:48 main.html:85 screenshots.html:2
 msgid "Screenshots"
-msgstr "Pantaila-argazkiak"
+msgstr ""
 
 #: base.html:49 participate.html:2
 msgid "Participate"
-msgstr "Parte hartu"
+msgstr ""
 
 #: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4-ean inspiraturiko musika erreproduzigailu plataforma-anitza"
+msgstr ""
 
 #: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine GPL v3 pean dagoen software librea da. Webgune hau CC-BY-SA pean lizentziaturik dago."
+msgstr ""
 
 #: base.html:79
 msgid "Development by"
-msgstr "Garapena:"
+msgstr ""
 
 #: base.html:80 main.html:21
 msgid "and"
-msgstr "eta"
+msgstr ""
 
 #: base.html:82
 msgid "Website by"
-msgstr "Webgunea:"
+msgstr ""
 
 #: data.py:8
 msgid "Podcasts"
@@ -103,7 +101,7 @@ msgstr ""
 
 #: data.py:22
 msgid "New tag editor with autocompletion"
-msgstr "Autobetetze funtzioa duen etiketa-editore berria"
+msgstr ""
 
 #: data.py:23
 msgid "Track slider tooltip on Mac OS X"
@@ -111,43 +109,43 @@ msgstr ""
 
 #: data.py:26
 msgid "Artist photos and biographies"
-msgstr "Artisten argazki eta biografiak"
+msgstr ""
 
 #: data.py:27
 msgid "Lyrics"
-msgstr "Letrak"
+msgstr ""
 
 #: data.py:28
 msgid "Icecast radio stations"
-msgstr "Icecast irratiak"
+msgstr ""
 
 #: data.py:29
 msgid "Smart playlists and kittens"
-msgstr "Erreprodukzio-zerrenda adimendunak eta katutxoak"
+msgstr ""
 
 #: data.py:32
 msgid "The queue manager on Windows 7"
-msgstr "Ilara-kudeatzailea Windows 7-n"
+msgstr ""
 
 #: data.py:33
 msgid "Copying music to an iPod in Ubuntu"
-msgstr "Musika iPod batera kopiatzen Ubuntun"
+msgstr ""
 
 #: data.py:34
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 Ubun...LORIA OSOA HIPNOAPOARENTZAT"
+msgstr ""
 
 #: data.py:35
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 Mac OS X-en"
+msgstr ""
 
 #: data.py:38
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 Ubuntun"
+msgstr ""
 
 #: data.py:39
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 Windows 7n"
+msgstr ""
 
 #: data.py:40
 msgid "Clementine 0.4 visualisations with projectM"
@@ -155,23 +153,23 @@ msgstr ""
 
 #: data.py:41
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 Mac OS X-en"
+msgstr ""
 
 #: data.py:44
 msgid "Last.fm tag radio"
-msgstr "Last.fm-ko etiketa irratia"
+msgstr ""
 
 #: data.py:45
 msgid "Searching the library"
-msgstr "Bilduman bilatzen"
+msgstr ""
 
 #: data.py:46 data.py:52
 msgid "The tag editor on Windows"
-msgstr "Etiketa editorea Windows-en"
+msgstr ""
 
 #: data.py:47
 msgid "The cover manager on Mac OS X"
-msgstr "Azal-kudeatzailea Mac OS X-en"
+msgstr ""
 
 #: data.py:50
 msgid "Playback on Linux"
@@ -187,11 +185,11 @@ msgstr ""
 
 #: data.py:174
 msgid "Source code"
-msgstr "Iturburu-kodea"
+msgstr ""
 
 #: data.py:197
 msgid "Source"
-msgstr "Iturria"
+msgstr ""
 
 #: data.py:245
 msgid "Version 0.2 released"
@@ -325,15 +323,15 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr "Azken deskargak."
+msgstr ""
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Eskuratu ezazu Clementineren azken bertsio egonkorra zure sistema eragilerako."
+msgstr ""
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr "Deskargak beste sistema eragile batzuetarako"
+msgstr ""
 
 #: downloads.html:52
 msgid "Ubuntu PPA"
@@ -347,7 +345,7 @@ msgstr ""
 
 #: downloads.html:62 downloads.html.py:70
 msgid "Other Downloads"
-msgstr "Beste deskargak"
+msgstr ""
 
 #: downloads.html:64
 msgid "Unofficial packages"
@@ -361,7 +359,7 @@ msgstr ""
 
 #: downloads.html:74
 msgid "Compiling from source"
-msgstr "Iturburu-kodetik konpilatu"
+msgstr ""
 
 #: downloads.html:76
 msgid "Compiling Clementine from source is easy on Linux."
@@ -429,15 +427,15 @@ msgstr ""
 
 #: downloads.html:125
 msgid "Old downloads"
-msgstr "Deskarga zaharrak"
+msgstr ""
 
 #: downloads.html:133 screenshots.html:8
 msgid "Version"
-msgstr "Bertsioa"
+msgstr ""
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Ezaugarriak"
+msgstr ""
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -552,7 +550,7 @@ msgstr ""
 
 #: main.html:62
 msgid "Download Clementine"
-msgstr "Clementine deskargatu"
+msgstr ""
 
 #: main.html:71
 msgid "for Windows, Mac OS X and Linux"
@@ -560,23 +558,23 @@ msgstr ""
 
 #: main.html:76
 msgid "Announcement"
-msgstr "Iragarkia"
+msgstr ""
 
 #: main.html:77
 msgid "Changelog"
-msgstr "Aldaketak"
+msgstr ""
 
 #: main.html:78
 msgid "Show all downloads"
-msgstr "Erakutsi deskarga guztiak"
+msgstr ""
 
 #: main.html:107
 msgid "News"
-msgstr "Albisteak"
+msgstr ""
 
 #: participate.html:7
 msgid "Need help?"
-msgstr "Laguntza behar?"
+msgstr ""
 
 #: participate.html:11
 msgid "Come chat with us at the"
@@ -594,13 +592,13 @@ msgstr ""
 
 #: participate.html:15
 msgid "Forum"
-msgstr "Foroa"
+msgstr ""
 
 #: participate.html:17
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine-k Google Groups darabil bere foro/posta-zerrenda/eztabaida orokorreko talde modura."
+msgstr ""
 
 #: participate.html:20
 msgid "Support and discussion group"
@@ -608,7 +606,7 @@ msgstr ""
 
 #: participate.html:25
 msgid "Collaborate"
-msgstr "Lagundu"
+msgstr ""
 
 #: participate.html:27
 msgid "Reporting bugs and proposing patches"
@@ -630,13 +628,13 @@ msgstr ""
 
 #: participate.html:36
 msgid "Translating the interface"
-msgstr "Interfazearen itzulketa"
+msgstr ""
 
 #: participate.html:38
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Clementine beste hizkuntza batera itzuli nahi baduzu, hala egin dezakezu Transifex itzulpenen orrian."
+msgstr ""
 
 #: participate.html:39
 msgid ""
@@ -646,7 +644,7 @@ msgstr ""
 
 #: participate.html:42
 msgid "Transifex translations"
-msgstr "Transifex itzulpenak"
+msgstr ""
 
 #: participate.html:45
 msgid "Hacking"
@@ -654,7 +652,7 @@ msgstr ""
 
 #: participate.html:56
 msgid "How to compile Clementine from source"
-msgstr "Nola konpilatu Clementine iturburu-kodetik abiatuz"
+msgstr ""
 
 #: participate.html:67
 msgid "Ubuntu Lucid (10.04) development builds"
@@ -684,12 +682,12 @@ msgstr ""
 
 #: participate.html:98
 msgid "Clementine on Facebook"
-msgstr "Clementine Facebooken"
+msgstr ""
 
 #: participate.html:101
 msgid "Clementine on Twitter"
-msgstr "Clementine Twitterren"
+msgstr ""
 
 #: participate.html:104
 msgid "Clementine on Last.fm"
-msgstr "Clementine Last.fm-n"
+msgstr ""
