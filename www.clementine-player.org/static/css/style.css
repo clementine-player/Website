@@ -422,11 +422,11 @@ body.sidebar-right #page {
   width: 349px;
 }
 
-.thindownload {
+.android-download {
   float: left;
-  width: 349px;
-  height: 60px;
-  background-image: url(/images/thin-download.png);
+  width: 319px;
+  height: 80px;
+  background-image: url(/images/android-download.png);
   background-position:left top;
   background-repeat: no-repeat;
   color: white;
@@ -438,6 +438,19 @@ body.sidebar-right #page {
 .thindownload a {
   text-decoration: none;
   color: white;
+}
+
+.thindownload {
+  float: left;
+  width: 349px;
+  height: 60px;
+  background-image: url(/images/thin-download.png);
+  background-position:left top;
+  background-repeat: no-repeat;
+  color: white;
+  cursor: pointer;
+  padding: 4px 15px 5px 15px;
+  margin: 0px 20px 0px 20px;
 }
 
 .thindownload:hover {
@@ -457,7 +470,7 @@ body.sidebar-right #page {
   margin-top: 5px;
 }
 
-.os {
+.os, .android-download-title {
   margin: 0px;
   position: relative;
   left: 5px;
@@ -466,7 +479,12 @@ body.sidebar-right #page {
   font-size: 24px;
 }
 
-.thindownload .arch {
+.android-download-title {
+  padding-left: 52px;
+  padding-bottom: 10px;
+}
+
+.thindownload .arch, .android-download-text {
   position: relative;
   left: 5px;
   top: 5px;
