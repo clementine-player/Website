@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block title %}{{ _("Participate") }} | {% endblock %}
+{% block scripts %}
+  <script type="text/javascript"
+      src="https://apis.google.com/js/plusone.js" async></script>
+{% endblock %}
 {% block path %}/participate{% endblock %}
 
 {% block content %}
@@ -105,7 +109,12 @@ sudo apt-get install clementine</pre>
   </li>
   <br />
   <li style="list-style-image: none; list-style-type: none">
-    <div class="g-plus" data-href="//plus.google.com/109846771540583835237" data-rel="publisher"></div>
+    <div class="g-page"
+        data-href="https://plus.google.com/109846771540583835237"
+        data-rel="publisher"
+        data-layout="landscape"
+        data-width="450">
+    </div>
   </li>
 </ul>
 
