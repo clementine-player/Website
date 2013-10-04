@@ -2,8 +2,14 @@
 
 def _(x): return x
 
-LATEST_VERSION = '1.1'
+LATEST_VERSION = '1.2'
 SCREENSHOTS = [
+  {'version': '1.2', 'entries': [
+    {'file': 'clementine-1.2-1.png', 'title': _('Playlist tab, while listening to songs from multiples Internet services')},
+    {'file': 'clementine-1.2-2.png', 'title': _('Subsonic integration')},
+    {'file': 'clementine-1.2-3.png', 'title': _('Browsing playlist from the Android app')},
+    {'file': 'clementine-1.2-4.png', 'title': _('Controlling playback from the Android app')},
+  ]},
   {'version': '1.1', 'entries': [
     {'file': 'clementine-1.1-1.png', 'title': _('Podcasts')},
     {'file': 'clementine-1.1-2.png', 'title': _('Google Drive')},
@@ -55,6 +61,26 @@ SCREENSHOTS = [
 ]
 DOWNLOAD_BASE_URL = 'http://clementine-player.googlecode.com/files/'
 DOWNLOADS = [
+  {'os': 'ubuntu',      'ver': '1.2', 'arch': 32, 'name': 'clementine_1.2.0~lucid_i386.deb'},
+  {'os': 'ubuntu',      'ver': '1.2', 'arch': 64, 'name': 'clementine_1.2.0~lucid_amd64.deb'},
+  {'os': 'uprecise',    'ver': '1.2', 'arch': 32, 'name': 'clementine_1.2.0~precise_i386.deb'},
+  {'os': 'uprecise',    'ver': '1.2', 'arch': 64, 'name': 'clementine_1.2.0~precise_amd64.deb'},
+  {'os': 'uquantal',    'ver': '1.2', 'arch': 64, 'name': 'clementine_1.2.0~quantal_amd64.deb'},
+  {'os': 'uquantal',    'ver': '1.2', 'arch': 32, 'name': 'clementine_1.2.0~quantal_i386.deb'},
+  {'os': 'uraring',     'ver': '1.2', 'arch': 32, 'name': 'clementine_1.2.0~raring_i386.deb'},
+  {'os': 'uraring',     'ver': '1.2', 'arch': 64, 'name': 'clementine_1.2.0~raring_amd64.deb'},
+  {'os': 'wheezy',      'ver': '1.2', 'arch': 32, 'name': 'clementine_1.2.0~wheezy_i386.deb'},
+  {'os': 'wheezy',      'ver': '1.2', 'arch': 64, 'name': 'clementine_1.2.0~wheezy_amd64.deb'},
+  {'os': 'squeeze',     'ver': '1.2', 'arch': 32, 'name': 'clementine_1.2.0~squeeze_i386.deb'},
+  {'os': 'squeeze',     'ver': '1.2', 'arch': 64, 'name': 'clementine_1.2.0~squeeze_amd64.deb'},
+  {'os': 'fedora18',    'ver': '1.2', 'arch': 32, 'name': 'clementine-1.2.0-1.fc18.i686.rpm'},
+  {'os': 'fedora18',    'ver': '1.2', 'arch': 64, 'name': 'clementine-1.2.0-1.fc18.x86_64.rpm'},
+  {'os': 'fedora19',    'ver': '1.2', 'arch': 32, 'name': 'clementine-1.2.0-1.fc19.i686.rpm'},
+  {'os': 'fedora19',    'ver': '1.2', 'arch': 64, 'name': 'clementine-1.2.0-1.fc19.x86_64.rpm'},
+  {'os': 'windows',     'ver': '1.2', 'arch': 0,  'name': 'ClementineSetup-1.2.0.exe'},
+  {'os': 'snowleopard', 'ver': '1.2', 'arch': 0,  'name': 'clementine-1.2.0.dmg'},
+  {'os': 'source',      'ver': '1.2', 'arch': 0,  'name': 'clementine-1.2.0.tar.gz'},
+
   {'os': 'ubuntu',      'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.1~lucid_i386.deb'},
   {'os': 'ubuntu',      'ver': '1.1', 'arch': 64, 'name': 'clementine_1.1.1~lucid_amd64.deb'},
   {'os': 'umaverick',   'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.1~maverick_i386.deb'},
@@ -336,6 +362,22 @@ NEWS = [
       'Clementine will also now show moodbars for the music you play from your ' \
       'local disc. ' \
       'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1">' \
+      'full changelog</a> for more information.')
+  },
+  {
+    'timestamp': 1380931272,
+    'title': _('Version 1.2 released'),
+    'content': _('This release is compatible with the ' \
+      '<a href="https://play.google.com/store/apps/details?id=de.qspool.clementineremote">Clementine Remote application for Android</a> ' \
+      'which lets you control Clementine remotely from an Android device.<br/>' \
+      'This release also adds support for Subsonic. ' \
+      'And you can now listen to your music stored in <a href="https://www.box.com/">Box</a>, ' \
+      '<a href="https://www.dropbox.com/">Dropbox</a>, <a href="https://skydrive.live.com/">Skydrive</a> ' \
+      'and <a href="https://one.ubuntu.com/">Ubuntu One</a>. ' \
+      'Last major new feature is the ability to "star" your playlists, so you ' \
+      'can safely close them and restore them later from the new "Playlist" ' \
+      'tab we\'ve added in the left sidebar.<br/>' \
+      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.2">' \
       'full changelog</a> for more information.')
   },
   # For timestamp: python -c "import time; print int(time.time())"
