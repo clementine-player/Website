@@ -26,7 +26,7 @@
 
 <hr class="division" />
 
-<h1>{{ _("Collaborate") }}</h1>
+<h1 id="collaborate">{{ _("Collaborate") }}</h1>
 
 <h2>{{ _("Reporting bugs and proposing patches") }}</h2>
 
@@ -99,7 +99,7 @@ sudo apt-get install clementine</pre>
 
 
 <hr class="division" />
-<h1>{{ _("Social Networking") }}</h1>
+<h1 id="social-networking">{{ _("Social Networking") }}</h1>
 
 <p>{{ _("We'd love to see you support Clementine by joining us on your favourite social networking site!") }}</p>
 
@@ -123,5 +123,17 @@ sudo apt-get install clementine</pre>
     </div>
   </li>
 </ul>
+
+<hr class="division" />
+<h1>{{ _("Donation") }}</h1>
+<p>{{ _("Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word.")}}<br />
+{{ _("You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>.")}}<br />
+{{ _("But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like")}} <a href="mailto:me@davidsansome.com,arnaud.bienner@gmail.com,john.maguire@gmail.com?subject=I%20made%20a%20donation%20to%20a%20charity%20organization%20on%20behalf%20of%20Clementine%20Music%20Player">{{ _("and let us know:")}}</a>
+<ul>
+  <li>{{ _("<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>") }}</li>
+  <li>{{ _("<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>")}}</li>
+  <li>{{ _("<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>") }}</li>
+</ul>
+</p>
 
 {% endblock %}
