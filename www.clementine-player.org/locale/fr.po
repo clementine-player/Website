@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-10-05 13:20+0200\n"
-"PO-Revision-Date: 2013-10-07 20:03+0000\n"
+"PO-Revision-Date: 2013-10-07 22:20+0000\n"
 "Last-Translator: arnaudbienner <arnaud.bienner@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/clementine/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -495,7 +495,7 @@ msgstr "Recherche et joue votre bibliothèque musicale locale."
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr "Écoutez de la musique sur Internet depuis"
+msgstr "Écouter de la musique sur Internet depuis"
 
 #: main.html:25
 msgid "Search and play songs you've uploaded to"
@@ -515,7 +515,7 @@ msgstr "Support des CUE sheet."
 
 #: main.html:36
 msgid "Play audio CDs."
-msgstr "Écoutez vos CD audios."
+msgstr "Écouter vos CD audios."
 
 #: main.html:37
 msgid "Visualisations from"
@@ -527,15 +527,15 @@ msgstr "Paroles des chansons, et biographies et photos des artistes."
 
 #: main.html:39
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Transcodez votre musique en MP3, Ogg Vorbis, Ogg Speex, FLAC ou AAC."
+msgstr "Transcoder votre musique en MP3, Ogg Vorbis, Ogg Speex, FLAC ou AAC."
 
 #: main.html:40
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Éditez les tags sur vos fichiers MP3 ou OGG, organisez votre musique."
+msgstr "Éditer les tags sur vos fichiers MP3 ou OGG, organisez votre musique."
 
 #: main.html:41
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Complétez les tags automatiquement avec MusicBrainz."
+msgstr "Compléter les tags automatiquement avec MusicBrainz."
 
 #: main.html:42
 msgid "Discover and download Podcasts."
@@ -543,7 +543,7 @@ msgstr "Chercher et télécharger des Podcasts."
 
 #: main.html:43
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Téléchargez les jaquettes d'albums manquantes depuis Last.fm et Amazon"
+msgstr "Télécharger les jaquettes d'albums manquantes depuis Last.fm et Amazon"
 
 #: main.html:44
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -560,7 +560,7 @@ msgstr "Contrôle à distance en utilisant un"
 
 #: main.html:46
 msgid "Android device"
-msgstr "Périphérique Android"
+msgstr "périphérique Android"
 
 #: main.html:46
 msgid "a Wii Remote"
