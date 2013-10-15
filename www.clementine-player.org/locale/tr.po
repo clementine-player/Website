@@ -14,15 +14,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
-"POT-Creation-Date: 2013-10-05 13:20+0200\n"
-"PO-Revision-Date: 2013-10-05 12:14+0000\n"
-"Last-Translator: volkangezer <volkangezer@gmail.com>\n"
+"POT-Creation-Date: 2013-10-15 22:40+0200\n"
+"PO-Revision-Date: 2013-10-15 20:48+0000\n"
+"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/clementine/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: android-download.html:4
+msgid "Clementine Remote"
+msgstr ""
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
