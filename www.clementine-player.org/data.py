@@ -365,7 +365,7 @@ NEWS = [
       'full changelog</a> for more information.')
   },
   {
-    'timestamp': 1380931272,
+    'timestamp': 1381627310,
     'title': _('Version 1.2 released'),
     'content': _('This release is compatible with the ' \
       '<a href="https://play.google.com/store/apps/details?id=de.qspool.clementineremote">Clementine Remote application for Android</a> ' \
