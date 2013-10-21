@@ -6,14 +6,14 @@
 # Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
 # Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
 # LunarParks <Thunder.Tricking@gmail.com>, 2013
-# Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2012
+# Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
 "POT-Creation-Date: 2013-10-15 22:40+0200\n"
-"PO-Revision-Date: 2013-10-15 20:48+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-10-16 09:59+0000\n"
+"Last-Translator: Roger Pueyo Centelles <transifex@rogerpueyo.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/clementine/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Comandament a distància del Clementine"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Controleu el Clementine de forma remota des del vostre telèfon Android"
 
 #: base.html:5
 msgid "Clementine Music Player"
@@ -74,19 +74,19 @@ msgstr "Pàgina web per"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Pestanya de llista de reproducció, mentre escolteu cançons de múltiples serveis a Internet"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Integració amb Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Navegar per la llista de reproducció des de l'aplicació d'Android"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Controlar la reproducció des de l'aplicació d'Android"
 
 #: data.py:14
 msgid "Podcasts"
@@ -330,7 +330,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
 "/clementine-player/source/browse/Changelog?name=release-1.0\">full "
 "changelog</a> for more information."
-msgstr ""
+msgstr "Aquesta publicació afegeix support per a <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> i <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. També s'ha afegit una cerca clobal que us permet trobar fàcilment, sigui a la vostra biblioteca o a Internet. Altres característiques inclouen el suport per a CDs d'àudio, més opcions de transcodificador, una interfície de configuració millorada, cerques de portades d'àlbum més inteŀligents i tones d'errors corregits. Llegiu el <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">llistat complet de canvis</a> per a més informació."
 
 #: data.py:355
 msgid "Version 1.1 released"
@@ -348,11 +348,11 @@ msgid ""
 "<a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "Aquesta publicació afegeix el tant esperat suport per a Podcasts, incloent integració i sincronització amb <a href=\"//gpodder.net\">gpodder.net</a>. La música de <a href=\"http://soundcloud.com/\">Soundcloud</a> i <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> està disponible a la pestanya Internet de la barra lateral, així com les cançons que hey pujat a <a href=\"http://drive.google.com/start\">Google Drive</a>. El Clementine ara també mostrarà \"moodbars\" de la música que reproduïu des del vostre disc local. Vegeu el <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">llistat complet de canvis</a> per a més informació."
 
 #: data.py:369
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Versió 1.2 publicada"
 
 #: data.py:370
 msgid ""
@@ -400,7 +400,7 @@ msgstr "Altres descàrregues"
 
 #: downloads.html:64
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Comandament a distància del Clementine per a Android"
 
 #: downloads.html:71
 msgid "Unofficial packages"
@@ -559,15 +559,15 @@ msgstr "Notificacions a l'escriptori natives a Linux (libnotify) i Mac OS X (Gro
 
 #: main.html:46
 msgid "Remote control using an"
-msgstr ""
+msgstr "Control remot emprant un"
 
 #: main.html:46
 msgid "Android device"
-msgstr ""
+msgstr "dispositiu Android"
 
 #: main.html:46
 msgid "a Wii Remote"
-msgstr ""
+msgstr "comandament de Wii"
 
 #: main.html:46
 msgid "MPRIS or the command-line."
@@ -605,7 +605,7 @@ msgstr "centrant-se en una interfície ràpida i fàcil d'emprar per cercar i re
 
 #: main.html:67 main.html.py:76
 msgid "Download the latest version now"
-msgstr "Descarregueu la darrera versió ara"
+msgstr "Descarregueu ara la darrera versió"
 
 #: main.html:68
 msgid "Download Clementine"
@@ -731,7 +731,7 @@ msgstr "Versions de desenvolupament per a l‘Ubuntu Oneiric (11.10)"
 
 #: participate.html:94
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Aplicació de comandament a distància per a Android"
 
 #: participate.html:96
 msgid ""
@@ -751,7 +751,7 @@ msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Podeu traduïr-ne la interfície en <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">aquest projecte de Transifex</a>."
 
 #: participate.html:102
 msgid "Social Networking"
@@ -777,7 +777,7 @@ msgstr "Clementine a Last.fm"
 
 #: participate.html:128
 msgid "Donation"
-msgstr ""
+msgstr "Donació"
 
 #: participate.html:129
 msgid ""
@@ -800,7 +800,7 @@ msgstr ""
 
 #: participate.html:131
 msgid "and let us know:"
-msgstr ""
+msgstr "i feu-nos-ho saber:"
 
 #: participate.html:133
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
@@ -808,8 +808,8 @@ msgstr ""
 
 #: participate.html:134
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Acció contra la fam</a>"
 
 #: participate.html:135
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
