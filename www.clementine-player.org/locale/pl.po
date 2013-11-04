@@ -6,6 +6,7 @@
 # Bartosz Dotryw <burtekdotryw@gmail.com>, 2012
 # Kacper . <mattrick@jabster.pl>, 2012
 # Kacper . <mattrick@jabster.pl>, 2012
+# Garrappachc <michal@garapich.pl>, 2013
 # M T <michtrz@gmail.com>, 2013
 # Patryk Wychowaniec <patryk1303@gmail.com>, 2011
 # Seethi <sithis15@o2.pl>, 2012
@@ -13,10 +14,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-15 22:40+0200\n"
-"PO-Revision-Date: 2013-10-26 14:38+0000\n"
-"Last-Translator: predek <predek00@gmail.com>\n"
+"PO-Revision-Date: 2013-10-29 15:21+0000\n"
+"Last-Translator: Garrappachc <michal@garapich.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/clementine/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
@@ -77,19 +78,19 @@ msgstr "Strona wykonana przez"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Lista odtwarzania, podczas słuchania utworów z wielu różnych serwisów internetowych"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Integracja z serwisem Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Przeglądanie listy odtwarzania z telefonu z Androidem"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Kontrola odtwarzania z telefonu z Androidem"
 
 #: data.py:14
 msgid "Podcasts"
@@ -355,7 +356,7 @@ msgstr "Ta wersja dodaje długo oczekiwaną obsługę podcastów, w tym integrac
 
 #: data.py:369
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Wersja 1.2 wydana"
 
 #: data.py:370
 msgid ""
@@ -373,7 +374,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.2\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "Ta wersja jest kompatybilna z <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplikacją Clementine Remote na Androida</a>, która pozwala na kontrolę zdalną z telefonu.<br/>Nowa wersja dodaje także integrację z serwisem Subsonic. Co więcej, możliwe jest słuchanie muzyki z serwisów <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> oraz <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Ostatnią większą zmianą jest dodanie możliwości oznaczenia gwiazdką Twoich list odtwarzania, aby możliwe było zamknięcie ich i późniejsze odtworzenie poprzez nową zakładkę List Odtwarzania, dostępną na pasku bocznym.<br/>Zobacz <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.2\">pełną listę zmian</a>, aby uzyskać więcej informacji."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -403,7 +404,7 @@ msgstr "Inne opcje pobierania"
 
 #: downloads.html:64
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine Remote dla Androida"
 
 #: downloads.html:71
 msgid "Unofficial packages"
@@ -562,15 +563,15 @@ msgstr "Natywne powiadomienia na Linuksie (libnotify) i Mac OS X (Growl)."
 
 #: main.html:46
 msgid "Remote control using an"
-msgstr ""
+msgstr "Zdalne sterowanie poprzez "
 
 #: main.html:46
 msgid "Android device"
-msgstr ""
+msgstr "Urządzenie z Androidem"
 
 #: main.html:46
 msgid "a Wii Remote"
-msgstr ""
+msgstr "Wii Remote"
 
 #: main.html:46
 msgid "MPRIS or the command-line."
@@ -734,27 +735,27 @@ msgstr "Wersje rozwojowe dla Ubuntu Oneiric (11.10)"
 
 #: participate.html:94
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Aplikacja kontroli zdalnej dla systemu Android"
 
 #: participate.html:96
 msgid ""
 "Clementine Remote is hosted on <a href=\"http://code.google.com/p"
 "/clementine-remote-android/\">another Google Code project</a>."
-msgstr ""
+msgstr "Aplikacja Clementine Remote jest dostępna pod <a href=\"http://code.google.com/p/clementine-remote-android/\">osobnym projektem Google Code</a>."
 
 #: participate.html:97
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"http://code.google.com/p/clementine-remote-android/issues/list\">its "
 "bug tracker</a>."
-msgstr ""
+msgstr "Możesz zgłaszać błędy i proponować łatki na <a href=\"http://code.google.com/p/clementine-remote-android/issues/list\">bug trackerze</a>."
 
 #: participate.html:98
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Możesz przetłumaczyć interfejs poprzez <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">serwis Transifex</a>."
 
 #: participate.html:102
 msgid "Social Networking"
@@ -780,39 +781,39 @@ msgstr "Clementine na Last.fm"
 
 #: participate.html:128
 msgid "Donation"
-msgstr ""
+msgstr "Darowizna"
 
 #: participate.html:129
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Na chwilę obecną nie potrzebujemy pieniędzy, więc nie akceptujemy darowizn. Jeżeli podoba Ci się nasze oprogramowanie i chcesz nam pomóc, możesz <a href=\"#social-networking\">szepnąć słówko</a> komu trzeba."
 
 #: participate.html:130
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Możesz także pomóc poprzez <a href=\"#collaborate\">rozwijanie programu, jak to zostało wyłumaczone wcześniej</a>."
 
 #: participate.html:131
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Jeżeli jednak wciąż chcesz wydać trochę pieniędzy aby nas uszczęśliwić, możesz przekazać darowiznę na jedną z zaprzyjaźnionych organizacji"
 
 #: participate.html:131
 msgid "and let us know:"
-msgstr ""
+msgstr "i dać nam znać:"
 
 #: participate.html:133
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:134
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:135
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"

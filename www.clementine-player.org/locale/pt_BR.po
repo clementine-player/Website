@@ -5,16 +5,17 @@
 # Translators:
 # salmora8 <shorterfire@gmail.com>, 2013
 # amiltonpc <amiltonpc@gmail.com>, 2013
+# Enrico Nicoletto <enrico.BR@gmx.co.uk>, 2013
 # Marco Tulio Costa <mmarcottulio@gmail.com>, 2012
 # salmora8 <shorterfire@gmail.com>, 2012
 # Weiller Cardoso <>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/clementine-player/issues/list\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-15 22:40+0200\n"
-"PO-Revision-Date: 2013-10-15 20:48+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-10-29 14:42+0000\n"
+"Last-Translator: Enrico Nicoletto <enrico.BR@gmx.co.uk>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/clementine/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Remoto"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
@@ -75,7 +76,7 @@ msgstr "Website por"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Aba de lista de reprodução, enquanto você escuta sons de múltiplos serviços da internet"
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -371,7 +372,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.2\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "Esta versão é compatível com o <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Aplicativo Clementine Remoto para Android</a> que permite que você controle remotamente o Clementine de um dispositivo Android.<br/>Este lançamento também acrescenta suporte a Subsonic. E agora você pode escutar músicas armazenadas no <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> e no <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. A última maior funcionalidade é o recurso de avaliar com \"estrela\" suas listas de reprodução, de modo que você possa seguramente fechá-las e restaurá-las mais tarde a partir da nova aba de \"Listas de reprodução\" que foi adicionada na barra lateral esquerda.<br/>Consulte o <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.2\">registro de alterações completo</a> para mais informações."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -745,14 +746,14 @@ msgid ""
 "You can report issues and propose patches on <a "
 "href=\"http://code.google.com/p/clementine-remote-android/issues/list\">its "
 "bug tracker</a>."
-msgstr ""
+msgstr "Você pode relatar erros ou propor correções no próprio <a href=\"http://code.google.com/p/clementine-remote-android/issues/list\">rastreador de erros</a>."
 
 #: participate.html:98
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Você pode traduzir a interface <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">neste projeto do Transifex</a>."
 
 #: participate.html:102
 msgid "Social Networking"
@@ -785,32 +786,32 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Atualmente nós não estamos precisamos de dinheiro e portanto não aceitamos doação de dinheiro. Se você gosta de nosso software e quer nos ajudar, você pode <a href=\"#social-networking\">nos apoiar</a> e divulgar."
 
 #: participate.html:130
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Você também pode ajudar <a href=\"#collaborate\">participando do desenvolvimento do software, como explicado acima</a>."
 
 #: participate.html:131
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Mas se você ainda quiser gastar algum dinheiro para nos deixar felizes, você pode fazer uma doação a uma destas organizações de caridade que nós gostamos"
 
 #: participate.html:131
 msgid "and let us know:"
-msgstr ""
+msgstr "e deixe-nos saber sobre:"
 
 #: participate.html:133
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">Médicos Sem Fronteiras - M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:134
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Ação contra a Fome</a>"
 
 #: participate.html:135
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Fundação da Fronteira Eletrônica</a>"
