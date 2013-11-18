@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-15 22:40+0200\n"
-"PO-Revision-Date: 2013-10-16 09:59+0000\n"
+"PO-Revision-Date: 2013-11-11 16:26+0000\n"
 "Last-Translator: Roger Pueyo Centelles <transifex@rogerpueyo.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/clementine/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -370,7 +370,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"http://code.google.com/p/clementine-"
 "player/source/browse/Changelog?name=release-1.2\">full changelog</a> for "
 "more information."
-msgstr ""
+msgstr "Aquesta publicació és compatible amb el <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Comandament a distància del Clementine per a Android</a>, que us permet controlar el Clementine de forma remota des d'un dispositiu amb Android.<br/>Aquesta versió també incorpora suport per a Subsonic. I també podeu escoltar la vostra música emmagatzemada a <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> i <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. La darrera nova funcionalitat més important és la possibilitat de \"posar estrelletes\" a les vostres llistes de reproducció, de manera que les podeu tancar de forma segura i recuperar-les més tard des de la nova pestanya \"Llistes de reproducció\" que hem inclòs a la barra lateral de l'esquerra.<br/>Feu una ullada al <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.2\">registre complet de canvis</a> per a més informació."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -737,14 +737,14 @@ msgstr "Aplicació de comandament a distància per a Android"
 msgid ""
 "Clementine Remote is hosted on <a href=\"http://code.google.com/p"
 "/clementine-remote-android/\">another Google Code project</a>."
-msgstr ""
+msgstr "El Comandament a distància del Clementine es troba allotjat <a href=\"http://code.google.com/p/clementine-remote-android/\">a un altre projecte de Google Code</a>."
 
 #: participate.html:97
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"http://code.google.com/p/clementine-remote-android/issues/list\">its "
 "bug tracker</a>."
-msgstr ""
+msgstr "Podeu informar de problemes i proposar solucions <a href=\"http://code.google.com/p/clementine-remote-android/issues/list\">al seu gestor d'errors</a>."
 
 #: participate.html:98
 msgid ""
@@ -784,19 +784,19 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Actualment no necessitem diners i per tant no acceptem aportacions monetàries. Si us agrada el nostre software i voleu ajudar-nos podeu <a href=\"#social-networking\">donar-nos suport</a> i escampar la paraula."
 
 #: participate.html:130
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "També podeu ajudar <a href=\"#collaborate\">participant en el desenvolupament del programari, tal com s'explica a dalt</a>."
 
 #: participate.html:131
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Però si tot i així encara voleu gastar alguns diners per fer-nos feliços, podeu fer una donació a una d'aquestes organitzacions que ens agraden"
 
 #: participate.html:131
 msgid "and let us know:"
@@ -804,7 +804,7 @@ msgstr "i feu-nos-ho saber:"
 
 #: participate.html:133
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">Metges Sense Fronteres</a>"
 
 #: participate.html:134
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"

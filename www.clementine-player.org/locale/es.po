@@ -11,7 +11,7 @@
 # Carolina Pérez Garrido <carolinadelpilarperezgarrido@gmail.com>, 2011
 # jferiago <jferiago@gmail.com>, 2012
 # moray33 <moray33@gmx.com>, 2013
-# LeonimuZ <leontaveras@gmail.com>, 2011
+# LeonimuZ <inactive+LeonimuZ@transifex.com>, 2011
 # Ricardo Andrés <blurmuse@gmail.com>, 2012
 msgid ""
 msgstr ""
