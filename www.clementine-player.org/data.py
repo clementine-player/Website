@@ -78,7 +78,7 @@ DOWNLOADS = [
   {'os': 'fedora19',    'ver': '1.2', 'arch': 32, 'name': 'clementine-1.2.1-1.fc19.i686.rpm'},
   {'os': 'fedora19',    'ver': '1.2', 'arch': 64, 'name': 'clementine-1.2.1-1.fc19.x86_64.rpm'},
   {'os': 'windows',     'ver': '1.2', 'arch': 0,  'name': 'ClementineSetup-1.2.1.exe'},
-  {'os': 'snowleopard', 'ver': '1.2', 'arch': 0,  'name': 'clementine-1.2.1.dmg'},
+  {'os': 'lion',        'ver': '1.2', 'arch': 0,  'name': 'clementine-1.2.1.dmg'},
   {'os': 'source',      'ver': '1.2', 'arch': 0,  'name': 'clementine-1.2.1.tar.gz'},
 
   {'os': 'ubuntu',      'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.1~lucid_i386.deb'},
