@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% block title %}{{ _("Participate") }} | {% endblock %}
 {% block scripts %}
+  <script type="text/javascript">
+    window.___gcfg = {
+      lang: '{{ language }}',
+      parsetags: 'onload'
+    };
+  </script>
   <script type="text/javascript"
       src="https://apis.google.com/js/plusone.js" async></script>
 {% endblock %}
