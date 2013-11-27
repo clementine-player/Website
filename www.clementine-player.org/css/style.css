@@ -201,34 +201,17 @@ li.menu a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
 }
 
-@def RTL_LANG 1;
+li.first > a {
+  -webkit-border-bottom-left-radius: 25px;
+  -moz-border-radius-bottomleft: 25px;
+  border-bottom-left-radius: 25px;
+}
 
-@if (RTL_LANG) {
-  li.first > a {
-      -webkit-border-bottom-right-radius: 25px;
-      -moz-border-radius-bottomright: 25px;
-      border-bottom-right-radius: 25px;
-  }
-
-  li.last > a {
-    -webkit-border-bottom-left-radius: 25px;
-    -moz-border-radius-bottomleft: 25px;
-    border-bottom-left-radius: 25px;
-    border: none;
-  }
-} @else {
-  li.first > a {
-    -webkit-border-bottom-left-radius: 25px;
-    -moz-border-radius-bottomleft: 25px;
-    border-bottom-left-radius: 25px;
-  }
-
-  li.last > a {
-    -webkit-border-bottom-right-radius: 25px;
-    -moz-border-radius-bottomright: 25px;
-    border-bottom-right-radius: 25px;
-    border: none;
-  }
+li.last > a {
+  -webkit-border-bottom-right-radius: 25px;
+  -moz-border-radius-bottomright: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
 }
 
 #header form.search {

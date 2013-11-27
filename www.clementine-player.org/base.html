@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>{% block title %}{% endblock %}{{ _("Clementine Music Player") }}</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  {% if language == "ar" %}
+  {% if is_rtl %}
     <link type="text/css" rel="stylesheet" media="all" href="/css/all-rtl.css" />
   {% else %}
     <link type="text/css" rel="stylesheet" media="all" href="/css/all.css" />
@@ -39,7 +39,7 @@
   <div id="half-background"></div>
 
   <div id="canvas">
-    <div id="wrapper">
+    <div id="wrapper" {% if is_rtl %}dir="rtl"{% endif %}>
       <div id="header">
         <a href="{{ root_page }}"><img src="/images/logo.png" alt="Home" id="logo" /></a>
 

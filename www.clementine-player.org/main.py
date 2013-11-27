@@ -129,6 +129,7 @@ class BasePage(webapp2.RequestHandler):
       'old_downloads':      [x for x in downloads if x['ver'] != LATEST_VERSION],
       'root_page':          root_page,
       'screenshots':        screenshots,
+      'is_rtl':             language == 'ar',
     }
     params.update(extra_params)
 
