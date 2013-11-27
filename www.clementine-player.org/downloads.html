@@ -21,9 +21,17 @@
           {{ d.ver }}
         </a>
       </span>
-      <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
+      <p class="os">
+        <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
+          {{ d.display_os }}
+        </a>
+      </p>
       {% if d.arch %}
-        <p class="arch"><a href="{{ download_base_url }}{{ d.name }}">{{ d.arch }}-bit</a></p>
+        <p class="arch">
+          <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
+            {{ d.arch }}-bit
+          </a>
+        </p>
       {% endif %}
     </div>
     {% endwith %}
@@ -40,9 +48,17 @@
         <img class="icon" src="/images/{{ d.os_logo }}" />
       </a>
       <span class="version"><a href="{{ download_base_url }}{{ d.name }}">{{ d.ver }}</a></span>
-      <p class="os"><a href="{{ download_base_url }}{{ d.name }}">{{ d.display_os }}</a></p>
+      <p class="os">
+        <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
+          {{ d.display_os }}
+        </a>
+      </p>
       {% if d.arch %}
-        <p class="arch"><a href="{{ download_base_url }}{{ d.name }}">{{ d.arch }}-bit</a></p>
+        <p class="arch">
+          <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
+            {{ d.arch }}-bit
+          </a>
+        </p>
       {% endif %}
     </div>
   {% endfor %}
