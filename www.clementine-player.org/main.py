@@ -87,7 +87,7 @@ class BasePage(webapp2.RequestHandler):
     if 'win' in ua:
       best_download = self.FindDownload('windows')
     elif 'mac' in ua:
-      best_download = self.FindDownload('snowleopard')
+      best_download = self.FindDownload('lion')
     elif 'fedora' in ua:
       if '64' in ua:
         best_download = self.FindDownload('fedora16', 64)
