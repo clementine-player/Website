@@ -358,6 +358,12 @@ body.sidebar-right #page {
 }
 
 /* Front page */
+#features {
+  float: right;
+  margin-top: 15px;
+  width: 50%;
+}
+
 #features ul li {
   border-bottom: 1px solid #DDDDDD;
   margin-bottom: 2px;
