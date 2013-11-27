@@ -21,7 +21,6 @@ body {
 #half-background {
   position: fixed;
   top: 0;
-  left: 0;
   width: 50%;
   height: 400%;
   background-color: #AF597D;
@@ -181,38 +180,55 @@ li.menu > a {
   padding: 19px;
   text-decoration: none;
 
-  background: #454543; /* Old browsers */
-  background: -moz-linear-gradient(top, #454543 0%, #393939 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454543), color-stop(100%,#393939)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #454543 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #454543 0%,#393939 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #454543 0%,#393939 100%); /* IE10+ */
-  background: linear-gradient(top, #454543 0%,#393939 100%); /* W3C */
+  /* @alternate */ background: #454543; /* Old browsers */
+  /* @alternate */ background: -moz-linear-gradient(top, #454543 0%, #393939 100%); /* FF3.6+ */
+  /* @alternate */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454543), color-stop(100%,#393939)); /* Chrome,Safari4+ */
+  /* @alternate */ background: -webkit-linear-gradient(top, #454543 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
+  /* @alternate */ background: -o-linear-gradient(top, #454543 0%,#393939 100%); /* Opera 11.10+ */
+  /* @alternate */ background: -ms-linear-gradient(top, #454543 0%,#393939 100%); /* IE10+ */
+  /* @alternate */ background: linear-gradient(top, #454543 0%,#393939 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454543', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
 }
 
 li.menu a:hover {
-  background: #5b5b5b; /* Old browsers */
-  background: -moz-linear-gradient(top, #5b5b5b 0%, #393939 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#393939)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* IE10+ */
-  background: linear-gradient(top, #5b5b5b 0%,#393939 100%); /* W3C */
+  /* @alternate */ background: #5b5b5b; /* Old browsers */
+  /* @alternate */ background: -moz-linear-gradient(top, #5b5b5b 0%, #393939 100%); /* FF3.6+ */
+  /* @alternate */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#393939)); /* Chrome,Safari4+ */
+  /* @alternate */ background: -webkit-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
+  /* @alternate */ background: -o-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Opera 11.10+ */
+  /* @alternate */ background: -ms-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* IE10+ */
+  /* @alternate */ background: linear-gradient(top, #5b5b5b 0%,#393939 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
 }
 
-li.first > a {
-  -webkit-border-bottom-left-radius: 25px;
-  -moz-border-radius-bottomleft: 25px;
-  border-bottom-left-radius: 25px;
-}
+@def RTL_LANG 1;
 
-li.last > a {
-  -webkit-border-bottom-right-radius: 25px;
-  -moz-border-radius-bottomright: 25px;
-  border-bottom-right-radius: 25px;
-  border: none;
+@if (RTL_LANG) {
+  li.first > a {
+      -webkit-border-bottom-right-radius: 25px;
+      -moz-border-radius-bottomright: 25px;
+      border-bottom-right-radius: 25px;
+  }
+
+  li.last > a {
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+  }
+} @else {
+  li.first > a {
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  li.last > a {
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+  }
 }
 
 #header form.search {
@@ -371,8 +387,14 @@ body.sidebar-right #page {
   margin-left: 20px;
 }
 
+@if (RTL_LANG) {
+  @def DOWNLOAD_BLOCK '/images/download-block-rtl.png';
+} @else {
+  @def DOWNLOAD_BLOCK '/images/download-block.png';
+}
+
 #download-button {
-  background-image: url(/images/download-block.png);
+  background-image: url(DOWNLOAD_BLOCK);
   background-position:left top;
   background-repeat: no-repeat;
   color: white;

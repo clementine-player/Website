@@ -386,7 +386,7 @@ LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
   "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt", "cs", "el", "ka", "uz",
   "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
-  "my", "id",
+  "my", "id", "ar",
 ]
 
 LANGUAGE_NAMES = {
@@ -396,7 +396,7 @@ LANGUAGE_NAMES = {
   "af": u"Afrikaans",
   "sq": u"Albanian",
   "am": u"Amharic",
-  "ar": u"Arabic",
+  "ar": u"العربية",
   "hy": u"Armenian",
   "as": u"Assamese",
   "ay": u"Aymara",

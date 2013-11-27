@@ -4,9 +4,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>{% block title %}{% endblock %}{{ _("Clementine Music Player") }}</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link type="text/css" rel="stylesheet" media="all" href="/css/defaults.css" />
-  <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
-  <link type="text/css" rel="stylesheet" media="all" href="/css/style.css" />
+  {% if language == "ar" %}
+    <link type="text/css" rel="stylesheet" media="all" href="/css/all-rtl.css" />
+  {% else %}
+    <link type="text/css" rel="stylesheet" media="all" href="/css/all.css" />
+  {% endif %}
   <link href="https://plus.google.com/109846771540583835237/" rel="publisher" />
   {% block scripts %}{% endblock %}
 
