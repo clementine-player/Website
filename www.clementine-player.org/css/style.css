@@ -570,3 +570,8 @@ div .grooveshark-logo {
 div .grooveshark-text {
   margin-left: 110px;
 }
+
+pre {
+  /* Added so that it will get flipped in RTL */
+  text-align: left;
+}
