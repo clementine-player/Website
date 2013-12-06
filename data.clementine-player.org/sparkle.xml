@@ -34,7 +34,9 @@
                {% comment %}User visible version{% endcomment %}
                sparkle:shortVersionString="{{ version.version }}"
                {% comment %}Base64 encoded signature of DMG.{% endcomment %}
+               {% if version.signature %}
                sparkle:dsaSignature="{{ version.signature }}"
+               {% endif %}
                {% comment %}Size of app bundle (not the DMG).{% endcomment %}
                length="{{ version.bundle_size }}"
                type="application/octet-stream" />
