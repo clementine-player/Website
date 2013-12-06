@@ -100,7 +100,7 @@ class VersionsPage(webapp2.RequestHandler):
 
     if new_version.put():
       # Delete the memcache entry so it's recreated on the next request.
-      memcache.delete(SPARKLE_MEMCACHE_KEY % platform)
+      memcache.delete(SPARKLE_MEMCACHE_KEY % self.request.get('platform'))
 
       self.redirect("/versions")
 
