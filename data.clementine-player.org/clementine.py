@@ -91,6 +91,7 @@ class VersionsPage(webapp2.RequestHandler):
         platform       = self.request.get('platform'),
         revision       = self.request.get('revision'),
         version        = self.request.get('version'),
+        signature      = self.request.get('signature'),
         download_link  = self.request.get('download_link'),
         changelog_link = self.request.get('changelog_link'),
         bundle_size    = int(self.request.get('bundle_size', 0)),

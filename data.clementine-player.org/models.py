@@ -17,7 +17,6 @@ class Version(db.Model):
   version = db.StringProperty(required=True)
 
   download_link = db.LinkProperty(required=True)
-  # Optional with Apple code signing
   signature = db.StringProperty()  # Base64 encoded
   bundle_size = db.IntegerProperty()
 
