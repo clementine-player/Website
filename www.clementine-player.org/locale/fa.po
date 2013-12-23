@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# alireza.ghp <alireza.ghpn@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-27 12:34+0100\n"
-"PO-Revision-Date: 2013-11-20 13:09+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2013-12-19 09:12+0000\n"
+"Last-Translator: alireza.ghp <alireza.ghpn@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/clementine/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,45 +28,45 @@ msgstr ""
 
 #: base.html:5
 msgid "Clementine Music Player"
-msgstr ""
+msgstr "پخش موسیقی Clementine"
 
 #: base.html:46
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
 #: base.html:47 downloads.html:2
 msgid "Downloads"
-msgstr ""
+msgstr "دریافت ها"
 
 #: base.html:48 main.html:94 screenshots.html:2
 msgid "Screenshots"
-msgstr ""
+msgstr "تصاویر"
 
 #: base.html:49 participate.html:2
 msgid "Participate"
-msgstr ""
+msgstr "همکاری"
 
 #: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr ""
+msgstr "نرم افزاری برای پخش موسیقی، سازگار با تمامی پلتفرم ها، الهام گرفته شده از Amarok 1.4"
 
 #: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
+msgstr "کلمنتاین تحت مجوز جی پی ال نسخه 3 منتشر شده است و این تارنما تحت مجوز CC-BY-SA قرار دارد."
 
 #: base.html:79
 msgid "Development by"
-msgstr ""
+msgstr "توسعه داده شده توسط"
 
 #: base.html:80 main.html:22 main.html.py:30
 msgid "and"
-msgstr ""
+msgstr "و"
 
 #: base.html:82
 msgid "Website by"
-msgstr ""
+msgstr "طراحی وبسایت توسط"
 
 #: data.py:8
 msgid ""
@@ -118,7 +119,7 @@ msgstr ""
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "تولتیپ لغزنده تراک و اشعار"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
@@ -126,7 +127,7 @@ msgstr ""
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "ویرایشگر جدید برچسب با قابلیت کامل شدن خودکار"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
@@ -134,15 +135,15 @@ msgstr ""
 
 #: data.py:32
 msgid "Artist photos and biographies"
-msgstr ""
+msgstr "بیوگرافی و تصاویر هنرمند"
 
 #: data.py:33
 msgid "Lyrics"
-msgstr ""
+msgstr "اشعار"
 
 #: data.py:34
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "ایستگاه رادیویی Icecast"
 
 #: data.py:35
 msgid "Smart playlists and kittens"
@@ -154,7 +155,7 @@ msgstr ""
 
 #: data.py:39
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "انتقال فایل های صوتی از اوبونتو به یک آی پاد"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
@@ -162,15 +163,15 @@ msgstr ""
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr ""
+msgstr "کلمنتاین 0.5 برای برای سیستم عامل مکینتاش"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr ""
+msgstr "کلمنتاین 0.4 برای ابونتو"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "کلمنتاین 0.4 برای ویندوز 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
@@ -178,7 +179,7 @@ msgstr ""
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr ""
+msgstr "کلمنتاین 0.4 برای سیستم عامل مکینتاش"
 
 #: data.py:50
 msgid "Last.fm tag radio"
@@ -190,7 +191,7 @@ msgstr ""
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr ""
+msgstr "ویرایشگر برچسب برای سیستم عامل ویندوز"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
@@ -202,7 +203,7 @@ msgstr ""
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr ""
+msgstr "پشتیبانی Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
@@ -210,15 +211,15 @@ msgstr ""
 
 #: data.py:200
 msgid "Source code"
-msgstr ""
+msgstr "کد منبع"
 
 #: data.py:223
 msgid "Source"
-msgstr ""
+msgstr "منبع"
 
 #: data.py:271
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "نسخه 0.2 منتشر شد"
 
 #: data.py:272
 msgid ""
@@ -241,7 +242,7 @@ msgstr ""
 
 #: data.py:287
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "نسخه 0.4 منتشر شد"
 
 #: data.py:288
 msgid ""
@@ -255,7 +256,7 @@ msgstr ""
 
 #: data.py:297
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "نسخه 0.5 منتشر شد"
 
 #: data.py:298
 msgid ""
@@ -276,7 +277,7 @@ msgstr ""
 
 #: data.py:314
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "نسخه 0.6 منتشر شد"
 
 #: data.py:315
 msgid ""
@@ -293,7 +294,7 @@ msgstr ""
 
 #: data.py:327
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "نسخه 0.7 منتشر شد."
 
 #: data.py:328
 msgid ""
@@ -370,11 +371,11 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "دریافت های اخیر"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "آخرین نسخه پایدار کلمنتاین را برای سیستم عامل موردنظرتان دریافت کنید."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -382,17 +383,17 @@ msgstr ""
 
 #: downloads.html:52
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "PPA ابونتو"
 
 #: downloads.html:54
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "آخرین نسخه کلمنتاین را برای اوبونتو می توانید از PPA رسمی دریافت کنید."
 
 #: downloads.html:62 downloads.html.py:77
 msgid "Other Downloads"
-msgstr ""
+msgstr "سایر دریافت ها"
 
 #: downloads.html:64
 msgid "Clementine Remote for Android"
@@ -400,31 +401,31 @@ msgstr ""
 
 #: downloads.html:71
 msgid "Unofficial packages"
-msgstr ""
+msgstr "بسته های غیررسمی"
 
 #: downloads.html:73
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "در صورتی که توزیع مورد نظرتان در لیست بالا موجود نیست، ممکن است بسته ی غیررسمی ای برای شما ایجاد شده باشد."
 
 #: downloads.html:81
 msgid "Compiling from source"
-msgstr ""
+msgstr "کامپایل کردن کد منبع"
 
 #: downloads.html:83
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "کامپایل کردن کلمنتاین از طریق کد منبع در سیستم عامل لینوکس ساده تر می باشد."
 
 #: downloads.html:84
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "بسته ی کد منبع را از لیست بالا دریافت کنید و در ترمینال: "
 
 #: downloads.html:93
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "دستورالعمل کامل و لیست پیش نیازها"
 
 #: downloads.html:97
 msgid "Bleeding edge packages"
@@ -583,15 +584,15 @@ msgstr ""
 
 #: main.html:54
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "یک نرم افزار پخش موزیک و سازمان دهنده قفسه موزیک ها"
 
 #: main.html:58
 msgid "Clementine is a multiplatform music player."
-msgstr ""
+msgstr "کلمنتاین یک نرم افزار پخش موزیک چند پلتفرمی است."
 
 #: main.html:59
 msgid "It is inspired by"
-msgstr ""
+msgstr "الهام گرفته است از"
 
 #: main.html:60
 msgid ""
