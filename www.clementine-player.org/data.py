@@ -302,16 +302,16 @@ NEWS = [
     'title': _('Version 0.5 released'),
     'content': _('This release adds support for using portable devices with ' \
       'Clementine.  You can now copy songs to your iPod, iPhone, MTP, or ' \
-      'USB mass storage device.  See <a href="http://code.google.com/p/clementine-player/wiki/PortableDevices">' \
+      'USB mass storage device.  See <a href="https://github.com/clementine-player/Clementine/wiki/Portable-Devices">' \
       'the wiki for more information</a>.  Support for using a ' \
-      '<a href="http://code.google.com/p/clementine-player/wiki/WiiRemotes">' \
+      '<a href="https://github.com/clementine-player/Clementine/wiki/Wii-Remotes">' \
       'Wii Remote</a> as a remote control has been added.  Other ' \
       'features include a Queue Manager, an Organise Files dialog, automatically ' \
       'stretching columns in the playlist, loading embedded id3v2 cover art, ' \
       'more library scanning options, drag and drop between playlists, and a ' \
       'hypnotoad.  We\'ve also reduced startup time by more than half, fixed ' \
       'a load of memory leaks and reduced CPU usage while playing music. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/master/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -324,7 +324,7 @@ NEWS = [
       'counts and skip counts.  You can create smart and dynamic playlists ' \
       'from songs in your library, and also now listen to music from ' \
       '<a href="http://www.jamendo.com/">Jamendo</a> and Icecast radio stations. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/master/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -339,7 +339,7 @@ NEWS = [
       'songs, a "Show in file browser" option, support for network proxies, ' \
       'a "Full library rescan" option, and a new tooltip for the track slider ' \
       'that helps you seek more accurately to a specific place in a song. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog">' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/master/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -352,7 +352,7 @@ NEWS = [
       'easily find music that\'s either in your library or on the Internet. ' \
       'Other features include audio CD support, more transcoder options, an ' \
       'improved settings dialog, smarter album cover searches, and loads of bug fixes. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0">' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -366,7 +366,7 @@ NEWS = [
       'to <a href="http://drive.google.com/start">Google Drive</a>. ' \
       'Clementine will also now show moodbars for the music you play from your ' \
       'local disc. ' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1">' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog">' \
       'full changelog</a> for more information.')
   },
   {
@@ -382,7 +382,7 @@ NEWS = [
       'Last major new feature is the ability to "star" your playlists, so you ' \
       'can safely close them and restore them later from the new "Playlist" ' \
       'tab we\'ve added in the left sidebar.<br/>' \
-      'See the <a href="http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.2">' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog">' \
       'full changelog</a> for more information.')
   },
   # For timestamp: python -c "import time; print int(time.time())"

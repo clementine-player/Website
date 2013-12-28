@@ -172,7 +172,7 @@ class ParticipatePage(BasePage):
 
 class WiimotePage(webapp2.RequestHandler):
   def get(self):
-    self.redirect('http://code.google.com/p/clementine-player/wiki/WiiRemotes')
+    self.redirect('https://github.com/clementine-player/Clementine/wiki/Wii-Remotes')
 
 
 config = {}
