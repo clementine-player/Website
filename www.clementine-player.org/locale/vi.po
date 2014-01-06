@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # arnaudbienner <arnaud.bienner@gmail.com>, 2012
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011
@@ -11,14 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-27 12:34+0100\n"
+"POT-Creation-Date: 2014-01-07 00:23+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/projects/p/clementine/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/clementine/"
+"language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: android-download.html:4
@@ -33,47 +34,48 @@ msgstr ""
 msgid "Clementine Music Player"
 msgstr "Chương trình phát nhạc Clementine"
 
-#: base.html:46
+#: base.html:48
 msgid "About"
 msgstr "Giới thiệu"
 
-#: base.html:47 downloads.html:2
+#: base.html:49 downloads.html:2
 msgid "Downloads"
 msgstr "Tải về"
 
-#: base.html:48 main.html:94 screenshots.html:2
+#: base.html:50 main.html:94 screenshots.html:2
 msgid "Screenshots"
 msgstr "Ảnh chụp"
 
-#: base.html:49 participate.html:2
+#: base.html:51 participate.html:2
 msgid "Participate"
 msgstr "Tham gia"
 
-#: base.html:53
+#: base.html:55
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Chương trình phát nhạc đa nền tảng dựa trên Amarok 1.4"
 
-#: base.html:78
+#: base.html:80
 msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
-msgstr "Clementine là Phần mềm Tự do, dựa trên giấy phép GPL phiên bản 3. Trang web này dựa trên giấy phép CC-BY-SA."
+"Clementine is Free Software under the GPL v3. This site is licensed under CC-"
+"BY-SA."
+msgstr ""
+"Clementine là Phần mềm Tự do, dựa trên giấy phép GPL phiên bản 3. Trang web "
+"này dựa trên giấy phép CC-BY-SA."
 
-#: base.html:79
+#: base.html:81
 msgid "Development by"
 msgstr "Được phát triển bởi"
 
-#: base.html:80 main.html:22 main.html.py:30
+#: base.html:82 main.html:22 main.html.py:30
 msgid "and"
 msgstr "và"
 
-#: base.html:82
+#: base.html:84
 msgid "Website by"
 msgstr "Phụ trách trang web"
 
 #: data.py:8
-msgid ""
-"Playlist tab, while listening to songs from multiples Internet services"
+msgid "Playlist tab, while listening to songs from multiples Internet services"
 msgstr ""
 
 #: data.py:9
@@ -162,7 +164,9 @@ msgstr "Sao chép nhạc vào iPod trong Ubuntu"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 trên Ubuntu với hiệu ứng âm thanh nền ALL GLORY TO THE HYPNOTOAD"
+msgstr ""
+"Clementine 0.5 trên Ubuntu với hiệu ứng âm thanh nền ALL GLORY TO THE "
+"HYPNOTOAD"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
@@ -212,164 +216,227 @@ msgstr "Hỗ trợ Last.fm"
 msgid "Growl notifications on Mac OS X"
 msgstr "Hộp thông báo trên Mac OS X"
 
-#: data.py:200
+#: data.py:202
 msgid "Source code"
 msgstr "Mã nguồn"
 
-#: data.py:223
+#: data.py:226
 msgid "Source"
 msgstr "Nguồn"
 
-#: data.py:271
+#: data.py:276
 msgid "Version 0.2 released"
 msgstr "Phát hành phiên bản 0.2"
 
-#: data.py:272
+#: data.py:277
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Đã hơn một tháng kể từ ngày chúng tôi phát hành phiên bản đầu tiên của Clementine. Phiên bản mới này bổ sung thêm tính năng ảnh bìa album, nhận diện tốt các nghệ sĩ, hỗ trợ tải danh sách chơi nhạc, và nhiều thứ khác."
+msgstr ""
+"Đã hơn một tháng kể từ ngày chúng tôi phát hành phiên bản đầu tiên của "
+"Clementine. Phiên bản mới này bổ sung thêm tính năng ảnh bìa album, nhận "
+"diện tốt các nghệ sĩ, hỗ trợ tải danh sách chơi nhạc, và nhiều thứ khác."
 
-#: data.py:278
+#: data.py:283
 msgid "Version 0.3 released"
 msgstr "Phát hành phiên bản 0.3"
 
-#: data.py:279
+#: data.py:284
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Phiên bản này chuyển sang sử dụng GStreamer cho tất cả các nền tảng, việc phân tích và hiệu ứng chuyển đổi nhẹ giữa các bài hát giờ đã hoạt động trên Windows. Các tính năng mới bao gồm một bộ cân chỉnh, nhiều tùy chọn hơn cho nhóm thư viện, màn hình thông báo đẹp hơn, điều khiển từ dòng lệnh và MPRIS, chỉnh sửa các thẻ dễ dàng hơn."
+msgstr ""
+"Phiên bản này chuyển sang sử dụng GStreamer cho tất cả các nền tảng, việc "
+"phân tích và hiệu ứng chuyển đổi nhẹ giữa các bài hát giờ đã hoạt động trên "
+"Windows. Các tính năng mới bao gồm một bộ cân chỉnh, nhiều tùy chọn hơn cho "
+"nhóm thư viện, màn hình thông báo đẹp hơn, điều khiển từ dòng lệnh và MPRIS, "
+"chỉnh sửa các thẻ dễ dàng hơn."
 
-#: data.py:287
+#: data.py:292
 msgid "Version 0.4 released"
 msgstr "Phát hành phiên bản 0.4"
 
-#: data.py:288
+#: data.py:293
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
+"music transcoding. We've fixed loads of bugs too - searching large libraries "
+"is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "Phiên bản này bao gồm các nâng cấp về danh sách theo thẻ, tìm kiếm trong danh sách, hiệu ứng hình ảnh ảo projectM, tích hợp Magnatune, hiệu chỉnh âm lượng và chuyển mã nhạc. Các lỗi khi tải cũng đã được sửa - việc tìm kiếm trong các thư viện nhạc lớn giờ hoạt động nhanh hơn, các thao tác trên Windows đáng tin cậy hơn, các vấn đề về giải mã kí tự được khắc phục, điều khiển các danh sách luôn được tải."
+msgstr ""
+"Phiên bản này bao gồm các nâng cấp về danh sách theo thẻ, tìm kiếm trong "
+"danh sách, hiệu ứng hình ảnh ảo projectM, tích hợp Magnatune, hiệu chỉnh âm "
+"lượng và chuyển mã nhạc. Các lỗi khi tải cũng đã được sửa - việc tìm kiếm "
+"trong các thư viện nhạc lớn giờ hoạt động nhanh hơn, các thao tác trên "
+"Windows đáng tin cậy hơn, các vấn đề về giải mã kí tự được khắc phục, điều "
+"khiển các danh sách luôn được tải."
 
-#: data.py:297
+#: data.py:302
 msgid "Version 0.5 released"
 msgstr "Phát hành phiên bản 0.5"
 
-#: data.py:298
+#: data.py:303
+#, fuzzy
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/PortableDevices\">the wiki for more information</a>.  Support "
-"for using a <a href=\"http://code.google.com/p/clementine-"
-"player/wiki/WiiRemotes\">Wii Remote</a> as a remote control has been added."
-"  Other features include a Queue Manager, an Organise Files dialog, "
-"automatically stretching columns in the playlist, loading embedded id3v2 "
-"cover art, more library scanning options, drag and drop between playlists, "
-"and a hypnotoad.  We've also reduced startup time by more than half, fixed a"
-" load of memory leaks and reduced CPU usage while playing music. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Phiên bản này thêm các hỗ trợ cho các thiết bị di động với Clementine. Giờ bạn đã có thể sao chép nhạc vào iPod, iPhone, MTP, hoặc thiết bị lưu trữ USB. Xem <a href=\"http://code.google.com/p/clementine-player/wiki/PortableDevices\">trang wiki để biết thêm thông tin</a>. Hỗ trợ sử dụng <a href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">tay cầm Wii</a> để điều khiển. Các cải tiến khác bao gồm Trình quản lý danh sách đợi, tổ chức các tập tin, tự động kéo dãn các cột trong danh sách, tải ảnh bìa nhúng id3v2, nhiều tùy chọn quét thư viện hơn, kéo và thả giữa các danh sách, hiệu ứng âm thanh nền hypnotoad. Giảm thời gian khởi động ứng dụng xuống hơn một nửa, sửa các lỗi về rò rỉ bộ nhớ và giảm mức sử dụng CPU khi phát nhạc. Xem <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
+"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
+"Devices\">the wiki for more information</a>.  Support for using a <a href="
+"\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii "
+"Remote</a> as a remote control has been added.  Other features include a "
+"Queue Manager, an Organise Files dialog, automatically stretching columns in "
+"the playlist, loading embedded id3v2 cover art, more library scanning "
+"options, drag and drop between playlists, and a hypnotoad.  We've also "
+"reduced startup time by more than half, fixed a load of memory leaks and "
+"reduced CPU usage while playing music. See the <a href=\"https://raw.github."
+"com/clementine-player/Clementine/master/Changelog\">full changelog</a> for "
+"more information."
+msgstr ""
+"Phiên bản này thêm các hỗ trợ cho các thiết bị di động với Clementine. Giờ "
+"bạn đã có thể sao chép nhạc vào iPod, iPhone, MTP, hoặc thiết bị lưu trữ "
+"USB. Xem <a href=\"http://code.google.com/p/clementine-player/wiki/"
+"PortableDevices\">trang wiki để biết thêm thông tin</a>. Hỗ trợ sử dụng <a "
+"href=\"http://code.google.com/p/clementine-player/wiki/WiiRemotes\">tay cầm "
+"Wii</a> để điều khiển. Các cải tiến khác bao gồm Trình quản lý danh sách "
+"đợi, tổ chức các tập tin, tự động kéo dãn các cột trong danh sách, tải ảnh "
+"bìa nhúng id3v2, nhiều tùy chọn quét thư viện hơn, kéo và thả giữa các danh "
+"sách, hiệu ứng âm thanh nền hypnotoad. Giảm thời gian khởi động ứng dụng "
+"xuống hơn một nửa, sửa các lỗi về rò rỉ bộ nhớ và giảm mức sử dụng CPU khi "
+"phát nhạc. Xem <a href=\"http://code.google.com/p/clementine-player/source/"
+"browse/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
 
-#: data.py:314
+#: data.py:319
 msgid "Version 0.6 released"
 msgstr "Phát hành phiên bản 0.6"
 
-#: data.py:315
+#: data.py:320
+#, fuzzy
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
 "artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Phiên bản này cải tiến hai bảng thông tin cho phép xem lời bài hát, các số liệu về bài hát, thông tin tiểu sử, hình ảnh nghệ sĩ, danh sách các thẻ, các nghệ sĩ tương tự. Thanh bên được chúng tôi thiết kế lại (mặc dù bạn có thể đổi nó về như cũ bằng cách bấm chuột phải và chọn lại), thêm chức năng đánh giá, đếm số lần phát bỏ qua việc đếm. Bạn có thể tạo những danh sách động thông minh từ các bài hát trong thư viện, và cũng có thể nghe nhạc từ kênh phát thanh <a href=\"http://www.jamendo.com/\">Jamendo</a>. Xem <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
+"right clicking on it), and also added ratings, play counts and skip counts.  "
+"You can create smart and dynamic playlists from songs in your library, and "
+"also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</"
+"a> and Icecast radio stations. See the <a href=\"https://raw.github.com/"
+"clementine-player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
+msgstr ""
+"Phiên bản này cải tiến hai bảng thông tin cho phép xem lời bài hát, các số "
+"liệu về bài hát, thông tin tiểu sử, hình ảnh nghệ sĩ, danh sách các thẻ, các "
+"nghệ sĩ tương tự. Thanh bên được chúng tôi thiết kế lại (mặc dù bạn có thể "
+"đổi nó về như cũ bằng cách bấm chuột phải và chọn lại), thêm chức năng đánh "
+"giá, đếm số lần phát bỏ qua việc đếm. Bạn có thể tạo những danh sách động "
+"thông minh từ các bài hát trong thư viện, và cũng có thể nghe nhạc từ kênh "
+"phát thanh <a href=\"http://www.jamendo.com/\">Jamendo</a>. Xem <a href="
+"\"http://code.google.com/p/clementine-player/source/browse/Changelog\">danh "
+"sách các thay đổi</a> để biết thêm thông tin."
 
-#: data.py:327
+#: data.py:332
 msgid "Version 0.7 released"
 msgstr "Phát hành phiên bản 0.7"
 
-#: data.py:328
+#: data.py:333
+#, fuzzy
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
 "missing tags from MusicBrainz.  CUE sheets are now supported - they are "
 "detected automatically when scanning your library and each track will show "
 "up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show "
+"in file browser\" option, support for network proxies, a \"Full library "
 "rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog\">full changelog</a> for more information."
-msgstr "Phiên bản này bao gồm một số cải tiến ở trình chỉnh sửa thẻ với tính năng tự hoàn tất và khả năng tự động nhận diện nhạc và tải các thẻ bị thiếu từ MusicBrainz. Hỗ trợ danh sách định dạng CUE - được tự động nhận dạng khi quét thư viện và mỗi track sẽ được hiển thị phân cách. Chúng tôi đã thực hiện một số cải tiến nhỏ như hiện ảnh bìa album trong thẻ Thư viện, loại bỏ các bài hát đã bị xóa, tùy chỉnh \"Hiện trong trình duyệt tập tin\", hỗ trợ proxy, tùy chọn \"Quét lại toàn bộ thư viện\", và khung trượt trên thanh thời gian giúp bạn dễ phát nhạc vào đúng thời gian mong muốn. Xem <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
+"more accurately to a specific place in a song. See the <a href=\"https://raw."
+"github.com/clementine-player/Clementine/master/Changelog\">full changelog</"
+"a> for more information."
+msgstr ""
+"Phiên bản này bao gồm một số cải tiến ở trình chỉnh sửa thẻ với tính năng tự "
+"hoàn tất và khả năng tự động nhận diện nhạc và tải các thẻ bị thiếu từ "
+"MusicBrainz. Hỗ trợ danh sách định dạng CUE - được tự động nhận dạng khi "
+"quét thư viện và mỗi track sẽ được hiển thị phân cách. Chúng tôi đã thực "
+"hiện một số cải tiến nhỏ như hiện ảnh bìa album trong thẻ Thư viện, loại bỏ "
+"các bài hát đã bị xóa, tùy chỉnh \"Hiện trong trình duyệt tập tin\", hỗ trợ "
+"proxy, tùy chọn \"Quét lại toàn bộ thư viện\", và khung trượt trên thanh "
+"thời gian giúp bạn dễ phát nhạc vào đúng thời gian mong muốn. Xem <a href="
+"\"http://code.google.com/p/clementine-player/source/browse/Changelog\">danh "
+"sách các thay đổi</a> để biết thêm thông tin."
 
-#: data.py:342
+#: data.py:347
 msgid "Version 1.0 released"
 msgstr "Phát hành phiên bản 1.0"
 
-#: data.py:343
+#: data.py:348
+#, fuzzy
 msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"http://code.google.com/p"
-"/clementine-player/source/browse/Changelog?name=release-1.0\">full "
-"changelog</a> for more information."
-msgstr "Phiên bản này thêm hỗ trợ cho các dịch vụ <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> và <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Chức năng tìm kiếm toàn bộ cho phép tìm nhạc trong thư viện hay từ các nguồn trên Internet. Hỗ trợ đĩa CD, nhiều tuỳ chọn chuyển mã, cải thiện hộp thoại thiết lập, tìm ảnh bìa hiệu quả hơn, vá nhiều lỗi ở phiên bản trước. Xem <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.0\">danh sách các thay đổi</a> để biết thêm thông tin."
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href="
+"\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/"
+"\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  "
+"We've also added a Global Search feature that allows you to easily find "
+"music that's either in your library or on the Internet. Other features "
+"include audio CD support, more transcoder options, an improved settings "
+"dialog, smarter album cover searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/"
+"Changelog\">full changelog</a> for more information."
+msgstr ""
+"Phiên bản này thêm hỗ trợ cho các dịch vụ <a href=\"http://www.spotify.com"
+"\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> và <a "
+"href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/"
+"\">Digitally Imported</a>. Chức năng tìm kiếm toàn bộ cho phép tìm nhạc "
+"trong thư viện hay từ các nguồn trên Internet. Hỗ trợ đĩa CD, nhiều tuỳ chọn "
+"chuyển mã, cải thiện hộp thoại thiết lập, tìm ảnh bìa hiệu quả hơn, vá nhiều "
+"lỗi ở phiên bản trước. Xem <a href=\"http://code.google.com/p/clementine-"
+"player/source/browse/Changelog?name=release-1.0\">danh sách các thay đổi</a> "
+"để biết thêm thông tin."
 
-#: data.py:355
+#: data.py:360
 msgid "Version 1.1 released"
 msgstr "Phát hành phiên bản 1.1"
 
-#: data.py:356
+#: data.py:361
+#, fuzzy
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog?name=release-1.1\">full changelog</a> for "
-"more information."
-msgstr "Phiên bản được mong chờ với hỗ trợ Podcast và đồng bộ với <a href=\"//gpodder.net\">gpodder.net</a>. Các dịch vụ phát thanh Internet mới bao gồm <a href=\"http://soundcloud.com/\">Soundcloud</a>, <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>, phát nhạc trong tài khoản <a href=\"http://drive.google.com/start\">Google Drive</a>. Thanh sắc thái với nhiều màu sắc tuỳ chọn cho giao diện thêm phần cuốn hút. Xem <a href=\"http://code.google.com/p/clementine-player/source/browse/Changelog?name=release-1.1\">danh sách các thay đổi</a> để biết thêm thông tin."
+"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www."
+"jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the "
+"sidebar, as well as any songs you've uploaded to <a href=\"http://drive."
+"google.com/start\">Google Drive</a>. Clementine will also now show moodbars "
+"for the music you play from your local disc. See the <a href=\"https://raw."
+"github.com/clementine-player/Clementine/release-1.1/Changelog\">full "
+"changelog</a> for more information."
+msgstr ""
+"Phiên bản được mong chờ với hỗ trợ Podcast và đồng bộ với <a href=\"//"
+"gpodder.net\">gpodder.net</a>. Các dịch vụ phát thanh Internet mới bao gồm "
+"<a href=\"http://soundcloud.com/\">Soundcloud</a>, <a href=\"http://www."
+"jazzradio.com/\">jazzradio.com</a>, phát nhạc trong tài khoản <a href="
+"\"http://drive.google.com/start\">Google Drive</a>. Thanh sắc thái với nhiều "
+"màu sắc tuỳ chọn cho giao diện thêm phần cuốn hút. Xem <a href=\"http://code."
+"google.com/p/clementine-player/source/browse/Changelog?"
+"name=release-1.1\">danh sách các thay đổi</a> để biết thêm thông tin."
 
-#: data.py:369
+#: data.py:374
 msgid "Version 1.2 released"
 msgstr ""
 
-#: data.py:370
+#: data.py:375
 msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"http://code.google.com/p/clementine-"
-"player/source/browse/Changelog?name=release-1.2\">full changelog</a> for "
-"more information."
+"This release is compatible with the <a href=\"https://play.google.com/store/"
+"apps/details?id=de.qspool.clementineremote\">Clementine Remote application "
+"for Android</a> which lets you control Clementine remotely from an Android "
+"device.<br/>This release also adds support for Subsonic. And you can now "
+"listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a "
+"href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive."
+"live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</"
+"a>. Last major new feature is the ability to \"star\" your playlists, so you "
+"can safely close them and restore them later from the new \"Playlist\" tab "
+"we've added in the left sidebar.<br/>See the <a href=\"https://raw.github."
+"com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> "
+"for more information."
 msgstr ""
 
 #: downloads.html:7
@@ -380,111 +447,117 @@ msgstr "Phiên bản mới nhất"
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr "Phiên bản ổn định mới nhất của Clementine cho hệ điều hành của bạn."
 
-#: downloads.html:33
+#: downloads.html:41
 msgid "Downloads for other operating systems"
 msgstr "Tải về cho các hệ điều hành khác"
 
-#: downloads.html:52
+#: downloads.html:68
 msgid "Ubuntu PPA"
 msgstr "PPA cho Ubuntu"
 
-#: downloads.html:54
+#: downloads.html:70
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Bạn có thể tải phiên bản mới nhất của Clementine cho Ubuntu từ kho PPA chính thức:"
+msgstr ""
+"Bạn có thể tải phiên bản mới nhất của Clementine cho Ubuntu từ kho PPA chính "
+"thức:"
 
-#: downloads.html:62 downloads.html.py:77
+#: downloads.html:78 downloads.html.py:93
 msgid "Other Downloads"
 msgstr "Tải về khác"
 
-#: downloads.html:64
+#: downloads.html:80
 msgid "Clementine Remote for Android"
 msgstr ""
 
-#: downloads.html:71
+#: downloads.html:87
 msgid "Unofficial packages"
 msgstr "Các gói không chính thức"
 
-#: downloads.html:73
+#: downloads.html:89
 msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
-msgstr "Nếu bạn không thấy bản phân phối của mình được liệt kê ở trên thì người khác có thể tạo các gói không chính thức cho bạn."
+"If you don't see your distribution listed above then someone else might have "
+"created an unofficial package for you."
+msgstr ""
+"Nếu bạn không thấy bản phân phối của mình được liệt kê ở trên thì người khác "
+"có thể tạo các gói không chính thức cho bạn."
 
-#: downloads.html:81
+#: downloads.html:97
 msgid "Compiling from source"
 msgstr "Biên dịch từ mã nguồn"
 
-#: downloads.html:83
+#: downloads.html:99
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Dễ dàng biên dịch Clementine từ mã nguồn trên Linux."
 
-#: downloads.html:84
+#: downloads.html:100
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Tải gói mã nguồn từ danh sách trên và nhập vào cửa sổ dòng lệnh:"
 
-#: downloads.html:93
+#: downloads.html:109
 msgid "Full instructions and list of dependencies"
 msgstr "Tất cả hướng dẫn và danh sách các gói phụ thuộc"
 
-#: downloads.html:97
+#: downloads.html:113
 msgid "Bleeding edge packages"
 msgstr "Các gói đang được phát triển"
 
-#: downloads.html:99 participate.html:51
+#: downloads.html:115 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr "Việc phát triển Clementine diễn ra tại"
 
-#: downloads.html:101 participate.html:53
+#: downloads.html:117 participate.html:59
 msgid "the git repository"
 msgstr "kho git"
 
-#: downloads.html:102 participate.html:54
+#: downloads.html:118 participate.html:60
 msgid "Check out the code by running:"
 msgstr "Kiểm tra mã nguồn bằng cách chạy:"
 
-#: downloads.html:106 participate.html:64
+#: downloads.html:122 participate.html:70
 msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "Nếu bạn không muốn tự biên dịch các phiên bản phát triển, hãy thử một trong các gói được biên dịch thường xuyên:"
+"If you'd prefer not to compile the development version yourself then try one "
+"of the hourly packages:"
+msgstr ""
+"Nếu bạn không muốn tự biên dịch các phiên bản phát triển, hãy thử một trong "
+"các gói được biên dịch thường xuyên:"
 
-#: downloads.html:111 participate.html:69
+#: downloads.html:127 participate.html:75
 msgid "Mac OS X development builds"
 msgstr "Các gói đang phát triển trên Mac OS X"
 
-#: downloads.html:113 participate.html:79
+#: downloads.html:129 participate.html:85
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Precise (12.04)"
 
-#: downloads.html:115 participate.html:81
+#: downloads.html:131 participate.html:87
 msgid "Ubuntu Quantal (12.10) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Quantal (12.10)"
 
-#: downloads.html:117
+#: downloads.html:133
 msgid "Ubuntu Raring (13.04) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Raring (13.04)"
 
-#: downloads.html:119 participate.html:83
+#: downloads.html:135 participate.html:89
 msgid "Windows development builds"
 msgstr "Các gói đang phát triển trên Windows"
 
-#: downloads.html:121 participate.html:85
+#: downloads.html:137 participate.html:91
 msgid "Buildbot"
 msgstr "Nhật ký phát triển"
 
-#: downloads.html:124 participate.html:88
+#: downloads.html:140 participate.html:94
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Ubuntu PPA cho các gói đang được phát triển:"
 
-#: downloads.html:132
+#: downloads.html:148
 msgid "Old downloads"
 msgstr "Phiên bản cũ"
 
-#: downloads.html:140 screenshots.html:8
+#: downloads.html:156 screenshots.html:8
 msgid "Version"
 msgstr "Phiên bản"
 
@@ -553,8 +626,7 @@ msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Hoạt động trên các nền tảng Windows, Mac OS X và Linux."
 
 #: main.html:45
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Hộp thông báo trên Linux (libnotify) và Mac OS X (Growl)."
 
 #: main.html:46
@@ -631,185 +703,196 @@ msgstr "Tải về"
 msgid "News"
 msgstr "Tin tức"
 
-#: participate.html:11
+#: participate.html:17
 msgid "Need help?"
 msgstr "Trợ giúp"
 
-#: participate.html:15
+#: participate.html:21
 msgid "Come chat with us at the"
 msgstr "Trò chuyện tại kênh"
 
-#: participate.html:15
+#: participate.html:21
 msgid "channel on Freenode."
 msgstr "trên Freenode."
 
-#: participate.html:16
+#: participate.html:22
 msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "Hãy nhớ <b>luôn ở lại sau khi đặt câu hỏi</b> - chúng tôi ở các múi giờ khác nhau nên không phải lúc nào cũng thấy câu hỏi của bạn ngay được."
+"Please remember to <b>stick around after asking a question</b> - we might be "
+"in a different timezone so won't see your question right away."
+msgstr ""
+"Hãy nhớ <b>luôn ở lại sau khi đặt câu hỏi</b> - chúng tôi ở các múi giờ khác "
+"nhau nên không phải lúc nào cũng thấy câu hỏi của bạn ngay được."
 
-#: participate.html:19
+#: participate.html:25
 msgid "Forum"
 msgstr "Diễn đàn"
 
-#: participate.html:21
+#: participate.html:27
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
 msgstr "Clementine sử dụng Google Groups làm diễn đàn và hộp thư chung."
 
-#: participate.html:24
+#: participate.html:30
 msgid "Support and discussion group"
 msgstr "Hỗ trợ và các nhóm thảo luận"
 
-#: participate.html:29
+#: participate.html:35
 msgid "Collaborate"
 msgstr "Cộng tác"
 
-#: participate.html:31
+#: participate.html:37
 msgid "Reporting bugs and proposing patches"
 msgstr "Thông báo lỗi và đề xuất các bản vá lỗi"
 
-#: participate.html:33
-msgid "Clementine uses Google Code for development and issue tracking."
+#: participate.html:39
+#, fuzzy
+msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine sử dụng Google Code cho việc phát triển và theo dõi vấn đề."
 
-#: participate.html:34
+#: participate.html:40
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Nếu bạn tìm thấy một lỗi nghiêm trọng trong Clementine, vui lòng tạo một báo cáo mới."
+msgstr ""
+"Nếu bạn tìm thấy một lỗi nghiêm trọng trong Clementine, vui lòng tạo một báo "
+"cáo mới."
 
-#: participate.html:37
+#: participate.html:43
 msgid "Issue tracker"
 msgstr "Theo dõi vấn đề"
 
-#: participate.html:40
+#: participate.html:46
 msgid "Translating the interface"
 msgstr "Dịch giao diện ứng dụng"
 
-#: participate.html:42
+#: participate.html:48
 msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
-msgstr "Nếu bạn muốn dịch Clementine sang một ngôn ngữ khác, hãy thử trên trang dịch Transifex."
+"If you'd like to translate Clementine into another language you can do so on "
+"the Transifex translations page."
+msgstr ""
+"Nếu bạn muốn dịch Clementine sang một ngôn ngữ khác, hãy thử trên trang dịch "
+"Transifex."
 
-#: participate.html:43
+#: participate.html:49
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Bạn có thể dịch trực tiếp trên Transifex, hoặc tải về tập tin .po và gửi email lại cho chúng tôi."
+msgstr ""
+"Bạn có thể dịch trực tiếp trên Transifex, hoặc tải về tập tin .po và gửi "
+"email lại cho chúng tôi."
 
-#: participate.html:46
+#: participate.html:52
 msgid "Transifex translations"
 msgstr "Dịch Clementine trên Transifex"
 
-#: participate.html:49
+#: participate.html:55
 msgid "Hacking"
 msgstr "Hacking"
 
-#: participate.html:60
+#: participate.html:66
 msgid "How to compile Clementine from source"
 msgstr "Biên dịch Clementine từ mã nguồn"
 
-#: participate.html:71
+#: participate.html:77
 msgid "Ubuntu Lucid (10.04) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Lucid (10.04)"
 
-#: participate.html:73
+#: participate.html:79
 msgid "Ubuntu Maverick (10.10) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Maverick (10.10)"
 
-#: participate.html:75
+#: participate.html:81
 msgid "Ubuntu Natty (11.04) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Natty (11.04)"
 
-#: participate.html:77
+#: participate.html:83
 msgid "Ubuntu Oneiric (11.10) development builds"
 msgstr "Các gói đang phát triển trên Ubuntu Oneiric (11.10)"
 
-#: participate.html:94
+#: participate.html:100
 msgid "Remote application for Android"
 msgstr ""
 
-#: participate.html:96
-msgid ""
-"Clementine Remote is hosted on <a href=\"http://code.google.com/p"
-"/clementine-remote-android/\">another Google Code project</a>."
-msgstr ""
-
-#: participate.html:97
-msgid ""
-"You can report issues and propose patches on <a "
-"href=\"http://code.google.com/p/clementine-remote-android/issues/list\">its "
-"bug tracker</a>."
-msgstr ""
-
-#: participate.html:98
-msgid ""
-"You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
-"Transifex project</a>."
-msgstr ""
-
 #: participate.html:102
-msgid "Social Networking"
-msgstr "Mạng xã hội"
+msgid ""
+"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
+"player/Android-Remote\">another GitHub repository</a>."
+msgstr ""
+
+#: participate.html:103
+msgid ""
+"You can report issues and propose patches on <a href=\"https://github.com/"
+"clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgstr ""
 
 #: participate.html:104
 msgid ""
-"We'd love to see you support Clementine by joining us on your favourite "
-"social networking site!"
-msgstr "Chúng tôi rất vui mừng khi thấy bạn hỗ trợ Clementine bằng cách tham gia cùng chúng tôi trên các trang mạng xã hội!"
+"You can translate the interface on <a href=\"https://www.transifex.com/"
+"projects/p/clementine-remote/\">this Transifex project</a>."
+msgstr ""
 
 #: participate.html:108
+msgid "Social Networking"
+msgstr "Mạng xã hội"
+
+#: participate.html:110
+msgid ""
+"We'd love to see you support Clementine by joining us on your favourite "
+"social networking site!"
+msgstr ""
+"Chúng tôi rất vui mừng khi thấy bạn hỗ trợ Clementine bằng cách tham gia "
+"cùng chúng tôi trên các trang mạng xã hội!"
+
+#: participate.html:114
 msgid "Clementine on Facebook"
 msgstr "Clementine trên Facebook"
 
-#: participate.html:111
+#: participate.html:117
 msgid "Clementine on Twitter"
 msgstr "Clementine trên Twitter"
 
-#: participate.html:114
+#: participate.html:120
 msgid "Clementine on Last.fm"
 msgstr "Clementine trên Last.fm"
 
-#: participate.html:128
+#: participate.html:134
 msgid "Donation"
 msgstr ""
 
-#: participate.html:129
+#: participate.html:135
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
 msgstr ""
 
-#: participate.html:130
+#: participate.html:136
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
 msgstr ""
 
-#: participate.html:131
+#: participate.html:137
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
 msgstr ""
 
-#: participate.html:131
+#: participate.html:137
 msgid "and let us know:"
 msgstr ""
 
-#: participate.html:133
-msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+#: participate.html:139
+msgid ""
+"<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr ""
 
-#: participate.html:134
-msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+#: participate.html:140
+msgid ""
+"<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr ""
 
-#: participate.html:135
+#: participate.html:141
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr ""
