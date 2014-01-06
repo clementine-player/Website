@@ -12,7 +12,7 @@ import ipaddr
 import models
 
 
-IRC_WEBHOOK = 'http://zaphod.purplehatstands.com:8080/commit'
+IRC_WEBHOOK = 'http://beeblebrox.purplehatstands.com:8080/commit'
 GITHUB_NETWORK = ipaddr.IPv4Network('192.30.252.0/22')
 
 
