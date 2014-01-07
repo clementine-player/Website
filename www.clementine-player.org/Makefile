@@ -3,7 +3,7 @@ LANGUAGES=de hu it pt ru sk es fr pt_BR sv uk vi sl fi br cs et ia nn tr_TR ca h
 all: pot $(addprefix mo-,${LANGUAGES}) css
 
 pot:
-	django-admin makemessages -v 0 -l pot
+	django-admin makemessages --no-wrap -v 0 -l pot
 	mv locale/pot/LC_MESSAGES/django.po locale/django.pot
 	rmdir locale/pot/LC_MESSAGES
 	rmdir locale/pot
@@ -14,7 +14,7 @@ mo-%: po-%
 po-%:
 	-mkdir -p locale/$*/LC_MESSAGES/
 	ln -fs `pwd`/locale/$*.po locale/$*/LC_MESSAGES/django.po
-	django-admin makemessages -v 0 -l $*
+	django-admin makemessages --no-wrap -v 0 -l $*
 
 static/css/all.css: $(wildcard css/*.css)
 	java -jar closure-stylesheets-20111230.jar \

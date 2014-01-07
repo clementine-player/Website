@@ -739,7 +739,7 @@ msgstr ""
 #: participate.html:97
 msgid ""
 "You can report issues and propose patches on <a "
-"href=\"http://code.google.com/p/clementine-remote-android/issues/list\">its "
+"href=\"https://github.com/clementine-player/Android-Remoteissues/list\">its "
 "bug tracker</a>."
 msgstr ""
 
