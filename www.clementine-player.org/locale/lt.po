@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:10+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/clementine/language/lt/)\n"
@@ -244,7 +244,6 @@ msgid "Version 0.5 released"
 msgstr "Išleista 0.5 versija"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Šis leidimas palaiko prijungiamus įrenginius su Clementine.  Dabar jūs galite perkelti savo dainas į savo iPod, iPhone, MTP arba į USB laikmeną.  Žiūrėkite <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\"> wiki, jei norite daugiau informacijos</a>.  Palaikymas naudojant <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">bevielis Wii</a> kaip valdymo funkcija pridėta iš anksto. Dar pridėtas „Queue“ valdiklis, organizuotas failų naršyklės dialogas, automatiniai automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 
@@ -573,7 +572,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Raportuoti klaidas ir siūlyti pataisymus"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine naudoja Google grupes programavimui ir trūkumų sekimui."
 

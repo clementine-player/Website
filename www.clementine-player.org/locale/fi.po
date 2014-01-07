@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:09+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/clementine/language/fi/)\n"
@@ -572,7 +572,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Ongelmista ilmoittaminen ja korjausten ehdottaminen"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine käyttää GitHuba kehitykseen ja ongelmien ilmoitukseen sekä seurantaan."
 
@@ -629,12 +628,10 @@ msgid "Remote application for Android"
 msgstr "Kaukosäädinsovellus Androidille"
 
 #: participate.html:102
-#, fuzzy
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine-kaukosäädin sijaitsee <a href=\"https://github.com/clementine-player/Android-Remote\">erillisessä GitHub -projektissa</a>."
 
 #: participate.html:103
-#, fuzzy
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Ilmoita ongelmista ja ehdota koodimuutoksia <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">sen omassa vianseurantajärjestelmässä</a>."
 

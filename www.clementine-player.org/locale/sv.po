@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:09+0100\n"
 "PO-Revision-Date: 2013-11-28 11:25+0000\n"
 "Last-Translator: kristian <kristianm24@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/clementine/language/sv/)\n"
@@ -246,7 +246,6 @@ msgid "Version 0.5 released"
 msgstr "Version 0.5 släppt"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Denna version lägger till stöd för användning av flyttbara enheter i Clementine. Du kan nu kopiera låtar till din iPod, iPhone, MTP- eller USB-masslagringsenhet. Se <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wikin för mer information</a>. Stöd för användning av en <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii-kontroll</a> som en fjärrkontroll har lagts till. Andra funktioner inkluderar en köhanterare, en dialogruta för filorganisering, automatisk justering av kolumner i spellistor, inläsning av inbäddade ID3v2-omslagsbilder, fler alternativ för biblioteksavsökning, dra-och-släpp mellan spellistor och en hypnotoad. Vi har också minskat uppstartstiden med mer än hälften, rättat till massor av minnesläckor och minskat processoranvändningen vid uppspelning av musik. Se den <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fullständiga ändringsloggen</a> för mer information."
 
@@ -255,7 +254,6 @@ msgid "Version 0.6 released"
 msgstr "Version 0.6 släppt"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Denna utgåva innehåller två nya flikar som visar texter, statistik sång, biografier artist, bilder och listor på taggar och liknande artister. Vi har gjort om sidofältet (även om du kan byta tillbaka genom att högerklicka på den), och lade också till betyg, räknar spela och hoppa räknas. Du kan skapa smarta och dynamiska spellistor från låtar i biblioteket, och nu också lyssna på musik från <a href=\"http://www.jamendo.com/\"> Jamendo </a> och Icecast radiostationer. Se <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> hela ändringsloggen </a> för mer information."
 
@@ -264,7 +262,6 @@ msgid "Version 0.7 released"
 msgstr "Version 0.7 släppt"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "I den här versionen får Clementine en helt ny dialogruta för att redigera taggar. Dialogrutan kommer med automatisk komplettering, förmåga att automatiskt identifiera musik och hämta saknade taggar från MusicBrainz. CUE-sheets har nu stöd - de upptäcks automatiskt när du skannar ditt bibliotek och varje spår kommer att dyka upp separat. Vi har gjort en massa små förbättringar som att visa skivomslag i fliken Bibliotek, gråa ut raderade låtar, ett \"Visa i filhanteraren\" alternativ, stöd till nätverksproxyservrar, ett \"Skanna om hela bibliotek\" alternativ, och ett nytt verktygstips för spårreglaget som hjälper dig att söka mer exakt till en specifik plats i en låt. Se <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> hela changelog </ a> för mer information."
 
@@ -273,7 +270,6 @@ msgid "Version 1.0 released"
 msgstr "Version 1.0 released"
 
 #: data.py:348
-#, fuzzy
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Den här utgåvan innehåller <a href=\"http://www.spotify.com\"> Spotify </ a>, <a href=\"http://grooveshark.com\"> Grooveshark </ a> och <a href = \"http://www.sky.fm/ \"> SKY.fm </ a> / <a href=\"http://www.di.fm/\"> digitalt Importerat </ a> stöd. Vi har också lagt till en global sökfunktion som gör att du enkelt hittar musik som är antingen i biblioteket eller på Internet. Andra funktioner inkluderar CD-skiva stöd, fler alternativa omkodare, en förbättrad dialogruta, smartare albumsökningar och massor av buggfixar. Se <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> hela changelog </ a> för mer information."
 
@@ -282,7 +278,6 @@ msgid "Version 1.1 released"
 msgstr "Version 1.1 släppt"
 
 #: data.py:361
-#, fuzzy
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "I den här versionen kommer efterlängtat stöd för poddsändningar som inkluderar integration och synkronisering med <a href=\"//gpodder.net\">gpodder.net</a>. Musik från <a href=\"http://soundcloud.com/\">Soundcloud</a> och <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> är tillgänglig i Internet-fliken i sidopanelen, tillsammans med de låtar du laddat upp till <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine visar nu även stämningsdiagram för musiken du spelar från lokala media. Se <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> för mer information."
 
@@ -291,7 +286,6 @@ msgid "Version 1.2 released"
 msgstr "Version 1.2 släppt"
 
 #: data.py:375
-#, fuzzy
 msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
 msgstr ""
 "Denna utgåva är kompatibel med  <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine's Fjärrstyrnings applikation för Android</a> som låter dig fjärrstyra Clementine från en Android enhet.<br/>Denna utgåva lägger också till stöd för Subsonic. Nu kan du också lyssna till din musik som är lagrad i <a href=\"https://www.box.com/\">Box/a>, <a href=\"https://www.dropbox.com/\">Dropbox och <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. En ny egenskap är också möjligheten att \"favorisera\" dina spellistor, så att du tryggt kan stänga dom och senare återställa dom från den nya fliken \"spellistor\" i det vänstra sidofältet.\n"
@@ -582,7 +576,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Rapportering av fel och föreslagning av patchar"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine använder GitHub för utvecklings- och problemredovisning."
 
@@ -639,12 +632,10 @@ msgid "Remote application for Android"
 msgstr "Fjärrstyrnings applikation för Android"
 
 #: participate.html:102
-#, fuzzy
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine Fjärrkontroll finns hos <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub project</a>."
 
 #: participate.html:103
-#, fuzzy
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Du kan rapportera fel och föreslå fixar på <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">its bug tracker</a>."
 

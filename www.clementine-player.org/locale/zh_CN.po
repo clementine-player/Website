@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:10+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/clementine/language/zh_CN/)\n"
@@ -245,7 +245,6 @@ msgid "Version 0.5 released"
 msgstr "发布 0.5 版本"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "此次更新增强了 Clementine 对移动设备的支持。  您现在可以复制音乐到您的 iPod、iPhone、MTP 或者 大容量的USB设备。  更多详情请 <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">查阅 wiki 以获取信息</a>。  而且现在可以使用 <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii 遥控器</a> 来控制 Clementine。  其它的新特性包括队列管理器、整理文件对话框、播放列表自动调整栅格、读取内嵌的 id3v2 专辑封面、更多的媒体库扫描选项、不同播放列表的拖拽操作、和一个 hypnotoad。  而且我们也减少了启动时间、修正了诸多内存泄露以及降低了播放音乐时的 CPU 占用率。获取更多信息请查阅<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">完整的更新日志</a>。"
 
@@ -254,7 +253,6 @@ msgid "Version 0.6 released"
 msgstr "发布 0.6 版本"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "此次更新带来了两个新的信息面板：用来显示歌词、歌曲统计、艺人介绍、照片、标签列表；以及显示相似艺人。  我们也重新设计了侧边栏(当然您也可以通过右击切换回去)，并且添加了评分、播放统计和跳过统计。  您可以为媒体库中的音乐创建一个智能的动态列表，收听来自 <a href=\"http://www.jamendo.com/\">Jamendo</a> 和 Icecast 的电台。获取更多信息请查阅<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">完整的更新日志</a>。"
 
@@ -263,7 +261,6 @@ msgid "Version 0.7 released"
 msgstr "发布 0.7 版本"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "此次更新 Clementine 新增一个能够自动识别音乐并且从 MusicBrainz 上获取缺失标签的全新标签编辑器。  现在已经支持 CUE sheets —— 它能够在扫描媒体库时自动把每个音轨单独罗列出来。  我们也做了很多小的改进比如在媒体库标签中显示专辑封面、已经被删除的歌曲会变成灰色、“在文件浏览器中显示”选项、支持网络代理、“重新扫描媒体库”选项、以及新的进度栏提示，您可以通过此功能更精确地了解歌曲的时间轴。获取更多信息请查阅<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">完整的更新日志</a>。"
 
@@ -272,7 +269,6 @@ msgid "Version 1.0 released"
 msgstr "发布 1.0 版本"
 
 #: data.py:348
-#, fuzzy
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "本版加入 <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> 及 <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">数字化导入</a> 支持。 同时新增全局搜索功能，允许您方便地在本地和互联网上搜索音乐。其它功能包括音乐 CD 支持，更多的转码选项，改进后的设置对话框，更智能的专辑封面搜索，以及一堆错误修正。详见 <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">完整版本说明</a> 。"
 
@@ -281,7 +277,6 @@ msgid "Version 1.1 released"
 msgstr "发布 1.1 版本"
 
 #: data.py:361
-#, fuzzy
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "本版新增期待已久的 Podcast 博客支持，及与 <a href=\"//gpodder.net\">gpodder.net</a> 的整合与同步。<a href=\"http://soundcloud.com/\">Soundcloud</a> 及 <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>，及您上传到 <a href=\"http://drive.google.com/start\">Google Drive</a>中的音乐，现在可以从侧边栏的网络标签中访问。Clementine 现在支持为本地光盘中的音乐显示心情指示。详见<a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">完整的版本说明</a>。"
 
@@ -578,7 +573,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "报告 BUG 和提供补丁"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine 使用 GitHub 作为开发与问题追踪。"
 

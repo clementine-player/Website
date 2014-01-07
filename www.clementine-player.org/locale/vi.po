@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:09+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/clementine/language/vi/)\n"
@@ -246,7 +246,6 @@ msgid "Version 0.5 released"
 msgstr "Phát hành phiên bản 0.5"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Phiên bản này thêm các hỗ trợ cho các thiết bị di động với Clementine. Giờ bạn đã có thể sao chép nhạc vào iPod, iPhone, MTP, hoặc thiết bị lưu trữ USB. Xem <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">trang wiki để biết thêm thông tin</a>. Hỗ trợ sử dụng <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">tay cầm Wii</a> để điều khiển. Các cải tiến khác bao gồm Trình quản lý danh sách đợi, tổ chức các tập tin, tự động kéo dãn các cột trong danh sách, tải ảnh bìa nhúng id3v2, nhiều tùy chọn quét thư viện hơn, kéo và thả giữa các danh sách, hiệu ứng âm thanh nền hypnotoad. Giảm thời gian khởi động ứng dụng xuống hơn một nửa, sửa các lỗi về rò rỉ bộ nhớ và giảm mức sử dụng CPU khi phát nhạc. Xem <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
 
@@ -255,7 +254,6 @@ msgid "Version 0.6 released"
 msgstr "Phát hành phiên bản 0.6"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Phiên bản này cải tiến hai bảng thông tin cho phép xem lời bài hát, các số liệu về bài hát, thông tin tiểu sử, hình ảnh nghệ sĩ, danh sách các thẻ, các nghệ sĩ tương tự. Thanh bên được chúng tôi thiết kế lại (mặc dù bạn có thể đổi nó về như cũ bằng cách bấm chuột phải và chọn lại), thêm chức năng đánh giá, đếm số lần phát bỏ qua việc đếm. Bạn có thể tạo những danh sách động thông minh từ các bài hát trong thư viện, và cũng có thể nghe nhạc từ kênh phát thanh <a href=\"http://www.jamendo.com/\">Jamendo</a>. Xem <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
 
@@ -264,7 +262,6 @@ msgid "Version 0.7 released"
 msgstr "Phát hành phiên bản 0.7"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Phiên bản này bao gồm một số cải tiến ở trình chỉnh sửa thẻ với tính năng tự hoàn tất và khả năng tự động nhận diện nhạc và tải các thẻ bị thiếu từ MusicBrainz. Hỗ trợ danh sách định dạng CUE - được tự động nhận dạng khi quét thư viện và mỗi track sẽ được hiển thị phân cách. Chúng tôi đã thực hiện một số cải tiến nhỏ như hiện ảnh bìa album trong thẻ Thư viện, loại bỏ các bài hát đã bị xóa, tùy chỉnh \"Hiện trong trình duyệt tập tin\", hỗ trợ proxy, tùy chọn \"Quét lại toàn bộ thư viện\", và khung trượt trên thanh thời gian giúp bạn dễ phát nhạc vào đúng thời gian mong muốn. Xem <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
 
@@ -273,7 +270,6 @@ msgid "Version 1.0 released"
 msgstr "Phát hành phiên bản 1.0"
 
 #: data.py:348
-#, fuzzy
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Phiên bản này thêm hỗ trợ cho các dịch vụ <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> và <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Chức năng tìm kiếm toàn bộ cho phép tìm nhạc trong thư viện hay từ các nguồn trên Internet. Hỗ trợ đĩa CD, nhiều tuỳ chọn chuyển mã, cải thiện hộp thoại thiết lập, tìm ảnh bìa hiệu quả hơn, vá nhiều lỗi ở phiên bản trước. Xem <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
 
@@ -282,7 +278,6 @@ msgid "Version 1.1 released"
 msgstr "Phát hành phiên bản 1.1"
 
 #: data.py:361
-#, fuzzy
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "Phiên bản được mong chờ với hỗ trợ Podcast và đồng bộ với <a href=\"//gpodder.net\">gpodder.net</a>. Các dịch vụ phát thanh Internet mới bao gồm <a href=\"http://soundcloud.com/\">Soundcloud</a>, <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>, phát nhạc trong tài khoản <a href=\"http://drive.google.com/start\">Google Drive</a>. Thanh sắc thái với nhiều màu sắc tuỳ chọn cho giao diện thêm phần cuốn hút. Xem <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">danh sách các thay đổi</a> để biết thêm thông tin."
 
@@ -579,7 +574,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Thông báo lỗi và đề xuất các bản vá lỗi"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine sử dụng GitHub cho việc phát triển và theo dõi vấn đề."
 

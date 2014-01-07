@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:09+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/clementine/language/hu/)\n"
@@ -244,7 +244,6 @@ msgid "Version 0.5 released"
 msgstr "Megjelent a 0.5-ös verzió"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Ez a kiadás hordozható eszköztámogatással bővült. Ezentúl számokat másolhat iPodra, iPhonera, MTP-re vagy bármilyen USB-s adathordozó alapú eszközre. További információért tekintse meg <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki oldalunkat</a>. Távvezérlési lehetőségként mostantól a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii vezérlőjét</a> is használhatja. További újdonság a sorkezelő, a fájlok rendezése ablak, a lejátszási listán az oszlopok automatikus méretezése, a beágyazott id3v2 album borítók megjelenítése, még több zenetár szűrési lehetőség, „fogd és ejtsd” a lejátszási listák között, valamint egy hypnotoad. Ezeken felül az indulási időt több mint felére csökkentettük, rengeteg memória kezelési hibát javítottunk, és a processzorhasználat is csökkent lejátszás közben. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
@@ -253,7 +252,6 @@ msgid "Version 0.6 released"
 msgstr "Megjelent a 0.6-os verzió"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Ez a verzió két új információs panelt tartalmaz, melyek dalszövegeket, szám statisztikákat, előadói életrajzokat, fényképeket, címkelistákat és aktuálishoz hasonló előadókat tartalmaznak. Új felületet terveztünk az oldalsávnak (jobb klikkel visszaállítható), értékelhetővé tettük a számokat, lejátszás- és kihagyásszámlálót is hozzáadtunk. Létrehozhatsz intelligens és dinamikus lejátszási listákat a zenetáradban lévő dalokból és <a href=\"http://www.jamendo.com/\">Jamendo</a> vagy Icecast rádióállomásokat is hallgathatsz. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
@@ -262,7 +260,6 @@ msgid "Version 0.7 released"
 msgstr "Megjelent a 0.7-es verzió"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "A Clementine ebben a kiadásban egy új címkeszerkesztőt kapott automatikus kiegészítési lehetőséggel, valamint képes automatikusan felismerni a zeneszámot és a MusicBrainzről letölteni a címkéket. Ezentúl a CUE fájlok is támogatottak - a zenetár frissítésekor automatikusan felismeri őket a Clementine és minden általa leírt szám külön jelenik meg. Számos apró fejlesztést végeztünk, mint például az albumborítók megjelennek a zenetárban, a törölt számok kiszürkülnek, lehetőség van a számok megtekintésére fájlkezelőben, valamint a szám léptetőn egy felugró súgó jelenik meg, ami segít pontosabban navigálni a számon belül. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
@@ -271,7 +268,6 @@ msgid "Version 1.0 released"
 msgstr "Megjelent az 1.0-ás verzió"
 
 #: data.py:348
-#, fuzzy
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Ez a kiadás <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> és <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> támogatással érkezett. Hozzáadtuk a globális keresési szolgáltatást is, amivel könnyedén megkeresheti zenéit akár saját gyűjteményében, akár az interneten. Emellett olyan funkciók kerültek be, mint az audio CD-k támogatása, több átkódolási lehetőség, jobb beállítási ablak, okosabb albumborító kereső illetve nagyon sok hibajavítás. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
@@ -280,7 +276,6 @@ msgid "Version 1.1 released"
 msgstr "Megjelent az 1.1-es verzió"
 
 #: data.py:361
-#, fuzzy
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "Ez a kiadás a rég várt podcast támogatással érkezik, beleértve az integrációt és szinkronizálást a <a href=\"//gpodder.net\">gpodder.net</a> szolgáltatással. A zenék a <a href=\"http://soundcloud.com/\">Soundcloud</a> vagy a <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> oldalról szintén elérhetőek az Internet fül alatt, csakúgy mint  <a href=\"http://drive.google.com/start\">Google Drive</a>-ba feltöltött zenéi. A Clementine most már hangulatsávokat is mutat a helyi zeneszámok lejátszásánál. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
@@ -577,7 +572,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Hibák jelentése és javaslattételek"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "A Clementine a GitHubot használja fejlesztői és visszajelzés követéshez."
 

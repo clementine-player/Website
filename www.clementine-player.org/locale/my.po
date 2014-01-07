@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:10+0100\n"
 "PO-Revision-Date: 2013-12-02 01:24+0000\n"
 "Last-Translator: Yhal Htet Aung <jumoun@gmail.com>\n"
 "Language-Team: Burmese (http://www.transifex.com/projects/p/clementine/language/my/)\n"
@@ -243,7 +243,6 @@ msgid "Version 0.5 released"
 msgstr "ပံုစံ 0.5 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "ယခုပံုစံတွင်ကလီမန်တိုင်းကိုရွေ့ပြောင်းပစ္စည်းများနှင့်အသံုးပြုနိုင်ရန်ထည့်သွင်းထား။ အိုင်ပေါ့၊ အိုင်ဖုန်း၊ အမ်တီပီ(သို့)ယူအက်စ်ဘီသိုလှောင်စုပံုစက်သို့သီချင်းများကိုကူးယူနိုင်။ <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\"> အချက်အလက်များအတွက်ဝီကီတွင်ကြည့်ရှု။ <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">ဝီအဝေးထိန်းများ</a> ကိုအဝေးထိန်းကဲ့သို့အသံုးပြုနိုင်ရန်ထည့်သွင်းထား။ စီတန်းမန်နေဂျာ၊ ဖိုင်စုစည်းမှုအရေးအသား၊ သီချင်းစာရင်းတွင်ကော်လံများအလိုအလျောက်ဆွဲဆန့်၊ အိုင်ဒီ၃ဗီ၂အဖံုးအနုပညာမြှပ်ထည့်သွင်းခြင်း၊ သီချင်းတိုက်ရွေးပိုင်ခွင့်ဖတ်ရှုခြင်းများ၊ သီချင်းစာရင်းများအကြားဆွဲယူလွှတ်ချခြင်းနှင့်ဟိုက်ဖ်နိုဖားစသည့်တစ်ခြားအင်္ဂရပ်များပါဝင်။ စတင်ချိန်တစ်ဝက်ခန့်လျော့ချ၊ မှတ်ဉာဏ်ယိုပေါက်များပြင်ဆင်ခြင်းနှင့်ဂီတကိုနားဆင်နေစဉ်စီပီယူအသံုးချမှုများလျော့ချထား။ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
@@ -252,7 +251,6 @@ msgid "Version 0.6 released"
 msgstr "ပံုစံ 0.6 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "ယခုပံုစံတွင်သီချင်းစာသားများ၊ သီချင်းစာရင်းဇယား၊ အနုပညာရှင်အတ္ထုပ္ပတ္တိများ၊ ဓာတ်ပံုများနှင့်အမည်များစာရင်းများနှင့်တူညီအနုပညာရှင်များအားလံုးစသည့်အင်္ဂရပ်များပါဝင်။ ဘေးတိုင်ကိုပြန်လည်တည်ဆောက်ခါ၊ တန်ဖိုးဖြတ်ခြင်းများ၊ ဖွင့်သံအရေအတွက်များ၊ အရေအတွက်များခုန်ကျော်များလုပ်ဆောင်ပြီး။ သီချင်းတိုက်ရှိသီချင်းများမှချက်ချာသီချင်းစာရင်းများနှင့်သီချင်းစာရင်းအရှင်များဖန်တီးနိုင်ပြီး <a href=\"http://www.jamendo.com/\">ဂျမန်တို</a> နှင့်အိုင့်ကက်စ်ရေဒီယိုထုတ်လွှင့်မှုဌာနများမှဂီတများကိုနားဆင်နိုင်။ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များကိုဤတွင်ကြည့်ရှုပါ။"
 
@@ -261,7 +259,6 @@ msgid "Version 0.7 released"
 msgstr "ပံုစံ 0.7 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "ယခုပံုစံထဲတွင်အလိုအလျောက်ပြီးစီးနိင်သည့်အသစ်စက်စက်အမည်တည်းဖြတ်အရေးအသားအင်္ဂရပ်ကလီမန်တိုင်းတွင်ပါဝင်ပြီးဂီတကိုအလိုအလျောက်စစ်ရွေးခြင်းနှင့်မြူးဇစ်ဘရိန်းမှပျောက်နေသောအမည်များယူဆောင်နိုင်။ ကယူးအပြားအထောက်အကူလည်းပါဝင် - သီချင်းတိုက်များကိုဖတ်ရှုသောအခါအလိုအလျောက်ရှာဖွေတွေ့ရှိနိုင်ပြီးတေးသံလမ်းကြောတစ်ခုဆီကိုသီးခြားစီပြသနိုင်။ သီချင်းတိုက်မျက်နှာစာတွင်အယ်လဘမ်အဖုံးများပြသခြင်း၊ ပယ်ဖျက်ပြီးသီချင်းများမီးခိုးရောင်ပြနိုင်ခြင်း၊ \"ဘရောက်ဇာထဲတွင်ပြသ\" ရွေးပိုင်ခွင့်များ၊ ကွန်ယက်ပရောက်ဇီများ၊ \"သီချင်းတိုက်အပြည့်ပြန်လည်ဖတ်ရှု\" ရွေးပိုင်ခွင့်များနှင့်သီချင်းကိုသတ်မှတ်နေရာတွင်တိကျစွာရှာဖွေရန်တေးသံလမ်းကြောဆလိုက်တာများအတွက်ကိရိယာထိပ်ပါဝင်။ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
@@ -270,7 +267,6 @@ msgid "Version 1.0 released"
 msgstr "ပံုစံ 1.0 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:348
-#, fuzzy
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "ယခုပံုစံတွင် <a href=\"http://www.spotify.com\">စပေါ့တီဖိုင်</a>, <a href=\"http://grooveshark.com\">ဂရုရှက်</a> နှင့် <a href=\"http://www.sky.fm/\">စကိုင်း.အက်ဖ်အမ်</a>/<a href=\"http://www.di.fm/\">ကွန်ပျုတာစနစ်ဖြင့်တင်သွင်း</a> အထောက်အကူများပါဝင်။ သီချင်းတိုက်(သို့)အင်တာနက်ပေါ်တွင်ဂီတကိုလွယ်ကူစွာရှာနိုင်ရန်အများသံုးရှာဖွေအင်္ဂရပ်ထည့်သွင်းထား။ အသံဓာတ်ပြားများအထောက်အကူ၊ ပံုစံပြောင်းလဲခြင်းရွေးပိုင်ခွင့်များ၊ ပိုမိုကောင်းမွန်သောချိန်ညှိချက်အရေးအသား၊ ချက်ချာအယ်လ်ဘမ်အဖံုးရှာဖွေမှုများနှင့်ပရိုဂရမ်ယိုစိမ့်မှုများဖြေရှင်းပြီးများပါဝင်။ <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
@@ -279,7 +275,6 @@ msgid "Version 1.1 released"
 msgstr "ပံုစံ 1.1 ထုတ်ဝေဖြန့်ချိ"
 
 #: data.py:361
-#, fuzzy
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "ယခုပံုစံတွင် <a href=\"//gpodder.net\">ဂျီပေါ့တာ.နက်</a> ဖြင့်ပို့စ်ကဒ်ပေါင်းစပ်မှုနှင့်ညီတူညှိခြင်းအထောက်အကူပါဝင်။ <a href=\"http://soundcloud.com/\">ဆောင်းကလောက်</a> နှင့် <a href=\"http://www.jazzradio.com/\">ဂျက်စ်ရေဒီယို.ကွန်း</a> မှဂီတများကိုဘေးတိုင်ရှိအင်တာနက်မျက်နှာစာတွင်ရယူနိင်ပြီး <a href=\"http://drive.google.com/start\">ဂူဂယ်ဒရိုက်ဗ်</a> သို့ကူးတင်ပြီးသီချင်းများကိုပါရယူနိင်။ ချပ်ပြားဝိုင်းမှဖွင့်သောဂီတများကိုစိတ်နေစိတ်ထားဘားမျဉ်းပြသနိုင်။ <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">ပြောင်းလဲမှုမှတ်တမ်းအပြည့်အစံု</a> အခြားအချက်အလက်များအတွက်ဤတွင်ကြည့်ပါ။"
 
@@ -576,7 +571,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "ပရိုဂရမ်ယိုစိမ့်မှုများသတင်းပေးပို့ခြင်းနှင့်ဖာထေးမှုများဖြေရှင်းရန်ခွင့်တောင်းခြင်း"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "တီထွင်မှုနှင့်အကြောင်းကိစ္စခြေရာကောက်ရန်ဂူဂယ်ကုဒ်ကိုကလီမန်တိုင်းအသံုးပြု။"
 

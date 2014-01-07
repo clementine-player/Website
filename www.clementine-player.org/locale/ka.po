@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:10+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Georgian (http://www.transifex.com/projects/p/clementine/language/ka/)\n"
@@ -246,7 +246,6 @@ msgid "Version 0.5 released"
 msgstr "გამოვიდა 0.5 ვერსია"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "ამ ვერსიაში დამატებულია Clementine-სთან პორტატული მოწყობილობების გამოყენების მხარდაჭერა, თქვენ შეგიძლიათ სიმღერების iPod-ში, iPhone-ში, MTP-სი, USB აუდიო დამკვრელში კოპირება. იხილეთ <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">ვიკი მეტი ინფორმაციის მისაღებად</a>. დისტანციური მმართვას დაემატა <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote-ს</a> გამოყენების მხარდაჭერა. სხვა ფუნქციები შეიცავს: სიმღერების რიგის მმართველი, ფაილების ორგანიზების დიალოგი, სვეტების ავტომატურად გაშლა ფლეილისთებში, ჩადგმული id3v2 გარეკნის ჩატვირთვა, მეტი პარამეტრები  ბიბლიოთეკის სკანირებისთვის, გადათრევა და დაგდება ფლეილისთებს შორის, და ჰიპნოტოადი. ჩვენ ასევე ნახევარზე მეტით შევამცირეთ პროგრამის დაწყების დრო, მოვაგვარეთ მეხსიერების დატვირთვის და CPU მოხმარების შემცირების პრობლემა მუსიკის დაკვრის დროს. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ცვლილებების სრული სია</a>."
 
@@ -255,7 +254,6 @@ msgid "Version 0.6 released"
 msgstr "გამოვიდა 0.6 ვერსია"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "ამ ვერსიაში დამატებულია ორი ახალი საინფორმაციო პანელი, რომელბიც უჩვენებენ ლირიკებს, სიმღერის სტატისტიკას, მომღერლის ბიოგრაფიებს, ფოტოებს, და მსგავსი მომღერლების ტეგების სიებს. ჩვენ ჩევცვალეთ გვერდითა ზოლის დიზაინი (თუმცა თქვენ ასევე შეგიძლიათ ძველ დიზაინზე დაბრუნება მასზე მარჯვენა ღილაკით დაწკაპუნებით), და ასევე დავამატეთ შეფასებები, დაკვრების და გამოტოვებების რაოდენობა. თქვენ შეგიძლიათ თქვენი ბიბლიოთეკის სიმღერებიდან შექმნათ ჭკვიანი და დინამიკური ფლეილისთები, ასევე მოუსმინოთ მუსიკას <a href=\"http://www.jamendo.com/\">Jamendo-ს</a> და Icecast-ის რადიო სადგურებიდან. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ცვლილებების სრული სია</a>."
 
@@ -264,7 +262,6 @@ msgid "Version 0.7 released"
 msgstr "გამოვიდა 0.7 ვერსია"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "ამ გამოშვებაში Clementine-ს დაემატა ტეგების რედაქტორის სრულიად ახალი დიალოგი ავტო-დასრულების და მუსიკის ავტომატურად დადგენის და ტეგების MusicBrainz-იდან ჩამოტვირთვის მხარდაჭერით. ახლა მხარდაჭერილია CUE sheet-ებიც - მათი დადგენა ხდება ავტომატურად თქვენი ბიბლიოთეკის სკანირებისას და ყველა სიმღერა ცალკე გამოჩნდება. ჩვენ ასევე დავამატეთ ძალიან ბევრი პატარა გაუმჯობესება, მაგალითად ალბომების გარეკნების ჩვენება ბიბლიოთეკის ჩანართში, წაშლილი სიმღერების განაცრისფრება, პარამეტრი \"ფაილების ბრაუზერში ჩვენება\", ქსელის პროქსების მხარდაჭერა, პარამეტრი \"მთელი ბიბლიოთეკის ხელახლა სკანირება\", და ახალი ცოცია სიმღერებისვის, რომელიც გეხმარებათ უფრო აკურატულად გადაახვიოთ სიმღერის სასურველ ნაწილში. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ცვლილებების სრული სია</a>."
 
@@ -577,7 +574,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "შეცდომების შეტყობინება და პატჩების შემოთავაზება"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine დეველოპმენტისთვის და შეცდომების სათვალყუროდ იყენებს GitHub-ს."
 

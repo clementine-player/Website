@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:04+0100\n"
+"POT-Creation-Date: 2014-01-07 01:10+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/clementine/language/el/)\n"
@@ -248,7 +248,6 @@ msgid "Version 0.5 released"
 msgstr "Κυκλοφόρησε η έκδοση 0.5"
 
 #: data.py:303
-#, fuzzy
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Αυτή η έκδοση προσθέτει υποστήριξη για τη χρήση φορητών συσκευών με το Clementine. Τώρα μπορείτε να αντιγράψετε τα τραγούδια στο iPod, το iPhone σας, MTP ή USB συσκευή μαζικής αποθήκευσης. Δείτε το <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki για περισσότερες πληροφορίες . Υποστήριξη για τη χρήση ενόςa href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote ως τηλεχειριστήριο έχει προστεθεί. Άλλα χαρακτηριστικά περιλαμβάνουν ένα Διαχειριστήςλίσταςαναμονής, ένα παράθυρο διαλόγου Οργανώστε τα αρχεία, αυτόματα εκτείνεται στήλες στη λίστα αναπαραγωγής, φόρτωση ενσωματωμένο ID3v2 εξώφυλλο, πιο βιβλιοθήκη επιλογές σάρωσης, drag and drop μεταξύ των playlists, και Hypnotoad. Έχουμε επίσης μειώσει το χρόνο εκκίνησης κατά περισσότερο από το μισό, καθορίζεται ένα φορτίο των διαρροών μνήμης και μειωμένη χρήση της CPU κατά την αναπαραγωγή μουσικής. Δείτε το πλήρες <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">changelog για περισσότερες πληροφορίες."
 
@@ -257,7 +256,6 @@ msgid "Version 0.6 released"
 msgstr "Κυκλοφόρησε η έκδοση 0.6"
 
 #: data.py:320
-#, fuzzy
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Αυτή η έκδοση περιλαμβάνει δύο νέα παράθυρα πληροφοριών στίχοι δείχνουν att , τα στατιστικά στοιχεία του τραγουδιού , βιογραφίες καλλιτεχνών , φωτογραφίες και τους καταλόγους των ετικετών και παρόμοιων καλλιτεχνών. Έχουμε επανασχεδιαστεί το sidebar ( SELV om πόλη switchback kan δεξί κλικ πάνω του ) , samt πρόσθεσε αξιολογήσεις , παίζουν μετράει και παραλείψτε μετράει. Du kan δημιουργήσει έξυπνες και δυναμικές playlists από τραγούδια στη βιβλιοθήκη σας , samt τώρα να ακούσετε μουσική από το <a href=\"http://www.jamendo.com/\">Jamendo < / a> και Icecast ραδιοφωνικό σταθμό. Δείτε το <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">για περισσότερες πληροφορίες."
 
@@ -266,7 +264,6 @@ msgid "Version 0.7 released"
 msgstr "Κυκλοφόρησε η έκδοση 0.7"
 
 #: data.py:333
-#, fuzzy
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Σε αυτό το Clementine κερδίζει ένα ολοκαίνουργιο διαλόγου tag επεξεργασία με αυτόματη συμπλήρωση evne og til Automatisk προσδιορίσει τη μουσική και να φέρω λείπουν ετικέτες από MusicBrainz. Τα φύλλα CUE υποστηρίζεται πλέον - έχουν εντοπιστεί Automatisk NAR σαρώσει βιβλιοθήκη σας και varje κομμάτι θα εμφανιστούν ξεχωριστά. Έχουμε κάνει ένα φορτίο μικρότερες βελτιώσεις , καθώς και som δείχνει album καλύπτει την απώλεια Βιβλιοθήκη , το γκριζάρισμα έξω διαγραμμένα τραγούδια , ένα \"Show στο αρχείο του προγράμματος περιήγησης \" επιλογή , η υποστήριξη για proxies δικτύου , μια «πλήρη βιβλιοθήκη επανεξετάσετε \" επιλογή , και μια Νέα tooltip για το ρυθμιστικό κομμάτι που σας βοηθά να επιδιώξει με μεγαλύτερη ακρίβεια σε μια συγκεκριμένη θέση σε ένα τραγούδι. Δείτε το <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full</a> για περισσότερες πληροφορίες. "
 
@@ -275,7 +272,6 @@ msgid "Version 1.0 released"
 msgstr "Κυκλοφόρησε η έκδοση 1.0"
 
 #: data.py:348
-#, fuzzy
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Αυτή η έκδοση προσθέτει  <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">. Έχουμε προσθέσει επίσης μια καθολική αναζήτηση που σας επιτρέπει να βρείτε εύκολα τη μουσική που είναι είτε στη βιβλιοθήκη σας ή στο Διαδίκτυο. Άλλα χαρακτηριστικά περιλαμβάνουν CD υποστήριξη, περισσότερες επιλογές transcoder, έναν διάλογο βελτιωμένvn ρυθμίσεvn, εξυπνότερα άλμπουμ τέχνης αναζητήσεις και φορτία από διορθώσεις σφαλμάτων. Δείτε το <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">πλήρες changelog για περισσότερες πληροφορίες."
 
@@ -284,7 +280,6 @@ msgid "Version 1.1 released"
 msgstr "Κυκλοφόρησε η έκδοση 1.1"
 
 #: data.py:361
-#, fuzzy
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 
@@ -581,7 +576,6 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Αναφορά προβλημάτων και προτάσεις λύσεων"
 
 #: participate.html:39
-#, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Ο Clementine χρησιμοποιεί το GitHub για την ανάπτυξη και την παρακολούθηση προβλημάτων."
 
