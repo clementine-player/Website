@@ -675,8 +675,8 @@ msgid "Reporting bugs and proposing patches"
 msgstr "Hataları raporlamak ve yamalar önermek"
 
 #: participate.html:33
-msgid "Clementine uses Google Code for development and issue tracking."
-msgstr "Clementine geliştirme ve sorun takibi için Google Code'u kullanıyor."
+msgid "Clementine uses GitHub for development and issue tracking."
+msgstr "Clementine geliştirme ve sorun takibi için GitHub'u kullanıyor."
 
 #: participate.html:34
 msgid ""
@@ -739,8 +739,8 @@ msgstr "Android için Uzaktan uygulaması"
 #: participate.html:96
 msgid ""
 "Clementine Remote is hosted on <a href=\"http://code.google.com/p"
-"/clementine-remote-android/\">another Google Code project</a>."
-msgstr "Clementine Kumanda <a href=\"https://github.com/clementine-player/Android-Remote\">başka bir Google Code projesinde</a> barındırılmaktadır."
+"/clementine-remote-android/\">another GitHub project</a>."
+msgstr "Clementine Kumanda <a href=\"https://github.com/clementine-player/Android-Remote\">başka bir GitHub projesinde</a> barındırılmaktadır."
 
 #: participate.html:97
 msgid ""

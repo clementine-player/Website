@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 00:41+0100\n"
+"POT-Creation-Date: 2014-01-07 01:04+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Enrico Nicoletto <enrico.BR@gmx.co.uk>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/clementine/language/pt_BR/)\n"
@@ -584,7 +584,7 @@ msgstr "Comunicar erros e propor correções"
 #: participate.html:39
 #, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Clementine utiliza o Google Code para o desenvolvimento e acompanhamento de questões."
+msgstr "Clementine utiliza o GitHub para o desenvolvimento e acompanhamento de questões."
 
 #: participate.html:40
 msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
@@ -641,7 +641,7 @@ msgstr "Aplicativo remoto para Android"
 #: participate.html:102
 #, fuzzy
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
-msgstr "O Clementine Remote está armazenado no  <a href=\"https://github.com/clementine-player/Android-Remote\">another Google Code project</a>."
+msgstr "O Clementine Remote está armazenado no  <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub project</a>."
 
 #: participate.html:103
 #, fuzzy

@@ -670,7 +670,7 @@ msgid "Reporting bugs and proposing patches"
 msgstr ""
 
 #: participate.html:33
-msgid "Clementine uses Google Code for development and issue tracking."
+msgid "Clementine uses GitHub for development and issue tracking."
 msgstr ""
 
 #: participate.html:34
@@ -734,7 +734,7 @@ msgstr ""
 #: participate.html:96
 msgid ""
 "Clementine Remote is hosted on <a href=\"http://code.google.com/p"
-"/clementine-remote-android/\">another Google Code project</a>."
+"/clementine-remote-android/\">another GitHub project</a>."
 msgstr ""
 
 #: participate.html:97

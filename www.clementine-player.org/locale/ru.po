@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 00:41+0100\n"
+"POT-Creation-Date: 2014-01-07 01:04+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Den Ivanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
@@ -587,7 +587,7 @@ msgstr "Отправка сообщений об ошибках и предло�
 #: participate.html:39
 #, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Clementine использует сервис Google Code для разработки и багтрекинга"
+msgstr "Clementine использует сервис GitHub для разработки и багтрекинга"
 
 #: participate.html:40
 msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."

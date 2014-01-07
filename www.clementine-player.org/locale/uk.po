@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 00:41+0100\n"
+"POT-Creation-Date: 2014-01-07 01:04+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/clementine/language/uk/)\n"
@@ -580,7 +580,7 @@ msgstr "Повідомлення про помилки та пропозиції
 #: participate.html:39
 #, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Clementine використовує Google Code для процесу розробки та повідомлень про помилки."
+msgstr "Clementine використовує GitHub для процесу розробки та повідомлень про помилки."
 
 #: participate.html:40
 msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
@@ -637,7 +637,7 @@ msgstr "Програма дистанційного керування для An
 #: participate.html:102
 #, fuzzy
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
-msgstr "Програма дистанційного керування Clementine має <a href=\"https://github.com/clementine-player/Android-Remote\">власну сторінку проекту Google Code</a>."
+msgstr "Програма дистанційного керування Clementine має <a href=\"https://github.com/clementine-player/Android-Remote\">власну сторінку проекту GitHub</a>."
 
 #: participate.html:103
 #, fuzzy

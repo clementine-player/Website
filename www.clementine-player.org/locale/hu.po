@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 00:41+0100\n"
+"POT-Creation-Date: 2014-01-07 01:04+0100\n"
 "PO-Revision-Date: 2013-11-20 13:09+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/clementine/language/hu/)\n"
@@ -579,7 +579,7 @@ msgstr "Hibák jelentése és javaslattételek"
 #: participate.html:39
 #, fuzzy
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "A Clementine a Google Codeot használja fejlesztői és visszajelzés követéshez."
+msgstr "A Clementine a GitHubot használja fejlesztői és visszajelzés követéshez."
 
 #: participate.html:40
 msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."

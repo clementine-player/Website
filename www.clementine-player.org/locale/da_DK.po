@@ -626,7 +626,7 @@ msgid "Reporting bugs and proposing patches"
 msgstr ""
 
 #: participate.html:29
-msgid "Clementine uses Google Code for development and issue tracking."
+msgid "Clementine uses GitHub for development and issue tracking."
 msgstr ""
 
 #: participate.html:30
