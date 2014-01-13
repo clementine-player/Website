@@ -1,34 +1,44 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # devingregory <devingregory@yandex.com>, 2012
+# devingregory <devingregory@yandex.com>, 2012
+# Faruk Uzun <>, 2012
 # Irfan YAZICI <irfanyazici@gmail.com>, 2011
+# kadirc <kadirche@gmail.com>, 2012
 # Murat Ikilik <muratikilik@gmail.com>, 2012
+# Murat Ikilik <muratikilik@gmail.com>, 2012
+# Murat Sahin <martinamca@gmail.com>, 2012
 # zeugma <sunder67@hotmail.com>, 2012
+# Ufuk Uyumaz <ufukuyumaz@gmail.com>, 2013
+# volkangezer <volkangezer@gmail.com>, 2013
+# volkangezer <volkangezer@gmail.com>, 2014
 # yusufbesir1 <yusufbesir1@gmail.com>, 2012
+# yusufbesir1 <yusufbesir1@gmail.com>, 2012
+# zeugma <sunder67@hotmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-07 01:10+0100\n"
-"PO-Revision-Date: 2013-11-20 13:09+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"POT-Creation-Date: 2014-01-07 01:09+0100\n"
+"PO-Revision-Date: 2014-01-12 12:31+0000\n"
+"Last-Translator: volkangezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/projects/p/clementine/language/tr_TR/)\n"
-"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Kumanda"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Clementine'i Android telefonunuzdan uzaktan yönetin"
 
 #: base.html:5
 msgid "Clementine Music Player"
@@ -52,10 +62,12 @@ msgstr "Katıl"
 
 #: base.html:55
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4 esinlenerek bir çapraz müzik çalar platformu"
+msgstr "Amarok 1.4 esinlenilen bir çapraz müzik çalar platformu"
 
 #: base.html:80
-msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
+msgid ""
+"Clementine is Free Software under the GPL v3. This site is licensed under "
+"CC-BY-SA."
 msgstr "Clementine GPL v3 altında ücretsiz bir yazılımdır. Bu site CC-BY-SA altında lisanslanmıştır."
 
 #: base.html:81
@@ -71,24 +83,25 @@ msgid "Website by"
 msgstr "Web sitesi tarafından"
 
 #: data.py:8
-msgid "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgid ""
+"Playlist tab, while listening to songs from multiples Internet services"
+msgstr "Çoklu Internet hizmetlerinden şarkı dinlerken, oynatma listesi"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Subsonic bütünleşmesi"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Android uygulamasından oynatma listesini gezinme"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Android uygulamasından oynatmayı denetleme"
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "Podcast'ler"
 
 #: data.py:15
 msgid "Google Drive"
@@ -96,11 +109,11 @@ msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "Yeni arama sistemi"
 
 #: data.py:17
 msgid "Moodbars"
-msgstr ""
+msgstr "Atmosfer çubukları"
 
 #: data.py:20
 msgid "Transcoding settings"
@@ -116,11 +129,11 @@ msgstr "Evrensel Arama Seçenekleri"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr "Grooveshark entegrasyon"
+msgstr "Grooveshark bütünleştirmesi"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
-msgstr "Şarki sözleri ve kaydırıcı aracı"
+msgstr "Şarkı sözleri ve kaydırıcı aracı"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
@@ -223,7 +236,10 @@ msgid "Version 0.2 released"
 msgstr "Sürüm 0.2 yayınlandı"
 
 #: data.py:277
-msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
+msgid ""
+"It's been just over a month since we released the first version of "
+"Clementine. This new version features album cover-art, better \"Various "
+"Artists\" detection, support for loading playlists, and much more."
 msgstr "Clementine ilk sürümü yayınlanalı sadece bir ay oldu. Bu yeni sürüm özellikleri albüm kapak-sanat, daha iyi \"Çeşitli Sanatçılar\" algılama, çalma listeleri için yükleme desteği ve çok daha fazlasıni barındırıyor."
 
 #: data.py:283
@@ -231,23 +247,47 @@ msgid "Version 0.3 released"
 msgstr "Sürüm 0.3 yayınlandı"
 
 #: data.py:284
-msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Bu sürümde parçalar arasındaki analizörü ve çapraz geçiş artık Windows üzerinde çalışır, yani tüm platformlarda GStreamer geçti ettik. Yeni özellikler bir ekolayzer, daha kütüphane gruplama seçenekleri, daha iyi bir OSD, komut satırı ve MPRIS gelen uzaktan kumanda ve kolay etiket düzenleme içerir."
+msgid ""
+"In this release we've switched to GStreamer on all platforms, meaning the "
+"analyzer and crossfading between tracks will now work on Windows. New "
+"features include an equalizer, more library grouping options, a nicer OSD, "
+"remote control from command-line and MPRIS, and easier tag editing."
+msgstr "Bu sürümde parçalar arasındaki analizörü ve çapraz geçiş artık Windows üzerinde çalışır, yani tüm platformlarda GStreamer geçti ettik. Yeni özellikler bir ekolayzır, daha kütüphane gruplama seçenekleri, daha iyi bir OSD, komut satırı ve MPRIS gelen uzaktan kumanda ve kolay etiket düzenleme içerir."
 
 #: data.py:292
 msgid "Version 0.4 released"
 msgstr "Sürüm 0.4 yayınlandı"
 
 #: data.py:293
-msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
-msgstr "Bu sürümde sekmeli çalma, çalma listesi arama, projectM görselleştirme, Magnatune entegrasyon, ReplayGain ses normalleştirme ve müzik transcoding sahiptir. Biz de hata yükleri çözdüm - geniş kütüphanelerde arama artık çok daha hızlı, çalma Windows üzerinde çok daha güvenilir olduğunu, karakter kodlaması problemleri sabittir, ve uzaktan çalma doğru her zaman yüklemek gerekir."
+msgid ""
+"This release features tabbed playlists, playlist search, projectM "
+"visualisations, Magnatune integration, ReplayGain volume normalisation and "
+"music transcoding. We've fixed loads of bugs too - searching large libraries"
+" is now much faster, playback is much more reliable on Windows, character "
+"encoding problems are fixed, and remote playlists should load correctly all "
+"the time."
+msgstr "Bu sürümde sekmeli çalma, çalma listesi arama, projectM görselleştirme, Magnatune bütünleştirmesi, ReplayGain ses normalleştirme ve müzik transcoding sahiptir. Biz de hata yükleri çözdüm - geniş kütüphanelerde arama artık çok daha hızlı, çalma Windows üzerinde çok daha güvenilir olduğunu, karakter kodlaması problemleri sabittir ve uzaktan çalma doğru her zaman yüklemek gerekir."
 
 #: data.py:302
 msgid "Version 0.5 released"
 msgstr "Sürüm 0.5 yayınlandı"
 
 #: data.py:303
-msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release adds support for using portable devices with Clementine.  You "
+"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
+"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
+"Devices\">the wiki for more information</a>.  Support for using a <a "
+"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
+"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
+" include a Queue Manager, an Organise Files dialog, automatically stretching"
+" columns in the playlist, loading embedded id3v2 cover art, more library "
+"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
+"also reduced startup time by more than half, fixed a load of memory leaks "
+"and reduced CPU usage while playing music. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Bu sürümde Clementine ile taşınabilir cihazlarda kullanmak için destek ekler. Artık iPod, iPhone, MTP veya USB yığın depolama aygıtına şarkıları kopyalayabilirsiniz. <a Href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\"> Daha fazla bilgi için wiki </ a> bakın. <a Href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\"> Wii Remote kullanımı için destek </ a> uzaktan kumanda olarak eklenmiştir. Diğer özellikleri bir Kuyruk Yöneticisi, bir organize Dosyalar iletişim, çalma otomatik olarak uzanan sütunlar, yükleme gömülü id3v2 kapak sanat, seçenekleri, sürükle ve bırak çalma listeleri arasında tarama daha kütüphane ve bir Hypnotoad içerir. Ayrıca bellek sızıntıları bir yük sabit, yarıdan fazla başlatma zamanı azalır ve müzik çalarken CPU kullanımını azalttık.<a Href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> bak tam changelog </ a> Daha fazla bilgi için."
 
 #: data.py:319
@@ -255,7 +295,17 @@ msgid "Version 0.6 released"
 msgstr "Sürüm 0.6 yayınlandı"
 
 #: data.py:320
-msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release features two new information panes that show lyrics, song "
+"statistics, artist biographies, photos and lists of tags and similar "
+"artists.  We've redesigned the sidebar (although you can switch back by "
+"right clicking on it), and also added ratings, play counts and skip counts."
+"  You can create smart and dynamic playlists from songs in your library, and"
+" also now listen to music from <a "
+"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
+" the <a href=\"https://raw.github.com/clementine-"
+"player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Bu sürüm, sözleri, şarkı istatistikler, sanatçı biyografileri, fotoğrafları ve etiketleri ve benzer sanatçıların listeleri göstermek iki yeni bilgiler bölmeleri bulunuyor. Biz (size doğru tıklayarak geri dönebilirsiniz rağmen) kenar çubuğu yeniden tasarlandı ve aynı zamanda değerlendirme, oyun sayısı ve atlama sayıları ekledik. Eğer kütüphanede şarkıları akıllı ve dinamik çalma listeleri oluşturabilir ve şimdi de href=\"http://www.jamendo.com/\"> Jamendo </ a> ve Icecast radyo istasyonları <a müzik dinleyebilirsiniz.<a Href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> bak tam changelog </ a> Daha fazla bilgi için."
 
 #: data.py:332
@@ -263,7 +313,19 @@ msgid "Version 0.7 released"
 msgstr "Sürüm 0.7 yayınlandı"
 
 #: data.py:333
-msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
+msgid ""
+"In this release Clementine gains a brand new edit tag dialog with "
+"autocompletion and the ability to automatically identify music and fetch "
+"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
+"detected automatically when scanning your library and each track will show "
+"up separately.  We've made a load of smaller improvements as well such as "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show"
+" in file browser\" option, support for network proxies, a \"Full library "
+"rescan\" option, and a new tooltip for the track slider that helps you seek "
+"more accurately to a specific place in a song. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Bu sürümde Clementine de otomatik tamamlama ve otomatik olarak müzik tanımlamak ve MusicBrainz etiketleri eksik getirme yeteneği ile yepyeni bir düzenleme etiketi iletişim kazanır. CUE yaprak artık destekleniyor - bunlar kütüphane tararken otomatik olarak algılanır ve her bir parçayı ayrı ayrı gösterilir. Biz de bu silinen şarkılar, seçenek \"dosya tarayıcıda göster\", ağ proxy desteği, \"Tam kütüphane rescan\" seçeneği, ve bir grileşen, Kitaplık sekmesinde albüm kapakları gösterme gibi küçük iyileştirmeler bir yük yaptık yeni bir şarkı belirli bir yere daha doğru aramaya yardımcı parça kaymak için tooltip.<a Href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> bak tam changelog </ a> Daha fazla bilgi için."
 
 #: data.py:347
@@ -271,24 +333,58 @@ msgid "Version 1.0 released"
 msgstr "Sürüm 1.0 yayınlandı"
 
 #: data.py:348
-msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgid ""
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
+"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
+"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
+"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
+" a Global Search feature that allows you to easily find music that's either "
+"in your library or on the Internet. Other features include audio CD support,"
+" more transcoder options, an improved settings dialog, smarter album cover "
+"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
+"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
+" more information."
+msgstr "Bu sürüm <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> ve <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Dijital İçe Aktarılmış</a> desteği ekliyor. Ayrıca İnternet üzerinde veya kütüphanenizde bulunan müziğinizi kolaylıkla bulmanızı sağlayacak Evrensel Arama özelliğini ekledik. Diğer özellikler ses CD desteği, daha fazla dönüştürücü seçeneği, iyileştirilmiş ayarlar penceresi, daha akıllı albüm kapak aramaları ve çok sayıda hata gidermeleri. Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">tam değişiklik günlüğü</a>ne bakın."
 
 #: data.py:360
 msgid "Version 1.1 released"
 msgstr "Versiyon 1.1 yayınlandı"
 
 #: data.py:361
-msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgid ""
+"This release adds long-awaited Podcast support including integration and "
+"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
+"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
+"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
+"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
+"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
+"also now show moodbars for the music you play from your local disc. See the "
+"<a href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
+"information."
+msgstr "Bu sürüm uzun zamandır beklenen, <a href=\"//gpodder.net\">gpodder.net</a> ile Podcast bütünleştirme ve eşitleme desteği ekliyor. Kenar çubuğundaki İnternet sekmesinde <a href=\"http://soundcloud.com/\">Soundcloud</a> ve <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> üzerindeki müzikler ve yine <a href=\"http://drive.google.com/start\">Google Drive</a>'a yüklediğiniz şarkılar erişilebilir. Clementine artık ayrıca yerel diskinizden oynattığınız müzik için atmosfer çubuklarını gösterecektir. Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">tam değişiklik günlüğü</a>ne bakın."
 
 #: data.py:374
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "1.2 sürümü yayınlandı"
 
 #: data.py:375
-msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
-msgstr ""
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"Subsonic. And you can now listen to your music stored in <a "
+"href=\"https://www.box.com/\">Box</a>, <a "
+"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
+"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
+"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
+"the ability to \"star\" your playlists, so you can safely close them and "
+"restore them later from the new \"Playlist\" tab we've added in the left "
+"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
+"information."
+msgstr "Bu sürüm Clementine'i bir Android cihazdan uzaktan yönetmenize izin veren <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android için Clementine Kumanda Uygulaması</a> ile uyumludur.<br/>Bu sürüm ayrıca Subsonic desteği eklemektedir. Ayrıca <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> ve <a href=\"https://one.ubuntu.com/\">Ubuntu One</a> içinde depoladığınız müziklerinizi de dinleyebilirsiniz. Son önemli yeni özellik ise sol kenar çubuğuna eklediğimiz yeni \"Çalma listesi\" sekmesi ile çalma listelerinizi \"yıldızlayabilir\" ve ardından kapatıp bu sekme ile kurtarabilmenizdir. Daha fazla bilgi için <br/><a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">tam değişim günlüğü</a>ne bakın."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -307,7 +403,9 @@ msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
 #: downloads.html:70
-msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
+msgid ""
+"You can download the latest version of Clementine on Ubuntu from the "
+"official PPA:"
 msgstr "Resmi PPA'dan Ubuntu için Clementine'in en son sürümünü indirebilirsiniz:"
 
 #: downloads.html:78 downloads.html.py:93
@@ -316,14 +414,16 @@ msgstr "Diğer Indirilenler"
 
 #: downloads.html:80
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Android için Clementine Kumanda"
 
 #: downloads.html:87
 msgid "Unofficial packages"
 msgstr "Resmi olmayan paketler"
 
 #: downloads.html:89
-msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
+msgid ""
+"If you don't see your distribution listed above then someone else might have"
+" created an unofficial package for you."
 msgstr "Eğer dağıtım ardından yukarıda belirtilmiş görmezseniz bir başkası sizin için resmi olmayan bir paket oluşturmuş olabilir."
 
 #: downloads.html:97
@@ -335,7 +435,9 @@ msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Linux'ta Clementine'in kaynaktan derlenmesi kolaydır."
 
 #: downloads.html:100
-msgid "Download the source code package from the list above, and in a terminal window:"
+msgid ""
+"Download the source code package from the list above, and in a terminal "
+"window:"
 msgstr "Yukarıdaki listeden, ve bir terminal penceresinde kaynak kodu paketini indirin:"
 
 #: downloads.html:109
@@ -359,7 +461,9 @@ msgid "Check out the code by running:"
 msgstr "Çalıştırarak kodu göz atın:"
 
 #: downloads.html:122 participate.html:70
-msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
+msgid ""
+"If you'd prefer not to compile the development version yourself then try one"
+" of the hourly packages:"
 msgstr "Eğer geliştirme versiyonu derlemek tercih ederseniz kendinize sonra saatlik paketlerinden birini deneyin:"
 
 #: downloads.html:127 participate.html:75
@@ -368,15 +472,15 @@ msgstr "Mac OS X Devel Paketi"
 
 #: downloads.html:129 participate.html:85
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "Ubuntu Precise (12.04) geliştirme inşaları"
 
 #: downloads.html:131 participate.html:87
 msgid "Ubuntu Quantal (12.10) development builds"
-msgstr ""
+msgstr "Ubuntu Quantal (12.10) geliştirme sürümleri"
 
 #: downloads.html:133
 msgid "Ubuntu Raring (13.04) development builds"
-msgstr ""
+msgstr "Ubuntu Raring (13.04) geliştirme inşaları"
 
 #: downloads.html:135 participate.html:89
 msgid "Windows development builds"
@@ -452,7 +556,7 @@ msgstr "MusicBrainz.com'dan etiketleri bul"
 
 #: main.html:42
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Podcast'leri keşfet ve indir."
 
 #: main.html:43
 msgid "Download missing album cover art from Last.fm and Amazon."
@@ -463,20 +567,21 @@ msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Windows,Mac OS X ve Linux'da Sorunsuz Çalışıyor"
 
 #: main.html:45
-msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid ""
+"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Linux(libnotify) ve Mac OS X(Growl) için masaüstü bildirimleri"
 
 #: main.html:46
 msgid "Remote control using an"
-msgstr ""
+msgstr "Şu cihazla uzaktan kontrol"
 
 #: main.html:46
 msgid "Android device"
-msgstr ""
+msgstr "Android aygıtı"
 
 #: main.html:46
 msgid "a Wii Remote"
-msgstr ""
+msgstr "bir Wii Kumandası"
 
 #: main.html:46
 msgid "MPRIS or the command-line."
@@ -507,7 +612,9 @@ msgid "It is inspired by"
 msgstr "Bu esinlenmiştir"
 
 #: main.html:60
-msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
+msgid ""
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
 msgstr "Arama ve müzik dinleme için hızlı ve kolay kullanımlı arayüzü: Ifocusing."
 
 #: main.html:67 main.html.py:76
@@ -551,7 +658,9 @@ msgid "channel on Freenode."
 msgstr "Freenode'da kanal."
 
 #: participate.html:22
-msgid "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away."
+msgid ""
+"Please remember to <b>stick around after asking a question</b> - we might be"
+" in a different timezone so won't see your question right away."
 msgstr "<b> Bir soru sorduktan sonra cevabını hemen alamayacağınızı unutmayın </ b> - çünkü biz farklı bir zaman diliminde olabilriz."
 
 #: participate.html:25
@@ -559,7 +668,9 @@ msgid "Forum"
 msgstr "Forum"
 
 #: participate.html:27
-msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
+msgid ""
+"Clementine uses Google Groups for its forum/mailing list/general discussion "
+"group."
 msgstr "Clementine Google forum/mailing list/general tartışma gruplarını kullanır."
 
 #: participate.html:30
@@ -579,7 +690,9 @@ msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine geliştirme ve sorun izleme GitHub için kullanır."
 
 #: participate.html:40
-msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
+msgid ""
+"If you have found a bug in Clementine, please head on over to the issue "
+"tracker and create a new issue."
 msgstr "Eğer Clementine bir hata bulduysanız, sorunu izci üzerinden kafa kafaya lütfen yeni bir konu oluşturabilir."
 
 #: participate.html:43
@@ -591,11 +704,15 @@ msgid "Translating the interface"
 msgstr "Arayüzü tercüme et"
 
 #: participate.html:48
-msgid "If you'd like to translate Clementine into another language you can do so on the Transifex translations page."
+msgid ""
+"If you'd like to translate Clementine into another language you can do so on"
+" the Transifex translations page."
 msgstr "Eğer Clementine'i başka bir dile çevirmek isterseniz,  bunu Transifex çeviri sayfalarindan yapabilirsiniz."
 
 #: participate.html:49
-msgid "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us."
+msgid ""
+"You can either do the translation directly on Transifex, or download a .po "
+"file from the site and then email it back to us."
 msgstr "Ya doğrudan Transifex'te tercüme yapabilir veya siteden bir .po dosyasını indirmeniz ve tercpmenden sonra bize geri e-posta olarak yollayabilirsiniz."
 
 #: participate.html:52
@@ -628,26 +745,35 @@ msgstr "Ubunto 11.10 Devel Paketi"
 
 #: participate.html:100
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Android için Kumanda uygulaması"
 
 #: participate.html:102
-msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgid ""
+"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
+"player/Android-Remote\">another GitHub repository</a>."
+msgstr "Clementine Kumanda <a href=\"https://github.com/clementine-player/Android-Remote\">başka bir GitHub deposunda</a> barındırılmaktadır."
 
 #: participate.html:103
-msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgid ""
+"You can report issues and propose patches on <a href=\"https://github.com"
+"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgstr "Sorunları ve yamaları <a href=\"https://github.com/clementine-player/Android-Remote/issues\">kendi hata izleyicisine</a> raporlayabilir ve önerebilirsiniz."
 
 #: participate.html:104
-msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
-msgstr ""
+msgid ""
+"You can translate the interface on <a "
+"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"Transifex project</a>."
+msgstr "Arayüzü ise <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">bu Transifex projesi</a>nden çevirebilirsiniz."
 
 #: participate.html:108
 msgid "Social Networking"
 msgstr "Sosyal Ağ"
 
 #: participate.html:110
-msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
+msgid ""
+"We'd love to see you support Clementine by joining us on your favourite "
+"social networking site!"
 msgstr "Sosyal ağ sitesi üzerinde bize katılarak Clementine destek verdiğinizi görmek isteriz!"
 
 #: participate.html:114
@@ -664,32 +790,39 @@ msgstr "Clementine Last.fm'de"
 
 #: participate.html:134
 msgid "Donation"
-msgstr ""
+msgstr "Bağış Yap"
 
 #: participate.html:135
-msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
-msgstr ""
+msgid ""
+"Currently, we do not need money and as so we do not accept money donation. "
+"If you like our software and want to help us, you can <a href=\"#social-"
+"networking\">support us</a> and spread the word."
+msgstr "Şimdilik paraya ihtiyacımız yok ve bu yüzden maddi bağış kabul etmemekteyiz. Eğer yazılımımızı sevdiyseniz ve yardımcı olmak isterseniz, <a href=\"#social-networking\">bizi destekleyin</a> ve bizi yayın."
 
 #: participate.html:136
-msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
-msgstr ""
+msgid ""
+"You can also help by <a href=\"#collaborate\">participating to the software "
+"development, as explained above</a>."
+msgstr "Ayrıca <a href=\"#collaborate\">yukarıda açıklandığı gibi, yazılım geliştirmesinde de yer alabilirsiniz</a>."
 
 #: participate.html:137
-msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
-msgstr ""
+msgid ""
+"But if you still want to spend some money to make us happy, you can make a "
+"donation to one of these charity organizations we like"
+msgstr "Ancak hala bizi mutlu etmek için maddi bağış yapmak isterseniz, sevdiğimiz aşağıdaki gönüllü organizasyonlardan birine bağış yapabilir"
 
 #: participate.html:137
 msgid "and let us know:"
-msgstr ""
+msgstr "ve bilmemizi sağlayabilirsiniz:"
 
 #: participate.html:139
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:140
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Açlığa Karşı Eylem</a>"
 
 #: participate.html:141
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Elektronik Sınır Vakfı</a>"
