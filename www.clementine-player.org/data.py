@@ -391,7 +391,7 @@ LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
   "vi", "sl", "fi", "br", "tr_TR", "ca", "hr", "lt", "cs", "el", "ka", "uz",
   "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
-  "my", "id", "ar",
+  "my", "id", "ar", "gl", "lv", "fa",
 ]
 
 LANGUAGE_NAMES = {
@@ -436,7 +436,7 @@ LANGUAGE_NAMES = {
   "fr": u"Français",
   "fy": u"Frisian",
   "gd": u"Gaelic",
-  "gl": u"Galician",
+  "gl": u"Galego",
   "ka": u"ქართული",
   "de": u"Deutsch",
   "el": u"Ελληνικά",
@@ -467,7 +467,7 @@ LANGUAGE_NAMES = {
   "rn": u"Kurundi",
   "lo": u"Laothian",
   "la": u"Latin",
-  "lv": u"Latvian",
+  "lv": u"latviešu valoda",
   "ln": u"Lingala",
   "lt": u"lietuvių",
   "mk": u"Macedonian",
@@ -485,7 +485,7 @@ LANGUAGE_NAMES = {
   "oc": u"Occitan",
   "or": u"Oriya",
   "ps": u"Pashto",
-  "fa": u"Persian",
+  "fa": u"فارسی",
   "pl": u"polski",
   "pt": u"Português",
   "pt_BR": u"Português Brasileiro",
