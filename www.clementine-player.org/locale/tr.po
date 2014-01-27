@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-13 16:42+0100\n"
-"PO-Revision-Date: 2014-01-12 12:34+0000\n"
+"PO-Revision-Date: 2014-01-26 12:28+0000\n"
 "Last-Translator: volkangezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/clementine/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +285,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürümde Clementine ile taşınabilir cihazlarda kullanmak için destek ekler. Artık iPod, iPhone, MTP veya USB yığın depolama aygıtına şarkıları kopyalayabilirsiniz. <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\"> Daha fazla bilgi için wiki </a> bakın. <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\"> Wii Remote kullanımı için destek </a> uzaktan kumanda olarak eklenmiştir. Diğer özellikleri bir Kuyruk Yöneticisi, bir organize Dosyalar iletişim, çalma otomatik olarak uzanan sütunlar, yükleme gömülü id3v2 kapak sanat, seçenekleri, sürükle ve bırak çalma listeleri arasında tarama daha kütüphane ve bir Hypnotoad içerir. Ayrıca bellek sızıntıları bir yük sabit, yarıdan fazla başlatma zamanı azalır ve müzik çalarken CPU kullanımını azalttık.<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> bak tam changelog</a> Daha fazla bilgi için."
 
 #: data.py:319
 msgid "Version 0.6 released"
@@ -303,7 +303,7 @@ msgid ""
 " the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürümde sözleri, şarkı istatistikler, sanatçı biyografileri, fotoğrafları ve etiketleri ve benzer sanatçıların listeleri göstermek iki yeni bilgiler bölmeleri bulunuyor. Biz (size doğru tıklayarak geri dönebilirsiniz rağmen) kenar çubuğu yeniden tasarlandı ve aynı zamanda değerlendirme, oyun sayısı ve atlama sayıları ekledik. Eğer kütüphanede şarkıları akıllı ve dinamik çalma listeleri oluşturabilir ve şimdi de href=\"http://www.jamendo.com/\"> Jamendo </ a> ve Icecast radyo istasyonları <a müzik dinleyebilirsiniz.<a Href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> bak tam changelog </ a> Daha fazla bilgi için."
 
 #: data.py:332
 msgid "Version 0.7 released"
@@ -323,7 +323,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürümde Clementine de otomatik tamamlama ve otomatik olarak müzik tanımlamak ve MusicBrainz etiketleri eksik getirme yeteneği ile yepyeni bir düzenleme etiketi iletişim kazanır. CUE yaprak artık destekleniyor - bunlar kütüphane tararken otomatik olarak algılanır ve her bir parçayı ayrı ayrı gösterilir. Biz de bu silinen şarkılar, seçenek \"dosya tarayıcıda göster\", ağ proxy desteği, \"Tam kütüphane rescan\" seçeneği, ve bir grileşen, Kitaplık sekmesinde albüm kapakları gösterme gibi küçük iyileştirmeler bir yük yaptık yeni bir şarkı belirli bir yere daha doğru aramaya yardımcı parça kaymak için tooltip.<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\"> bak tam changelog </a> Daha fazla bilgi için."
 
 #: data.py:347
 msgid "Version 1.0 released"
@@ -341,7 +341,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
 "/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
 " more information."
-msgstr ""
+msgstr "Bu sürüm <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> ve <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Dijital İçe Aktarılmış</a> desteği ekliyor. Ayrıca İnternet üzerinde veya kütüphanenizde bulunan müziğinizi kolaylıkla bulmanızı sağlayacak Evrensel Arama özelliğini ekledik. Diğer özellikler ses CD desteği, daha fazla dönüştürücü seçeneği, iyileştirilmiş ayarlar penceresi, daha akıllı albüm kapak aramaları ve çok sayıda hata gidermeleri. Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">tam değişiklik günlüğü</a> ne bakın."
 
 #: data.py:360
 msgid "Version 1.1 released"
@@ -359,7 +359,7 @@ msgid ""
 "<a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürüm uzun zamandır beklenen, <a href=\"//gpodder.net\">gpodder.net</a> ile Podcast bütünleştirme ve eşitleme desteği ekliyor. Kenar çubuğundaki İnternet sekmesinde <a href=\"http://soundcloud.com/\">Soundcloud</a> ve <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> üzerindeki müzikler ve yine <a href=\"http://drive.google.com/start\">Google Drive</a>'a yüklediğiniz şarkılar erişilebilir. Clementine artık ayrıca yerel diskinizden oynattığınız müzik için atmosfer çubuklarını gösterecektir. Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">tam değişiklik günlüğü</a> ne bakın."
 
 #: data.py:374
 msgid "Version 1.2 released"
@@ -381,7 +381,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürüm Clementine'i bir Android cihazdan uzaktan yönetmenize izin veren <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android için Clementine Kumanda Uygulaması</a> ile uyumludur.<br/>Bu sürüm ayrıca Subsonic desteği eklemektedir. Ayrıca <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> ve <a href=\"https://one.ubuntu.com/\">Ubuntu One</a> içinde depoladığınız müziklerinizi de dinleyebilirsiniz. Son önemli yeni özellik ise sol kenar çubuğuna eklediğimiz yeni \"Çalma listesi\" sekmesi ile çalma listelerinizi \"yıldızlayabilir\" ve ardından kapatıp bu sekme ile kurtarabilmenizdir. Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">tam değişim günlüğü</a> ne bakın."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -684,7 +684,7 @@ msgstr "Hataları raporlamak ve yamalar önermek"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Clementine geliştirme ve sorun takibi için GitHub'u kullanıyor."
+msgstr "Clementine geliştirme ve sorun takibi için GitHub'u kullanmaktadır."
 
 #: participate.html:40
 msgid ""
@@ -748,13 +748,13 @@ msgstr "Android için Uzaktan uygulaması"
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Clementine Kumanda <a href=\"https://github.com/clementine-player/Android-Remote\">başka bir GitHub deposunda</a> barındırılmaktadır."
 
 #: participate.html:103
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgstr "Sorunları ve yamaları <a href=\"https://github.com/clementine-player/Android-Remote/issues\">kendi hata izleyicisine</a> raporlayabilir ve önerebilirsiniz."
 
 #: participate.html:104
 msgid ""
