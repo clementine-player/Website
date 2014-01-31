@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-13 16:42+0100\n"
-"PO-Revision-Date: 2014-01-26 12:28+0000\n"
+"PO-Revision-Date: 2014-01-27 15:07+0000\n"
 "Last-Translator: volkangezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/clementine/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr "Clementine Uzaktan"
+msgstr "Clementine Kumanda"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
@@ -411,7 +411,7 @@ msgstr "Diğer kurulum dosyaları"
 
 #: downloads.html:80
 msgid "Clementine Remote for Android"
-msgstr "Android için Clementine Uzaktan"
+msgstr "Android için Clementine Kumanda"
 
 #: downloads.html:87
 msgid "Unofficial packages"
@@ -513,11 +513,11 @@ msgstr "İnternet radyoları dinleyin:"
 
 #: main.html:25
 msgid "Search and play songs you've uploaded to"
-msgstr "Şuraya yüklediğiniz şarkıları ara ve oynat:"
+msgstr "Şuraya yüklediğiniz şarkıları ara ve oynatın:"
 
 #: main.html:33
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Akıllı ve dinamik çalma listeleri yarat"
+msgstr "Akıllı ve dinamik çalma listeleri oluşturun."
 
 #: main.html:34
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -529,7 +529,7 @@ msgstr "CUE Sheet Desteği"
 
 #: main.html:36
 msgid "Play audio CDs."
-msgstr "Ses CD'si çal."
+msgstr "Ses CD'si çalın."
 
 #: main.html:37
 msgid "Visualisations from"
@@ -541,7 +541,7 @@ msgstr "Şarkı sözleri ve sanatçı geçmişleri ile fotoğrafları."
 
 #: main.html:39
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Müziği MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC olarak yeniden kaydet."
+msgstr "Müziği MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC olarak yeniden kaydedin."
 
 #: main.html:40
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -553,11 +553,11 @@ msgstr "Eksik etiketleri MusicBrainz üzerinden çekin."
 
 #: main.html:42
 msgid "Discover and download Podcasts."
-msgstr "Podcast'leri keşfet ve indir."
+msgstr "Podcast'leri keşfedin ve indirin."
 
 #: main.html:43
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Eksik albüm kapağını Last.fm ve Amazon üzerinden indir."
+msgstr "Eksik albüm kapağını Last.fm ve Amazon üzerinden indirin."
 
 #: main.html:44
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -570,7 +570,7 @@ msgstr "Linux (libnotify) ve Mac OS X (Growl) üzerinde yerel masaüstü bildiri
 
 #: main.html:46
 msgid "Remote control using an"
-msgstr "Şu cihazla uzaktan kontrol"
+msgstr "Bir"
 
 #: main.html:46
 msgid "Android device"
@@ -582,7 +582,7 @@ msgstr "bir Wii Kumandası"
 
 #: main.html:46
 msgid "MPRIS or the command-line."
-msgstr "MPRIS yada Komut Satırı"
+msgstr "MPRIS veya komut satırı ile uzaktan denetim."
 
 #: main.html:47
 msgid "Copy music to your"
@@ -690,7 +690,7 @@ msgstr "Clementine geliştirme ve sorun takibi için GitHub'u kullanmaktadır."
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Eğer Clementine'de bir hata bulduysanız, lütfen sorun takip sistemine gidin ve yeni bir sorun başlığı yaratın."
+msgstr "Eğer Clementine'de bir hata bulduysanız, lütfen sorun takip sistemine gidin ve yeni bir sorun başlığı oluşturun."
 
 #: participate.html:43
 msgid "Issue tracker"
