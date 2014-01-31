@@ -181,7 +181,7 @@ config['webapp2_extras.i18n'] = {
     'translations_path': os.path.join(os.path.dirname(__file__), 'locale'),
 }
 
-LANG_RE = r'/(?:([a-zA-Z]{2}(?:_[a-zA-Z]{2})?)/?)?'
+LANG_RE = r'/(?:([a-zA-Z]{2}(?:_[a-zA-Z]{2})?(?:@latin)?)/?)?'
 app = webapp2.WSGIApplication(
   [
     (LANG_RE + '',            MainPage),
