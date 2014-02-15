@@ -62,7 +62,7 @@
 
 <div id="download-block">
   {% if best_download %}
-    <div onclick="location.href='{{ download_base_url }}{{ best_download.name }}';" id="download-button">
+    <a href="{{ download_base_url }}{{ best_download.name }}" id="download-button">
       <p id="download-title">Clementine <span id="download-version">{{ best_download.ver }}</span></p>
       <p>{{ _("Download the latest version now") }}</p>
       <img src="/images/{{ best_download.os_logo }}" id="download-logo" alt="{{ _("Download Clementine") }}" />
@@ -71,12 +71,12 @@
         <p id="download-arch">{{ best_download.arch }}-bit</p>
       {% endif %}
   {% else %}
-    <div onclick="location.href='downloads';" id="download-button">
+    <a href="downloads" id="download-button">
       <p id="download-title">Clementine <span id="download-version">{{ latest_version }}</span></p>
       <p>{{ _("Download the latest version now") }}</p>
       <p>{{ _("for Windows, Mac OS X and Linux") }}</p>
   {% endif %}
-  </div>
+  </a>
 
   <div id="download-otherlinks">
     <a href="#news">{{ _("Announcement") }}</a> -

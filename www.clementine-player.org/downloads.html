@@ -12,28 +12,20 @@
 
   {% if best_download %}
     {% with d = best_download %}
-    <div class="best-download thindownload">
-      <a href="{{ download_base_url }}{{ d.name }}">
-        <img class="icon" src="/images/{{ d.os_logo }}">
-      </a>
+    <a href="{{ download_base_url }}{{ d.name }}" class="best-download thindownload">
+      <img class="icon" src="/images/{{ d.os_logo }}">
       <span class="version">
-        <a href="{{ download_base_url }}{{ d.name }}">
-          {{ d.ver }}
-        </a>
+        {{ d.ver }}
       </span>
       <p class="os">
-        <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
-          {{ d.display_os }}
-        </a>
+        {{ d.display_os }}
       </p>
       {% if d.arch %}
         <p class="arch">
-          <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
-            {{ d.arch }}-bit
-          </a>
+          {{ d.arch }}-bit
         </p>
       {% endif %}
-    </div>
+    </a>
     {% endwith %}
     <div style="clear: both"></div>
 
@@ -43,24 +35,18 @@
   {% endif %}
 
   {% for d in latest_downloads|sort(attribute="os") %}
-    <div class="thindownload" onclick="javascript:self.location='{{ download_base_url }}{{ d.name }}'">
-      <a href="{{ download_base_url }}{{ d.name }}">
-        <img class="icon" src="/images/{{ d.os_logo }}" />
-      </a>
-      <span class="version"><a href="{{ download_base_url }}{{ d.name }}">{{ d.ver }}</a></span>
+    <a class="thindownload" href="{{ download_base_url }}{{ d.name }}">
+      <img class="icon" src="/images/{{ d.os_logo }}" />
+      <span class="version">{{ d.ver }}</span>
       <p class="os">
-        <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
-          {{ d.display_os }}
-        </a>
+        {{ d.display_os }}
       </p>
       {% if d.arch %}
         <p class="arch">
-          <a href="{{ download_base_url }}{{ d.name }}" dir="ltr">
-            {{ d.arch }}-bit
-          </a>
+          {{ d.arch }}-bit
         </p>
       {% endif %}
-    </div>
+    </a>
   {% endfor %}
 </div>
 

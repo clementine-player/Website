@@ -392,6 +392,7 @@ body.sidebar-right #page {
   height: 119px;
   padding: 15px 20px 10px 90px;
   text-align: right;
+  text-decoration: none;
   width: 229px;
 }
 
@@ -446,7 +447,7 @@ body.sidebar-right #page {
   margin: 0px 20px 0px 20px;
 }
 
-.thindownload a {
+a.thindownload {
   text-decoration: none;
   color: white;
 }
@@ -468,8 +469,8 @@ body.sidebar-right #page {
   opacity: 1.0;
 }
 
-.thindownload:hover a,
-.thindownload:hover .version > a {
+a.thindownload:hover,
+a.thindownload:hover .version {
   color: #FD9146;
 }
 
@@ -501,7 +502,7 @@ body.sidebar-right #page {
   top: 5px;
 }
 
-.thindownload .version > a {
+.thindownload .version {
   color: #FD9146;
   font-family: DuepuntozeroRegular, sans-serif;
   font-size: 30px;
