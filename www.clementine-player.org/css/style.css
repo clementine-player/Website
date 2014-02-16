@@ -131,7 +131,7 @@ a img {
   width: 100%;
 }
 
-img#logo {
+img.logo {
   float: left;
 }
 

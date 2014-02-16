@@ -13,7 +13,7 @@
   {% if best_download %}
     {% with d = best_download %}
     <a href="{{ download_base_url }}{{ d.name }}" class="best-download thindownload">
-      <img class="icon" src="/images/{{ d.os_logo }}">
+      <img class="icon" src="/images/{{ d.os_logo }}" alt="">
       <span class="version">
         {{ d.ver }}
       </span>
@@ -36,7 +36,7 @@
 
   {% for d in latest_downloads|sort(attribute="os") %}
     <a class="thindownload" href="{{ download_base_url }}{{ d.name }}">
-      <img class="icon" src="/images/{{ d.os_logo }}" />
+      <img class="icon" src="/images/{{ d.os_logo }}" alt="" />
       <span class="version">{{ d.ver }}</span>
       <p class="os">
         {{ d.display_os }}
