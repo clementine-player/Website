@@ -1,5 +1,6 @@
 from google.appengine.api import users
 from google.appengine.ext import db
+from google.appengine.ext import ndb
 
 class GoogleCode(db.Model):
   name = db.StringProperty(required=True)
@@ -44,3 +45,9 @@ class Device(db.Model):
 class KnownRevision(db.Model):
   project_name = db.StringProperty()
   sha1 = db.StringProperty()
+
+
+class OAuthToken(ndb.Model):
+  purpose = ndb.StringProperty(required=True)
+  token = ndb.StringProperty(required=True)
+  updated = ndb.DateTimeProperty(auto_now=True)

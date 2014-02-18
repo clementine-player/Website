@@ -1,3 +1,4 @@
+from google.appengine.api import taskqueue
 from google.appengine.api import urlfetch
 from google.appengine.ext import db
 
@@ -92,6 +93,19 @@ class GithubCommitPage(webapp2.RequestHandler):
     TellIrcBot({'revisions': revisions})
 
 
+class FormatPullRequestPage(webapp2.RequestHandler):
+  def post(self):
+    pull_request = self.request.get('pull_request')
+    taskqueue.add(
+        url='/_tasks/formatpullrequest',
+        queue_name='format',
+        params={
+          'owner': 'clementine-player',
+          'repo': 'Clementine',
+          'number': pull_request
+        })
+
+
 class CommitPage(webapp2.RequestHandler):
   def post(self):
     json_data = json.loads(self.request.body)
@@ -156,5 +170,6 @@ app = webapp2.WSGIApplication(
     (r'/', RedirectPage),
     (r'/projects/commit', CommitPage),
     (r'/projects/commit/github', GithubCommitPage),
+    (r'/projects/formatpullrequest', FormatPullRequestPage),
   ],
   debug=True)
