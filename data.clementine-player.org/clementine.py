@@ -194,20 +194,21 @@ class DownloadCountersPage(webapp2.RequestHandler):
       self.error(500)
       return
 
-    releases = json.loads(result.content)
-    downloads = []
-    for release in releases:
-      for asset in release['assets']:
-        downloads.append({
-            'name': asset['name'],
-            'count': asset['download_count'],
-        })
-
-    downloads.sort(key=itemgetter('count'), reverse=True)
+    data = json.loads(result.content)
+    releases = []
+    for release in data:
+      files = [
+          {'name': x['name'], 'count': x['download_count']}
+          for x in release['assets']]
+      files.sort(key=itemgetter('count'), reverse=True)
+      releases.append({
+          'name': release['name'],
+          'files': files,
+      })
 
     path = os.path.join(os.path.dirname(__file__), 'downloads.html')
     self.response.out.write(template.render(path, {
-        'downloads': downloads,
+        'releases': releases,
     }))
 
 

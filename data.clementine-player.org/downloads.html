@@ -2,7 +2,13 @@
 <html>
 <head>
   <title>Downloads</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700'
+        rel='stylesheet' type='text/css'>
   <style type="text/css">
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
     .download {
       padding: 8px;
     }
@@ -11,14 +17,33 @@
       display: inline-block;
       min-width: 300px;
     }
+
+    .release {
+      border: 1px solid rgba(0, 0, 0, .1);
+      margin: 20px;
+      padding: 12px;
+    }
+
+    .title {
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
   </style>
 </head>
 
 <body>
-  {% for download in downloads %}
-    <div class="download">
-      <span class="name">{{ download.name }}</span>
-      <span>{{ download.count }}</span>
+  {% for release in releases %}
+    <div class="release">
+      <div class="title">{{ release.name }}</div>
+      <div class="files">
+        {% for file in release.files %}
+          <div class="file">
+            <span class="name">{{ file.name }}</span>
+            <span>{{ file.count }}</span>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   {% endfor %}
 </body>
