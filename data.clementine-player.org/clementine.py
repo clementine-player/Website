@@ -1,5 +1,7 @@
 import os
 
+from operator import itemgetter
+
 from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 from google.appengine.api import users
@@ -24,6 +26,8 @@ import tasks
 RAINYMOOD_URL = 'http://images.clementine-player.org/RainyMood.mp3'
 BACKUP_RAINYMOOD_URL = 'http://cloud.clementine-player.org/RainyMood.mp3'
 ICECAST_URL   = 'http://dir.xiph.org/yp.xml'
+GITHUB_RELEASES = (
+    'https://api.github.com/repos/clementine-player/Clementine/releases')
 
 RAINYMOOD_MEMCACHE_KEY = 'rainymood'
 
@@ -182,6 +186,31 @@ class GeolocatePage(webapp2.RequestHandler):
       self.error(404)
 
 
+class DownloadCountersPage(webapp2.RequestHandler):
+  def get(self):
+    result = urlfetch.fetch(GITHUB_RELEASES)
+    if result.status_code >= 400:
+      self.response.out.write('Could not fetch release information from Github')
+      self.error(500)
+      return
+
+    releases = json.loads(result.content)
+    downloads = []
+    for release in releases:
+      for asset in release['assets']:
+        downloads.append({
+            'name': asset['name'],
+            'count': asset['download_count'],
+        })
+
+    downloads.sort(key=itemgetter('count'), reverse=True)
+
+    path = os.path.join(os.path.dirname(__file__), 'downloads.html')
+    self.response.out.write(template.render(path, {
+        'downloads': downloads,
+    }))
+
+
 app = webapp2.WSGIApplication(
   [
     (r'/sparkle', MacSparklePage),
@@ -191,5 +220,6 @@ app = webapp2.WSGIApplication(
     (r'/counters', CountersPage),
     (r'/icecast-directory', IcecastPage),
     (r'/geolocate', GeolocatePage),
+    (r'/downloadcount', DownloadCountersPage),
   ],
   debug=True)

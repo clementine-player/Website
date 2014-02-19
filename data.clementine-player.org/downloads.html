@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>Downloads</title>
+  <style type="text/css">
+    .download {
+      padding: 8px;
+    }
+
+    .name {
+      display: inline-block;
+      min-width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  {% for download in downloads %}
+    <div class="download">
+      <span class="name">{{ download.name }}</span>
+      <span>{{ download.count }}</span>
+    </div>
+  {% endfor %}
+</body>
+</html>
