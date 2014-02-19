@@ -204,6 +204,7 @@ class DownloadCountersPage(webapp2.RequestHandler):
       releases.append({
           'name': release['name'],
           'files': files,
+          'total': sum([x['count'] for x in files]),
       })
 
     path = os.path.join(os.path.dirname(__file__), 'downloads.html')

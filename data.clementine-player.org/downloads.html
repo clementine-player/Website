@@ -35,7 +35,10 @@
 <body>
   {% for release in releases %}
     <div class="release">
-      <div class="title">{{ release.name }}</div>
+      <div class="title">
+        <span class="name">{{ release.name }}</span>
+        <span>{{ release.total }}</span>
+      </div>
       <div class="files">
         {% for file in release.files %}
           <div class="file">
