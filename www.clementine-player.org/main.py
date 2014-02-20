@@ -9,6 +9,7 @@ from webapp2_extras import i18n
 
 from data import DISPLAY_OS
 from data import DOWNLOAD_BASE_URL
+from data import DOWNLOAD_BASE_URL_OLD
 from data import DOWNLOADS
 from data import LANGUAGE_NAMES
 from data import LANGUAGES
@@ -39,6 +40,19 @@ import re
 
 
 class BasePage(webapp2.RequestHandler):
+  def ComputeDownloadInfo(self, d):
+    display_os = DISPLAY_OS[d['os']]
+    short_display_os = SHORT_DISPLAY_OS[d['os']]
+    version = d['ver']
+    if version < '1.2':
+      download_base_url = DOWNLOAD_BASE_URL_OLD
+    else:
+      download_base_url = DOWNLOAD_BASE_URL
+    d['display_os'] = i18n.gettext(display_os)
+    d['short_os'] = i18n.gettext(short_display_os)
+    d['os_logo'] = OS_LOGOS[d['os']]
+    d['url'] = download_base_url + d['name']
+
   def MakePage(self, template_file, language, extra_params=None):
     root_page = "/"
 
@@ -61,11 +75,7 @@ class BasePage(webapp2.RequestHandler):
     # Add extra display information to the list of downloads
     downloads = copy.deepcopy(DOWNLOADS)
     for d in downloads:
-      display_os = DISPLAY_OS[d['os']]
-      short_display_os = SHORT_DISPLAY_OS[d['os']]
-      d['display_os'] = i18n.gettext(display_os)
-      d['short_os'] = i18n.gettext(short_display_os)
-      d['os_logo'] = OS_LOGOS[d['os']]
+      self.ComputeDownloadInfo(d)
 
     # Add datetime objects to the list of news
     news = copy.deepcopy(NEWS)
@@ -108,17 +118,12 @@ class BasePage(webapp2.RequestHandler):
 
     # Translate the best download strings
     if best_download is not None:
-      display_os = DISPLAY_OS[best_download['os']]
-      short_display_os = SHORT_DISPLAY_OS[best_download['os']]
-      best_download['display_os'] = i18n.gettext(display_os)
-      best_download['short_os'] = i18n.gettext(short_display_os)
-      best_download['os_logo'] = OS_LOGOS[best_download['os']]
+      self.ComputeDownloadInfo(best_download)
 
     languages = [{'code': x, 'name': LANGUAGE_NAMES[x], 'current': x == language} for x in LANGUAGES]
 
     params = {
       'best_download':      best_download,
-      'download_base_url':  DOWNLOAD_BASE_URL,
       'downloads':          downloads,
       'latest_downloads':   [x for x in downloads if x['ver'] == LATEST_VERSION],
       'latest_screenshots': screenshots[0]['entries'],

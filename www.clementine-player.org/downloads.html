@@ -12,7 +12,7 @@
 
   {% if best_download %}
     {% with d = best_download %}
-    <a href="{{ download_base_url }}{{ d.name }}" class="best-download thindownload">
+    <a href="{{ d.url }}" class="best-download thindownload">
       <img class="icon" src="/images/{{ d.os_logo }}" alt="">
       <span class="version">
         {{ d.ver }}
@@ -35,7 +35,7 @@
   {% endif %}
 
   {% for d in latest_downloads|sort(attribute="os") %}
-    <a class="thindownload" href="{{ download_base_url }}{{ d.name }}">
+    <a class="thindownload" href="{{ d.url }}">
       <img class="icon" src="/images/{{ d.os_logo }}" alt="" />
       <span class="version">{{ d.ver }}</span>
       <p class="os">
@@ -145,7 +145,7 @@ sudo apt-get install clementine</pre>
   {%set last_version = d.ver %}
 
   <li>
-    <a href="{{ download_base_url }}{{ d.name }}">
+    <a href="{{ d.url }}">
       {{ d.display_os }}
       {% if d.arch %}
         {{ d.arch }}-bit
