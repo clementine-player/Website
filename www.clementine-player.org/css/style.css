@@ -470,7 +470,9 @@ a.thindownload {
 }
 
 a.thindownload:hover,
-a.thindownload:hover .version {
+a.thindownload:hover .version,
+.android-download:hover .android-download-title,
+#download-button:hover #download-title {
   color: #FD9146;
 }
 
