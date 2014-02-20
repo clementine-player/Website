@@ -14,6 +14,7 @@ import colorsys
 import hmac
 import json
 import logging
+import re
 import webapp2
 
 import pygooglechart
@@ -200,17 +201,28 @@ class DownloadCountersPage(webapp2.RequestHandler):
       files = [
           {'name': x['name'], 'count': x['download_count']}
           for x in release['assets']]
+      total = sum(x['count'] for x in files)
+      files.append(self.SumLinuxDownloads(files))
       files.sort(key=itemgetter('count'), reverse=True)
       releases.append({
           'name': release['name'],
           'files': files,
-          'total': sum([x['count'] for x in files]),
+          'total': total,
       })
 
     path = os.path.join(os.path.dirname(__file__), 'downloads.html')
     self.response.out.write(template.render(path, {
         'releases': releases,
     }))
+
+  def SumLinuxDownloads(self, files):
+    return {
+        'name': 'Linux total',
+        'count': sum(x['count'] for x in files if self.IsLinux(x)),
+    }
+
+  def IsLinux(self, f):
+    return re.search(r'\.(deb|rpm)$', f['name'])
 
 
 app = webapp2.WSGIApplication(
