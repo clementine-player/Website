@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-07 17:38+0100\n"
-"PO-Revision-Date: 2014-01-06 23:29+0000\n"
+"POT-Creation-Date: 2014-02-22 19:47+0100\n"
+"PO-Revision-Date: 2014-02-22 18:57+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/clementine/language/cy/)\n"
 "MIME-Version: 1.0\n"
@@ -208,30 +208,30 @@ msgstr ""
 msgid "Growl notifications on Mac OS X"
 msgstr ""
 
-#: data.py:202
+#: data.py:203
 msgid "Source code"
 msgstr ""
 
-#: data.py:226
+#: data.py:230
 msgid "Source"
 msgstr ""
 
-#: data.py:276
+#: data.py:286
 msgid "Version 0.2 released"
 msgstr ""
 
-#: data.py:277
+#: data.py:287
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:283
+#: data.py:293
 msgid "Version 0.3 released"
 msgstr ""
 
-#: data.py:284
+#: data.py:294
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -239,11 +239,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:292
+#: data.py:302
 msgid "Version 0.4 released"
 msgstr ""
 
-#: data.py:293
+#: data.py:303
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -253,11 +253,11 @@ msgid ""
 "the time."
 msgstr ""
 
-#: data.py:302
+#: data.py:312
 msgid "Version 0.5 released"
 msgstr ""
 
-#: data.py:303
+#: data.py:313
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -275,11 +275,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:319
+#: data.py:329
 msgid "Version 0.6 released"
 msgstr ""
 
-#: data.py:320
+#: data.py:330
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -293,11 +293,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:332
+#: data.py:342
 msgid "Version 0.7 released"
 msgstr ""
 
-#: data.py:333
+#: data.py:343
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -313,11 +313,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:347
+#: data.py:357
 msgid "Version 1.0 released"
 msgstr ""
 
-#: data.py:348
+#: data.py:358
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -331,11 +331,11 @@ msgid ""
 " more information."
 msgstr ""
 
-#: data.py:360
+#: data.py:370
 msgid "Version 1.1 released"
 msgstr ""
 
-#: data.py:361
+#: data.py:371
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -349,11 +349,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:374
+#: data.py:384
 msgid "Version 1.2 released"
 msgstr ""
 
-#: data.py:375
+#: data.py:385
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -379,111 +379,111 @@ msgstr ""
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr ""
 
-#: downloads.html:41
+#: downloads.html:33
 msgid "Downloads for other operating systems"
 msgstr ""
 
-#: downloads.html:68
+#: downloads.html:54
 msgid "Ubuntu PPA"
 msgstr ""
 
-#: downloads.html:70
+#: downloads.html:56
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
 msgstr ""
 
-#: downloads.html:78 downloads.html.py:93
+#: downloads.html:64 downloads.html.py:79
 msgid "Other Downloads"
 msgstr ""
 
-#: downloads.html:80
+#: downloads.html:66
 msgid "Clementine Remote for Android"
 msgstr ""
 
-#: downloads.html:87
+#: downloads.html:73
 msgid "Unofficial packages"
 msgstr ""
 
-#: downloads.html:89
+#: downloads.html:75
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr ""
 
-#: downloads.html:97
+#: downloads.html:83
 msgid "Compiling from source"
 msgstr ""
 
-#: downloads.html:99
+#: downloads.html:85
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr ""
 
-#: downloads.html:100
+#: downloads.html:86
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr ""
 
-#: downloads.html:109
+#: downloads.html:95
 msgid "Full instructions and list of dependencies"
 msgstr ""
 
-#: downloads.html:113
+#: downloads.html:99
 msgid "Bleeding edge packages"
 msgstr ""
 
-#: downloads.html:115 participate.html:57
+#: downloads.html:101 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr ""
 
-#: downloads.html:117 participate.html:59
+#: downloads.html:103 participate.html:59
 msgid "the git repository"
 msgstr ""
 
-#: downloads.html:118 participate.html:60
+#: downloads.html:104 participate.html:60
 msgid "Check out the code by running:"
 msgstr ""
 
-#: downloads.html:122 participate.html:70
+#: downloads.html:108 participate.html:70
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
 msgstr ""
 
-#: downloads.html:127 participate.html:75
+#: downloads.html:113 participate.html:75
 msgid "Mac OS X development builds"
 msgstr ""
 
-#: downloads.html:129 participate.html:85
+#: downloads.html:115 participate.html:85
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr ""
 
-#: downloads.html:131 participate.html:87
+#: downloads.html:117 participate.html:87
 msgid "Ubuntu Quantal (12.10) development builds"
 msgstr ""
 
-#: downloads.html:133
+#: downloads.html:119
 msgid "Ubuntu Raring (13.04) development builds"
 msgstr ""
 
-#: downloads.html:135 participate.html:89
+#: downloads.html:121 participate.html:89
 msgid "Windows development builds"
 msgstr ""
 
-#: downloads.html:137 participate.html:91
+#: downloads.html:123 participate.html:91
 msgid "Buildbot"
 msgstr ""
 
-#: downloads.html:140 participate.html:94
+#: downloads.html:126 participate.html:94
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 
-#: downloads.html:148
+#: downloads.html:134
 msgid "Old downloads"
 msgstr ""
 
-#: downloads.html:156 screenshots.html:8
+#: downloads.html:142 screenshots.html:8
 msgid "Version"
 msgstr ""
 
@@ -624,6 +624,10 @@ msgstr ""
 
 #: main.html:84
 msgid "Show all downloads"
+msgstr ""
+
+#: main.html:103 screenshots.html:17
+msgid "Screenshot"
 msgstr ""
 
 #: main.html:116
@@ -800,14 +804,14 @@ msgstr ""
 msgid "and let us know:"
 msgstr ""
 
-#: participate.html:139
+#: participate.html:140
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr ""
 
-#: participate.html:140
+#: participate.html:141
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr ""
 
-#: participate.html:141
+#: participate.html:142
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr ""
