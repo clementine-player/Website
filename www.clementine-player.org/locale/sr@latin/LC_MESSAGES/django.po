@@ -1,1 +1,0 @@
-/home/arno/clementine/clementine-player.appengine/www.clementine-player.org/locale/sr@latin.po
