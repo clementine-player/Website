@@ -1,5 +1,4 @@
 import webapp2
-import logging
 
 class SkydrivePage(webapp2.RequestHandler):
   def get(self):
