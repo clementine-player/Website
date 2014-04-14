@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# hasssan <me@hasssan.com>, 2014
 # tjung <tjung.steven@gmail.com>, 2013
 # tjung <tjung.steven@gmail.com>, 2013
 # tjung <tjung.steven@gmail.com>, 2013
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-03 17:10+0100\n"
-"PO-Revision-Date: 2014-02-22 18:57+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2014-04-13 09:55+0000\n"
+"Last-Translator: hasssan <me@hasssan.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/clementine/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -566,7 +567,7 @@ msgstr ""
 
 #: main.html:46
 msgid "Android device"
-msgstr ""
+msgstr "Perangkat Android"
 
 #: main.html:46
 msgid "a Wii Remote"
@@ -783,7 +784,7 @@ msgstr "Clementine di Last.fm"
 
 #: participate.html:134
 msgid "Donation"
-msgstr ""
+msgstr "Donasi"
 
 #: participate.html:135
 msgid ""
@@ -796,17 +797,17 @@ msgstr ""
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Anda dapat membantu dengan <a href=\"#collaborate\">berpartisipasi dalam pengembangan perangkat lunak, seperti yang dijelaskan di atas</a>."
 
 #: participate.html:137
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Tapi jika Anda masih ingin memberikan bantuan uang untuk membuat kami bahagia, Anda dapat mendonasikan kepada salah satu organisasi sosial yang kami sukai ini"
 
 #: participate.html:137
 msgid "and let us know:"
-msgstr ""
+msgstr "dan beritahu kami:"
 
 #: participate.html:140
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
