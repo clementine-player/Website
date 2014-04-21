@@ -6,15 +6,15 @@
 # hasssan <me@hasssan.com>, 2014
 # tjung <tjung.steven@gmail.com>, 2013
 # tjung <tjung.steven@gmail.com>, 2013
-# tjung <tjung.steven@gmail.com>, 2013
+# tjung <tjung.steven@gmail.com>, 2013-2014
 # tjung <tjung.steven@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-03 17:10+0100\n"
-"PO-Revision-Date: 2014-04-13 09:55+0000\n"
-"Last-Translator: hasssan <me@hasssan.com>\n"
+"PO-Revision-Date: 2014-04-17 02:22+0000\n"
+"Last-Translator: tjung <tjung.steven@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/clementine/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Integrasi Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
@@ -356,7 +356,7 @@ msgstr "Rilis ini menambahkan dukungan Podcast yang telah lama ditunggu-tunggu t
 
 #: data.py:384
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Peluncuran versi 1.2"
 
 #: data.py:385
 msgid ""
@@ -811,12 +811,12 @@ msgstr "dan beritahu kami:"
 
 #: participate.html:140
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:141
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:142
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
