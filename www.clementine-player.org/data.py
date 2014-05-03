@@ -81,7 +81,7 @@ DOWNLOADS = [
   {'os': 'fedora20',    'ver': '1.2', 'arch': 32, 'name': 'releases/download/1.2.3/clementine-1.2.3-1.fc20.i686.rpm'},
   {'os': 'fedora20',    'ver': '1.2', 'arch': 64, 'name': 'releases/download/1.2.3/clementine-1.2.3-1.fc20.x86_64.rpm'},
   {'os': 'windows',     'ver': '1.2', 'arch': 0,  'name': 'releases/download/1.2.3/ClementineSetup-1.2.3.exe'},
-  {'os': 'lion',        'ver': '1.2', 'arch': 0,  'name': 'releases/download/1.2.2/clementine-1.2.2.dmg'},
+  {'os': 'mlion',       'ver': '1.2', 'arch': 0,  'name': 'releases/download/1.2.2/clementine-1.2.2.dmg'},
   {'os': 'source',      'ver': '1.2', 'arch': 0,  'name': 'archive/1.2.3.tar.gz'},
 
   {'os': 'ubuntu',      'ver': '1.1', 'arch': 32, 'name': 'clementine_1.1.1~lucid_i386.deb'},
@@ -225,6 +225,7 @@ DISPLAY_OS = {
   'leopard':     'Mac OS X Leopard',
   'snowleopard': 'Mac OS X Snow Leopard',
   'lion':        'Mac OS X Lion',
+  'mlion':       'OS X Mountain Lion',
 }
 SHORT_DISPLAY_OS = {
   'source':      _('Source'),
@@ -252,6 +253,7 @@ SHORT_DISPLAY_OS = {
   'leopard':     'Mac OS X',
   'snowleopard': 'Mac OS X',
   'lion':        'Mac OS X',
+  'mlion':       'OS X',
 }
 OS_LOGOS = {
   'source':      'source-logo.png',
@@ -279,6 +281,7 @@ OS_LOGOS = {
   'leopard':     'leopard-logo.png',
   'snowleopard': 'leopard-logo.png',
   'lion':        'leopard-logo.png',
+  'mlion':       'leopard-logo.png',
 }
 NEWS = [
   {
