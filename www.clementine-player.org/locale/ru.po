@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-03 17:10+0100\n"
-"PO-Revision-Date: 2014-04-25 08:47+0000\n"
+"PO-Revision-Date: 2014-05-05 16:21+0000\n"
 "Last-Translator: adem4ik\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "Разработка сайта:"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr "Вкладка списка воспроизведения во время прослушивания песни из Интернет"
+msgstr "Вкладка плейлиста во время прослушивания песен из Интернет"
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -387,7 +387,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Этот релиз совместим с <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">приложением удаленного управления Clementine для Androir</a>, которое позволяет управлять плеером с устройства Android.<br/>Этот релиз также добавляет поддержку Subsonic. Теперь вы можете слушать музыку, хранящуюся на <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Наконец, появились такие возможности как \"пометка\" списка воспроизведения, которая позволяет восстановить список после его закрытия в новой вкладке \"Списка воспроизведения\", расположенной в левой боковой панели.<br/>Для более подробной информации смотрите <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">список изменений</a>."
+msgstr "Этот релиз совместим с <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">приложением удаленного управления Clementine для Android</a>, которое позволяет управлять плеером с устройства Android.<br/>Этот релиз также добавляет поддержку Subsonic. Теперь вы можете слушать музыку, хранящуюся на <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Наконец, появились такие возможности как \"пометка\" списка воспроизведения, которая позволяет восстановить список после его закрытия в новой вкладке \"Списка воспроизведения\", расположенной в левой боковой панели.<br/>Для более подробной информации смотрите <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">список изменений</a>."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -395,11 +395,11 @@ msgstr "Последние версии"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Скачайте последнюю стабильную версию Clementine для вашей операционной системы"
+msgstr "Последняя стабильная версия Clementine для вашей операционной системы"
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr "Downloads for other operating systems"
+msgstr "Загрузки для других операционных систем"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
