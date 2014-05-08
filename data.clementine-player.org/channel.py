@@ -70,28 +70,43 @@ class ClementinePushPage(webapp2.RequestHandler):
       logging.error('Tried to push message to non-existant instance')
       return
 
+    msg = self.request.body
     message = remotecontrolmessages_pb2.Message()
-    message.ParseFromString(base64.b64decode(self.request.body))
+    message.ParseFromString(base64.b64decode(msg))
     logging.debug(message)
 
-    for chan in instance.channels:
-      channel.send_message(chan, self.request.body)
-
-
-class ClementineIndirectPushPage(webapp2.RequestHandler):
-  def post(self, id):
-    instance = RemoteInstance.get_by_id(id)
-    if instance is None:
-      self.error(403)
-      logging.error('Tried to push message to non-existant instance')
+    if message.type == remotecontrolmessages_pb2.KEEP_ALIVE:
+      pong = remotecontrolmessages_pb2.Message()
+      pong.type = remotecontrolmessages_pb2.KEEP_ALIVE
+      channel.send_message(id, base64.b64encode(pong.SerializeToString()))
       return
 
+
+    if not instance.channels:
+      # If there are no clients, then no need to bother
+      return
+
+    if len(msg) > 16384:
+      self.SendIndirectMessage(msg, instance)
+    else:
+      self.SendDirectMessage(msg, instance)
+
+
+  # For small messages we can send them directly to the client over the channel.
+  def SendDirectMessage(self, message, instance):
+    for chan in instance.channels:
+      channel.send_message(chan, '0' + self.request.body)
+
+  # For large messages we memcache the message and send a message to the client
+  # to fetch it via XHR.
+  def SendIndirectMessage(self, message, instance):
     msg_id = 'remote:%030x' % random.randrange(16**30)
     memcache.set(msg_id, self.request.body, time=60)
     logging.debug('Storing message as: %s', msg_id)
 
     for chan in instance.channels:
-      channel.send_message(chan, msg_id)
+      channel.send_message(chan, '1%s' % msg_id)
+
 
 
 """Page for Remote instances to push remote control messages to."""
@@ -154,7 +169,7 @@ jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 app = webapp2.WSGIApplication(
     [
-        (r'/channel/clementine/push/(.*)', ClementineIndirectPushPage),
+        (r'/channel/clementine/push/(.*)', ClementinePushPage),
         (r'/channel/clementine', ChannelPage),
         (r'/channel/remote/push/(.*)', RemotePushPage),
         (r'/channel/remote/fetch/(.*)', RemoteFetchPage),

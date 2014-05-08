@@ -21,13 +21,19 @@
       document.getElementById('status').innerText = 'Connected';
     };
     socket.onmessage = function(message) {
-      var id = message.data
-      var request = new XMLHttpRequest;
-      request.onload = function() {
-        processMessage(this.responseText);
+      var encoding = message.data[0];
+      var data = message.data.slice(1);
+      if (encoding == '0') {
+        processMessage(data);
+      } else if (encoding == '1') {
+        var id = data;
+        var request = new XMLHttpRequest;
+        request.onload = function() {
+          processMessage(this.responseText);
+        }
+        request.open('get', '/channel/remote/fetch/' + id);
+        request.send();
       }
-      request.open('get', '/channel/remote/fetch/' + id);
-      request.send();
     };
     socket.onerror = function() {
       window.console.log('error');
@@ -42,6 +48,11 @@
       switch (msg.type) {
         case MsgType.CURRENT_METAINFO:
           updateMetadata(msg.response_current_metadata.song_metadata);
+          break;
+
+        case MsgType.PAUSE:
+        case MsgType.PLAY:
+          updateState(msg.type);
           break;
 
         default:
@@ -81,8 +92,8 @@
       document.getElementById('cover').src = imageUrl;
     }
 
-    function updateStatus(info) {
-      document.getElementById('engine-status').innerText = info.state;
+    function updateState(type) {
+      document.getElementById('engine-status').innerText = type;
     }
   </script>
 
