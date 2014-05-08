@@ -142,9 +142,13 @@ class BasePage(webapp2.RequestHandler):
     self.response.out.write(template.render(params))
 
   def FindDownload(self, os, arch=0):
-    return copy.deepcopy([x for x in DOWNLOADS if x['os'] == os
-                                              and x['arch'] == arch
-                                              and x['ver'] == LATEST_VERSION][0])
+    downloads = [x for x in DOWNLOADS if x['os'] == os
+                                     and x['arch'] == arch
+                                     and x['ver'] == LATEST_VERSION]
+    if downloads:
+      return copy.deepcopy(downloads[0])
+    else:
+      return None
 
   # Similar to django.utils.translation.get_language_from_request which has no equivalent in jinja2
   def GetLanguageFromRequest(self):
