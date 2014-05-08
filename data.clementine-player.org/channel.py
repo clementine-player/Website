@@ -48,8 +48,9 @@ class RemotePage(webapp2.RequestHandler):
       self.error(404)
       logging.error('Tried to connect to non-existant instance')
       return
-    # TODO: Do not overwrite other channel ids.
-    instance.channels = [id]
+    channels = instance.channels or []
+    channels.append(id)
+    instance.channels = channels
     instance.put()
     template = jinja_environment.get_template('remote.html')
     self.response.out.write(template.render({
@@ -67,8 +68,12 @@ class ClementinePushPage(webapp2.RequestHandler):
       logging.error('Tried to push message to non-existant instance')
       return
 
+    message = remotecontrolmessages_pb2.Message()
+    message.ParseFromString(base64.b64decode(self.request.body))
+    logging.debug(message)
+
     for chan in instance.channels:
-      channel.send_message(chan, 'Message from instance %s' % id)
+      channel.send_message(chan, self.request.body)
 
 
 """Page for Remote instances to push remote control messages to."""
@@ -102,14 +107,12 @@ class TestPage(webapp2.RequestHandler):
 class ChannelConnectedPage(webapp2.RequestHandler):
   def post(self):
     client_id = self.request.get('from')
-    print client_id
     message = remotecontrolmessages_pb2.Message()
     message.version = 14
     message.type = remotecontrolmessages_pb2.CONNECT
     message.request_connect.send_playlist_songs = True
     binary = message.SerializeToString()
     string = base64.b64encode(binary)
-    print string
     channel.send_message(client_id, string)
 
 

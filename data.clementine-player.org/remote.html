@@ -3,10 +3,17 @@
 <head>
   <title>Clementine Web Remote</title>
   <script type="text/javascript" src="/_ah/channel/jsapi"></script>
+  <script type="text/javascript" src="/js/Long.min.js"></script>
+  <script type="text/javascript" src="/js/ByteBuffer.min.js"></script>
+  <script type="text/javascript" src="/js/ProtoBuf.min.js"></script>
 </head>
 <body>
   <script type="text/javascript">
     var id = '{{ id }}';
+    var proto = dcodeIO.ProtoBuf.loadProtoFile('/proto/remotecontrolmessages.proto');
+    var Message = proto.build('pb.remote.Message');
+    var MsgType = proto.lookup('pb.remote.MsgType').build();
+
     var channel = new goog.appengine.Channel('{{ token }}');
     var socket = channel.open();
     socket.onopen = function() {
@@ -14,7 +21,10 @@
       document.getElementById('status').innerText = 'Connected';
     };
     socket.onmessage = function(message) {
-      window.console.log(message.data);
+      var msg = Message.decode64(message.data);
+      if (msg.type == MsgType.CURRENT_METAINFO) {
+        window.console.log('Now playing', msg.response_current_metadata.song_metadata.title);
+      }
     };
     socket.onerror = function() {
       window.console.log('error');
