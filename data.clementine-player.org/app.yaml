@@ -4,12 +4,19 @@ runtime: python27
 threadsafe: yes
 api_version: 1
 
+libraries:
+- name: webapp2
+  version: 2.5.1
+- name: jinja2
+  version: "2.6"
+
 builtins:
 - remote_api: on
 - appstats: on
 
 inbound_services:
 - xmpp_message
+- channel_presence
 
 handlers:
 - url: /css
@@ -56,9 +63,11 @@ handlers:
 - url: /skydrive
   script: skydrive.app
 
+- url: /channel.*
+  script: channel.app
+
+- url: /_ah/channel/.*
+  script: channel.app
+
 - url: /.*
   script: clementine.app
-
-libraries:
-- name: webapp2
-  version: 2.5.1

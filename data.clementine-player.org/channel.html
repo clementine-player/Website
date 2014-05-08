@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Clementine Channel</title>
+    <script type="text/javascript" src="/_ah/channel/jsapi"></script>
+  </head>
+  <body>
+  <script type="text/javascript">
+    var channel = new goog.appengine.Channel('{{ token }}');
+    var socket = channel.open();
+    socket.onopen = function() {
+      window.console.log('open');
+    };
+    socket.onmessage = function(message) {
+      window.console.log(message.data);
+    };
+    socket.onerror = function() {
+      window.console.log('error');
+    };
+    socket.onclose = function() {
+      window.console.log('close');
+    };
+  </script>
+  </body>
+</html>
