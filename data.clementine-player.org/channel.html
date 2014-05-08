@@ -6,19 +6,33 @@
   </head>
   <body>
   <script type="text/javascript">
+    function log(msg) {
+      window.console.log(msg);
+    }
+
+    function messageReceived(msg) {
+      alert(msg);
+    }
+
+    function controlMessageReceived(msg) {
+      confirm(msg);
+    }
+
+    var id = '{{ id }}';
+    controlMessageReceived(id);  // Pass our id back to clementine.
     var channel = new goog.appengine.Channel('{{ token }}');
     var socket = channel.open();
     socket.onopen = function() {
-      window.console.log('open');
+      log('open');
     };
     socket.onmessage = function(message) {
-      window.console.log(message.data);
+      messageReceived(message.data);
     };
     socket.onerror = function() {
-      window.console.log('error');
+      log('error');
     };
     socket.onclose = function() {
-      window.console.log('close');
+      log('close');
     };
   </script>
   </body>

@@ -65,9 +65,11 @@ handlers:
 
 - url: /channel.*
   script: channel.app
+  secure: always
 
 - url: /_ah/channel/.*
   script: channel.app
+  secure: always
 
 - url: /.*
   script: clementine.app

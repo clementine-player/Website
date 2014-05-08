@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <title>Clementine Web Remote</title>
+  <script type="text/javascript" src="/_ah/channel/jsapi"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var id = '{{ id }}';
+    var channel = new goog.appengine.Channel('{{ token }}');
+    var socket = channel.open();
+    socket.onopen = function() {
+      window.console.log('open');
+      document.getElementById('status').innerText = 'Connected';
+    };
+    socket.onmessage = function(message) {
+      window.console.log(message.data);
+    };
+    socket.onerror = function() {
+      window.console.log('error');
+    };
+    socket.onclose = function() {
+      window.console.log('close');
+      document.getElementById('status').innerText = 'Disconnected';
+    };
+
+    function ping() {
+      var request = new XMLHttpRequest;
+      request.onload = function() {
+        window.console.log(this.responseText);
+      };
+      request.open('post', '/channel/remote/push/' + id, true);
+      request.send(JSON.stringify({'method': 'ping'}));
+    }
+
+    function playpause() {
+      var request = new XMLHttpRequest;
+      request.onload = function() {
+        window.console.log(this.responseText);
+      };
+      request.open('post', '/channel/remote/push/' + id, true);
+      request.send(JSON.stringify({'method': 'playpause'}));
+    }
+  </script>
+
+  <div>
+    Clementine web remote
+  </div>
+  <div id="status">Disconnected</div>
+
+  <button onclick="ping()">Ping</button>
+  <button onclick="playpause()">Play/Pause</button>
+</body>
+</html>
