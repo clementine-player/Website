@@ -3,11 +3,13 @@ import jinja2
 import json
 import logging
 import os
+import random
 import sys
 import uuid
 import webapp2
 
 from google.appengine.api import channel
+from google.appengine.api import memcache
 from google.appengine.ext import ndb
 
 import google
@@ -76,6 +78,22 @@ class ClementinePushPage(webapp2.RequestHandler):
       channel.send_message(chan, self.request.body)
 
 
+class ClementineIndirectPushPage(webapp2.RequestHandler):
+  def post(self, id):
+    instance = RemoteInstance.get_by_id(id)
+    if instance is None:
+      self.error(403)
+      logging.error('Tried to push message to non-existant instance')
+      return
+
+    msg_id = 'remote:%030x' % random.randrange(16**30)
+    memcache.set(msg_id, self.request.body, time=60)
+    logging.debug('Storing message as: %s', msg_id)
+
+    for chan in instance.channels:
+      channel.send_message(chan, msg_id)
+
+
 """Page for Remote instances to push remote control messages to."""
 class RemotePushPage(webapp2.RequestHandler):
   def post(self, id):
@@ -98,6 +116,15 @@ class RemotePushPage(webapp2.RequestHandler):
     channel.send_message(id, string)
 
 
+class RemoteFetchPage(webapp2.RequestHandler):
+  def get(self, id):
+    data = memcache.get(id)
+    if data is None:
+      self.error(404)
+      return
+    self.response.out.write(data)
+
+
 class TestPage(webapp2.RequestHandler):
   def get(self):
     id = self.request.get('id')
@@ -106,6 +133,7 @@ class TestPage(webapp2.RequestHandler):
 
 class ChannelConnectedPage(webapp2.RequestHandler):
   def post(self):
+    pass
     client_id = self.request.get('from')
     message = remotecontrolmessages_pb2.Message()
     message.version = 14
@@ -126,9 +154,10 @@ jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 app = webapp2.WSGIApplication(
     [
-        (r'/channel/clementine/push/(.*)', ClementinePushPage),
+        (r'/channel/clementine/push/(.*)', ClementineIndirectPushPage),
         (r'/channel/clementine', ChannelPage),
         (r'/channel/remote/push/(.*)', RemotePushPage),
+        (r'/channel/remote/fetch/(.*)', RemoteFetchPage),
         (r'/channel/remote/(.*)', RemotePage),
 
         (r'/channel_test.*', TestPage),

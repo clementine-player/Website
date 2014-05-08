@@ -21,10 +21,13 @@
       document.getElementById('status').innerText = 'Connected';
     };
     socket.onmessage = function(message) {
-      var msg = Message.decode64(message.data);
-      if (msg.type == MsgType.CURRENT_METAINFO) {
-        window.console.log('Now playing', msg.response_current_metadata.song_metadata.title);
+      var id = message.data
+      var request = new XMLHttpRequest;
+      request.onload = function() {
+        processMessage(this.responseText);
       }
+      request.open('get', '/channel/remote/fetch/' + id);
+      request.send();
     };
     socket.onerror = function() {
       window.console.log('error');
@@ -33,6 +36,18 @@
       window.console.log('close');
       document.getElementById('status').innerText = 'Disconnected';
     };
+
+    function processMessage(message) {
+      var msg = Message.decode64(message);
+      switch (msg.type) {
+        case MsgType.CURRENT_METAINFO:
+          updateMetadata(msg.response_current_metadata.song_metadata);
+          break;
+
+        default:
+          break;
+      }
+    }
 
     function ping() {
       var request = new XMLHttpRequest;
@@ -51,6 +66,24 @@
       request.open('post', '/channel/remote/push/' + id, true);
       request.send(JSON.stringify({'method': 'playpause'}));
     }
+
+    function updateMetadata(songMetadata) {
+      document.getElementById('title').innerText = songMetadata.title;
+      document.getElementById('artist').innerText = songMetadata.artist;
+      document.getElementById('album').innerText = songMetadata.album;
+
+      var art = songMetadata.art;
+      window.console.log(art);
+      var bytes = new Uint8Array(art.toArrayBuffer());
+      var blob = new Blob([bytes], {type: "image/jpeg"});
+      var urlCreator = window.URL || window.webkitURL;
+      var imageUrl = urlCreator.createObjectURL(blob);
+      document.getElementById('cover').src = imageUrl;
+    }
+
+    function updateStatus(info) {
+      document.getElementById('engine-status').innerText = info.state;
+    }
   </script>
 
   <div>
@@ -60,5 +93,13 @@
 
   <button onclick="ping()">Ping</button>
   <button onclick="playpause()">Play/Pause</button>
+
+  <div id="engine-status">Stopped</div>
+  <div class="songinfo">
+    <div id="title"></div>
+    <div id="artist"></div>
+    <div id="album"></div>
+    <img id="cover">
+  </div>
 </body>
 </html>
