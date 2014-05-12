@@ -2,7 +2,15 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>{% block title %}{% endblock %}{{ _("Clementine Music Player") }}</title>
+  <title>
+    {% if language == "my" %}
+      {# Browsers don't seem to be able to render Myanmar correctly in the title #}
+      Clementine Music Player
+    {% else %}
+      {% block title %}{% endblock %}
+      {{ _("Clementine Music Player") }}
+    {% endif %}
+  </title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   {% if is_rtl %}
     <link type="text/css" rel="stylesheet" media="all" href="/css/all-rtl.css" />
@@ -26,11 +34,8 @@
 
   {% if language == "my" %}
     <!-- Load Myanmar font -->
-    <link type="text/css" rel="stylesheet" media="all" href="http://fonts.googleapis.com/earlyaccess/tharlon.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="https://fonts.googleapis.com/earlyaccess/tharlon.css" />
     <style type="text/css">
-      body, h1, li.menu > a {
-        font-family: "Tharlon";
-      }
     </style>
   {% endif %}
 </head>

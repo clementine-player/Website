@@ -8,10 +8,15 @@
   font-style: normal;
 }
 
+@def FONT_FAMILY 'Tharlon', 'Verdana', sans-serif;
+@def TITLE_FONT_FAMILY 'Tharlon', 'DuepuntozeroRegular', sans-serif;
+@def ENGLISH_ONLY_TITLE_FONT_FAMILY 'DuepuntozeroRegular', 'Verdana', sans-serif;
+@def ENGLISH_ONLY_FONT_FAMILY 'Verdana', sans-serif;
+
 /* Reset the basic elements to a baseline. */
 body {
   color: #000000;
-  font-family: Verdana, sans-serif;
+  font-family: FONT_FAMILY;
   margin: 0px;
   font-size: 12px;
   background-color: #DB6835;
@@ -175,7 +180,7 @@ img.logo {
 li.menu > a {
   border-right:1px solid #DC8D4A;
   color: white;
-  font-family: 'DuepuntozeroRegular', serif;
+  font-family: TITLE_FONT_FAMILY;
   font-size: 15pt;
   padding: 19px;
   text-decoration: none;
@@ -406,7 +411,7 @@ body.sidebar-right #page {
 }
 
 #download-title {
-  font-family:'DuepuntozeroRegular',sans-serif;
+  font-family: ENGLISH_ONLY_TITLE_FONT_FAMILY;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
@@ -489,7 +494,7 @@ a.thindownload:hover .version,
   position: relative;
   left: 5px;
   top: 5px;
-  font-family:'DuepuntozeroRegular',sans-serif;
+  font-family: TITLE_FONT_FAMILY;
   font-size: 24px;
 }
 
@@ -529,7 +534,7 @@ a.thindownload:hover .version,
 
 /* General style */
 h1 {
-  font-family: 'DuepuntozeroRegular', serif;
+  font-family: TITLE_FONT_FAMILY;
   font-size: 24px;
   font-weight: normal;
   text-align: right;
@@ -557,6 +562,7 @@ pre {
 }
 
 .language {
+  font-family: ENGLISH_ONLY_FONT_FAMILY;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
