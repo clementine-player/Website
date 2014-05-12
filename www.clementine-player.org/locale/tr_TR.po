@@ -3,20 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# haarek <haarektrans@gmail.com>, 2014
+# devingregory <devingregory@yandex.com>, 2012
+# devingregory <devingregory@yandex.com>, 2012
+# Faruk Uzun <>, 2012
+# Irfan YAZICI <irfanyazici@gmail.com>, 2011
+# John Maguire <john.maguire@gmail.com>, 2014
+# kadirc <kadirche@gmail.com>, 2012
+# Murat Ikilik <muratikilik@gmail.com>, 2012
+# Murat Ikilik <muratikilik@gmail.com>, 2012
+# Murat Sahin <martinamca@gmail.com>, 2012
+# zeugma <sunder67@hotmail.com>, 2012
+# Ufuk Uyumaz <ufukuyumaz@gmail.com>, 2013
+# volkangezer <volkangezer@gmail.com>, 2013
+# volkangezer <volkangezer@gmail.com>, 2014
+# yusufbesir1 <yusufbesir1@gmail.com>, 2012
+# yusufbesir1 <yusufbesir1@gmail.com>, 2012
+# zeugma <sunder67@hotmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-03 17:10+0100\n"
-"PO-Revision-Date: 2014-05-11 12:14+0000\n"
-"Last-Translator: haarek <haarektrans@gmail.com>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/clementine/language/nb/)\n"
+"PO-Revision-Date: 2014-05-11 07:08+0000\n"
+"Last-Translator: davidsansome <me@davidsansome.com>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/projects/p/clementine/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nb\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: android-download.html:4
 msgid "Clementine Remote"
@@ -24,49 +39,49 @@ msgstr ""
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr "Kontrollere Clementine eksternt i fra din Android-telefon."
+msgstr ""
 
 #: base.html:5
 msgid "Clementine Music Player"
-msgstr "Clementine Musikkspiller"
+msgstr ""
 
 #: base.html:48
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 #: base.html:49 downloads.html:2
 msgid "Downloads"
-msgstr "Nedlastinger"
+msgstr ""
 
 #: base.html:50 main.html:94 screenshots.html:2
 msgid "Screenshots"
-msgstr "Skjermbilder"
+msgstr ""
 
 #: base.html:51 participate.html:2
 msgid "Participate"
-msgstr "Delta"
+msgstr ""
 
 #: base.html:55
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "En kryssplattform musikkspiller inspirert av Amarok 1.4"
+msgstr ""
 
 #: base.html:80
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine er Fri Programvare under GPL v3. Denne siden er lisensiert under CC-BY-SA."
+msgstr ""
 
 #: base.html:81
 msgid "Development by"
-msgstr "Utvikling av"
+msgstr ""
 
 #: base.html:82 main.html:22 main.html.py:30
 msgid "and"
-msgstr "og"
+msgstr ""
 
 #: base.html:84
 msgid "Website by"
-msgstr "Nettside av"
+msgstr ""
 
 #: data.py:8
 msgid ""
@@ -87,11 +102,11 @@ msgstr ""
 
 #: data.py:14
 msgid "Podcasts"
-msgstr "Podcaster"
+msgstr ""
 
 #: data.py:15
 msgid "Google Drive"
-msgstr "Google Disk"
+msgstr ""
 
 #: data.py:16
 msgid "New global search interface"
@@ -99,7 +114,7 @@ msgstr ""
 
 #: data.py:17
 msgid "Moodbars"
-msgstr "Stemningsstolper"
+msgstr ""
 
 #: data.py:20
 msgid "Transcoding settings"
@@ -135,11 +150,11 @@ msgstr ""
 
 #: data.py:32
 msgid "Artist photos and biographies"
-msgstr "Artistbilder og biografier"
+msgstr ""
 
 #: data.py:33
 msgid "Lyrics"
-msgstr "Sangtekster"
+msgstr ""
 
 #: data.py:34
 msgid "Icecast radio stations"
@@ -199,11 +214,11 @@ msgstr ""
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr "Avspilling på Linux"
+msgstr ""
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr "Last.fm støtte"
+msgstr ""
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
@@ -211,15 +226,15 @@ msgstr ""
 
 #: data.py:203
 msgid "Source code"
-msgstr "Kildekode"
+msgstr ""
 
 #: data.py:230
 msgid "Source"
-msgstr "Kilde"
+msgstr ""
 
 #: data.py:286
 msgid "Version 0.2 released"
-msgstr "Versjon 0.2 utgitt"
+msgstr ""
 
 #: data.py:287
 msgid ""
@@ -230,7 +245,7 @@ msgstr ""
 
 #: data.py:293
 msgid "Version 0.3 released"
-msgstr "Versjon 0.3 utgitt"
+msgstr ""
 
 #: data.py:294
 msgid ""
@@ -242,7 +257,7 @@ msgstr ""
 
 #: data.py:302
 msgid "Version 0.4 released"
-msgstr "Versjon 0.4 utgitt"
+msgstr ""
 
 #: data.py:303
 msgid ""
@@ -256,7 +271,7 @@ msgstr ""
 
 #: data.py:312
 msgid "Version 0.5 released"
-msgstr "Versjon 0.5 utgitt"
+msgstr ""
 
 #: data.py:313
 msgid ""
@@ -278,7 +293,7 @@ msgstr ""
 
 #: data.py:329
 msgid "Version 0.6 released"
-msgstr "Versjon 0.6 utgitt"
+msgstr ""
 
 #: data.py:330
 msgid ""
@@ -296,7 +311,7 @@ msgstr ""
 
 #: data.py:342
 msgid "Version 0.7 released"
-msgstr "Versjon 0.7 utgitt"
+msgstr ""
 
 #: data.py:343
 msgid ""
@@ -316,7 +331,7 @@ msgstr ""
 
 #: data.py:357
 msgid "Version 1.0 released"
-msgstr "Versjon 1.0 utgitt"
+msgstr ""
 
 #: data.py:358
 msgid ""
@@ -334,7 +349,7 @@ msgstr ""
 
 #: data.py:370
 msgid "Version 1.1 released"
-msgstr "Versjon 1.1 utgitt"
+msgstr ""
 
 #: data.py:371
 msgid ""
@@ -352,7 +367,7 @@ msgstr ""
 
 #: data.py:384
 msgid "Version 1.2 released"
-msgstr "Versjon 1.2 utgitt"
+msgstr ""
 
 #: data.py:385
 msgid ""
@@ -374,15 +389,15 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr "Seneste nedlastinger"
+msgstr ""
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Få den seneste stabile versjonen av Clementine for ditt operativsystem."
+msgstr ""
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr "Nedlastinger for andre operativsystemer"
+msgstr ""
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
@@ -396,7 +411,7 @@ msgstr ""
 
 #: downloads.html:64 downloads.html.py:79
 msgid "Other Downloads"
-msgstr "Andre nedlastinger"
+msgstr ""
 
 #: downloads.html:66
 msgid "Clementine Remote for Android"
@@ -404,13 +419,13 @@ msgstr ""
 
 #: downloads.html:73
 msgid "Unofficial packages"
-msgstr "Uoffisielle pakker"
+msgstr ""
 
 #: downloads.html:75
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr "Dersom du ikke ser din distribusjon nevnt ovenfor så kan det være at noen andre har skapt en uoffisiell pakke for deg."
+msgstr ""
 
 #: downloads.html:83
 msgid "Compiling from source"
@@ -424,7 +439,7 @@ msgstr ""
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Last ned kildekodepakken i fra listen ovenfor, og i et terminalvindu:"
+msgstr ""
 
 #: downloads.html:95
 msgid "Full instructions and list of dependencies"
@@ -482,11 +497,11 @@ msgstr ""
 
 #: downloads.html:134
 msgid "Old downloads"
-msgstr "Eldre nedlastinger"
+msgstr ""
 
 #: downloads.html:142 screenshots.html:8
 msgid "Version"
-msgstr "Versjon"
+msgstr ""
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -494,15 +509,15 @@ msgstr ""
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Søk i og spill av fra ditt lokale musikkbibliotek."
+msgstr ""
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr "Hør på nettradio fra"
+msgstr ""
 
 #: main.html:25
 msgid "Search and play songs you've uploaded to"
-msgstr "Søk etter og spill av sanger du har lastet opp til"
+msgstr ""
 
 #: main.html:33
 msgid "Create smart playlists and dynamic playlists."
@@ -522,35 +537,35 @@ msgstr ""
 
 #: main.html:37
 msgid "Visualisations from"
-msgstr "Visualiseringer fra"
+msgstr ""
 
 #: main.html:38
 msgid "Lyrics and artist biographies and photos."
-msgstr "Sangtekster, artistbiografier og bilder."
+msgstr ""
 
 #: main.html:39
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Omkode musikk til MP3, Ogg Vorbis, Ogg Speex, FLAC eller AAC."
+msgstr ""
 
 #: main.html:40
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Rediger tagger for MP3- og OGG-filer, organiser din musikk."
+msgstr ""
 
 #: main.html:41
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Hent manglende tagger fra MusicBrainz."
+msgstr ""
 
 #: main.html:42
 msgid "Discover and download Podcasts."
-msgstr "Oppdag og last ned podcasts."
+msgstr ""
 
 #: main.html:43
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Last ned manglende albumomslag fra Last.fm og Amazon."
+msgstr ""
 
 #: main.html:44
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Kryssplattform - fungerer på Windows, Mac OS X og Linux."
+msgstr ""
 
 #: main.html:45
 msgid ""
@@ -559,15 +574,15 @@ msgstr ""
 
 #: main.html:46
 msgid "Remote control using an"
-msgstr "Ekstern styring ved hjelp av en"
+msgstr ""
 
 #: main.html:46
 msgid "Android device"
-msgstr "Android-enhet"
+msgstr ""
 
 #: main.html:46
 msgid "a Wii Remote"
-msgstr "en Wii fjernkontroll"
+msgstr ""
 
 #: main.html:46
 msgid "MPRIS or the command-line."
@@ -575,15 +590,15 @@ msgstr ""
 
 #: main.html:47
 msgid "Copy music to your"
-msgstr "Kopier musikk til din"
+msgstr ""
 
 #: main.html:47
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP eller masselagrings USB-spiller."
+msgstr ""
 
 #: main.html:48
 msgid "Queue manager."
-msgstr "Købehandler."
+msgstr ""
 
 #: main.html:54
 msgid "is a modern music player and library organizer"
@@ -591,11 +606,11 @@ msgstr ""
 
 #: main.html:58
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine er en multiplattform musikkspiller."
+msgstr ""
 
 #: main.html:59
 msgid "It is inspired by"
-msgstr "Den er inspirert av"
+msgstr ""
 
 #: main.html:60
 msgid ""
@@ -605,15 +620,15 @@ msgstr ""
 
 #: main.html:67 main.html.py:76
 msgid "Download the latest version now"
-msgstr "Last ned seneste versjon nå"
+msgstr ""
 
 #: main.html:68
 msgid "Download Clementine"
-msgstr "Last ned Clementine"
+msgstr ""
 
 #: main.html:77
 msgid "for Windows, Mac OS X and Linux"
-msgstr "for Windows, Mac OS X og Linux"
+msgstr ""
 
 #: main.html:82
 msgid "Announcement"
@@ -621,59 +636,59 @@ msgstr ""
 
 #: main.html:83
 msgid "Changelog"
-msgstr "Endringslogg"
+msgstr ""
 
 #: main.html:84
 msgid "Show all downloads"
-msgstr "Vis alle nedlastinger"
+msgstr ""
 
 #: main.html:103 screenshots.html:17
 msgid "Screenshot"
-msgstr "Skjermbilde"
+msgstr ""
 
 #: main.html:116
 msgid "News"
-msgstr "Nyheter"
+msgstr ""
 
 #: participate.html:17
 msgid "Need help?"
-msgstr "Behøver du hjelp?"
+msgstr ""
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr "Kom å prat med oss på"
+msgstr ""
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr "kanalen på Freenode."
+msgstr ""
 
 #: participate.html:22
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "Vennligst husk å <b>hold deg i nærheten etter å ha stilt et spørsmål</b> – det kan være at vi befinner oss i en annen tidssone slik at vi ikke vil se spørsmålet ditt med det samme."
+msgstr ""
 
 #: participate.html:25
 msgid "Forum"
-msgstr "Forum"
+msgstr ""
 
 #: participate.html:27
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine benytter Google Grupper som forum / mailingliste / generell diskusjonsgruppe."
+msgstr ""
 
 #: participate.html:30
 msgid "Support and discussion group"
-msgstr "Brukerstøtte og diskusjonsgruppe"
+msgstr ""
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr "Bidra"
+msgstr ""
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr "Innrapportering av feil og foreslå patcher"
+msgstr ""
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
@@ -683,31 +698,31 @@ msgstr ""
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Hvis du har funnet en feil i Clementine, vennligst besøk problemdatabasen og opprett en ny sak."
+msgstr ""
 
 #: participate.html:43
 msgid "Issue tracker"
-msgstr "Problemdatabase"
+msgstr ""
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr "Oversett grensesnittet"
+msgstr ""
 
 #: participate.html:48
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Hvis du ønsker å oversette Clementine til et annet språk kan du gjøre dette på oversettelsessiden hos Transifex."
+msgstr ""
 
 #: participate.html:49
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Du kan enten gjøre oversettelser direkte på Transifex, eller laste ned en .po-fil i fra siden og så returnere den per epost til oss."
+msgstr ""
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr "Transifex oversettelser"
+msgstr ""
 
 #: participate.html:55
 msgid "Hacking"
@@ -735,7 +750,7 @@ msgstr ""
 
 #: participate.html:100
 msgid "Remote application for Android"
-msgstr "Fjernkontrollapp for Android"
+msgstr ""
 
 #: participate.html:102
 msgid ""
@@ -758,61 +773,61 @@ msgstr ""
 
 #: participate.html:108
 msgid "Social Networking"
-msgstr "Sosiale nettverk"
+msgstr ""
 
 #: participate.html:110
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Vi vil gjerne se din støtte til Clementine ved å bli med oss på ditt fortrukne sosiale nettverk!"
+msgstr ""
 
 #: participate.html:114
 msgid "Clementine on Facebook"
-msgstr "Clementine på Facebook"
+msgstr ""
 
 #: participate.html:117
 msgid "Clementine on Twitter"
-msgstr "Clementine på Twitter"
+msgstr ""
 
 #: participate.html:120
 msgid "Clementine on Last.fm"
-msgstr "Clementine på Last.fm"
+msgstr ""
 
 #: participate.html:134
 msgid "Donation"
-msgstr "Donasjon"
+msgstr ""
 
 #: participate.html:135
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr "For øyeblikket har vi ikke behov for penger så vi tar derfor ikke imot pengedonasjoner. Hvis du liker programvaren vår og ønsker å hjelpe til kan du <a href=\"#social-networking\">støtte oss</a> med å spre ordet."
+msgstr ""
 
 #: participate.html:136
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr "Du kan også hjelpe med å <a href=\"#collaborate\">bidra til programutviklingen, som forklart ovenfor</a>."
+msgstr ""
 
 #: participate.html:137
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr "Hvis du fortsatt ønsker å bruke litt penger for å gjøre oss glad, kan du gjøre en donasjon til en av disse veldedige organisasjoner vi liker"
+msgstr ""
 
 #: participate.html:137
 msgid "and let us know:"
-msgstr "og fortell oss om det:"
+msgstr ""
 
 #: participate.html:140
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+msgstr ""
 
 #: participate.html:141
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+msgstr ""
 
 #: participate.html:142
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
+msgstr ""
