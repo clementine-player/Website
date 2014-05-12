@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 17:10+0100\n"
+"POT-Creation-Date: 2014-05-12 17:26+0200\n"
 "PO-Revision-Date: 2012-11-06 23:04+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,43 +26,43 @@ msgstr "Clementine Musikkspelar"
 msgid "Control Clementine remotely from your Android phone"
 msgstr ""
 
-#: base.html:5
+#: base.html:11
 msgid "Clementine Music Player"
 msgstr "Clementine Musikkspelar"
 
-#: base.html:48
+#: base.html:53
 msgid "About"
 msgstr "Om"
 
-#: base.html:49 downloads.html:2
+#: base.html:54 downloads.html:2
 msgid "Downloads"
 msgstr "Nedlastingar"
 
-#: base.html:50 main.html:94 screenshots.html:2
+#: base.html:55 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "Skjermbilete"
 
-#: base.html:51 participate.html:2
+#: base.html:56 participate.html:2
 msgid "Participate"
 msgstr "Deltek"
 
-#: base.html:55
+#: base.html:60
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Ein musikkspelar inspirert av Amarok 1.4 som fungerar på fleire plattformar"
 
-#: base.html:80
+#: base.html:85
 msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
 msgstr "Clementine er Åpen Programvare under GPL v3. Denne nettsida har lisens under CC-BY-SA."
 
-#: base.html:81
+#: base.html:86
 msgid "Development by"
 msgstr "Utvikla av"
 
-#: base.html:82 main.html:22 main.html.py:30
+#: base.html:87 main.html:21 main.html.py:28
 msgid "and"
 msgstr "og"
 
-#: base.html:84
+#: base.html:89
 msgid "Website by"
 msgstr "Nettsida av"
 
@@ -210,79 +210,79 @@ msgstr ""
 msgid "Source code"
 msgstr ""
 
-#: data.py:230
+#: data.py:231
 msgid "Source"
 msgstr ""
 
-#: data.py:286
+#: data.py:289
 msgid "Version 0.2 released"
 msgstr ""
 
-#: data.py:287
+#: data.py:290
 msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:293
+#: data.py:296
 msgid "Version 0.3 released"
 msgstr ""
 
-#: data.py:294
+#: data.py:297
 msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:302
+#: data.py:305
 msgid "Version 0.4 released"
 msgstr ""
 
-#: data.py:303
+#: data.py:306
 msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
 msgstr ""
 
-#: data.py:312
+#: data.py:315
 msgid "Version 0.5 released"
 msgstr ""
 
-#: data.py:313
+#: data.py:316
 msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:329
+#: data.py:332
 msgid "Version 0.6 released"
 msgstr ""
 
-#: data.py:330
+#: data.py:333
 msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:342
+#: data.py:345
 msgid "Version 0.7 released"
 msgstr ""
 
-#: data.py:343
+#: data.py:346
 msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:357
+#: data.py:360
 msgid "Version 1.0 released"
 msgstr ""
 
-#: data.py:358
+#: data.py:361
 msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:370
+#: data.py:373
 msgid "Version 1.1 released"
 msgstr ""
 
-#: data.py:371
+#: data.py:374
 msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:384
+#: data.py:387
 msgid "Version 1.2 released"
 msgstr ""
 
-#: data.py:385
+#: data.py:388
 msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
 msgstr ""
 
@@ -406,136 +406,136 @@ msgstr ""
 msgid "Listen to internet radio from"
 msgstr ""
 
-#: main.html:25
+#: main.html:24
 msgid "Search and play songs you've uploaded to"
 msgstr ""
 
-#: main.html:33
+#: main.html:31
 msgid "Create smart playlists and dynamic playlists."
 msgstr ""
 
-#: main.html:34
+#: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
 msgstr ""
 
-#: main.html:35
+#: main.html:33
 msgid "CUE sheet support."
 msgstr ""
 
-#: main.html:36
+#: main.html:34
 msgid "Play audio CDs."
 msgstr ""
 
-#: main.html:37
+#: main.html:35
 msgid "Visualisations from"
 msgstr ""
 
-#: main.html:38
+#: main.html:36
 msgid "Lyrics and artist biographies and photos."
 msgstr ""
 
-#: main.html:39
+#: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
 msgstr ""
 
-#: main.html:40
+#: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
 msgstr ""
 
-#: main.html:41
+#: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
 msgstr ""
 
-#: main.html:42
+#: main.html:40
 msgid "Discover and download Podcasts."
 msgstr ""
 
-#: main.html:43
+#: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
 msgstr ""
 
-#: main.html:44
+#: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr ""
 
-#: main.html:45
+#: main.html:43
 msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "Remote control using an"
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "Android device"
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "a Wii Remote"
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "MPRIS or the command-line."
 msgstr ""
 
-#: main.html:47
+#: main.html:45
 msgid "Copy music to your"
 msgstr ""
 
-#: main.html:47
+#: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
 msgstr ""
 
-#: main.html:48
+#: main.html:46
 msgid "Queue manager."
 msgstr ""
 
-#: main.html:54
+#: main.html:52
 msgid "is a modern music player and library organizer"
 msgstr ""
 
-#: main.html:58
+#: main.html:56
 msgid "Clementine is a multiplatform music player."
 msgstr ""
 
-#: main.html:59
+#: main.html:57
 msgid "It is inspired by"
 msgstr ""
 
-#: main.html:60
+#: main.html:58
 msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
 msgstr ""
 
-#: main.html:67 main.html.py:76
+#: main.html:65 main.html.py:74
 msgid "Download the latest version now"
 msgstr ""
 
-#: main.html:68
+#: main.html:66
 msgid "Download Clementine"
 msgstr ""
 
-#: main.html:77
+#: main.html:75
 msgid "for Windows, Mac OS X and Linux"
 msgstr ""
 
-#: main.html:82
+#: main.html:80
 msgid "Announcement"
 msgstr ""
 
-#: main.html:83
+#: main.html:81
 msgid "Changelog"
 msgstr ""
 
-#: main.html:84
+#: main.html:82
 msgid "Show all downloads"
 msgstr ""
 
-#: main.html:103 screenshots.html:17
+#: main.html:101 screenshots.html:17
 #, fuzzy
 msgid "Screenshot"
 msgstr "Skjermbilete"
 
-#: main.html:116
+#: main.html:114
 msgid "News"
 msgstr ""
 

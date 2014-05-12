@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # lukibeni <lukacs.bence1@gmail.com>, 2012
 # lukibeni <lukacs.bence1@gmail.com>, 2012
@@ -11,14 +11,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 17:10+0100\n"
+"POT-Creation-Date: 2014-05-12 17:26+0200\n"
 "PO-Revision-Date: 2014-02-22 18:57+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/clementine/language/hu/)\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: android-download.html:4
@@ -29,51 +29,48 @@ msgstr ""
 msgid "Control Clementine remotely from your Android phone"
 msgstr ""
 
-#: base.html:5
+#: base.html:11
 msgid "Clementine Music Player"
 msgstr "Clementine zenelejátszó"
 
-#: base.html:48
+#: base.html:53
 msgid "About"
 msgstr "Névjegy"
 
-#: base.html:49 downloads.html:2
+#: base.html:54 downloads.html:2
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: base.html:50 main.html:94 screenshots.html:2
+#: base.html:55 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "Képernyőképek"
 
-#: base.html:51 participate.html:2
+#: base.html:56 participate.html:2
 msgid "Participate"
 msgstr "Közreműködés"
 
-#: base.html:55
+#: base.html:60
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Egy keresztplatformos zenelejátszó az Amarok 1.4 alapjain"
 
-#: base.html:80
-msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
+#: base.html:85
+msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
 msgstr "A Clementine egy szabad szoftver a GPL v3 licenc alatt. Ez az oldal a CC-BY-SA licenc alatt érhető el."
 
-#: base.html:81
+#: base.html:86
 msgid "Development by"
 msgstr "Fejleszti"
 
-#: base.html:82 main.html:22 main.html.py:30
+#: base.html:87 main.html:21 main.html.py:28
 msgid "and"
 msgstr "és"
 
-#: base.html:84
+#: base.html:89
 msgid "Website by"
 msgstr "A weboldalt készítette"
 
 #: data.py:8
-msgid ""
-"Playlist tab, while listening to songs from multiples Internet services"
+msgid "Playlist tab, while listening to songs from multiples Internet services"
 msgstr ""
 
 #: data.py:9
@@ -216,163 +213,80 @@ msgstr "Growl értesítés Max OS X-en"
 msgid "Source code"
 msgstr "Forráskód"
 
-#: data.py:230
+#: data.py:231
 msgid "Source"
 msgstr "Forrás"
 
-#: data.py:286
+#: data.py:289
 msgid "Version 0.2 released"
 msgstr "Megjelent a 0.2-es verzió"
 
-#: data.py:287
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
+#: data.py:290
+msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
 msgstr "Alig több, mint egy hónapja jelent meg a Clementine első verziója, és már itt az új verzió borítókezelővel, javított „vegyes előadók” felismeréssel, lejátszási lista támogatással és számtalan mással."
 
-#: data.py:293
+#: data.py:296
 msgid "Version 0.3 released"
 msgstr "Megjelent a 0.3-as verzió"
 
-#: data.py:294
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
+#: data.py:297
+msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
 msgstr "Ebben a kiadásban GStreamerre váltottunk minden platformon, ennek hála az analizátor és az átúsztatás a számok között már Windowson is működik. Több új funkciók is bekerült, mint a hangszínszabályzó, több csoportosítási lehetőség a zenetárban, szebb OSD, távvezérlés parancssorról és MPRIS-ről valamint könnyebb száminformáció szerkesztés."
 
-#: data.py:302
+#: data.py:305
 msgid "Version 0.4 released"
 msgstr "Megjelent a 0.4-es verzió"
 
-#: data.py:303
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
+#: data.py:306
+msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
 msgstr "Ezen kiadás újdonságai közé tartozik a többlapos lejátszási listák, a bennük való keresés lehetősége, a projectM megjelenítések, Magnatune integráció, ReplayGain hangerő kiegyenlítés valamint a zeneszámok átkódolása. Számtalan programhibát javítottunk, a nagyméretű zenetárakban való keresés gyorsabbá vált, Windowson stabilabb lett a lejátszás, a karakterkódolási hibákat javítottuk és a távoli lejátszási listák hibátlanul töltődnek be ezentúl."
 
-#: data.py:312
+#: data.py:315
 msgid "Version 0.5 released"
 msgstr "Megjelent a 0.5-ös verzió"
 
-#: data.py:313
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:316
+msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Ez a kiadás hordozható eszköztámogatással bővült. Ezentúl számokat másolhat iPodra, iPhonera, MTP-re vagy bármilyen USB-s adathordozó alapú eszközre. További információért tekintse meg <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki oldalunkat</a>. Távvezérlési lehetőségként mostantól a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii vezérlőjét</a> is használhatja. További újdonság a sorkezelő, a fájlok rendezése ablak, a lejátszási listán az oszlopok automatikus méretezése, a beágyazott id3v2 album borítók megjelenítése, még több zenetár szűrési lehetőség, „fogd és ejtsd” a lejátszási listák között, valamint egy hypnotoad. Ezeken felül az indulási időt több mint felére csökkentettük, rengeteg memória kezelési hibát javítottunk, és a processzorhasználat is csökkent lejátszás közben. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
-#: data.py:329
+#: data.py:332
 msgid "Version 0.6 released"
 msgstr "Megjelent a 0.6-os verzió"
 
-#: data.py:330
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:333
+msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Ez a verzió két új információs panelt tartalmaz, melyek dalszövegeket, szám statisztikákat, előadói életrajzokat, fényképeket, címkelistákat és aktuálishoz hasonló előadókat tartalmaznak. Új felületet terveztünk az oldalsávnak (jobb klikkel visszaállítható), értékelhetővé tettük a számokat, lejátszás- és kihagyásszámlálót is hozzáadtunk. Létrehozhatsz intelligens és dinamikus lejátszási listákat a zenetáradban lévő dalokból és <a href=\"http://www.jamendo.com/\">Jamendo</a> vagy Icecast rádióállomásokat is hallgathatsz. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
-#: data.py:342
+#: data.py:345
 msgid "Version 0.7 released"
 msgstr "Megjelent a 0.7-es verzió"
 
-#: data.py:343
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:346
+msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "A Clementine ebben a kiadásban egy új címkeszerkesztőt kapott automatikus kiegészítési lehetőséggel, valamint képes automatikusan felismerni a zeneszámot és a MusicBrainzről letölteni a címkéket. Ezentúl a CUE fájlok is támogatottak - a zenetár frissítésekor automatikusan felismeri őket a Clementine és minden általa leírt szám külön jelenik meg. Számos apró fejlesztést végeztünk, mint például az albumborítók megjelennek a zenetárban, a törölt számok kiszürkülnek, lehetőség van a számok megtekintésére fájlkezelőben, valamint a szám léptetőn egy felugró súgó jelenik meg, ami segít pontosabban navigálni a számon belül. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
-#: data.py:357
+#: data.py:360
 msgid "Version 1.0 released"
 msgstr "Megjelent az 1.0-ás verzió"
 
-#: data.py:358
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+#: data.py:361
+msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Ez a kiadás <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> és <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> támogatással érkezett. Hozzáadtuk a globális keresési szolgáltatást is, amivel könnyedén megkeresheti zenéit akár saját gyűjteményében, akár az interneten. Emellett olyan funkciók kerültek be, mint az audio CD-k támogatása, több átkódolási lehetőség, jobb beállítási ablak, okosabb albumborító kereső illetve nagyon sok hibajavítás. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
-#: data.py:370
+#: data.py:373
 msgid "Version 1.1 released"
 msgstr "Megjelent az 1.1-es verzió"
 
-#: data.py:371
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:374
+msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "Ez a kiadás a rég várt podcast támogatással érkezik, beleértve az integrációt és szinkronizálást a <a href=\"//gpodder.net\">gpodder.net</a> szolgáltatással. A zenék a <a href=\"http://soundcloud.com/\">Soundcloud</a> vagy a <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> oldalról szintén elérhetőek az Internet fül alatt, csakúgy mint  <a href=\"http://drive.google.com/start\">Google Drive</a>-ba feltöltött zenéi. A Clementine most már hangulatsávokat is mutat a helyi zeneszámok lejátszásánál. További információkért tekintse meg a <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">teljes kiadási jegyzéket</a>."
 
-#: data.py:384
+#: data.py:387
 msgid "Version 1.2 released"
 msgstr ""
 
-#: data.py:385
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:388
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
 msgstr ""
 
 #: downloads.html:7
@@ -392,9 +306,7 @@ msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
 #: downloads.html:56
-msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
+msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Ubuntura a legfrissebb verziót a hivatalos PPA-ból is letöltheted:"
 
 #: downloads.html:64 downloads.html.py:79
@@ -410,9 +322,7 @@ msgid "Unofficial packages"
 msgstr "Nem hivatalos csomagok"
 
 #: downloads.html:75
-msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
+msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Ha nem találod a saját disztribúciódat fent sorolva, akkor lehetséges, hogy más már készített egy nem hivatalos csomagot számodra."
 
 #: downloads.html:83
@@ -424,9 +334,7 @@ msgid "Compiling Clementine from source is easy on Linux."
 msgstr "A Clementine fordítása forrásból könnyű Linuxon."
 
 #: downloads.html:86
-msgid ""
-"Download the source code package from the list above, and in a terminal "
-"window:"
+msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Az alábbi listából kiválasztva töltsd le a forráscsomagot, és egy terminál ablakban add ki az alábbiakat:"
 
 #: downloads.html:95
@@ -450,9 +358,7 @@ msgid "Check out the code by running:"
 msgstr "Töltsd le a legfrissebb kódot az alábbi paranccsal:"
 
 #: downloads.html:108 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
+msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Ha a fejlesztői változatot nem szeretnéd forrásból fordítva kipróbálni, akkor töltsd le inkább valamelyik óránként készülő csomagunkat:"
 
 #: downloads.html:113 participate.html:75
@@ -503,138 +409,135 @@ msgstr "Keress és játssz számokat a zenetáradban."
 msgid "Listen to internet radio from"
 msgstr "Hallgass internet rádiót olyan adókról, mint"
 
-#: main.html:25
+#: main.html:24
 msgid "Search and play songs you've uploaded to"
 msgstr "Keressen és játsszon le számokat amiket feltöltött"
 
-#: main.html:33
+#: main.html:31
 msgid "Create smart playlists and dynamic playlists."
 msgstr "Hozz létre intelligens és dinamikus lejátszási listákat."
 
-#: main.html:34
+#: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
 msgstr "Többlapos lejátszási listák. M3U, XSPF, PLS és ASX importálása és exportálása."
 
-#: main.html:35
+#: main.html:33
 msgid "CUE sheet support."
 msgstr "CUE fájlok kezelése"
 
-#: main.html:36
+#: main.html:34
 msgid "Play audio CDs."
 msgstr "Audio CD-k lejátszása."
 
-#: main.html:37
+#: main.html:35
 msgid "Visualisations from"
 msgstr "Megjelenítésekhez"
 
-#: main.html:38
+#: main.html:36
 msgid "Lyrics and artist biographies and photos."
 msgstr "Dalszövegek, életrajz és képek az előadótól."
 
-#: main.html:39
+#: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
 msgstr "Zeneszámok átkódolása MP3, Ogg Vorbis, Ogg Speex, FLAC és AAC formátumokra."
 
-#: main.html:40
+#: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
 msgstr "Szerkeszd az MP3 és OGG fájljaid címkéit a könnyebb rendszerezéshez."
 
-#: main.html:41
+#: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
 msgstr "Hiányzó számcímkék kiegészítése MusicBrainz segítségével"
 
-#: main.html:42
+#: main.html:40
 msgid "Discover and download Podcasts."
 msgstr "Fedezzen fel és töltsön le podcastokat."
 
-#: main.html:43
+#: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
 msgstr "Hiányzó albumborítók letöltése a Last.fm és az Amazon oldalakról."
 
-#: main.html:44
+#: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Keresztplatformos - Windows, Mac OS X és Linux alatt is futtatható."
 
-#: main.html:45
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+#: main.html:43
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Natív rendszerértesítések Linuxon (libnotify) és Mac OS X-en (Growl)."
 
-#: main.html:46
+#: main.html:44
 msgid "Remote control using an"
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "Android device"
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "a Wii Remote"
 msgstr ""
 
-#: main.html:46
+#: main.html:44
 msgid "MPRIS or the command-line."
 msgstr "MPRIS vagy parancssor segítségével."
 
-#: main.html:47
+#: main.html:45
 msgid "Copy music to your"
 msgstr "Másold fel a zenéidet"
 
-#: main.html:47
+#: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
 msgstr "iPodra, iPhonera, MTP-re vagy hordozható USB-s lejátszóra."
 
-#: main.html:48
+#: main.html:46
 msgid "Queue manager."
 msgstr "Sorkezelő"
 
-#: main.html:54
+#: main.html:52
 msgid "is a modern music player and library organizer"
 msgstr "egy modern zenelejátszó és zenetárkezelő"
 
-#: main.html:58
+#: main.html:56
 msgid "Clementine is a multiplatform music player."
 msgstr "A Clementine egy multiplatformos zenelejátszó."
 
-#: main.html:59
+#: main.html:57
 msgid "It is inspired by"
 msgstr "Alapjait adja az"
 
-#: main.html:60
-msgid ""
-"focusing on a fast and easy-to-use interface for searching and playing your "
-"music."
+#: main.html:58
+msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
 msgstr "előtérbe helyezve a gyors és könnyen használható felületet a zenéid rendszerezésére és lejátszására."
 
-#: main.html:67 main.html.py:76
+#: main.html:65 main.html.py:74
 msgid "Download the latest version now"
 msgstr "Töltsd le a legfrissebb változatot"
 
-#: main.html:68
+#: main.html:66
 msgid "Download Clementine"
 msgstr "Clementine letöltése"
 
-#: main.html:77
+#: main.html:75
 msgid "for Windows, Mac OS X and Linux"
 msgstr "Windowsra, Mac OS X-re és Linuxra"
 
-#: main.html:82
+#: main.html:80
 msgid "Announcement"
 msgstr "Közlemények"
 
-#: main.html:83
+#: main.html:81
 msgid "Changelog"
 msgstr "Változásnapló"
 
-#: main.html:84
+#: main.html:82
 msgid "Show all downloads"
 msgstr "Minden letöltés"
 
-#: main.html:103 screenshots.html:17
+#: main.html:101 screenshots.html:17
 msgid "Screenshot"
 msgstr ""
 
-#: main.html:116
+#: main.html:114
 msgid "News"
 msgstr "Hírek"
 
@@ -651,9 +554,7 @@ msgid "channel on Freenode."
 msgstr "csatornán a Freenode hálózatán."
 
 #: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
+msgid "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away."
 msgstr "Kérjük vedd figyelembe, hogy eltérő időzónákban élhetünk, így nem biztos, hogy azonnal tudunk válaszolni a kérdéseidre, <b>légy türelmes</b>."
 
 #: participate.html:25
@@ -661,9 +562,7 @@ msgid "Forum"
 msgstr "Fórum"
 
 #: participate.html:27
-msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
+msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
 msgstr "A Clementine a Google Csoportokat használja fórumnak, levelezési listának és általános vitacsoportnak."
 
 #: participate.html:30
@@ -683,9 +582,7 @@ msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "A Clementine a GitHubot használja fejlesztői és visszajelzés követéshez."
 
 #: participate.html:40
-msgid ""
-"If you have found a bug in Clementine, please head on over to the issue "
-"tracker and create a new issue."
+msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
 msgstr "Ha hibát találtál a Clementineben, kérjük használd a hibakövetőnket a bejelentéshez."
 
 #: participate.html:43
@@ -697,15 +594,11 @@ msgid "Translating the interface"
 msgstr "A felület fordítása"
 
 #: participate.html:48
-msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
+msgid "If you'd like to translate Clementine into another language you can do so on the Transifex translations page."
 msgstr "Ha más nyelvre szeretnéd a Clementinet fordítani, akkor a Transifex fordítói oldalán megteheted."
 
 #: participate.html:49
-msgid ""
-"You can either do the translation directly on Transifex, or download a .po "
-"file from the site and then email it back to us."
+msgid "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us."
 msgstr "A Transifexen közvetlenül is fordíthatsz, vagy letölthetsz egy .po fájlt, amit készen elküldhetsz számunkra emailben."
 
 #: participate.html:52
@@ -741,22 +634,15 @@ msgid "Remote application for Android"
 msgstr ""
 
 #: participate.html:102
-msgid ""
-"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
-"player/Android-Remote\">another GitHub repository</a>."
+msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr ""
 
 #: participate.html:103
-msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr ""
 
 #: participate.html:104
-msgid ""
-"You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
-"Transifex project</a>."
+msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr ""
 
 #: participate.html:108
@@ -764,9 +650,7 @@ msgid "Social Networking"
 msgstr "Közösségi háló"
 
 #: participate.html:110
-msgid ""
-"We'd love to see you support Clementine by joining us on your favourite "
-"social networking site!"
+msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Szívesen vesszük a támogatásod azáltal, hogy csatlakozol közénk a kedvenc közösségi hálózatodon!"
 
 #: participate.html:114
@@ -786,22 +670,15 @@ msgid "Donation"
 msgstr ""
 
 #: participate.html:135
-msgid ""
-"Currently, we do not need money and as so we do not accept money donation. "
-"If you like our software and want to help us, you can <a href=\"#social-"
-"networking\">support us</a> and spread the word."
+msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr ""
 
 #: participate.html:136
-msgid ""
-"You can also help by <a href=\"#collaborate\">participating to the software "
-"development, as explained above</a>."
+msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr ""
 
 #: participate.html:137
-msgid ""
-"But if you still want to spend some money to make us happy, you can make a "
-"donation to one of these charity organizations we like"
+msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr ""
 
 #: participate.html:137
