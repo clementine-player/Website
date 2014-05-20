@@ -26,7 +26,7 @@ def Shorten(url):
       {'Content-Type': 'application/json'})
   url_json = json.load(urllib2.urlopen(request))
   if 'id' in url_json:
-    return url_json['id']
+    return re.sub(r'^http', 'https', url_json['id'])
 
 
 def HasSeenRevisionBefore(project_name, revision):
