@@ -7,8 +7,8 @@
 # John Maguire <john.maguire@gmail.com>, 2013
 # John Maguire <john.maguire@gmail.com>, 2013
 # simohamed <mohamed.sakhri@gmail.com>, 2013
-# Mohamed Tayeh <m.tayeh94@live.com>, 2013
-# Mohamed Tayeh <m.tayeh94@live.com>, 2013
+# Mohammed Tayeh <m.tayeh94@live.com>, 2013
+# Mohammed Tayeh <m.tayeh94@live.com>, 2013
 # simohamed <mohamed.sakhri@gmail.com>, 2013
 msgid ""
 msgstr ""
