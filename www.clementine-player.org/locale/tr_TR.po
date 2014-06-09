@@ -7,15 +7,15 @@
 # devingregory <devingregory@yandex.com>, 2012
 # Faruk Uzun <>, 2012
 # Irfan YAZICI <irfanyazici@gmail.com>, 2011
-# John Maguire <john.maguire@gmail.com>, 2014
-# kadirc <kadirche@gmail.com>, 2012
+# hatstand <john.maguire@gmail.com>, 2014
+# Kadir Celep <kadirche@gmail.com>, 2012
 # Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Sahin <martinamca@gmail.com>, 2012
 # zeugma <sunder67@hotmail.com>, 2012
-# Ufuk Uyumaz <ufukuyumaz@gmail.com>, 2013
-# volkangezer <volkangezer@gmail.com>, 2013
-# volkangezer <volkangezer@gmail.com>, 2014
+# Ufuk UYUMAZ <ufukuyumaz@gmail.com>, 2013
+# Volkan Gezer <volkangezer@gmail.com>, 2013
+# Volkan Gezer <volkangezer@gmail.com>, 2014
 # yusufbesir1 <yusufbesir1@gmail.com>, 2012
 # yusufbesir1 <yusufbesir1@gmail.com>, 2012
 # zeugma <sunder67@hotmail.com>, 2012
@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-12 17:26+0200\n"
+"POT-Creation-Date: 2014-06-02 11:48+0200\n"
 "PO-Revision-Date: 2014-05-11 07:08+0000\n"
 "Last-Translator: davidsansome <me@davidsansome.com>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/projects/p/clementine/language/tr_TR/)\n"

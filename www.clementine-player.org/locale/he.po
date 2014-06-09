@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# eliash <elia.shreidler@gmail.com>, 2013
-# eliash <elia.shreidler@gmail.com>, 2013
-# ud1955 <ud1955@gmail.com>, 2013
-# ud1955 <ud1955@gmail.com>, 2013
+# Elia Shreidler <elia.shreidler@gmail.com>, 2013
+# Elia Shreidler <elia.shreidler@gmail.com>, 2013
+# Uri Damsker <ud1955@gmail.com>, 2013
+# Uri Damsker <ud1955@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-12 17:26+0200\n"
+"POT-Creation-Date: 2014-06-02 11:48+0200\n"
 "PO-Revision-Date: 2014-02-22 18:57+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/clementine/language/he/)\n"
