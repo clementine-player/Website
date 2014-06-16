@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 11:48+0200\n"
-"PO-Revision-Date: 2014-02-26 15:51+0000\n"
+"PO-Revision-Date: 2014-06-09 13:07+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/clementine/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "Web stranica:"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr "Kartica popisa izvođenja, tijekom slušanja pjesama sa višestrukih Internet usluga"
+msgstr "Kartica popisa izvođenja, tijekom slušanja pjesama s višestrukih Internet usluga"
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -82,11 +82,11 @@ msgstr "Subsonic integracija"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr "Pregledavajte popis izvođenja sa Android aplikacije"
+msgstr "Pregledavajte popis izvođenja s Android aplikacije"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr "Upravljajte reprodukcijom sa Android aplikacije"
+msgstr "Upravljajte reprodukcijom s Android aplikacije"
 
 #: data.py:14
 msgid "Podcasts"
@@ -373,7 +373,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Ovo izdanje je kompatibilno sa <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine aplikacijom daljinskog upravljanja za Android</a> koja vam omogućuju daljinsko upravljanje Clementinom sa Android uređaja.<br/>U ovom izdanju je isto tako dodana podrška za Subsonic. I sada možete slušati svoju glazbu spremljenu u <a href=\"https://www.box.com/\">Boxu</a>, <a href=\"https://www.dropbox.com/\">Dropboxu</a>, <a href=\"https://skydrive.live.com/\">Skydriveu</a> i <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Posljednja nova značajka je mogućnost dodavanja i uklanjanja vašeg popisa izvođenja na novu karticu \"Popis izvođenja\" koja je smještena u lijevoj bočnoj traci.<br/>Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">cijelokupan popis promjena</a> za više informacija."
+msgstr "Ovo izdanje je kompatibilno s <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine aplikacijom daljinskog upravljanja za Android</a> koja vam omogućuju daljinsko upravljanje Clementinom s Android uređaja.<br/>U ovom izdanju je isto tako dodana podrška za Subsonic. I sada možete slušati svoju glazbu spremljenu u <a href=\"https://www.box.com/\">Boxu</a>, <a href=\"https://www.dropbox.com/\">Dropboxu</a>, <a href=\"https://skydrive.live.com/\">Skydriveu</a> i <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Posljednja nova značajka je mogućnost dodavanja i uklanjanja vašeg popisa izvođenja na novu karticu \"Popis izvođenja\" koja je smještena u lijevoj bočnoj traci.<br/>Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">cijelokupan popis promjena</a> za više informacija."
 
 #: downloads.html:7
 msgid "Latest downloads"
