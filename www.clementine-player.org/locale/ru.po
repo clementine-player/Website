@@ -13,8 +13,8 @@
 # Den Ivanov, 2013
 # Dmitry <linuxsquirrel.dev@gmail.com>, 2013
 # Dmitry <linuxsquirrel.dev@gmail.com>, 2013
-# drmx <dronmax@gmail.com>, 2013
-# drmx <dronmax@gmail.com>, 2013
+# dr&mx <dronmax@gmail.com>, 2013
+# dr&mx <dronmax@gmail.com>, 2013
 # Alexey Semenov <sov.info@mail.ru>, 2013
 # hatstand <john.maguire@gmail.com>, 2013
 # hatstand <john.maguire@gmail.com>, 2013
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 11:48+0200\n"
-"PO-Revision-Date: 2014-06-06 13:12+0000\n"
+"PO-Revision-Date: 2014-06-29 06:47+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -37,11 +37,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr "Удалённое управление Clementine"
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr "Управляйте Clementine удалённо с вашего Android-девайса"
+msgstr "Управляйте Clementine удалённо с вашего Android устройства"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -409,7 +409,7 @@ msgstr "Репозиторий PPA для Ubuntu"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Вы можете скачать последнюю версию Clementine для Ubuntu из официального PPA репозитория"
+msgstr "Вы можете скачать последнюю версию Clementine для Ubuntu из официального PPA репозитория:"
 
 #: downloads.html:64 downloads.html.py:79
 msgid "Other Downloads"
@@ -495,7 +495,7 @@ msgstr "Buildbot"
 
 #: downloads.html:126 participate.html:94
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Здесь также представлены PPA репозитории с тестовыми сборками для Ubuntu"
+msgstr "Есть также PPA репозиторий с тестовыми сборками для Ubuntu:"
 
 #: downloads.html:134
 msgid "Old downloads"
@@ -608,7 +608,7 @@ msgstr "- это современный аудиоплеер и менеджер
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine многоплатформенный музыкальный плеер"
+msgstr "Clementine — кроссплатформенный музыкальный плеер."
 
 #: main.html:57
 msgid "It is inspired by"
@@ -638,7 +638,7 @@ msgstr "Новости"
 
 #: main.html:81
 msgid "Changelog"
-msgstr "История изменений"
+msgstr "Список изменений"
 
 #: main.html:82
 msgid "Show all downloads"
@@ -690,7 +690,7 @@ msgstr "Совместная работа"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr "Отправка сообщений об ошибках и предложение исправлений"
+msgstr "Сообщения об ошибках и патчи"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
