@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Hassan Aly <me@hasssan.com>, 2014
+# La Ode Muh. Fadlun Akbar <alunkeren@gmail.com>, 2014
 # Tjung Steven <tjung.steven@gmail.com>, 2013
 # Tjung Steven <tjung.steven@gmail.com>, 2013
 # Tjung Steven <tjung.steven@gmail.com>, 2013-2014
@@ -13,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 11:48+0200\n"
-"PO-Revision-Date: 2014-04-17 02:22+0000\n"
-"Last-Translator: Tjung Steven <tjung.steven@gmail.com>\n"
+"PO-Revision-Date: 2014-07-15 07:30+0000\n"
+"Last-Translator: La Ode Muh. Fadlun Akbar <alunkeren@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/clementine/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,11 +25,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Jarak Jauh"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Kendalikan Clementine jarak jauh dengan ponsel Android Anda"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -75,7 +76,7 @@ msgstr "Situs oleh"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Tab daftar putar, ketika sedang mendengarkan lagu dari beberapa layanan Internet"
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -83,11 +84,11 @@ msgstr "Integrasi Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Menjelajahi daftar putar dari Android app"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Kendalikan pemutaran dari Android app"
 
 #: data.py:14
 msgid "Podcasts"
@@ -404,7 +405,7 @@ msgstr "Unduhan lainnya"
 
 #: downloads.html:66
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine Remote untuk Android"
 
 #: downloads.html:73
 msgid "Unofficial packages"
@@ -563,7 +564,7 @@ msgstr "Notifikasi desktop asli pada Linux (libnotify) dan Mac OS X (Growl)."
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "Kendali jarak jauh menggunakan sebuah"
 
 #: main.html:44
 msgid "Android device"
@@ -571,7 +572,7 @@ msgstr "Perangkat Android"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "sebuah Wii jarak jauh"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
@@ -633,7 +634,7 @@ msgstr "Tampilkan semua unduhan"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Foto Layar"
 
 #: main.html:114
 msgid "News"
@@ -739,13 +740,13 @@ msgstr "Ubuntu Oneiric (11.10) development builds"
 
 #: participate.html:100
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Aplikasi jarak jauh untuk Android"
 
 #: participate.html:102
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Clementine Jarak Jauh tersedia di <a href=\"https://github.com/clementine-player/Android-Remote\">repositori GitHub yang lain</a>"
 
 #: participate.html:103
 msgid ""
@@ -758,7 +759,7 @@ msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Anda dapat menerjemahkan tampilan antarmuka di <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 
 #: participate.html:108
 msgid "Social Networking"
@@ -791,7 +792,7 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Sekarang, kami tidak membutuhkan uang dan sebagaimana kami tidak menerima donasi uang. Jika Anda menyukai perangkat lunak kami dan ingin membantu kamu, Anda dapat  <a href=\"#social-networking\">mendukung kami</a> dan jelajahi dunia."
 
 #: participate.html:136
 msgid ""
