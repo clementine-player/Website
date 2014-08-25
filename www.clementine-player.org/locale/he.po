@@ -5,6 +5,7 @@
 # Translators:
 # Elia Shreidler <elia.shreidler@gmail.com>, 2013
 # Elia Shreidler <elia.shreidler@gmail.com>, 2013
+# onespace <netanelrevah@outlook.com>, 2014
 # Uri Damsker <ud1955@gmail.com>, 2013
 # Uri Damsker <ud1955@gmail.com>, 2013
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 11:48+0200\n"
-"PO-Revision-Date: 2014-02-22 18:57+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2014-08-22 13:18+0000\n"
+"Last-Translator: onespace <netanelrevah@outlook.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/clementine/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +24,15 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "שלט Clementine"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "שלוט ב-Clementine מרחוק באמצעות טלפון ה-Android שלך"
 
 #: base.html:11
 msgid "Clementine Music Player"
-msgstr "Clementine נגן המוסיקה "
+msgstr "נגן המוזיקה Clementine"
 
 #: base.html:53
 msgid "About"
@@ -51,13 +52,13 @@ msgstr "השתתף"
 
 #: base.html:60
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "נגן מוזיקה חוצה פלטפורמות מבוסס על  Amarok 1.4"
+msgstr "נגן מוזיקה חוצה פלטפורמות המבוסס על  Amarok 1.4"
 
 #: base.html:85
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
+msgstr "Clementine הינו תוכנה חופשית תחת רשיון GPL v3. אתר זה רשום תחת רשיון CC-BY-SA"
 
 #: base.html:86
 msgid "Development by"
@@ -74,59 +75,59 @@ msgstr "האתר נבנה על ידי"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "כרטיסיית רשימת השמעה, כשמאזינים לשירים מכמה שירותי אינטרנט שונים."
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "חיבור ל-Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "סיור ברשימת ההשמעה מתוך אפליקציית ה-Android"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "שליטה בנגינה מתוך אפליקציית Android"
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "פודקאסטים"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "ממשק חיפוש כללי חדש"
 
 #: data.py:17
 msgid "Moodbars"
-msgstr ""
+msgstr "סרגלי אווירה"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr ""
+msgstr "הגדרות המרת הקידוד"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "החיפוש הכללי מוצא אלבומים ב-Spotify"
 
 #: data.py:22
 msgid "Global search options"
-msgstr ""
+msgstr "אפשרויות החיפוש הכללי"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "חיבור ל-Grooveshark"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "מילות שיר וסרגל מידע לרצועה"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "MusicBrainz מתקן קבצים לא מתוייגים"
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
@@ -134,7 +135,7 @@ msgstr "עורך תגיות חדש עם השלמה אוטומאטית"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "סרגל המידע לרצועה ב-Mac OS X"
 
 #: data.py:32
 msgid "Artist photos and biographies"
@@ -146,7 +147,7 @@ msgstr "מילות השיר"
 
 #: data.py:34
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "תחנות רדיו של Icecast"
 
 #: data.py:35
 msgid "Smart playlists and kittens"
@@ -154,7 +155,7 @@ msgstr "רשימת השמעה חכמה וחתלתולים"
 
 #: data.py:38
 msgid "The queue manager on Windows 7"
-msgstr ""
+msgstr "מנהל התור ב-Windows 7"
 
 #: data.py:39
 msgid "Copying music to an iPod in Ubuntu"
@@ -162,11 +163,11 @@ msgstr "העתקת מוזיקה לאייפוד באובונטו"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "Clementine 0.5 ב-Ubu... רוב תודות ל-The Hypnotaod"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.5 ב-Mac OS X"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
@@ -174,19 +175,19 @@ msgstr "קלמטין 0.4 על אובונטו"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "Clementine 0.4 ב-Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr ""
+msgstr "אפקטים חזותיים ב-Clementine 0.4 בעזרת projectM"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.4 ב-Mac OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
-msgstr ""
+msgstr "רדיו לתגית מ-Last.fm"
 
 #: data.py:51
 msgid "Searching the library"
@@ -194,46 +195,46 @@ msgstr "מחפש בספריה"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr ""
+msgstr "עורך התיוג ב-Windows"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr ""
+msgstr "מנהל העטיפות ב-Mac OS X"
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr ""
+msgstr "השמעה ב-Linux"
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr ""
+msgstr "תמיכת Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "עדכוני Growl ב-Max OS X"
 
 #: data.py:203
 msgid "Source code"
-msgstr ""
+msgstr "קוד מקור"
 
 #: data.py:231
 msgid "Source"
-msgstr ""
+msgstr "מקור"
 
 #: data.py:289
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "גרסה 0.2 שוחררה"
 
 #: data.py:290
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
+msgstr "עבר מעל חודש מאז שוחררה הגרסה הראשונה של Clementine. זוהי גרסה חדשה המכילה עטיפות אלבומים, זיהוי טוב יותר של \"אמנים שונים\", תמיכה בטעינת רשימות השמעה והמון דברים אחרים."
 
 #: data.py:296
 msgid "Version 0.3 released"
-msgstr ""
+msgstr "גרסה 0.3 שוחררה"
 
 #: data.py:297
 msgid ""
@@ -241,11 +242,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
+msgstr "בשחרור זה עברנו להשתמש ב-GStreamer בכל הפלטפורמות, משמעות כך היא שהניתוח והדעיכה בין רצועות יעבדו גם ב-Windows. באפשרויות החדשות נכלל אקולייזר, אפשרויות קיבוץ חדשות בספריה, ממשק משתמש ידידותי יותר, שליטה מרחוק מתוך שורת הפקודה ו-MPRIS, ועריכה פשוטה יותר של תגיות."
 
 #: data.py:305
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "גרסה 0.4 שוחררה"
 
 #: data.py:306
 msgid ""
@@ -255,11 +256,11 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr ""
+msgstr "השחרור כולל כרטיסיות של רשימות השמעה, חיפוש ברשימת השמעה, אפקטים חזותיים של projectM, חיבור ל-Magnatune, נרמול עוצמת קול באמצעות ReplayGain והמרת קבצי שמע. בנוסף תיקנו המון תקלות - החיפוש בספריות גדולות הפך למהיר יותר, ההשמעה ב-Windows אמינה יותר, בעיות בקידוד תווים תוקנו ורשימות השמעה מרוחקות נטענות כראוי בכל עת."
 
 #: data.py:315
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "גרסה 0.5 שוחררה"
 
 #: data.py:316
 msgid ""
@@ -277,11 +278,11 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "שחרור זה מוסיף תמיכה בשימוש בהתקנים ניידים עם Clementine. כעת אתם יכולים להעתיק שירים אל iPod, iPhone, MTP או התקן אחסון USB. ראו את <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">ה-wiki למידע נוסףinformation</a>. נוספה תמיכה בשימוש ב-<a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">שלט ה-Wii</a> כשלט. אפשרויות אחרות כוללות מנהל תור, חלון ארגון הקבצים, מתיחה עמודות אוטומטית ברשימת ההשמעה, טעינת עטיפות מוטמעות מ-id3v2, אפשרויות סריקת ספריה נוספות, גרירה בין רשימות השמעה ו-hypnotaod. הפחתנו גם את זמני העליה ביותר מחצי, תוקנו דליפות הזיכרון והופחת השימוש במעבד בזמן נגינת מוזיקה. ראה את <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">רשימת השינויים המלאה</a> למידע נוסף."
 
 #: data.py:332
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "גרסה 0.6 שוחררה"
 
 #: data.py:333
 msgid ""
@@ -295,11 +296,11 @@ msgid ""
 " the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "שחרור זה כולל זוג פאנלי מידע חדשים המציגים מילים לשירים, סטטיסטיקות שירים, ביגורפיות של אמנים, תמונה ורשימות של תגיות ואמנים דומים. עיצבנו מחדש את סרגל הצד (למרות שאתה יכול לחזור לקודם בקלות בעזרת הקלקה עליו עם כפתור ימני) בנוסף נוספו דירוגים ומוני השמעות ודילוגים. אתה יכול ליצור רשימות השמעה חכמות ודינאמיות מתוך השירים בספריה שלך, ובנוסף להאזין למוזיקה מתוך <a href=\"http://www.jamendo.com/\">Jamendo</a> ותחנות רדיו של Icecast. ראה את <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">רשימת השינויים המלאה</a> למידע נוסף."
 
 #: data.py:345
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "גרסה 0.7 שוחררה"
 
 #: data.py:346
 msgid ""
@@ -315,11 +316,11 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "בשחרור זה Clementine מתחזק בתיבת עריכת תגיות חדשה לגמרי עם השלמה אוטומטית ואפשרות לזיהוי שמע אוטומטי ומשיכת תגיות חסרות מ-MusicBrainz. גליונות CUE נתמכים כעת - הם מזוהים בצורה אוטומטית כשהספריה נסרקת וכל רצועה תוצג בנפרד. בנוסף ביצענו המון שיפורים קטנים כמו הצגת תמונות אלבום בכרטיסיית הספריה, האפלת שירים שנמחקו, אפשרות \"הצג בסייר הקבצים\", תמיכה במתווכי רשת, אפשרות \"סריקה מלאה של הספריה\", ותיבת עזר חדשה עבור סרגל הרצועה שעוזרת לך לחפש באופן מדוייק יותר מיקומים ספציפיים בשיר. ראה את <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">רשימת השינויים המלאה</a> למידע נוסף."
 
 #: data.py:360
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "גרסה 1.0 שוחררה"
 
 #: data.py:361
 msgid ""
@@ -333,11 +334,11 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
 "/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
 " more information."
-msgstr ""
+msgstr "שחרור זה מוסיף תמיכה בשירותים: <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://www.spotify.com\">Spotify</a> ו-<a href=\"http://www.sky.fm/\">SKY.fm</a>>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. הוספנו גם אפשרות \"חיפוש כללי\" שמאפשרת לך למצוא בקלות מוזיקה בין שהיא נמצאת בספריה ובין ברשת. אפשרויות אחרות כוללות תמיכה בתקליטורי שמע, אפשרויות המרה נוספות, תפריט הגדרות משופר, חיפוש עטיפות חכם יותר והמון תיקוני תקלות. ראה את <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">רשימת השינויים המלאה</a> למידע נוסף. "
 
 #: data.py:373
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "גרסה 1.1 שוחררה"
 
 #: data.py:374
 msgid ""
@@ -351,11 +352,11 @@ msgid ""
 "<a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "שחרור זה מוסיף את התמיכה המצופה בפודקאסטים הכוללת התממשקות וסנכון עם <a href=\"//gpodder.net\">gpodder.net</a>. מוזיקה מתוך <a href=\"http://soundcloud.com/\">Soundcloud</a> ו-<a href=\"http://www.jazzradio.com/\">jazzradio.com</a> זמינה כעת מתוך כרטיסיית הרשת בסרגל הצדדי, בנוסף לכל שיר שהעלית ל-<a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine יציג סרגלי אווירה עבור המוזיקה שאתה מנגן מתוך הדיסק הקשיח שלך. ראה את <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">רשימת השינויים המלאה</a> למידע נוסף."
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "גרסה 1.2 שוחררה"
 
 #: data.py:388
 msgid ""
@@ -373,449 +374,449 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "שחרור זה תואם את  <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">אפליקציית שלט Clementine עבור Android</a> המאפשרת לך לשלוט מרחוק ב-Clementine מהתקן Android.<br/>בנוסף, שחרור זה מוסיף תמיכה ב-Subsonic. כעת תוכל להאזין למוזיקה המאוחסנת בשירותים: <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> ו-<a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. שינויים משמעותיים אחרונים כוללים את האפשרות לסמן בכוכב את רשימות ההשמעה שלך, כך שתוכל לסגור אותן בבטחה ולשחזרן מאוחר יותר מתוך כרטיסיית רשימות ההשמעה החדשה שהוספנו בסרגל הצדדי.<br/>ראה את <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">רשימת השינויים המלאה</a> למידע נוסף."
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "הורדות אחרונות"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "הורד את הגרסה היציבה האחרונה של Clementine למערכת ההפעלה שלך."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "הורדות למערכות הפעלה אחרות"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "Ubuntu PPA"
 
 #: downloads.html:56
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "תוכל להוריד כעת את הגרסה האחרונה של Clementine ב-Ubuntu מתוך ה-PPA הרשמי:"
 
 #: downloads.html:64 downloads.html.py:79
 msgid "Other Downloads"
-msgstr ""
+msgstr "הורדות אחרות"
 
 #: downloads.html:66
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "שלט Clementine עבור Android"
 
 #: downloads.html:73
 msgid "Unofficial packages"
-msgstr ""
+msgstr "חבילות לא רשמיות"
 
 #: downloads.html:75
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "אם אינך רואה את ההפצה שלך ברשימה למעלה, כנראה שמישהו יצר חבילה לא רשמית עבורך."
 
 #: downloads.html:83
 msgid "Compiling from source"
-msgstr ""
+msgstr "הידור מהמקור"
 
 #: downloads.html:85
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "הידור Clementine מן המקור ב-Linux זה פשוט."
 
 #: downloads.html:86
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "הורד את חבילת קוד המקור מן הרשימה למעלה, ובחלון המסוף:"
 
 #: downloads.html:95
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "הנחיות מלאות ורשימת תלויות"
 
 #: downloads.html:99
 msgid "Bleeding edge packages"
-msgstr ""
+msgstr "חבילות חמות מן התנור"
 
 #: downloads.html:101 participate.html:57
 msgid "Development on Clementine happens in"
-msgstr ""
+msgstr "הפיתוח ב-Clementine מתרחש בתוך"
 
 #: downloads.html:103 participate.html:59
 msgid "the git repository"
-msgstr ""
+msgstr "מאגר ה-git"
 
 #: downloads.html:104 participate.html:60
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "קבל את הקוד על ידי הרצת:"
 
 #: downloads.html:108 participate.html:70
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
+msgstr "אם אתה מעדיף לא להדר את גרסת הפיתוח בעצמך תוכל לנסוף את אחת מהחבילות לפי שעה:"
 
 #: downloads.html:113 participate.html:75
 msgid "Mac OS X development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Mac OS X"
 
 #: downloads.html:115 participate.html:85
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Precise (12.04)"
 
 #: downloads.html:117 participate.html:87
 msgid "Ubuntu Quantal (12.10) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Quantal (12.10)"
 
 #: downloads.html:119
 msgid "Ubuntu Raring (13.04) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Raring (13.04)"
 
 #: downloads.html:121 participate.html:89
 msgid "Windows development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Windows"
 
 #: downloads.html:123 participate.html:91
 msgid "Buildbot"
-msgstr ""
+msgstr "בוט גרסאות"
 
 #: downloads.html:126 participate.html:94
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr ""
+msgstr "קיימים גם Ubuntu PPA עבור גרסאות הפיתוח הבאות:"
 
 #: downloads.html:134
 msgid "Old downloads"
-msgstr ""
+msgstr "הורדות ישנות"
 
 #: downloads.html:142 screenshots.html:8
 msgid "Version"
-msgstr ""
+msgstr "גרסה"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr ""
+msgstr "אודות ותכונות"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "חפש ונגן מתוך ספריית המוזיקה המקומית שלך"
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr ""
+msgstr "האזן לרדיו רשתי מתוך"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "חפש ונגן שירים שהעלית אל"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "צור רשימות השמעה חכמות ודינאמיות"
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "כרטיסיות רשימות השמעה, ייבוא ויצוא M3U, XSPF, PLS ו-ASX."
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr ""
+msgstr "תמיכה בגליונות CUE."
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr ""
+msgstr "ניגון תקליטורי שמע."
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr ""
+msgstr "אפקטים חזותיים מתוך"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "מילים לשירים וביוגרפיות ותמונות של אמנים."
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "המר שמע אל MP3, Ogg Vorbis, Ogg Speex, FLAC או AAC."
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
+msgstr "ערוך תגיות בקבצי MP3 או OGG, סדר את המוזיקה שלך."
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "משוך תגיות חסרות מ-MusicBrainz."
 
 #: main.html:40
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "גלה והורד פודקאסטים."
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "הורד עטיפות אלבומים חסרות מתוך Last.fm ו-Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr ""
+msgstr "חוצה-פלטפורמות - עובד ב-Windows, MAC OS X ו-Linux."
 
 #: main.html:43
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
+msgstr "הודעות שולחן עבודה פנימיות ב-Linux (libnotify) ו-Mac OS X (Growl)"
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "שליטה מרחוק בעזרת"
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "התקני Android"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "ושלטי Wii"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
-msgstr ""
+msgstr "MPRIS או שורת הפקודה."
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "העתק מוזיקה אל"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, iPhone, MTP או אחסון USB."
 
 #: main.html:46
 msgid "Queue manager."
-msgstr ""
+msgstr "מנהל התור"
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "הוא נגן מוזיקה מודרני ומארגן ספריה"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr ""
+msgstr "Clementine הינו נגן מוזיקה רב-פלטפורמות."
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr ""
+msgstr "הוא מקבל השראה מן"
 
 #: main.html:58
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
+msgstr "מתרכז בממשק מהיר וקל לשימוש עבור חיפוש וניגון מוזיקה."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr ""
+msgstr "הורד כעת את הגרסה האחרונה"
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr ""
+msgstr "הורד את Clementine"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "עבור Windows, Max OS X ו-Linux"
 
 #: main.html:80
 msgid "Announcement"
-msgstr ""
+msgstr "הכרזות"
 
 #: main.html:81
 msgid "Changelog"
-msgstr ""
+msgstr "רשימת שינויים"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr ""
+msgstr "הצג את כל ההורדות"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "צילומי מסך"
 
 #: main.html:114
 msgid "News"
-msgstr ""
+msgstr "חדשות"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr ""
+msgstr "צריך עזרה?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr ""
+msgstr "בוא לדבר איתנו בערוץ"
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr ""
+msgstr "ב-Freenode."
 
 #: participate.html:22
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
+msgstr "אנא זכור <b>לבדוק מדי פעם לאחר שאילת שאלה</b> - אנו עלולים להיות באזור זמן אחר כך שלא נראה את שאלתך באותו הרגע."
 
 #: participate.html:25
 msgid "Forum"
-msgstr ""
+msgstr "פורום"
 
 #: participate.html:27
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
+msgstr "Clementine משתמש בקבוצות Google בתור הפורום/ קבוצת המיילים/קבוצת הדיונים הכללית שלו."
 
 #: participate.html:30
 msgid "Support and discussion group"
-msgstr ""
+msgstr "קבוצת תמיכה ושיחה."
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "שיתוף פעולה"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "דיווח על תקלות והצעת שינויים"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr ""
+msgstr "Clementine משתמש ב-GitHub עבור פיתוח ומעקב אחר סוגיות."
 
 #: participate.html:40
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
+msgstr "אם מצאת תקלה ב-Clementine, אנא פנה למעקב הסוגיות וצור סוגיה חדשה."
 
 #: participate.html:43
 msgid "Issue tracker"
-msgstr ""
+msgstr "מעקב סוגיות"
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "תרגום הממשק"
 
 #: participate.html:48
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "אם ברצונך לתרגם את Clementine לשפה נוספת תוכל לעשות זאת באמצעות דף המתרגמים ב-Transifex."
 
 #: participate.html:49
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "תוכל לתרגם ישירות ב-Transifex או להוריד קובץ .po מתוך האתר ולשולחו אלינו באמצעות דואר אלקטרוני."
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr ""
+msgstr "תרגומי Transifex"
 
 #: participate.html:55
 msgid "Hacking"
-msgstr ""
+msgstr "האקינג"
 
 #: participate.html:66
 msgid "How to compile Clementine from source"
-msgstr ""
+msgstr "כיצד להדר את Clementine מן המקור"
 
 #: participate.html:77
 msgid "Ubuntu Lucid (10.04) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Lucid (10.04)"
 
 #: participate.html:79
 msgid "Ubuntu Maverick (10.10) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Maverick (10.10)"
 
 #: participate.html:81
 msgid "Ubuntu Natty (11.04) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Natty (11.04)"
 
 #: participate.html:83
 msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr ""
+msgstr "גרסאות פיתוח עבור Ubuntu Oneiric (11.10)"
 
 #: participate.html:100
 msgid "Remote application for Android"
-msgstr ""
+msgstr "אפליקציית שלט רחוק עבור Android"
 
 #: participate.html:102
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr " שלט רחוק עבורClementineמאוחסן ב<a href=\"https://github.com/clementine-player/Android-Remote\">GitHub repository</a> אחר."
 
 #: participate.html:103
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgstr "תוכל לדווח על סוגיות ושינויים מוצעים <a href=\"https://github.com/clementine-player/Android-Remote/issues\">במעקב התקלות שלו</a>."
 
 #: participate.html:104
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "כעת תוכל לתרגם את הממשק באמצעות <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">פרוייקט Transifex זה</a>"
 
 #: participate.html:108
 msgid "Social Networking"
-msgstr ""
+msgstr "רשתות חברתיות"
 
 #: participate.html:110
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "נשמח לראות את תמיכתך ב-Clementine בכך שתצטרף אלינו ברשת החברתית המועדפת עליך!"
 
 #: participate.html:114
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "Clementine בפייסבוק"
 
 #: participate.html:117
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine בטוויטר"
 
 #: participate.html:120
 msgid "Clementine on Last.fm"
-msgstr ""
+msgstr "Clementine ב-Last.fm"
 
 #: participate.html:134
 msgid "Donation"
-msgstr ""
+msgstr "תרומות"
 
 #: participate.html:135
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "נכון לעכשיו, אנו לא נזקקים לכסף ולכן אנו לא מקבלים תרומות כספיות. אם אהבת את התוכנה וברצונך לעזור לנו תוכל <a href=\"#social-networking\">לתמוך בנו</a> ולהפיץ את השמועה."
 
 #: participate.html:136
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "תוכל לעזור לנו על ידי <a href=\"#collaborate\">השתתפות בפיתוח התוכנה כמתואר למעלה.above</a>."
 
 #: participate.html:137
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "אם בכל זאת תרצה לתת מכספך עבורנו, תוכל לתרום לאחד מארגוני הצדקה שאנו מעריכים"
 
 #: participate.html:137
 msgid "and let us know:"
-msgstr ""
+msgstr "ולספר לנו על כך:"
 
 #: participate.html:140
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:141
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:142
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
