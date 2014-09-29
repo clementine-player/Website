@@ -17,22 +17,12 @@ BUILDBOT_URL_TEMPLATE=('http://buildbot.clementine-player.org/json/' +
                        'builders/%s/builds/?')
 SELECT_TEMPLATE='select=%s'
 
-BUILDER='Mac Release'
-
 BUILDERS=[
     ('Mac Release',          '/mac'),
     ('Deb Precise 32-bit',   '/ubuntu-precise'),
     ('Deb Precise 64-bit',   '/ubuntu-precise'),
-    ('Deb Quantal 32-bit',   '/ubuntu-quantal'),
-    ('Deb Quantal 64-bit',   '/ubuntu-quantal'),
-    ('Deb Raring 32-bit',    '/ubuntu-raring'),
-    ('Deb Raring 64-bit',    '/ubuntu-raring'),
-    ('Deb Saucy 32-bit',     '/ubuntu-saucy'),
-    ('Deb Saucy 64-bit',     '/ubuntu-saucy'),
     ('Deb Trusty 32-bit',    '/ubuntu-trusty'),
     ('Deb Trusty 64-bit',    '/ubuntu-trusty'),
-    ('Deb Wheezy 32-bit',    '/debian-wheezy'),
-    ('Deb Wheezy 64-bit',    '/debian-wheezy'),
     ('Deb Jessie 32-bit',    '/debian-jessie'),
     ('Deb Jessie 64-bit',    '/debian-jessie'),
     ('Rpm Fedora 19 32-bit', '/fedora-19'),
