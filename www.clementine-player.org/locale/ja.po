@@ -4,6 +4,7 @@
 # 
 # Translators:
 # 0bytetest_green <xenolith0bytetestcomgreen@gmail.com>, 2013
+# Jun NOGATA <nogajun@gmail.com>, 2014
 # monorod <monorod98@gmail.com>, 2014
 # PowerGeefo, 2014
 # PowerGeefo, 2014
@@ -15,8 +16,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-02 11:48+0200\n"
-"PO-Revision-Date: 2014-07-18 09:46+0000\n"
-"Last-Translator: PowerGeefo\n"
+"PO-Revision-Date: 2014-09-26 02:10+0000\n"
+"Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/clementine/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +27,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementineリモート"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Android携帯からClementineをコントロール"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -54,7 +55,7 @@ msgstr "参加する"
 
 #: base.html:60
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Amarok 1.4 にインスパイアされたクロスプラットフォームなミュージックプレイヤー"
+msgstr "Amarok 1.4 にインスパイアされたクロスプラットフォームのミュージックプレイヤー"
 
 #: base.html:85
 msgid ""
@@ -77,19 +78,19 @@ msgstr "ウェブサイト制作: "
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "プレイリストタブ画面。複数のインターネットサービスから音楽が聞けます"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Subsonicとの統合"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Androidアプリからプレイリスト閲覧"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Androidアプリから再生をコントロール"
 
 #: data.py:14
 msgid "Podcasts"
@@ -101,7 +102,7 @@ msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "新しいグローバル検索インターフェース"
 
 #: data.py:17
 msgid "Moodbars"
@@ -109,19 +110,19 @@ msgstr "ムードバー"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr ""
+msgstr "変換設定画面"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "グローバル検索を使ってSpotifyからアルバムを検索"
 
 #: data.py:22
 msgid "Global search options"
-msgstr ""
+msgstr "グローバル検索オプション画面"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Groovesharkとの統合"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
@@ -129,7 +130,7 @@ msgstr "歌詞とトラックスライダーツールチップ"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
-msgstr "MusicBrainz技術は、タグの付いていないファイルにタグを自動追加"
+msgstr "MusicBrainzは、タグの付いていないファイルにタグを自動追加"
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
@@ -137,7 +138,7 @@ msgstr "自動補完機能のついた新しいタグエディタ"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Mac OS Xのトラックスライダーツールチップ"
 
 #: data.py:32
 msgid "Artist photos and biographies"
@@ -153,7 +154,7 @@ msgstr "Icecastのラジオ局"
 
 #: data.py:35
 msgid "Smart playlists and kittens"
-msgstr "Smart playlistsとkittens"
+msgstr "スマートプレイリストと子猫の写真"
 
 #: data.py:38
 msgid "The queue manager on Windows 7"
@@ -284,7 +285,7 @@ msgstr ""
 
 #: data.py:332
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "バージョン 0.6 リリース"
 
 #: data.py:333
 msgid ""
@@ -358,7 +359,7 @@ msgstr ""
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "バージョン 1.2 リリース"
 
 #: data.py:388
 msgid ""
@@ -406,7 +407,7 @@ msgstr "その他のダウンロード"
 
 #: downloads.html:66
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementineリモート for Android"
 
 #: downloads.html:73
 msgid "Unofficial packages"
@@ -488,7 +489,7 @@ msgstr ""
 
 #: downloads.html:134
 msgid "Old downloads"
-msgstr ""
+msgstr "古いバージョンのダウンロード"
 
 #: downloads.html:142 screenshots.html:8
 msgid "Version"
@@ -496,108 +497,108 @@ msgstr "バージョン"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr ""
+msgstr "特徴と機能"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "ローカルミュージックライブラリを検索して再生する"
+msgstr "ローカルミュージックライブラリの検索と再生"
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr "インターネットラジオを聞く"
+msgstr "インターネットラジオの聴取"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "サービスにアップロードした音楽の検索と再生"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr "スマートプレイリストやダイナミックプレイリストを作る"
+msgstr "スマートプレイリストやダイナミックプレイリストの作成"
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "タブ化されたプレイリストとM3U, XSPF, PLS, ASXのインポートとエクスポート"
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr ""
+msgstr "CUEシートサポート"
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr "オーディオCDを再生"
+msgstr "オーディオCDの再生"
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr ""
+msgstr "音楽のビジュアル化 "
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "歌詞やアーティストのバイオグラフィー, 写真の閲覧"
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "音楽をMP3, Ogg Vorbis, Ogg Speex, FLAC, AACファイルに変換"
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
+msgstr "MP3とOGGファイルタグを編集して音楽を整理"
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "不明なタグをMusicBrainzから検索して登録"
 
 #: main.html:40
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "ポッドキャストの検索とダウンロード"
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "アルバムカバーアートをLast.fmとAmazonからダウンロード"
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr ""
+msgstr "Windows, Mac OS X, Linuxのクロスプラットフォームで利用"
 
 #: main.html:43
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
+msgstr "システムのデスクトップ通知対応 Linux (libnotify)とMac OS X (Growl)"
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "リモートコントロール "
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "Androidデバイス"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "Wiiリモート"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
-msgstr ""
+msgstr "MPRIS, コマンドライン"
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "携帯プレーヤーに転送"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, iPhone, MTP, USBマスストレージプレーヤー。"
 
 #: main.html:46
 msgid "Queue manager."
-msgstr ""
+msgstr "キューマネージャー"
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "は、音楽の統合管理のための現代的な音楽プレーヤーです"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr ""
+msgstr "Clementineは、マルチプラットフォームの音楽プレーヤーです。"
 
 #: main.html:57
 msgid "It is inspired by"
@@ -611,7 +612,7 @@ msgstr ""
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr "最新バージョンをダウンロードできます"
+msgstr "最新バージョンをダウンロード"
 
 #: main.html:66
 msgid "Download Clementine"
@@ -675,11 +676,11 @@ msgstr ""
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "コラボレート"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "バグ報告とパッチの提案"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
@@ -697,7 +698,7 @@ msgstr ""
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "インターフェースの翻訳"
 
 #: participate.html:48
 msgid ""
@@ -717,7 +718,7 @@ msgstr "Transifex translations"
 
 #: participate.html:55
 msgid "Hacking"
-msgstr ""
+msgstr "ハックする"
 
 #: participate.html:66
 msgid "How to compile Clementine from source"
@@ -741,7 +742,7 @@ msgstr ""
 
 #: participate.html:100
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Android用リモートコントロールアプリ"
 
 #: participate.html:102
 msgid ""
