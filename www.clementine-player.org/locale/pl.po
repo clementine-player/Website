@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 11:29+0200\n"
+"POT-Creation-Date: 2014-10-02 00:19+0200\n"
 "PO-Revision-Date: 2014-04-28 03:56+0000\n"
 "Last-Translator: jan <duxetlg@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/clementine/language/pl/)\n"
@@ -320,91 +320,96 @@ msgstr "Ubuntu PPA"
 msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Możesz pobrać najnowszą wersję Clemetine na Ubuntu z oficjalnego PPA:"
 
-#: downloads.html:64 downloads.html.py:79
+#: downloads.html:62
+msgid "Dependencies for Ubuntu Precise (12.04)"
+msgstr ""
+
+#: downloads.html:63
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgstr ""
+
+#: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
 msgstr "Inne opcje pobierania"
 
-#: downloads.html:66
+#: downloads.html:70
 msgid "Clementine Remote for Android"
 msgstr "Clementine Remote dla Androida"
 
-#: downloads.html:73
+#: downloads.html:77
 msgid "Unofficial packages"
 msgstr "Nieoficjalne paczki"
 
-#: downloads.html:75
+#: downloads.html:79
 msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Nie widzisz swojej dystrybucji powyżej? Być może ktoś zrobił nieoficjalną paczkę dla Ciebie!"
 
-#: downloads.html:83
+#: downloads.html:87
 msgid "Compiling from source"
 msgstr "Kompilacja ze źródeł"
 
-#: downloads.html:85
+#: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Kompilacja ze źródeł jest łatwa na Linuksie."
 
-#: downloads.html:86
+#: downloads.html:90
 msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Pobierz paczkę z kodem źródłowym z listy powyżej, i w terminalu wpisz:"
 
-#: downloads.html:95
+#: downloads.html:99
 msgid "Full instructions and list of dependencies"
 msgstr "Pełna instrukcja i lista zależności"
 
-#: downloads.html:99
+#: downloads.html:103
 msgid "Bleeding edge packages"
 msgstr "Bleeding edge packages"
 
-#: downloads.html:101 participate.html:57
+#: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr "Rozwój Clementine odbywa się poprzez"
 
-#: downloads.html:103 participate.html:59
+#: downloads.html:107 participate.html:59
 msgid "the git repository"
 msgstr "repozytorium git"
 
-#: downloads.html:104 participate.html:60
+#: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
 msgstr "W celu pobrania kodu wpisz:"
 
-#: downloads.html:108 participate.html:70
+#: downloads.html:112 participate.html:70
 msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Jeżeli wolisz nie kompilować wersji rozwojowej własnoręcznie, spróbuj jednej z paczek \"hourly\":"
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
 msgstr "Wersje rozwojowe dla systemu Mac OS X"
 
-#: downloads.html:115 participate.html:85
+#: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "Wersje rozwojowe dla Ubuntu Precise (12.04)"
 
-#: downloads.html:117 participate.html:87
-msgid "Ubuntu Quantal (12.10) development builds"
-msgstr "Wersje rozwojowe dla Ubuntu Quantal (12.10)"
+#: downloads.html:121 participate.html:79
+#, fuzzy
+msgid "Ubuntu Trusty (14.04) development builds"
+msgstr "Wersje rozwojowe dla Ubuntu Natty (11.04)"
 
-#: downloads.html:119
-msgid "Ubuntu Raring (13.04) development builds"
-msgstr "Wersje rozwojowe dla Ubuntu Raring (13.04)"
-
-#: downloads.html:121 participate.html:89
+#: downloads.html:123 participate.html:81
 msgid "Windows development builds"
 msgstr "Wersje rozwojowe dla systemu Windows"
 
-#: downloads.html:123 participate.html:91
+#: downloads.html:125 participate.html:83
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:126 participate.html:94
+#: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Paczki te możesz również znaleźć w poniższym Ubuntu PPA:"
 
-#: downloads.html:134
+#: downloads.html:136
 msgid "Old downloads"
 msgstr "Stare pliki do pobrania"
 
-#: downloads.html:142 screenshots.html:8
+#: downloads.html:144 screenshots.html:8
 msgid "Version"
 msgstr "Wersja"
 
@@ -624,86 +629,97 @@ msgstr "Hackowanie"
 msgid "How to compile Clementine from source"
 msgstr "Jak skompilować Clementine ze źródeł"
 
-#: participate.html:77
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Wersje rozwojowe dla Ubuntu Lucid (10.04)"
-
-#: participate.html:79
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Wersje rozwojowe dla Ubuntu Maverick (10.10)"
-
-#: participate.html:81
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Wersje rozwojowe dla Ubuntu Natty (11.04)"
-
-#: participate.html:83
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Wersje rozwojowe dla Ubuntu Oneiric (11.10)"
-
-#: participate.html:100
+#: participate.html:92
 msgid "Remote application for Android"
 msgstr "Aplikacja kontroli zdalnej dla systemu Android"
 
-#: participate.html:102
+#: participate.html:94
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Aplikacja Clementine Remote jest dostępna pod <a href=\"https://github.com/clementine-player/Android-Remote\">osobnym projektem GitHub</a>."
 
-#: participate.html:103
+#: participate.html:95
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Możesz zgłaszać błędy i proponować łatki na <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">bug trackerze</a>."
 
-#: participate.html:104
+#: participate.html:96
 msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "Możesz przetłumaczyć interfejs poprzez <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">serwis Transifex</a>."
 
-#: participate.html:108
+#: participate.html:100
 msgid "Social Networking"
 msgstr "Portale społecznościowe"
 
-#: participate.html:110
+#: participate.html:102
 msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Uwielbiamy patrzeć jak wspieracie Clementine poprzez śledzenie nas na waszych ulubionych portalach społecznościowych!"
 
-#: participate.html:114
+#: participate.html:106
 msgid "Clementine on Facebook"
 msgstr "Clementine na Facebooku"
 
-#: participate.html:117
+#: participate.html:109
 msgid "Clementine on Twitter"
 msgstr "Clementine na Twitterze"
 
-#: participate.html:120
+#: participate.html:112
 msgid "Clementine on Last.fm"
 msgstr "Clementine na Last.fm"
 
-#: participate.html:134
+#: participate.html:126
+msgid "Stickers"
+msgstr ""
+
+#: participate.html:127
+msgid "You can find lovely Clementine stickers on"
+msgstr ""
+
+#: participate.html:128
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgstr ""
+
+#: participate.html:131
 msgid "Donation"
 msgstr "Darowizna"
 
-#: participate.html:135
+#: participate.html:132
 msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "Na chwilę obecną nie potrzebujemy pieniędzy, więc nie akceptujemy darowizn. Jeżeli podoba Ci się nasze oprogramowanie i chcesz nam pomóc, możesz <a href=\"#social-networking\">szepnąć słówko</a> komu trzeba."
 
-#: participate.html:136
+#: participate.html:133
 msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "Możesz także pomóc poprzez <a href=\"#collaborate\">rozwijanie programu, jak to zostało wyłumaczone wcześniej</a>."
 
-#: participate.html:137
+#: participate.html:134
 msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "Jeżeli jednak wciąż chcesz wydać trochę pieniędzy aby nas uszczęśliwić, możesz przekazać darowiznę na jedną z zaprzyjaźnionych organizacji"
 
-#: participate.html:137
+#: participate.html:134
 msgid "and let us know:"
 msgstr "i dać nam znać:"
 
-#: participate.html:140
+#: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
-#: participate.html:141
+#: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
-#: participate.html:142
+#: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
+
+#~ msgid "Ubuntu Quantal (12.10) development builds"
+#~ msgstr "Wersje rozwojowe dla Ubuntu Quantal (12.10)"
+
+#~ msgid "Ubuntu Raring (13.04) development builds"
+#~ msgstr "Wersje rozwojowe dla Ubuntu Raring (13.04)"
+
+#~ msgid "Ubuntu Lucid (10.04) development builds"
+#~ msgstr "Wersje rozwojowe dla Ubuntu Lucid (10.04)"
+
+#~ msgid "Ubuntu Maverick (10.10) development builds"
+#~ msgstr "Wersje rozwojowe dla Ubuntu Maverick (10.10)"
+
+#~ msgid "Ubuntu Oneiric (11.10) development builds"
+#~ msgstr "Wersje rozwojowe dla Ubuntu Oneiric (11.10)"

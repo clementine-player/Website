@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 11:29+0200\n"
+"POT-Creation-Date: 2014-10-02 00:19+0200\n"
 "PO-Revision-Date: 2014-06-29 06:47+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
@@ -323,91 +323,96 @@ msgstr "Репозиторий PPA для Ubuntu"
 msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Вы можете скачать последнюю версию Clementine для Ubuntu из официального PPA репозитория:"
 
-#: downloads.html:64 downloads.html.py:79
+#: downloads.html:62
+msgid "Dependencies for Ubuntu Precise (12.04)"
+msgstr ""
+
+#: downloads.html:63
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgstr ""
+
+#: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
 msgstr "Другие (неофициальные) сборки"
 
-#: downloads.html:66
+#: downloads.html:70
 msgid "Clementine Remote for Android"
 msgstr "Удалённое управление Clementine для Android"
 
-#: downloads.html:73
+#: downloads.html:77
 msgid "Unofficial packages"
 msgstr "Неофициальные сборки"
 
-#: downloads.html:75
+#: downloads.html:79
 msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Если в списке нет используемого вами дистрибутива, то, возможно, кто-то собрал неофициальный пакет, который подойдет для вас."
 
-#: downloads.html:83
+#: downloads.html:87
 msgid "Compiling from source"
 msgstr "Сборка из исходного кода"
 
-#: downloads.html:85
+#: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Собрать Clementine для Linux достаточно просто."
 
-#: downloads.html:86
+#: downloads.html:90
 msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Загрузите архив с исходным кодом из списка выше и введите в консоли:"
 
-#: downloads.html:95
+#: downloads.html:99
 msgid "Full instructions and list of dependencies"
 msgstr "Полная инструкция и список зависимостей пакетов"
 
-#: downloads.html:99
+#: downloads.html:103
 msgid "Bleeding edge packages"
 msgstr "Версии для разработчиков"
 
-#: downloads.html:101 participate.html:57
+#: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr "Разработка Clementine ведется в"
 
-#: downloads.html:103 participate.html:59
+#: downloads.html:107 participate.html:59
 msgid "the git repository"
 msgstr "системе git"
 
-#: downloads.html:104 participate.html:60
+#: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
 msgstr "Проверьте код, выполнив:"
 
-#: downloads.html:108 participate.html:70
+#: downloads.html:112 participate.html:70
 msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Если вы не хотите компилировать программу из исходников, то попробуйте одну из версий, которые собираются автоматически:"
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
 msgstr "Тестовые сборки для Mac OS X"
 
-#: downloads.html:115 participate.html:85
+#: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "Тестовые сборки для Ubuntu Precise (12.04)"
 
-#: downloads.html:117 participate.html:87
-msgid "Ubuntu Quantal (12.10) development builds"
-msgstr "Тестовые сборки для Ubuntu Quantal (12.10)"
+#: downloads.html:121 participate.html:79
+#, fuzzy
+msgid "Ubuntu Trusty (14.04) development builds"
+msgstr "Тестовые сборки для  Ubuntu Natty (11.04)"
 
-#: downloads.html:119
-msgid "Ubuntu Raring (13.04) development builds"
-msgstr "Тестовые сборки для Ubuntu Raring (13.04)"
-
-#: downloads.html:121 participate.html:89
+#: downloads.html:123 participate.html:81
 msgid "Windows development builds"
 msgstr "Тестовые сборки для Windows"
 
-#: downloads.html:123 participate.html:91
+#: downloads.html:125 participate.html:83
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:126 participate.html:94
+#: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Есть также PPA репозиторий с тестовыми сборками для Ubuntu:"
 
-#: downloads.html:134
+#: downloads.html:136
 msgid "Old downloads"
 msgstr "Старые версии"
 
-#: downloads.html:142 screenshots.html:8
+#: downloads.html:144 screenshots.html:8
 msgid "Version"
 msgstr "Версия"
 
@@ -627,86 +632,97 @@ msgstr "Работа с исходным кодом"
 msgid "How to compile Clementine from source"
 msgstr "Инструкция по сборке Clementine из исходного кода"
 
-#: participate.html:77
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Тестовые сборки для Ubuntu Lucid (10.04)"
-
-#: participate.html:79
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Тестовые сборки для Ubuntu Maverik (10.10)"
-
-#: participate.html:81
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Тестовые сборки для  Ubuntu Natty (11.04)"
-
-#: participate.html:83
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Тестовые сборки для Ubuntu Oneiric (11.10)"
-
-#: participate.html:100
+#: participate.html:92
 msgid "Remote application for Android"
 msgstr "Android приложение для удаленного управления"
 
-#: participate.html:102
+#: participate.html:94
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Удалённое управление Clementine расположено в <a href=\"https://github.com/clementine-player/Android-Remote\">другом репозитории GitHub</a>."
 
-#: participate.html:103
+#: participate.html:95
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Вы может сообщить об ошибке или предоставить патч на <a href=\"https://github.com/clementine-player/Android-Remote/issues\">соотвествующем баг-трэкере</a>."
 
-#: participate.html:104
+#: participate.html:96
 msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "Вы можете перевести интерфейс <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">на этой странице перевода Transifex</a>."
 
-#: participate.html:108
+#: participate.html:100
 msgid "Social Networking"
 msgstr "Социальные сети"
 
-#: participate.html:110
+#: participate.html:102
 msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Мы будем рады, если Вы присоединитесь к нам в одной из ваших любимых социальных сетей!"
 
-#: participate.html:114
+#: participate.html:106
 msgid "Clementine on Facebook"
 msgstr "Clementine в Фейсбуке"
 
-#: participate.html:117
+#: participate.html:109
 msgid "Clementine on Twitter"
 msgstr "Clementine в Твиттере"
 
-#: participate.html:120
+#: participate.html:112
 msgid "Clementine on Last.fm"
 msgstr "Clementine на Last.fm"
 
-#: participate.html:134
+#: participate.html:126
+msgid "Stickers"
+msgstr ""
+
+#: participate.html:127
+msgid "You can find lovely Clementine stickers on"
+msgstr ""
+
+#: participate.html:128
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgstr ""
+
+#: participate.html:131
 msgid "Donation"
 msgstr "Пожертвование"
 
-#: participate.html:135
+#: participate.html:132
 msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "В настоящее время мы не нуждаемся в деньгах, и потому не принимаем пожертвования. Если вам нравится то что мы делаем, вы можете <a href=\"#social-networking\">поддержать нас</a> и помочь нам рассказать о себе миру."
 
-#: participate.html:136
+#: participate.html:133
 msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "Вы так же можете помочь <a href=\"#collaborate\">в разработке приложения, как описано выше</a>."
 
-#: participate.html:137
+#: participate.html:134
 msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "Но если вы всё еще хотите потратить ваши деньги, чтобы сделать нас счастливыми, вы можете сделать пожертвование одной из этих благотворительных организаций"
 
-#: participate.html:137
+#: participate.html:134
 msgid "and let us know:"
 msgstr "и дайте нам знать:"
 
-#: participate.html:140
+#: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
-#: participate.html:141
+#: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr "<a href=\"http://www.actionagainsthunger.org/\">Помощь голодающим</a>"
 
-#: participate.html:142
+#: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
+
+#~ msgid "Ubuntu Quantal (12.10) development builds"
+#~ msgstr "Тестовые сборки для Ubuntu Quantal (12.10)"
+
+#~ msgid "Ubuntu Raring (13.04) development builds"
+#~ msgstr "Тестовые сборки для Ubuntu Raring (13.04)"
+
+#~ msgid "Ubuntu Lucid (10.04) development builds"
+#~ msgstr "Тестовые сборки для Ubuntu Lucid (10.04)"
+
+#~ msgid "Ubuntu Maverick (10.10) development builds"
+#~ msgstr "Тестовые сборки для Ubuntu Maverik (10.10)"
+
+#~ msgid "Ubuntu Oneiric (11.10) development builds"
+#~ msgstr "Тестовые сборки для Ubuntu Oneiric (11.10)"

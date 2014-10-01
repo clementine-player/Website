@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 11:29+0200\n"
+"POT-Creation-Date: 2014-10-02 00:19+0200\n"
 "PO-Revision-Date: 2012-11-06 23:04+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,91 +306,95 @@ msgstr "Ubuntu PPA"
 msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr ""
 
-#: downloads.html:64 downloads.html.py:79
+#: downloads.html:62
+msgid "Dependencies for Ubuntu Precise (12.04)"
+msgstr ""
+
+#: downloads.html:63
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgstr ""
+
+#: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
 msgstr ""
 
-#: downloads.html:66
+#: downloads.html:70
 msgid "Clementine Remote for Android"
 msgstr ""
 
-#: downloads.html:73
+#: downloads.html:77
 msgid "Unofficial packages"
 msgstr ""
 
-#: downloads.html:75
+#: downloads.html:79
 msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr ""
 
-#: downloads.html:83
+#: downloads.html:87
 msgid "Compiling from source"
 msgstr ""
 
-#: downloads.html:85
+#: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr ""
 
-#: downloads.html:86
+#: downloads.html:90
 msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr ""
 
-#: downloads.html:95
+#: downloads.html:99
 msgid "Full instructions and list of dependencies"
 msgstr ""
 
-#: downloads.html:99
+#: downloads.html:103
 msgid "Bleeding edge packages"
 msgstr ""
 
-#: downloads.html:101 participate.html:57
+#: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr ""
 
-#: downloads.html:103 participate.html:59
+#: downloads.html:107 participate.html:59
 msgid "the git repository"
 msgstr ""
 
-#: downloads.html:104 participate.html:60
+#: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
 msgstr ""
 
-#: downloads.html:108 participate.html:70
+#: downloads.html:112 participate.html:70
 msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr ""
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
 msgstr ""
 
-#: downloads.html:115 participate.html:85
+#: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr ""
 
-#: downloads.html:117 participate.html:87
-msgid "Ubuntu Quantal (12.10) development builds"
+#: downloads.html:121 participate.html:79
+msgid "Ubuntu Trusty (14.04) development builds"
 msgstr ""
 
-#: downloads.html:119
-msgid "Ubuntu Raring (13.04) development builds"
-msgstr ""
-
-#: downloads.html:121 participate.html:89
+#: downloads.html:123 participate.html:81
 msgid "Windows development builds"
 msgstr ""
 
-#: downloads.html:123 participate.html:91
+#: downloads.html:125 participate.html:83
 msgid "Buildbot"
 msgstr ""
 
-#: downloads.html:126 participate.html:94
+#: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr ""
 
-#: downloads.html:134
+#: downloads.html:136
 msgid "Old downloads"
 msgstr ""
 
-#: downloads.html:142 screenshots.html:8
+#: downloads.html:144 screenshots.html:8
 msgid "Version"
 msgstr ""
 
@@ -611,86 +615,82 @@ msgstr ""
 msgid "How to compile Clementine from source"
 msgstr ""
 
-#: participate.html:77
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr ""
-
-#: participate.html:79
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr ""
-
-#: participate.html:81
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr ""
-
-#: participate.html:83
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr ""
-
-#: participate.html:100
+#: participate.html:92
 msgid "Remote application for Android"
 msgstr ""
 
-#: participate.html:102
+#: participate.html:94
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr ""
 
-#: participate.html:103
+#: participate.html:95
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr ""
 
-#: participate.html:104
+#: participate.html:96
 msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr ""
 
-#: participate.html:108
+#: participate.html:100
 msgid "Social Networking"
 msgstr ""
 
-#: participate.html:110
+#: participate.html:102
 msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr ""
 
-#: participate.html:114
+#: participate.html:106
 msgid "Clementine on Facebook"
 msgstr ""
 
-#: participate.html:117
+#: participate.html:109
 msgid "Clementine on Twitter"
 msgstr ""
 
-#: participate.html:120
+#: participate.html:112
 msgid "Clementine on Last.fm"
 msgstr ""
 
-#: participate.html:134
+#: participate.html:126
+msgid "Stickers"
+msgstr ""
+
+#: participate.html:127
+msgid "You can find lovely Clementine stickers on"
+msgstr ""
+
+#: participate.html:128
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgstr ""
+
+#: participate.html:131
 msgid "Donation"
 msgstr ""
 
-#: participate.html:135
+#: participate.html:132
 msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr ""
 
-#: participate.html:136
+#: participate.html:133
 msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr ""
 
-#: participate.html:137
+#: participate.html:134
 msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr ""
 
-#: participate.html:137
+#: participate.html:134
 msgid "and let us know:"
 msgstr ""
 
-#: participate.html:140
+#: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr ""
 
-#: participate.html:141
+#: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr ""
 
-#: participate.html:142
+#: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr ""

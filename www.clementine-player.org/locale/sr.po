@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 11:29+0200\n"
+"POT-Creation-Date: 2014-10-02 00:19+0200\n"
 "PO-Revision-Date: 2014-03-11 10:09+0000\n"
 "Last-Translator: Mladen Pejaković <pejakm@autistici.org>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/clementine/language/sr/)\n"
@@ -307,91 +307,96 @@ msgstr "Убунту ППА"
 msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Можете преузети најновије издање Клементине за Убунту са службеног ППА:"
 
-#: downloads.html:64 downloads.html.py:79
+#: downloads.html:62
+msgid "Dependencies for Ubuntu Precise (12.04)"
+msgstr ""
+
+#: downloads.html:63
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgstr ""
+
+#: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
 msgstr "Остала преузимања"
 
-#: downloads.html:66
+#: downloads.html:70
 msgid "Clementine Remote for Android"
 msgstr "Клементинин даљински за Андроид"
 
-#: downloads.html:73
+#: downloads.html:77
 msgid "Unofficial packages"
 msgstr "Неслужбени пакети"
 
-#: downloads.html:75
+#: downloads.html:79
 msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Ако нема ваше дистрибуције изнад неко други је можда направио неслужбени пакет за вас."
 
-#: downloads.html:83
+#: downloads.html:87
 msgid "Compiling from source"
 msgstr "Компиловање од изворног кôда"
 
-#: downloads.html:85
+#: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Компиловање Клементине од изворног кôда је лако на Линукс платформи."
 
-#: downloads.html:86
+#: downloads.html:90
 msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Преузмите архиву изворног кôда са списка изнад и у прозору терминала:"
 
-#: downloads.html:95
+#: downloads.html:99
 msgid "Full instructions and list of dependencies"
 msgstr "Детаљна упутства и списак зависности"
 
-#: downloads.html:99
+#: downloads.html:103
 msgid "Bleeding edge packages"
 msgstr "Експериментални пакети"
 
-#: downloads.html:101 participate.html:57
+#: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr "Развој Клементине се дешава на"
 
-#: downloads.html:103 participate.html:59
+#: downloads.html:107 participate.html:59
 msgid "the git repository"
 msgstr "гит ризници"
 
-#: downloads.html:104 participate.html:60
+#: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
 msgstr "Добавите изворни кôд наредбом:"
 
-#: downloads.html:108 participate.html:70
+#: downloads.html:112 participate.html:70
 msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Ако не желите сами да компилујете развојно издање онда пробајте неке од дневних пакета:"
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
 msgstr "Мек ОС Икс развојни пакети"
 
-#: downloads.html:115 participate.html:85
+#: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "Убунту Присајс (12.04) развојни пакети"
 
-#: downloads.html:117 participate.html:87
-msgid "Ubuntu Quantal (12.10) development builds"
-msgstr "Убунту Квантал (12.10) развојни пакети"
+#: downloads.html:121 participate.html:79
+#, fuzzy
+msgid "Ubuntu Trusty (14.04) development builds"
+msgstr "Убунту Нети (11.04) развојни пакети"
 
-#: downloads.html:119
-msgid "Ubuntu Raring (13.04) development builds"
-msgstr "Убунту Реринг (13.04) развојни пакети"
-
-#: downloads.html:121 participate.html:89
+#: downloads.html:123 participate.html:81
 msgid "Windows development builds"
 msgstr "Виндоуз развојни пакети"
 
-#: downloads.html:123 participate.html:91
+#: downloads.html:125 participate.html:83
 msgid "Buildbot"
 msgstr "Робот за изградњу"
 
-#: downloads.html:126 participate.html:94
+#: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Такође имате Убунтуов ППА за ове развојне пакете:"
 
-#: downloads.html:134
+#: downloads.html:136
 msgid "Old downloads"
 msgstr "Стара преузимања"
 
-#: downloads.html:142 screenshots.html:8
+#: downloads.html:144 screenshots.html:8
 msgid "Version"
 msgstr "Издање"
 
@@ -611,86 +616,97 @@ msgstr "Хаковање"
 msgid "How to compile Clementine from source"
 msgstr "Компиловање Клементине од изворног кôда"
 
-#: participate.html:77
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Убунту Луцид (10.04) развојни пакети"
-
-#: participate.html:79
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Убунту Мејверик (10.10) развојни пакети"
-
-#: participate.html:81
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Убунту Нети (11.04) развојни пакети"
-
-#: participate.html:83
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Убунту Онеирик (11.10) развојни пакети"
-
-#: participate.html:100
+#: participate.html:92
 msgid "Remote application for Android"
 msgstr "Андроид апликација за даљински"
 
-#: participate.html:102
+#: participate.html:94
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Клементинин даљински је хостован на <a href=\"https://github.com/clementine-player/Android-Remote\">другој Гитхаб ризници</a>."
 
-#: participate.html:103
+#: participate.html:95
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Можете да пријављујете проблеме и предлажете закрпе <a href=\"https://github.com/clementine-player/Android-Remote/issues\">на његовом пратиоцу пријава</a>."
 
-#: participate.html:104
+#: participate.html:96
 msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "Можете да преведете сучеље на <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">овом Трансифекс пројекту</a>."
 
-#: participate.html:108
+#: participate.html:100
 msgid "Social Networking"
 msgstr "Друштвене мреже"
 
-#: participate.html:110
+#: participate.html:102
 msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Волели бисмо да подржите Клементину придружујући нам се на вашој омиљеној друштвеној мрежи!"
 
-#: participate.html:114
+#: participate.html:106
 msgid "Clementine on Facebook"
 msgstr "Клементина на Фејсбуку"
 
-#: participate.html:117
+#: participate.html:109
 msgid "Clementine on Twitter"
 msgstr "Клементина на Твитеру"
 
-#: participate.html:120
+#: participate.html:112
 msgid "Clementine on Last.fm"
 msgstr "Клементина на Ласт.фм"
 
-#: participate.html:134
+#: participate.html:126
+msgid "Stickers"
+msgstr ""
+
+#: participate.html:127
+msgid "You can find lovely Clementine stickers on"
+msgstr ""
+
+#: participate.html:128
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgstr ""
+
+#: participate.html:131
 msgid "Donation"
 msgstr "Донирајте"
 
-#: participate.html:135
+#: participate.html:132
 msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "Тренутно нам не треба новац тако да не прихватамо новчане донације. Ако вам се допада наш софтвер и желите да нам помогнете, можете <a href=\"#social-networking\">да нас подржите</a> и проширите глас."
 
-#: participate.html:136
+#: participate.html:133
 msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "Такође можете да помогнете <a href=\"#collaborate\">учествујући у развоју софтвера, како је објашњено изнад</a>."
 
-#: participate.html:137
+#: participate.html:134
 msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "Али ако свеједно желите да потрошите нешто новца да нас усрећите, можете да донирате некој од ових добротворних организација које волимо"
 
-#: participate.html:137
+#: participate.html:134
 msgid "and let us know:"
 msgstr "па нас обавестите:"
 
-#: participate.html:140
+#: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr "<a href=\"http://www.msf.org/\">Лекари без граница</a>"
 
-#: participate.html:141
+#: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr "<a href=\"http://www.actionagainsthunger.org/\">Акција против глади</a>"
 
-#: participate.html:142
+#: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Фондација за електронске границе</a>"
+
+#~ msgid "Ubuntu Quantal (12.10) development builds"
+#~ msgstr "Убунту Квантал (12.10) развојни пакети"
+
+#~ msgid "Ubuntu Raring (13.04) development builds"
+#~ msgstr "Убунту Реринг (13.04) развојни пакети"
+
+#~ msgid "Ubuntu Lucid (10.04) development builds"
+#~ msgstr "Убунту Луцид (10.04) развојни пакети"
+
+#~ msgid "Ubuntu Maverick (10.10) development builds"
+#~ msgstr "Убунту Мејверик (10.10) развојни пакети"
+
+#~ msgid "Ubuntu Oneiric (11.10) development builds"
+#~ msgstr "Убунту Онеирик (11.10) развојни пакети"

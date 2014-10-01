@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 11:29+0200\n"
+"POT-Creation-Date: 2014-10-02 00:19+0200\n"
 "PO-Revision-Date: 2014-02-22 19:01+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/clementine/language/uk/)\n"
@@ -307,91 +307,96 @@ msgstr "Ubuntu PPA"
 msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Ви можете завантажити найновішу версію Clementine для Ubuntu з офіційного PPA:"
 
-#: downloads.html:64 downloads.html.py:79
+#: downloads.html:62
+msgid "Dependencies for Ubuntu Precise (12.04)"
+msgstr ""
+
+#: downloads.html:63
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgstr ""
+
+#: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
 msgstr "Інші завантаження"
 
-#: downloads.html:66
+#: downloads.html:70
 msgid "Clementine Remote for Android"
 msgstr "Дистанційне керування Clementine для Android"
 
-#: downloads.html:73
+#: downloads.html:77
 msgid "Unofficial packages"
 msgstr "Неофіційні пакунки"
 
-#: downloads.html:75
+#: downloads.html:79
 msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Якщо ви не знайшли свого дистрибутиву вище, можливо хтось інший створив неофіційний пакунок для вас."
 
-#: downloads.html:83
+#: downloads.html:87
 msgid "Compiling from source"
 msgstr "Збірка з програмного коду"
 
-#: downloads.html:85
+#: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Збірка Clementine з програмного коду є простою в Linux."
 
-#: downloads.html:86
+#: downloads.html:90
 msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Завантажте пакунок з вихідними кодами за посиланнями зі списку вище, а потім виконайте у вікні термінала:"
 
-#: downloads.html:95
+#: downloads.html:99
 msgid "Full instructions and list of dependencies"
 msgstr "Повна інструкція та список залежностей"
 
-#: downloads.html:99
+#: downloads.html:103
 msgid "Bleeding edge packages"
 msgstr "Найсвіжіші пакунки"
 
-#: downloads.html:101 participate.html:57
+#: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr "Розробка Clementine відбувається за допомогою"
 
-#: downloads.html:103 participate.html:59
+#: downloads.html:107 participate.html:59
 msgid "the git repository"
 msgstr "сховища git"
 
-#: downloads.html:104 participate.html:60
+#: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
 msgstr "Витягніть програмний код, виконавши команду:"
 
-#: downloads.html:108 participate.html:70
+#: downloads.html:112 participate.html:70
 msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Якщо ж вам не до вподоби збирати розробницьку версію власноруч, спробуйте один з цих щогодинних пакунків:"
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
 msgstr "Тестові збірки для Mac OS X"
 
-#: downloads.html:115 participate.html:85
+#: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "Тестові збірки для Ubuntu Precise (12.04)"
 
-#: downloads.html:117 participate.html:87
-msgid "Ubuntu Quantal (12.10) development builds"
-msgstr "Тестові збірки для Ubuntu Quantal (12.10)"
+#: downloads.html:121 participate.html:79
+#, fuzzy
+msgid "Ubuntu Trusty (14.04) development builds"
+msgstr "Тестові збірки для Ubuntu Natty (11.04)"
 
-#: downloads.html:119
-msgid "Ubuntu Raring (13.04) development builds"
-msgstr "Ubuntu Raring (13.04), тестові збірки"
-
-#: downloads.html:121 participate.html:89
+#: downloads.html:123 participate.html:81
 msgid "Windows development builds"
 msgstr "Тестові збірки для Windows"
 
-#: downloads.html:123 participate.html:91
+#: downloads.html:125 participate.html:83
 msgid "Buildbot"
 msgstr "Buildbot"
 
-#: downloads.html:126 participate.html:94
+#: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "Також доступний PPA Ubuntu для таких тестових збірок:"
 
-#: downloads.html:134
+#: downloads.html:136
 msgid "Old downloads"
 msgstr "Колишні завантаження"
 
-#: downloads.html:142 screenshots.html:8
+#: downloads.html:144 screenshots.html:8
 msgid "Version"
 msgstr "Версія"
 
@@ -611,86 +616,97 @@ msgstr "Hacking"
 msgid "How to compile Clementine from source"
 msgstr "Як зібрати Clementine з програмних кодів"
 
-#: participate.html:77
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "Тестові збірки для Ubuntu Lucid (10.04)"
-
-#: participate.html:79
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "Тестові збірки для Ubuntu Maverick (10.10)"
-
-#: participate.html:81
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr "Тестові збірки для Ubuntu Natty (11.04)"
-
-#: participate.html:83
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "Тестові збірки для Ubuntu Oneiric (11.10)"
-
-#: participate.html:100
+#: participate.html:92
 msgid "Remote application for Android"
 msgstr "Програма дистанційного керування для Android"
 
-#: participate.html:102
+#: participate.html:94
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Програма дистанційного керування Clementine має <a href=\"https://github.com/clementine-player/Android-Remote\">власну сторінку проекту GitHub</a>."
 
-#: participate.html:103
+#: participate.html:95
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Повідомляти про вади у ній та пропонувати латки можна за допомогою <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">спеціальної сторінки стеження за вадами</a>."
 
-#: participate.html:104
+#: participate.html:96
 msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "Переклад інтерфейсу можна здійснювати за допомогою <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">цієї сторінки проекту Transifex</a>."
 
-#: participate.html:108
+#: participate.html:100
 msgid "Social Networking"
 msgstr "Соціальні мережі"
 
-#: participate.html:110
+#: participate.html:102
 msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Ми були б дуже раді, якщо б ви підтримали Clementine шляхом приєднання до нас на вашому улюбленому соціальному сайті!"
 
-#: participate.html:114
+#: participate.html:106
 msgid "Clementine on Facebook"
 msgstr "Clementine у Facebook"
 
-#: participate.html:117
+#: participate.html:109
 msgid "Clementine on Twitter"
 msgstr "Clementine у Twitter"
 
-#: participate.html:120
+#: participate.html:112
 msgid "Clementine on Last.fm"
 msgstr "Clementine у Last.fm"
 
-#: participate.html:134
+#: participate.html:126
+msgid "Stickers"
+msgstr ""
+
+#: participate.html:127
+msgid "You can find lovely Clementine stickers on"
+msgstr ""
+
+#: participate.html:128
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgstr ""
+
+#: participate.html:131
 msgid "Donation"
 msgstr "Фінансова підтримка"
 
-#: participate.html:135
+#: participate.html:132
 msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "Зараз ми не потребуємо фінансової підтримки і не приймаємо грошових пожертв. Якщо вам подобаються наші програми і ви хочете нам допомогти, ви можете <a href=\"#social-networking\">написати про підтримку проекту</a> та поділитися вашими враженнями."
 
-#: participate.html:136
+#: participate.html:133
 msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "Ви також можете допомогти нам <a href=\"#collaborate\">вашою участю у розробці проекту на основі наведених вище настанов</a>."
 
-#: participate.html:137
+#: participate.html:134
 msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "Втім, якщо ви все ще хочете здійснити якусь грошову пожертву, яка була б приємною учасникам проекту, ви можете надіслати гроші одній з благодійних організацій, мету якої поділяють учасники проекту"
 
-#: participate.html:137
+#: participate.html:134
 msgid "and let us know:"
 msgstr "і дати нам про це знати:"
 
-#: participate.html:140
+#: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
-#: participate.html:141
+#: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
-#: participate.html:142
+#: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
+
+#~ msgid "Ubuntu Quantal (12.10) development builds"
+#~ msgstr "Тестові збірки для Ubuntu Quantal (12.10)"
+
+#~ msgid "Ubuntu Raring (13.04) development builds"
+#~ msgstr "Ubuntu Raring (13.04), тестові збірки"
+
+#~ msgid "Ubuntu Lucid (10.04) development builds"
+#~ msgstr "Тестові збірки для Ubuntu Lucid (10.04)"
+
+#~ msgid "Ubuntu Maverick (10.10) development builds"
+#~ msgstr "Тестові збірки для Ubuntu Maverick (10.10)"
+
+#~ msgid "Ubuntu Oneiric (11.10) development builds"
+#~ msgstr "Тестові збірки для Ubuntu Oneiric (11.10)"

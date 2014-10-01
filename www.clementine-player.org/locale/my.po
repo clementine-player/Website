@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 11:29+0200\n"
+"POT-Creation-Date: 2014-10-02 00:19+0200\n"
 "PO-Revision-Date: 2014-06-04 19:58+0000\n"
 "Last-Translator: Yhal Htet Aung <jumoun@gmail.com>\n"
 "Language-Team: Burmese (http://www.transifex.com/projects/p/clementine/language/my/)\n"
@@ -306,91 +306,96 @@ msgstr "ဦးဘွန်တူးပီပီအေ"
 msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "ဦးဘွန်တူတရားဝင်ပီပီအေမှကလီမန်တိုင်းနောက်ဆံုးပံုစံကူးဆွဲရယူနိုင်: "
 
-#: downloads.html:64 downloads.html.py:79
+#: downloads.html:62
+msgid "Dependencies for Ubuntu Precise (12.04)"
+msgstr ""
+
+#: downloads.html:63
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgstr ""
+
+#: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
 msgstr "အခြားကူးဆွဲများ"
 
-#: downloads.html:66
+#: downloads.html:70
 msgid "Clementine Remote for Android"
 msgstr "စက်ရုပ်အတွက်ကလီမန်တိုင်းအဝေးထိန်း"
 
-#: downloads.html:73
+#: downloads.html:77
 msgid "Unofficial packages"
 msgstr "တရားမဝင်အသုံးချပရိုဂရမ်များ"
 
-#: downloads.html:75
+#: downloads.html:79
 msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "အထက်ဖော်ပြပါနေရာတွင်သင့်စက်လည်ပတ်စနစ်အတွက်ဖြန့်ဖြူးခြင်းမရှိပါကတစ်ယောက်ယောက်တွင်တရားမဝင်ပရိုဂရမ်အထုပ်များရှိနိုင်ပါသည်။"
 
-#: downloads.html:83
+#: downloads.html:87
 msgid "Compiling from source"
 msgstr "ရင်းမြစ်မှအသုံးပြုခြင်း"
 
-#: downloads.html:85
+#: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "ရင်းမြစ်မှကလီမန်တိုင်းကိုအသုံးပြုခြင်းသည်လင်းနက်စ်တွင်လွယ်ကူပါသည်။"
 
-#: downloads.html:86
+#: downloads.html:90
 msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "အထက်ဖော်ပြပါစာရင်းမှရင်းမြစ်ကုဒ်ထုပ်ကိုကူးဆွဲပြီးခလုတ်ခုံအစုံဝင်းဒိုးထဲတွင်:"
 
-#: downloads.html:95
+#: downloads.html:99
 msgid "Full instructions and list of dependencies"
 msgstr "ညွှန်ကြားချက်များအပြည့်အစံုနှင့်မှီခိုကုဒ်များစာရင်း"
 
-#: downloads.html:99
+#: downloads.html:103
 msgid "Bleeding edge packages"
 msgstr "ပြသနာရှိအနားပရိုဂရမ်အထုပ်များ"
 
-#: downloads.html:101 participate.html:57
+#: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
 msgstr "ကလီမန်တိုင်းကိုတီထွင်မှုသည်ဤတွင်ဖြစ်ပေါ်"
 
-#: downloads.html:103 participate.html:59
+#: downloads.html:107 participate.html:59
 msgid "the git repository"
 msgstr "ဂစ်ပရိုဂရမ်ဘဏ်"
 
-#: downloads.html:104 participate.html:60
+#: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
 msgstr "စတင်ခြင်းဖြင့်ကုဒ်များကိုစစ်ဆေး:"
 
-#: downloads.html:108 participate.html:70
+#: downloads.html:112 participate.html:70
 msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "တီထွင်မှုပံုစံကိုအသုံးပြုလိုပါကနာရီတိုင်းဖြန့်ဖြုးသောပရိုဂရမ်အထုပ်များကိုသံုးကြည့်ပါ:"
 
-#: downloads.html:113 participate.html:75
+#: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
 msgstr "မက်စ်အိုအက်စ်အိပ်စ်တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
-#: downloads.html:115 participate.html:85
+#: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
 msgstr "ဦးဘွန်တူပရီဆိုက်(၁၂.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
-#: downloads.html:117 participate.html:87
-msgid "Ubuntu Quantal (12.10) development builds"
-msgstr "ဦးဘွန်တူကွန်တယ်(၁၂.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
+#: downloads.html:121 participate.html:79
+#, fuzzy
+msgid "Ubuntu Trusty (14.04) development builds"
+msgstr "ဦးဘွန်တူနက်တီ(၁၁.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
-#: downloads.html:119
-msgid "Ubuntu Raring (13.04) development builds"
-msgstr "ဦးဘွန်တူရာရင်း(၁၃.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
-
-#: downloads.html:121 participate.html:89
+#: downloads.html:123 participate.html:81
 msgid "Windows development builds"
 msgstr "ဝင်းဒိုးတီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
 
-#: downloads.html:123 participate.html:91
+#: downloads.html:125 participate.html:83
 msgid "Buildbot"
 msgstr "တည်ဆောက်စက်ရုပ်"
 
-#: downloads.html:126 participate.html:94
+#: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
 msgstr "တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များအတွက်အခြားဦးဘွန်တူပီပီအေ:"
 
-#: downloads.html:134
+#: downloads.html:136
 msgid "Old downloads"
 msgstr "ကူးဆွဲအဟောင်းများ"
 
-#: downloads.html:142 screenshots.html:8
+#: downloads.html:144 screenshots.html:8
 msgid "Version"
 msgstr "ပုံစံ"
 
@@ -610,86 +615,97 @@ msgstr "ဟက်ကင်း"
 msgid "How to compile Clementine from source"
 msgstr "ရင်းမြစ်မှကလီမန်တိုင်းကိုဘယ်ကဲ့သို့အသုံးပြုခြင်း"
 
-#: participate.html:77
-msgid "Ubuntu Lucid (10.04) development builds"
-msgstr "ဦးဘွန်တူလူစစ်(၁၀.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
-
-#: participate.html:79
-msgid "Ubuntu Maverick (10.10) development builds"
-msgstr "ဦးဘွန်တူမဗာရက်စ်(၁၀.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
-
-#: participate.html:81
-msgid "Ubuntu Natty (11.04) development builds"
-msgstr "ဦးဘွန်တူနက်တီ(၁၁.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
-
-#: participate.html:83
-msgid "Ubuntu Oneiric (11.10) development builds"
-msgstr "ဦးဘွန်တူအွန်အီရက်စ်(၁၁.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
-
-#: participate.html:100
+#: participate.html:92
 msgid "Remote application for Android"
 msgstr "စက်ရုပ်အတွက်အဝေးထိန်းလုပ်ငန်းသုံးပရိုဂရမ်"
 
-#: participate.html:102
+#: participate.html:94
 msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr ""
 
-#: participate.html:103
+#: participate.html:95
 msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr ""
 
-#: participate.html:104
+#: participate.html:96
 msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "<a href=\"https://www.transifex.com/projects/p/clementine-remote/\">ကလီမန်တိုင်းပရောဂျက်</a>တွင်ကြားခံမျက်နှာပြင်ကိုဘာသာပြန်နိုင်ပါသည်။"
 
-#: participate.html:108
+#: participate.html:100
 msgid "Social Networking"
 msgstr "လူမှုရေးကွန်ရက်"
 
-#: participate.html:110
+#: participate.html:102
 msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "သင့်ရဲ့အနှစ်သက်ဆံုးလူမှုရေးကွန်ရက်ဆိုက်တွင်အတူပါဝင်ခြင်းဖြင့်ကလီမန်တိုင်းကိုဝိုင်းဝန်းကူညီကြပါ!"
 
-#: participate.html:114
+#: participate.html:106
 msgid "Clementine on Facebook"
 msgstr "ဖေ့စ်ဘုတ်တွင်ရှိကလီမန်တိုင်း"
 
-#: participate.html:117
+#: participate.html:109
 msgid "Clementine on Twitter"
 msgstr "တွစ်တာတွင်ရှိကလီမန်တိုင်း"
 
-#: participate.html:120
+#: participate.html:112
 msgid "Clementine on Last.fm"
 msgstr "လက်စ်.အက်ဖ်အမ်တွင်ရှိကလီမန်တိုင်း"
 
-#: participate.html:134
+#: participate.html:126
+msgid "Stickers"
+msgstr ""
+
+#: participate.html:127
+msgid "You can find lovely Clementine stickers on"
+msgstr ""
+
+#: participate.html:128
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgstr ""
+
+#: participate.html:131
 msgid "Donation"
 msgstr "လှုဒါန်းမှု"
 
-#: participate.html:135
+#: participate.html:132
 msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "လက်ရှိအချိန်မှာကျွန်တော်တို့တွေဟာငွေကြေးမလိုအပ်သေးပါဘူးပြီးတော့ငွေကြေးလှုဒါန်းမှုများကိုလည်းလက်မခံပါဘူး။ ကျွန်တော့်တို့ဆောဖ့်ဝဲကိုကြိုက်ပြီးအကူအညီပေးချင်ပါက<a href=\"#social-networking\">ကူညီပါ</a>တွင်ကူညီပြီးကမ္ဘာကိုပြန့်ပေးပါ။"
 
-#: participate.html:136
+#: participate.html:133
 msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "<a href=\"#collaborate\">အထက်မှာဖော်ပြထားတဲ့အတိုင်းဆောဖ့်ဝဲထုတ်လုပ်မှုမှာအတူပါဝင်ခြင်း</a>အားဖြင့် လည်းကူညီနိုင်ပါသည်။"
 
-#: participate.html:137
+#: participate.html:134
 msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "ဒါပေမဲ့ကျွန်တော်တို့ပျော်ရွှင်အောင်ငွေကြေးအနည်းငယ်သုံးစွဲချင်သေးပါကကျွန်တော်တို့ကြိုက်နှစ်သက်တဲ့ချို့ငဲ့သူများကိုကူညီသောအသင်းအဖွဲ့များထဲကတစ်ခုခုကိုလှုဒါန်းနိုင်ပါသည်။ "
 
-#: participate.html:137
+#: participate.html:134
 msgid "and let us know:"
 msgstr "ပြီးရင်ကျွန်တော်တို့ကိုပေးသိပါ:"
 
-#: participate.html:140
+#: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
-#: participate.html:141
+#: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 msgstr "<a href=\"http://www.actionagainsthunger.org/\">ဆာလောင်မှုကိုတိုက်ဖြတ်</a>"
 
-#: participate.html:142
+#: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">အီလက်ထရောနစ်ရှေ့တန်းအဖွဲ့အစည်း</a>"
+
+#~ msgid "Ubuntu Quantal (12.10) development builds"
+#~ msgstr "ဦးဘွန်တူကွန်တယ်(၁၂.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
+
+#~ msgid "Ubuntu Raring (13.04) development builds"
+#~ msgstr "ဦးဘွန်တူရာရင်း(၁၃.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
+
+#~ msgid "Ubuntu Lucid (10.04) development builds"
+#~ msgstr "ဦးဘွန်တူလူစစ်(၁၀.၀၄)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
+
+#~ msgid "Ubuntu Maverick (10.10) development builds"
+#~ msgstr "ဦးဘွန်တူမဗာရက်စ်(၁၀.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
+
+#~ msgid "Ubuntu Oneiric (11.10) development builds"
+#~ msgstr "ဦးဘွန်တူအွန်အီရက်စ်(၁၁.၁၀)တီထွင်မှုတည်ဆောက်ပြီးကုဒ်များ"
