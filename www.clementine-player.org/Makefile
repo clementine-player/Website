@@ -14,7 +14,7 @@ mo-%: po-%
 po-%:
 	-mkdir -p locale/$*/LC_MESSAGES/
 	ln -fs `pwd`/locale/$*.po locale/$*/LC_MESSAGES/django.po
-	django-admin makemessages --no-wrap -v 0 -l $*
+	django-admin makemessages --no-wrap --keep-pot -v 0 -l $*
 
 static/css/all.css: $(wildcard css/*.css)
 	java -jar closure-stylesheets-20111230.jar \

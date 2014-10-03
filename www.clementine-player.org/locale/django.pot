@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Seanán Coistín <>, 2012
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Clementine Music Player\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-03 21:50+0200\n"
-"PO-Revision-Date: 2014-02-22 18:57+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Irish (http://www.transifex.com/projects/p/clementine/language/ga/)\n"
-"Language: ga\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
 
 #: android-download.html:4
 msgid "Clementine Remote"
@@ -28,15 +27,15 @@ msgstr ""
 
 #: base.html:11
 msgid "Clementine Music Player"
-msgstr "Seinnteoir Ceoil Clementine"
+msgstr ""
 
 #: base.html:53
 msgid "About"
-msgstr "Maidir le"
+msgstr ""
 
 #: base.html:54 downloads.html:2
 msgid "Downloads"
-msgstr "Íosluchtuithe"
+msgstr ""
 
 #: base.html:55 main.html:92 screenshots.html:2
 msgid "Screenshots"
@@ -44,7 +43,7 @@ msgstr ""
 
 #: base.html:56 participate.html:2
 msgid "Participate"
-msgstr "Déan Beart"
+msgstr ""
 
 #: base.html:60
 msgid "A cross-platform music player inspired by Amarok 1.4"
@@ -60,7 +59,7 @@ msgstr ""
 
 #: base.html:87 main.html:21 main.html.py:28
 msgid "and"
-msgstr "agus"
+msgstr ""
 
 #: base.html:89
 msgid "Website by"
@@ -136,7 +135,7 @@ msgstr ""
 
 #: data.py:33
 msgid "Lyrics"
-msgstr "Liricí"
+msgstr ""
 
 #: data.py:34
 msgid "Icecast radio stations"
@@ -160,15 +159,15 @@ msgstr ""
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 ar Mac OS X"
+msgstr ""
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 ar Ubuntu"
+msgstr ""
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 ar Windows 7"
+msgstr ""
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
@@ -184,7 +183,7 @@ msgstr ""
 
 #: data.py:51
 msgid "Searching the library"
-msgstr "Ag cuardach an leabharlann"
+msgstr ""
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
@@ -196,11 +195,11 @@ msgstr ""
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr "Athsheinm ar Linux"
+msgstr ""
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr "Tacaíocht Last.fm"
+msgstr ""
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
@@ -392,7 +391,7 @@ msgstr ""
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr "Sean íosluchtuithe"
+msgstr ""
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
@@ -400,7 +399,7 @@ msgstr ""
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Faoi &amp; Gnéithe"
+msgstr ""
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -432,7 +431,7 @@ msgstr ""
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr "Amharcléirithe ó"
+msgstr ""
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
@@ -484,7 +483,7 @@ msgstr ""
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr "Macasamhlaigh ceol chuig do"
+msgstr ""
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
@@ -512,19 +511,19 @@ msgstr ""
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr "Íosluchtaigh an leagan is déanaí anois"
+msgstr ""
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr "Íosluchtaigh Clementine"
+msgstr ""
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
-msgstr "i gcomhair Windows, Mac OS X agus Linux"
+msgstr ""
 
 #: main.html:80
 msgid "Announcement"
-msgstr "Fógra"
+msgstr ""
 
 #: main.html:81
 msgid "Changelog"
@@ -532,7 +531,7 @@ msgstr ""
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr "Taispeáin gach íosluchtú"
+msgstr ""
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
@@ -540,15 +539,15 @@ msgstr ""
 
 #: main.html:114
 msgid "News"
-msgstr "Nuacht"
+msgstr ""
 
 #: participate.html:17
 msgid "Need help?"
-msgstr "An bhfuil cabhair ag teastáil uait?"
+msgstr ""
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr "Déan comhrá linn ar an"
+msgstr ""
 
 #: participate.html:21
 msgid "channel on Freenode."
@@ -560,7 +559,7 @@ msgstr ""
 
 #: participate.html:25
 msgid "Forum"
-msgstr "Clár Plé"
+msgstr ""
 
 #: participate.html:27
 msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
