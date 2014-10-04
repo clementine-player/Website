@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-03 21:50+0200\n"
+"POT-Creation-Date: 2014-10-04 20:37+0200\n"
 "PO-Revision-Date: 2014-02-22 18:57+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/clementine/language/et/)\n"
@@ -655,7 +655,8 @@ msgid "Stickers"
 msgstr ""
 
 #: participate.html:127
-msgid "You can find lovely Clementine stickers on"
+#, python-format
+msgid "You can find lovely Clementine stickers on %(unixstickers)s."
 msgstr ""
 
 #: participate.html:128
