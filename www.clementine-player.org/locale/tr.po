@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-04 20:37+0200\n"
-"PO-Revision-Date: 2014-10-05 00:55+0000\n"
+"PO-Revision-Date: 2014-10-07 00:56+0000\n"
 "Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/clementine/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -512,7 +512,7 @@ msgstr "Hakkında &amp; Özellikler"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Yerel müzik kütüphanenizi arayın ve çalın."
+msgstr "Yerel müzik kütüphanenizde arama yapın ve kütüphanenizi oynatın."
 
 #: main.html:10
 msgid "Listen to internet radio from"

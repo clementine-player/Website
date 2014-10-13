@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-04 20:37+0200\n"
-"PO-Revision-Date: 2014-10-04 18:42+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2014-10-07 14:04+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/clementine/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -396,14 +396,14 @@ msgstr "Anda boleh muat turun versi terkini Clementine dalam Ubuntu melalui PPA 
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Dependensi untuk Ubuntu Precise (12.04)"
 
 #: downloads.html:63
 msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Versi baharu Clementine memerlukan GStreamer 1.0 yang tidak disertakan dalam Ubuntu 12.04.  Jika anda dapat ralat ketika memasang Clementine anda patut tambah PPA GStreamer juga:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -473,7 +473,7 @@ msgstr "Binaan pembangunan Ubuntu Precise (12.04)"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "Binaan pembangunan Ubuntu Trusty (14.04)"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
@@ -771,18 +771,18 @@ msgstr "Clementine di Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Pelekat"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Anda boleh cari pelekat cantik Clementine di %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "Ia sangat sesuai untuk suaikan komputer riba anda dan tunjukkan kecintaan terhadap pemain muzik kegemaran anda!"
 
 #: participate.html:131
 msgid "Donation"
