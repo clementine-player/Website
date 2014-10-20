@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-04 20:37+0200\n"
-"PO-Revision-Date: 2014-10-04 18:47+0000\n"
+"PO-Revision-Date: 2014-10-19 10:34+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "Разработка сайта:"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr "Вкладка плейлиста во время прослушивания песен из Интернет"
+msgstr "Вкладка плейлиста при прослушивании песен из Интернет"
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -108,11 +108,11 @@ msgstr "Подкасты"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr "Google Drive"
+msgstr "Google Диск"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr "Новый глобальный поисковый интерфейс"
+msgstr "Новый интерфейс глобального поиска"
 
 #: data.py:17
 msgid "Moodbars"
@@ -365,7 +365,7 @@ msgid ""
 "<a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
 "information."
-msgstr "В этом выпуске добавлена ​​долгожданная поддержка подкастов включая интеграцию и синхронизацию с <a href=\"//gpodder.net\">gpodder.net</a>. Музыка из <a  href=\"http://soundcloud.com/\">Soundcloud</a> и <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> доступна во вкладке Интернет в боковой панели. Также доступны любые песни загруженные в <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine теперь показывает индикаторы настроения для песен проигрываемых с вашего жесткого диска. См. <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">полный список изменений</a> для получения дополнительной информации."
+msgstr "В этом выпуске добавлена ​​долгожданная поддержка подкастов включая интеграцию и синхронизацию с <a href=\"//gpodder.net\">gpodder.net</a>. Музыка из <a  href=\"http://soundcloud.com/\">Soundcloud</a> и <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> доступна во вкладке Интернет в боковой панели. Также доступны любые песни загруженные в <a href=\"http://drive.google.com/start\">Google Диск</a>. Clementine теперь показывает индикаторы настроения для песен проигрываемых с вашего жесткого диска. См. <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">полный список изменений</a> для получения дополнительной информации."
 
 #: data.py:387
 msgid "Version 1.2 released"
@@ -625,7 +625,7 @@ msgstr "Он вобрал в себя лучшее от"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "сделав упор на быстроту и легкость использования для поиска и воспроизведения вашей музыки."
+msgstr "сделав упор на скорость и легкость поиска и воспроизведения вашей музыки."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
@@ -685,7 +685,7 @@ msgstr "Форум"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "Clementine использует сервис Google Groups для форума/списка рассылки/главной группы обсуждений."
+msgstr "Clementine использует сервис Группы Google в качестве форума, списков рассылки и группы обсуждений."
 
 #: participate.html:30
 msgid "Support and discussion group"
@@ -727,7 +727,7 @@ msgstr "Если вы хотите перевести Clementine на друго
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Вы можете сделать перевод непосредственно на Transifex, или скачать .po файл с сайта, а затем отправить его обратно к нам."
+msgstr "Вы можете переводить непосредственно на Transifex, или скачать .po файл с сайта, а затем отправить его обратно к нам."
 
 #: participate.html:52
 msgid "Transifex translations"
@@ -749,7 +749,7 @@ msgstr "Android приложение для удаленного управле�
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr "Удалённое управление Clementine расположено в <a href=\"https://github.com/clementine-player/Android-Remote\">другом репозитории GitHub</a>."
+msgstr "Приложение для удалённого управления Clementine находится в <a href=\"https://github.com/clementine-player/Android-Remote\">другом репозитории GitHub</a>."
 
 #: participate.html:95
 msgid ""
