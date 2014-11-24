@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Allan Nieuwoudt, 2014
 # Rudolf Byker <rudolfbyker@gmail.com>, 2013
 # jpmeijers <jpmeijers@gmail.com>, 2012
 # jpmeijers <jpmeijers@gmail.com>, 2012
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-04 20:37+0200\n"
-"PO-Revision-Date: 2014-10-04 18:42+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2014-11-18 17:47+0000\n"
+"Last-Translator: Allan Nieuwoudt\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/clementine/language/af/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Afstandbeheer"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Beheer Clementine op 'n afstand met jou Android telefoon"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -74,51 +75,51 @@ msgstr "Webtuiste deur"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Speellys oortjie, terwyl daar na liedjies geluister word vanaf verskeie Internet dienste"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Subsonic integrasie"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Blaai deur speellyste met die Android app"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Beheer die terugspeel met die Android app"
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "Potgooie"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "Nuwe globale soektog koppelvlak"
 
 #: data.py:17
 msgid "Moodbars"
-msgstr ""
+msgstr "Stemmingsbalk"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Transkodering verstellinge"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Albums op Spotify gevind deur die globale soek funksie"
 
 #: data.py:22
 msgid "Global search options"
-msgstr ""
+msgstr "Globale soektog installings"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Grooveshark integrasie"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
@@ -134,7 +135,7 @@ msgstr "Nuwe etiket bewerker met outomatiese voltooiing"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Snitbalk wenke op Mac OS X"
 
 #: data.py:32
 msgid "Artist photos and biographies"
@@ -154,7 +155,7 @@ msgstr "Slimspeellyste en katjies"
 
 #: data.py:38
 msgid "The queue manager on Windows 7"
-msgstr ""
+msgstr "Die tou bestuurder op Windows 7"
 
 #: data.py:39
 msgid "Copying music to an iPod in Ubuntu"
@@ -162,7 +163,7 @@ msgstr "Kopieer musiek na 'n iPod onder Ubuntu"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "Clementine 0.5 op Ubu...ALLE GLORIE AAN DIE HYPNOTOAD"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
@@ -178,7 +179,7 @@ msgstr "Clementine 0.4 onder Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr ""
+msgstr "Clementine 0.4 visualiserings met projectM"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
@@ -186,7 +187,7 @@ msgstr "Clementine 0.4 onder Mac OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
-msgstr ""
+msgstr "Last.fm etiket radio"
 
 #: data.py:51
 msgid "Searching the library"
@@ -222,7 +223,7 @@ msgstr "Bron"
 
 #: data.py:289
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "Weergawe 0.2 vrygestel"
 
 #: data.py:290
 msgid ""
@@ -593,7 +594,7 @@ msgstr ""
 
 #: main.html:46
 msgid "Queue manager."
-msgstr ""
+msgstr "Tou bestuurder."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
@@ -619,7 +620,7 @@ msgstr ""
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr ""
+msgstr "Laai Clementine af"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
@@ -627,7 +628,7 @@ msgstr ""
 
 #: main.html:80
 msgid "Announcement"
-msgstr ""
+msgstr "Aankondiging"
 
 #: main.html:81
 msgid "Changelog"
@@ -643,11 +644,11 @@ msgstr ""
 
 #: main.html:114
 msgid "News"
-msgstr ""
+msgstr "Nuus"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr ""
+msgstr "Het jy hulp nodig?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
@@ -665,7 +666,7 @@ msgstr ""
 
 #: participate.html:25
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: participate.html:27
 msgid ""
@@ -675,11 +676,11 @@ msgstr ""
 
 #: participate.html:30
 msgid "Support and discussion group"
-msgstr ""
+msgstr "Ondersteunings- en besprekingsgroep"
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "Werk saam"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
@@ -701,7 +702,7 @@ msgstr ""
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "Vertaal die koppelvlak"
 
 #: participate.html:48
 msgid ""
@@ -717,7 +718,7 @@ msgstr ""
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr ""
+msgstr "Transifex vertalings"
 
 #: participate.html:55
 msgid "Hacking"
@@ -762,19 +763,19 @@ msgstr ""
 
 #: participate.html:106
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "Clementine op Facebook"
 
 #: participate.html:109
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine op Twitter"
 
 #: participate.html:112
 msgid "Clementine on Last.fm"
-msgstr ""
+msgstr "Clementine op Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Plakkers"
 
 #: participate.html:127
 #, python-format
@@ -789,7 +790,7 @@ msgstr ""
 
 #: participate.html:131
 msgid "Donation"
-msgstr ""
+msgstr "Donasie"
 
 #: participate.html:132
 msgid ""
