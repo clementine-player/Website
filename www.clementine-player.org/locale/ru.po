@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-04 20:37+0200\n"
-"PO-Revision-Date: 2014-10-19 10:34+0000\n"
+"PO-Revision-Date: 2014-12-01 07:46+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -140,7 +140,7 @@ msgstr "Всплывающие подсказки для текстов песе
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
-msgstr "Редактирование тегов с помощью сервиса MuzicBrainz"
+msgstr "Автозаполнение тегов с сервиса MuzicBrainz"
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
@@ -243,7 +243,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Прошло чуть больше месяца с момента выхода первой версии аудиоплеера Clementine. В новой версии появился редактор обложек для альбомов, точнее определяется принадлежность музыкального альбома к категории \"Разные исполнители\", появилась возможность загрузки списков воспроизведения, а также много другое."
+msgstr "Прошло чуть больше месяца с момента выхода первой версии аудиоплеера Clementine. В новой версии появился редактор обложек для альбомов, точнее определяется принадлежность музыкального альбома к категории \"Разные исполнители\", появилась возможность загрузки списков воспроизведения, и много другое."
 
 #: data.py:296
 msgid "Version 0.3 released"
@@ -403,7 +403,7 @@ msgstr "Загрузки для других операционных систе
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
-msgstr "Репозиторий PPA для Ubuntu"
+msgstr "Репозиторий для Ubuntu"
 
 #: downloads.html:56
 msgid ""
@@ -420,7 +420,7 @@ msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr "Новые версии Clementine требуют наличия GStreamer 1.0, который не был включен в Ubuntu 12.04. Если во время установки Clementine появляются ошибки, вам так же следует добавить GStreamer PPA:"
+msgstr "Новые версии Clementine требуют наличия GStreamer 1.0, который не был включен в Ubuntu 12.04. Если во время установки Clementine появляются ошибки, вам следует добавить GStreamer PPA:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -514,7 +514,7 @@ msgstr "Версия"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "О программе и её возможностях"
+msgstr "О возможностях программы"
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -522,7 +522,7 @@ msgstr "Поиск и проигрывание музыки из вашей фо
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr "Прослушивание радио"
+msgstr "Прослушивание радио с"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
@@ -538,11 +538,11 @@ msgstr "Вкладки плейлистов, импорт и экспорт M3U,
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr "Поддержка CUE sheet"
+msgstr "Поддержка CUE sheet."
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr "Воспроизводение аудио-CD"
+msgstr "Проигрывание аудио-CD."
 
 #: main.html:35
 msgid "Visualisations from"
@@ -550,7 +550,7 @@ msgstr "Визуализация при помощи"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr "Тексты песен, фото и биографии исполнителей"
+msgstr "Тексты песен, изображения и биография исполнителей."
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
@@ -558,11 +558,11 @@ msgstr "Перекодирование музыки между форматам�
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Редактирование тегов MP3 и OGG, управление музыкальными файлами"
+msgstr "Редактирование тегов MP3 и OGG, управление музыкальными файлами."
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Получение тегов к файлам с сервиса MusicBrainz"
+msgstr "Получение тегов к файлам с сервиса MusicBrainz."
 
 #: main.html:40
 msgid "Discover and download Podcasts."
@@ -570,7 +570,7 @@ msgstr "Поиск и скачивание подкастов."
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Скачивание обложек для альбомов с сервиса Last.fm"
+msgstr "Скачивание обложек для альбомов с сервиса Last.fm и Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -583,11 +583,11 @@ msgstr "Поддерживает всплывающие сообщения в Li
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr "Удаленное управление с использованием"
+msgstr "Удалённое управление с помощью"
 
 #: main.html:44
 msgid "Android device"
-msgstr "Android"
+msgstr "Android устройство"
 
 #: main.html:44
 msgid "a Wii Remote"
@@ -595,7 +595,7 @@ msgstr "Wii Remote"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
-msgstr "MPRIS или командную строку"
+msgstr "MPRIS или командной строки."
 
 #: main.html:45
 msgid "Copy music to your"
@@ -607,11 +607,11 @@ msgstr "iPod, iPhone, MTP или USB аудиоплеер."
 
 #: main.html:46
 msgid "Queue manager."
-msgstr "Менеджер очереди воспроизведения"
+msgstr "Менеджер очереди воспроизведения."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr "- это современный аудиоплеер и менеджер фонотеки"
+msgstr "— это современный аудиоплеер и менеджер фонотеки"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
@@ -661,7 +661,7 @@ msgstr "Новости"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr "Нужна помощь ?"
+msgstr "Нужна помощь?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
@@ -743,7 +743,7 @@ msgstr "Инструкция по сборке Clementine из исходног�
 
 #: participate.html:92
 msgid "Remote application for Android"
-msgstr "Android приложение для удаленного управления"
+msgstr "Android приложение для удалённого управления"
 
 #: participate.html:94
 msgid ""

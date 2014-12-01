@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012
+# Moo, 2014
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 msgid ""
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-04 20:37+0200\n"
-"PO-Revision-Date: 2014-10-04 18:42+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2014-11-24 11:32+0000\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/clementine/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +23,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Valdykite Clementine per nuotolį iš savo Android telefono"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -73,19 +74,19 @@ msgstr "Svetainę sukūrė"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Grojaraščio kortelė, kol klausomasi dainų iš įvairių internetinių tarnybų"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Integracija su Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Naršoma grojaraštyje per Android programėlę"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Valdomas grojimas per Android programėlę"
 
 #: data.py:14
 msgid "Podcasts"
@@ -354,7 +355,7 @@ msgstr ""
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Išleista 1.2 versija"
 
 #: data.py:388
 msgid ""
@@ -372,7 +373,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Šis leidimas yra suderinamas su, <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android įrenginiams skirta, Clementine Remote programėle,</a> kuri leidžia jums per nuotolį valdyti Clementine iš jūsų Android įrenginio.<br/>Šis leidimas taip pat prideda Subsonic palaikymą. Taigi, dabar galite klausytis savo muzikos, kuri įkelta į <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> ir <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Paskutinė didžioji ypatybė yra galimybė \"pažymėti\" savo grojaraščius, kad galėtumėte saugiai juos užverti, o vėliau atkurti iš \"Grojaraščio\" kortelės, kuri yra naujai pridėta kairiojoje šoninėje juostoje.<br/>Norėdami sužinoti daugiau, žiūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">visą pakeitimų sąrašą.</a>"
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -398,14 +399,14 @@ msgstr "Galite atsisiųsti naujausią Clementine versiją Ubuntu sistemai iš of
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Priklausomybės Ubuntu Precise (12.04) sistemoje"
 
 #: downloads.html:63
 msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Naujos Clementine versijos reikalauja GStreamer 1.0 bibliotekos, kuri nebuvo įtraukta į Ubuntu 12.04. Jei diegiant Clementine, atsiranda klaidų, jūs taip pat turėtumėte pridėti ir GStreamer PPA:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -413,7 +414,7 @@ msgstr "Kiti atsiuntimai"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine Remote Android sistemai"
 
 #: downloads.html:77
 msgid "Unofficial packages"
@@ -475,7 +476,7 @@ msgstr "Ubuntu Precise (12.04) komponavimo versija"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "Ubuntu Trusty (14.04) komponavimo versija"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
@@ -568,15 +569,15 @@ msgstr "Vidiniai darbastalio prašimai Linux (libnotify) ir Mac OS X (Growl) pla
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "Nuotolinis valdymas naudojant"
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "Android įrenginį"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "Wii Remote"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
@@ -638,7 +639,7 @@ msgstr "Rodyti visus atsiuntimus"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Ekrano nuotrauka"
 
 #: main.html:114
 msgid "News"
@@ -728,26 +729,26 @@ msgstr "Kai kompiliuoti Clementine iš išeities kodo"
 
 #: participate.html:92
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Nuotoliniui valdymui skirta Android programėlė"
 
 #: participate.html:94
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Clementine Remote yra saugoma <a href=\"https://github.com/clementine-player/Android-Remote\">kitoje GitHub saugykloje</a>."
 
 #: participate.html:95
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgstr "Jūs galite pranešti apie klaidas ar siūlyti pataisas <a href=\"https://github.com/clementine-player/Android-Remote/issues\">jos klaidų sekimo sistemoje</a>."
 
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Jūs galite išversti vartotojo sąsają <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">šiame Transifex projekte</a>."
 
 #: participate.html:100
 msgid "Social Networking"
@@ -773,54 +774,54 @@ msgstr "Clementine Last.fm'e"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Lipdukai"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Galite rasti mielus Clementine lipdukus puslapyje %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "Jie tobulai tinka paįvairinti jūsų nešiojamo kompiuterio išvaizdą bei parodyti kaip stipriai jums patinka jūsų mėgstamiausias muzikos grotuvas!"
 
 #: participate.html:131
 msgid "Donation"
-msgstr ""
+msgstr "Paaukojimai"
 
 #: participate.html:132
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Šiuo metu, mums nereikia pinigų, todėl mes nepriimame paaukojimų pinigais. Jeigu jums patinka mūsų programinė įranga ir jūs norėtumėte mums padėti, jūs galite <a href=\"#social-networking\">palaikyti mus</a> ir papasakoti kitiems."
 
 #: participate.html:133
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Jūs taip pat galite padėti, <a href=\"#collaborate\">dalyvaudami programinės įrangos kūrime, kaip tai paaiškinta aukščiau</a>."
 
 #: participate.html:134
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Bet jeigu vis dėlto norite išleisti kažkiek pinigų, norėdami mus pradžiuginti, galite aukoti vienai iš šių, mums patinkančių, labdaringų organizacijų,"
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr ""
+msgstr "o vėliau pranešti mums:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res -- \"Gydytojai Be Sienų\"</a>"
 
 #: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger -- \"Veiksmas Prieš Badą\"</a>"
 
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation -- Elektroninės Sienos Fondas</a>"
