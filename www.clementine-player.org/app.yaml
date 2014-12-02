@@ -15,43 +15,54 @@ handlers:
 - url: /css
   static_dir: static/css
   expiration: "1d"
+  secure: always
 
 - url: /images
   static_dir: static/images
   expiration: "7d"
+  secure: always
 
 - url: /fonts
   static_dir: static/fonts
   expiration: "7d"
+  secure: always
 
 - url: /screenshots
   static_dir: static/screenshots
   expiration: "7d"
+  secure: always
 
 - url: /js
   static_dir: static/js
+  secure: always
 
 - url: /favicon.ico
   static_files: static/images/favicon.ico
   upload: static/images/favicon.ico
   expiration: "7d"
+  secure: always
 
 - url: /thumbnails/.*
   script: thumbnailer.app
+  secure: always
 
 - url: /builds
   script: buildbot.app
+  secure: always
 
 - url: /_cron/refresh_builds
   script: buildbot.app
   login: admin
+  secure: always
 
 - url: /_tasks/refresh_build
   script: buildbot.app
   login: admin
+  secure: always
 
 - url: /.*
   script: main.app
+  secure: always
 
 skip_files:
 - ^(.*/)?#.*#
