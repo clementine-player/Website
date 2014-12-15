@@ -404,7 +404,7 @@ LANGUAGES = [
   "de", "en", "hu", "it", "pt", "ru", "sk", "es", "fr", "pt_BR", "sv", "uk",
   "vi", "sl", "fi", "br", "tr", "ca", "hr", "lt", "cs", "el", "ka", "uz",
   "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
-  "my", "id", "ar", "gl", "lv", "fa", "sr", "sr@latin", "ms",
+  "my", "id", "ar", "gl", "lv", "fa", "sr", "sr@latin", "ms", "ro",
 ]
 
 LANGUAGE_NAMES = {
@@ -505,7 +505,7 @@ LANGUAGE_NAMES = {
   "pa": u"Punjabi",
   "qu": u"Quechua",
   "rm": u"RhaetoRomance",
-  "ro": u"Romanian",
+  "ro": u"română",
   "ru": u"Русский",
   "sm": u"Samoan",
   "sg": u"Sangho",
