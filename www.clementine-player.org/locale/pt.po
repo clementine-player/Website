@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-02 15:44+0100\n"
-"PO-Revision-Date: 2014-10-05 11:20+0000\n"
+"PO-Revision-Date: 2014-12-11 16:30+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/clementine/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -330,7 +330,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
 "/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
 " more information."
-msgstr "Esta versão adiciona o suporte ao <a href=\"http://www.spotify.com\">Spotify</a>, ao <a href=\"http://grooveshark.com\">Grooveshark</a> e às rádios <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Adicionámos também uma função de procura global que permite encontrar, rápida e facilmente, as músicas da sua coleção e na Internet. Adicionámos também o suporte a CDs áudio, mais opões de conversão, algumas correções no diálogo de preferências, melhorias na procura de imagem de álbuns e diversas correções. Consulte o <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">registo de alterações</a> para mais informações."
+msgstr "Esta versão adiciona o suporte ao <a href=\"http://www.spotify.com\">Spotify</a>, ao <a href=\"http://grooveshark.com\">Grooveshark</a> e às rádios <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Adicionámos também uma função de procura global que permite encontrar, rápida e facilmente, as músicas da sua coleção e na Internet. Adicionámos também o suporte a CD áudio, mais opões de conversão, algumas correções no diálogo de preferências, melhorias na procura de imagem de álbuns e diversas correções. Consulte o <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">registo de alterações</a> para mais informações."
 
 #: data.py:373
 msgid "Version 1.1 released"
@@ -525,7 +525,7 @@ msgstr "Suporte a faixas CUE"
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr "Reprodução de CDs áudio"
+msgstr "Reprodução de CD áudio"
 
 #: main.html:35
 msgid "Visualisations from"

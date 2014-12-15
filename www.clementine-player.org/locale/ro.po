@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-02 15:44+0100\n"
-"PO-Revision-Date: 2014-10-04 18:42+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2014-12-12 16:39+0000\n"
+"Last-Translator: titus <titus0818@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/clementine/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,217 +19,217 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine distant"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Controlați Clementine de la distanță cu telefonul Android"
 
 #: base.html:11
 msgid "Clementine Music Player"
-msgstr ""
+msgstr "Player-ul muzical Clementine"
 
 #: base.html:53
 msgid "About"
-msgstr ""
+msgstr "Despre"
 
 #: base.html:54 downloads.html:2
 msgid "Downloads"
-msgstr ""
+msgstr "Descărcări"
 
 #: base.html:55 main.html:92 screenshots.html:2
 msgid "Screenshots"
-msgstr ""
+msgstr "Capturi de ecran"
 
 #: base.html:56 participate.html:2
 msgid "Participate"
-msgstr ""
+msgstr "Participare"
 
 #: base.html:60
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr ""
+msgstr "Un player muzical utilizat pe diferite tipuri de computer inspirat de Amarok 1.4"
 
 #: base.html:85
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
+msgstr "Clementine este aplicație liberă sub licență GPL v3. Acest site este licențiat sub CC-BY-SA."
 
 #: base.html:86
 msgid "Development by"
-msgstr ""
+msgstr "Dezvoltat de"
 
 #: base.html:87 main.html:21 main.html.py:28
 msgid "and"
-msgstr ""
+msgstr "și"
 
 #: base.html:89
 msgid "Website by"
-msgstr ""
+msgstr "Website de"
 
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Fila listei de redare, în timpul ce se ascultă melodii de la mai multe servicii internet"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Integrare Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Navigare listă de redare de pe aplicația Android"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Controlu redare de pe aplicația Android"
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "Podcast-uri"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "O nouă interfață de căutare globală"
 
 #: data.py:17
 msgid "Moodbars"
-msgstr ""
+msgstr "Moodbars"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Configurări transcodificare"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Căutare globală pentru găsirea albumelor pe Spotify"
 
 #: data.py:22
 msgid "Global search options"
-msgstr ""
+msgstr "Opțiuni căutare globală"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Integrare Grooveshark"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "Mesaj instant pentru versuri și cursor pistă"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "Repararea fișierelor neetichetate MusicBrainz"
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "Editor etichete nou cu completare automată"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Mesaj instant cursor pistă pe Mac OS X"
 
 #: data.py:32
 msgid "Artist photos and biographies"
-msgstr ""
+msgstr "Poze artist și biografii"
 
 #: data.py:33
 msgid "Lyrics"
-msgstr ""
+msgstr "Versuri"
 
 #: data.py:34
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "Posturi radio Icecast"
 
 #: data.py:35
 msgid "Smart playlists and kittens"
-msgstr ""
+msgstr "Liste de redare inteligente și pisicuțe"
 
 #: data.py:38
 msgid "The queue manager on Windows 7"
-msgstr ""
+msgstr "Administrator coadă în Windows 7"
 
 #: data.py:39
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "Copiază muzica pe un iPod în Ubuntu"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "Clementine 0.5 în Ubu...TOATĂ SLAVA HYPNOTOAD"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.5 în Mac OS X"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr ""
+msgstr "Clementine 0.4 în Ubuntu"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "Clementine 0.4 în Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr ""
+msgstr "Vizualizări Clementine 0.4 cu proiectM"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.4 în Mac OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
-msgstr ""
+msgstr "Etichetă radio Last.fm"
 
 #: data.py:51
 msgid "Searching the library"
-msgstr ""
+msgstr "Căutând în bibliotecă"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr ""
+msgstr "Editor etichetă în Windows"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr ""
+msgstr "Administrator copertă în Mac OS X"
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr ""
+msgstr "Redare în Linuz"
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr ""
+msgstr "Suport Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "Notificări Growl în Mac OS X"
 
 #: data.py:203
 msgid "Source code"
-msgstr ""
+msgstr "Cod sursă"
 
 #: data.py:231
 msgid "Source"
-msgstr ""
+msgstr "Sursă"
 
 #: data.py:289
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "A fost lansată versiunea 0.2"
 
 #: data.py:290
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
+msgstr "A trecut doar o lună de când am lansat prima versiune Clementine. Această versiune nouă are funcții grafică album, o mai bună detecție \"Various Artists\" , suport pentru încărcarea listelor de redare, și multe altele."
 
 #: data.py:296
 msgid "Version 0.3 released"
-msgstr ""
+msgstr "A fost lansată versiunea 0.3"
 
 #: data.py:297
 msgid ""
@@ -237,11 +237,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
+msgstr "În această versiune am trecut la GStreamer pe toate platformele, asta înseamnă că analizorul și estomparea progresivă dintre piste funcționează acum și pe Windows. Funcții noi incluzând un egalizator, mai multe opțiuni de grupare a bibliotecii, un OSD mai drăguț, control de la distanță din linia de comandă și MPRIS și o editare ușoară a etichetei."
 
 #: data.py:305
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "A fost lansată versiunea 0.4"
 
 #: data.py:306
 msgid ""
@@ -251,11 +251,11 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr ""
+msgstr "Această versiune are liste de redare cu file, căutare listă de redare, vizualizări proiectM, integrare Magnatune, normalizare volum ReplayGain și transcodificare muzică. Am reparat multe defecte de programare - căutarea în mari biblioteci este acum mai rapidă, redarea este mult mai fiabilă pe Windows, problemele cu codarea de caractere sunt reparate, iar listele de redare distante ar trebui să se încarce corect tot timpul."
 
 #: data.py:315
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "A fost lansată versiunea 0.5"
 
 #: data.py:316
 msgid ""
@@ -273,11 +273,11 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Această versiune adaugă suport pentru utilizarea dispozitivelor portabile cu Clementine. Acum puteți copia melodii pe iPod, iPhone, MTP, sau dispozitive USB de stocare în masă. Vedeți <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki pentru mai multe informații</a>. A fost adăugat suportul pentru utilizarea <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> ca un control la distanță. Alte funcții includ Administrator coadă, un dialog de Organizat fișiere, restrângerea automată a coloanelor în lista de redare, încărcarea coperților incluse id3v2, mai multe opțiuni de scanare a bibliotecii, funcția drag and drop între listele de redare, și un hypnotoad. Am redus deasemenea timpul de pornire cu mai mult de jumătate, s-a reparat pierdere încărcării memoriei și reducerea utilizării CPU când se redă muzica. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: data.py:332
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "Este lansată versiunea 0.6"
 
 #: data.py:333
 msgid ""
@@ -291,11 +291,11 @@ msgid ""
 " the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Această versiune oferă două noi panouri de informații care arată versuri, statistici melodie, biografii artist, fotografii și liste de etichete și artiști asemănători. Am remodelat bara laterală (cu toate astea puteți comuta înapoi cu click dreapta pe ea) și de asemenea, adăugarea evaluărilor, numărător redări și omiterea numărătorii. Puteți crea liste de redare inteligente și dinamice din melodii în bibliotecă, și de asemenea acum puteți asculta muzică de la <a href=\"http://www.jamendo.com/\">Jamendo</a> și stațiile radio Icecast. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista completă a modificărilor</a> pentru mai multe informații."
 
 #: data.py:345
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "Este lansată versiunea 0.7"
 
 #: data.py:346
 msgid ""
@@ -311,11 +311,11 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "În această versiune Clementine câștigă un model nou de dialog editare etichete cu completare automată și cu abilitatea identificării automate a muzicii și obținerea etichetelor lipsă de la MusicBrainz. Jurnalele CUE sunt acum suportate - acestea sunt detectate automat când se scanează biblioteca iar fiecare pistă va fi arătată separat. Am făcut mai multe îmbunătățiri cum ar fi arătarea coperților în fila bibliotecă, colorarea în gri a melodiilor șterse, opțiunea \"Arată în navigatorul de fișiere\" , suport pentru proxi rețea, opțiunea \"Rescanează întreaga bibliotecă\" , și un nou mesaj instant pentru cursorul pistei care vă ajută să căutați mai precis după un anumit loc în melodie. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: data.py:360
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Este lansată versiunea 1.0"
 
 #: data.py:361
 msgid ""
@@ -329,11 +329,11 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
 "/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
 " more information."
-msgstr ""
+msgstr "Această versiune adaugă suport pentru <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support. Am adăugat de asemenea o funcție de căutare globală care vă permite să găsiți cu ușurință muzica fie în bibliotecă sau pe internet. Alte funcții înclud suportul pentru audio CD, mai multe opțiuni pentru transcodificare, un dialog configurări îmbunătățit, căutare inteligentă copertă album, și repararea multor erori de programare. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: data.py:373
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Este lansată versiunea 1.1"
 
 #: data.py:374
 msgid ""
@@ -347,11 +347,11 @@ msgid ""
 "<a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Această versiune adaugă mult așteptatul suport pentru Podcast incluzând integrarea și sincronizarea cu <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> și <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> este disponibil în fila internet din bara laterală, precum și încărcarea oricărei melodii la <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine știe acum să arate bara-dispoziție pentru muzica pe care o redați de pe discul local. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Este lansată versiunea 1.2"
 
 #: data.py:388
 msgid ""
@@ -369,455 +369,455 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Această versiune este compatibilă cu <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplicația Control la distanță Clementine pentru Android</a> care vă permite să controlați Clementine de la distanță de pe un dispozitiv Android.<br/>Această versiune adaugă de asemenea suporttul pentru Subsonic. Iar acum puteți asculta muzica depozitată pe <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Ultimele mari funcții este abilitatea să \"stea\" listele de redare, astfel le puteți închide în siguranță și să le reporniți mai târziu din noua filă \"Listă de redare\" pe care am adăugat-o în bara laterală stângă.<br/>Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "Ultimele descărcări"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "Obțineți ultima versiune stabilă Clementine pentru sistemul dumneavoastră de operare."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Descărcări pentru alte sisteme de operare"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "Ubuntu PPA"
 
 #: downloads.html:56
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "Puteți descărca ultima versiune stabilă Clementine pentru Ubuntu de la PPA-ul oficial:"
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Dependențe pentru Ubuntu Precise (12.04)"
 
 #: downloads.html:63
 msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Noile versiune Clementine necesită GStreamer 1.0 care nu a fost inclus în Ubuntu 12.04. Dacă obțineți erori la instalarea Clementine ar trebui să adăugați de asemenea și GStreamer PPA :"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
-msgstr ""
+msgstr "Alte descărcări"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Control la distanță Clementine pentru Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
-msgstr ""
+msgstr "Pachete neoficiale"
 
 #: downloads.html:79
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "Dacă nu vedeți distribuția dumneavoastră listată mai sus atunci altcineva poate a creat un pachet neoficial pentru dumneavoastră."
 
 #: downloads.html:87
 msgid "Compiling from source"
-msgstr ""
+msgstr "Compilarea din sursă"
 
 #: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "În Linux compilarea Clementine din sursă este ușoară."
 
 #: downloads.html:90
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "Descărcați pachetul cod sursă din lista de mai sus, iar într-o ferestră terminal:"
 
 #: downloads.html:99
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "Instrucțiuni complete și lista dependențelor"
 
 #: downloads.html:103
 msgid "Bleeding edge packages"
-msgstr ""
+msgstr "Pachete versiuni instabile"
 
 #: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
-msgstr ""
+msgstr "Dezvoltarea Clementine se întâmplă în"
 
 #: downloads.html:107 participate.html:59
 msgid "the git repository"
-msgstr ""
+msgstr "depozitul git"
 
 #: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "Verificați codul rulând:"
 
 #: downloads.html:112 participate.html:70
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
+msgstr "Dacă nu preferați să compilați versiunea de dezvoltare atunci încercați unul dintre pachetele orare:"
 
 #: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
-msgstr ""
+msgstr "Versiuni dezvoltare Mac OS X"
 
 #: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "Versiuni dezvoltare Ubuntu Precise (12.04)"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "Versiuni dezvoltare Ubuntu Trusty (14.04)"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
-msgstr ""
+msgstr "Versiuni dezvoltare Windows"
 
 #: downloads.html:125 participate.html:83
 msgid "Buildbot"
-msgstr ""
+msgstr "Buildbot"
 
 #: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr ""
+msgstr "Este de asemenea un PPA Ubuntu pentru aceste versiuni de dezvoltare:"
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr ""
+msgstr "Descărcări vechi"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
-msgstr ""
+msgstr "Versiune"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr ""
+msgstr "Despre &amp; Caracteristici"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "Caută și redă biblioteca dumneavoastră locală de muzică."
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr ""
+msgstr "Ascultarea posturilor radio pe internet"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "Caută și redă melodiile pe care le-ați încărcat"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "Creează liste de redare inteligente și liste de redare dinamice."
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "Liste de redare cu file, import și export M3U, XSPF, PLS și ASX."
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr ""
+msgstr "Suport jurnal CUE."
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Redare CD-uri audio."
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr ""
+msgstr "Vizualizări de la"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "Versuri, poze și biografii artist."
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "Transcodificare muzică în MP3, Ogg Vorbis, Ogg Speex, FLAC sau AAC."
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
+msgstr "Editare etichete pentru fișiere MP3 și OGG, organizare muzică."
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "Preluarea etichetelor lipsă de la MusicBrainz."
 
 #: main.html:40
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Descoperiți și descărcați Podcast-uri."
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Descărcați coperta album care lipsește de pe Last.fm și Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr ""
+msgstr "Diferite tipuri de computere - funcționează pe Windows, Mac OS X și Linux."
 
 #: main.html:43
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
+msgstr "Notificări de birou native pe Linux (libnotify) și Mac OS X (Growl)."
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "Control de la distanță utilizând"
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "Dispozitiv Android"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "o telecomandă Wii"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
-msgstr ""
+msgstr "MPRIS sau linia de comandă."
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "Copiați muzica pe"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, iPhone, MTP sau player USB."
 
 #: main.html:46
 msgid "Queue manager."
-msgstr ""
+msgstr "Administrator coadă."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "este un player muzical modern și organizator de bibliotecă"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr ""
+msgstr "Clementine este un player muzical multiplatformă."
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr ""
+msgstr "Este inspirat de "
 
 #: main.html:58
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
+msgstr "focalizată pe o interfață rapidă și ușor de utilizat pentru căutarea și redarea muzicii dumneavoastră."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr ""
+msgstr "Descărcați ultima versiune acum"
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr ""
+msgstr "Descărcați Clementine"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "pentru Windows, Mac OS X și Linux"
 
 #: main.html:80
 msgid "Announcement"
-msgstr ""
+msgstr "Anunț"
 
 #: main.html:81
 msgid "Changelog"
-msgstr ""
+msgstr "Jurnal schimbări"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr ""
+msgstr "Arată toate descărcările"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Captură de ecran"
 
 #: main.html:114
 msgid "News"
-msgstr ""
+msgstr "Știri"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr ""
+msgstr "Aveți nevoie de ajutor?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr ""
+msgstr "Veniți și discutați cu noi la"
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr ""
+msgstr "canal pe Freenode."
 
 #: participate.html:22
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
+msgstr "Amintiți-vă că <b>stați pe aici după ce puneți o întrebare</b> - putem fi într-un fus orar diferit așadar nu vom putea vedea întrebarea dumneavoastră chiar atunci."
 
 #: participate.html:25
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: participate.html:27
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
+msgstr "Clementine utilizează Google Groups pentru forum/lista de adrese/grup de discuție general."
 
 #: participate.html:30
 msgid "Support and discussion group"
-msgstr ""
+msgstr "Grup de discuții și suport"
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "Colaborare"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "Raportare defecte de programare și propuneri petice"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr ""
+msgstr "Clementine utilizează GitHub pentru dezvoltare și urmărirea problemelor."
 
 #: participate.html:40
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
+msgstr "Dacă ați găsit un defect de programare în Clementine, puneți-l în fruntea urmăririi problemelor și creeați o nouă problemă."
 
 #: participate.html:43
 msgid "Issue tracker"
-msgstr ""
+msgstr "Urmărire probleme"
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "Traduceți interfața"
 
 #: participate.html:48
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "Dacă doriți să traduceți Clementine în altă limbă puteți face asta pe pagina de traduceri Transifex."
 
 #: participate.html:49
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "Puteți fie să efectuați traducerea direct în Transifex, sau să descărcați un fișier .po de pe site iar apoi să ni-l trimiteți înapoi prin email."
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr ""
+msgstr "Traduceri Transifex"
 
 #: participate.html:55
 msgid "Hacking"
-msgstr ""
+msgstr "Hacking"
 
 #: participate.html:66
 msgid "How to compile Clementine from source"
-msgstr ""
+msgstr "Cum să compilați Clementine din sursă"
 
 #: participate.html:92
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Aplicație de la distanță pentru Android"
 
 #: participate.html:94
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Controlul la distanță Clementine este găzduit la <a href=\"https://github.com/clementine-player/Android-Remote\">alt depozit GitHub</a>."
 
 #: participate.html:95
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgstr "Puteți raporta probleme și propune petice la <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Puteți traduce interfața la <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">acest proiect Transifex</a>."
 
 #: participate.html:100
 msgid "Social Networking"
-msgstr ""
+msgstr "Rețele de socializare"
 
 #: participate.html:102
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "Ne place să vă vedem că suportați Clementine alăturându-vă nouă pe pagina rețelei de socializare favorită a dumneavoastră!"
 
 #: participate.html:106
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "Clementine pe Facebook"
 
 #: participate.html:109
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine pe Twitter"
 
 #: participate.html:112
 msgid "Clementine on Last.fm"
-msgstr ""
+msgstr "Clementine pe Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Autocolante"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Puteți găsi autocolante drăguțe Clementine la %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "Acestea vor fi perfecte pentru personalizarea laptopului și să arate cât de mult vă iubiți playerul muzical favorit!"
 
 #: participate.html:131
 msgid "Donation"
-msgstr ""
+msgstr "Donație"
 
 #: participate.html:132
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Actualmente, nu avem nevoie de bani și astfel nu acceptăm donații de bani. Dacă vă place aplicația nostră și doriți să ne ajutați, puteți să ne susțineți pe <a href=\"#social-networking\"> </a> și să răspândiți vestea."
 
 #: participate.html:133
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Puteți de asemenea ajuta <a href=\"#collaborate\">participând la dezvoltarea aplicației, cum este explicat mai sus</a>."
 
 #: participate.html:134
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Dar dacă tot doriți să cheltuiți ceva bani pentru a ne face fericiți, puteți face o donație uneia dintre aceste organizații caritabile pe care le agreem"
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr ""
+msgstr "și anunțați-ne:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
