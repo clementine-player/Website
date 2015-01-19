@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos <fito@libreoffice.org>, 2014
+# Adolfo Jayme Barrientos <fito@libreoffice.org>, 2014-2015
 # Adolfo Jayme Barrientos <fito@libreoffice.org>, 2013
 # Adolfo Jayme Barrientos <fito@libreoffice.org>, 2013
 # Adolfo Jayme Barrientos <fito@libreoffice.org>, 2014
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-15 10:45+0100\n"
-"PO-Revision-Date: 2014-12-22 23:57+0000\n"
+"PO-Revision-Date: 2015-01-15 21:55+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/clementine/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -472,11 +472,11 @@ msgstr "Si preferiu no compilar per vosaltres mateixos la versió de desenvolupa
 
 #: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
-msgstr "Versions de desenvolupament per al Mac OS X"
+msgstr "Versions de desenvolupament per a l’OS X"
 
 #: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr "Versions de desenvolupament per a l‘Ubuntu Precise (12.04)"
+msgstr "Versions de desenvolupament per a l’Ubuntu Precise (12.04)"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
@@ -496,7 +496,7 @@ msgstr "També tenim un PPA de l’Ubuntu per a les compilacions de la versió d
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr "Descàrregues antigues"
+msgstr "Baixades antigues"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
@@ -508,7 +508,7 @@ msgstr "Quant a &amp; Característiques"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Cerqueu i reproduïu la vostra biblioteca de música local."
+msgstr "Cerqueu i reproduïu la vostra col·lecció de música local."
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -528,15 +528,15 @@ msgstr "Pestanyes per a les llistes de reproducció, importació i exportació d
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr "Suport per a fulls CUE."
+msgstr "Compatibilitat amb les fulls CUE."
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr "Reproduïu CDs d'àudio"
+msgstr "Reproduïu CDs d’àudio."
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr "Visualitzacions des de"
+msgstr "Visualitzacions del"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
@@ -609,7 +609,7 @@ msgstr "El Clementine és un reproductor de música multi-plataforma"
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr "Està inspirat en l'"
+msgstr "Està inspirat en l’"
 
 #: main.html:58
 msgid ""
@@ -705,7 +705,7 @@ msgstr "Gestor d'incidències"
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr "Traduint la interfície"
+msgstr "Traducció de la interfície"
 
 #: participate.html:48
 msgid ""
