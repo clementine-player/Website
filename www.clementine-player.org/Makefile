@@ -1,4 +1,4 @@
-LANGUAGES=de hu it pt ru sk es fr pt_BR sv uk vi sl fi br cs et ia nn tr ca hr lt el ka uz eu nl pl zh_CN da af be ko ja ga bg zh_TW my id ar gl lv fa sr sr@latin ms ro
+LANGUAGES=de hu it pt ru sk es fr pt_BR sv uk vi sl fi br cs et ia nn tr ca hr lt el ka uz eu nl pl zh_CN da af be ko ja ga bg zh_TW my id ar gl lv fa sr sr@latin ms ro he
 
 all: pot $(addprefix mo-,${LANGUAGES}) css
 
