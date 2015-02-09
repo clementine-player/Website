@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-15 10:45+0100\n"
+"POT-Creation-Date: 2015-02-06 17:00+0100\n"
 "PO-Revision-Date: 2014-10-04 18:42+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/clementine/language/cy/)\n"
@@ -29,41 +29,41 @@ msgstr ""
 msgid "Clementine Music Player"
 msgstr ""
 
-#: base.html:53
+#: base.html:54
 msgid "About"
 msgstr ""
 
-#: base.html:54 downloads.html:2
+#: base.html:55 downloads.html:2
 msgid "Downloads"
 msgstr ""
 
-#: base.html:55 main.html:92 screenshots.html:2
+#: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr ""
 
-#: base.html:56 participate.html:2
+#: base.html:57 participate.html:2
 msgid "Participate"
 msgstr ""
 
-#: base.html:60
+#: base.html:61
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr ""
 
-#: base.html:85
+#: base.html:86
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr ""
 
-#: base.html:86
+#: base.html:87
 msgid "Development by"
 msgstr ""
 
-#: base.html:87 main.html:21 main.html.py:28
+#: base.html:88 main.html:21 main.html.py:28
 msgid "and"
 msgstr ""
 
-#: base.html:89
+#: base.html:90
 msgid "Website by"
 msgstr ""
 
