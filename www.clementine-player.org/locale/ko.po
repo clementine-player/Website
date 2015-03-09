@@ -6,15 +6,15 @@
 # orange2141 <ataraxia90@gmail.com>, 2014
 # 현구 임 <bradlim980@gmail.com>, 2012
 # 박정용 <kladess@gmail.com>, 2013
-# 박정용 <kladess@gmail.com>, 2014
+# 박정용 <kladess@gmail.com>, 2014-2015
 # 박정용 <kladess@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-23 13:40+0100\n"
-"PO-Revision-Date: 2014-10-04 18:42+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-03-03 16:22+0000\n"
+"Last-Translator: 박정용 <kladess@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/clementine/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -230,7 +230,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr ""
+msgstr "Clementine의 첫 번째 버전이 릴리즈 된지 불과 한달이 지났습니다. 이번 새로운 버전에서는 앨범 커버아트, 더나은 \"다양한 아티스트\" 감지, 재생목록 불러오는 동안의 지원등 을 추가하였습니다."
 
 #: data.py:296
 msgid "Version 0.3 released"
@@ -242,7 +242,7 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
+msgstr "이번 릴리즈에서 윈도우에서 작동되던 분석기와 트랙간의 크로스페이딩 기능을 모든 플랫폼에 있는 GStreamer로 변환하였습니다. 그리고 이퀄라이저, 다양한 라이브러리 그룹 옵션, 좋은 OSD, 커멘드라인 과 MPRIS로부터의 원격 제어, 그리고 쉬운 태그 편집 등을 포함 한 새로운 기능이 추가 되었습니다."
 
 #: data.py:305
 msgid "Version 0.4 released"
@@ -400,14 +400,14 @@ msgstr "공식 PPA에서 Ubuntu 를 위한 Clementine의 최신 버전을 다운
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Ubuntu Precise(12.04)를 위한 의존성 문제"
 
 #: downloads.html:63
 msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Clementine의 새로운 버전은 Ubuntu 12.04에 포함되어 있지 않는 GStreamer 1.0을 필요로 합니다. Clementine을 설치하는 도중 오류가 발생된다면 다음의 GStreamer PPA 저장소를 추가해주세요:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -459,7 +459,7 @@ msgstr "git "
 
 #: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "다음 코드를 실행하여 체크아웃 하세요:"
 
 #: downloads.html:112 participate.html:70
 msgid ""
@@ -505,7 +505,7 @@ msgstr "About &amp; Features"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "로컬 음악 라이브러리의 검색과 재생"
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -517,7 +517,7 @@ msgstr ""
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "똑똑한 재생목록과 다이나믹한 재생목록을 생성하기"
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -541,7 +541,7 @@ msgstr "가사와 음악가 바이오그라피 그리고 사진들"
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "MP3, Ogg Vorbis, Ogg Speex, FLAC 그리고 AAC 로의 파일 변환"
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
@@ -759,7 +759,7 @@ msgstr "소셜 네트워크"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "여러분이 선호하는 소셜 네트워킹 사이트에서 Clementine을 지원하기를 원합니다."
 
 #: participate.html:106
 msgid "Clementine on Facebook"
@@ -775,7 +775,7 @@ msgstr "Clementine Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "스티커"
 
 #: participate.html:127
 #, python-format

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Hassan Aly <me@hasssan.com>, 2014
-# La Ode Muh. Fadlun Akbar <alunkeren@gmail.com>, 2014
+# La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2014
 # Tjung Steven <tjung.steven@gmail.com>, 2013
 # Tjung Steven <tjung.steven@gmail.com>, 2013
 # Tjung Steven <tjung.steven@gmail.com>, 2013-2014
