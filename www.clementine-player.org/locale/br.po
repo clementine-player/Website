@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Belvar <tornoz@laposte.net>, 2013
-# Belvar <tornoz@laposte.net>, 2013
-# Belvar <tornoz@laposte.net>, 2011-2012
+# Gwenn Meynier <tornoz@laposte.net>, 2013
+# Gwenn Meynier <tornoz@laposte.net>, 2013
+# Gwenn Meynier <tornoz@laposte.net>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"

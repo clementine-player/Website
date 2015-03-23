@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-23 13:40+0100\n"
-"PO-Revision-Date: 2015-02-20 18:51+0000\n"
+"PO-Revision-Date: 2015-03-21 21:10+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -464,15 +464,15 @@ msgstr "Версии для разработчиков"
 
 #: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
-msgstr "Разработка Clementine ведется в"
+msgstr "Разработка Clementine ведется c помощью"
 
 #: downloads.html:107 participate.html:59
 msgid "the git repository"
-msgstr "системе git"
+msgstr "git-репозитория"
 
 #: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
-msgstr "Проверьте код, выполнив:"
+msgstr "Получите исходный код, выполнив:"
 
 #: downloads.html:112 participate.html:70
 msgid ""
@@ -799,7 +799,7 @@ msgstr "Вы можете найти забавные наклейки Clementin
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr "Они могут украсить ваш ноутбук и показавать всем насколько вам нравится данный аудио плеер!"
+msgstr "Они могут украсить ваш ноутбук и показать всем насколько вам нравится наш аудио плеер!"
 
 #: participate.html:131
 msgid "Donation"
@@ -822,11 +822,11 @@ msgstr "Вы так же можете помочь <a href=\"#collaborate\">в �
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr "Но если вы всё еще хотите потратить ваши деньги, чтобы сделать нас счастливыми, вы можете сделать пожертвование одной из этих благотворительных организаций"
+msgstr "Но если вы всё еще хотите потратить ваши деньги - осчастливьте нас, сделайте пожертвование одной из этих благотворительных организаций,"
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr "и дайте нам знать:"
+msgstr "рассказав нам об этом:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"

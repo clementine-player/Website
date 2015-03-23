@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012-2014
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012-2015
 # Moonwrist <moonwrist@moonwrist.org>, 2011
 # Moonwrist <moonwrist@moonwrist.org>, 2011
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-23 13:40+0100\n"
-"PO-Revision-Date: 2014-10-05 12:11+0000\n"
+"PO-Revision-Date: 2015-03-19 10:40+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/clementine/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -660,7 +660,7 @@ msgstr "Freenode-IRC-verkossa."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "<b>Pysythän kanavalla ainakin hetken kysyttyäsi kysymyksen</b> - saatamme olla eri aikavyöhykkeillä, joten kysymykseen vastaus ei välttämättä onnistu heti."
+msgstr "<b>Pysythän kanavalla ainakin hetken kysyttyäsi kysymyksen</b> - saatamme olla eri aikavyöhykkeillä, joten kysymykseen vastaaminen ei välttämättä onnistu heti."
 
 #: participate.html:25
 msgid "Forum"
