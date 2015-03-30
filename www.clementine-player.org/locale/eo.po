@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Adolfo Jayme Barrientos, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-23 13:40+0100\n"
-"PO-Revision-Date: 2014-10-04 18:42+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-03-27 18:27+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos\n"
 "Language-Team: Esperanto (http://www.transifex.com/projects/p/clementine/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,19 +32,19 @@ msgstr ""
 
 #: base.html:54
 msgid "About"
-msgstr ""
+msgstr "Pri"
 
 #: base.html:55 downloads.html:2
 msgid "Downloads"
-msgstr ""
+msgstr "Elŝutoj"
 
 #: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
-msgstr ""
+msgstr "Ekrankopioj"
 
 #: base.html:57 participate.html:2
 msgid "Participate"
-msgstr ""
+msgstr "Partoprenu"
 
 #: base.html:61
 msgid "A cross-platform music player inspired by Amarok 1.4"
@@ -61,11 +62,11 @@ msgstr ""
 
 #: base.html:88 main.html:21 main.html.py:28
 msgid "and"
-msgstr ""
+msgstr "kaj"
 
 #: base.html:90
 msgid "Website by"
-msgstr ""
+msgstr "Retejo kreita de"
 
 #: data.py:8
 msgid ""
@@ -86,7 +87,7 @@ msgstr ""
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "Podkastoj"
 
 #: data.py:15
 msgid "Google Drive"
@@ -210,7 +211,7 @@ msgstr ""
 
 #: data.py:203
 msgid "Source code"
-msgstr ""
+msgstr "Fonta kodo"
 
 #: data.py:231
 msgid "Source"
@@ -480,7 +481,7 @@ msgstr ""
 
 #: downloads.html:125 participate.html:83
 msgid "Buildbot"
-msgstr ""
+msgstr "Buildbot"
 
 #: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
@@ -488,11 +489,11 @@ msgstr ""
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr ""
+msgstr "Malnovaj elŝutoj"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -635,11 +636,11 @@ msgstr ""
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Ekrankopio"
 
 #: main.html:114
 msgid "News"
-msgstr ""
+msgstr "Novaĵoj"
 
 #: participate.html:17
 msgid "Need help?"
@@ -661,7 +662,7 @@ msgstr ""
 
 #: participate.html:25
 msgid "Forum"
-msgstr ""
+msgstr "Forumo"
 
 #: participate.html:27
 msgid ""
