@@ -183,6 +183,10 @@ class WiimotePage(webapp2.RequestHandler):
   def get(self):
     self.redirect('https://github.com/clementine-player/Clementine/wiki/Wii-Remotes')
 
+class PrivacyPage(BasePage):
+  def get(self, language):
+    self.MakePage('privacy.html', language)
+
 
 config = {}
 config['webapp2_extras.i18n'] = {
@@ -198,6 +202,7 @@ app = webapp2.WSGIApplication(
     (LANG_RE + 'screenshots', ScreenshotsPage),
     (LANG_RE + 'downloads',   DownloadsPage),
     (LANG_RE + 'participate', ParticipatePage),
+    (LANG_RE + 'privacy',     PrivacyPage),
     (r'/wiimote',             WiimotePage),
   ],
   config=config,

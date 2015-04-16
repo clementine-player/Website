@@ -584,3 +584,19 @@ pre {
   /* Added so that it will get flipped in RTL */
   text-align: left;
 }
+
+.privacy-policy {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.privacy-policy-content {
+  font-size: 14pt;
+}
+
+.privacy-policy-title {
+  font-size: 18pt;
+  margin-bottom: 20px;
+}
