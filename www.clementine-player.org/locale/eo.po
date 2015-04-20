@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 13:40+0100\n"
-"PO-Revision-Date: 2015-03-27 18:27+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos\n"
+"POT-Creation-Date: 2015-04-16 15:44+0100\n"
+"PO-Revision-Date: 2015-04-16 14:56+0000\n"
+"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/projects/p/clementine/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,6 +67,10 @@ msgstr "kaj"
 #: base.html:90
 msgid "Website by"
 msgstr "Retejo kreita de"
+
+#: base.html:93 privacy.html:3 privacy.html.py:10
+msgid "Privacy Policy"
+msgstr ""
 
 #: data.py:8
 msgid ""
@@ -821,4 +825,13 @@ msgstr ""
 
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
+msgstr ""
+
+#: privacy.html:14
+msgid ""
+"Clementine and its developers do not collect any personally identifiable "
+"information in any way. Data such as web service statistics are collected "
+"only on an anonymous basis. Information such as usernames, passwords and "
+"authentication tokens for online services provided to Clementine are never "
+"transmitted from that instance of Clementine."
 msgstr ""

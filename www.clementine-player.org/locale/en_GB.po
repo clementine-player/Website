@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Andi Chandler <andi@gowling.com>, 2015
 # Luke Hollins <luke@farcry.ca>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 13:40+0100\n"
-"PO-Revision-Date: 2015-03-10 11:13+0000\n"
-"Last-Translator: Luke Hollins <luke@farcry.ca>\n"
+"POT-Creation-Date: 2015-04-16 15:44+0100\n"
+"PO-Revision-Date: 2015-04-17 17:54+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/clementine/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,6 +68,10 @@ msgstr "and"
 #: base.html:90
 msgid "Website by"
 msgstr "Website by"
+
+#: base.html:93 privacy.html:3 privacy.html.py:10
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
 
 #: data.py:8
 msgid ""
@@ -822,3 +827,12 @@ msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
+
+#: privacy.html:14
+msgid ""
+"Clementine and its developers do not collect any personally identifiable "
+"information in any way. Data such as web service statistics are collected "
+"only on an anonymous basis. Information such as usernames, passwords and "
+"authentication tokens for online services provided to Clementine are never "
+"transmitted from that instance of Clementine."
+msgstr "Clementine and its developers do not collect any personally identifiable information in any way. Data such as web service statistics are collected only on an anonymous basis. Information such as usernames, passwords and authentication tokens for online services provided to Clementine are never transmitted from that instance of Clementine."
