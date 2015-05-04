@@ -9,14 +9,14 @@
 # Tjung Steven <tjung.steven@gmail.com>, 2013
 # Tjung Steven <tjung.steven@gmail.com>, 2013-2014
 # Tjung Steven <tjung.steven@gmail.com>, 2013
-# wantoyo <wantoyo@yahoo.com>, 2014
+# wantoyo <wantoyo@yahoo.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-05-03 03:56+0000\n"
+"Last-Translator: wantoyo <wantoyo@yahoo.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/clementine/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr "Unduh"
 
 #: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
-msgstr "Foto Layar"
+msgstr "Cuplikan Layar"
 
 #: base.html:57 participate.html:2
 msgid "Participate"
