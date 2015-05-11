@@ -6,14 +6,14 @@
 # xaojan <cxiaojian@gmail.com>, 2012
 # walking <waling@mail.i2p>, 2013
 # xaojan <cxiaojian@gmail.com>, 2012
-# zhangmin <zm1990s@gmail.com>, 2014
+# zhangmin <zm1990s@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-05-09 07:15+0000\n"
+"Last-Translator: zhangmin <zm1990s@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/clementine/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,7 +73,7 @@ msgstr "网站设计"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隐私策略"
 
 #: data.py:8
 msgid ""
@@ -837,4 +837,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr ""
+msgstr "Clementine 以及其开发者不会以任何方式收集您的个人信息。一些诸如网络服务数据统计之类的统计会以匿名的方式进行。Clementine 提供的在线服务中的用户名，密码以及认证令牌等不会使用 Clementine 进行传输。"

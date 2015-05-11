@@ -8,13 +8,14 @@
 # jpmeijers <jpmeijers@gmail.com>, 2012
 # jpmeijers <jpmeijers@gmail.com>, 2012
 # Rudolf Byker <rudolfbyker@gmail.com>, 2013
+# ste soren <st3soren@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-05-08 08:06+0000\n"
+"Last-Translator: ste soren <st3soren@gmail.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/clementine/language/af/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +75,7 @@ msgstr "Webtuiste deur"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privaatheidsbeleid"
 
 #: data.py:8
 msgid ""
@@ -215,7 +216,7 @@ msgstr "Ondersteuning vir Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "Growl kennisgewings op Mac OS X"
 
 #: data.py:203
 msgid "Source code"
@@ -246,11 +247,11 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr ""
+msgstr "In hierdie uitgawe het ons oorgeskakel na GStreamer op alle platforms, wat beteken dat die analiseerder en vloeiende oorgang tussen snitte sal nou op Windows werk. Nuwe funksies sluit in 'n gelykmaker, meer biblioteek groepering opsies, 'n beter BSB, afstandbeheer van command-line en MPRIS en makliker etiket redigering."
 
 #: data.py:305
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "Weergawe 0.4 vrygestel"
 
 #: data.py:306
 msgid ""
@@ -264,7 +265,7 @@ msgstr ""
 
 #: data.py:315
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "Weergawe 0.5 vrygestel"
 
 #: data.py:316
 msgid ""
@@ -286,7 +287,7 @@ msgstr ""
 
 #: data.py:332
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "Weergawe 0.6 vrygestel"
 
 #: data.py:333
 msgid ""
@@ -304,7 +305,7 @@ msgstr ""
 
 #: data.py:345
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "Weergawe 0.7 vrygestel"
 
 #: data.py:346
 msgid ""
@@ -324,7 +325,7 @@ msgstr ""
 
 #: data.py:360
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Weergawe 1.0 vrygestel"
 
 #: data.py:361
 msgid ""
@@ -342,7 +343,7 @@ msgstr ""
 
 #: data.py:373
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Weergawe 1.1 vrygestel"
 
 #: data.py:374
 msgid ""
@@ -360,7 +361,7 @@ msgstr ""
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Weergawe 1.2 vrygestel"
 
 #: data.py:388
 msgid ""
@@ -390,7 +391,7 @@ msgstr "Kry die nuutste stabiele weergawe van Clementine vir jou bedryfstelsel."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Aflaaie vir ander bedryfstelsels"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
@@ -400,11 +401,11 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "Jy kan die nuutste weergawe van Clementine aflaai op Ubuntu van die amptelike PPA:"
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Afhanklikhede vir Ubuntu Precise (12,04)"
 
 #: downloads.html:63
 msgid ""
@@ -415,11 +416,11 @@ msgstr ""
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
-msgstr ""
+msgstr "Ander Aflaaie"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine Afstandbeheer vir Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
@@ -433,11 +434,11 @@ msgstr ""
 
 #: downloads.html:87
 msgid "Compiling from source"
-msgstr ""
+msgstr "Samestelling van bron"
 
 #: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "Samestelling van Clementine van die bron is maklik op Linux."
 
 #: downloads.html:90
 msgid ""
@@ -451,7 +452,7 @@ msgstr ""
 
 #: downloads.html:103
 msgid "Bleeding edge packages"
-msgstr ""
+msgstr "Bloeding rand pakkette"
 
 #: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
@@ -473,15 +474,15 @@ msgstr ""
 
 #: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
-msgstr ""
+msgstr "Mac OS X ontwikkeling boue"
 
 #: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "Ubuntu Precise (12.04) ontwikkeling boue"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "Ubuntu Trusty (14.04) ontwikkeling boue"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
@@ -489,7 +490,7 @@ msgstr ""
 
 #: downloads.html:125 participate.html:83
 msgid "Buildbot"
-msgstr ""
+msgstr "Boubot"
 
 #: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
@@ -497,11 +498,11 @@ msgstr ""
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr ""
+msgstr "Ou aflaaie"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
-msgstr ""
+msgstr "Weergawe"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -513,7 +514,7 @@ msgstr ""
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr ""
+msgstr "Luister na internet radio van"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
@@ -533,7 +534,7 @@ msgstr ""
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Speel oudio CDs"
 
 #: main.html:35
 msgid "Visualisations from"
@@ -541,7 +542,7 @@ msgstr ""
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "Lirieke en kunstenaar biografieë en foto's"
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
@@ -578,11 +579,11 @@ msgstr ""
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "Android toestel"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "'n Wii Afstandbeheerder"
 
 #: main.html:44
 msgid "MPRIS or the command-line."

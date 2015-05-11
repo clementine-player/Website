@@ -9,14 +9,14 @@
 # clabacchio <clabacchio@gmail.com>, 2012
 # Gabriel Rolland <rollopack@gmail.com>, 2012
 # Gabriel Rolland <rollopack@gmail.com>, 2012
-# Vincenzo Reale <vinx.reale@gmail.com>, 2012-2014
+# Vincenzo Reale <vinx.reale@gmail.com>, 2012-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-05-04 14:23+0000\n"
+"Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/clementine/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +76,7 @@ msgstr "Sito creato da"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Criteri di riservatezza"
 
 #: data.py:8
 msgid ""
@@ -840,4 +840,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr ""
+msgstr "Clementine e i suoi sviluppatori non raccolgono in alcun modo informazione sensibili o personali. I dati come le statistiche dei servizi web sono raccolte esclusivamente in modo anonimo. Le informazioni come nomi utente, password e token di autenticazione per i servizi in linea forniti a Clementine non sono mai trasmessi dal programma."

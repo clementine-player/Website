@@ -7,8 +7,8 @@
 # Alexey Semenov <sov.info@mail.ru>, 2013
 # Andrei Stepanov, 2014-2015
 # Andy Dufrane <>, 2012
-# avireti <avireti@gmail.com>, 2012
-# avireti <avireti@gmail.com>, 2012
+# avireti, 2012
+# avireti, 2012
 # Den Ivanov, 2013
 # Den Ivanov, 2013
 # Dmitry <linuxsquirrel.dev@gmail.com>, 2013
