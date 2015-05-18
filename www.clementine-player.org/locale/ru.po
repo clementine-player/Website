@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 16:00+0000\n"
+"PO-Revision-Date: 2015-05-13 09:38+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -534,7 +534,7 @@ msgstr "Поиск и воспроизведение песен, загруже�
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Создание \"умных\", а также динамических плейлистов"
+msgstr "Создание \"умных\", а также динамических плейлистов."
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."

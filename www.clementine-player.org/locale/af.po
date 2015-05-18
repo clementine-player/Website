@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-05-08 08:06+0000\n"
+"PO-Revision-Date: 2015-05-11 08:33+0000\n"
 "Last-Translator: ste soren <st3soren@gmail.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/clementine/language/af/)\n"
 "MIME-Version: 1.0\n"
@@ -510,7 +510,7 @@ msgstr ""
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "Soek en speel jou plaaslike musiek biblioteek."
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -575,7 +575,7 @@ msgstr ""
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "Afstandbeheer met 'n"
 
 #: main.html:44
 msgid "Android device"
@@ -591,7 +591,7 @@ msgstr ""
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "Kopieer musiek na jou"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
@@ -637,15 +637,15 @@ msgstr "Aankondiging"
 
 #: main.html:81
 msgid "Changelog"
-msgstr ""
+msgstr "Veranderingsteken"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr ""
+msgstr "Wys alle aflaaie"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Skermkiekie"
 
 #: main.html:114
 msgid "News"
@@ -657,11 +657,11 @@ msgstr "Het jy hulp nodig?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr ""
+msgstr "Kom gesels met ons by die"
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr ""
+msgstr "kanaal op Freenode."
 
 #: participate.html:22
 msgid ""
@@ -703,7 +703,7 @@ msgstr ""
 
 #: participate.html:43
 msgid "Issue tracker"
-msgstr ""
+msgstr "Uitreiking spoorsnyer"
 
 #: participate.html:46
 msgid "Translating the interface"
@@ -758,7 +758,7 @@ msgstr ""
 
 #: participate.html:100
 msgid "Social Networking"
-msgstr ""
+msgstr "Sosiale Netwerking"
 
 #: participate.html:102
 msgid ""
@@ -818,11 +818,11 @@ msgstr ""
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr ""
+msgstr "en laat ons weet:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
@@ -830,7 +830,7 @@ msgstr ""
 
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 
 #: privacy.html:14
 msgid ""
