@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-05-11 08:33+0000\n"
+"PO-Revision-Date: 2015-05-28 07:59+0000\n"
 "Last-Translator: ste soren <st3soren@gmail.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/clementine/language/af/)\n"
 "MIME-Version: 1.0\n"
@@ -460,7 +460,7 @@ msgstr ""
 
 #: downloads.html:107 participate.html:59
 msgid "the git repository"
-msgstr ""
+msgstr "die git bewaarplek"
 
 #: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr ""
+msgstr "It is inspired by"
 
 #: main.html:58
 msgid ""
@@ -826,7 +826,7 @@ msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</
 
 #: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Aksie Teen Honger</a>"
 
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"

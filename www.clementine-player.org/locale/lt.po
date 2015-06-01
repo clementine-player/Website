@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-17 12:49+0000\n"
+"PO-Revision-Date: 2015-05-27 09:54+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/clementine/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -504,7 +504,7 @@ msgstr "Versija"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Apie &amp; savybes"
+msgstr "Apie programą ir savybes"
 
 #: main.html:9
 msgid "Search and play your local music library."
