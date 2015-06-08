@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Mladen Pejaković <pejakm@autistici.org>, 2014
-# Mladen Pejaković <pejakm@autistici.org>, 2014
+# Mladen Pejaković <pejakm@autistici.org>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-06-01 17:06+0000\n"
+"Last-Translator: Mladen Pejaković <pejakm@autistici.org>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/clementine/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +71,7 @@ msgstr "Вебсајт урадио"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Политика приватности"
 
 #: data.py:8
 msgid ""
@@ -835,4 +835,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr ""
+msgstr "Клементина и њени програмери не сакупљају никакве личне податке на било који начин. Подаци као што су статистике веб сервиса сакупљају се само анонимно. Подаци за мрежне сервисе као што су корисничка имена, лозинке и токени за аутентификацију дати Клементини никад се не преносе са те инстанце Клементине. "
