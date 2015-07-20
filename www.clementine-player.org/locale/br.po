@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Gwenn Meynier <tornoz@laposte.net>, 2013
-# Gwenn Meynier <tornoz@laposte.net>, 2013
-# Gwenn Meynier <tornoz@laposte.net>, 2011-2012
-# Gwenn Meynier <tornoz@laposte.net>, 2015
+# Gwenn M <tornoz@laposte.net>, 2013
+# Gwenn M <tornoz@laposte.net>, 2013
+# Gwenn M <tornoz@laposte.net>, 2011-2012
+# Gwenn M <tornoz@laposte.net>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
 "PO-Revision-Date: 2015-05-14 10:16+0000\n"
-"Last-Translator: Gwenn Meynier <tornoz@laposte.net>\n"
+"Last-Translator: Gwenn M <tornoz@laposte.net>\n"
 "Language-Team: Breton (http://www.transifex.com/p/clementine/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
