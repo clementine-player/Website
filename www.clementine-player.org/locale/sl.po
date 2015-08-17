@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-17 12:39+0000\n"
+"PO-Revision-Date: 2015-08-15 19:21+0000\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/davidsansome/clementine/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr "Oddaljen nadzor Clementine"
+msgstr "Oddaljen nadzor za Clementine"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
