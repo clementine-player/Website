@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-05-13 09:38+0000\n"
+"PO-Revision-Date: 2015-08-23 17:54+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/davidsansome/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr "Управляйте Clementine удалённо с вашего Android устройства"
+msgstr "Управляйте Clementine удалённо с вашего устройства Android"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -522,7 +522,7 @@ msgstr "О возможностях программы"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Поиск и проигрывание музыки из вашей фонотеки."
+msgstr "Поиск и воспроизведение музыки из вашей фонотеки."
 
 #: main.html:10
 msgid "Listen to internet radio from"
