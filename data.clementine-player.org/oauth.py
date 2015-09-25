@@ -1,6 +1,6 @@
 import webapp2
 
-class SkydrivePage(webapp2.RequestHandler):
+class OAuthPage(webapp2.RequestHandler):
   def get(self):
     port = self.request.get('port')
     if not port:
@@ -14,6 +14,7 @@ class SkydrivePage(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication(
     [
-        (r'/skydrive', SkydrivePage)
+        (r'/oauth', OAuthPage),
+        (r'/skydrive', OAuthPage),  # Legacy support
     ],
     debug=True)

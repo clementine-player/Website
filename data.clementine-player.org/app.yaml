@@ -53,8 +53,12 @@ handlers:
   secure: always
   login: required
 
+- url: /oauth
+  script: oauth.app
+
+# Legacy oauth support
 - url: /skydrive
-  script: skydrive.app
+  script: oauth.app
 
 - url: /.*
   script: clementine.app
