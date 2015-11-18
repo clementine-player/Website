@@ -125,7 +125,7 @@ class BasePage(webapp2.RequestHandler):
     params = {
       'best_download':      best_download,
       'downloads':          downloads,
-      'latest_downloads':   [x for x in downloads if x['ver'] == LATEST_VERSION],
+      'latest_downloads':   [x for x in downloads if x['ver'][:3] == LATEST_VERSION[:3]],
       'latest_screenshots': screenshots[0]['entries'],
       'latest_version':     LATEST_VERSION,
       'news':               news,
@@ -144,7 +144,7 @@ class BasePage(webapp2.RequestHandler):
   def FindDownload(self, os, arch=0):
     downloads = [x for x in DOWNLOADS if x['os'] == os
                                      and x['arch'] == arch
-                                     and x['ver'] == LATEST_VERSION]
+                                     and x['ver'][:3] == LATEST_VERSION[:3]]
     if downloads:
       return copy.deepcopy(downloads[0])
     else:
