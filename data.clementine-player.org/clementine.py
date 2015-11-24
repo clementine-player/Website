@@ -225,6 +225,17 @@ class DownloadCountersPage(webapp2.RequestHandler):
     return re.search(r'\.(deb|rpm)$', f['name'])
 
 
+class AcmeChallengePage(webapp2.RequestHandler):
+  def get(self):
+    self.redirect(
+        'https://builds.clementine-player.org' + self.request.path)
+
+  def post(self):
+    self.redirect(
+        'https://builds.clementine-player.org' + self.request.path)
+
+
+
 app = webapp2.WSGIApplication(
   [
     (r'/sparkle', MacSparklePage),
@@ -235,5 +246,6 @@ app = webapp2.WSGIApplication(
     (r'/icecast-directory', IcecastPage),
     (r'/geolocate', GeolocatePage),
     (r'/downloadcount', DownloadCountersPage),
+    (r'/.well-known/acme-challenge/.*', AcmeChallengePage),
   ],
   debug=True)
