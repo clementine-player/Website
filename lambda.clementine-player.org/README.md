@@ -7,7 +7,7 @@ This directory contains code intended to run as an
 ### Running Locally
 ```shell
 gradle build shadowJar
-./build/libs/lambda.clementine-player.org-all.jar
+java -jar ./build/libs/lambda.clementine-player.org-all.jar
 ```
 
 ### Running on AWS
