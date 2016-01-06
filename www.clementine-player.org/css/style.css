@@ -15,30 +15,13 @@
 
 /* Reset the basic elements to a baseline. */
 body {
-  color: #000000;
+  color: #000;
   font-family: FONT_FAMILY;
-  margin: 0px;
+  margin: 0;
   font-size: 12px;
-  background-color: #DB6835;
+  background: linear-gradient(to right, #af597d, #db6835);
+  background-color: #db6835;
   height: 100%;
-}
-
-#half-background {
-  position: fixed;
-  top: 0;
-  width: 50%;
-  height: 400%;
-  background-color: #AF597D;
-  z-index: 1;
-}
-#canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  background-image:url("/images/background.png");
-  background-repeat:repeat-y;
 }
 
 a:link,
