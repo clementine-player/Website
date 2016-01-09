@@ -5,7 +5,7 @@
 # Translators:
 # Adolfo Jayme Barrientos, 2014-2015
 # Adolfo Jayme Barrientos, 2013
-# Adolfo Jayme Barrientos, 2015
+# Adolfo Jayme Barrientos, 2015-2016
 # Adolfo Jayme Barrientos, 2013
 # Adolfo Jayme Barrientos, 2014
 # Arnau <Thunder.Tricking@gmail.com>, 2013
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-05-13 07:55+0000\n"
+"PO-Revision-Date: 2016-01-03 11:01+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos\n"
 "Language-Team: Catalan (http://www.transifex.com/davidsansome/clementine/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "Integració amb Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr "Navegar per la llista de reproducció des de l'aplicació d'Android"
+msgstr "Navegació per les llistes de reproducció a l’aplicació per a l’Android"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
@@ -115,11 +115,11 @@ msgstr "Barres d'emocions"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr "Opcions de transcodificació"
+msgstr "Opcions de conversió"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr "Cerca global incloent àlbums de Spotify"
+msgstr "Cerca global que inclou àlbums de l’Spotify"
 
 #: data.py:22
 msgid "Global search options"
@@ -171,19 +171,19 @@ msgstr "Copiant música a un iPod a Ubuntu"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 a Ubu... LLOEM L'HIPNOGRIPAU"
+msgstr "Clementine 0.5 a l’Ubu… LLOEM L’HIPNOGRIPAU"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 a Mac OS X"
+msgstr "Clementine 0.5 a l’OS X"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 a Ubuntu"
+msgstr "Clementine 0.4 a l’Ubuntu"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 a Windows 7"
+msgstr "Clementine 0.4 al Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
@@ -191,7 +191,7 @@ msgstr "Visuals amb projectM al Clementine 0.4"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 a Mac OS X"
+msgstr "Clementine 0.4 a l’OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
@@ -199,15 +199,15 @@ msgstr "Ràdio per etiquetes amb Last.fm"
 
 #: data.py:51
 msgid "Searching the library"
-msgstr "Cercant a la biblioteca"
+msgstr "Cerca a la biblioteca"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr "L'editor d'etiquetes a Windows"
+msgstr "L’editor d’etiquetes al Windows"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr "El gestor de portades a Mac OS X"
+msgstr "El gestor de caràtules a l’OS X"
 
 #: data.py:56
 msgid "Playback on Linux"
@@ -215,11 +215,11 @@ msgstr "Reproducció en Linux"
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr "Support per a Last.fm"
+msgstr "Compatibilitat amb el Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr "Notificacions Growl a Mac OS X"
+msgstr "Notificacions amb el Growl a l’OS X"
 
 #: data.py:203
 msgid "Source code"
@@ -509,7 +509,7 @@ msgstr "Versió"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Quant a &amp; Característiques"
+msgstr "Quant a / funcionalitats"
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -521,7 +521,7 @@ msgstr "Escolteu la ràdio d'internet des de"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr "Busca i reprodueix les cançons que hagis pujat"
+msgstr "Cerqueu i reproduïu les cançons que hàgiu pujat"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
@@ -533,11 +533,11 @@ msgstr "Pestanyes per a les llistes de reproducció, importació i exportació d
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr "Compatibilitat amb les fulls CUE."
+msgstr "Compatibilitat amb els fulls CUE."
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr "Reproduïu CDs d’àudio."
+msgstr "Reproduïu CD d’àudio."
 
 #: main.html:35
 msgid "Visualisations from"
@@ -569,7 +569,7 @@ msgstr "Descarregueu les portades d'àlbums que us manquen des de Last.fm i Amaz
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Multi-plataforma - funciona a Windows, Mac OS X i Linux."
+msgstr "Multiplataforma: funciona al Windows, a l’OS X i al Linux."
 
 #: main.html:43
 msgid ""
@@ -730,7 +730,7 @@ msgstr "Traduccions Transifex"
 
 #: participate.html:55
 msgid "Hacking"
-msgstr "Hackejant"
+msgstr "Programació"
 
 #: participate.html:66
 msgid "How to compile Clementine from source"
@@ -842,4 +842,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr "Ni el Clementine ni els seus desenvolupadors recullen cap informació d’identificació personal. Dades com les estadístiques de serveis web només es recullen d’una manera anònima. Altra informació, com les noms d’usuari, les contrasenyes i els testimonis d’autenticació per als serveis web que s’ofereixen al Clementine, mai es transmet mitjançant aquest."
+msgstr "Ni el Clementine ni els seus desenvolupadors recullen cap informació d’identificació personal. Dades com les estadístiques de serveis web només es recullen d’una manera anònima. Altra informació, com els noms d’usuari, les contrasenyes i els testimonis d’autenticació per als serveis web que s’ofereixen al Clementine, mai es transmet mitjançant aquest."

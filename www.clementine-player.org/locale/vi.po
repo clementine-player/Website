@@ -8,13 +8,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011
 # Lê Trường An <truongan@linuxmail.org>, 2011, 2012
 # Lê Trường An <truongan@linuxmail.org>, 2011-2013
+# Phạm Nguyễn Hoàng <hoang19962008@yahoo.com.vn>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-09-18 15:03+0000\n"
+"Last-Translator: Phạm Nguyễn Hoàng <hoang19962008@yahoo.com.vn>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/davidsansome/clementine/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,11 +25,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Điều khiển từ xa Clementine bằng điện thoại Android của bạn"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -74,24 +75,24 @@ msgstr "Phụ trách trang web"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Chính sách về quyền riêng tư"
 
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Thẻ Danh sách phát, khi đang nghe nhạc từ các dịch vụ Internet"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Tích hợp Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Duyệt danh sách nhạc từ ứng dụng Android"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Điều khiển phát nhạc bằng ứng dụng Android"
 
 #: data.py:14
 msgid "Podcasts"
@@ -360,7 +361,7 @@ msgstr "Phiên bản được mong chờ với hỗ trợ Podcast và đồng b�
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Phiên bản 1.2 đã ra mắt"
 
 #: data.py:388
 msgid ""
@@ -378,7 +379,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Phiên bản này tương thích với <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">ứng dụng Clementine Remote trên Android</a>. Ứng dụng giúp bạn điều khiển Clementine từ xa bằng thiết bị chạy Android.<br/>Phiên bản này cũng bổ sung chức năng hỗ trợ cho Subsonic. Và bây giờ bạn có thể nghe nhạc lưu trên <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> và <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Tính năng mới quan trọng cuối cùng là đánh dấu sao danh sách phát nhạc để bạn có thể đóng và mở lại từ thẻ \"Danh sách phát nhạc\" mới có ở thanh bên trái.<br/>Thông tin chi tiết xem tại <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">nhật kí sửa đổi đầy đủ</a>."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -404,14 +405,14 @@ msgstr "Bạn có thể tải phiên bản mới nhất của Clementine cho Ubu
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Các gói phụ thuộc với Ubuntu Precise (12.04)"
 
 #: downloads.html:63
 msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Các phiên bản mới của Clementine cần GStreamer 1.0, tuy nhiên GStreamer 1.0 không có trên Ubuntu 12.04. Nếu có lỗi khi cài Clementine, bạn hãy thêm PPA của GStreamer:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -419,7 +420,7 @@ msgstr "Tải về khác"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine Remote trên Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
@@ -481,7 +482,7 @@ msgstr "Các gói đang phát triển trên Ubuntu Precise (12.04)"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "Các bản đang phát triển trên Ubuntu Trusty (14.04)"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
@@ -574,15 +575,15 @@ msgstr "Hộp thông báo trên Linux (libnotify) và Mac OS X (Growl)."
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "Điều khiển từ xa bằng"
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "thiết bị Android"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "Wii Remote"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
@@ -644,7 +645,7 @@ msgstr "Tải về"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Ảnh chụp màn hình"
 
 #: main.html:114
 msgid "News"
@@ -734,26 +735,26 @@ msgstr "Biên dịch Clementine từ mã nguồn"
 
 #: participate.html:92
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Ứng dụng điều khiển cho Android"
 
 #: participate.html:94
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Mã nguồn của Clementine Remote có trên <a href=\"https://github.com/clementine-player/Android-Remote\">kho GitHub này</a>."
 
 #: participate.html:95
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgstr "Bạn có thể báo lỗi và đóng góp sửa đổi cho chương trình tại <a href=\"https://github.com/clementine-player/Android-Remote/issues\">trang web theo dõi lỗi</a>."
 
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Bạn có thể dịch giao diện tại <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">dự án Transifex này</a>."
 
 #: participate.html:100
 msgid "Social Networking"
@@ -779,49 +780,49 @@ msgstr "Clementine trên Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Hình dán"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Bạn có thể mua những hình dán Clementine dễ thương tại %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "Hình dán vừa làm đẹp cho máy tính của bạn, vừa thể hiện tình yêu với ứng dụng này!"
 
 #: participate.html:131
 msgid "Donation"
-msgstr ""
+msgstr "Quyên góp"
 
 #: participate.html:132
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Hiện nay, chúng tôi không có nhu cầu và không nhận đóng góp tài chính. Nếu bạn thích phần mềm này và muốn giúp đỡ cho chúng tôi, hãy <a href=\"#social-networking\">ủng hộ chúng tôi</a> trên mạng xã hội."
 
 #: participate.html:133
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Bạn cũng có thể <a href=\"#collaborate\">tham gia phát triển phần mềm như đã nêu trên</a>."
 
 #: participate.html:134
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Nhưng nếu bạn vẫn muốn ủng hộ tài chính, bạn có thể đóng góp cho các tổ chức từ thiện sau"
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr ""
+msgstr "và nhớ cho chúng tôi biết nhé:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">Bác sĩ không biên giới</a>"
 
 #: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"

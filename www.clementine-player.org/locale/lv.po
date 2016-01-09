@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Baiba Berzina <baibabeerzinnaa@gmail.com>, 2015
 # Uģis <ugga@inbox.lv>, 2013
 # Uģis <ugga@inbox.lv>, 2013-2014
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2015-11-10 11:20+0000\n"
+"Last-Translator: Baiba Berzina <baibabeerzinnaa@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/davidsansome/clementine/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +22,11 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine vadība"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Vadīt Clementine attālināti no Android tālruņa"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -41,7 +42,7 @@ msgstr "Lejupielādes"
 
 #: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
-msgstr "Ekrānšāviņi"
+msgstr "Ekrānuzņēmumi"
 
 #: base.html:57 participate.html:2
 msgid "Participate"
@@ -71,12 +72,12 @@ msgstr "Mājaslapa no"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privātuma Politika"
 
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Atskaņošanas saraksta cilne, klausoties dziesmas vairākos interneta pakalpojumos"
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -84,11 +85,11 @@ msgstr ""
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Pārlūkot atskaņošanas sarakstu no Android aplikācijas"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Vadīt atskaņošanu no Android aplikācijas"
 
 #: data.py:14
 msgid "Podcasts"
@@ -96,11 +97,11 @@ msgstr "Podraides"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr "Google Drive"
+msgstr "Google Disks"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "Jauna globālās meklēšanas saskarne"
 
 #: data.py:17
 msgid "Moodbars"
@@ -108,15 +109,15 @@ msgstr ""
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Pārkodēšanas iestatījumi"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Globālajā meklēšanā atrastie Spotify albumi"
 
 #: data.py:22
 msgid "Global search options"
-msgstr "Globālās meklēšanas opcijas"
+msgstr "Globālās meklēšanas iespējas"
 
 #: data.py:23
 msgid "Grooveshark integration"
@@ -140,7 +141,7 @@ msgstr ""
 
 #: data.py:32
 msgid "Artist photos and biographies"
-msgstr "Mākslinieku foto un biogrāfijas"
+msgstr "Mākslinieku foto un biogrāfija"
 
 #: data.py:33
 msgid "Lyrics"
@@ -176,7 +177,7 @@ msgstr ""
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "Clementine 0.4 priekš Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
@@ -192,7 +193,7 @@ msgstr "Last.fm birku radio"
 
 #: data.py:51
 msgid "Searching the library"
-msgstr ""
+msgstr "Meklēt bibliotēkā"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
@@ -200,11 +201,11 @@ msgstr ""
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr "Vāku pārvaldnieks iekš Mac OS X"
+msgstr "Vāku pārvaldnieks priekš Mac OS X"
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr ""
+msgstr "Atskaņošana priekš Linux"
 
 #: data.py:57
 msgid "Last.fm support"
@@ -379,11 +380,11 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "Pēdējās lejupielādes"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "Iegūt jaunāko stabilo Clementine versiju jūsu operētājsistēmai"
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -416,7 +417,7 @@ msgstr "Citas lejupielādes"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine vadība priekš Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
@@ -494,7 +495,7 @@ msgstr ""
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr "Vecas lejupielādes"
+msgstr "Vecās lejupielādes"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
@@ -514,11 +515,11 @@ msgstr "Klausieties interneta radio no"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "Meklēt un atskaņot dziesmas, kuras esat augšupielādējis"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "Izveidot gudros un dinamiskos atskaņošanas sarakstus."
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
@@ -534,7 +535,7 @@ msgstr "Atskaņo audio CD."
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr ""
+msgstr "Vizualizācija no"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
@@ -554,11 +555,11 @@ msgstr ""
 
 #: main.html:40
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Atrast un lejupielādēt Podraides."
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Lejupielādēt trūkstošo albuma vāku no Last.fm vai Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -571,7 +572,7 @@ msgstr ""
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr "Attālināta vadība izmantojot"
+msgstr "Attālināta vadība, izmantojot"
 
 #: main.html:44
 msgid "Android device"
@@ -579,7 +580,7 @@ msgstr "Android ierīce"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr "Wii Remote"
+msgstr "Wii vadība"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
@@ -587,7 +588,7 @@ msgstr ""
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "Kopēt mūziku savā "
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
@@ -599,15 +600,15 @@ msgstr ""
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "ir mūsdienīgs mūzikas atskaņotājs un bibliotēkas organizētājs"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine ir starpplatformu mūzikas atskaņotājs"
+msgstr "Clementine ir daudzplatformu mūzikas atskaņotājs"
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr ""
+msgstr "To ir iedvesmojis"
 
 #: main.html:58
 msgid ""
@@ -621,15 +622,15 @@ msgstr "Lejupielādē jaunāko versiju"
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr ""
+msgstr "Lejupielādēt Clementine"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "priekš Windows, Mac OS X un Linux"
 
 #: main.html:80
 msgid "Announcement"
-msgstr ""
+msgstr "Paziņojums"
 
 #: main.html:81
 msgid "Changelog"
@@ -637,11 +638,11 @@ msgstr "Izmaiņas"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr ""
+msgstr "Parādīt visas lejupielādes"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Ekrānuzņēmums"
 
 #: main.html:114
 msgid "News"
@@ -649,7 +650,7 @@ msgstr "Jaunumi"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr "Vajag palīdzību?"
+msgstr "Nepieciešama palīdzība?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
@@ -663,7 +664,7 @@ msgstr "kanāls iekš Freenode"
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
+msgstr "Neaizmirstiet <b> nedaudz uzkavēties pēc jautājuma uzdošanas <b> - mēs varam būt citā laika joslā, tāpēc neredzēsim jūsu jautājumu uzreiz."
 
 #: participate.html:25
 msgid "Forum"
@@ -677,19 +678,19 @@ msgstr ""
 
 #: participate.html:30
 msgid "Support and discussion group"
-msgstr ""
+msgstr "Palīdzības un diskusiju grupa"
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "Sadarboties"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "Paziņot par kļūdām un ieteikt labojumus"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Priekš izstrādes un kļūdu labošanas Clementine izmanto GitHub."
+msgstr "|zstrādei un kļūdu labošanai Clementine izmanto GitHub."
 
 #: participate.html:40
 msgid ""
@@ -703,23 +704,23 @@ msgstr ""
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "Tulkot saskarni"
 
 #: participate.html:48
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "Ja vēlaties tulkot Clementine citā valodā, varat to darīt Transifex tulkošanas lapā. "
 
 #: participate.html:49
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "Jūs varat tulkot tieši Transifex lapā vai lejupielādēt vietnē .po failu un atsūtīt mums to atpakaļ e-pastā."
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr ""
+msgstr "Transifex tulkojumi"
 
 #: participate.html:55
 msgid "Hacking"
@@ -731,7 +732,7 @@ msgstr "Kā kompilēt Clementine no pirmkoda"
 
 #: participate.html:92
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Android vadības aplikācija "
 
 #: participate.html:94
 msgid ""
@@ -750,7 +751,7 @@ msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Jūs varat tulkot saskarni šajā Transifex projektā</a>: <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">."
 
 #: participate.html:100
 msgid "Social Networking"
@@ -760,28 +761,28 @@ msgstr "Sociālie Tīkli"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "Priecāsimies, ja atbalstīsiet Clementine, pievienojoties mums jūsu mīļākajā sociālajā tīklā!"
 
 #: participate.html:106
 msgid "Clementine on Facebook"
-msgstr "Clementine iekš Facebook"
+msgstr "Clementine vietnē Facebook"
 
 #: participate.html:109
 msgid "Clementine on Twitter"
-msgstr "Clementine iekš Twitter"
+msgstr "Clementine vietnē Twitter"
 
 #: participate.html:112
 msgid "Clementine on Last.fm"
-msgstr "Clementine iekš Last.fm"
+msgstr "Clementine vietnē Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Uzlīmes"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Jūs varat atrast Clementine burvīgās uzlīmes %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
@@ -798,23 +799,23 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Mums šobrīd nav nepieciešama nauda, tāpēc nepieņemam naudas ziedojumus. Ja jums patīk mūsu programmatūra un vēlaties mums palīdzēt, jūs varat atbalstīt mūs <a href=\"#social-networking\"> un padalīties. "
 
 #: participate.html:133
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Jūs arī varat palīdzēt <a href=\"#collaborate\">, piedaloties programmatūras uzlabošanā, kā iepriekš minēts </a>."
 
 #: participate.html:134
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "Taču ja vēlaties tērēt naudu, lai padarītu mūs priecīgus, varat ziedot kādai no šīm labdarības organizācijām, kuras mēs atbalstam"
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr ""
+msgstr "un paziņojiet par to mums:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"

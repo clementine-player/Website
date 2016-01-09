@@ -7,12 +7,13 @@
 # Gwenn M <tornoz@laposte.net>, 2013
 # Gwenn M <tornoz@laposte.net>, 2011-2012
 # Gwenn M <tornoz@laposte.net>, 2015
+# Gwenn M <tornoz@laposte.net>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-05-14 10:16+0000\n"
+"PO-Revision-Date: 2015-11-25 09:53+0000\n"
 "Last-Translator: Gwenn M <tornoz@laposte.net>\n"
 "Language-Team: Breton (http://www.transifex.com/davidsansome/clementine/language/br/)\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +40,7 @@ msgstr "A-zivout"
 
 #: base.html:55 downloads.html:2
 msgid "Downloads"
-msgstr "Pellgargadennoù"
+msgstr "Pellgargadurioù"
 
 #: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
@@ -57,7 +58,7 @@ msgstr "Ul lenner sonerezh lies-reizhad awenet gant Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine a zo ur poellad frank dindan al lañvaz GPL v3. Al lec'hienn-mañ a zo dindan lañvaz CC-BY-SA."
+msgstr "Clementine a zo ur meziant dieub dindan al lañvaz GPL v3. Al lec'hienn-mañ a zo dindan lañvaz CC-BY-SA."
 
 #: base.html:87
 msgid "Development by"
@@ -73,12 +74,12 @@ msgstr "Lec'hienn internet gant :"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr "Reolenn a-fet buhez prevez"
+msgstr "Reolennoù a-fet buhez prevez"
 
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr "Ivinell roll seniñ, en ur selaou ouzh tonioù eus gwazerezhioù kenrouedad."
+msgstr "Ivinell roll seniñ, en ur selaou ouzh tonioù eus gwazerezhioù kenrouedad liesseurt."
 
 #: data.py:9
 msgid "Subsonic integration"
@@ -94,7 +95,7 @@ msgstr "Reoliñ al lennadur adalek an arload Android"
 
 #: data.py:14
 msgid "Podcasts"
-msgstr "Podkastoù"
+msgstr "Podskignañ"
 
 #: data.py:15
 msgid "Google Drive"
@@ -102,7 +103,7 @@ msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr "Etrefas klask hollek nevez"
+msgstr "Ketal klask hollek nevez"
 
 #: data.py:17
 msgid "Moodbars"
@@ -110,11 +111,11 @@ msgstr "Barennoù imor"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr "Arventennoù transkodiñ"
+msgstr "Arventennoù treuzvonegañ"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr "Klask albomoù war Spotify gant ar c'hlask hollek"
+msgstr "Klaskit albomoù war Spotify gant ar c'hlask hollek"
 
 #: data.py:22
 msgid "Global search options"
@@ -130,7 +131,7 @@ msgstr "Klogorenn riklell komzoù ha roudoù"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
-msgstr "Tag aotomatikel an tonioù gant MusicBrainz"
+msgstr "Kempennadur ar restroù diglav gant MusicBrainz"
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
@@ -154,7 +155,7 @@ msgstr "Savlec'hioù skingomz Icecast"
 
 #: data.py:35
 msgid "Smart playlists and kittens"
-msgstr "Roll c'hoari speredek ha kizier"
+msgstr "Rolloù seniñ speredek ha kizier"
 
 #: data.py:38
 msgid "The queue manager on Windows 7"
@@ -218,11 +219,11 @@ msgstr "Rebuzadurioù Growl war Mac OS X"
 
 #: data.py:203
 msgid "Source code"
-msgstr "Kod mammenn"
+msgstr "Boneg tarzh"
 
 #: data.py:231
 msgid "Source"
-msgstr "Mammenn"
+msgstr "Tarzh"
 
 #: data.py:289
 msgid "Version 0.2 released"
@@ -385,11 +386,11 @@ msgstr "Pellgargadurioù diwezhañ"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Kaout handelv stabil diwezhañ Clementine evit ho reizhad korvoiñ."
+msgstr "Kaout handelv stabil diwezhañ Clementine evit ho reizhiad korvoiñ."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr "Pellgargañ evit reizhadoù korvoiñ all"
+msgstr "Pellgargañ evit reizhiadoù korvoiñ all"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
@@ -399,11 +400,11 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Adalek ar PPA ofisiel ez eus tu deoc'h pellgargañ handelv diwezhañ Clementine"
+msgstr "Adalek ar PPA ofisiel e c'hallit pellgargañ handelv diwezhañ Clementine"
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Amzalc'hoù evit "
 
 #: downloads.html:63
 msgid ""
@@ -422,7 +423,7 @@ msgstr "Pellurzhierez Clementine evit Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
-msgstr "Pakadoù anofisiel"
+msgstr "Pakadoù angerfridiel"
 
 #: downloads.html:79
 msgid ""
@@ -504,31 +505,31 @@ msgstr "Handelv"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "A-zivout &amp; Arc'hweloù"
+msgstr "A-zivout &amp; Keweriusterioù"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "Klaskit ha lennit ho sonaoueg lec'hel."
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr "Selaouit ouzh ar skingomz Internet adalek"
+msgstr "Selaouit ouzh ar skingomz kenrouedad adalek"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "Klaskit ha lennit tonioù bet uskarget ganeoc'h davet"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Krouit rollioù seniñ speredek ha rollioù seniñ dinamek."
+msgstr "Krouit rolloù seniñ speredek ha rolloù seniñ dialuskel."
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "Ivinelloù rolloù seniñ, enporzhiañ hag ezporzhiañ M3U, XSPF, PLS hag ASX."
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr ""
+msgstr "Skor ar follennoù CUE."
 
 #: main.html:34
 msgid "Play audio CDs."
@@ -540,7 +541,7 @@ msgstr ""
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr "Komzoù, buhezskridoù arzourien ha fotoioù."
+msgstr "Komzoù, buhezskridoù arzourien ha skeudennoù."
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
@@ -589,7 +590,7 @@ msgstr ""
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr "Kopiañ ho sonerezh davet"
+msgstr "Eilañ ho sonerezh davet"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
@@ -601,11 +602,11 @@ msgstr "Listenn gortoz"
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr "a zo ul lenner sonerezh modern hag ur poellad evit merañ ho sonaoueg"
+msgstr "a zo ul lenner sonerezh modern hag ur meziant evit merañ ho sonaoueg"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine a zo ul lenner sonerezh lies-reizhad"
+msgstr "Clementine a zo ul lenner sonerezh lies-reizhiad"
 
 #: main.html:57
 msgid "It is inspired by"
@@ -619,7 +620,7 @@ msgstr ""
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr "Pellgargañ ar handelv ziwezhañ bremañ !"
+msgstr "Pellgargañ ar handelv diwezhañ bremañ !"
 
 #: main.html:66
 msgid "Download Clementine"
@@ -631,7 +632,7 @@ msgstr "evit Windows, Mac OS X ha GNU/Linux"
 
 #: main.html:80
 msgid "Announcement"
-msgstr "Embannadenn"
+msgstr "Kemenn"
 
 #: main.html:81
 msgid "Changelog"
@@ -643,7 +644,7 @@ msgstr "Diskouez an holl pellgargadurioù"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Tapadenn-skramm"
 
 #: main.html:114
 msgid "News"

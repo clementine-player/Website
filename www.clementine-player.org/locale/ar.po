@@ -6,17 +6,17 @@
 # mankind <ghassan658@hotmail.com>, 2014
 # hatstand <john.maguire@gmail.com>, 2013
 # hatstand <john.maguire@gmail.com>, 2013
-# Mohamed Sakhri <mohamed.sakhri@gmail.com>, 2013
+# Mohamed Sakhri, 2013,2016
 # Mohammed  A. Tayeh <m.tayeh94@live.com>, 2013
 # Mohammed  A. Tayeh <m.tayeh94@live.com>, 2013
-# Mohamed Sakhri <mohamed.sakhri@gmail.com>, 2013
+# Mohamed Sakhri, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 14:56+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2016-01-08 16:33+0000\n"
+"Last-Translator: Mohamed Sakhri\n"
 "Language-Team: Arabic (http://www.transifex.com/davidsansome/clementine/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +76,7 @@ msgstr "الموقع مطور من"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "سياسة الخصوصية"
 
 #: data.py:8
 msgid ""
@@ -406,14 +406,14 @@ msgstr "يمكنك تحميل أحدث إصدار من كلمنتاين على �
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "الاعتماديات لأوبنتو 12.04 (Precise)"
 
 #: downloads.html:63
 msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "النسخ الحديثة من كلمنتاين تتطلب GStreamer 1.0 الذي لم يكن متوفرا في أوبنتو 12.04. إن واجهتك مشاكل أثناء تثبيت كلمنتاين عليك إضافة مخزن GStreamer أيضا:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -483,7 +483,7 @@ msgstr " حزم المطورين لأوبنتو (12.04)"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "حزم المطورين لأوبنتو 14.04 (Trusty)"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
@@ -781,12 +781,12 @@ msgstr "كلمنتاين على Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "ملصقات"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "يمكنك الحصول على ملصقات رائعة لكلمنتاين في %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
