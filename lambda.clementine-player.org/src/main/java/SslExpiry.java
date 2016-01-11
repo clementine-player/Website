@@ -25,8 +25,9 @@ import java.nio.charset.StandardCharsets;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -36,6 +37,7 @@ public class SslExpiry {
   private static final String SNS_ARN = "arn:aws:sns:us-east-1:165405240372:ssl_expiry";
 
   private static final List<String> DOMAINS = ImmutableList.of(
+      "clementine-player.org",
       "buildbot.clementine-player.org",
       "builds.clementine-player.org",
       "data.clementine-player.org",
@@ -79,16 +81,24 @@ public class SslExpiry {
     }
     List<Result> results = Futures.allAsList(futures).get();
     StringBuilder sb = new StringBuilder();
+    Instant expiryDateWarning = Instant.now().plus(14, ChronoUnit.DAYS);
     for (Result result : results) {
       sb.append(
           result.domain() + " expires on: " + result.expires().toString() + "\n");
+
+      // If it expires in the next two weeks, print a warning.
+      if (result.expires().isBefore(expiryDateWarning)) {
+        sb.append("WARNING!!! Domain " + result.domain() + " expires in " +
+            result.expires().until(expiryDateWarning, ChronoUnit.DAYS) + " days");
+      }
     }
     publishToSNS(sb.toString(), logger);
     return "ok";
   }
 
   /** Fetch SSL certs using the openssl command line. */
-  public Date verifyOpenSSL(String domain, Logger logger) throws IOException, CertificateException {
+  public Instant verifyOpenSSL(String domain, Logger logger)
+      throws IOException, CertificateException {
     Process certFetcher = new ProcessBuilder(
         "openssl", "s_client", "-connect", domain + ":" + 443, "-servername", domain)
         .start();
@@ -116,7 +126,7 @@ public class SslExpiry {
       String cert = certBuilder.toString();
       X509Certificate x509cert = (X509Certificate) certFactory.generateCertificate(
           new ByteArrayInputStream(cert.getBytes(StandardCharsets.UTF_8)));
-      return x509cert.getNotAfter();
+      return x509cert.getNotAfter().toInstant();
     } finally {
       certFetcher.destroyForcibly();
     }
@@ -135,12 +145,12 @@ public class SslExpiry {
 
   @AutoValue
   abstract static class Result {
-    static Result create(String domain, Date expires) {
+    static Result create(String domain, Instant expires) {
       return new AutoValue_SslExpiry_Result(domain, expires);
     }
 
     abstract String domain();
-    abstract Date expires();
+    abstract Instant expires();
   }
 
   private interface Logger {
