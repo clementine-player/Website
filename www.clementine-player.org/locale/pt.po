@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sérgio Marques <smarquespt@gmail.com>, 2011-2015
+# Sérgio Marques <smarquespt@gmail.com>, 2011-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-04-16 17:00+0000\n"
+"PO-Revision-Date: 2016-01-11 01:46+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/davidsansome/clementine/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Sobre"
 
 #: base.html:55 downloads.html:2
 msgid "Downloads"
-msgstr "Transferências"
+msgstr "Descargas"
 
 #: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
@@ -378,7 +378,7 @@ msgstr "Esta versão adiciona a compatibilidade com a aplicação <a href=\"http
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr "Últimas transferências"
+msgstr "Últimas descargas"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
@@ -386,7 +386,7 @@ msgstr "Obtenha a última versão estável do Clementine para o seu sistema oper
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr "Transferências para outros sistemas operativos"
+msgstr "Pacotes para outros sistemas operativos"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
@@ -396,7 +396,7 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr "Você pode transferir a última versão estável do Clementine neste PPA oficial:"
+msgstr "Você pode descarregar a última versão estável do Clementine neste PPA oficial:"
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
@@ -411,7 +411,7 @@ msgstr "As novas versões do Clementine necessitam de GStreamer 1.0 mas que não
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
-msgstr "Outras transferências"
+msgstr "Outras descargas"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
@@ -439,7 +439,7 @@ msgstr "A compilação do Clementine em Linux, a partir do código fonte é muit
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr "Transfira o código fonte presente na lista de cima e numa janela do terminal digite:"
+msgstr "Descarregue o código fonte presente na lista acima e na janela do terminal digite:"
 
 #: downloads.html:99
 msgid "Full instructions and list of dependencies"
@@ -493,7 +493,7 @@ msgstr "Existe também um PPA para as versões de desenvolvimento:"
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr "Transferências antigas"
+msgstr "Descargas antigas"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
@@ -553,11 +553,11 @@ msgstr "Obter detalhes das músicas na MusicBrainz"
 
 #: main.html:40
 msgid "Discover and download Podcasts."
-msgstr "Procura e transferência de podcasts."
+msgstr "Procura e descarga de podcasts."
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Transferência das capas de álbum através da last.fm e Amazon."
+msgstr "Descarrega as capas de álbum através da last.fm e Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
@@ -616,11 +616,11 @@ msgstr "e tenta disponibilizar uma interface simples para pesquisa e reproduçã
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr "Transfira agora a última versão"
+msgstr "Descarregue agora a última versão"
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr "Transferir o Clementine"
+msgstr "Descarregar o Clementine"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
@@ -636,7 +636,7 @@ msgstr "Registo de alterações"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr "Transferências"
+msgstr "Mostrar todas as descargas"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
@@ -714,7 +714,7 @@ msgstr "Se quiser traduzir o Clementine para outro idioma, pode fazê-lo na pág
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Pode traduzir diretamente no Transifex ou transferir o ficheiro .po presente na página, traduzir e enviar-nos por mensagem."
+msgstr "Pode traduzir diretamente no Transifex ou descarregar o ficheiro .po da página, traduzir e enviar-nos por correio eletrónico."
 
 #: participate.html:52
 msgid "Transifex translations"
