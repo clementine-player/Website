@@ -123,7 +123,10 @@ public class SslExpiry {
   }
 
   private void publishToSNS(String message, Logger logger) {
-    PublishRequest publishRequest = new PublishRequest(SNS_ARN, message);
+    PublishRequest publishRequest = new PublishRequest()
+        .withTopicArn(SNS_ARN)
+        .withMessage(message)
+        .withSubject("Clementine Domain Certificates Expiry");
     logger.log("created request\n" + publishRequest.toString());
     PublishResult publishResult = snsClient.publish(publishRequest);
     logger.log("Message published: " + publishResult.getMessageId() + "\n");
