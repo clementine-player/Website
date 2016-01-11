@@ -187,6 +187,14 @@ class PrivacyPage(BasePage):
   def get(self, language):
     self.MakePage('privacy.html', language)
 
+class AcmeChallengePage(webapp2.RequestHandler):
+  def get(self):
+    self.redirect(
+        'https://builds.clementine-player.org' + self.request.path)
+
+  def post(self):
+    self.redirect(
+        'https://builds.clementine-player.org' + self.request.path)
 
 config = {}
 config['webapp2_extras.i18n'] = {
@@ -204,6 +212,7 @@ app = webapp2.WSGIApplication(
     (LANG_RE + 'participate', ParticipatePage),
     (LANG_RE + 'privacy',     PrivacyPage),
     (r'/wiimote',             WiimotePage),
+    (r'/.well-known/acme-challenge/.*', AcmeChallengePage),
   ],
   config=config,
   debug=True)
