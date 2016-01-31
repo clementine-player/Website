@@ -46,20 +46,6 @@ handlers:
   script: thumbnailer.app
   secure: always
 
-- url: /builds
-  script: buildbot.app
-  secure: always
-
-- url: /_cron/refresh_builds
-  script: buildbot.app
-  login: admin
-  secure: always
-
-- url: /_tasks/refresh_build
-  script: buildbot.app
-  login: admin
-  secure: always
-
 - url: /.*
   script: main.app
   secure: always

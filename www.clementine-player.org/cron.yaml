@@ -1,4 +1,0 @@
-cron:
-- description: Update latest builds
-  url: /_cron/refresh_builds
-  schedule: every 1 hours
