@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# albertvision <avbincco@gmail.com>, 2012
+# albertvision <inactive+albertvision@transifex.com>, 2012
 # Ivailo Monev <xakepa10@gmail.com>, 2014
 # hatstand <john.maguire@gmail.com>, 2014
 # mijiturka, 2014
