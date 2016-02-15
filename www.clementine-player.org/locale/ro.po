@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# CD <cstl@vivaldi.net>, 2015
+# CD <cstl@vivaldi.net>, 2015-2016
 # titus <titus0818@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-11-18 13:38+0000\n"
+"PO-Revision-Date: 2016-02-12 21:40+0000\n"
 "Last-Translator: CD <cstl@vivaldi.net>\n"
 "Language-Team: Romanian (http://www.transifex.com/davidsansome/clementine/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -84,7 +84,7 @@ msgstr "Integrare Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr "Navigare listă de redare de pe aplicația Android"
+msgstr "Navigare prin lista de redare de pe aplicația Android"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
@@ -192,7 +192,7 @@ msgstr "Etichetă radio Last.fm"
 
 #: data.py:51
 msgid "Searching the library"
-msgstr "Căutare în bibliotecă"
+msgstr "Căutare în colecție"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
@@ -231,7 +231,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "A trecut doar o lună de când am lansat prima versiune Clementine. Această versiune nouă are caracteristici ca grafică album, o mai bună detecție de „Artiști diferiți”, suport pentru încărcarea listelor de redare și multe altele."
+msgstr "A trecut doar o lună de când am lansat prima versiune Clementine. Această versiune nouă are caracteristici ca: grafică album, o mai bună detecție de „Artiști diferiți”, suport pentru încărcarea listelor de redare și multe altele."
 
 #: data.py:296
 msgid "Version 0.3 released"
@@ -243,7 +243,7 @@ msgid ""
 "analyzer and crossfading between tracks will now work on Windows. New "
 "features include an equalizer, more library grouping options, a nicer OSD, "
 "remote control from command-line and MPRIS, and easier tag editing."
-msgstr "În această versiune am trecut la GStreamer pe toate platformele, asta înseamnă că analizorul și estomparea progresivă dintre piste funcționează acum și pe Windows. Funcții noi incluzând un egalizator, mai multe opțiuni de grupare a bibliotecii, un OSD mai drăguț, control de la distanță din linia de comandă și MPRIS și o editare ușoară a etichetei."
+msgstr "În această versiune am trecut la GStreamer pe toate platformele, asta înseamnă că analizorul și estomparea progresivă dintre piste funcționează acum și pe Windows. Funcții noi incluzând un egalizator, mai multe opțiuni de grupare a colecției, un OSD mai drăguț, control de la distanță din linia de comandă și MPRIS și o editare ușoară a etichetei."
 
 #: data.py:305
 msgid "Version 0.4 released"
@@ -279,7 +279,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Această versiune adaugă suport pentru utilizarea dispozitivelor portabile cu Clementine. Acum puteți copia melodii pe iPod, iPhone, MTP sau dispozitive USB de stocare. Vedeți <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki pentru mai multe informații</a>. A fost adăugat suport pentru utilizarea <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> ca telecomandă. Alte funcții includ Administrator coadă, un dialog „Organizează fișiere”, restrângerea automată a coloanelor în lista de redare, încărcarea coperților incluse id3v2, mai multe opțiuni de scanare a bibliotecii, funcția tragere și plasare între listele de redare și un hypnotoad. Am redus de asemenea timpul de pornire cu mai mult de jumătate, s-a reparat supraîncărcarea memoriei și s-a redus utilizarea procesorului când se redă muzica. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista completă cu modificări</a> pentru mai multe informații."
+msgstr "Această versiune adaugă suport pentru utilizarea dispozitivelor portabile cu Clementine. Acum puteți copia melodii pe iPod, iPhone, MTP sau dispozitive USB de stocare. Vedeți <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki pentru mai multe informații</a>. A fost adăugat suport pentru utilizarea <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> ca telecomandă. Alte funcții includ Administrator coadă, un dialog „Organizează fișiere”, restrângerea automată a coloanelor în lista de redare, încărcarea coperților incluse id3v2, mai multe opțiuni de scanare a colecției, funcția tragere și plasare între listele de redare și un hypnotoad. Am redus de asemenea timpul de pornire cu mai mult de jumătate, s-a reparat supraîncărcarea memoriei și s-a redus utilizarea procesorului când se redă muzica. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista completă cu modificări</a> pentru mai multe informații."
 
 #: data.py:332
 msgid "Version 0.6 released"
@@ -297,7 +297,7 @@ msgid ""
 " the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Această versiune oferă două noi panouri de informații care arată versuri, statistici melodie, biografii artist, fotografii și liste de etichete și artiști asemănători. Am remodelat bara laterală (cu toate astea puteți comuta înapoi cu clic dreapta pe ea) și, de asemenea, am adăugat evaluări, numărătoare redări și omiterea numărătorii. Puteți crea liste de redare inteligente și dinamice din melodii în bibliotecă și, de asemenea, puteți asculta muzică de la <a href=\"http://www.jamendo.com/\">Jamendo</a> și stațiile radio Icecast. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista completă a modificărilor</a> pentru mai multe informații."
+msgstr "Această versiune oferă două noi panouri de informații care arată versuri, statistici melodie, biografii artist, fotografii și liste de etichete și artiști asemănători. Am remodelat bara laterală (cu toate astea puteți comuta înapoi cu clic dreapta pe ea) și, de asemenea, am adăugat evaluări, numărătoare redări și omiterea numărătorii. Puteți crea liste de redare inteligente și dinamice din melodii în colecție și, de asemenea, puteți asculta muzică de la <a href=\"http://www.jamendo.com/\">Jamendo</a> și stațiile radio Icecast. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista completă a modificărilor</a> pentru mai multe informații."
 
 #: data.py:345
 msgid "Version 0.7 released"
@@ -317,7 +317,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr "În această versiune Clementine obține un model nou de dialog editare etichete cu completare automată și cu abilitatea identificării automate a muzicii și obținerea etichetelor lipsă de la MusicBrainz. Jurnalele CUE sunt acum suportate - acestea sunt detectate automat când se scanează biblioteca, iar fiecare piesă va fi arătată separat. Am făcut mai multe îmbunătățiri cum ar fi afișarea coperților în fila Bibliotecă, colorarea în gri a melodiilor șterse, opțiunea „Arată în navigatorul de fișiere”, suport pentru proxy rețea, opțiunea „Rescanează întreaga bibliotecă” și un indiciu nou pentru glisorul piesei, care vă ajută să căutați mai precis după un anumit loc în melodie. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
+msgstr "În această versiune Clementine obține un model nou de dialog pentru editare etichete cu completare automată și cu abilitatea identificării automate a muzicii și obținerea etichetelor lipsă de la MusicBrainz. Jurnalele CUE sunt acum suportate - acestea sunt detectate automat când se scanează colecția, iar fiecare piesă va fi arătată separat. Am făcut mai multe îmbunătățiri cum ar fi afișarea coperților în fila Colecție, colorarea în gri a melodiilor șterse, opțiunea „Arată în navigatorul de fișiere”, suport pentru proxy rețea, opțiunea „Rescanează întreaga colecție” și un indiciu nou pentru glisorul piesei, care vă ajută să căutați mai precis după un anumit loc în melodie. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: data.py:360
 msgid "Version 1.0 released"
@@ -335,7 +335,7 @@ msgid ""
 "searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
 "/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
 " more information."
-msgstr "Această versiune adaugă suport pentru <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> și <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Am adăugat, de asemenea, o funcție de căutare globală care vă permite să găsiți cu ușurință muzica fie în bibliotecă sau pe internet. Alte funcții includ suportul pentru CD audio, mai multe opțiuni pentru transcodare, un dialog îmbunătățit de setări, căutare mai inteligentă de coperți pentru albume și repararea multor erori de programare. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
+msgstr "Această versiune adaugă suport pentru <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> și <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Am adăugat, de asemenea, o funcție de căutare globală care vă permite să găsiți cu ușurință muzica fie în colecția personală sau pe internet. Alte funcții includ suportul pentru CD audio, mai multe opțiuni pentru transcodare, un dialog îmbunătățit de setări, căutare mai inteligentă de coperți pentru albume și repararea multor erori de programare. Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: data.py:373
 msgid "Version 1.1 released"
@@ -506,7 +506,7 @@ msgstr "Despre &amp; Caracteristici"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Caută și redă biblioteca dumneavoastră locală de muzică."
+msgstr "Caută și redă colecția dumneavoastră locală de muzică."
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -599,7 +599,7 @@ msgstr "Administrator coadă."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr "este un player muzical modern și un organizator de bibliotecă"
+msgstr "este un player muzical modern și un organizator de colecții de muzică"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
@@ -760,7 +760,7 @@ msgstr "Rețele sociale"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Ne place să vedem că sprijiniți Clementine alăturându-vă nouă pe pagina rețelei sociale favorite a dumneavoastră!"
+msgstr "Ne place să vedem că sprijiniți Clementine alăturându-vă nouă pe pagina rețelei dumneavoastră sociale favorite!"
 
 #: participate.html:106
 msgid "Clementine on Facebook"
@@ -798,7 +798,7 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr "În prezent nu avem nevoie de bani și, deci, nu acceptăm donații de bani. Dacă vă place aplicația nostră și doriți să ne ajutați, puteți să ne susțineți pe <a href=\"#social-networking\"> </a> și să răspândiți vestea."
+msgstr "În prezent nu avem nevoie de bani și, deci, nu acceptăm donații de bani. Dacă vă place aplicația nostră și doriți să ne ajutați, puteți <a href=\"#social-networking\">să ne susțineți</a> și să răspândiți vestea."
 
 #: participate.html:133
 msgid ""
