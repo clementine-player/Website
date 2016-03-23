@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Balázs Meskó <meskobalazs@gmail.com>, 2015
+# Balázs Meskó <meskobalazs@gmail.com>, 2015-2016
 # lukibeni <lukacs.bence1@gmail.com>, 2012
 # lukibeni <lukacs.bence1@gmail.com>, 2012
 # ricsipontaz <ricsipontaz@googlemail.com>, 2012
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-11-13 08:23+0000\n"
+"PO-Revision-Date: 2016-03-21 10:17+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/davidsansome/clementine/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -505,7 +505,7 @@ msgstr "Verzió"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Névjegy & Jellemzők"
+msgstr "Névjegy és jellemzők"
 
 #: main.html:9
 msgid "Search and play your local music library."
