@@ -62,16 +62,16 @@ SCREENSHOTS = [
 DOWNLOAD_BASE_URL_OLD = 'http://clementine-player.googlecode.com/files/'
 DOWNLOAD_BASE_URL = 'https://github.com/clementine-player/Clementine/'
 DOWNLOADS = [
-  {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0.precise_i386.deb'},
-  {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0.precise_amd64.deb'},
-  {'os': 'utrusty',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0.trusty_i386.deb'},
-  {'os': 'utrusty',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0.trusty_amd64.deb'},
-  {'os': 'uvivid',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0.vivid_i386.deb'},
-  {'os': 'uvivid',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0.vivid_amd64.deb'},
-  {'os': 'uwily',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0.wily_i386.deb'},
-  {'os': 'uwily',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0.wily_amd64.deb'},
-  {'os': 'uxenial',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0.xenial_i386.deb'},
-  {'os': 'uxenial',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0.xenial_amd64.deb'},
+  {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-precise_i386.deb'},
+  {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-precise_amd64.deb'},
+  {'os': 'utrusty',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-trusty_i386.deb'},
+  {'os': 'utrusty',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-trusty_amd64.deb'},
+  {'os': 'uvivid',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-vivid_i386.deb'},
+  {'os': 'uvivid',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-vivid_amd64.deb'},
+  {'os': 'uwily',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-wily_i386.deb'},
+  {'os': 'uwily',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-wily_amd64.deb'},
+  {'os': 'uxenial',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-xenial_i386.deb'},
+  {'os': 'uxenial',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-xenial_amd64.deb'},
 
   {'os': 'fedora21',    'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine-1.3.0-1.fc21.i686.rpm'},
   {'os': 'fedora21',    'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine-1.3.0-1.fc21.x86_64.rpm'},
