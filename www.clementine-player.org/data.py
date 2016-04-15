@@ -2,7 +2,7 @@
 
 def _(x): return x
 
-LATEST_VERSION = '1.2.3'
+LATEST_VERSION = '1.3.0'
 SCREENSHOTS = [
   {'version': '1.2', 'entries': [
     {'file': 'clementine-1.2-1.png', 'title': _('Playlist tab, while listening to songs from multiples Internet services')},
@@ -221,6 +221,9 @@ DISPLAY_OS = {
   'fedora18':    'Fedora 18',
   'fedora19':    'Fedora 19',
   'fedora20':    'Fedora 20',
+  'fedora21':    'Fedora 21',
+  'fedora22':    'Fedora 22',
+  'fedora23':    'Fedora 23',
   'windows':     'Windows',
   'leopard':     'Mac OS X Leopard',
   'snowleopard': 'Mac OS X Snow Leopard',
@@ -249,6 +252,9 @@ SHORT_DISPLAY_OS = {
   'fedora18':    'Fedora 18',
   'fedora19':    'Fedora 19',
   'fedora20':    'Fedora 20',
+  'fedora21':    'Fedora 21',
+  'fedora22':    'Fedora 22',
+  'fedora23':    'Fedora 23',
   'windows':     'Windows',
   'leopard':     'Mac OS X',
   'snowleopard': 'Mac OS X',
@@ -277,6 +283,9 @@ OS_LOGOS = {
   'fedora18':    'fedora-logo.png',
   'fedora19':    'fedora-logo.png',
   'fedora20':    'fedora-logo.png',
+  'fedora21':    'fedora-logo.png',
+  'fedora22':    'fedora-logo.png',
+  'fedora23':    'fedora-logo.png',
   'windows':     'windows-logo.png',
   'leopard':     'leopard-logo.png',
   'snowleopard': 'leopard-logo.png',
@@ -396,6 +405,16 @@ NEWS = [
       'can safely close them and restore them later from the new "Playlist" ' \
       'tab we\'ve added in the left sidebar.<br/>' \
       'See the <a href="https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog">' \
+      'full changelog</a> for more information.')
+  },
+  {
+    'timestamp': 1460728759,
+    'title': _('Version 1.3 released'),
+    'content': _('This release is compatible with the ' \
+      '<a href="https://play.google.com/store/apps/details?id=de.qspool.clementineremote">Clementine Remote application for Android</a> ' \
+      'which lets you control Clementine remotely from an Android device.<br/>' \
+      'This release also adds support for accessing your music in Vk.com and Seafile.' \
+      'See the <a href="https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog">' \
       'full changelog</a> for more information.')
   },
   # For timestamp: python -c "import time; print int(time.time())"
