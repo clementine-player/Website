@@ -15,6 +15,7 @@
 # M T <michtrz@gmail.com>, 2013
 # Patryk Wychowaniec <patryk1303@gmail.com>, 2011
 # Patryk Wychowaniec <patryk1303@gmail.com>, 2011
+# Piotr Wojcik <pwwpww@gmail.com>, 2016
 # Szymon Mróz <predek00@gmail.com>, 2013
 # Seethi <sithis15@o2.pl>, 2012
 # Seethi <sithis15@o2.pl>, 2012
@@ -24,8 +25,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-12-21 19:45+0000\n"
-"Last-Translator: Marcin Lawniczak <marcin.safmb@wp.pl>\n"
+"PO-Revision-Date: 2016-04-12 21:41+0000\n"
+"Last-Translator: Piotr Wojcik <pwwpww@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/davidsansome/clementine/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -422,7 +423,7 @@ msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Nowe wersje Clementine wymagają GStreamer 1.0, który nie był załączony z Ubuntu 12.04. Jeżeli masz kłopoty z instalacją Clementine, powinienneś dodać PPA GStreamera:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -795,13 +796,13 @@ msgstr "Naklejki"
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Możesz znaleźć urocze naklejki z logiem Clementine na %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "Będą idealne do spersonalizowania swojego laptopa i pokazania jak bardzo kochasz swój ulubiony odtwarzacz muzyki!"
 
 #: participate.html:131
 msgid "Donation"
@@ -849,4 +850,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr ""
+msgstr "Clementine i jego programiści nie zbierają żadnych informacji umożliwiających identyfikację. Dane takie, jak statystyki strony internetowej są zbierane wyłącznie w sposób anonimowy. Informacje takie, jak nazwy użytkowników, hasła i tokeny uwierzytelniania serwisów internetowych podane do Clementine nie są nigdy przesyłane poza program."

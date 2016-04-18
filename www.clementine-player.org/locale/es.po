@@ -5,7 +5,7 @@
 # Translators:
 # Adolfo Jayme Barrientos, 2014
 # Adolfo Jayme Barrientos, 2012-2013
-# Adolfo Jayme Barrientos, 2015
+# Adolfo Jayme Barrientos, 2015-2016
 # Adolfo Jayme Barrientos, 2013
 # Adolfo Jayme Barrientos, 2014
 # Adrián Ramirez Escalante <buried.prophet@gmail.com>, 2012
@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-05-13 07:57+0000\n"
+"PO-Revision-Date: 2016-04-16 14:04+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos\n"
 "Language-Team: Spanish (http://www.transifex.com/davidsansome/clementine/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "Un reproductor de música multiplataforma inspirado en Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine es software libre bajo la GPL v3. Este sitio está licenciado bajo CC-BY-SA."
+msgstr "Clementine es software libre bajo la GPL v3. Este sitio está disponible según los términos de la licencia CC-BY-SA."
 
 #: base.html:87
 msgid "Development by"

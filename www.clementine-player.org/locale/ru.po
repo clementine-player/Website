@@ -5,7 +5,7 @@
 # Translators:
 # Andrei Stepanov, 2014
 # Alexey Semenov <sov.info@mail.ru>, 2013
-# Andrei Stepanov, 2014-2015
+# Andrei Stepanov, 2014-2016
 # Andy Dufrane <>, 2012
 # avireti, 2012
 # avireti, 2012
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2015-08-23 17:54+0000\n"
+"PO-Revision-Date: 2016-04-16 20:59+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/davidsansome/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -273,7 +273,7 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr "В новой версии добавлены вкладки для списков воспроизведения, поиск по плейлисту, projectM визуализации, интеграция с сервисом Magnatune, ReplayGain нормализация громкости и конвертирование музыки в разные форматы. Мы также поработали над ошибками - поиск в крупных библиотеках стал гораздо быстрее, улучшилась стабильность воспроизведения при работе под Windows, решились проблемы с кодировками, стали корректно загружаться плейлисты с удаленных компьютеров."
+msgstr "В новой версии добавлены вкладки для списков воспроизведения, поиск по плейлисту, projectM визуализации, интеграция с сервисом Magnatune, ReplayGain нормализация громкости и конвертирование музыки в разные форматы. Мы также поработали над ошибками - поиск в крупных библиотеках стал гораздо быстрее, улучшилась стабильность воспроизведения при работе под Windows, решились проблемы с кодировками, стали корректно загружаться плейлисты с удалённых компьютеров."
 
 #: data.py:315
 msgid "Version 0.5 released"
@@ -591,7 +591,7 @@ msgstr "Удалённое управление с помощью"
 
 #: main.html:44
 msgid "Android device"
-msgstr "Android устройство"
+msgstr "устройства Android"
 
 #: main.html:44
 msgid "a Wii Remote"

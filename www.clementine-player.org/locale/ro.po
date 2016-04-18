@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2016-02-12 21:40+0000\n"
+"PO-Revision-Date: 2016-04-17 22:28+0000\n"
 "Last-Translator: CD <cstl@vivaldi.net>\n"
 "Language-Team: Romanian (http://www.transifex.com/davidsansome/clementine/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr "Clementine la distanță"
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
@@ -375,7 +375,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Această versiune este compatibilă cu <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplicația Control la distanță Clementine pentru Android</a> care vă permite să controlați Clementine de la distanță de pe un dispozitiv cu Android.<br/>Această versiune adaugă, de asemenea, suport pentru Subsonic. Puteți asculta acum muzică stocată în <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Ultima nouă funcție majoră este marcarea cu stea a listelor de redare, astfel încât să le puteți închide în siguranță și să le reporniți ulterior din fila Listă de redare, pe care am adăugat-o în bara laterală stângă.<br/>Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
+msgstr "Această versiune este compatibilă cu <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplicația Clementine Remote pentru Android</a> care vă permite să controlați Clementine de la distanță de pe un dispozitiv cu Android.<br/>Această versiune adaugă, de asemenea, suport pentru Subsonic. Puteți asculta acum muzică stocată în <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Ultima nouă funcție majoră este marcarea cu stea a listelor de redare, astfel încât să le puteți închide în siguranță și să le reporniți ulterior din fila Listă de redare, pe care am adăugat-o în bara laterală stângă.<br/>Vedeți <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">lista cu modificări completă</a> pentru mai multe informații."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -416,7 +416,7 @@ msgstr "Alte descărcări"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr "Control la distanță Clementine pentru Android"
+msgstr "Clementine Remote pentru Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
@@ -737,13 +737,13 @@ msgstr "Aplicație de la distanță pentru Android"
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr "Controlul la distanță Clementine este găzduit la <a href=\"https://github.com/clementine-player/Android-Remote\">alt depozit GitHub</a>."
+msgstr "Clementine Remote este găzduit la <a href=\"https://github.com/clementine-player/Android-Remote\">alt depozit GitHub</a>."
 
 #: participate.html:95
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr "Puteți raporta probleme și propune petice la <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgstr "Puteți raporta probleme și propune remedii la <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 
 #: participate.html:96
 msgid ""
