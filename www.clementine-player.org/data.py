@@ -2,7 +2,7 @@
 
 def _(x): return x
 
-LATEST_VERSION = '1.3.0'
+LATEST_VERSION = '1.3.1'
 SCREENSHOTS = [
   {'version': '1.2', 'entries': [
     {'file': 'clementine-1.2-1.png', 'title': _('Playlist tab, while listening to songs from multiples Internet services')},
@@ -62,6 +62,28 @@ SCREENSHOTS = [
 DOWNLOAD_BASE_URL_OLD = 'http://clementine-player.googlecode.com/files/'
 DOWNLOAD_BASE_URL = 'https://github.com/clementine-player/Clementine/'
 DOWNLOADS = [
+  {'os': 'ubuntu',      'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine_1.3.1-precise_i386.deb'},
+  {'os': 'ubuntu',      'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine_1.3.1-precise_amd64.deb'},
+  {'os': 'utrusty',      'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine_1.3.1-trusty_i386.deb'},
+  {'os': 'utrusty',      'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine_1.3.1-trusty_amd64.deb'},
+  {'os': 'uvivid',      'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine_1.3.1-vivid_i386.deb'},
+  {'os': 'uvivid',      'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine_1.3.1-vivid_amd64.deb'},
+  {'os': 'uwily',      'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine_1.3.1-wily_i386.deb'},
+  {'os': 'uwily',      'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine_1.3.1-wily_amd64.deb'},
+  {'os': 'uxenial',      'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine_1.3.1-xenial_i386.deb'},
+  {'os': 'uxenial',      'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine_1.3.1-xenial_amd64.deb'},
+
+  {'os': 'fedora21',    'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine-1.3.1-1.fc21.i686.rpm'},
+  {'os': 'fedora21',    'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine-1.3.1-1.fc21.x86_64.rpm'},
+  {'os': 'fedora22',    'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine-1.3.1-1.fc22.i686.rpm'},
+  {'os': 'fedora22',    'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine-1.3.1-1.fc22.x86_64.rpm'},
+  {'os': 'fedora23',    'ver': '1.3.1', 'arch': 32, 'name': 'releases/download/1.3.1/clementine-1.3.1-1.fc23.i686.rpm'},
+  {'os': 'fedora23',    'ver': '1.3.1', 'arch': 64, 'name': 'releases/download/1.3.1/clementine-1.3.1-1.fc23.x86_64.rpm'},
+
+  {'os': 'windows',     'ver': '1.3.1', 'arch': 0,  'name': 'releases/download/1.3.1/ClementineSetup-1.3.1.exe'},
+  {'os': 'mlion',       'ver': '1.3.1', 'arch': 0,  'name': 'releases/download/1.3.1/clementine-1.3.1.dmg'},
+  {'os': 'source',      'ver': '1.3.1', 'arch': 0,  'name': 'archive/1.3.1.tar.gz'},
+
   {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-precise_i386.deb'},
   {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-precise_amd64.deb'},
   {'os': 'utrusty',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-trusty_i386.deb'},
@@ -447,6 +469,11 @@ NEWS = [
       'This release also adds support for accessing your music in Vk.com and Seafile.' \
       'See the <a href="https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog">' \
       'full changelog</a> for more information.')
+  },
+  {
+    'timestamp': 1461084076,
+    'title': _('Version 1.3.1 released'),
+    'content': _('Fixes a bug where ratings are deleted when upgrading from older versions.')
   },
   # For timestamp: python -c "import time; print int(time.time())"
 ]
