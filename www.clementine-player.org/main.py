@@ -125,7 +125,7 @@ class BasePage(webapp2.RequestHandler):
     params = {
       'best_download':      best_download,
       'downloads':          downloads,
-      'latest_downloads':   [x for x in downloads if x['ver'][:3] == LATEST_VERSION[:3]],
+      'latest_downloads':   [x for x in downloads if x['ver'] == LATEST_VERSION],
       'latest_screenshots': screenshots[0]['entries'],
       'latest_version':     LATEST_VERSION,
       'news':               news,
