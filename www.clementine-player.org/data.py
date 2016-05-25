@@ -83,6 +83,7 @@ DOWNLOADS = [
   {'os': 'windows',     'ver': '1.3.1', 'arch': 0,  'name': 'releases/download/1.3.1/ClementineSetup-1.3.1.exe'},
   {'os': 'mlion',       'ver': '1.3.1', 'arch': 0,  'name': 'releases/download/1.3.1/clementine-1.3.1.dmg'},
   {'os': 'source',      'ver': '1.3.1', 'arch': 0,  'name': 'archive/1.3.1.tar.gz'},
+	{'os': 'raspi',       'ver': '1.3.1', 'arch': 0,  'name': 'releases/download/1.3.1/clementine_1.3.1.jessie_armhf.deb'},
 
   {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 32, 'name': 'releases/download/1.3/clementine_1.3.0-precise_i386.deb'},
   {'os': 'ubuntu',      'ver': '1.3.0', 'arch': 64, 'name': 'releases/download/1.3/clementine_1.3.0-precise_amd64.deb'},
@@ -276,6 +277,7 @@ DISPLAY_OS = {
   'snowleopard': 'Mac OS X Snow Leopard',
   'lion':        'Mac OS X Lion',
   'mlion':       'OS X Mountain Lion',
+	'raspi':       'Raspberry Pi',
 }
 SHORT_DISPLAY_OS = {
   'source':      _('Source'),
@@ -310,6 +312,7 @@ SHORT_DISPLAY_OS = {
   'snowleopard': 'Mac OS X',
   'lion':        'Mac OS X',
   'mlion':       'OS X',
+	'raspi':       'RPI',
 }
 OS_LOGOS = {
   'source':      'source-logo.png',
@@ -344,6 +347,7 @@ OS_LOGOS = {
   'snowleopard': 'leopard-logo.png',
   'lion':        'leopard-logo.png',
   'mlion':       'leopard-logo.png',
+	'raspi':			 'raspberry-pi-logo.png',
 }
 NEWS = [
   {
