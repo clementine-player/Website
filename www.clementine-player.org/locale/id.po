@@ -11,7 +11,7 @@
 # Tjung Steven <tjung.steven@gmail.com>, 2013-2014
 # Tjung Steven <tjung.steven@gmail.com>, 2013
 # wantoyo <wantoyo@yahoo.com>, 2014-2015
-# zk <zamani.karmana@gmail.com>, 2015
+# zk, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
