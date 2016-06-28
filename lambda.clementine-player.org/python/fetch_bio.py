@@ -33,7 +33,7 @@ def fetch_bio(event, context):
   response = requests.get(KG_URL, {
       'query': event['artist'],
       'limit': '1',
-      'types': 'MusicGroup',  # schema.org type
+      'types': ['Person', 'MusicGroup'],  # schema.org type
       'key': api_key,
       'languages': event['lang'],
   })
