@@ -39,5 +39,7 @@ def fetch_bio(event, context):
   })
 
   items = response.json()['itemListElement']
+  if len(items) != 1:
+    raise Exception("%s not found" % event['artist'])
   result = items[0]['result']
   return result['detailedDescription']
