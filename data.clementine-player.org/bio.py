@@ -12,7 +12,7 @@ MEMCACHE_KEY='bio/%s/%s'
 
 class FetchBioPage(webapp2.RequestHandler):
   def get(self):
-    self.response.headers['Content-Type'] = 'application/json'
+    self.response.headers['Content-Type'] = 'application/json; charset=utf-8'
     artist = self.request.get('artist')
     lang = self.request.get('lang')
     key = MEMCACHE_KEY % (artist, lang)
