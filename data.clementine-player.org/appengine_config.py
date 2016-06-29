@@ -36,6 +36,8 @@ import logging
 import random
 import re
 
+from google.appengine.ext import vendor
+
 # 0) WSGI middleware declaration.
 
 # Only use this if you're not Django; with Django, it's easier to add
@@ -227,3 +229,9 @@ def appstats_extract_key(request):
 
 remoteapi_CUSTOM_ENVIRONMENT_AUTHENTICATION = (
     'HTTP_X_APPENGINE_INBOUND_APPID', ['clementine-player'])
+
+vendor.add('lib')
+
+import requests
+from requests_toolbelt.adapters import appengine
+appengine.monkeypatch()
