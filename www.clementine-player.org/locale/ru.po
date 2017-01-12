@@ -11,10 +11,10 @@
 # avireti, 2012
 # Den Ivanov, 2013
 # Den Ivanov, 2013
-# Dmitry <linuxsquirrel.dev@gmail.com>, 2013
-# Dmitry <linuxsquirrel.dev@gmail.com>, 2013
-# dr&mx <dronmax@gmail.com>, 2013
-# dr&mx <dronmax@gmail.com>, 2013
+# Dmitry <dmitrymq@gmail.com>, 2013
+# Dmitry <dmitrymq@gmail.com>, 2013
+# Максим Дронь <dronmax@gmail.com>, 2013
+# Максим Дронь <dronmax@gmail.com>, 2013
 # Alexey Semenov <sov.info@mail.ru>, 2013
 # hatstand <john.maguire@gmail.com>, 2013
 # hatstand <john.maguire@gmail.com>, 2013
