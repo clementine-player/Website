@@ -10,8 +10,8 @@
 # carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2014
 # Enrico Nicoletto <enrico.BR@gmx.co.uk>, 2013
 # hatstand <john.maguire@gmail.com>, 2014
-# Marco Tulio Costa <mmarcottulio@gmail.com>, 2012
-# Marco Tulio Costa <mmarcottulio@gmail.com>, 2012
+# Marco Costa <mmarcottulio@gmail.com>, 2012
+# Marco Costa <mmarcottulio@gmail.com>, 2012
 # Alexandro Casanova <shorterfire@gmail.com>, 2012-2013
 # Alexandro Casanova <shorterfire@gmail.com>, 2012
 # Weiller Cardoso <>, 2012-2013

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Sveinn í Felli <sv1@fellsnet.is>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2016-01-13 00:22+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2017-02-07 16:12+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr ""
+msgstr "Clementine fjarstýring"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
@@ -27,23 +28,23 @@ msgstr ""
 
 #: base.html:11
 msgid "Clementine Music Player"
-msgstr ""
+msgstr "Clementine tónlistarspilari"
 
 #: base.html:54
 msgid "About"
-msgstr ""
+msgstr "Um hugbúnaðinn"
 
 #: base.html:55 downloads.html:2
 msgid "Downloads"
-msgstr ""
+msgstr "Sóttar skrár"
 
 #: base.html:56 main.html:92 screenshots.html:2
 msgid "Screenshots"
-msgstr ""
+msgstr "Skjámyndir"
 
 #: base.html:57 participate.html:2
 msgid "Participate"
-msgstr ""
+msgstr "Taka þátt"
 
 #: base.html:61
 msgid "A cross-platform music player inspired by Amarok 1.4"
@@ -57,7 +58,7 @@ msgstr ""
 
 #: base.html:87
 msgid "Development by"
-msgstr ""
+msgstr "Forritun frá"
 
 #: base.html:88 main.html:21 main.html.py:28
 msgid "and"
@@ -65,11 +66,11 @@ msgstr "og"
 
 #: base.html:90
 msgid "Website by"
-msgstr ""
+msgstr "Vefsvæði eftir"
 
 #: base.html:93 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Meðferð persónuupplýsinga"
 
 #: data.py:8
 msgid ""
@@ -90,11 +91,11 @@ msgstr ""
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "Hlaðvörp (podcasts)"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
@@ -142,7 +143,7 @@ msgstr ""
 
 #: data.py:33
 msgid "Lyrics"
-msgstr ""
+msgstr "Lagatextar"
 
 #: data.py:34
 msgid "Icecast radio stations"
@@ -202,11 +203,11 @@ msgstr ""
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr ""
+msgstr "Afspilun á Linux"
 
 #: data.py:57
 msgid "Last.fm support"
-msgstr ""
+msgstr "Stuðningur við Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
@@ -214,11 +215,11 @@ msgstr ""
 
 #: data.py:203
 msgid "Source code"
-msgstr ""
+msgstr "Upprunakóði"
 
 #: data.py:231
 msgid "Source"
-msgstr ""
+msgstr "Frumrit"
 
 #: data.py:289
 msgid "Version 0.2 released"
@@ -389,7 +390,7 @@ msgstr ""
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
-msgstr ""
+msgstr "Ubuntu PPA"
 
 #: downloads.html:56
 msgid ""
@@ -496,7 +497,7 @@ msgstr ""
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
-msgstr ""
+msgstr "Útgáfa"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -528,7 +529,7 @@ msgstr ""
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr ""
+msgstr "Spilaðu CD-hljóðdiska."
 
 #: main.html:35
 msgid "Visualisations from"
@@ -593,7 +594,7 @@ msgstr ""
 
 #: main.html:46
 msgid "Queue manager."
-msgstr ""
+msgstr "Biðraðastjóri."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
@@ -601,11 +602,11 @@ msgstr ""
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr ""
+msgstr "Clementine er tónlistarspilari sem virkar á mörgum kerfum."
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr ""
+msgstr "Innblásinn af"
 
 #: main.html:58
 msgid ""
@@ -619,43 +620,43 @@ msgstr ""
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr ""
+msgstr "Náðu í Clementine"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
-msgstr ""
+msgstr "fyrir Windows, Mac OS X og Linux"
 
 #: main.html:80
 msgid "Announcement"
-msgstr ""
+msgstr "Tilkynning"
 
 #: main.html:81
 msgid "Changelog"
-msgstr ""
+msgstr "Breytingasaga"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr ""
+msgstr "Sýna öll niðurhöl"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
-msgstr ""
+msgstr "Skjámynd"
 
 #: main.html:114
 msgid "News"
-msgstr ""
+msgstr "Fréttir"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr ""
+msgstr "Þarftu hjálp?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr ""
+msgstr "Spjallaðu við okkur á"
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr ""
+msgstr "rásinni á Freenode."
 
 #: participate.html:22
 msgid ""
@@ -665,7 +666,7 @@ msgstr ""
 
 #: participate.html:25
 msgid "Forum"
-msgstr ""
+msgstr "Spjallsvæði"
 
 #: participate.html:27
 msgid ""
@@ -679,7 +680,7 @@ msgstr ""
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "Samstarf"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
@@ -697,11 +698,11 @@ msgstr ""
 
 #: participate.html:43
 msgid "Issue tracker"
-msgstr ""
+msgstr "Skrásetjari (tracker)"
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "Þýðing á notandaviðmóti"
 
 #: participate.html:48
 msgid ""
@@ -762,15 +763,15 @@ msgstr ""
 
 #: participate.html:106
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "Clementine á Fésbók"
 
 #: participate.html:109
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine á Twitter"
 
 #: participate.html:112
 msgid "Clementine on Last.fm"
-msgstr ""
+msgstr "Clementine á Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
@@ -789,7 +790,7 @@ msgstr ""
 
 #: participate.html:131
 msgid "Donation"
-msgstr ""
+msgstr "Styrkja verkefnið"
 
 #: participate.html:132
 msgid ""
@@ -816,15 +817,15 @@ msgstr ""
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:138
 msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:139
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 
 #: privacy.html:14
 msgid ""
