@@ -59,7 +59,10 @@ handlers:
   script: oauth.app
 
 - url: /fetchbio
-  script: bio.app
+  script: lambdas.app
+
+- url: /fetchimages
+  script: lambdas.app
 
 - url: /.*
   script: clementine.app
