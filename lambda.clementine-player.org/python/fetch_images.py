@@ -58,7 +58,7 @@ def lambda_handler(event, context):
         timeout=TIMEOUT)
     artist_response.raise_for_status()
 
-    return json.dumps(artist_response.json()['images'])
+    return artist_response.json()['images']
   except urllib2.HTTPError as e:
     logging.error('Request failed: %s', e)
     return '{}'
