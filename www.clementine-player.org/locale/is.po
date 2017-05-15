@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-02-07 16:12+0000\n"
+"PO-Revision-Date: 2017-05-12 10:40+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Clementine fjarstýring"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr ""
+msgstr "Fjarstýrðu Clementine með Android-símanum þínum"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -48,7 +48,7 @@ msgstr "Taka þátt"
 
 #: base.html:61
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr ""
+msgstr "Fjölkerfa tónlistarspilari innblásinn af Amarok 1.4"
 
 #: base.html:86
 msgid ""
@@ -83,11 +83,11 @@ msgstr ""
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr ""
+msgstr "Vafra um spilunarlista úr Android-forritinu"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr ""
+msgstr "Stjórnun á afspilun með Android-forritinu"
 
 #: data.py:14
 msgid "Podcasts"
@@ -99,15 +99,15 @@ msgstr "Google Drive"
 
 #: data.py:16
 msgid "New global search interface"
-msgstr ""
+msgstr "Nýtt víðvært leitarviðmót"
 
 #: data.py:17
 msgid "Moodbars"
-msgstr ""
+msgstr "Skapbrigðastikur"
 
 #: data.py:20
 msgid "Transcoding settings"
-msgstr ""
+msgstr "Stillingar umkóðunar"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
-msgstr ""
+msgstr "Nýr merkjaritill með sjálfvirkri útfyllingu"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: data.py:32
 msgid "Artist photos and biographies"
-msgstr ""
+msgstr "Myndir og æviágrip listamanna"
 
 #: data.py:33
 msgid "Lyrics"
@@ -147,43 +147,43 @@ msgstr "Lagatextar"
 
 #: data.py:34
 msgid "Icecast radio stations"
-msgstr ""
+msgstr "Icecast netútvarpsstöðvar"
 
 #: data.py:35
 msgid "Smart playlists and kittens"
-msgstr ""
+msgstr "Snjallir lagalistar (og kettlingar)"
 
 #: data.py:38
 msgid "The queue manager on Windows 7"
-msgstr ""
+msgstr "Biðraðastjórinn á Windows 7"
 
 #: data.py:39
 msgid "Copying music to an iPod in Ubuntu"
-msgstr ""
+msgstr "Afritun tónlistar á iPod í Ubuntu"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr ""
+msgstr "Clementine 0.5 á Ubu...ÖLL DÝRÐIN"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.5 á Mac OS X"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr ""
+msgstr "Clementine 0.4 á Ubuntu"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "Clementine 0.4 á Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr ""
+msgstr "Clementine 0.4 sjóngervingar með projectM"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.4 á Mac OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
@@ -191,15 +191,15 @@ msgstr ""
 
 #: data.py:51
 msgid "Searching the library"
-msgstr ""
+msgstr "Leita í tónlistarsafninu"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr ""
+msgstr "Merkjaritillinn í Windows"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr ""
+msgstr "Umslagastjórinn í Mac OS X"
 
 #: data.py:56
 msgid "Playback on Linux"
@@ -211,7 +211,7 @@ msgstr "Stuðningur við Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr ""
+msgstr "Growl-tilkynningar á Mac OS X"
 
 #: data.py:203
 msgid "Source code"
@@ -223,7 +223,7 @@ msgstr "Frumrit"
 
 #: data.py:289
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "Útgáfa 0.2 gerð tiltæk"
 
 #: data.py:290
 msgid ""
@@ -234,7 +234,7 @@ msgstr ""
 
 #: data.py:296
 msgid "Version 0.3 released"
-msgstr ""
+msgstr "Útgáfa 0.3 gerð tiltæk"
 
 #: data.py:297
 msgid ""
@@ -246,7 +246,7 @@ msgstr ""
 
 #: data.py:305
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "Útgáfa 0.4 gerð tiltæk"
 
 #: data.py:306
 msgid ""
@@ -260,7 +260,7 @@ msgstr ""
 
 #: data.py:315
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "Útgáfa 0.5 gerð tiltæk"
 
 #: data.py:316
 msgid ""
@@ -282,7 +282,7 @@ msgstr ""
 
 #: data.py:332
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "Útgáfa 0.6 gerð tiltæk"
 
 #: data.py:333
 msgid ""
@@ -300,7 +300,7 @@ msgstr ""
 
 #: data.py:345
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "Útgáfa 0.7 gerð tiltæk"
 
 #: data.py:346
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 
 #: data.py:360
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Útgáfa 1.0 gerð tiltæk"
 
 #: data.py:361
 msgid ""
@@ -338,7 +338,7 @@ msgstr ""
 
 #: data.py:373
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Útgáfa 1.1 gerð tiltæk"
 
 #: data.py:374
 msgid ""
@@ -356,7 +356,7 @@ msgstr ""
 
 #: data.py:387
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Útgáfa 1.2 gerð tiltæk"
 
 #: data.py:388
 msgid ""
@@ -378,15 +378,15 @@ msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr ""
+msgstr "Síðustu niðurhöl"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr ""
+msgstr "Náðu í síðustu stöðugu útgáfu Clementine fyrir stýrikerfið þitt"
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
-msgstr ""
+msgstr "Niðurhöl fyrir önnur stýrikerfi"
 
 #: downloads.html:54
 msgid "Ubuntu PPA"
@@ -396,11 +396,11 @@ msgstr "Ubuntu PPA"
 msgid ""
 "You can download the latest version of Clementine on Ubuntu from the "
 "official PPA:"
-msgstr ""
+msgstr "Þú getur náð í nýjustu útgáfu Clementine fyrir Ubuntu úr opinbera PPA-pakkasafninu:"
 
 #: downloads.html:62
 msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr ""
+msgstr "Kerfisákvæði fyrir Ubuntu Precise (12.04)"
 
 #: downloads.html:63
 msgid ""
@@ -411,15 +411,15 @@ msgstr ""
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
-msgstr ""
+msgstr "Önnur niðurhöl"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
-msgstr ""
+msgstr "Clementine fjarstýring fyrir Android"
 
 #: downloads.html:77
 msgid "Unofficial packages"
-msgstr ""
+msgstr "Óopinberir pakkar"
 
 #: downloads.html:79
 msgid ""
@@ -429,11 +429,11 @@ msgstr ""
 
 #: downloads.html:87
 msgid "Compiling from source"
-msgstr ""
+msgstr "Vistþýða úr frumkóða"
 
 #: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr ""
+msgstr "Að vistþýða Clementine úr frumkóða er einfalt á Linux."
 
 #: downloads.html:90
 msgid ""
@@ -451,11 +451,11 @@ msgstr ""
 
 #: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
-msgstr ""
+msgstr "Þróun Clementine fer fram í"
 
 #: downloads.html:107 participate.html:59
 msgid "the git repository"
-msgstr ""
+msgstr "git-gagnasafninu"
 
 #: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
@@ -493,7 +493,7 @@ msgstr ""
 
 #: downloads.html:136
 msgid "Old downloads"
-msgstr ""
+msgstr "Eldri niðurhöl"
 
 #: downloads.html:144 screenshots.html:8
 msgid "Version"
@@ -525,7 +525,7 @@ msgstr ""
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr ""
+msgstr "Stuðningur við CUE-blöð."
 
 #: main.html:34
 msgid "Play audio CDs."
@@ -533,7 +533,7 @@ msgstr "Spilaðu CD-hljóðdiska."
 
 #: main.html:35
 msgid "Visualisations from"
-msgstr ""
+msgstr "Sjóngervingar frá"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
@@ -570,27 +570,27 @@ msgstr ""
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "Fjarstýrðu með"
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "Android tæki"
 
 #: main.html:44
 msgid "a Wii Remote"
-msgstr ""
+msgstr "Wii-fjarstýringu"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
-msgstr ""
+msgstr "MPRIS eða af skipanalínu."
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "Afritaðu tónlist yfir á"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, iPhone, MTP eða USB-spilarann þinn."
 
 #: main.html:46
 msgid "Queue manager."
@@ -616,7 +616,7 @@ msgstr ""
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr ""
+msgstr "Sæktu nýjustu útgáfuna núna"
 
 #: main.html:66
 msgid "Download Clementine"
@@ -676,7 +676,7 @@ msgstr ""
 
 #: participate.html:30
 msgid "Support and discussion group"
-msgstr ""
+msgstr "Stuðningur og umræðuhópur"
 
 #: participate.html:35
 msgid "Collaborate"
@@ -718,7 +718,7 @@ msgstr ""
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr ""
+msgstr "Þýðingar á Transifex"
 
 #: participate.html:55
 msgid "Hacking"
@@ -726,11 +726,11 @@ msgstr ""
 
 #: participate.html:66
 msgid "How to compile Clementine from source"
-msgstr ""
+msgstr "Hvernig á að vistþýða Clementine úr frumkóða"
 
 #: participate.html:92
 msgid "Remote application for Android"
-msgstr ""
+msgstr "Fjartengt forrit fyrir Android"
 
 #: participate.html:94
 msgid ""
@@ -753,7 +753,7 @@ msgstr ""
 
 #: participate.html:100
 msgid "Social Networking"
-msgstr ""
+msgstr "Samfélagsmiðlar"
 
 #: participate.html:102
 msgid ""
@@ -775,18 +775,18 @@ msgstr "Clementine á Last.fm"
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Límmiðar"
 
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "Þú getur fundið skemmtilega Clementine límmiða á %(unixstickers)s."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "Þeir eru tilvaldir til að skreyta fartölvuna þína og sýna í leiðinni hvað þér finnst uppáhalds tónlistarspilarinn þinn æðislegur!"
 
 #: participate.html:131
 msgid "Donation"
