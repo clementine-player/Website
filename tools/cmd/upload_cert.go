@@ -96,5 +96,17 @@ func main() {
   if err != nil {
     log.Fatal("Uploading certificate failed: ", err)
   }
-  log.Println(resp)
+
+  certId := resp.Id
+  mappingRequest := apps.Apps.DomainMappings.Patch(*project, "data.clementine-player.org", &appengine.DomainMapping{
+    SslSettings: &appengine.SslSettings{
+      CertificateId: certId,
+    },
+  })
+  mappingRequest.UpdateMask("sslSettings.certificateId")
+  mappingResponse, err := mappingRequest.Do()
+  if err != nil {
+    log.Fatal("Mapping new certificate failed: ", err)
+  }
+  log.Println(mappingResponse)
 }
