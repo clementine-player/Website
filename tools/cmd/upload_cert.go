@@ -6,6 +6,7 @@ import (
   "io/ioutil"
   "log"
 
+  "github.com/clementine-player/Website/tools"
   "golang.org/x/net/context"
   "golang.org/x/oauth2/google"
   "google.golang.org/api/appengine/v1beta"
@@ -40,10 +41,15 @@ func main() {
     log.Fatal("Failed to read private key: ", err)
   }
 
+  rsaKey, err := convert.PKCS8ToPKCS1(privateKey)
+  if err != nil {
+    log.Fatal("Failed to convert key to RSA PRIVATE KEY")
+  }
+
   cert := &appengine.AuthorizedCertificate{
     CertificateRawData: &appengine.CertificateRawData{
       PublicCertificate: fmt.Sprintf("%s", publicKey),
-      PrivateKey:        fmt.Sprintf("%s", privateKey),
+      PrivateKey:        fmt.Sprintf("%s", rsaKey),
     },
     DisplayName: "foobar",
   }
