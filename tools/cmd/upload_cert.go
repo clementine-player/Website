@@ -48,6 +48,21 @@ func extractExpiry(chain []byte) (time.Time, error) {
   return time.Unix(0, 0), fmt.Errorf("Could not find clementine-player.org certificate")
 }
 
+func mapDomainToCertificate(apps *appengine.APIService, project string, domain string, certId string) error {
+  mappingRequest := apps.Apps.DomainMappings.Patch(project, domain, &appengine.DomainMapping{
+    SslSettings: &appengine.SslSettings{
+      CertificateId: certId,
+    },
+  })
+  mappingRequest.UpdateMask("sslSettings.certificateId")
+  mappingResponse, err := mappingRequest.Do()
+  if err != nil {
+    return fmt.Errorf("Failed to map certificate %s for domain %s: %v", certId, domain, err)
+  }
+  log.Println(mappingResponse)
+  return nil
+}
+
 func main() {
   flag.Parse()
 
@@ -98,15 +113,13 @@ func main() {
   }
 
   certId := resp.Id
-  mappingRequest := apps.Apps.DomainMappings.Patch(*project, "data.clementine-player.org", &appengine.DomainMapping{
-    SslSettings: &appengine.SslSettings{
-      CertificateId: certId,
-    },
-  })
-  mappingRequest.UpdateMask("sslSettings.certificateId")
-  mappingResponse, err := mappingRequest.Do()
-  if err != nil {
-    log.Fatal("Mapping new certificate failed: ", err)
+  if err = mapDomainToCertificate(apps, "clementine-data", "data.clementine-player.org", certId); err != nil {
+    log.Print(err)
   }
-  log.Println(mappingResponse)
+  if err = mapDomainToCertificate(apps, "clementine-web", "clementine-player.org", certId); err != nil {
+    log.Print(err)
+  }
+  if err = mapDomainToCertificate(apps, "clementine-web", "www.clementine-player.org", certId); err != nil {
+    log.Print(err)
+  }
 }
