@@ -5,6 +5,7 @@
 
 /root/letsencrypt/letsencrypt-auto certonly \
 	-a webroot --webroot-path /var/www/clementine-player.org \
+	-q \
 	--renew-by-default \
 	-d clementine-player.org \
 	-d www.clementine-player.org \
