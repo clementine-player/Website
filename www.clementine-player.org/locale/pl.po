@@ -6,7 +6,7 @@
 # burtek <burtekdotryw@gmail.com>, 2012
 # burtek <burtekdotryw@gmail.com>, 2012
 # Michał Garapich <michal@garapich.pl>, 2013
-# jan <duxetlg@gmail.com>, 2014
+# duxet <duxetlg@gmail.com>, 2014
 # hatstand <john.maguire@gmail.com>, 2014
 # Kacper Banasik <mattrick@jabster.pl>, 2012
 # Kacper Banasik <mattrick@jabster.pl>, 2012
