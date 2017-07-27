@@ -1,0 +1,8 @@
+cron:
+  - description: "Renew SSL certificates"
+    url: /ssl-certificates/auto-renew
+    schedule: every monday 00:00
+    retry_parameters:
+      job_retry_limit: 5
+      min_backoff_seconds: 60
+      max_backoff_seconds: 600
