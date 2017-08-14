@@ -5,7 +5,7 @@
 # Translators:
 # Andrei Stepanov, 2014
 # Alexey Semenov <sov.info@mail.ru>, 2013
-# Andrei Stepanov, 2014-2016
+# Andrei Stepanov, 2014-2017
 # Andy Dufrane <>, 2012
 # avireti, 2012
 # avireti, 2012
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-08-03 12:35+0000\n"
+"PO-Revision-Date: 2017-08-09 17:26+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/davidsansome/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -851,4 +851,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr "Clementine и его разработчики не собирают какую-либо личную информацию, позволяющую идентифицировать её обладателя. Данные, такие как сетевая статистика, используется только в анонимном виде. Информация об именах пользователей, паролях, проверке подлинности в сетевых службах Clementine никогда не передается и не собирается."
+msgstr "Clementine и его разработчики не собирают какую-либо личную информацию, позволяющую идентифицировать её обладателя. Данные, такие как сетевая статистика, используются только в анонимном виде. Информация об именах пользователей, паролях, проверке подлинности в сетевых службах Clementine никогда не передаётся и не собирается."
