@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-08-09 17:26+0000\n"
+"PO-Revision-Date: 2017-09-15 08:42+0000\n"
 "Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/davidsansome/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "Разработка"
 
 #: base.html:61
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Кроссплатформенный аудиоплеер, сделанный в лучших традициях Amarok 1.4"
+msgstr "Кроссплатформенный аудиоплеер, созданный в лучших традициях Amarok 1.4"
 
 #: base.html:86
 msgid ""
@@ -391,7 +391,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Этот релиз совместим с <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">приложением удаленного управления Clementine для Android</a>, которое позволяет управлять плеером с устройства Android.<br/>Этот релиз также добавляет поддержку Subsonic. Теперь вы можете слушать музыку, хранящуюся на <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Наконец, появились такие возможности как \"пометка\" списка воспроизведения, которая позволяет восстановить список после его закрытия в новой вкладке \"Списка воспроизведения\", расположенной в левой боковой панели.<br/>Для более подробной информации смотрите <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">список изменений</a>."
+msgstr "Этот выпуск совместим с <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">приложением удалённого управления Clementine для Android</a>, которое позволяет управлять плеером с устройства Android.<br/>Этот релиз также добавляет поддержку Subsonic. Теперь вы можете слушать музыку, хранящуюся на <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Наконец, появились такие возможности как \"пометка\" списка воспроизведения, которая позволяет восстановить список после его закрытия в новой вкладке \"Списка воспроизведения\", расположенной в левой боковой панели.<br/>Для более подробной информации смотрите <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">список изменений</a>."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -424,7 +424,7 @@ msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr "Новые версии Clementine требуют наличия GStreamer 1.0, который не был включен в Ubuntu 12.04. Если во время установки Clementine появляются ошибки, вам следует добавить GStreamer PPA:"
+msgstr "Новые версии Clementine требуют наличия GStreamer 1.0, который не был включён в Ubuntu 12.04. Если во время установки Clementine появляются ошибки, вам следует добавить GStreamer PPA:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -442,7 +442,7 @@ msgstr "Неофициальные сборки"
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr "Если в списке нет используемого вами дистрибутива, то, возможно, кто-то собрал неофициальный пакет, который подойдет для вас."
+msgstr "Если в списке нет используемого вами дистрибутива, то, возможно, кто-то собрал неофициальный пакет, который подойдёт для вас."
 
 #: downloads.html:87
 msgid "Compiling from source"
@@ -468,7 +468,7 @@ msgstr "Версии для разработчиков"
 
 #: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
-msgstr "Разработка Clementine ведется c помощью"
+msgstr "Разработка Clementine ведётся c помощью"
 
 #: downloads.html:107 participate.html:59
 msgid "the git repository"
@@ -506,7 +506,7 @@ msgstr "Buildbot"
 
 #: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Есть также PPA репозиторий с тестовыми сборками для Ubuntu:"
+msgstr "Есть также PPA-репозиторий с тестовыми сборками для Ubuntu:"
 
 #: downloads.html:136
 msgid "Old downloads"
@@ -629,11 +629,11 @@ msgstr "Он вобрал в себя лучшее от"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "сделав упор на скорость и легкость поиска и воспроизведения вашей музыки."
+msgstr "сделав упор на скорость и лёгкость поиска и воспроизведения вашей музыки."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr "Скачать последнюю версию для"
+msgstr "Скачайте последнюю версию для"
 
 #: main.html:66
 msgid "Download Clementine"
@@ -759,7 +759,7 @@ msgstr "Приложение для удалённого управления Cl
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr "Вы может сообщить об ошибке или предоставить патч на <a href=\"https://github.com/clementine-player/Android-Remote/issues\">соотвествующем баг-трэкере</a>."
+msgstr "Вы можете сообщить об ошибке или предоставить патч на <a href=\"https://github.com/clementine-player/Android-Remote/issues\">соотвествующем баг-трекере</a>."
 
 #: participate.html:96
 msgid ""
@@ -826,7 +826,7 @@ msgstr "Вы так же можете помочь <a href=\"#collaborate\">в �
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr "Но если вы всё еще хотите потратить ваши деньги - осчастливьте нас, сделайте пожертвование одной из этих благотворительных организаций,"
+msgstr "Но если вы всё ещё хотите потратить ваши деньги — осчастливьте нас, сделайте пожертвование одной из этих благотворительных организаций,"
 
 #: participate.html:134
 msgid "and let us know:"
