@@ -9,7 +9,6 @@ from webapp2_extras import i18n
 
 from data import DISPLAY_OS
 from data import DOWNLOAD_BASE_URL
-from data import DOWNLOAD_BASE_URL_OLD
 from data import DOWNLOADS
 from data import LANGUAGE_NAMES
 from data import LANGUAGES
@@ -44,14 +43,10 @@ class BasePage(webapp2.RequestHandler):
     display_os = DISPLAY_OS[d['os']]
     short_display_os = SHORT_DISPLAY_OS[d['os']]
     version = d['ver']
-    if version < '1.2':
-      download_base_url = DOWNLOAD_BASE_URL_OLD
-    else:
-      download_base_url = DOWNLOAD_BASE_URL
     d['display_os'] = i18n.gettext(display_os)
     d['short_os'] = i18n.gettext(short_display_os)
     d['os_logo'] = OS_LOGOS[d['os']]
-    d['url'] = download_base_url + d['name']
+    d['url'] =  DOWNLOAD_BASE_URL + d['name']
 
   def MakePage(self, template_file, language, extra_params=None):
     root_page = "/"
