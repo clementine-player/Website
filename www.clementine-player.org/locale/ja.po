@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # 0bytetest_green <xenolith0bytetestcomgreen@gmail.com>, 2013
 # Jun NOGATA <nogajun@gmail.com>, 2014
@@ -17,14 +17,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 15:44+0100\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
 "PO-Revision-Date: 2017-09-19 13:05+0000\n"
 "Last-Translator: Naoki Iwakami <naoki.iwakami@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/davidsansome/clementine/language/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: android-download.html:4
@@ -39,51 +39,48 @@ msgstr "Android携帯からClementineをコントロール"
 msgid "Clementine Music Player"
 msgstr "Clementine Music Player"
 
-#: base.html:54
+#: base.html:51
 msgid "About"
 msgstr "Clementine について"
 
-#: base.html:55 downloads.html:2
+#: base.html:52 downloads.html:2
 msgid "Downloads"
 msgstr "ダウンロード"
 
-#: base.html:56 main.html:92 screenshots.html:2
+#: base.html:53 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "スクリーンショット"
 
-#: base.html:57 participate.html:2
+#: base.html:54 participate.html:2
 msgid "Participate"
 msgstr "参加する"
 
-#: base.html:61
+#: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Amarok 1.4 にインスパイアされたクロスプラットフォームの音楽プレイヤー"
 
-#: base.html:86
-msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
+#: base.html:83
+msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
 msgstr "Clementine は GPL v3 のフリーソフトウェアです。このサイトは CC-BY-SA でライセンスされています。"
 
-#: base.html:87
+#: base.html:84
 msgid "Development by"
 msgstr "開発者: "
 
-#: base.html:88 main.html:21 main.html.py:28
+#: base.html:85 main.html:21 main.html.py:28
 msgid "and"
 msgstr "と"
 
-#: base.html:90
+#: base.html:87
 msgid "Website by"
 msgstr "ウェブサイト制作: "
 
-#: base.html:93 privacy.html:3 privacy.html.py:10
+#: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
 #: data.py:8
-msgid ""
-"Playlist tab, while listening to songs from multiples Internet services"
+msgid "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "プレイリストタブ画面。複数のインターネットサービスから音楽が聞けます"
 
 #: data.py:9
@@ -222,168 +219,107 @@ msgstr "Last.fm サポート"
 msgid "Growl notifications on Mac OS X"
 msgstr "Mac OS XのGrowl通知センターにも対応"
 
-#: data.py:203
+#: data.py:133
 msgid "Source code"
 msgstr "ソースコード"
 
-#: data.py:231
+#: data.py:168
 msgid "Source"
 msgstr "ソース"
 
-#: data.py:289
+#: data.py:240
 msgid "Version 0.2 released"
 msgstr "バージョン 0.2をリリース"
 
-#: data.py:290
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
+#: data.py:241
+msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
 msgstr "我々はClementineの最初のバージョンをリリースして以来、1月以上が過ぎました。この新バージョンでは、アルバムのカバーアート、より良い「コンピレーション」の検出、プレイリストの読み込みサポート、などを提供しています"
 
-#: data.py:296
+#: data.py:247
 msgid "Version 0.3 released"
 msgstr "バージョン 0.3をリリース"
 
-#: data.py:297
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
+#: data.py:248
+msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
 msgstr "今回のリリースでは、トラック間のアナライザとクロスフェードを現在のWindows上で動作するようにしました。すべてのプラットフォームでのGStreamerに切り替えました。新機能に、イコライザ、より多くのライブラリグループ化オプション、よりよいOSD、コマンドラインやMPRISからの遠隔制御、容易にタグ編集が含まれます。"
 
-#: data.py:305
+#: data.py:256
 msgid "Version 0.4 released"
 msgstr "Version 0.4 がリリースされました"
 
-#: data.py:306
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
+#: data.py:257
+msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
 msgstr "今回のリリースでは、タブつきプレイリスト、プレイリスト検索、projectM によるビジュアライゼーション、Magnatune への対応、ReplayGain 音量正規化、そしてトランスコーディングの機能が追加されました。バグ修正もたくさん行われました。Windows上での検索はずっと高速に、再生はずっと安定しました。文字コードの問題は解決され、外部プレイリストはいつでも正しく表示されるようになりました。"
 
-#: data.py:315
+#: data.py:266
 msgid "Version 0.5 released"
 msgstr "Version 0.5 がリリースされました"
 
-#: data.py:316
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:267
+msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:332
+#: data.py:283
 msgid "Version 0.6 released"
 msgstr "バージョン 0.6 リリース"
 
-#: data.py:333
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:284
+msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:345
+#: data.py:296
 msgid "Version 0.7 released"
 msgstr "Version 0.7 リリースされました"
 
-#: data.py:346
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:297
+msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:360
+#: data.py:311
 msgid "Version 1.0 released"
 msgstr "バージョン 1.0 リリース"
 
-#: data.py:361
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+#: data.py:312
+msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:373
+#: data.py:324
 msgid "Version 1.1 released"
 msgstr "バージョン 1.1 リリース"
 
-#: data.py:374
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:325
+msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr ""
 
-#: data.py:387
+#: data.py:338
 msgid "Version 1.2 released"
 msgstr "バージョン 1.2 リリース"
 
-#: data.py:388
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
+#: data.py:339
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
 msgstr "今回のリリースは <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android 版 Clementine リモート</a> と互換性があり、Clementine を Android から操作できるようになりました。<br/>また、Subsonic への対応を追加しました。<a href=\"https://www.box.com/\">Box</a>、<a href=\"https://www.dropbox.com/\">Dropbox</a>、<a href=\"https://skydrive.live.com/\">Skydrive</a>、そして <a href=\"https://one.ubuntu.com/\">Ubuntu One</a> に保存された音楽を再生できるようになりました。そして、プレイリストに「星」がつけられるようになり、一旦閉じても、あとでサイドバーにある「プレイリスト」タブから戻すことができるようになりました。<br/>詳しくは<a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">変更履歴</a>をご覧ください。"
+
+#: data.py:354
+#, fuzzy
+#| msgid "Version 0.3 released"
+msgid "Version 1.3 released"
+msgstr "バージョン 0.3をリリース"
+
+#: data.py:355
+#, fuzzy
+#| msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for accessing your music in Vk.com and Seafile.See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">full changelog</a> for more information."
+msgstr "今回のリリースは <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android 版 Clementine リモート</a> と互換性があり、Clementine を Android から操作できるようになりました。<br/>また、Subsonic への対応を追加しました。<a href=\"https://www.box.com/\">Box</a>、<a href=\"https://www.dropbox.com/\">Dropbox</a>、<a href=\"https://skydrive.live.com/\">Skydrive</a>、そして <a href=\"https://one.ubuntu.com/\">Ubuntu One</a> に保存された音楽を再生できるようになりました。そして、プレイリストに「星」がつけられるようになり、一旦閉じても、あとでサイドバーにある「プレイリスト」タブから戻すことができるようになりました。<br/>詳しくは<a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">変更履歴</a>をご覧ください。"
+
+#: data.py:364
+#, fuzzy
+#| msgid "Version 1.1 released"
+msgid "Version 1.3.1 released"
+msgstr "バージョン 1.1 リリース"
+
+#: data.py:365
+msgid "Fixes a bug where ratings are deleted when upgrading from older versions."
+msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -402,9 +338,7 @@ msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
 #: downloads.html:56
-msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
+msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "公式のPPAを利用してUbuntuに最新バージョンのClementineをダウンロードできます"
 
 #: downloads.html:62
@@ -412,10 +346,7 @@ msgid "Dependencies for Ubuntu Precise (12.04)"
 msgstr "Ubuntu Precise (12.04) における依存性"
 
 #: downloads.html:63
-msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
 msgstr "Clementine の新しいバージョンには、Ubuntu 12.04 に含まれていない GStreamer 1.0 が必要です。Clementine のインストールでエラーが起こる場合 GStreamer PPA もまた必要です:"
 
 #: downloads.html:68 downloads.html.py:83
@@ -431,9 +362,7 @@ msgid "Unofficial packages"
 msgstr "非公式パッケージ"
 
 #: downloads.html:79
-msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
+msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "もし上のリストにあなたのディストリビューションがなかった場合、誰かが非公式パッケージを作ってくれているかもしれません。"
 
 #: downloads.html:87
@@ -445,9 +374,7 @@ msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Clementine をソースからコンパイルするのは Linux 上なら簡単です。"
 
 #: downloads.html:90
-msgid ""
-"Download the source code package from the list above, and in a terminal "
-"window:"
+msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "上のリストからソースコードパッケージをダウンロードして、端末から以下を実行してください:"
 
 #: downloads.html:99
@@ -471,9 +398,7 @@ msgid "Check out the code by running:"
 msgstr "以下を実行してソースコードをチェックアウトできます:"
 
 #: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
+msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "自分で開発バージョンをコンパイルしたくない場合には、毎時パッケージを試してみてください:"
 
 #: downloads.html:117 participate.html:75
@@ -573,8 +498,7 @@ msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Windows, Mac OS X, Linuxのクロスプラットフォームで利用"
 
 #: main.html:43
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "システムのデスクトップ通知対応 Linux (libnotify)とMac OS X (Growl)"
 
 #: main.html:44
@@ -618,9 +542,7 @@ msgid "It is inspired by"
 msgstr " このアプリケーションは"
 
 #: main.html:58
-msgid ""
-"focusing on a fast and easy-to-use interface for searching and playing your "
-"music."
+msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
 msgstr "にインスパイアされて作られました。音楽の検索・再生が、すばやく簡単にできるのが特徴です。"
 
 #: main.html:65 main.html.py:74
@@ -668,9 +590,7 @@ msgid "channel on Freenode."
 msgstr "チャンネルでできます。"
 
 #: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
+msgid "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away."
 msgstr "私たちは違うタイムゾーンで生活しているかもしれないので、質問がすぐに見られるとは限りません。<b>質問した後は、しばらくチャットで待機しなければならないかもしれない</b>ということを心に留めておいてください。"
 
 #: participate.html:25
@@ -678,9 +598,7 @@ msgid "Forum"
 msgstr "フォーラム"
 
 #: participate.html:27
-msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
+msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
 msgstr "Clementine は、フォーラム、メーリングリスト、および、一般的な議論に、Googleグループを利用しています。"
 
 #: participate.html:30
@@ -700,9 +618,7 @@ msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine は、開発と問題管理に GitHub を利用しています。"
 
 #: participate.html:40
-msgid ""
-"If you have found a bug in Clementine, please head on over to the issue "
-"tracker and create a new issue."
+msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
 msgstr "Clementine にバグを発見した場合、issue tracker のページに行って New Issue を作成することによりバグ報告をお願いします。"
 
 #: participate.html:43
@@ -714,15 +630,11 @@ msgid "Translating the interface"
 msgstr "インターフェースの翻訳"
 
 #: participate.html:48
-msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
+msgid "If you'd like to translate Clementine into another language you can do so on the Transifex translations page."
 msgstr "Clementine の翻訳にご協力頂ける場合、下のリンクの Transifex の翻訳ページから、翻訳の追加・改善を行うことができます。"
 
 #: participate.html:49
-msgid ""
-"You can either do the translation directly on Transifex, or download a .po "
-"file from the site and then email it back to us."
+msgid "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us."
 msgstr "Transifex のウェブインターフェイスから直接翻訳を行うか、.po ファイルをサイトからダウンロードして、翻訳後、ファイルをメールで送っていただくこともできます。"
 
 #: participate.html:52
@@ -742,22 +654,15 @@ msgid "Remote application for Android"
 msgstr "Android用リモートコントロールアプリ"
 
 #: participate.html:94
-msgid ""
-"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
-"player/Android-Remote\">another GitHub repository</a>."
+msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine Remote は、<a href=\"https://github.com/clementine-player/Android-Remote\">別の GitHub レポジトリ</a> でホストされています。"
 
 #: participate.html:95
-msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "問題の報告やパッチの提案は、<a href=\"https://github.com/clementine-player/Android-Remote/issues\">バグトラッカー</a> のページからお送りください。"
 
 #: participate.html:96
-msgid ""
-"You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
-"Transifex project</a>."
+msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "また、翻訳は、<a href=\"https://www.transifex.com/projects/p/clementine-remote/\">こちらの Transifex project</a> から行うことができます。"
 
 #: participate.html:100
@@ -765,9 +670,7 @@ msgid "Social Networking"
 msgstr "ソーシャルネットワーク"
 
 #: participate.html:102
-msgid ""
-"We'd love to see you support Clementine by joining us on your favourite "
-"social networking site!"
+msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "あなたのお気に入りのソーシャルネットワークで、Clementine のサイトに参加していただけると嬉しいです！"
 
 #: participate.html:106
@@ -792,9 +695,7 @@ msgid "You can find lovely Clementine stickers on %(unixstickers)s."
 msgstr "%(unixstickers)s に素敵な Clementine ステッカーがあります。"
 
 #: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
 msgstr "ノートPCをちょっと違う感じにしてみるのにいいですよ！"
 
 #: participate.html:131
@@ -802,22 +703,15 @@ msgid "Donation"
 msgstr "寄付"
 
 #: participate.html:132
-msgid ""
-"Currently, we do not need money and as so we do not accept money donation. "
-"If you like our software and want to help us, you can <a href=\"#social-"
-"networking\">support us</a> and spread the word."
+msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "今のところ私たちは資金を必要としていないため、寄付の受付はしていません。もしこのソフトを気に入って私たちの支援をして下さるなら、<a href=\"#social-networking\">ソーシャルネットワークで</a>このソフトのことを広めてください。"
 
 #: participate.html:133
-msgid ""
-"You can also help by <a href=\"#collaborate\">participating to the software "
-"development, as explained above</a>."
+msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "また、<a href=\"#collaborate\">コラボレートの項目にあるように、開発に参加する形で支援していただくこともできます</a>。"
 
 #: participate.html:134
-msgid ""
-"But if you still want to spend some money to make us happy, you can make a "
-"donation to one of these charity organizations we like"
+msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "でもまだもしあなたがお金を使いたいと考えているなら、私たちの好きな以下のチャリティー団体に寄付してくださいませんか:"
 
 #: participate.html:134
@@ -837,10 +731,5 @@ msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 
 #: privacy.html:14
-msgid ""
-"Clementine and its developers do not collect any personally identifiable "
-"information in any way. Data such as web service statistics are collected "
-"only on an anonymous basis. Information such as usernames, passwords and "
-"authentication tokens for online services provided to Clementine are never "
-"transmitted from that instance of Clementine."
+msgid "Clementine and its developers do not collect any personally identifiable information in any way. Data such as web service statistics are collected only on an anonymous basis. Information such as usernames, passwords and authentication tokens for online services provided to Clementine are never transmitted from that instance of Clementine."
 msgstr ""
