@@ -12,14 +12,14 @@
 # Adolfo Jayme Barrientos, 2013
 # Juanjo, 2016
 # Arnau <Thunder.Tricking@gmail.com>, 2013
-# Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2013
+# Roger Pueyo Centelles <transifex@rogerpueyo.com>, 2011-2013,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-09-19 10:50+0000\n"
-"Last-Translator: Juanjo\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"PO-Revision-Date: 2017-10-30 13:51+0000\n"
+"Last-Translator: Roger Pueyo Centelles <transifex@rogerpueyo.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/davidsansome/clementine/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,45 +39,45 @@ msgstr "Controleu el Clementine de forma remota des del vostre telèfon Android"
 msgid "Clementine Music Player"
 msgstr "Reproductor de música Clementine"
 
-#: base.html:54
+#: base.html:51
 msgid "About"
 msgstr "Quant a"
 
-#: base.html:55 downloads.html:2
+#: base.html:52 downloads.html:2
 msgid "Downloads"
 msgstr "Baixades"
 
-#: base.html:56 main.html:92 screenshots.html:2
+#: base.html:53 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "Captures de pantalla"
 
-#: base.html:57 participate.html:2
+#: base.html:54 participate.html:2
 msgid "Participate"
 msgstr "Participeu-hi"
 
-#: base.html:61
+#: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Un reproductor de música multi-plataforma inspirat en l'Amarok 1.4"
 
-#: base.html:86
+#: base.html:83
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine és Programari Lliure sota la llicència GPL v3. Aquest lloc web té llicència CC-BY-SA."
 
-#: base.html:87
+#: base.html:84
 msgid "Development by"
 msgstr "Desenvolupat per"
 
-#: base.html:88 main.html:21 main.html.py:28
+#: base.html:85 main.html:21 main.html.py:28
 msgid "and"
 msgstr "i"
 
-#: base.html:90
+#: base.html:87
 msgid "Website by"
 msgstr "Pàgina web per"
 
-#: base.html:93 privacy.html:3 privacy.html.py:10
+#: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
 msgstr "Política de privadesa"
 
@@ -222,30 +222,30 @@ msgstr "Compatibilitat amb el Last.fm"
 msgid "Growl notifications on Mac OS X"
 msgstr "Notificacions amb el Growl a l’OS X"
 
-#: data.py:203
+#: data.py:133
 msgid "Source code"
 msgstr "Codi font"
 
-#: data.py:231
+#: data.py:168
 msgid "Source"
 msgstr "Font"
 
-#: data.py:289
+#: data.py:240
 msgid "Version 0.2 released"
 msgstr "Versió 0.2 alliberada"
 
-#: data.py:290
+#: data.py:241
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "Tot just fa un mes des de que vam publicar la primera versió de Clementine. Aquesta nova versió implementa portades d'àlbums, millor detecció d'àlbums amb \"Diversos artistes\", suport per a carregar llistes de reproucció, i molt més."
 
-#: data.py:296
+#: data.py:247
 msgid "Version 0.3 released"
 msgstr "Versió 0.3 alliberada"
 
-#: data.py:297
+#: data.py:248
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -253,11 +253,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "En aquesta versió hem canviat a GStreamer a totes les plataformes, de manera que l'analitzador i l'esvaïment i fusió entre peces ara funciona al Windows. Les noves característiques inclouen un equalitzador, noves opcions d'agrupament a la biblioteca, un OSD millor, control remot des de la línia de comandes i MPRIS, i una edició d'etiquetes més senzilla."
 
-#: data.py:305
+#: data.py:256
 msgid "Version 0.4 released"
 msgstr "Versió 0.4 alliberada"
 
-#: data.py:306
+#: data.py:257
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -267,11 +267,11 @@ msgid ""
 "the time."
 msgstr "Aquesta versió inclou pestanyes per a les llistes de reproducció, cerca a la llista de reproducció, visualitzacions amb projectM, integració amb Magnatune, normalització de volum amb ReplayGain i transcodificació. També hem arreglat un munt d'errades - cercar a biblioteques grans ara és molt més ràpid, la reproducció a Windows és molt més fiable, els problemes de codificació de caràcters estan arreglats les llistes de reproducció remotes haurien de carregar-se correctament en tot moment."
 
-#: data.py:315
+#: data.py:266
 msgid "Version 0.5 released"
 msgstr "Versió 0.5 alliberada"
 
-#: data.py:316
+#: data.py:267
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -289,11 +289,11 @@ msgid ""
 "information."
 msgstr "Aquesta versió afegeix suport per a l'ús de dispositius portàtils amb Clementine. Ara podeu copiar cançons al vostre iPod, iPhone, MTP, o dispositiu d'emmagatzematge USB. Vegeu <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">el wiki per a més informació</a> . S'ha afegit suport per a l'ús d'un <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">comandament de la Wii</a> com a comandament a distància. Altres característiques inclouen un gestor de llistes de reproducció, un quadre de diàleg per organitzar els arxius, ajustament automàtic de la mida de les columnes a la llista de reproducció, càrrega automàtica de la imatge de la portada inclosa en l'ID3v2, més opcions d'escaneig de la biblioteca, arrossegar i deixar anar a les llistes de reproducció, i un Hipnogripau. També s'ha reduït el temps d'arrencada més de la meitat, s'han arreglat un munt de problemes de gestió de memòria i s'ha reduït l'ús del processador durant la reproducció de música. Feu un cop d'ull al <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">llistat de canvis complet</a> per a més informació."
 
-#: data.py:332
+#: data.py:283
 msgid "Version 0.6 released"
 msgstr "Versió 0.6 alliberada"
 
-#: data.py:333
+#: data.py:284
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -307,11 +307,11 @@ msgid ""
 "information."
 msgstr "Aquesta versió incorpora dos nous espais d'informació que mostren les lletres, les estadístiques de la peça, biografies dels artistes, fotos i llistes d'etiquetes i artistes similars. S'ha redissenyat la barra lateral (tot i que podeu tornar a la versió anterior fent-hi clic amb el botó dret), així com també s'han afegit puntuacions i comptadors de reproducció i de passades. Podeu crear llistes de reproducció intel·ligents i dinàmiques a partir de les cançons de la vostra biblioteca, i també escoltar música des de <a href=\"http://www.jamendo.com/\">Jamendo</a> i emissores de ràdio Icecast. Feu un cop d'ull al <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">llistat de canvis complet</a> per a més informació."
 
-#: data.py:345
+#: data.py:296
 msgid "Version 0.7 released"
 msgstr "Versió 0.7 alliberada"
 
-#: data.py:346
+#: data.py:297
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -327,11 +327,11 @@ msgid ""
 "information."
 msgstr "En aquesta versió el Clementine incorpora una nova eina d'edició d'etiquetes amb autocompleció i l'habilitat d'identificar automàticament la música i obtenir les etiquetes que manquen des de MusicBrainz. Ara també suporta els fulls CUE - es detecten automàticament en escanejar la biblioteca i cada peça apareix per separat. S'han dut a terme un munt de petites millores com mostrar la portada dels àlbums a la pestanya de la biblioteca, enfosquint les peces esborrades, una opció per mostrar el fitxer al navegador, suport per a proxies de xarxa, una opció per reescanejar tota la biblioteca i una nova eina per a la barra de desplaçament de la peça que permet cercar més acuradament un instant de la pista. Feu un cop d'ull al <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">llistat de canvis complet</a> per a més informació."
 
-#: data.py:360
+#: data.py:311
 msgid "Version 1.0 released"
 msgstr "Versió 1.0 alliberada"
 
-#: data.py:361
+#: data.py:312
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -345,11 +345,11 @@ msgid ""
 " more information."
 msgstr "Aquesta publicació afegeix compatibilitat amb <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> i <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. També s'ha afegit una cerca global que us permet trobar fàcilment, sigui a la vostra col·lecció o a Internet. Altres característiques inclouen el suport per a CDs d'àudio, més opcions de transcodificador, una interfície de configuració millorada, cerques de portades d'àlbum més inteŀligents i tones d'errors corregits. Llegiu el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">llistat complet de canvis</a> per a més informació."
 
-#: data.py:373
+#: data.py:324
 msgid "Version 1.1 released"
 msgstr "Versió 1.1 alliberada"
 
-#: data.py:374
+#: data.py:325
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -363,11 +363,11 @@ msgid ""
 "information."
 msgstr "Aquesta publicació afegeix el tant esperat suport per a Podcasts, incloent integració i sincronització amb <a href=\"//gpodder.net\">gpodder.net</a>. La música de <a href=\"http://soundcloud.com/\">Soundcloud</a> i <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> està disponible a la pestanya Internet de la barra lateral, així com les cançons que hey pujat a <a href=\"http://drive.google.com/start\">Google Drive</a>. El Clementine ara també mostrarà \"moodbars\" de la música que reproduïu des del vostre disc local. Vegeu el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">llistat complet de canvis</a> per a més informació."
 
-#: data.py:387
+#: data.py:338
 msgid "Version 1.2 released"
 msgstr "Versió 1.2 alliberada"
 
-#: data.py:388
+#: data.py:339
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -384,6 +384,31 @@ msgid ""
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
 msgstr "Aquesta publicació és compatible amb el <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Comandament a distància del Clementine per a Android</a>, que us permet controlar el Clementine de forma remota des d'un dispositiu amb Android.<br/>Aquesta versió també incorpora suport per a Subsonic. I també podeu escoltar la vostra música emmagatzemada a <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> i <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. La darrera nova funcionalitat més important és la possibilitat de \"posar estrelletes\" a les vostres llistes de reproducció, de manera que les podeu tancar de forma segura i recuperar-les més tard des de la nova pestanya \"Llistes de reproducció\" que hem inclòs a la barra lateral de l'esquerra.<br/>Feu una ullada al <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">registre complet de canvis</a> per a més informació."
+
+#: data.py:354
+msgid "Version 1.3 released"
+msgstr "Versió 1.3 alliberada"
+
+#: data.py:355
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"accessing your music in Vk.com and Seafile.See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
+"information."
+msgstr "Aquesta publicació és compatible amb <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">l'aplicació Clementine Remote per a Android</a>, la qual us permet controlar Clementine des d'un dispositiu Android.<br/>Aquesta publicació també afegeix suport per accedir a la vostra musica de Vk.com i Seafile. Vegeu el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">llistat complet de canvis</a> per a més informació."
+
+#: data.py:364
+msgid "Version 1.3.1 released"
+msgstr "Versió 1.3.1 alliberada"
+
+#: data.py:365
+msgid ""
+"Fixes a bug where ratings are deleted when upgrading from older versions."
+msgstr "S'ha arreglat un error pel qual les puntuacions s'esborraven en actualitzar des de versions antigues."
 
 #: downloads.html:7
 msgid "Latest downloads"

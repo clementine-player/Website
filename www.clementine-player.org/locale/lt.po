@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012
-# Moo, 2014-2015
+# Moo, 2014-2015,2017
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-09-19 11:24+0000\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"PO-Revision-Date: 2017-11-04 18:49+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/davidsansome/clementine/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -33,45 +33,45 @@ msgstr "Valdykite Clementine per nuotolį iš savo Android telefono"
 msgid "Clementine Music Player"
 msgstr "Clementine muzikos grotuvas"
 
-#: base.html:54
+#: base.html:51
 msgid "About"
 msgstr "Apie"
 
-#: base.html:55 downloads.html:2
+#: base.html:52 downloads.html:2
 msgid "Downloads"
 msgstr "Atsiuntimai"
 
-#: base.html:56 main.html:92 screenshots.html:2
+#: base.html:53 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "Ekrano nuotraukos"
 
-#: base.html:57 participate.html:2
+#: base.html:54 participate.html:2
 msgid "Participate"
 msgstr "Prisidėti"
 
-#: base.html:61
+#: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Įvairių platformų muzikos grotuvas įkvėptas Amarok 1.4"
 
-#: base.html:86
+#: base.html:83
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine yra laisva programinė įranga pagal GPL v3. Šios svetainės teisės saugomos pagal CC-BY-SA."
 
-#: base.html:87
+#: base.html:84
 msgid "Development by"
 msgstr "Sukūrė"
 
-#: base.html:88 main.html:21 main.html.py:28
+#: base.html:85 main.html:21 main.html.py:28
 msgid "and"
 msgstr "ir"
 
-#: base.html:90
+#: base.html:87
 msgid "Website by"
 msgstr "Svetainę sukūrė"
 
-#: base.html:93 privacy.html:3 privacy.html.py:10
+#: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
 msgstr "Privatumo Politika"
 
@@ -216,30 +216,30 @@ msgstr "Last.fm palaikymas"
 msgid "Growl notifications on Mac OS X"
 msgstr "Growl pranešimai Mac OS X platformoje"
 
-#: data.py:203
+#: data.py:133
 msgid "Source code"
 msgstr "Išeities kodas"
 
-#: data.py:231
+#: data.py:168
 msgid "Source"
 msgstr "Šaltinis"
 
-#: data.py:289
+#: data.py:240
 msgid "Version 0.2 released"
 msgstr "Išleista 0.2 versija"
 
-#: data.py:290
+#: data.py:241
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "Praėjo tik mėnesis kai mes išleidome pirmą Clementine versiją. Ši versija turi albumų viršelius, geresnį „Įvairių atlikėjų“ aptikimą, palaiko grojaraščių įkėlimą, ir daug daugiau."
 
-#: data.py:296
+#: data.py:247
 msgid "Version 0.3 released"
 msgstr "Išleista 0.3 versija"
 
-#: data.py:297
+#: data.py:248
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -247,11 +247,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "Šiame leidime mes persijungėme į GStreamer visose platformose, tai reiškia, kad analizatorius ir takelių suliejimas dabar veiks ir Windows platformoje. Naujose savybėse yra glotnintuvas, daugiau fonotekos grupavimo pasirinkimų, gražesnis OSD, nuotolinis valdymas iš komandinės eilutės ir MPRIS, taip pat lengvesnis žymių redagavimas."
 
-#: data.py:305
+#: data.py:256
 msgid "Version 0.4 released"
 msgstr "Išleista 0.4 versija"
 
-#: data.py:306
+#: data.py:257
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -261,11 +261,11 @@ msgid ""
 "the time."
 msgstr "Šiame leidime atsiranda grojaraščiai, grojaraščių paieška, projectM vizualizacijos, Magnatune integracija, ReplayGain garso normalizavimas ir muzikos perkodavimas. Mes pataisėme daugybę klaidų - paieška didelėse fonotekose paieška dabar yra daug greitesnė, grojimas daug stabilesnis Windows platformoje, simbolių koduotės problemos pataisytos, nuotoliniai grojaraščiai turėtų tinkamai įsikelti visą laiką."
 
-#: data.py:315
+#: data.py:266
 msgid "Version 0.5 released"
 msgstr "Išleista 0.5 versija"
 
-#: data.py:316
+#: data.py:267
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -283,11 +283,11 @@ msgid ""
 "information."
 msgstr "Šis leidimas palaiko prijungiamus įrenginius su Clementine.  Dabar jūs galite perkelti savo dainas į savo iPod, iPhone, MTP arba į USB laikmeną.  Žiūrėkite <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\"> wiki, jei norite daugiau informacijos</a>.  Palaikymas naudojant <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">bevielis Wii</a> kaip valdymo funkcija pridėta iš anksto. Dar pridėtas „Queue“ valdiklis, organizuotas failų naršyklės dialogas, automatiniai automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 
-#: data.py:332
+#: data.py:283
 msgid "Version 0.6 released"
 msgstr "Išleista 0.6 versija"
 
-#: data.py:333
+#: data.py:284
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -301,11 +301,11 @@ msgid ""
 "information."
 msgstr "Ši laida prideda dvi naujas informacines juostas, kurios rodo dainos žodžius, dainos statistiką, atlikėjo biografiją, nuotraukas bei žymių ir panašių atlikėjų sąrašus. Mes pakeitėme juostos dizainą (nors spustelėję ant juostos dešinįjį pelės mygtuką jūs galite jį susigrąžinti), o taip pat pridėjome vertinimą bei grojimų ir praleidimų skaitiklius. Jūs galite kurti išmanųjį ir dinaminį grojaraštį, susidedantį iš dainų, esančių jūsų fonotekoje, o taip pat klausytis muzikos iš <a href=\"http://www.jamendo.com/\">Jamendo</a> ir Icecast radijo stočių. Išsamesnei informacijai, žūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">visą keitimų žurnalą</a>."
 
-#: data.py:345
+#: data.py:296
 msgid "Version 0.7 released"
 msgstr "Išleista 0.7 versija"
 
-#: data.py:346
+#: data.py:297
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -321,11 +321,11 @@ msgid ""
 "information."
 msgstr "Šioje laidoje Clementine įgauna visiškai naują žymių redagavimo dialogo langą su automatiniu užpildymu ir galimybe automatiškai atpažinti muziką bei rasti trūkstamas žymes iš MusicBrainz. Dabar yra palaikomi CUE lapai - jie yra automatiškai aptinkami, skenuojant jūsų fonoteką ir kiekvienas takelis yra parodytas atskirai. Mes padarėme daugybę mažesnių patobulinimų, tokių kaip albumo viršelių rodymas Fonotekos kortelėje, ištrintų dainų rodymas pilka spalva, parinktis \"Rodyti failų naršyklėje\", įgaliotųjų serverių palaikymas, parinktis \"Pilnas fonotekos perskenavimas\", ir naujas takelio slinkiklio paaiškinimas, kuris padeda atlikti tikslesnę, tam tikros dainos vietos, paiešką. Išsamesnei informacijai, žiūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">visą keitimų žurnalą</a>."
 
-#: data.py:360
+#: data.py:311
 msgid "Version 1.0 released"
 msgstr "Išleista 1.0 versija"
 
-#: data.py:361
+#: data.py:312
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -339,11 +339,11 @@ msgid ""
 " more information."
 msgstr "Ši laida prideda <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> ir <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> palaikymą. Mes taip pat pridėjome Visuotinės Paieškos ypatybę, kuri leidžia lengvai rasti muziką, esančią jūsų fonotekoje arba Internete. Iš kitų ypatybių galima paminėti garso įrašų CD palaikymą, daugiau perkodavimo parinkčių, patobulintą nustatymų dialogo langą, išmanesnes albumo viršelių paieškas, ir daugybę klaidų pataisymų. Išsamesnei informacijai, žiūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">visą keitimų žurnalą</a>."
 
-#: data.py:373
+#: data.py:324
 msgid "Version 1.1 released"
 msgstr "Išleista 1.1 versija"
 
-#: data.py:374
+#: data.py:325
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -357,11 +357,11 @@ msgid ""
 "information."
 msgstr "Ši laida prideda ilgai lauktą Tinklalaidžių palaikymą, įskaitant integravimą ir sinchronizavimą su <a href=\"//gpodder.net\">gpodder.net</a>. Muzika iš <a href=\"http://soundcloud.com/\">Soundcloud</a> ir <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> yra prieinama juostoje, Interneto kortelėje, o taip pat ir visos dainos, kurias įkėlėte į <a href=\"http://drive.google.com/start\">Google Drive</a>. Nuo šiol, muzikai, grojamai iš jūsų disko, Clementine taip pat rodys nuotaikos juostas. Išsamesnei informacijai žiūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">visą keitimų žurnalą</a>."
 
-#: data.py:387
+#: data.py:338
 msgid "Version 1.2 released"
 msgstr "Išleista 1.2 versija"
 
-#: data.py:388
+#: data.py:339
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -378,6 +378,31 @@ msgid ""
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
 msgstr "Šis leidimas yra suderinamas su, <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android įrenginiams skirta, Clementine Remote programėle,</a> kuri leidžia jums per nuotolį valdyti Clementine iš jūsų Android įrenginio.<br/>Šis leidimas taip pat prideda Subsonic palaikymą. Taigi, dabar galite klausytis savo muzikos, kuri įkelta į <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> ir <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Paskutinė didžioji ypatybė yra galimybė \"pažymėti\" savo grojaraščius, kad galėtumėte saugiai juos užverti, o vėliau atkurti iš \"Grojaraščio\" kortelės, kuri yra naujai pridėta kairiojoje šoninėje juostoje.<br/>Norėdami sužinoti daugiau, žiūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">visą pakeitimų sąrašą.</a>"
+
+#: data.py:354
+msgid "Version 1.3 released"
+msgstr "Išleista 1.3 versija"
+
+#: data.py:355
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"accessing your music in Vk.com and Seafile.See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
+"information."
+msgstr "Ši laida yra suderinama su <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote programa, skirta Android</a>, kuri leidžia jums nuotoliniu būdu valdyti Clementine iš Android įrenginio.<br/>Ši laida taip pat prideda palaikymą, skirtą gauti prieigą prie jūsų muzikos, esančios Vk.com bei Seafile. Išsamesnei informacijai, žiūrėkite <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">visą keitinių žurnalą</a>."
+
+#: data.py:364
+msgid "Version 1.3.1 released"
+msgstr "Išleista 1.3.1 versija"
+
+#: data.py:365
+msgid ""
+"Fixes a bug where ratings are deleted when upgrading from older versions."
+msgstr "Ištaiso klaidą, kuomet naujinant programą buvo ištrinami įvertinimai."
 
 #: downloads.html:7
 msgid "Latest downloads"

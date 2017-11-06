@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Sergii Galashyn <trovich@gmail.com>, 2011
-# Yuri Chornoivan <yurchor@ukr.net>, 2011-2015
+# Yuri Chornoivan <yurchor@ukr.net>, 2011-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-09-19 10:43+0000\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"PO-Revision-Date: 2017-10-30 14:24+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/davidsansome/clementine/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -31,45 +31,45 @@ msgstr "Дистанційне керування Clementine за допомог
 msgid "Clementine Music Player"
 msgstr "Музичний програвач Clementine"
 
-#: base.html:54
+#: base.html:51
 msgid "About"
 msgstr "Про програму"
 
-#: base.html:55 downloads.html:2
+#: base.html:52 downloads.html:2
 msgid "Downloads"
 msgstr "Завантаження"
 
-#: base.html:56 main.html:92 screenshots.html:2
+#: base.html:53 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "Знімки екрана"
 
-#: base.html:57 participate.html:2
+#: base.html:54 participate.html:2
 msgid "Participate"
 msgstr "Долучитись"
 
-#: base.html:61
+#: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Крос-платформений музичний програвач, натхненний Amarok 1.4"
 
-#: base.html:86
+#: base.html:83
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine є вільним програмним забезпеченням, ліцензованим у відповідності з GPL v3. Веб-сайт ліцензовано у відповідності з CC-BY-SA."
 
-#: base.html:87
+#: base.html:84
 msgid "Development by"
 msgstr "Розроблено"
 
-#: base.html:88 main.html:21 main.html.py:28
+#: base.html:85 main.html:21 main.html.py:28
 msgid "and"
 msgstr "та"
 
-#: base.html:90
+#: base.html:87
 msgid "Website by"
 msgstr "Веб-сайт розроблено"
 
-#: base.html:93 privacy.html:3 privacy.html.py:10
+#: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
 msgstr "Правила конфіденційності"
 
@@ -214,30 +214,30 @@ msgstr "Підтримка Last.fm"
 msgid "Growl notifications on Mac OS X"
 msgstr "Спливаючі повідомлення Growl у Mac OS X"
 
-#: data.py:203
+#: data.py:133
 msgid "Source code"
 msgstr "Програмний код"
 
-#: data.py:231
+#: data.py:168
 msgid "Source"
 msgstr "Джерело"
 
-#: data.py:289
+#: data.py:240
 msgid "Version 0.2 released"
 msgstr "Випущено версію 0.2"
 
-#: data.py:290
+#: data.py:241
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "Пройшло більше місяця з моменту випуску першої версії Clementine. Нова версія представляє підтримку обкладинок альбомів, краще розпізнавання \"Різних виконавців\", завантаження списків відтворення та чимало іншого."
 
-#: data.py:296
+#: data.py:247
 msgid "Version 0.3 released"
 msgstr "Випущено версію 0.3"
 
-#: data.py:297
+#: data.py:248
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -245,11 +245,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "В цьому випуску ми перейшли до GStreamer на всіх платформах. Це означає, що смужка аналізатора та перехресне згасання між доріжками працюватиме у Windows. Нові можливості включають еквалайзер, більше можливостей для групування бібліотеки, більш гарний OSD, віддалене керування за допомогою командного рядка та MPRIS, а також легше редагування позначок."
 
-#: data.py:305
+#: data.py:256
 msgid "Version 0.4 released"
 msgstr "Випущено версію 0.4"
 
-#: data.py:306
+#: data.py:257
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -259,11 +259,11 @@ msgid ""
 "the time."
 msgstr "Цей випуск представляє списки відтворення у вкладках, пошук у списку відтворення, візуалізації projectM, інтеграція з Magnatune, нормалізація гучності та перекодування за допомогою ReplayGain. Також ми виправили чимало помилок, наприклад пришвидшили пошук у великих бібліотеках, відтворення більш надійніше у Windows, виправлено проблеми з кодуваннями, віддалені списки відтворення мають завантажуватися без жодних проблем."
 
-#: data.py:315
+#: data.py:266
 msgid "Version 0.5 released"
 msgstr "Випущено версію 0.5"
 
-#: data.py:316
+#: data.py:267
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -281,11 +281,11 @@ msgid ""
 "information."
 msgstr "Цей випуск додає підтримку для використання портативних пристроїв з Clementine. Тепер ви можете копіювати пісні до вашого iPod, MTB чи USB-накопичувача. Дивіться <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">подальшу інформацію у вікі</a>. Було додано підтримку керування за допомогою <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a>. Інші можливості включають керування чергою, діалог упорядкування файлів, автоматичне розтягування колонок у списку відтворення, завантаження включених до id3v2 обкладинок, більше налаштувань для сканування бібліотеки, перетягування між списками відтворення та Гіпножабу. Також нам вдалося зменшити час запуску більш як вдвічі, а також виправити кілька витоків пам’яті та підвищеного споживання ресурсів процесора під час програвання. Шукайте більше інформації в <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">повному списку змін</a>."
 
-#: data.py:332
+#: data.py:283
 msgid "Version 0.6 released"
 msgstr "Випущено версію 0.6"
 
-#: data.py:333
+#: data.py:284
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -299,11 +299,11 @@ msgid ""
 "information."
 msgstr "Цей випуск представляє дві нові панелі, що показують тексти пісень, статистику, біографії виконавців, знімки, список позначок та схожих виконавців. Ми переробили бічну панель (хоча ви можете повернутися до колишнього вигляду зробивши правий клік на ньому), також додали оцінки, кількість відтворень та кількість пропусків. Ви можете створювати \"розумні\" та динамічні списки відтворення на базі композицій з вашої бібліотеки, а також слухати музику з <a href=\"http://www.jamendo.com/\">Jamendo</a> та радіостанції Icecast. Шукайте більше інформації в <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">повному списку змін</a>."
 
-#: data.py:345
+#: data.py:296
 msgid "Version 0.7 released"
 msgstr "Випущено версію 0.7"
 
-#: data.py:346
+#: data.py:297
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -319,11 +319,11 @@ msgid ""
 "information."
 msgstr "У цьому випуску Clementine отримав новий діалог редагування міток з автодоповненням та можливістю автоматично визначати музику та витягувати мітки з MusicBrainz. Тепер підтримуються листи CUE - вони знаходяться автоматично під час сканування фонотеки, тож кожну доріжку буде відображено окремо. Ми зробили чимало дрібніших покращень, таких як показ обкладинок у вкладці Фонотека, позначення сірим видалених пісень, опція \"Показати в оглядачі файлів\", підтримка мережевих проксі, опція \"Повторити повне сканування фонотеки\" та нова підказка для повзунка доріжки, що допомагає точніше знайти потрібне місце пісні. Шукайте більше інформації в <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">повному списку змін</a>."
 
-#: data.py:360
+#: data.py:311
 msgid "Version 1.0 released"
 msgstr "Випущено версію 1.0"
 
-#: data.py:361
+#: data.py:312
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -337,11 +337,11 @@ msgid ""
 " more information."
 msgstr "У цьому випуску додано підтримку <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Також нами додано можливість загального пошуку, яка спростить вам пошук композицій, що зберігаються у вашій бібліотеці або на серверах у інтернеті. Серед інших можливостей слід відзначити підтримку роботи зі звуковими компакт-дисками, більше параметрів перекодування, покращення у діалоговому вікні параметрів програми, новий алгоритм пошуку зображень обкладинок та багато виправлень вад. Щоб дізнатися більше, ознайомтеся з <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">журналом змін</a>."
 
-#: data.py:373
+#: data.py:324
 msgid "Version 1.1 released"
 msgstr "Випущено версію 1.1"
 
-#: data.py:374
+#: data.py:325
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -355,11 +355,11 @@ msgid ""
 "information."
 msgstr "У цьому випуску додано довгоочікувану підтримку подкастів, зокрема інтеграцію та синхронізацію з <a href=\"gpodder.net\">gpooder.net</a>. У новій версії доступ до музичних творів з <a href=\"http://soundcloud.com/\">Soundcloud</a> та <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>, а також композицій, які було вивантажено до <a href=\"http://drive.google.com/start\">Google Drive</a>, можна отримати за допомогою вкладки «Інтернет» бічної панелі. Крім того, нова версія Clementine здатна показувати смужки настною для музичних творів з локальної збірки. Щоб дізнатися більше, ознайомтеся з <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">журналом змін</a>."
 
-#: data.py:387
+#: data.py:338
 msgid "Version 1.2 released"
 msgstr "Випущено версію 1.2"
 
-#: data.py:388
+#: data.py:339
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -376,6 +376,31 @@ msgid ""
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
 msgstr "Цей випуск є сумісним з <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">програмою для дистанційного керування Clementine для Android</a>, за допомогою якої можна віддалено керувати Clementine з пристрою під керуванням Android.<br/>У цьому випуску також реалізовано підтримку Subsonic. Тепер ви можете слухати музику з ваших скриньок на <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> та <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Нарешті, ще однією з основних можливостей цього випуску є можливість «позначення» ваших списків відтворення. Позначені списки можна безпечно закривати, а потім відновлювати з нової вкладки «Списки відтворення», яку додано на ліву бічну панель.<br/>Докладніший опис змін можна знайти у <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">журналі змін</a> програми."
+
+#: data.py:354
+msgid "Version 1.3 released"
+msgstr "Випущено версію 1.3"
+
+#: data.py:355
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"accessing your music in Vk.com and Seafile.See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
+"information."
+msgstr "Цей випуск є сумісним з <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">програмою Clementine Remote для Android</a>, за допомогою якої ви можете віддалено керувати Clementine з будь-якого пристрою під керуванням Android.<br/>У цьому випуску також передбачено підтримку доступу до вашої музики у vk.com та Seafile. Ознайомтеся із <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">повним списком змін</a>, щоб дізнатися більше."
+
+#: data.py:364
+msgid "Version 1.3.1 released"
+msgstr "Випущено версію 1.3.1"
+
+#: data.py:365
+msgid ""
+"Fixes a bug where ratings are deleted when upgrading from older versions."
+msgstr "Виправлено ваду, пов'язану із тим, що оцінки вилучаслися під час оновлення застарілих версій програми."
 
 #: downloads.html:7
 msgid "Latest downloads"

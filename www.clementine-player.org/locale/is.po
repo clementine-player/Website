@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-09-19 19:48+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"PO-Revision-Date: 2017-10-30 10:16+0000\n"
+"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,45 +30,45 @@ msgstr "Fjarstýrðu Clementine með Android-símanum þínum"
 msgid "Clementine Music Player"
 msgstr "Clementine tónlistarspilari"
 
-#: base.html:54
+#: base.html:51
 msgid "About"
 msgstr "Um hugbúnaðinn"
 
-#: base.html:55 downloads.html:2
+#: base.html:52 downloads.html:2
 msgid "Downloads"
 msgstr "Sóttar skrár"
 
-#: base.html:56 main.html:92 screenshots.html:2
+#: base.html:53 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "Skjámyndir"
 
-#: base.html:57 participate.html:2
+#: base.html:54 participate.html:2
 msgid "Participate"
 msgstr "Taka þátt"
 
-#: base.html:61
+#: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Fjölkerfa tónlistarspilari innblásinn af Amarok 1.4"
 
-#: base.html:86
+#: base.html:83
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr ""
 
-#: base.html:87
+#: base.html:84
 msgid "Development by"
 msgstr "Forritun frá"
 
-#: base.html:88 main.html:21 main.html.py:28
+#: base.html:85 main.html:21 main.html.py:28
 msgid "and"
 msgstr "og"
 
-#: base.html:90
+#: base.html:87
 msgid "Website by"
 msgstr "Vefsvæði eftir"
 
-#: base.html:93 privacy.html:3 privacy.html.py:10
+#: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
 msgstr "Meðferð persónuupplýsinga"
 
@@ -213,30 +213,30 @@ msgstr "Stuðningur við Last.fm"
 msgid "Growl notifications on Mac OS X"
 msgstr "Growl-tilkynningar á Mac OS X"
 
-#: data.py:203
+#: data.py:133
 msgid "Source code"
 msgstr "Upprunakóði"
 
-#: data.py:231
+#: data.py:168
 msgid "Source"
 msgstr "Frumrit"
 
-#: data.py:289
+#: data.py:240
 msgid "Version 0.2 released"
 msgstr "Útgáfa 0.2 gerð tiltæk"
 
-#: data.py:290
+#: data.py:241
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr ""
 
-#: data.py:296
+#: data.py:247
 msgid "Version 0.3 released"
 msgstr "Útgáfa 0.3 gerð tiltæk"
 
-#: data.py:297
+#: data.py:248
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -244,11 +244,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr ""
 
-#: data.py:305
+#: data.py:256
 msgid "Version 0.4 released"
 msgstr "Útgáfa 0.4 gerð tiltæk"
 
-#: data.py:306
+#: data.py:257
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -258,11 +258,11 @@ msgid ""
 "the time."
 msgstr ""
 
-#: data.py:315
+#: data.py:266
 msgid "Version 0.5 released"
 msgstr "Útgáfa 0.5 gerð tiltæk"
 
-#: data.py:316
+#: data.py:267
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -280,11 +280,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:332
+#: data.py:283
 msgid "Version 0.6 released"
 msgstr "Útgáfa 0.6 gerð tiltæk"
 
-#: data.py:333
+#: data.py:284
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -298,11 +298,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:345
+#: data.py:296
 msgid "Version 0.7 released"
 msgstr "Útgáfa 0.7 gerð tiltæk"
 
-#: data.py:346
+#: data.py:297
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -318,11 +318,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:360
+#: data.py:311
 msgid "Version 1.0 released"
 msgstr "Útgáfa 1.0 gerð tiltæk"
 
-#: data.py:361
+#: data.py:312
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -336,11 +336,11 @@ msgid ""
 " more information."
 msgstr ""
 
-#: data.py:373
+#: data.py:324
 msgid "Version 1.1 released"
 msgstr "Útgáfa 1.1 gerð tiltæk"
 
-#: data.py:374
+#: data.py:325
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -354,11 +354,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:387
+#: data.py:338
 msgid "Version 1.2 released"
 msgstr "Útgáfa 1.2 gerð tiltæk"
 
-#: data.py:388
+#: data.py:339
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -374,6 +374,31 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
+msgstr ""
+
+#: data.py:354
+msgid "Version 1.3 released"
+msgstr ""
+
+#: data.py:355
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"accessing your music in Vk.com and Seafile.See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
+"information."
+msgstr ""
+
+#: data.py:364
+msgid "Version 1.3.1 released"
+msgstr ""
+
+#: data.py:365
+msgid ""
+"Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr ""
 
 #: downloads.html:7

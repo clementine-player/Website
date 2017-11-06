@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 15:44+0100\n"
-"PO-Revision-Date: 2017-09-19 12:24+0000\n"
-"Last-Translator: zhangmin <zm1990s@gmail.com>\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"PO-Revision-Date: 2017-10-30 10:16+0000\n"
+"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/davidsansome/clementine/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,45 +33,45 @@ msgstr "使用安卓手机远程控制 Clementine"
 msgid "Clementine Music Player"
 msgstr "Clementine 音乐播放器"
 
-#: base.html:54
+#: base.html:51
 msgid "About"
 msgstr "关于"
 
-#: base.html:55 downloads.html:2
+#: base.html:52 downloads.html:2
 msgid "Downloads"
 msgstr "下载"
 
-#: base.html:56 main.html:92 screenshots.html:2
+#: base.html:53 main.html:92 screenshots.html:2
 msgid "Screenshots"
 msgstr "截图"
 
-#: base.html:57 participate.html:2
+#: base.html:54 participate.html:2
 msgid "Participate"
 msgstr "参与"
 
-#: base.html:61
+#: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "受 Amarok 1.4 启发的跨平台音乐播放器"
 
-#: base.html:86
+#: base.html:83
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine 是一款遵循 GPL v3 协议的免费软件，本网站采用 CC-BY-SA 许可。"
 
-#: base.html:87
+#: base.html:84
 msgid "Development by"
 msgstr "开发者是"
 
-#: base.html:88 main.html:21 main.html.py:28
+#: base.html:85 main.html:21 main.html.py:28
 msgid "and"
 msgstr "与"
 
-#: base.html:90
+#: base.html:87
 msgid "Website by"
 msgstr "网站设计"
 
-#: base.html:93 privacy.html:3 privacy.html.py:10
+#: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
 msgstr "隐私策略"
 
@@ -216,30 +216,30 @@ msgstr "支持 Last.fm"
 msgid "Growl notifications on Mac OS X"
 msgstr " Mac OS X 的 Growl 提示"
 
-#: data.py:203
+#: data.py:133
 msgid "Source code"
 msgstr "源代码"
 
-#: data.py:231
+#: data.py:168
 msgid "Source"
 msgstr "来源"
 
-#: data.py:289
+#: data.py:240
 msgid "Version 0.2 released"
 msgstr "发布 0.2 版本"
 
-#: data.py:290
+#: data.py:241
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "在距离我们发布首个 Clementine 版本一个月后，此次更新支持专辑封面、更智能的“群星”识别，支持载入播放列表以及更多。"
 
-#: data.py:296
+#: data.py:247
 msgid "Version 0.3 released"
 msgstr "发布 0.3 版本"
 
-#: data.py:297
+#: data.py:248
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -247,11 +247,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "这个更新我们把所有平台都切换到GStreamer，这意味着不同音轨之间的 analyzer 和 crossfading 能够在 Windows 下工作。新特性包括一个均衡器、更多的库分组选项、良好的OSD、通过命令行远程控制和 MPRIS，以及更加简便地编辑标签。"
 
-#: data.py:305
+#: data.py:256
 msgid "Version 0.4 released"
 msgstr "发布 0.4 版本"
 
-#: data.py:306
+#: data.py:257
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -261,11 +261,11 @@ msgid ""
 "the time."
 msgstr "此次更新的新特性包括播放列表标签、播放列表查找、projectM的可视化效果、整合Magnatune、回放增益时音量正常化以及音频转码。我们也修复了大量的漏洞 — 现在搜索更大的库的速度快了一些，Windows下的回放更加可靠，字符编码的问题也被修复，还有远程播放列表现在能够正常读取了。"
 
-#: data.py:315
+#: data.py:266
 msgid "Version 0.5 released"
 msgstr "发布 0.5 版本"
 
-#: data.py:316
+#: data.py:267
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -283,11 +283,11 @@ msgid ""
 "information."
 msgstr "此次更新增强了 Clementine 对移动设备的支持。  您现在可以复制音乐到您的 iPod、iPhone、MTP 或者 大容量的USB设备。  更多详情请 <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">查阅 wiki 以获取信息</a>。  而且现在可以使用 <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii 遥控器</a> 来控制 Clementine。  其它的新特性包括队列管理器、整理文件对话框、播放列表自动调整栅格、读取内嵌的 id3v2 专辑封面、更多的媒体库扫描选项、不同播放列表的拖拽操作、和一个 hypnotoad。  而且我们也减少了启动时间、修正了诸多内存泄露以及降低了播放音乐时的 CPU 占用率。详见<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">完整的更新日志</a>。"
 
-#: data.py:332
+#: data.py:283
 msgid "Version 0.6 released"
 msgstr "发布 0.6 版本"
 
-#: data.py:333
+#: data.py:284
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -301,11 +301,11 @@ msgid ""
 "information."
 msgstr "此次更新带来了两个新的信息面板：用来显示歌词、歌曲统计、艺人介绍、照片、标签列表；以及显示相似艺人。  我们也重新设计了侧边栏(当然您也可以通过右击切换回去)，并且添加了评分、播放统计和跳过统计。  您可以为媒体库中的音乐创建一个智能的动态列表，收听来自 <a href=\"http://www.jamendo.com/\">Jamendo</a> 和 Icecast 的电台。详见<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">完整的更新日志</a>。"
 
-#: data.py:345
+#: data.py:296
 msgid "Version 0.7 released"
 msgstr "发布 0.7 版本"
 
-#: data.py:346
+#: data.py:297
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -321,11 +321,11 @@ msgid ""
 "information."
 msgstr "此次更新 Clementine 新增一个能够自动识别音乐并且从 MusicBrainz 上获取缺失标签的全新标签编辑器。  现在已经支持 CUE sheets —— 它能够在扫描媒体库时自动把每个音轨单独罗列出来。  我们也做了很多小的改进比如在媒体库标签中显示专辑封面、已经被删除的歌曲会变成灰色、“在文件浏览器中显示”选项、支持网络代理、“重新扫描媒体库”选项、以及新的进度栏提示，您可以通过此功能更精确地了解歌曲的时间轴。详见<a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">完整的更新日志</a>。"
 
-#: data.py:360
+#: data.py:311
 msgid "Version 1.0 released"
 msgstr "发布 1.0 版本"
 
-#: data.py:361
+#: data.py:312
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -339,11 +339,11 @@ msgid ""
 " more information."
 msgstr "本版加入 <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> 及 <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">数字化导入</a> 支持。 同时新增全局搜索功能，允许您方便地在本地和互联网上搜索音乐。其它功能包括音乐 CD 支持，更多的转码选项，改进后的设置对话框，更智能的专辑封面搜索，以及一堆错误修正。详见 <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">完整的更新日志</a> 。"
 
-#: data.py:373
+#: data.py:324
 msgid "Version 1.1 released"
 msgstr "发布 1.1 版本"
 
-#: data.py:374
+#: data.py:325
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -357,11 +357,11 @@ msgid ""
 "information."
 msgstr "本版新增期待已久的 Podcast 博客支持，及与 <a href=\"//gpodder.net\">gpodder.net</a> 的整合与同步。<a href=\"http://soundcloud.com/\">Soundcloud</a> 及 <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>，及您上传到 <a href=\"http://drive.google.com/start\">Google Drive</a>中的音乐，现在可以从侧边栏的网络标签中访问。Clementine 现在支持为本地光盘中的音乐显示心情指示。详见<a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">完整的更新日志</a>。"
 
-#: data.py:387
+#: data.py:338
 msgid "Version 1.2 released"
 msgstr "发布 1.2 版本"
 
-#: data.py:388
+#: data.py:339
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -378,6 +378,31 @@ msgid ""
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
 msgstr "这个版本兼容<a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">安卓版 Clementine 远程应用</a>，允许你通过安卓设备远程控制 Clementine。<br/>这个版本也新增 Subsonic 支持。你可以听<a href=\"https://www.box.com/\">Box</a>，<a href=\"https://www.dropbox.com/\">Dropbox</a>，<a href=\"https://skydrive.live.com/\">Skydrive</a>和<a href=\"https://one.ubuntu.com/\">Ubuntu One</a>中的音乐。最新也是最重要的功能是：为播放列表“加星”，这样你可以随意关掉播放列表，稍后从软件左侧的新“播放列表”标签中恢复它们。<br/>详见<a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">完整的更新日志</a> 。"
+
+#: data.py:354
+msgid "Version 1.3 released"
+msgstr ""
+
+#: data.py:355
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"accessing your music in Vk.com and Seafile.See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
+"information."
+msgstr ""
+
+#: data.py:364
+msgid "Version 1.3.1 released"
+msgstr ""
+
+#: data.py:365
+msgid ""
+"Fixes a bug where ratings are deleted when upgrading from older versions."
+msgstr ""
 
 #: downloads.html:7
 msgid "Latest downloads"
