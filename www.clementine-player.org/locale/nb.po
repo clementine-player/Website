@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2016
+# Allan Nordhøy <epost@anotheragency.no>, 2016-2017
 # Harald H. <haarektrans@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2017-11-11 22:55+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/davidsansome/clementine/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -379,7 +379,7 @@ msgstr "Denne versjonen er kompatibel med <a href=\"https://play.google.com/stor
 
 #: data.py:354
 msgid "Version 1.3 released"
-msgstr ""
+msgstr "Versjon 1.3 utgitt"
 
 #: data.py:355
 msgid ""
@@ -391,16 +391,16 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Denne versjonen er kompatibel med <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine-fjernkontrollprogram for Android</a> hvorfra du kan kontrollere Clementine fra en Android-enhet.<br/>Denne legger også til støtte for tilgang til din musikk i Vk.com og Seafile. Sjekk <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">hele endringsloggen</a> for mer informasjon."
 
 #: data.py:364
 msgid "Version 1.3.1 released"
-msgstr ""
+msgstr "Versjon 1.3.1 utgitt"
 
 #: data.py:365
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr ""
+msgstr "Fikser en feil der vurderinger blir slettet ved oppgradering fra gamle versjoner."
 
 #: downloads.html:7
 msgid "Latest downloads"
