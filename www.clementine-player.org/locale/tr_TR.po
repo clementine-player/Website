@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Adem Çalışkan <ademcal@yahoo.com>, 2017
 # devingregory <devingregory@yandex.com>, 2012
 # devingregory <devingregory@yandex.com>, 2012
 # Faruk Uzun <>, 2012
@@ -26,8 +27,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2017-11-13 14:51+0000\n"
+"Last-Translator: Adem Çalışkan <ademcal@yahoo.com>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/davidsansome/clementine/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,7 +153,7 @@ msgstr "Otomatik tamamlamalı yeni etiket düzenleyici"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Mac OS X'deki parça kaydırıcı araç ipucu"
+msgstr "MacOS'deki parça kaydırıcı araç ipucu"
 
 #: data.py:32
 msgid "Artist photos and biographies"
@@ -184,7 +185,7 @@ msgstr "Ubu üzerine Clementine 0,5 ... Hypnotoad TÜM GLORY"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Mac OS X üzerinde Clementine 0.5"
+msgstr "MacOS üzerinde Clementine 0.5"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
@@ -200,7 +201,7 @@ msgstr "projectM ile Clementine 0.4 görselleştirmeleri"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Mac OS X üzerinde Clementine 0.4"
+msgstr "MacOS üzerinde Clementine 0.4"
 
 #: data.py:50
 msgid "Last.fm tag radio"
@@ -216,7 +217,7 @@ msgstr "Windows'da etiket düzenleyicisi"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr "Mac OS X'de kapak yöneticisi"
+msgstr "MacOS'de kapak yöneticisi"
 
 #: data.py:56
 msgid "Playback on Linux"
@@ -228,7 +229,7 @@ msgstr "Last.fm desteği"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr "Mac OS X üzerinde Growl bildirimleri"
+msgstr "MacOS üzerinde Growl bildirimleri"
 
 #: data.py:133
 msgid "Source code"
@@ -240,7 +241,7 @@ msgstr "Kaynak"
 
 #: data.py:240
 msgid "Version 0.2 released"
-msgstr "0.2 sürümü yayınlandı"
+msgstr "Sürüm 0.2 yayınlandı"
 
 #: data.py:241
 msgid ""
@@ -251,7 +252,7 @@ msgstr "Clementine'in ilk sürümünün yayınlanmasın üzerinden sadece bir ay
 
 #: data.py:247
 msgid "Version 0.3 released"
-msgstr "0.3 sürümü yayınlandı"
+msgstr "Sürüm 0.3 yayınlandı"
 
 #: data.py:248
 msgid ""
@@ -263,7 +264,7 @@ msgstr "Bu sürümde parçalar arasındaki analizörü ve çapraz geçiş artık
 
 #: data.py:256
 msgid "Version 0.4 released"
-msgstr "0.4 sürümü yayınlandı"
+msgstr "Sürüm 0.4 yayınlandı"
 
 #: data.py:257
 msgid ""
@@ -277,7 +278,7 @@ msgstr "Bu sürümde sekmeli çalma, çalma listesi arama, projectM görselleşt
 
 #: data.py:266
 msgid "Version 0.5 released"
-msgstr "0.5 sürümü yayınlandı"
+msgstr "Sürüm 0.5 yayınlandı"
 
 #: data.py:267
 msgid ""
@@ -299,7 +300,7 @@ msgstr "Bu sürümde Clementine ile taşınabilir cihazlarda kullanmak için des
 
 #: data.py:283
 msgid "Version 0.6 released"
-msgstr "0.6 sürümü yayınlandı"
+msgstr "Sürüm 0.6 yayınlandı"
 
 #: data.py:284
 msgid ""
@@ -317,7 +318,7 @@ msgstr "Bu sürümde sözleri, şarkı istatistikler, sanatçı biyografileri, f
 
 #: data.py:296
 msgid "Version 0.7 released"
-msgstr "0.7 sürümü yayınlandı"
+msgstr "Sürüm 0.7 yayınlandı"
 
 #: data.py:297
 msgid ""
@@ -373,7 +374,7 @@ msgstr "Bu sürüm uzun zamandır beklenen, <a href=\"//gpodder.net\">gpodder.ne
 
 #: data.py:338
 msgid "Version 1.2 released"
-msgstr "1.2 sürümü yayınlandı"
+msgstr "Sürüm 1.2 yayınlandı"
 
 #: data.py:339
 msgid ""
@@ -395,7 +396,7 @@ msgstr "Bu sürüm Clementine'i bir Android cihazdan uzaktan yönetmenize izin v
 
 #: data.py:354
 msgid "Version 1.3 released"
-msgstr ""
+msgstr "Sürüm 1.3 yayınlandı"
 
 #: data.py:355
 msgid ""
@@ -407,16 +408,16 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürüm <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\"> Android için Clementine Remote uygulamasıyla uyumludur</a> Clementine'ı bir Android cihazından uzaktan kontrol etmenizi sağlar.<br/>Bu sürüm aynı zamanda Vk.com ve Seafile'deki müziklerinize erişebilmenizi de destekler.Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">tüm değişiklikleri</a> görün."
 
 #: data.py:364
 msgid "Version 1.3.1 released"
-msgstr ""
+msgstr "Sürüm 1.3.1 yayınlandı"
 
 #: data.py:365
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr ""
+msgstr "Eski sürümlerden yüksetilirken derecelendirmelerin silinmesi bir hatasını düzeltir."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -511,7 +512,7 @@ msgstr "Eğer kendiniz geliştirme sürümünden derlemeyi tercih etmiyorsanız 
 
 #: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
-msgstr "Mac OS X geliştirme inşaları"
+msgstr "MacOS geliştirme inşaları"
 
 #: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
@@ -603,12 +604,12 @@ msgstr "Eksik albüm kapağını Last.fm ve Amazon üzerinden indirin."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Bir çok sistemi destekler - Windows, Mac OS X ve Linux üzerinde çalışır."
+msgstr "Bir çok sistemi destekler - Windows, MacOS ve Linux üzerinde çalışır."
 
 #: main.html:43
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Linux (libnotify) ve Mac OS X (Growl) üzerinde yerel masaüstü bildirimleri."
+msgstr "Linux (libnotify) ve MacOS (Growl) üzerinde yerel masaüstü bildirimleri."
 
 #: main.html:44
 msgid "Remote control using an"
@@ -628,7 +629,7 @@ msgstr "MPRIS veya komut satırı ile uzaktan denetim."
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr "Müziğinizi"
+msgstr "Cihazınıza müzik kopyalayın"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
@@ -648,13 +649,13 @@ msgstr "Clementine birden fazla platform üzerinde çalışan bir müzik çalard
 
 #: main.html:57
 msgid "It is inspired by"
-msgstr " "
+msgstr "Yazılımından esinlenildi"
 
 #: main.html:58
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "yazılımından esinlenmiştir ve müziğinizi aramak ve oynatmak için hızlı ve kolay kullanımlı bir arayüz olmasına odaklanılmaktadır."
+msgstr " müziğinizi aramak ve oynatmak için hızlı ve kolay kullanımlı bir arayüz olmasına odaklanılmaktadır."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
@@ -666,7 +667,7 @@ msgstr "Clementine'i indir"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
-msgstr "Windows, Mac OS X ve Linüx için"
+msgstr "Windows, MacOS ve Linux için"
 
 #: main.html:80
 msgid "Announcement"
@@ -744,7 +745,7 @@ msgstr "Hata takip edici"
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr "Arayüz çevirme"
+msgstr "Arayüzü tercüme etme"
 
 #: participate.html:48
 msgid ""
