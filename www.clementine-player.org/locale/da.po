@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-11-09 00:10+0000\n"
+"PO-Revision-Date: 2017-11-20 17:18+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/davidsansome/clementine/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr "Kontroller Clementine fra din Androidtelefon"
+msgstr "Fjernstyr Clementine fra din Androidtelefon"
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -53,7 +53,7 @@ msgstr "Deltag"
 
 #: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "En multiplatform musikafspiller, inspireret af Amarok 1.4"
+msgstr "En musikafspiller til flere platforme, inspireret af Amarok 1.4"
 
 #: base.html:83
 msgid ""
@@ -88,11 +88,11 @@ msgstr "Subsonic-integration"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr "Løb igennem afspilningsliste fra Androidprogrammet"
+msgstr "Gemmense afspilningsliste fra Android-appen"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
-msgstr "Kontroller afspilning fra Androidprogrammet"
+msgstr "Styr afspilning fra Android-appen"
 
 #: data.py:14
 msgid "Podcasts"
@@ -128,7 +128,7 @@ msgstr "Grooveshark-integration"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
-msgstr "Værktøjsfif for sangtekster og nummerskyder"
+msgstr "Værktøjstip for sangtekster og nummerskyder"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
@@ -140,7 +140,7 @@ msgstr "Nyt mærkeredigeringsprogram med automatisk fuldførelse"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Værktøjsfif for nummerskyder på Mac OS X"
+msgstr "Værktøjstip for nummerskyder i Mac OS X"
 
 #: data.py:32
 msgid "Artist photos and biographies"
@@ -168,19 +168,19 @@ msgstr "Kopierer musik til iPod i Ubuntu"
 
 #: data.py:40
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 på Ubu.. AL ÆRE TIL HYPNOTUDSEN"
+msgstr "Clementine 0.5 i Ubu.. AL ÆRE TIL HYPNOTUDSEN"
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr "Clementine 0.5 på Mac OS X"
+msgstr "Clementine 0.5 i Mac OS X"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr "Clementine 0.4 på Ubuntu"
+msgstr "Clementine 0.4 i Ubuntu"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr "Clementine 0.4 på Windows 7"
+msgstr "Clementine 0.4 i Windows 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
@@ -188,7 +188,7 @@ msgstr "Clementine 0.4 visualiseringer med projectM"
 
 #: data.py:47
 msgid "Clementine 0.4 on Mac OS X"
-msgstr "Clementine 0.4 på Mac OS X"
+msgstr "Clementine 0.4 i Mac OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
@@ -200,15 +200,15 @@ msgstr "Søger i biblioteket"
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr "Mærkeredigeringsprogrammet på Windows"
+msgstr "Mærkeredigeringsprogrammet i Windows"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
-msgstr "Omslagshåndteringen på Mac OS X"
+msgstr "Omslagshåndteringen i Mac OS X"
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr "Afspil under Linux"
+msgstr "Afspilning i Linux"
 
 #: data.py:57
 msgid "Last.fm support"
@@ -216,7 +216,7 @@ msgstr "Understøttelse af Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr "Growlpåmindelser på Mac OS X"
+msgstr "Growlpåmindelser i Mac OS X"
 
 #: data.py:133
 msgid "Source code"
@@ -321,7 +321,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr "I denne udgivelse får Clementine en helt ny dialog til redigering af mærker med automatisk fuldførelse og mulighed for automatisk at identificere musik og hente manglende mærker fra MusicBrainz. CUE-ark er nu understøttet - de registreres automatisk under skanning af dit bibliotek og hvert nummer vil bilve vist separat. Vi har lavet en masse mindre forbedringer samt visning af albumomslag i biblioteksfanebladet, slettede sange får en grå farve, en indstilling for »Vis i filbrowser«, understøttelse for netværksproxyer, en indstilling for »Fuld skanning af biblioteket på ny« og et nyt værktøjsfif for nummerskyderen, som hjælper dig med at søge mere præcist til et specifikt sted i en sang. Se <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">den fulde ændringslog</a> for yderligere information."
+msgstr "I denne udgivelse får Clementine en helt ny dialog til redigering af mærker med automatisk fuldførelse og mulighed for automatisk at identificere musik og hente manglende mærker fra MusicBrainz. CUE-ark er nu understøttet - de registreres automatisk under skanning af dit bibliotek og hvert nummer vil bilve vist separat. Vi har lavet en masse mindre forbedringer samt visning af albumomslag i biblioteksfanebladet, slettede sange får en grå farve, en indstilling for »Vis i filbrowser«, understøttelse for netværksproxyer, en indstilling for »Fuld skanning af biblioteket på ny« og et nyt værktøjstip for nummerskyderen, som hjælper dig med at søge mere præcist til et specifikt sted i en sang. Se <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">den fulde ændringslog</a> for yderligere information."
 
 #: data.py:311
 msgid "Version 1.0 released"
@@ -459,11 +459,11 @@ msgstr "Hvis du ikke kan se din distribution ovenfor, så har nogen andre måske
 
 #: downloads.html:87
 msgid "Compiling from source"
-msgstr "Oversæt fra kildekode"
+msgstr "Kompilering fra kildekode"
 
 #: downloads.html:89
 msgid "Compiling Clementine from source is easy on Linux."
-msgstr "Oversæt Clementine fra kildekode er let et gøre under Linux."
+msgstr "Kompilering af Clementine fra kildekode er let i Linux."
 
 #: downloads.html:90
 msgid ""
@@ -531,7 +531,7 @@ msgstr "Version"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Om &amp;-funktioner"
+msgstr "Om og funktioner"
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -632,7 +632,7 @@ msgstr "er en moderne musikafspiller og musikbibliotekorganisator"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine er en multiplatformmusikafspiller."
+msgstr "Clementine er en musikafspiller til flere platforme."
 
 #: main.html:57
 msgid "It is inspired by"
@@ -642,7 +642,7 @@ msgstr "Det er inspireret af"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "fokuserer på en hurtig og nemt grænseflade for søgning og afspilning af din musik."
+msgstr "med fokus på en hurtig og let anvendelig grænseflade til søgning og afspilning af din musik."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"

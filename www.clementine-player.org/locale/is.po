@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2017-11-23 13:44+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +54,7 @@ msgstr "Fjölkerfa tónlistarspilari innblásinn af Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr ""
+msgstr "Clementine er frjáls hugbúnaður, gefinn út með GPL v3 notkunarleyfi. Þetta vefsvæði er gefið út með CC-BY-SA notkunarskilmálum."
 
 #: base.html:84
 msgid "Development by"
@@ -75,15 +75,15 @@ msgstr "Meðferð persónuupplýsinga"
 #: data.py:8
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
-msgstr ""
+msgstr "Spilunarlistaflipi, á meðan hlustað er á lög frá mörgum internetþjónustum"
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr ""
+msgstr "Samtvinnun við Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
-msgstr "Vafra um spilunarlista úr Android-forritinu"
+msgstr "Vafrað um spilunarlista úr Android-forritinu"
 
 #: data.py:11
 msgid "Controlling playback from the Android app"
@@ -111,23 +111,23 @@ msgstr "Stillingar umkóðunar"
 
 #: data.py:21
 msgid "Global search finding albums on Spotify"
-msgstr ""
+msgstr "Víðvær leit finnur hljómplötur á Spotify"
 
 #: data.py:22
 msgid "Global search options"
-msgstr ""
+msgstr "Valkostir víðværrar leitar"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr ""
+msgstr "Samtvinnun Grooveshark"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
-msgstr ""
+msgstr "Lagatextar og ábending á tímasleða"
 
 #: data.py:27
 msgid "MusicBrainz fixing untagged files"
-msgstr ""
+msgstr "MusicBrainz lagar ómerktar skrár"
 
 #: data.py:28
 msgid "New tag editor with autocompletion"
@@ -135,7 +135,7 @@ msgstr "Nýr merkjaritill með sjálfvirkri útfyllingu"
 
 #: data.py:29
 msgid "Track slider tooltip on Mac OS X"
-msgstr ""
+msgstr "Ábending á tímasleða í Mac OS X"
 
 #: data.py:32
 msgid "Artist photos and biographies"
@@ -187,7 +187,7 @@ msgstr "Clementine 0.4 á Mac OS X"
 
 #: data.py:50
 msgid "Last.fm tag radio"
-msgstr ""
+msgstr "Last.fm útvarp með merkimiðum"
 
 #: data.py:51
 msgid "Searching the library"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: data.py:354
 msgid "Version 1.3 released"
-msgstr ""
+msgstr "Útgáfa 1.3 gerð tiltæk"
 
 #: data.py:355
 msgid ""
@@ -394,7 +394,7 @@ msgstr ""
 
 #: data.py:364
 msgid "Version 1.3.1 released"
-msgstr ""
+msgstr "Útgáfa 1.3.1 gerð tiltæk"
 
 #: data.py:365
 msgid ""
@@ -432,7 +432,7 @@ msgid ""
 "New versions of Clementine require GStreamer 1.0 which wasn't included in "
 "Ubuntu 12.04.  If you get errors installing Clementine you should add the "
 "GStreamer PPA as well:"
-msgstr ""
+msgstr "Nýrri útgáfur Clementine krefjast GStreamer 1.0 sem ekki var innifalið í Ubuntu 12.04.  Ef þú rekst á villur við uppsetningu Clementine ættirðu kannski að bæta einnig við GStreamer PPA-safninu:"
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
@@ -468,11 +468,11 @@ msgstr ""
 
 #: downloads.html:99
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "Allar leiðbeiningar og listi yfir kerfiskröfur"
 
 #: downloads.html:103
 msgid "Bleeding edge packages"
-msgstr ""
+msgstr "Pakkar sem eru alveg á mörkunum"
 
 #: downloads.html:105 participate.html:57
 msgid "Development on Clementine happens in"
@@ -484,7 +484,7 @@ msgstr "git-gagnasafninu"
 
 #: downloads.html:108 participate.html:60
 msgid "Check out the code by running:"
-msgstr ""
+msgstr "Skrifaðu út kóðann með því að keyra:"
 
 #: downloads.html:112 participate.html:70
 msgid ""
@@ -494,27 +494,27 @@ msgstr ""
 
 #: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
-msgstr ""
+msgstr "Mac OS X þróunareintök"
 
 #: downloads.html:119 participate.html:77
 msgid "Ubuntu Precise (12.04) development builds"
-msgstr ""
+msgstr "Ubuntu Precise (12.04) þróunareintök"
 
 #: downloads.html:121 participate.html:79
 msgid "Ubuntu Trusty (14.04) development builds"
-msgstr ""
+msgstr "Ubuntu Trusty (14.04) þróunareintök"
 
 #: downloads.html:123 participate.html:81
 msgid "Windows development builds"
-msgstr ""
+msgstr "Windows þróunareintök"
 
 #: downloads.html:125 participate.html:83
 msgid "Buildbot"
-msgstr ""
+msgstr "Buildbot"
 
 #: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr ""
+msgstr "Einnig er til Ubuntu PPA-safn fyrir þessi þróunareintök:"
 
 #: downloads.html:136
 msgid "Old downloads"
@@ -526,27 +526,27 @@ msgstr "Útgáfa"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr ""
+msgstr "Um hugbúnaðinn og eiginleika hans"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "Leitaðu og spilaðu úr safni á tölvunni."
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr ""
+msgstr "Hlustaðu á netútvarp frá"
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "Leitaðu að og spilaðu lög sem þú hefur sent inn á"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr ""
+msgstr "Útbúðu snjalla spilunarlista og breytilega spilunarlista"
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "Spilunarlistar í flipum, inn- og útflutningur M3U, XSPF, PLS og ASX."
 
 #: main.html:33
 msgid "CUE sheet support."
@@ -562,36 +562,36 @@ msgstr "Sjóngervingar frá"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr ""
+msgstr "Textar, myndir og æviágrip listamanna."
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr ""
+msgstr "Umkóða tónlist yfir í MP3, Ogg Vorbis, Ogg Speex, FLAC eða AAC."
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
+msgstr "Breyttu merkjum á MP3 og OGG skrám, skipulegðu tónlistarsafnið þitt."
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "Náðu í þau merki sem vantar frá MusicBrainz."
 
 #: main.html:40
 msgid "Discover and download Podcasts."
-msgstr ""
+msgstr "Uppgötvaðu og náðu í hlaðvörp (podcasts)."
 
 #: main.html:41
 msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr ""
+msgstr "Sæktu umslagsmyndir sem vantar inn á Last.fm og Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr ""
+msgstr "Fjölkerfa - virkar á Windows, Mac OS X og Linux."
 
 #: main.html:43
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr ""
+msgstr "Notar innbyggðar tilkynningar á skjáborði í Linux (libnotify) og Mac OS X (Growl)."
 
 #: main.html:44
 msgid "Remote control using an"
@@ -623,7 +623,7 @@ msgstr "Biðraðastjóri."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
-msgstr ""
+msgstr "er nútímalegur tónlistarspilari og skipulagningartól fyrir tónlistarsafnið"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
@@ -709,11 +709,11 @@ msgstr "Samstarf"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
-msgstr ""
+msgstr "Villutilkynningar og framlagning endurbóta"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr ""
+msgstr "Clementine notar GitHub fyrir þróunarvinnu og villuskráningu."
 
 #: participate.html:40
 msgid ""
@@ -747,7 +747,7 @@ msgstr "Þýðingar á Transifex"
 
 #: participate.html:55
 msgid "Hacking"
-msgstr ""
+msgstr "Fyrir hakkara/fiktara"
 
 #: participate.html:66
 msgid "How to compile Clementine from source"
