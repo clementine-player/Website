@@ -5,16 +5,17 @@
 # Translators:
 # orange2141 <ataraxia90@gmail.com>, 2014
 # 현구 임 <bradlim980@gmail.com>, 2012
-# 박정용 <kladess@gmail.com>, 2013
-# 박정용 <kladess@gmail.com>, 2014-2015
-# 박정용 <kladess@gmail.com>, 2013
+# 야생참치 <kladess@gmail.com>, 2013
+# 야생참치 <kladess@gmail.com>, 2014-2015
+# 야생참치 <kladess@gmail.com>, 2017
+# 야생참치 <kladess@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
+"PO-Revision-Date: 2017-11-28 04:34+0000\n"
+"Last-Translator: 야생참치 <kladess@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/davidsansome/clementine/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -260,7 +261,7 @@ msgid ""
 " is now much faster, playback is much more reliable on Windows, character "
 "encoding problems are fixed, and remote playlists should load correctly all "
 "the time."
-msgstr ""
+msgstr "이 릴리스에는 탭이 달린 재생 목록, 재생 목록 검색, 프로젝트 시각화, Magnatune 통합, ReplayGain 볼륨 정규화 및 음악 트랜스 코딩 기능이 있습니다. 대형 라이브러리 검색이 훨씬 빨라졌으며 Windows에서의 재생이 훨씬 안정적이며 문자 인코딩 문제가 수정되고 원격 재생 목록은 항상 올바르게로드되어야합니다."
 
 #: data.py:266
 msgid "Version 0.5 released"
@@ -282,7 +283,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "이 릴리스는 Clementine과 함께 휴대용 장치를 사용하기위한 지원을 추가합니다. 이제 노래를 iPod, iPhone, MTP 또는 USB 대용량 저장 장치에 복사 할 수 있습니다. <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">자세한 내용은 위키</a>를 참조하십시오. <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii 리모컨을 리모컨</a>으로 사용하기위한 지원이 추가되었습니다. 다른 기능으로는 대기열 관리자, 파일 구성 대화 상자, 재생 목록의 열 늘리기, 포함 된 id3v2 표지 아트로드, 더 많은 라이브러리 검색 옵션, 재생 목록 간 끌어서 놓기 및 최단로드가 있습니다. 또한 시작 시간을 절반 이상 줄이고 음악을 재생할 때 메모리 누수를 줄이고 CPU 사용을 줄였습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">전체 변경 로그</a>를 참조하십시오."
 
 #: data.py:283
 msgid "Version 0.6 released"
@@ -378,11 +379,11 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "이번 릴리스는 <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android 버전 Clementine 원격 </a>과 호환, Clementine을 Android에서 조작 할 수있게되었습니다. <br/> 또한 Subsonic에 대한 대응을 추가했습니다. <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a>, 그리고 <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>에 저장된 음악을 재생할 수있게되었습니다. 그리고 재생 목록에 '별'이 붙여지게 일단 닫아도 나중에 사이드 바에있는 '재생 목록'탭에서 복원 할 수있게되었습니다. <br/> 자세한 내용은  <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">변경 내역</a> 을 참조하십시오."
 
 #: data.py:354
 msgid "Version 1.3 released"
-msgstr ""
+msgstr "버전 1.3 배포"
 
 #: data.py:355
 msgid ""
@@ -398,12 +399,12 @@ msgstr ""
 
 #: data.py:364
 msgid "Version 1.3.1 released"
-msgstr ""
+msgstr "버전 1.3.1 배포"
 
 #: data.py:365
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr ""
+msgstr "이전 버전에서 업그레이드 할 때 등급이 삭제되는 버그를 수정합니다."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -454,7 +455,7 @@ msgstr "비공식 배포본"
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "위의 목록에 당신의 배포판이 없으면 다른 사람이 비공식 패키지를 만들었을수도 있습니다."
 
 #: downloads.html:87
 msgid "Compiling from source"
@@ -468,11 +469,11 @@ msgstr "소스로부터 Clementine을 컴파일 하는 것은 Linux에서 하는
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "위의 목록과 터미널 창에서 소스 코드 패키지를 다운로드하십시오."
 
 #: downloads.html:99
 msgid "Full instructions and list of dependencies"
-msgstr ""
+msgstr "전체 지침 및 종속성 목록"
 
 #: downloads.html:103
 msgid "Bleeding edge packages"
@@ -542,7 +543,7 @@ msgstr "인터넷 라디오 "
 
 #: main.html:24
 msgid "Search and play songs you've uploaded to"
-msgstr ""
+msgstr "업로드 한 음악 검색 및 재생"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
@@ -550,7 +551,7 @@ msgstr "똑똑한 재생목록과 다이나믹한 재생목록을 생성하기"
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr ""
+msgstr "탭 된 재생 목록과 M3U, XSPF, PLS, ASX 가져 오기 및 내보내기"
 
 #: main.html:33
 msgid "CUE sheet support."
@@ -574,11 +575,11 @@ msgstr "MP3, Ogg Vorbis, Ogg Speex, FLAC 그리고 AAC 로의 파일 변환"
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr ""
+msgstr "MP3 및 OGG 파일의 태그를 편집하고 음악을 구성합니다."
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr ""
+msgstr "MusicBrainz에서 누락 된 태그를 가져옵니다."
 
 #: main.html:40
 msgid "Discover and download Podcasts."
@@ -599,7 +600,7 @@ msgstr "Linux(libnotify)와 Mac OS X(Growl)에서 네이티브 데스크톱 "
 
 #: main.html:44
 msgid "Remote control using an"
-msgstr ""
+msgstr "원격 제어"
 
 #: main.html:44
 msgid "Android device"
@@ -691,7 +692,7 @@ msgstr "Freenode 의 채널로 오세요."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
+msgstr "우리는 다른 시간대에서 생활하고 있을지도 모르기 때문에 질문을 바로 볼수 없습니다. <b>질문 후 잠시 채팅에서 대기해야 할지도 모른다는 것</b>을 명심해야합니다."
 
 #: participate.html:25
 msgid "Forum"
@@ -701,7 +702,7 @@ msgstr "포럼"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
+msgstr "Clementine은 포럼, 메일링 목록 및 일반적인 논의를 위하여 Google 그룹스를 이용하고 있습니다."
 
 #: participate.html:30
 msgid "Support and discussion group"
@@ -743,7 +744,7 @@ msgstr "Clementine을 다른 언어로 번역하고 싶으시다면 Translfex �
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "Transifex 의 웹 인터페이스에서 직접 번역을하거나 .po 파일을 사이트에서 다운로드하여 번역 후 파일을 메일로 보내 주실 수 있습니다."
 
 #: participate.html:52
 msgid "Transifex translations"
@@ -765,7 +766,7 @@ msgstr "Android를 위한 리모콘 어플리케이션"
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Clementine원격은 다른 <a href=\"https://github.com/clementine-player/Android-Remote\">GitHub 저장소</a>에 호스팅되어있습니다."
 
 #: participate.html:95
 msgid ""
@@ -809,13 +810,13 @@ msgstr "스티커"
 #: participate.html:127
 #, python-format
 msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr ""
+msgstr "%(unixstickers)s에 멋진 Clementine 스티커가 있습니다."
 
 #: participate.html:128
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr ""
+msgstr "당신의 노트북을 커스터마이즈하여 좋아하는 뮤직 플레이어를 얼마나 사랑하는지 보여줄 수 있습니다."
 
 #: participate.html:131
 msgid "Donation"
@@ -826,19 +827,19 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "지금까지 우리는 자금을 필요로하지 않기 때문에 기부 접수는하지 않습니다. 만약이 소프트웨어를 좋아하는 우리의 지원을 해 주시는 경우, <a href=\"#social-networking\">소셜 네트워크</a>에서 이 소프트웨어를 전파해주세요."
 
 #: participate.html:133
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "<a href=\"#collaborate\">위에서 설명하였듯이 소프트웨어 개발에 참여하는 것</a>도 도움이 될 수 있습니다 ."
 
 #: participate.html:134
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "그러나 아직도 우리를 행복하게하기 위해 돈을 쓰고 싶다면 우리가 좋아하는 자선 단체 중 한 곳에 기부 할 수 있습니다."
 
 #: participate.html:134
 msgid "and let us know:"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-11-23 13:44+0000\n"
+"PO-Revision-Date: 2017-11-30 15:00+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -450,7 +450,7 @@ msgstr "Óopinberir pakkar"
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
-msgstr ""
+msgstr "Ef þú sérð ekki dreifinguna þína hér fyrir ofan, getur samt verið að einhver hafi útbúið óopinbera pakka sem þú getur notað."
 
 #: downloads.html:87
 msgid "Compiling from source"
@@ -464,7 +464,7 @@ msgstr "Að vistþýða Clementine úr frumkóða er einfalt á Linux."
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
-msgstr ""
+msgstr "Sæktu pakka með grunnkóðanum úr listanum hér fyrir ofan, opnaðu síðan skjáhermiglugga:"
 
 #: downloads.html:99
 msgid "Full instructions and list of dependencies"
@@ -490,7 +490,7 @@ msgstr "Skrifaðu út kóðann með því að keyra:"
 msgid ""
 "If you'd prefer not to compile the development version yourself then try one"
 " of the hourly packages:"
-msgstr ""
+msgstr "Ef þú kýst ekki að samstafla (vistþýða) þróunarútgáfuna sjálf(ur), geturðu prófað einhvern af klukkutíma-frestis-pökkunum:"
 
 #: downloads.html:117 participate.html:75
 msgid "Mac OS X development builds"
@@ -637,7 +637,7 @@ msgstr "Innblásinn af"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr ""
+msgstr "leggur áherslu á hraðvirkt og auðvelt notandaviðmót til leitar og afspilunar á tónlistinni þinni."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
@@ -687,7 +687,7 @@ msgstr "rásinni á Freenode."
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr ""
+msgstr "Mundu eftir að <b>vera á svæðinu í dálítinn tíma eftir að þú spyrð spurningar</b> - við gætum verið á öðrum tímabeltum eða annað að sýsla og því ekki séð spurninguna þína strax."
 
 #: participate.html:25
 msgid "Forum"
@@ -697,7 +697,7 @@ msgstr "Spjallsvæði"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr ""
+msgstr "Clementine notar Google Groups sem spjallsvæði/póstlista/almennan umræðuhóp."
 
 #: participate.html:30
 msgid "Support and discussion group"
@@ -719,7 +719,7 @@ msgstr "Clementine notar GitHub fyrir þróunarvinnu og villuskráningu."
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr ""
+msgstr "Ef þú finnur villu í Clementine, skaltu endilega fara í villuskráninguna (tracker) og búa til nýja villutilkynningu."
 
 #: participate.html:43
 msgid "Issue tracker"
@@ -733,13 +733,13 @@ msgstr "Þýðing á notandaviðmóti"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "Ef þig langar til að þýða Clementine yfir á annað tungumál, geturðu gert það á þýðingasíðum Transifex."
 
 #: participate.html:49
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr ""
+msgstr "Þú getur hvort sem er þýtt beint í Transifex, eða náð í .po skrá af vefnum, þýtt hana og sent okkur hana í tölvupósti."
 
 #: participate.html:52
 msgid "Transifex translations"
@@ -761,20 +761,20 @@ msgstr "Fjartengt forrit fyrir Android"
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr ""
+msgstr "Clementine Remote fjarstýringin er hýst í <a href=\"https://github.com/clementine-player/Android-Remote\">öðru GitHub-kóðasafni</a>."
 
 #: participate.html:95
 msgid ""
 "You can report issues and propose patches on <a href=\"https://github.com"
 "/clementine-player/Android-Remote/issues\">its bug tracker</a>."
-msgstr ""
+msgstr "Þú getur tilkynnt um vandamál og boðið fram plástra þar í <a href=\"https://github.com/clementine-player/Android-Remote/issues\">villuskrásetjaranum</a>."
 
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
 "Transifex project</a>."
-msgstr ""
+msgstr "Þú getur þýtt viðmótið í <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">þessu Transifex-verkefni</a>."
 
 #: participate.html:100
 msgid "Social Networking"
@@ -784,7 +784,7 @@ msgstr "Samfélagsmiðlar"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr ""
+msgstr "Okkur þætti vænt um ef þú styddir við Clementine á uppáhalds samfélagsmiðlunum þínum!"
 
 #: participate.html:106
 msgid "Clementine on Facebook"
@@ -822,23 +822,23 @@ msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
-msgstr ""
+msgstr "Eins og er þurfum við enga peninga og þess vegna þiggjum við enga fjárstyrki. Ef þér líkar við hugbúnaðinn okkar og vilt hjálpa okkur, þá skaltu endilega <a href=\"#social-networking\">sýna okkur stuðning</a> og láta orð út ganga."
 
 #: participate.html:133
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr ""
+msgstr "Þú getur líka hjálpað til með því að <a href=\"#collaborate\">taka þátt í þróun hugbúnaðarins, eins og útskýrt er hér fyrir ofan</a>."
 
 #: participate.html:134
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
-msgstr ""
+msgstr "En ef þú vilt endilega eyða einhverjum peningum og gera okkur ánægð í leiðinni, geturðu styrkt einhver þessara hjálparsamtaka"
 
 #: participate.html:134
 msgid "and let us know:"
-msgstr ""
+msgstr "og látið okkur vita af því:"
 
 #: participate.html:137
 msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
@@ -859,4 +859,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr ""
+msgstr "Clementine og forritararnir safna engum persónuauðkennanlegum upplýsingum. Gögnum á borð við veftölfræði er einungis safnað nafnlaust og eru órekjanleg. Upplýsingar á borð við notendanöfn, lykilorð og auðkenningarteikn fyrir netþjónustur sem tengjast Clementine eru aldrei sendar út fyrir viðkomandi tilvik Clementine forritsins."
