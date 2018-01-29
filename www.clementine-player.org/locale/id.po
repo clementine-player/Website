@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Hassan Aly <me@hasssan.com>, 2014
 # La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2014
@@ -16,14 +16,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"POT-Creation-Date: 2018-01-29 16:06+0000\n"
 "PO-Revision-Date: 2017-10-30 10:16+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/davidsansome/clementine/language/id/)\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: android-download.html:4
@@ -59,9 +59,7 @@ msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Pemutar musik lintas platform yang terinspirasi oleh Amarok 1.4"
 
 #: base.html:83
-msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
+msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
 msgstr "Clementine adalah Perangkat Lunak Bebas di bawah GPL v3. Situs ini berlisensi CC-BY-SA."
 
 #: base.html:84
@@ -81,8 +79,7 @@ msgid "Privacy Policy"
 msgstr "Kebijakan Privasi"
 
 #: data.py:8
-msgid ""
-"Playlist tab, while listening to songs from multiples Internet services"
+msgid "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "Tab daftar-putar, saat sedang mendengarkan lagu dari beberapa layanan Internet"
 
 #: data.py:9
@@ -234,10 +231,7 @@ msgid "Version 0.2 released"
 msgstr "Versi 0.2 dirilis"
 
 #: data.py:241
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
+msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
 msgstr "Sudah lebih dari satu bulan sejak kami merilis versi pertama dari Clementine. Versi baru ini menampilkan sampul album, pendeteksian \"Beragam Artis\" yang lebih baik, dukungan untuk memuat daftar-putar, dan banyak lagi."
 
 #: data.py:247
@@ -245,11 +239,7 @@ msgid "Version 0.3 released"
 msgstr "Versi 0.3 dirilis"
 
 #: data.py:248
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
+msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
 msgstr "Dalam rilis ini kami telah beralih ke GStreamer pada semua platform, yang berarti penganalisa dan crossfading antara trek akan bekerja pada Windows. Fitur baru termasuk ekualiser, lebih banyak opsi pengelompokan pustaka, OSD lebih bagus, pengendali jauh dari perintah-baris dan MPRIS, dan penyuntingan tag yang lebih mudah."
 
 #: data.py:256
@@ -257,13 +247,7 @@ msgid "Version 0.4 released"
 msgstr "Versi 0.4 dirilis"
 
 #: data.py:257
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
+msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
 msgstr "Rilis ini memperkenalkan fitur tab daftar-putar, pencarian daftar-putar, visualisasi projectM, integrasi Magnatune, normalisasi volume ReplayGain dan transcoding musik. Kami juga telah memperbaiki banyak kutu - mencari pustaka yang besar sekarang jauh lebih cepat, pemutaran jauh lebih andal pada Windows, masalah pengkodean karakter telah diperbaiki, dan daftar-putar jauh seharusnya dapat dimuat secara baik setiap waktu."
 
 #: data.py:266
@@ -271,21 +255,7 @@ msgid "Version 0.5 released"
 msgstr "Versi 0.5 dirilis"
 
 #: data.py:267
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Rilis ini menambahkan dukungan untuk menggunakan perangkat portabel dengan Clementine.  Sekarang Anda dapat menyalin lagu ke iPod, iPhone, MTP, atau perangkat USB penyimpan massal.  Lihat <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki untuk informasi lebih lanjut</a>.  Dukungan untuk menggunakan <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> sebagai pengendali jauh telah ditambahkan.  Fitur lain termasuk Pengelola Antrean, dialog Kelola Berkas, kolom peregangan otomatis di daftar-putar, memuat sampul ID3v2 tertanam, lebih banyak opsi pemindaian pustaka, seret dan jatuhkan antara daftar-putar, dan sebuah Hypnotoad.  Kami juga telah mengurangi waktu memulai lebih dari setengah, memperbaiki kebocoran memori dan mengurangi penggunaan CPU saat memutar musik. Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:283
@@ -293,17 +263,7 @@ msgid "Version 0.6 released"
 msgstr "Versi 0.6 dirilis"
 
 #: data.py:284
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Rilis ini memperkenalkan dua panel informasi baru yang menunjukkan lirik, statistik lagu, biografi artis, foto dan daftar tag dan artis yang sama.  Kami telah mendesain ulang bilah sisi (meskipun Anda dapat beralih kembali dengan mengklik kanan pada bilah tersebut), dan juga menambahkan peringkat, jumlah pemutaran dan jumlah lewatan.  Anda dapat membuat daftar-putar cerdas dan dinamis dari lagu di pustaka Anda, dan juga sekarang mendengarkan musik dari <a href=\"http://www.jamendo.com/\">Jamendo</a> dan stasiun radio Icecast . Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:296
@@ -311,19 +271,7 @@ msgid "Version 0.7 released"
 msgstr "Versi 0.7 dirilis"
 
 #: data.py:297
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Dalam rilis ini Clementine memiliki dialog sunting label yang baru dengan autocompletion dan kemampuan untuk secara otomatis mengidentifikasi musik dan mengambil tag yang hilang dari MusicBrainz.  Lembar CUE kini didukung - mereka terdeteksi secara otomatis ketika memindai pustaka Anda dan setiap lagu akan ditampilkan secara terpisah.  Kami telah membuat banyak perbaikan kecil seperti menampilkan sampul album di tab Pustaka, memudarkan lagu yang dihapus, opsi \"Tampilkan dalam peramban berkas\", dukungan untuk proksi jaringan, opsi \"Pemindaian ulang pustaka\", dan tip alat baru untuk penggeser trek yang membantu Anda lebih akurat menjangkau ke lokasi pada sebuah lagu. Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:311
@@ -331,17 +279,7 @@ msgid "Version 1.0 released"
 msgstr "Versi 1.0 dirilis"
 
 #: data.py:312
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Rilis ini menambahkan dukungan <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> dan <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  Kami juga telah menambahkan fitur Pencarian Global yang memungkinkan Anda dengan mudah menemukan musik yang ada di pustaka atau pun di Internet. Fitur lainnya termasuk dukungan CD audio, lebih banyak opsi transkoder, perbaikan dialog setelan, pencarian sampul album yang lebih cerdas, dan banyak perbaikan kutu. Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:324
@@ -349,17 +287,7 @@ msgid "Version 1.1 released"
 msgstr "Versi 1.1 dirilis"
 
 #: data.py:325
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "Rilis ini menambahkan dukungan Podcast yang telah lama ditunggu-tunggu termasuk integrasi and sinkronisasi dengan <a href=\"//gpodder.net\">gpodder.net</a>. Musik dari <a href=\"http://soundcloud.com/\">Soundcloud</a> dan <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> tersedia di tab Internet di bilah sisi, juga termasuk lagu yang Anda unggah ke <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine sekarang juga menampilkan moodbar untuk musik yang Anda putar dari penyimpanan lokal Anda. Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:338
@@ -367,21 +295,7 @@ msgid "Version 1.2 released"
 msgstr "Peluncuran versi 1.2"
 
 #: data.py:339
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
 msgstr "Rilis ini kompatibel dengan <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplikasi Clementine Remote untuk Android</a> yang memungkinkan Anda mengontrol Clementine jarak jauh dari perangkat Android.<br/>Rilis ini juga menambahkan dukungan untuk Subsonic. Dan sekarang Anda dapat mendengarkan musik Anda yang tersimpan di <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> dan <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Fitur penting terakhir adalah kemampuan untuk memberi tanda \"bintang\" daftar-putar Anda, sehingga Anda dapat dengan aman menutupnya dan mengembalikannya nanti dari tab \"Daftar-putar\" baru yang telah kami tambahkan di bilah sisi kiri.<br/>Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:354
@@ -389,15 +303,7 @@ msgid "Version 1.3 released"
 msgstr ""
 
 #: data.py:355
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"accessing your music in Vk.com and Seafile.See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for accessing your music in Vk.com and Seafile.See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">full changelog</a> for more information."
 msgstr ""
 
 #: data.py:364
@@ -405,8 +311,7 @@ msgid "Version 1.3.1 released"
 msgstr ""
 
 #: data.py:365
-msgid ""
-"Fixes a bug where ratings are deleted when upgrading from older versions."
+msgid "Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr ""
 
 #: downloads.html:7
@@ -426,9 +331,7 @@ msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
 #: downloads.html:56
-msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
+msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Anda dapat mengunduh versi terakhir Clementine untuk Ubuntu dari PPA resmi:"
 
 #: downloads.html:62
@@ -436,10 +339,7 @@ msgid "Dependencies for Ubuntu Precise (12.04)"
 msgstr "Ketergantungan untuk Ubuntu Precise (12.04)"
 
 #: downloads.html:63
-msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
 msgstr "Versi baru dari Clementine membutuhkan GStreamer 1.0 yang tidak termasuk dalam Ubuntu 12.04.  Jika Anda mendapatkan galat saat memasang Clementine Anda harus menambahkan PPA GStreamer juga:"
 
 #: downloads.html:68 downloads.html.py:83
@@ -455,9 +355,7 @@ msgid "Unofficial packages"
 msgstr "Paket tidak resmi"
 
 #: downloads.html:79
-msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
+msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Jika Anda tidak melihat senarai distribusi Anda di atas maka seseorang mungkin telah membuat paket tidak resmi untuk Anda."
 
 #: downloads.html:87
@@ -469,9 +367,7 @@ msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Mengompilasi Clementine dari sumber di Linux itu mudah."
 
 #: downloads.html:90
-msgid ""
-"Download the source code package from the list above, and in a terminal "
-"window:"
+msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Unduh paket kode sumber dari daftar di atas, dan dalam jendela terminal:"
 
 #: downloads.html:99
@@ -495,9 +391,7 @@ msgid "Check out the code by running:"
 msgstr "Cek kode dengan menjalankan:"
 
 #: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
+msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Jika Anda memilih untuk tidak mengompilasi versi pengembangan sendiri maka cobalah salah satu paket per jam:"
 
 #: downloads.html:117 participate.html:75
@@ -597,8 +491,7 @@ msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Lintas-Platfom - bekerja pada Windows, Mac OS X dan Linux."
 
 #: main.html:43
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Notifikasi desktop asli pada Linux (libnotify) dan Mac OS X (Growl)."
 
 #: main.html:44
@@ -642,9 +535,7 @@ msgid "It is inspired by"
 msgstr "Terinspirasi oleh"
 
 #: main.html:58
-msgid ""
-"focusing on a fast and easy-to-use interface for searching and playing your "
-"music."
+msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
 msgstr "berfokus pada antarmuka cepat dan mudah digunakan untuk mencari dan memutar musik Anda."
 
 #: main.html:65 main.html.py:74
@@ -692,9 +583,7 @@ msgid "channel on Freenode."
 msgstr "kanal di Freenode."
 
 #: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
+msgid "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away."
 msgstr "Mohon ingat untuk <b>tetap tinggal setelah mengajukan pertanyaan</b> - kita mungkin berada dalam zona waktu yang berbeda sehingga tidak segera melihat pertanyaan Anda."
 
 #: participate.html:25
@@ -702,9 +591,7 @@ msgid "Forum"
 msgstr "Forum"
 
 #: participate.html:27
-msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
+msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
 msgstr "Clementine menggunakan Google Groups untuk forum/milis/grup diskusi umum."
 
 #: participate.html:30
@@ -724,9 +611,7 @@ msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine menggunakan GitHub untuk pelacakan pengembangan dan masalah."
 
 #: participate.html:40
-msgid ""
-"If you have found a bug in Clementine, please head on over to the issue "
-"tracker and create a new issue."
+msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
 msgstr "Jika Anda telah menemukan sebuah kutu dalam Clementine, mohon kunjungi pelacak masalah dan buat laporan masalah baru."
 
 #: participate.html:43
@@ -738,15 +623,11 @@ msgid "Translating the interface"
 msgstr "Menerjemahkan antarmuka"
 
 #: participate.html:48
-msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
+msgid "If you'd like to translate Clementine into another language you can do so on the Transifex translations page."
 msgstr "Jika Anda ingin menerjemahkan Clementine ke dalam bahasa lain Anda dapat melakukannya pada halaman penerjemahan Transifex."
 
 #: participate.html:49
-msgid ""
-"You can either do the translation directly on Transifex, or download a .po "
-"file from the site and then email it back to us."
+msgid "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us."
 msgstr "Anda dapat menerjemahkan secara langsung pada Transifex, atau mengunduh berkas .po dari situs dan kemudian email kembali kepada kami."
 
 #: participate.html:52
@@ -766,22 +647,15 @@ msgid "Remote application for Android"
 msgstr "Aplikasi jarak jauh untuk Android"
 
 #: participate.html:94
-msgid ""
-"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
-"player/Android-Remote\">another GitHub repository</a>."
+msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine Remote tersedia di <a href=\"https://github.com/clementine-player/Android-Remote\">repositori GitHub yang lain</a>."
 
 #: participate.html:95
-msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Anda dapat melaporkan masalah dan mengusulkan patch di <a href=\"https://github.com/clementine-player/Android-Remote/issues\">pelacak kutu</a> aplikasi tersebut."
 
 #: participate.html:96
-msgid ""
-"You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
-"Transifex project</a>."
+msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "Anda dapat menerjemahkan antarmuka aplikasi di halaman <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">proyek Transifex ini</a>."
 
 #: participate.html:100
@@ -789,9 +663,7 @@ msgid "Social Networking"
 msgstr "Jejaring Sosial"
 
 #: participate.html:102
-msgid ""
-"We'd love to see you support Clementine by joining us on your favourite "
-"social networking site!"
+msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Kami ingin melihat Anda mendukung Clementine dengan bergabung bersama kami di situs jejaring sosial favorit Anda!"
 
 #: participate.html:106
@@ -816,9 +688,7 @@ msgid "You can find lovely Clementine stickers on %(unixstickers)s."
 msgstr "Anda dapat menemukan stiker keren Clementine di %(unixstickers)s."
 
 #: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
 msgstr "Mereka akan membuat laptop Anda menjadi keren dan juga menunjukkan betapa Anda menyukai pemutar musik favorit Anda!"
 
 #: participate.html:131
@@ -826,22 +696,15 @@ msgid "Donation"
 msgstr "Donasi"
 
 #: participate.html:132
-msgid ""
-"Currently, we do not need money and as so we do not accept money donation. "
-"If you like our software and want to help us, you can <a href=\"#social-"
-"networking\">support us</a> and spread the word."
+msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "Saat ini, kami tidak membutuhkan uang dan karena itu kami tidak menerima donasi uang. Jika Anda menyukai perangkat lunak kami dan ingin membantu kami, Anda dapat <a href=\"#social-networking\">mendukung kami</a> dan membantu menyebarkannya."
 
 #: participate.html:133
-msgid ""
-"You can also help by <a href=\"#collaborate\">participating to the software "
-"development, as explained above</a>."
+msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "Anda juga dapat membantu dengan <a href=\"#collaborate\">berpartisipasi dalam pengembangan perangkat lunak, seperti yang dijelaskan di atas</a>."
 
 #: participate.html:134
-msgid ""
-"But if you still want to spend some money to make us happy, you can make a "
-"donation to one of these charity organizations we like"
+msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "Tapi jika Anda masih ingin memberikan bantuan uang untuk membuat kami bahagia, Anda dapat menyumbangkannya kepada salah satu organisasi sosial yang kami sukai ini"
 
 #: participate.html:134
@@ -861,10 +724,5 @@ msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 
 #: privacy.html:14
-msgid ""
-"Clementine and its developers do not collect any personally identifiable "
-"information in any way. Data such as web service statistics are collected "
-"only on an anonymous basis. Information such as usernames, passwords and "
-"authentication tokens for online services provided to Clementine are never "
-"transmitted from that instance of Clementine."
+msgid "Clementine and its developers do not collect any personally identifiable information in any way. Data such as web service statistics are collected only on an anonymous basis. Information such as usernames, passwords and authentication tokens for online services provided to Clementine are never transmitted from that instance of Clementine."
 msgstr "Clementine dan para pengembangnya tidak mengumpulkan informasi identitas personal apapun dengan cara apapun. Data seperti statistik layanan web dikumpulkan hanya berdasar pada anonimitas. Informasi seperti nama pengguna, sandi, dan token otentikasi untuk layanan daring yang dimasukkan ke Clementine hanya digunakan secara luring, tidak akan pernah dikirimkan."

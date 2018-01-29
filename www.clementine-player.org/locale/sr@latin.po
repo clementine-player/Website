@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Mladen Pejaković <pejakm@autistici.org>, 2014
 # Mladen Pejaković <pejakm@autistici.org>, 2014-2015,2017
@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"POT-Creation-Date: 2018-01-29 16:06+0000\n"
 "PO-Revision-Date: 2017-11-03 22:52+0000\n"
 "Last-Translator: Mladen Pejaković <pejakm@autistici.org>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/davidsansome/clementine/language/sr%40latin/)\n"
+"Language: sr@latin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr@latin\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: android-download.html:4
@@ -52,9 +52,7 @@ msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Međuplatforski muzički plejer inspirisan Amarokom 1.4"
 
 #: base.html:83
-msgid ""
-"Clementine is Free Software under the GPL v3. This site is licensed under "
-"CC-BY-SA."
+msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
 msgstr "Klementina je slobodan softver pod GPL v3 licencom. Ovaj vebsajt je pod CC-BY-SA licencom."
 
 #: base.html:84
@@ -74,8 +72,7 @@ msgid "Privacy Policy"
 msgstr "Politika privatnosti"
 
 #: data.py:8
-msgid ""
-"Playlist tab, while listening to songs from multiples Internet services"
+msgid "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "Jezičak liste numera, slušanje pesama sa nekoliko internet servisa"
 
 #: data.py:9
@@ -227,10 +224,7 @@ msgid "Version 0.2 released"
 msgstr "Izdanje 0.2"
 
 #: data.py:241
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
+msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
 msgstr "Prošlo je jedva mesec dana kako smo objavili prvo izdanje Klementine. Ovo izdanje donosi omote albuma, bolje otkrivanje „Raznih izvođača“, podršku za učitavanje listi numera i još mnogo toga."
 
 #: data.py:247
@@ -238,11 +232,7 @@ msgid "Version 0.3 released"
 msgstr "Izdanje 0.3"
 
 #: data.py:248
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
+msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
 msgstr "U ovom izdanju prešli smo na Gstrimer na svim platformama, što znači da sada analizator i pretapanje između numera radi na Vindouzu. Nove mogućnosti su i ekvilajzer, više opcija za grupisanje biblioteke, lepši OSD, daljinska kontrola sa komandne linije i MPRIS, i lakše uređivanje oznaka."
 
 #: data.py:256
@@ -250,13 +240,7 @@ msgid "Version 0.4 released"
 msgstr "Izdanje 0.4"
 
 #: data.py:257
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
+msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
 msgstr "Ovo izdanje donosi liste numera sa jezičcima, pretragu listi numera, projektM vizuelizacije, integraciju u Magnatjun, normalizaciju jačine zvuka i prekodiranje muzike. Takođe smo ispravili mnogo grešaka — pretraga velikih biblioteka je sada mnogo brža, puštanje muzike je mnogo pouzdanije na Vindouzu, problemi sa kodiranjem znakova su ispravljeni i udaljene liste numera bi trebale uvek da se učitaju kako treba."
 
 #: data.py:266
@@ -264,21 +248,7 @@ msgid "Version 0.5 released"
 msgstr "Izdanje 0.5"
 
 #: data.py:267
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Ovo izdanje donosi podršku za korišćenje prenosivih uređaja u Klementini. Sada možete da kopirate pesme na vaš Ajpod, Ajfon, MTP ili USB skladišni uređaj. Pogledajte <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">viki za više informacija</a>.  Dodata je i podrška za korišćenje <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii daljinskog</a> kao daljinskog upravljača.  Ostali noviteti su menadžer redosleda, dijalog za organizovanje fajlova, automatsko razvlačenje kolona u listi numera, učitavanje ugrađenih id3v2 omota, još opcija za skeniranje biblioteke, prevuci-i-pusti između listi numera i Hipnožabac.  Takođe smo prepolovili vreme pokretanja, ispravili mnoštvo grešaka curenja memorije i smanjili CPU opterećenje tokom puštanja muzike. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:283
@@ -286,17 +256,7 @@ msgid "Version 0.6 released"
 msgstr "Izdanje 0.6"
 
 #: data.py:284
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "Ovo izdanje donosi dva nova okna podataka koji prikazuju stihove, statistike pesme, biografije izvođača, fotografije i spisak oznaka i sličnih izvođača. Redizajnirali smo bočnu traku (ali možete da vratite stari dizajn klikom na desni taster miša) i dodali ocene, broj puštanja i broj preskakanja pesme.  Možete da napraviti pametne i dinamičke liste numera od pesama u vašoj biblioteci, i takođe sada možete da slušate muziku sa <a href=\"http://www.jamendo.com/\">Džamendo</a> i Ajskast radio stanica. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:296
@@ -304,19 +264,7 @@ msgid "Version 0.7 released"
 msgstr "Izdanje 0.7"
 
 #: data.py:297
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
+msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
 msgstr "U ovom izdanju Klementina dobija potpuno novi dijalog za uređivanje oznaka sa automatskim završavanjem i mogućnošću da automatski identifikuje muziku i dobavi nedostajuće oznake sa Mjuzikbrejnz servisa.  CUE listovi su sada podržani — otkrivaju se automatski prilikom skeniranja vaše biblioteke i svaka numera će biti prikazana odvojeno.  Takođe smo napravili mnoštvo manjih poboljšanja kao što je prikaz omota albuma u jezičku biblioteke, označavanje obrisane pesme, opcija „Prikaži u pregledaču fajlova“, podrška za mrežne proksije, opcija „Ponovo skeniraj biblioteku“ i oblačić za klizač numere koji će vam pomoći da preciznije nađete određeni dio pesme. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:311
@@ -324,17 +272,7 @@ msgid "Version 1.0 released"
 msgstr "Izdanje 1.0"
 
 #: data.py:312
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
 msgstr "Ovo izdanje donosi podršku za <a href=\"http://www.spotify.com\">Spotifaj</a>, <a href=\"http://grooveshark.com\">Gruvšark</a> i <a href=\"http://www.sky.fm/\">Skaj.fm</a>/<a href=\"http://www.di.fm/\">Didžitali Imported</a>.  Takođe smo dodali mogućnost opšte pretrage koja vam omogućava da lako pronađete muziku koja je ili u vašoj biblioteci ili na internetu. Ostalo uključuje podršku za audio CD-e, više opcija za prekoder, poboljšani dijalog podešavanja, pametnije pretrage omota albuma i mnoštvo ispravki grešaka. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:324
@@ -342,17 +280,7 @@ msgid "Version 1.1 released"
 msgstr "Izdanje 1.1"
 
 #: data.py:325
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
 msgstr "Ovo izdanje donosi dugoočekivanu podršku za Podkast uključujući integraciju i sinhronizaciju sa <a href=\"//gpodder.net\">gpodder.net</a>. Muzika sa <a href=\"http://soundcloud.com/\">Saundklaud</a> i <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> je dostupna u Internet jezičku bočne trake, kao i bilo koje pesme koje ste učitali na <a href=\"http://drive.google.com/start\">Guglov Drajv</a>. Klementina će sada prikazivati trake raspoloženja za muziku koju puštate sa vašeg lokalnog diska.Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:338
@@ -360,21 +288,7 @@ msgid "Version 1.2 released"
 msgstr "Izdanje 1.2"
 
 #: data.py:339
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
 msgstr "Ovo izdanje je kompatibilno sa <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android aplikacijom Daljinski za Klementinu</a> koja vam omogućava da upravljate Klementinom daljinski sa Android uređaja.<br/>Ovo izdanje takođe donosi podršku za Subsonik. I sada možete da slušate vašu muziku smeštenu na <a href=\"https://www.box.com/\">Boksu</a>, <a href=\"https://www.dropbox.com/\">Dropboksu</a>, <a href=\"https://skydrive.live.com/\">Skajdrajvu</a> i <a href=\"https://one.ubuntu.com/\">Ubuntu 1</a>. Poslednja bitna novost je mogućnost da označite „zvezdicom“ vaše liste numera, pa ih onda možete slobodno da zatvorite i vratite ih kasnije iz prikaza novog jezička „Lista numera“ kojeg smo dodali u levu bočnu traku.<br/>Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:354
@@ -382,15 +296,7 @@ msgid "Version 1.3 released"
 msgstr "Izdanje 1.3"
 
 #: data.py:355
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"accessing your music in Vk.com and Seafile.See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
-"information."
+msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for accessing your music in Vk.com and Seafile.See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">full changelog</a> for more information."
 msgstr "Ovo izdanje je kompatibilno sa <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android daljinskim za Klementinu</a>, aplikacijom koja vam omogućuje da daljinski upravljate Klementinom sa Android uređaja.<br/>Ovo izdanje takođe donosi podršku za pristup vašoj muzici na Vk.com i Seafile. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">ceo dnevnik izmena</a> za više podataka."
 
 #: data.py:364
@@ -398,8 +304,7 @@ msgid "Version 1.3.1 released"
 msgstr "Izdanje 1.3.1"
 
 #: data.py:365
-msgid ""
-"Fixes a bug where ratings are deleted when upgrading from older versions."
+msgid "Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr "Popravlja grešku brisanja ocena prilikom nadogradnje starijih izdanja."
 
 #: downloads.html:7
@@ -419,9 +324,7 @@ msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
 #: downloads.html:56
-msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
+msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
 msgstr "Možete preuzeti najnovije izdanje Klementine za Ubuntu sa službenog PPA:"
 
 #: downloads.html:62
@@ -429,10 +332,7 @@ msgid "Dependencies for Ubuntu Precise (12.04)"
 msgstr "Zavisnosti za Ubuntu Precise (12.04)"
 
 #: downloads.html:63
-msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
+msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
 msgstr "Nova izdanja Klementine zahtevaju GStreamer 1.0 kojeg nema u Ubuntuu 12.04. Ako naiđete na greške prilikom instalacije Klementine, dodajte i PPA za GStreamer:"
 
 #: downloads.html:68 downloads.html.py:83
@@ -448,9 +348,7 @@ msgid "Unofficial packages"
 msgstr "Neslužbeni paketi"
 
 #: downloads.html:79
-msgid ""
-"If you don't see your distribution listed above then someone else might have"
-" created an unofficial package for you."
+msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
 msgstr "Ako nema vaše distribucije iznad neko drugi je možda napravio neslužbeni paket za vas."
 
 #: downloads.html:87
@@ -462,9 +360,7 @@ msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Kompilovanje Klementine od izvornog kôda je lako na Linuks platformi."
 
 #: downloads.html:90
-msgid ""
-"Download the source code package from the list above, and in a terminal "
-"window:"
+msgid "Download the source code package from the list above, and in a terminal window:"
 msgstr "Preuzmite arhivu izvornog kôda sa spiska iznad i u prozoru terminala:"
 
 #: downloads.html:99
@@ -488,9 +384,7 @@ msgid "Check out the code by running:"
 msgstr "Dobavite izvorni kôd naredbom:"
 
 #: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
+msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
 msgstr "Ako ne želite sami da kompilujete razvojno izdanje onda probajte neke od dnevnih paketa:"
 
 #: downloads.html:117 participate.html:75
@@ -590,8 +484,7 @@ msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Međuplatformski program — radi na Vindouzu, Mek OS X-u i Linuksu."
 
 #: main.html:43
-msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Izvorna obaveštenja radne površi na Linuksu (libnotify) i Mek OS X-u (Growl)."
 
 #: main.html:44
@@ -635,9 +528,7 @@ msgid "It is inspired by"
 msgstr "Inspirisana je"
 
 #: main.html:58
-msgid ""
-"focusing on a fast and easy-to-use interface for searching and playing your "
-"music."
+msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
 msgstr "fokusirajući se na brzo i lako za korišćenje sučelje za pretragu i puštanje vaše muzike."
 
 #: main.html:65 main.html.py:74
@@ -685,9 +576,7 @@ msgid "channel on Freenode."
 msgstr "kanalu na Freenode servisu."
 
 #: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
+msgid "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away."
 msgstr "Ne zaboravite da se <b>zadržite na kanalu nakon upita</b> — možda smo u različitim vremenskim zonama pa nećemo videti vaše pitanje odmah."
 
 #: participate.html:25
@@ -695,9 +584,7 @@ msgid "Forum"
 msgstr "Forum"
 
 #: participate.html:27
-msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
+msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
 msgstr "Klementina koristi Gugl Grupe za forum/poštanske liste/opštu diskuju."
 
 #: participate.html:30
@@ -717,9 +604,7 @@ msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Klementina koristi Githab za razvoj i praćenje problema."
 
 #: participate.html:40
-msgid ""
-"If you have found a bug in Clementine, please head on over to the issue "
-"tracker and create a new issue."
+msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
 msgstr "Ako ste naišli na grešku u Klementini prijavite je na pratiocu problema."
 
 #: participate.html:43
@@ -731,15 +616,11 @@ msgid "Translating the interface"
 msgstr "Prevođenje sučelja"
 
 #: participate.html:48
-msgid ""
-"If you'd like to translate Clementine into another language you can do so on"
-" the Transifex translations page."
+msgid "If you'd like to translate Clementine into another language you can do so on the Transifex translations page."
 msgstr "Ako želite da prevedete Klementinu na drugi jezik možete to da uradite na Transifeksovoj stranici za prevođenje."
 
 #: participate.html:49
-msgid ""
-"You can either do the translation directly on Transifex, or download a .po "
-"file from the site and then email it back to us."
+msgid "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us."
 msgstr "Možete ili da prevodite direktno na Transifeksu ili da preuzmete .po fajl sa stranice pa da nam ga pošaljete nakon prevođenja."
 
 #: participate.html:52
@@ -759,22 +640,15 @@ msgid "Remote application for Android"
 msgstr "Android aplikacija za daljinski"
 
 #: participate.html:94
-msgid ""
-"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
-"player/Android-Remote\">another GitHub repository</a>."
+msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
 msgstr "Daljinski za Klementinu je hostovan na <a href=\"https://github.com/clementine-player/Android-Remote\">drugoj Githab riznici</a>."
 
 #: participate.html:95
-msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Možete da prijavljujete probleme i predlažete zakrpe <a href=\"https://github.com/clementine-player/Android-Remote/issues\">na njegovom pratiocu prijava</a>."
 
 #: participate.html:96
-msgid ""
-"You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
-"Transifex project</a>."
+msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
 msgstr "Možete da prevedete sučelje na <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">ovom Transifeks projektu</a>."
 
 #: participate.html:100
@@ -782,9 +656,7 @@ msgid "Social Networking"
 msgstr "Društvene mreže"
 
 #: participate.html:102
-msgid ""
-"We'd love to see you support Clementine by joining us on your favourite "
-"social networking site!"
+msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
 msgstr "Voleli bismo da podržite Klementinu pridružujući nam se na vašoj omiljenoj društvenoj mreži!"
 
 #: participate.html:106
@@ -809,9 +681,7 @@ msgid "You can find lovely Clementine stickers on %(unixstickers)s."
 msgstr "Divne Klementinine nalepnice možete naći na %(unixstickers)s."
 
 #: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
+msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
 msgstr "Savršene su za ulepšanje vašeg laptopa i da pokažete koliko volite vaš omiljeni muzički plejer!"
 
 #: participate.html:131
@@ -819,22 +689,15 @@ msgid "Donation"
 msgstr "Donirajte"
 
 #: participate.html:132
-msgid ""
-"Currently, we do not need money and as so we do not accept money donation. "
-"If you like our software and want to help us, you can <a href=\"#social-"
-"networking\">support us</a> and spread the word."
+msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
 msgstr "Trenutno nam ne treba novac tako da ne prihvatamo novčane donacije. Ako vam se dopada naš softver i želite da nam pomognete, možete <a href=\"#social-networking\">da nas podržite</a> i proširite glas."
 
 #: participate.html:133
-msgid ""
-"You can also help by <a href=\"#collaborate\">participating to the software "
-"development, as explained above</a>."
+msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
 msgstr "Takođe možete da pomognete <a href=\"#collaborate\">učestvujući u razvoju softvera, kako je objašnjeno iznad</a>."
 
 #: participate.html:134
-msgid ""
-"But if you still want to spend some money to make us happy, you can make a "
-"donation to one of these charity organizations we like"
+msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
 msgstr "Ali ako svejedno želite da potrošite nešto novca da nas usrećite, možete da donirate nekoj od ovih dobrotvornih organizacija koje volimo"
 
 #: participate.html:134
@@ -854,10 +717,5 @@ msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Fondacija za elektronske granice</a>"
 
 #: privacy.html:14
-msgid ""
-"Clementine and its developers do not collect any personally identifiable "
-"information in any way. Data such as web service statistics are collected "
-"only on an anonymous basis. Information such as usernames, passwords and "
-"authentication tokens for online services provided to Clementine are never "
-"transmitted from that instance of Clementine."
+msgid "Clementine and its developers do not collect any personally identifiable information in any way. Data such as web service statistics are collected only on an anonymous basis. Information such as usernames, passwords and authentication tokens for online services provided to Clementine are never transmitted from that instance of Clementine."
 msgstr "Klementina i njeni programeri ne sakupljaju nikakve lične podatke na bilo koji način. Podaci kao što su statistike veb servisa sakupljaju se samo anonimno. Podaci za mrežne servise kao što su korisnička imena, lozinke i tokeni za autentifikaciju dati Klementini nikad se ne prenose sa te instance Klementine."
