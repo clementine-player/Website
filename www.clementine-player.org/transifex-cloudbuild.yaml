@@ -68,7 +68,7 @@ steps:
   - Automatic merge of translations from Transifex (https://www.transifex.com/projects/p/clementine/resource/clementineplayer)
 
 - name: 'gcr.io/cloud-builders/git'
-  args: ['push' 'git@github.com:clementine-player/Website.git', 'master']
+  args: ['push', 'git@github.com:clementine-player/Website.git', 'master']
   volumes:
   - name: 'ssh'
     path: /root/.ssh
