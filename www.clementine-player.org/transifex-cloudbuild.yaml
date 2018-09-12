@@ -3,7 +3,7 @@ steps:
   args:
   - kms
   - decrypt
-  - --ciphertext-file=www.clementine-player/id_rsa.enc
+  - --ciphertext-file=www.clementine-player.org/id_rsa.enc
   - --plaintext-file=/root/.ssh/id_rsa
   - --location=global
   - --keyring=transifex
