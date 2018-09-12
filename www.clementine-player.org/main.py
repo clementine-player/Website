@@ -200,8 +200,14 @@ class TransifexPullPage(webapp2.RequestHandler):
     response = urlfetch.fetch(
         'https://cloudbuild.googleapis.com/v1/projects/clementine-web/triggers/e19d2c38-5478-4282-a475-ee54d6d5363a:run',
         method=urlfetch.POST,
+        payload=json.dumps({
+            'projectId': 'clementine-web',
+            'repoName': 'github-clementine-player-website',
+            'branchName': 'master',
+        }),
         headers={
           'Authorization': 'Bearer {}'.format(token),
+          'Content-Type': 'application/json',
         })
     if response.status_code != 200:
       raise Exception('Triggering build failed: {}'.format(response.content))
