@@ -34,6 +34,7 @@ jinja_environment.filters['datetime'] = format_datetime
 import copy
 import datetime
 import gettext
+import json
 import logging
 import re
 
