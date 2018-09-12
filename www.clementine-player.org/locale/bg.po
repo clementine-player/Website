@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # albertvision <inactive+albertvision@transifex.com>, 2012
 # Ivailo Monev <xakepa10@gmail.com>, 2014
@@ -11,14 +11,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-29 16:05+0000\n"
+"POT-Creation-Date: 2017-10-10 17:59+0100\n"
 "PO-Revision-Date: 2017-10-30 10:16+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/davidsansome/clementine/language/bg/)\n"
-"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: android-download.html:4
@@ -54,7 +54,9 @@ msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Между-платформен музикален плеър, вдъхновен от Amarok 1.4"
 
 #: base.html:83
-msgid "Clementine is Free Software under the GPL v3. This site is licensed under CC-BY-SA."
+msgid ""
+"Clementine is Free Software under the GPL v3. This site is licensed under "
+"CC-BY-SA."
 msgstr "Clementine e Свободен Софтуер лицензиран под GPL v3. Сайтът е лицензиран под CC-BY-SA"
 
 #: base.html:84
@@ -74,7 +76,8 @@ msgid "Privacy Policy"
 msgstr ""
 
 #: data.py:8
-msgid "Playlist tab, while listening to songs from multiples Internet services"
+msgid ""
+"Playlist tab, while listening to songs from multiples Internet services"
 msgstr "Таб за списъци с песни, докато слушате песни от различни интернет услуги"
 
 #: data.py:9
@@ -226,7 +229,10 @@ msgid "Version 0.2 released"
 msgstr "Версия 0.2 реализирана"
 
 #: data.py:241
-msgid "It's been just over a month since we released the first version of Clementine. This new version features album cover-art, better \"Various Artists\" detection, support for loading playlists, and much more."
+msgid ""
+"It's been just over a month since we released the first version of "
+"Clementine. This new version features album cover-art, better \"Various "
+"Artists\" detection, support for loading playlists, and much more."
 msgstr "Мина малко над месец, откакто пуснахме първата версия на Clementine. Тази нова версия включва обложки на албуми, по-добро намиране на \"Сборни формации\", подръжка за зареждане на списъци с песни, и още много неща."
 
 #: data.py:247
@@ -234,7 +240,11 @@ msgid "Version 0.3 released"
 msgstr "Версия 0.3 реализирана"
 
 #: data.py:248
-msgid "In this release we've switched to GStreamer on all platforms, meaning the analyzer and crossfading between tracks will now work on Windows. New features include an equalizer, more library grouping options, a nicer OSD, remote control from command-line and MPRIS, and easier tag editing."
+msgid ""
+"In this release we've switched to GStreamer on all platforms, meaning the "
+"analyzer and crossfading between tracks will now work on Windows. New "
+"features include an equalizer, more library grouping options, a nicer OSD, "
+"remote control from command-line and MPRIS, and easier tag editing."
 msgstr "В тази версия минахме на GStreamer под всички платформи, тоест анамизатора и плавния преход между песните вече ще работи под Windows. Новите допълнения включват еквалайзер, повече опции за групиране в библиотеката, по-хубав OSD, дистанционно от комнадна линия и MPRIS, и по-лесна редакция на етикети."
 
 #: data.py:256
@@ -242,7 +252,13 @@ msgid "Version 0.4 released"
 msgstr "Версия 0.4 реализирана"
 
 #: data.py:257
-msgid "This release features tabbed playlists, playlist search, projectM visualisations, Magnatune integration, ReplayGain volume normalisation and music transcoding. We've fixed loads of bugs too - searching large libraries is now much faster, playback is much more reliable on Windows, character encoding problems are fixed, and remote playlists should load correctly all the time."
+msgid ""
+"This release features tabbed playlists, playlist search, projectM "
+"visualisations, Magnatune integration, ReplayGain volume normalisation and "
+"music transcoding. We've fixed loads of bugs too - searching large libraries"
+" is now much faster, playback is much more reliable on Windows, character "
+"encoding problems are fixed, and remote playlists should load correctly all "
+"the time."
 msgstr "Тази версия включва списъци с песни в отделни табове, търсене в списъци с песни, визуализации с projectM, интеграция с Magnatune, нормализация на силата на звука с ReplayGain и транскодиране на музика. Поправихме и много бъгове - търсенето в големи библиотеки сега е много по-бързо, възпроизвеждането е много по-надеждно под Windows, поправени са проблеми с енкодинга на знаци, и дистанционните списъци с песни би трябвало да се зареждат правилно през цялото време."
 
 #: data.py:266
@@ -250,7 +266,21 @@ msgid "Version 0.5 released"
 msgstr "Версия 0.5 реализирана"
 
 #: data.py:267
-msgid "This release adds support for using portable devices with Clementine.  You can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">the wiki for more information</a>.  Support for using a <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> as a remote control has been added.  Other features include a Queue Manager, an Organise Files dialog, automatically stretching columns in the playlist, loading embedded id3v2 cover art, more library scanning options, drag and drop between playlists, and a hypnotoad.  We've also reduced startup time by more than half, fixed a load of memory leaks and reduced CPU usage while playing music. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release adds support for using portable devices with Clementine.  You "
+"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
+"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
+"Devices\">the wiki for more information</a>.  Support for using a <a "
+"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
+"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
+" include a Queue Manager, an Organise Files dialog, automatically stretching"
+" columns in the playlist, loading embedded id3v2 cover art, more library "
+"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
+"also reduced startup time by more than half, fixed a load of memory leaks "
+"and reduced CPU usage while playing music. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Тази версия добавя подръжка за използване на портативни устройства с Clementine. Сега можете да копирате песни към Вашия iPod, iPhone, MTP, или USB устройство за съхранение. Вижте <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki-то за повече информация</a>. Беше добавена подръжка за използване на <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> като дистанционно Други характеристики включват мениджъра на опашки, диалогов прозорец Организирай файлове, автоматично разширяване на колоните в списъка с песни, зареждане на вградени id3v2 обложки на албуми, още опции за сканиране на библиотеката, дърпане и пускане между списъци с песни, и хипножабок. Освен това намалихме времето за стартиране на повече от половина, поправихме купища изтичания на памет и намалихме натоварването на процесора докато свири музика. Вижте <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">пълния лог на промените</a> за повече информация."
 
 #: data.py:283
@@ -258,7 +288,17 @@ msgid "Version 0.6 released"
 msgstr "Версия 0.6 реализирана"
 
 #: data.py:284
-msgid "This release features two new information panes that show lyrics, song statistics, artist biographies, photos and lists of tags and similar artists.  We've redesigned the sidebar (although you can switch back by right clicking on it), and also added ratings, play counts and skip counts.  You can create smart and dynamic playlists from songs in your library, and also now listen to music from <a href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release features two new information panes that show lyrics, song "
+"statistics, artist biographies, photos and lists of tags and similar "
+"artists.  We've redesigned the sidebar (although you can switch back by "
+"right clicking on it), and also added ratings, play counts and skip counts."
+"  You can create smart and dynamic playlists from songs in your library, and"
+" also now listen to music from <a "
+"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
+" the <a href=\"https://raw.github.com/clementine-"
+"player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Тази версия включва два нови информационни панела, които показват текстове на песни, статистики на песни, биографии на изпълнители, снимки и етикети на подобни изпълнители. Направихме нов дизайн на страничната лента (въпреки че можете да го върнете към предишния му вид като щракнете с десен бутон на него), и също добавихме рейтинги, брой слушания и брой прескачания. Можете да създадете умни и динамични списъци с песни от песните в библиотеката Ви, както и да слушате музика от <a href=\"http://www.jamendo.com/\">Jamendo</a> и Icecast радио станции. Вижте <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">пълния лог на промените</a> за повече информация."
 
 #: data.py:296
@@ -266,7 +306,19 @@ msgid "Version 0.7 released"
 msgstr "Версия 0.7 реализирана"
 
 #: data.py:297
-msgid "In this release Clementine gains a brand new edit tag dialog with autocompletion and the ability to automatically identify music and fetch missing tags from MusicBrainz.  CUE sheets are now supported - they are detected automatically when scanning your library and each track will show up separately.  We've made a load of smaller improvements as well such as showing album covers in the Library tab, greying out deleted songs, a \"Show in file browser\" option, support for network proxies, a \"Full library rescan\" option, and a new tooltip for the track slider that helps you seek more accurately to a specific place in a song. See the <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">full changelog</a> for more information."
+msgid ""
+"In this release Clementine gains a brand new edit tag dialog with "
+"autocompletion and the ability to automatically identify music and fetch "
+"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
+"detected automatically when scanning your library and each track will show "
+"up separately.  We've made a load of smaller improvements as well such as "
+"showing album covers in the Library tab, greying out deleted songs, a \"Show"
+" in file browser\" option, support for network proxies, a \"Full library "
+"rescan\" option, and a new tooltip for the track slider that helps you seek "
+"more accurately to a specific place in a song. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/master/Changelog\">full changelog</a> for more "
+"information."
 msgstr "В тази версия Clementine получава чисто нов диалогов прозорец за редактиране на етикети на песни, с автоматично допълване и възможността автоматично да идентифицира музика и да извлича липсващи етикети от MusicBrainz. Вече се подържат CUE листове - намират се автоматично при сканиране на библиотеката, и всяка песен ще излиза отделно. Направихме и доста по-малки подобрения, като показване на обложки на албуми в таба Библиотека, оцветяване на изтрити песни в сиво, опция \"Покажи във файлов браузер\", подръжка за мрежови проксита, опция \"Пълно сканиране на библиотеката наново\" и нова подсказка за плъзгача на песните, която помага да се търси конкретно място от песента по-точно. Вижте <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">пълния лог на промените</a> за повече информация."
 
 #: data.py:311
@@ -274,7 +326,17 @@ msgid "Version 1.0 released"
 msgstr "Версия 1.0 реализирана"
 
 #: data.py:312
-msgid "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added a Global Search feature that allows you to easily find music that's either in your library or on the Internet. Other features include audio CD support, more transcoder options, an improved settings dialog, smarter album cover searches, and loads of bug fixes. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
+"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
+"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
+"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
+" a Global Search feature that allows you to easily find music that's either "
+"in your library or on the Internet. Other features include audio CD support,"
+" more transcoder options, an improved settings dialog, smarter album cover "
+"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
+"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
+" more information."
 msgstr "Тази версия добавя <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> подръжка. Добавихме и екстра за Глобално Търсене, която позволява лесно да намерите музика която е или в библиотеката, или в интернет. Други допълнения включват подръжка за аудио CD-та, повече опции за транскодера, подобрен диалогов прозорец за настройки, по-умно търсене на обложки на албуми, и много поправки на бъгове. Вижте <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">пълния лог на промените</a> за повече информация."
 
 #: data.py:324
@@ -282,7 +344,17 @@ msgid "Version 1.1 released"
 msgstr "Версия 1.1 реализирана"
 
 #: data.py:325
-msgid "This release adds long-awaited Podcast support including integration and synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from <a href=\"http://soundcloud.com/\">Soundcloud</a> and <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the Internet tab in the sidebar, as well as any songs you've uploaded to <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will also now show moodbars for the music you play from your local disc. See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release adds long-awaited Podcast support including integration and "
+"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
+"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
+"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
+"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
+"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
+"also now show moodbars for the music you play from your local disc. See the "
+"<a href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Тази версия добавя дългоочавната подръжка на подкасти, включително интеграция и синхронизация с <a href=\"//gpodder.net\">gpodder.net</a>. Музика от <a href=\"http://soundcloud.com/\">Soundcloud</a> и <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> е налична в Интернет таба в страничната лента, както и песни, които сте качили в <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine сега показва и ленти по настроение за музиката, която слушате от локалния си диск. Вижте <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">пълния лог на промените</a> за повече информация."
 
 #: data.py:338
@@ -290,7 +362,21 @@ msgid "Version 1.2 released"
 msgstr "Версия 1.2 реализирана"
 
 #: data.py:339
-msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for Subsonic. And you can now listen to your music stored in <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> and <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is the ability to \"star\" your playlists, so you can safely close them and restore them later from the new \"Playlist\" tab we've added in the left sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"Subsonic. And you can now listen to your music stored in <a "
+"href=\"https://www.box.com/\">Box</a>, <a "
+"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
+"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
+"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
+"the ability to \"star\" your playlists, so you can safely close them and "
+"restore them later from the new \"Playlist\" tab we've added in the left "
+"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Тази версия е съвместима с <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote приложението за Android</a>, което Ви позволява да контролирате Clementine дистанционно от Android устройство.<br/> Добавена е и подръжка за Subsonic. И сега можете да слушате музика, запазена в <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> и <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Последната голяма нова екстра е възможността да \"слагате звездички\" на списъците си с песни, за да можете спокойно да ги затворите и после да ги възстановите от новия таб \"Списъци с песни\", който добавихме в лявата лента.<br/>Вижте <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">пълния лог на промените</a> за повече информация."
 
 #: data.py:354
@@ -298,7 +384,15 @@ msgid "Version 1.3 released"
 msgstr ""
 
 #: data.py:355
-msgid "This release is compatible with the <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote application for Android</a> which lets you control Clementine remotely from an Android device.<br/>This release also adds support for accessing your music in Vk.com and Seafile.See the <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">full changelog</a> for more information."
+msgid ""
+"This release is compatible with the <a "
+"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
+" Remote application for Android</a> which lets you control Clementine "
+"remotely from an Android device.<br/>This release also adds support for "
+"accessing your music in Vk.com and Seafile.See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
+"information."
 msgstr ""
 
 #: data.py:364
@@ -306,7 +400,8 @@ msgid "Version 1.3.1 released"
 msgstr ""
 
 #: data.py:365
-msgid "Fixes a bug where ratings are deleted when upgrading from older versions."
+msgid ""
+"Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr ""
 
 #: downloads.html:7
@@ -326,7 +421,9 @@ msgid "Ubuntu PPA"
 msgstr "Ubuntu PPA"
 
 #: downloads.html:56
-msgid "You can download the latest version of Clementine on Ubuntu from the official PPA:"
+msgid ""
+"You can download the latest version of Clementine on Ubuntu from the "
+"official PPA:"
 msgstr "Можете да свалите най-новата версия на Clementine за Ubuntu от официалния PPA:"
 
 #: downloads.html:62
@@ -334,7 +431,10 @@ msgid "Dependencies for Ubuntu Precise (12.04)"
 msgstr "Зависимости за Ubuntu Precise (12.04)"
 
 #: downloads.html:63
-msgid "New versions of Clementine require GStreamer 1.0 which wasn't included in Ubuntu 12.04.  If you get errors installing Clementine you should add the GStreamer PPA as well:"
+msgid ""
+"New versions of Clementine require GStreamer 1.0 which wasn't included in "
+"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
+"GStreamer PPA as well:"
 msgstr "Нови версий на Clementine изискват GStreamer 1.0, който не е включен в Ubuntu 12.04. При грешки инсталирайки Clementine вие трябва да добавите GStreamer PPA:"
 
 #: downloads.html:68 downloads.html.py:83
@@ -350,7 +450,9 @@ msgid "Unofficial packages"
 msgstr "Неофициални пакети"
 
 #: downloads.html:79
-msgid "If you don't see your distribution listed above then someone else might have created an unofficial package for you."
+msgid ""
+"If you don't see your distribution listed above then someone else might have"
+" created an unofficial package for you."
 msgstr "Ако не виждате дистрибуцията си в списъка горе, може би някой друг е направил неофициален пакет вместо вас."
 
 #: downloads.html:87
@@ -362,7 +464,9 @@ msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Компилирането на Clementine от програмен код е лесно под Linux."
 
 #: downloads.html:90
-msgid "Download the source code package from the list above, and in a terminal window:"
+msgid ""
+"Download the source code package from the list above, and in a terminal "
+"window:"
 msgstr "Свалете пакета програмен код от списъка горе, и в конзолата:"
 
 #: downloads.html:99
@@ -386,7 +490,9 @@ msgid "Check out the code by running:"
 msgstr "Вижте кода като изпълните:"
 
 #: downloads.html:112 participate.html:70
-msgid "If you'd prefer not to compile the development version yourself then try one of the hourly packages:"
+msgid ""
+"If you'd prefer not to compile the development version yourself then try one"
+" of the hourly packages:"
 msgstr "Ако предпочитате да не компилирате версията за разработка сами, пробвайте някой от почасовите ни пакети:"
 
 #: downloads.html:117 participate.html:75
@@ -486,7 +592,8 @@ msgid "Cross-platform - works on Windows, Mac OS X and Linux."
 msgstr "Различни платформи - работи на Windows, Mac OS X и Linux."
 
 #: main.html:43
-msgid "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
+msgid ""
+"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
 msgstr "Местни десктоп съобщения на Linux (libnotify) и Mac OS X (Growl)."
 
 #: main.html:44
@@ -530,7 +637,9 @@ msgid "It is inspired by"
 msgstr "Вдъхновен е от"
 
 #: main.html:58
-msgid "focusing on a fast and easy-to-use interface for searching and playing your music."
+msgid ""
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
 msgstr "концентриращ се на бърз и лесен за използване интерфейс за търсене и свирене на музика."
 
 #: main.html:65 main.html.py:74
@@ -578,7 +687,9 @@ msgid "channel on Freenode."
 msgstr "канала във Freenode."
 
 #: participate.html:22
-msgid "Please remember to <b>stick around after asking a question</b> - we might be in a different timezone so won't see your question right away."
+msgid ""
+"Please remember to <b>stick around after asking a question</b> - we might be"
+" in a different timezone so won't see your question right away."
 msgstr "Моля <b>поостанете след като зададете въпрос</b> - може да сме в различна часова зона и да не видим въпроса веднага."
 
 #: participate.html:25
@@ -586,7 +697,9 @@ msgid "Forum"
 msgstr "Форум"
 
 #: participate.html:27
-msgid "Clementine uses Google Groups for its forum/mailing list/general discussion group."
+msgid ""
+"Clementine uses Google Groups for its forum/mailing list/general discussion "
+"group."
 msgstr "Clementine използва Google Groups за форум/мейлинг лист/група за обща дискусия."
 
 #: participate.html:30
@@ -606,7 +719,9 @@ msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine използва GitHub за разработка и проследяване на проблеми."
 
 #: participate.html:40
-msgid "If you have found a bug in Clementine, please head on over to the issue tracker and create a new issue."
+msgid ""
+"If you have found a bug in Clementine, please head on over to the issue "
+"tracker and create a new issue."
 msgstr "Ако сте намерили грешка в Clementine, моля запътете се към тракера за проблеми и създайте нов проблем."
 
 #: participate.html:43
@@ -618,11 +733,15 @@ msgid "Translating the interface"
 msgstr "Превеждане на интерфейса"
 
 #: participate.html:48
-msgid "If you'd like to translate Clementine into another language you can do so on the Transifex translations page."
+msgid ""
+"If you'd like to translate Clementine into another language you can do so on"
+" the Transifex translations page."
 msgstr "Ако искате да преведете Clementine на друг език, може да го направите в страницата за преводи в Transifex."
 
 #: participate.html:49
-msgid "You can either do the translation directly on Transifex, or download a .po file from the site and then email it back to us."
+msgid ""
+"You can either do the translation directly on Transifex, or download a .po "
+"file from the site and then email it back to us."
 msgstr "Може да превеждате направо в Transifex, или да свалите .po файла от сайта и да ни го пратите по email."
 
 #: participate.html:52
@@ -642,15 +761,22 @@ msgid "Remote application for Android"
 msgstr "Дистанционно приложение за Android"
 
 #: participate.html:94
-msgid "Clementine Remote is hosted on <a href=\"https://github.com/clementine-player/Android-Remote\">another GitHub repository</a>."
+msgid ""
+"Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
+"player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine Remote е в <a href=\"https://github.com/clementine-player/Android-Remote\">друго GitHub хранилище</a>."
 
 #: participate.html:95
-msgid "You can report issues and propose patches on <a href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+msgid ""
+"You can report issues and propose patches on <a href=\"https://github.com"
+"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
 msgstr "Можете да докладвате за проблеми и да предлагате пачове в неговия <a href=\"https://github.com/clementine-player/Android-Remote/issues\">бъг тракер</a>."
 
 #: participate.html:96
-msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
+msgid ""
+"You can translate the interface on <a "
+"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"Transifex project</a>."
 msgstr "Можете да преведете интерфейса в <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">този Transifex проект</a>."
 
 #: participate.html:100
@@ -658,7 +784,9 @@ msgid "Social Networking"
 msgstr "Социални мрежи"
 
 #: participate.html:102
-msgid "We'd love to see you support Clementine by joining us on your favourite social networking site!"
+msgid ""
+"We'd love to see you support Clementine by joining us on your favourite "
+"social networking site!"
 msgstr "Много ще се радваме да видим, че подкрепяте Clementine, като се присъедините към нас в любимата Ви социална мрежа!"
 
 #: participate.html:106
@@ -683,7 +811,9 @@ msgid "You can find lovely Clementine stickers on %(unixstickers)s."
 msgstr "Мовете да намерите страхотни Clementine стикери на %(unixstickers)s."
 
 #: participate.html:128
-msgid "They will be perfect to customise your laptop and show how much you love your favourite music player!"
+msgid ""
+"They will be perfect to customise your laptop and show how much you love "
+"your favourite music player!"
 msgstr "Те ще са перфектни да придадете уникален вид на ваият лаптоп и да покажете колко много харесвате вашичт любим мизкален плеър!"
 
 #: participate.html:131
@@ -691,15 +821,22 @@ msgid "Donation"
 msgstr "Дарение"
 
 #: participate.html:132
-msgid "Currently, we do not need money and as so we do not accept money donation. If you like our software and want to help us, you can <a href=\"#social-networking\">support us</a> and spread the word."
+msgid ""
+"Currently, we do not need money and as so we do not accept money donation. "
+"If you like our software and want to help us, you can <a href=\"#social-"
+"networking\">support us</a> and spread the word."
 msgstr "В момента нямаме нужда от пари, затова не приемаме парични дарения. Ако харесвате софтуера ни и искате да помогнете, можете да <a href=\"#social-networking\">ни подкрепите</a> и да разнесете мълвата."
 
 #: participate.html:133
-msgid "You can also help by <a href=\"#collaborate\">participating to the software development, as explained above</a>."
+msgid ""
+"You can also help by <a href=\"#collaborate\">participating to the software "
+"development, as explained above</a>."
 msgstr "Можете да помогнете и като <a href=\"#collaborate\">се включите в разработката на софтуера, както е обяснено по-горе</a>."
 
 #: participate.html:134
-msgid "But if you still want to spend some money to make us happy, you can make a donation to one of these charity organizations we like"
+msgid ""
+"But if you still want to spend some money to make us happy, you can make a "
+"donation to one of these charity organizations we like"
 msgstr "Но ако все още искате да изхарчите малко пари и да ни направите щастливи, можете да дарите за някоя от тези благотворителни организации, които харесваме"
 
 #: participate.html:134
@@ -719,5 +856,10 @@ msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 
 #: privacy.html:14
-msgid "Clementine and its developers do not collect any personally identifiable information in any way. Data such as web service statistics are collected only on an anonymous basis. Information such as usernames, passwords and authentication tokens for online services provided to Clementine are never transmitted from that instance of Clementine."
+msgid ""
+"Clementine and its developers do not collect any personally identifiable "
+"information in any way. Data such as web service statistics are collected "
+"only on an anonymous basis. Information such as usernames, passwords and "
+"authentication tokens for online services provided to Clementine are never "
+"transmitted from that instance of Clementine."
 msgstr ""
