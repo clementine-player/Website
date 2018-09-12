@@ -46,6 +46,11 @@ handlers:
   script: thumbnailer.app
   secure: always
 
+- url: /scheduled/.*
+  script: main.app
+  secure: always
+  login: admin
+
 - url: /.*
   script: main.app
   secure: always

@@ -4,4 +4,4 @@ steps:
 - name: 'web-builder'
   dir: 'www.clementine-player.org'
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy', 'www.clementine-player.org/app.yaml']
+  args: ['app', 'deploy', 'www.clementine-player.org/app.yaml', 'www.clementine-player.org/cron.yaml']

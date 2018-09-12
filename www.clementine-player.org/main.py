@@ -37,6 +37,9 @@ import gettext
 import logging
 import re
 
+from google.appengine.api import app_identity
+from google.appengine.api import urlfetch
+
 
 class BasePage(webapp2.RequestHandler):
   def ComputeDownloadInfo(self, d):
@@ -191,6 +194,21 @@ class AcmeChallengePage(webapp2.RequestHandler):
     self.redirect(
         'https://builds.clementine-player.org' + self.request.path)
 
+class TransifexPullPage(webapp2.RequestHandler):
+  def get(self):
+    token, _ = app_identity.get_access_token('https://www.googleapis.com/auth/cloud-platform')
+    response = urlfetch.fetch(
+        'https://cloudbuild.googleapis.com/v1/projects/clementine-web/triggers/e19d2c38-5478-4282-a475-ee54d6d5363a:run',
+        method=urlfetch.POST,
+        headers={
+          'Authorization': 'Bearer {}'.format(token),
+        })
+    if response.status_code != 200:
+      raise Exception('Triggering build failed: {}'.format(response.content))
+    result = json.loads(response.content)
+    self.response.headers['Content-Type'] = 'application/json'
+    self.response.write(json.dumps(result, indent=2))
+
 config = {}
 config['webapp2_extras.i18n'] = {
     'domains': ['django'],
@@ -208,6 +226,7 @@ app = webapp2.WSGIApplication(
     (LANG_RE + 'privacy',     PrivacyPage),
     (r'/wiimote',             WiimotePage),
     (r'/.well-known/acme-challenge/.*', AcmeChallengePage),
+    (r'/scheduled/trigger-transifex-pull', TransifexPullPage),
   ],
   config=config,
   debug=True)
