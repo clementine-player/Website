@@ -1,6 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-f', 'Dockerfile', '-t', 'web-builder', '.']
+  args: ['build', '-f', 'www.clementine-player.org/Dockerfile', '-t', 'web-builder', '.']
 - name: 'web-builder'
+  dir: 'www.clementine-player.org'
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy', 'app.yaml']
+  args: ['app', 'deploy', 'www.clementine-player.org/app.yaml']
