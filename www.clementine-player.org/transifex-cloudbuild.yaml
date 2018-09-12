@@ -1,0 +1,80 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - kms
+  - decrypt
+  - --ciphertext-file=www.clementine-player/id_rsa.enc
+  - --plaintext-file=/root/.ssh/id_rsa
+  - --location=global
+  - --keyring=transifex
+  - --key=transifex-key
+  volumes:
+  - name: 'ssh'
+    path: /root/.ssh
+
+- name: 'gcr.io/cloud-builders/git'
+  entrypoint: 'bash'
+  args:
+  - -c
+  - |
+    chmod 600 /root/.ssh/id_rsa
+    cat <<EOF >/root/.ssh/config
+    Hostname github.com
+    IdentityFile /root/.ssh/id_rsa
+    EOF
+    mv www.clementine-player.org/known_hosts /root/.ssh/known_hosts
+  volumes:
+  - name: 'ssh'
+    path: /root/.ssh
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-f', 'www.clementine-player.org/Dockerfile.tx', '-t', 'transifex', '.']
+
+- name: 'transifex'
+  secretEnv: ['TX_TOKEN']
+  args: ['init', '--no-interactive', '--force']
+  dir: 'www.clementine-player.org'
+
+- name: 'transifex'
+  secretEnv: ['TX_TOKEN']
+  args: ['config', 'mapping', '--execute', '-r', 'clementine.website', '-f', 'locale/django.pot', '-s', 'en', '-t', 'PO', 'locale/<lang>.po']
+  dir: 'www.clementine-player.org'
+
+- name: 'transifex'
+  secretEnv: ['TX_TOKEN']
+  args: ['status']
+  dir: 'www.clementine-player.org'
+
+- name: 'transifex'
+  secretEnv: ['TX_TOKEN']
+  args: ['pull', '--all', '-f', '--no-interactive']
+  dir: 'www.clementine-player.org'
+
+- name: 'gcr.io/cloud-builders/git'
+  entrypoint: 'bash'
+  args:
+  - -c
+  - |
+    git add www.clementine-player.org/locale/*.po
+
+- name: 'gcr.io/cloud-builders/git'
+  args:
+  - -c
+  - user.name=Clementine Buildbot
+  - -c
+  - user.email=buildbot@clementine-player.org
+  - commit
+  - --message
+  - Automatic merge of translations from Transifex (https://www.transifex.com/projects/p/clementine/resource/clementineplayer)
+
+- name: 'gcr.io/cloud-builders/git'
+  args: ['push' 'git@github.com:clementine-player/Website.git', 'master']
+  volumes:
+  - name: 'ssh'
+    path: /root/.ssh
+
+# gcloud --project clementine-web kms encrypt --plaintext-file=- --ciphertext-file=- --location=global --keyring=transifex --key=transifex-key | base64 -w 0
+secrets:
+- kmsKeyName: projects/clementine-web/locations/global/keyRings/transifex/cryptoKeys/transifex-key
+  secretEnv:
+    TX_TOKEN: CiQAv0W9ihz/oIIgIAx+vjEm85/vyOUUeNSQGswj72LPrhU6x3gSVACZeva9oJQOIWRdz5Gh2kpK5XoQOa+Jvmzixjoq8E3nhDl5XsB2nJkwemDILR8eaGV7RJuwgSwQHVLxwxT6WiIfPhl00pBkvcbIs2zvv9WQ+wb0jg==

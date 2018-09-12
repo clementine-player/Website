@@ -1,3 +1,3 @@
 FROM alpine
-RUN apk update && apk add py-django make openjdk8-jre-base gettext
+RUN apk --no-cache add py-django make openjdk8-jre-base gettext
 ENTRYPOINT ["/usr/bin/make"]
