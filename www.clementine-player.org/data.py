@@ -371,6 +371,7 @@ LANGUAGES = [
   "vi", "sl", "fi", "br", "tr", "ca", "hr", "lt", "cs", "el", "ka", "uz",
   "eu", "nl", "pl", "zh_CN", "da", "af", "be", "ko", "ja", "ga", "bg", "zh_TW",
   "my", "id", "ar", "gl", "lv", "fa", "sr", "sr@latin", "ms", "ro", "he", "is",
+  "et",
 ]
 
 LANGUAGE_NAMES = {
