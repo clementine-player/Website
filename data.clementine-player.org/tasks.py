@@ -1,3 +1,4 @@
+from google.appengine.api import app_identity
 from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 from google.appengine.api import xmpp
@@ -220,11 +221,34 @@ class FormatPullRequest(webapp2.RequestHandler):
       raise GithubApiError('Creating gist failed')
 
 
+class TransifexPullPage(webapp2.RequestHandler):
+  def get(self):
+    token, _ = app_identity.get_access_token('https://www.googleapis.com/auth/cloud-platform')
+    response = urlfetch.fetch(
+        'https://cloudbuild.googleapis.com/v1/projects/clementine-data/triggers/08f31055-68ed-4a66-a3f4-5edace8a1836:run',
+        method=urlfetch.POST,
+        payload=json.dumps({
+            'projectId': 'clementine-data',
+            'repoName': 'github-clementine-player-clementine',
+            'branchName': 'master',
+        }),
+        headers={
+          'Authorization': 'Bearer {}'.format(token),
+          'Content-Type': 'application/json',
+        })
+    if response.status_code != 200:
+      raise Exception('Triggering build failed: {}'.format(response.content))
+    result = json.loads(response.content)
+    self.response.headers['Content-Type'] = 'application/json'
+    self.response.write(json.dumps(result, indent=2))
+
+
 app = webapp2.WSGIApplication(
   [
     (r'/_tasks/counters', CounterWorker),
     (r'/_tasks/snapshot', SnapshotTask),
     (r'/_tasks/rainymood', CheckRainyMood),
     (r'/_tasks/formatpullrequest', FormatPullRequest),
+    (r'/_tasks/transifex-pull', TransifexPullPage),
   ],
   debug=True)
