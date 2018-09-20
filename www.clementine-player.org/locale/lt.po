@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012
+# Liudas Alisauskas <liudas.alisauskas@gmail.com>, 2012
 # Moo, 2014-2015,2017
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 # pencininkas4 <pencininkas4@gmail.com>, 2012
