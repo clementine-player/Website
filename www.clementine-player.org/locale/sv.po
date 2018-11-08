@@ -11,7 +11,7 @@
 # Jonatan Nyberg, 2017
 # Kristian <kristianm24@gmail.com>, 2013
 # Kristian <kristianm24@gmail.com>, 2013-2015,2017
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2014,2016
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2014,2016
 # Mattias Andersson <mandersson444@gmail.com>, 2015
 # elfa <thomas.elfstrom@gmail.com>, 2013
 msgid ""
