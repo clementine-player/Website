@@ -9,8 +9,8 @@
 # Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Sahin <martinamca@gmail.com>, 2012
-# Ufuk UYUMAZ <ufukuyumaz@gmail.com>, 2013
-# Ufuk UYUMAZ <ufukuyumaz@gmail.com>, 2013
+# 3494efdfe99795dce7df1bfa0b737fa2, 2013
+# 3494efdfe99795dce7df1bfa0b737fa2, 2013
 # Volkan Gezer <volkangezer@gmail.com>, 2013
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2015
 # yusufbesir1 <yusufbesir1@gmail.com>, 2012
