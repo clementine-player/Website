@@ -7,8 +7,8 @@
 # Jun NOGATA <nogajun@gmail.com>, 2014
 # monorod <monorod98@gmail.com>, 2014
 # Naoki Iwakami <naoki.iwakami@gmail.com>, 2016
-# PowerGeefo, 2014-2015
-# PowerGeefo, 2014
+# eba5262d7257799e564fb67d7063d223, 2014-2015
+# eba5262d7257799e564fb67d7063d223, 2014
 # SATOH Fumiyasu, 2014
 # Shuuji TAKAHASHI (shuuji3) <shuuji3@gmail.com>, 2015
 # 0bytetest_green <xenolith0bytetestcomgreen@gmail.com>, 2013
