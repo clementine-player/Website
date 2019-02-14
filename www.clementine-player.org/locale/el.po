@@ -12,7 +12,7 @@
 # geost <george.stefanakis@gmail.com>, 2012
 # hatstand <john.maguire@gmail.com>, 2014
 # Jim Spentzos, 2014
-# Jim Spentzos, 2014
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2014
 # hatstand <john.maguire@gmail.com>, 2014
 # Xenophon Sp <nohponex@gmail.com>, 2013
 # Wasilis Mandratzis <inactive+Wasilis@transifex.com>, 2013
