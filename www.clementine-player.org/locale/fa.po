@@ -5,7 +5,7 @@
 # Translators:
 # Alireza <alireza.ghpn@gmail.com>, 2013
 # Alireza <alireza.ghpn@gmail.com>, 2013
-# Hossein Mohammadpour <2ksky92@gmail.com>, 2017
+# satin best <2ksky92@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
