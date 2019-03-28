@@ -5,6 +5,7 @@
 # Translators:
 # orange2141 <ataraxia90@gmail.com>, 2014
 # 현구 임 <bradlim980@gmail.com>, 2012
+# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2019
 # 야생참치 <kladess@gmail.com>, 2013
 # 야생참치 <kladess@gmail.com>, 2014-2015
 # 야생참치 <kladess@gmail.com>, 2017
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-11-28 04:34+0000\n"
-"Last-Translator: 야생참치 <kladess@gmail.com>\n"
+"PO-Revision-Date: 2019-03-22 13:55+0000\n"
+"Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/davidsansome/clementine/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -301,7 +302,7 @@ msgid ""
 " the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "이번 배포본에는 가사, 노래 통계, 아티스트 전기, 사진과 태그 목록 및 비슷한 아티스트를 표시하는 두 개의 새로운 정보 창이 있습니다. 사이드 바를 다시 디자인했습니다 (오른쪽 버튼으로 다시 전환할 수 있음) 등급, 재생 횟수 및 건너뛰기 횟수도 추가되었습니다. 라이브러리의 노래에서 스마트 리스트와 다이내믹 리스트를 만들 수 있으며 <a href=\"http://www.jamendo.com/\">Jamendo</a>와 Icecast 라디오를 들을 수 있습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">전체 변경 로그에서</a>확인할 수 있습니다."
 
 #: data.py:296
 msgid "Version 0.7 released"
@@ -321,7 +322,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "이번에 배포하는 Clementine은 자동 완성 기능과 자동으로 음악을 식별하고 누락된 태그를 MusicBrainz에서 불러올 수 있는 새로운 편집 태그 대화 상자를 실었습니다. 이제 CUE 시트를 지원합니다 - 라이브러리를 스캔할 때 자동으로 감지하고 각 트랙이 별도로 표시됩니다. 라이브러리 탭에 앨범 표지를 표시하고, 삭제된 노래를 회색으로 표시하며, \"파일 브라우저에 표시\"옵션, 네트워크 프락시 지원, \"전체 라이브러리 재검사\"옵션과 같은 작은 기능 개선을 했으며, 노래의 특정 위치를 보다 정확하게 찾을 수 있는 트랙 슬라이더 용 새 툴팁을 만들었습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">전체 변경 로그</a> 를 확인하세요."
 
 #: data.py:311
 msgid "Version 1.0 released"
