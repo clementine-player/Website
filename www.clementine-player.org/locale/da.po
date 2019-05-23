@@ -8,13 +8,13 @@
 # Joe Hansen <joedalton2@yahoo.dk>, 2016
 # Johan Olesen <johan.olesen97@gmail.com>, 2013
 # Peter Jespersen <flywheel@illogical.dk>, 2012-2013
-# scootergrisen, 2017-2018
+# scootergrisen, 2017-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2018-09-28 16:46+0000\n"
+"PO-Revision-Date: 2019-05-18 22:33+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/davidsansome/clementine/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -216,7 +216,7 @@ msgstr "Understøttelse af Last.fm"
 
 #: data.py:59
 msgid "Growl notifications on Mac OS X"
-msgstr "Growlpåmindelser i Mac OS X"
+msgstr "Growlunderretninger på Mac OS X"
 
 #: data.py:133
 msgid "Source code"
@@ -596,7 +596,7 @@ msgstr "Flere platforme - virker på Windows, Mac OS X og Linux."
 #: main.html:43
 msgid ""
 "Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Skrivebordsmeddelelser på Linux (libnotify) og Mac OS X (Growl)."
+msgstr "Skrivebordsunderretninger på Linux (libnotify) og Mac OS X (Growl)."
 
 #: main.html:44
 msgid "Remote control using an"
