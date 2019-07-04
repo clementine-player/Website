@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Cheng-Hong Wu <stu2731652@gmail.com>, 2012
-# taijuin lee <taijuin@gmail.com>, 2012
+# taijuin lee, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
