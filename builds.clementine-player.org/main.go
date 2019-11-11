@@ -24,9 +24,10 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "<!doctype html><body>")
 
 	bucket := client.Bucket("builds.clementine-player.org")
+	prefix := strings.TrimPrefix(r.URL.Path, "/")
 	it := bucket.Objects(ctx, &storage.Query{
 		Delimiter: "/",
-		Prefix:    strings.TrimPrefix(r.URL.Path, "/"),
+		Prefix:    prefix,
 		Versions:  false,
 	})
 	for {
@@ -42,7 +43,7 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 		if attrs.Prefix != "" {
 			fmt.Fprintf(w, "<div><a href=\"/%s\">%s</a></div>", attrs.Prefix, attrs.Prefix)
 		} else {
-			fmt.Fprintf(w, "<div><a href=\"%s\">%s</a></div>", attrs.MediaLink, attrs.Name)
+			fmt.Fprintf(w, "<div><a href=\"%s\">%s</a></div>", attrs.MediaLink, strings.TrimPrefix(attrs.Name, prefix))
 		}
 	}
 	fmt.Fprintln(w, "</body>")
