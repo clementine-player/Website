@@ -31,8 +31,10 @@ jobs:
           command: ./firebase-deploy/node_modules/.bin/firebase deploy
 
 workflows:
+  version: 2
   all:
-    - deploy_builds:
-        context: gcp
-    - firebase_deploy:
-        context: gcp
+    jobs:
+      - deploy_builds:
+          context: gcp
+      - firebase_deploy:
+          context: gcp
