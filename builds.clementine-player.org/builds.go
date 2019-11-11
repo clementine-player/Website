@@ -1,8 +1,7 @@
-package main
+package builds
 
 import (
 	"context"
-	"flag"
 	"fmt"
 	"net/http"
 	"strings"
@@ -47,11 +46,4 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	fmt.Fprintln(w, "</body>")
-}
-
-func main() {
-	flag.Parse()
-	http.HandleFunc("/", Serve)
-	glog.Infof("Serving...")
-	glog.Fatal(http.ListenAndServe(":8080", nil))
 }
