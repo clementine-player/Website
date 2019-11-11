@@ -1,0 +1,38 @@
+version: 2.1
+orbs:
+  gcp-cli: circleci/gcp-cli@1.8.2
+jobs:
+  deploy_builds:
+    executor: gcp-cli/google
+    steps:
+      - gcp-cli/initialize
+      - checkout
+      - run:
+          name: Deploy builds.clementine-player.org Function
+          working_directory: builds.clementine-player.org
+          command: >
+            gcloud functions deploy
+            Serve
+            --runtime go111
+            --trigger-http
+            --project clementine-data
+            --region us-central1
+
+  firebase_deploy:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run:
+          name: Install Firebase CLI
+          command: npm install --prefix=./firebase-deploy firebase-tools
+      - run:
+          name: Firebase deploy
+          command: ./firebase-deploy/node_modules/.bin/firebase deploy
+
+workflows:
+  all:
+    - deploy_builds:
+        context: gcp
+    - firebase_deploy:
+        context: gcp
