@@ -5,7 +5,7 @@
 # Translators:
 # Adolfo Jayme-Barrientos, 2014-2015
 # Adolfo Jayme-Barrientos, 2013
-# Adolfo Jayme-Barrientos, 2018
+# Adolfo Jayme-Barrientos, 2018-2019
 # Adolfo Jayme-Barrientos, 2015-2016
 # Adolfo Jayme-Barrientos, 2013
 # Adolfo Jayme-Barrientos, 2014
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2018-11-14 13:41+0000\n"
+"PO-Revision-Date: 2019-11-19 04:36+0000\n"
 "Last-Translator: Adolfo Jayme-Barrientos\n"
 "Language-Team: Catalan (http://www.transifex.com/davidsansome/clementine/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "Un reproductor de música multi-plataforma inspirat en l'Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine és Programari Lliure sota la llicència GPL v3. Aquest lloc web té llicència CC-BY-SA."
+msgstr "Clementine és programari lliure sota la llicència GPL v3. Aquest lloc web té llicència CC-BY-SA."
 
 #: base.html:84
 msgid "Development by"
@@ -76,7 +76,7 @@ msgstr "i"
 
 #: base.html:87
 msgid "Website by"
-msgstr "Pàgina web per"
+msgstr "Lloc web per"
 
 #: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
@@ -89,7 +89,7 @@ msgstr "Pestanya de llista de reproducció, mentre escolteu cançons de múltipl
 
 #: data.py:9
 msgid "Subsonic integration"
-msgstr "Integració amb Subsonic"
+msgstr "Integració amb el Subsonic"
 
 #: data.py:10
 msgid "Browsing playlist from the Android app"
@@ -129,7 +129,7 @@ msgstr "Opcions globals de cerca"
 
 #: data.py:23
 msgid "Grooveshark integration"
-msgstr "Integració amb Grooveshark"
+msgstr "Integració amb el Grooveshark"
 
 #: data.py:26
 msgid "Lyrics and track slider tooltip"
@@ -240,7 +240,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Tot just fa un mes des de que vam publicar la primera versió de Clementine. Aquesta nova versió implementa portades d'àlbums, millor detecció d'àlbums amb \"Diversos artistes\", suport per a carregar llistes de reproucció, i molt més."
+msgstr "Tot just fa un mes des de que vam publicar la primera versió del Clementine. Aquesta nova versió implementa cobertes d’àlbums, millor detecció d’àlbums amb «Diversos artistes», compatibilitat per a carregar llistes de reproducció i molt més."
 
 #: data.py:247
 msgid "Version 0.3 released"
@@ -446,7 +446,7 @@ msgstr "Les versions noves del Clementine requereixen del GStreamer 1.0 que no e
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
-msgstr "Altres descàrregues"
+msgstr "Altres baixades"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
@@ -520,7 +520,7 @@ msgstr "Versions de desenvolupament per al Windows"
 
 #: downloads.html:125 participate.html:83
 msgid "Buildbot"
-msgstr "Robot de compilació"
+msgstr "Buildbot"
 
 #: downloads.html:128 participate.html:86
 msgid "There's also an Ubuntu PPA for these development builds:"
@@ -629,7 +629,7 @@ msgstr "iPod, iPhone, reproductor MTP o dispositiu de dades USB."
 
 #: main.html:46
 msgid "Queue manager."
-msgstr "Gestor de llistes de reproducció."
+msgstr "Gestor de cues de reproducció."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
@@ -683,7 +683,7 @@ msgstr "Notícies"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr "Necessiteu ajuda?"
+msgstr "Us cal ajuda?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
@@ -753,7 +753,7 @@ msgstr "Podeu fer la traducció directament a Transifex, o descarregar un fitxer
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr "Traduccions Transifex"
+msgstr "Traduccions al Transifex"
 
 #: participate.html:55
 msgid "Hacking"
@@ -869,4 +869,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr "Ni el Clementine ni els seus desenvolupadors recullen cap informació d’identificació personal. Dades com les estadístiques de serveis web només es recullen d’una manera anònima. Altra informació, com els noms d’usuari, les contrasenyes i els testimonis d’autenticació per als serveis web que s’ofereixen al Clementine, mai es transmet mitjançant aquest."
+msgstr "Ni el Clementine ni els seus desenvolupadors no recullen cap informació d’identificació personal. Dades com les estadístiques de serveis web només es recullen d’una manera anònima. Altra informació, com els noms d’usuari, les contrasenyes i els testimonis d’autenticació per als serveis web que s’ofereixen al Clementine, mai no es transmet mitjançant aquest."
