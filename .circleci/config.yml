@@ -43,9 +43,9 @@ jobs:
           command: make
           working_directory: www.clementine-player.org
       - persist_to_workspace:
-          root: /tmp/www.clementine-player.org
+          root: .
           paths:
-            - www.clementine-player.org/*
+            - '*'
 
   deploy_www:
     executor: gcp-cli/google
