@@ -30,11 +30,28 @@ jobs:
           name: Firebase deploy
           command: ./firebase-deploy/node_modules/.bin/firebase deploy
 
+  build_www:
+    docker:
+      - image: alpine
+    steps:
+      - run:
+          name: Install dependencies
+          command: apk --no-cache add py-django make openjdk8-jre-base gettext
+      - run:
+          name: Build CSS and languages
+          command: make
+          working_directory: www.clementine-player.org
+      - persist_to_workspace:
+          root: /tmp/www.clementine-player.org
+          paths:
+            - www.clementine-player.org/*
+
   deploy_www:
     executor: gcp-cli/google
     steps:
       - gcp-cli/initialize
-      - checkout
+      - attach_workspace:
+          at: www.clementine-player.org
       - run:
           name: Deploy WWW
           command: gcloud app deploy --no-promote --project ${GOOGLE_PROJECT_ID}
@@ -48,5 +65,8 @@ workflows:
           context: gcp
       - firebase_deploy:
           context: gcp
+      - build_www
       - deploy_www:
           context: gcp-www
+          requires:
+              - build_www
