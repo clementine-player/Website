@@ -32,11 +32,12 @@ jobs:
 
   build_www:
     docker:
-      - image: alpine
+      - image: alpine:3.11
     steps:
       - run:
           name: Install dependencies
-          command: apk --no-cache add py-django make openjdk8-jre-base gettext
+          command: apk --no-cache --no-progress add py-django make openjdk8-jre-base gettext
+      - checkout
       - run:
           name: Build CSS and languages
           command: make
