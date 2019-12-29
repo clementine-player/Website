@@ -33,6 +33,7 @@ jobs:
   deploy_www:
     executor: gcp-cli/google
     steps:
+      - gcp-cli/initialize
       - checkout
       - run:
           name: Deploy WWW
