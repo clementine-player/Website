@@ -43,7 +43,7 @@ jobs:
           command: make
           working_directory: www.clementine-player.org
       - persist_to_workspace:
-          root: .
+          root: www.clementine-player.org
           paths:
             - '*'
 
