@@ -64,8 +64,14 @@ workflows:
     jobs:
       - deploy_builds:
           context: gcp
+          filters:
+            branches:
+              only: master
       - firebase_deploy:
           context: gcp
+          filters:
+            branches:
+              only: master
       - build_www
       - deploy_www:
           context: gcp-www
