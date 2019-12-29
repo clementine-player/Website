@@ -30,6 +30,15 @@ jobs:
           name: Firebase deploy
           command: ./firebase-deploy/node_modules/.bin/firebase deploy
 
+  deploy_www:
+    executor: gcp-cli/google
+    steps:
+      - checkout
+      - run:
+          name: Deploy WWW
+          command: gcloud app deploy --no-promote --project ${GOOGLE_PROJECT_ID}
+          working_directory: www.clementine-player.org
+
 workflows:
   version: 2
   all:
@@ -38,3 +47,5 @@ workflows:
           context: gcp
       - firebase_deploy:
           context: gcp
+      - deploy_www:
+          context: gcp-www
