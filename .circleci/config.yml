@@ -55,7 +55,7 @@ jobs:
           at: www.clementine-player.org
       - run:
           name: Deploy WWW
-          command: gcloud app deploy --no-promote --project ${GOOGLE_PROJECT_ID}
+          command: gcloud app deploy --no-promote --project ${GOOGLE_PROJECT_ID} app.yaml cron.yaml
           working_directory: www.clementine-player.org
 
 workflows:
