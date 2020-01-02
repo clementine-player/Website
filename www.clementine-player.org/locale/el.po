@@ -23,7 +23,7 @@
 # Wasilis Mandratzis-Walz, 2015
 # Xenophon Sp <nohponex@gmail.com>, 2013-2014
 # Γιάννης Ανθυμίδης, 2012
-# Γιάννης Ανθυμίδης, 2012
+# Yannis Anthymidis, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
