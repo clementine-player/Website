@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Balázs Meskó <meskobalazs@gmail.com>, 2015-2017
-# lukibeni <lukacs.bence1@gmail.com>, 2012
-# lukibeni <lukacs.bence1@gmail.com>, 2012
+# 1942ffb5e9d049d89a8409ca10a60f49, 2012
+# 1942ffb5e9d049d89a8409ca10a60f49, 2012
 # ricsipontaz <ricsipontaz@googlemail.com>, 2012
 # ricsipontaz <ricsipontaz@googlemail.com>, 2012
 msgid ""

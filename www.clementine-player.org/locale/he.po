@@ -6,8 +6,8 @@
 # Elia Shreidler <elia.shreidler@gmail.com>, 2013
 # Elia Shreidler <elia.shreidler@gmail.com>, 2013
 # onespace <netanelrevah@outlook.com>, 2014
-# Uri Damsker <ud1955@gmail.com>, 2013
-# Uri Damsker <ud1955@gmail.com>, 2013
+# ac2c63e08b5f6befdcdb1d03cd55f4da, 2013
+# ac2c63e08b5f6befdcdb1d03cd55f4da, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
