@@ -20,10 +20,22 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintln(w, "<!doctype html><body>")
-
 	bucket := client.Bucket("builds.clementine-player.org")
 	prefix := strings.TrimPrefix(r.URL.Path, "/")
+	if prefix != "" {
+		attr, err := bucket.Object(prefix).Attrs(ctx)
+		if err != nil {
+			if err != storage.ErrObjectNotExist {
+				glog.Errorf("%v", err)
+				return
+			}
+		} else {
+			http.Redirect(w, r, attr.MediaLink, http.StatusTemporaryRedirect)
+			return
+		}
+	}
+
+	fmt.Fprintln(w, "<!doctype html><body>")
 	it := bucket.Objects(ctx, &storage.Query{
 		Delimiter: "/",
 		Prefix:    prefix,
