@@ -4,8 +4,8 @@ import (
 	"flag"
 	"net/http"
 
-	"github.com/golang/glog"
 	builds "github.com/clementine-player/Website/builds.clementine-player.org"
+	"github.com/golang/glog"
 )
 
 func main() {

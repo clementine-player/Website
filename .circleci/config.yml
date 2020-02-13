@@ -2,6 +2,15 @@ version: 2.1
 orbs:
   gcp-cli: circleci/gcp-cli@1.8.2
 jobs:
+  builds_builds:
+    docker:
+      - image: golang:1.11
+    steps:
+      - checkout
+      - run:
+          working_directory: builds.clementine-player.org
+          command: go build
+
   deploy_builds:
     executor: gcp-cli/google
     steps:
@@ -62,8 +71,11 @@ workflows:
   version: 2
   all:
     jobs:
+      - builds_builds
       - deploy_builds:
           context: gcp
+          requires:
+            - builds_builds
           filters:
             branches:
               only: master
