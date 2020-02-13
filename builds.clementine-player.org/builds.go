@@ -35,7 +35,9 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	fmt.Fprintln(w, "<!doctype html><body>")
+	fmt.Fprintln(w, "<!doctype html>")
+	fmt.Fprintln(w, "<head><meta name=\"google\" content=\"notranslate\"></head>")
+	fmt.Fprintln(w, "<body>")
 	it := bucket.Objects(ctx, &storage.Query{
 		Delimiter: "/",
 		Prefix:    prefix,
