@@ -3,7 +3,6 @@ package builds
 import (
 	"context"
 	"fmt"
-	"io"
 	"net/http"
 	"strings"
 
@@ -25,19 +24,14 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 	prefix := strings.TrimPrefix(r.URL.Path, "/")
 	if prefix != "" {
 		object := bucket.Object(prefix)
-		reader, err := object.NewReader(ctx)
+		attrs, err := object.Attrs(ctx)
 		if err != nil {
 			if err != storage.ErrObjectNotExist {
 				glog.Errorf("%v", err)
 				return
 			}
 		} else {
-			split := strings.Split(object.ObjectName(), "/")
-			filename := split[len(split)-1]
-			w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=\"%s\"", filename))
-			if _, err := io.Copy(w, reader); err != nil {
-				glog.Errorf("%v", err)
-			}
+			http.Redirect(w, r, attrs.MediaLink, http.StatusTemporaryRedirect)
 			return
 		}
 	}
