@@ -73,6 +73,7 @@ jobs:
       - run:
           name: Debug
           command: cat app.yaml
+          working_directory: www.clementine-player.org
       - run:
           name: Deploy WWW
           command: gcloud app deploy --project ${GOOGLE_PROJECT_ID} app.yaml cron.yaml
