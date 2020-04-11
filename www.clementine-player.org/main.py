@@ -45,11 +45,12 @@ import logging
 import re
 
 from google.appengine.api import app_identity
+from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 
 
 SEKRIT_TOKEN='YmE4OWJlODY5Y2FjNmY3ZWZhYTE3YzQyMjY1NWMyZTA0MDk4M2I2Njo='
-
+RELEASES_KEY='github_releases'
 
 class Error(Exception):
   pass
@@ -61,12 +62,17 @@ class GithubFetchError(Error):
 
 class BasePage(webapp2.RequestHandler):
   def _FetchRelease(self):
-    r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest', headers={
-      'Authorization': 'Basic %s' % SEKRIT_TOKEN,
-    })
-    if r.status_code != 200:
-      raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.content))
-    result = json.loads(r.content)
+    content = memcache.get(RELEASES_KEY)
+    if content is None:
+      r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest', headers={
+        'Authorization': 'Basic %s' % SEKRIT_TOKEN,
+      })
+      if r.status_code != 200:
+        raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.content))
+      memcache.set(RELEASES_KEY, r.content, time=60*60)
+      content = r.content
+
+    result = json.loads(content)
     downloads = []
     for asset in result['assets']:
       info = {
