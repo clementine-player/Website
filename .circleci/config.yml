@@ -65,7 +65,7 @@ jobs:
       - run:
           name: Add environment to app.yaml
           command: |
-            >> app.yaml <<- EOM
+            >> app.yaml \<<- EOM
             env_variables:
               GITHUB_TOKEN: ${GITHUB_TOKEN}
             EOM
