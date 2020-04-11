@@ -48,6 +48,9 @@ from google.appengine.api import app_identity
 from google.appengine.api import urlfetch
 
 
+SEKRIT_TOKEN='YmE4OWJlODY5Y2FjNmY3ZWZhYTE3YzQyMjY1NWMyZTA0MDk4M2I2Njo='
+
+
 class Error(Exception):
   pass
 
@@ -58,7 +61,9 @@ class GithubFetchError(Error):
 
 class BasePage(webapp2.RequestHandler):
   def _FetchRelease(self):
-    r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest')
+    r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest', headers={
+      'Authorization': 'Basic %s' % SEKRIT_TOKEN,
+    })
     if r.status_code != 200:
       raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.content))
     result = json.loads(r.content)
