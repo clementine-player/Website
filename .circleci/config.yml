@@ -66,7 +66,7 @@ jobs:
           name: Add environment to app.yaml
           command: >
             echo 'env_variables:' >> app.yaml &&
-            echo "GITHUB_TOKEN: ${GITHUB_TOKEN}" >> app.yaml
+            echo "  GITHUB_TOKEN: ${GITHUB_TOKEN}" >> app.yaml
           working_directory: www.clementine-player.org
       - run:
           name: Debug
