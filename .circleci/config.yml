@@ -63,6 +63,13 @@ jobs:
       - attach_workspace:
           at: www.clementine-player.org
       - run:
+          name: Add environment to app.yaml
+          command: |
+            >> app.yaml <<- EOM
+            env_variables:
+              GITHUB_TOKEN: ${GITHUB_TOKEN}
+            EOM
+      - run:
           name: Deploy WWW
           command: gcloud app deploy --project ${GOOGLE_PROJECT_ID} app.yaml cron.yaml
           working_directory: www.clementine-player.org

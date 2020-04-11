@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import babel
+import base64
 import jinja2
 import os
 import re
@@ -49,7 +50,7 @@ from google.appengine.api import memcache
 from google.appengine.api import urlfetch
 
 
-SEKRIT_TOKEN='YmE4OWJlODY5Y2FjNmY3ZWZhYTE3YzQyMjY1NWMyZTA0MDk4M2I2Njo='
+GITHUB_TOKEN=os.environ['GITHUB_TOKEN']
 RELEASES_KEY='github_releases'
 
 class Error(Exception):
@@ -64,8 +65,9 @@ class BasePage(webapp2.RequestHandler):
   def _FetchRelease(self):
     content = memcache.get(RELEASES_KEY)
     if content is None:
+      token = base64.b64encode('%s:' % GITHUB_TOKEN)
       r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest', headers={
-        'Authorization': 'Basic %s' % SEKRIT_TOKEN,
+        'Authorization': 'Basic %s' % token,
       })
       if r.status_code != 200:
         raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.content))
