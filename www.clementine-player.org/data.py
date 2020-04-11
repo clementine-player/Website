@@ -2,6 +2,36 @@
 
 def _(x): return x
 
+UBUNTU_NAMES = [
+  'precise',
+  'quantal',
+  'raring',
+  'saucy',
+  'trusty',
+  'utopic',
+  'vivid',
+  'wily',
+  'xenial',
+  'yakkety',
+  'zesty',
+  'artful',
+  'bionic',
+  'cosmic',
+  'disco',
+  'eoan',
+  'focal',
+]
+
+DEBIAN_NAMES = [
+  'squeeze',
+  'wheezy',
+  'jessie',
+  'stretch',
+  'buster',
+  'bullseye',
+  'sid',
+]
+
 LATEST_VERSION = '1.3.1'
 SCREENSHOTS = [
   {'version': '1.2', 'entries': [

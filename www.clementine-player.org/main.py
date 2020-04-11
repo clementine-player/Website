@@ -3,6 +3,7 @@
 import babel
 import jinja2
 import os
+import re
 import webapp2
 
 from webapp2_extras import i18n
@@ -17,6 +18,11 @@ from data import NEWS
 from data import OS_LOGOS
 from data import SCREENSHOTS
 from data import SHORT_DISPLAY_OS
+
+from data import DEBIAN_NAMES
+from data import UBUNTU_NAMES
+
+def _(x): return x
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
@@ -43,14 +49,76 @@ from google.appengine.api import urlfetch
 
 
 class BasePage(webapp2.RequestHandler):
-  def ComputeDownloadInfo(self, d):
-    display_os = DISPLAY_OS[d['os']]
-    short_display_os = SHORT_DISPLAY_OS[d['os']]
-    version = d['ver']
-    d['display_os'] = i18n.gettext(display_os)
-    d['short_os'] = i18n.gettext(short_display_os)
-    d['os_logo'] = OS_LOGOS[d['os']]
-    d['url'] =  DOWNLOAD_BASE_URL + d['name']
+  def _FetchRelease(self):
+    r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest')
+    result = json.loads(r.content)
+    downloads = []
+    for asset in result['assets']:
+      info = {
+        'os': 'Unknown',
+        'ver': result['tag_name'],
+        'arch': 0,
+        'url': asset['browser_download_url'],
+      }
+      if asset['content_type'] == 'application/x-rpm':
+        info['os'] = 'fedora'
+        info['short_os'] = 'Fedora'
+        info['os_logo'] = 'fedora-logo.png'
+        if 'x86_64' in asset['name']:
+          info['arch'] = 64
+        elif 'i686' in asset['name']:
+          info['arch'] = 32
+        m = re.search(r'\.fc(\d+)\.', asset['name'])
+        if m:
+          v = m.group(1)
+          info['display_os'] = 'Fedora %s' % v
+        else:
+          info['display_os'] = 'Fedora'
+      elif asset['content_type'] == 'application/x-apple-diskimage':
+        info['os'] = 'mac'
+        info['display_os'] = 'Mac'
+        info['short_os'] = 'Mac'
+        info['os_logo'] = 'leopard-logo.png'
+        info['arch'] = 64
+      elif asset['content_type'] == 'application/x-xz':
+        info['os'] = 'source'
+        info['display_os'] = _('Source Code')
+        info['short_os'] = _('Source')
+        info['os_logo'] = 'source-logo.png'
+      elif asset['content_type'] == 'application/x-ms-dos-executable':
+        info['os'] = 'windows'
+        info['display_os'] = 'Windows'
+        info['short_os'] = 'Windows'
+        info['os_logo'] = 'windows-logo.png'
+        info['arch'] = 32
+      elif asset['content_type'] == 'application/x-deb' or asset['content_type'] == 'application/vnd.debian.binary-package':
+        for n in DEBIAN_NAMES:
+          if n in asset['name']:
+            info['os'] = 'debian'
+            info['display_os'] = 'Debian %s' % n.capitalize()
+            info['short_os'] = n.capitalize()
+            info['os_logo'] = 'squeeze-logo.png'
+
+        for n in UBUNTU_NAMES:
+          if n in asset['name']:
+            info['os'] = 'ubuntu'
+            info['display_os'] = 'Ubuntu %s' % n.capitalize()
+            info['short_os'] = n.capitalize()
+            info['os_logo'] = 'ubuntu-logo.png'
+
+        if 'i386' in asset['name']:
+          info['arch'] = 32
+        elif 'amd64' in asset['name']:
+          info['arch'] = 64
+        elif 'armhf' in asset['name']:
+          info['arch'] = 32
+          info['display_os'] = 'Raspberry Pi'
+          info['short_os'] = 'RPI'
+          info['os_logo'] = 'raspberry-pi-logo.png'
+        
+      downloads.append(info)
+    return downloads
+
 
   def MakePage(self, template_file, language, extra_params=None):
     root_page = "/"
@@ -71,10 +139,7 @@ class BasePage(webapp2.RequestHandler):
     # i18n
     self.response.headers['Content-Language'] = i18n.get_i18n().locale
 
-    # Add extra display information to the list of downloads
-    downloads = copy.deepcopy(DOWNLOADS)
-    for d in downloads:
-      self.ComputeDownloadInfo(d)
+    downloads = self._FetchRelease()
 
     # Add datetime objects to the list of news
     news = copy.deepcopy(NEWS)
@@ -94,30 +159,16 @@ class BasePage(webapp2.RequestHandler):
     # Try to detect the user's OS and architecture
     ua = self.request.headers['User-Agent'].lower()
     if 'win' in ua:
-      best_download = self.FindDownload('windows')
+      best_download = self.FindDownload(downloads, 'windows', 32)
     elif 'mac' in ua:
-      best_download = self.FindDownload('mlion')
+      best_download = self.FindDownload(downloads, 'mac', 64)
     elif 'fedora' in ua:
       if '64' in ua:
-        best_download = self.FindDownload('fedora16', 64)
+        best_download = self.FindDownload(downloads, 'fedora', 64)
       else:
-        best_download = self.FindDownload('fedora16', 32)
-    elif 'maverick' in ua:
-      if '64' in ua:
-        best_download = self.FindDownload('umaverick', 64)
-      else:
-        best_download = self.FindDownload('umaverick', 32)
-    elif 'lucid' in ua:
-      if '64' in ua:
-        best_download = self.FindDownload('ubuntu', 64)
-      else:
-        best_download = self.FindDownload('ubuntu', 32)
+        best_download = self.FindDownload(downloads, 'fedora', 32)
     else:
       best_download = None
-
-    # Translate the best download strings
-    if best_download is not None:
-      self.ComputeDownloadInfo(best_download)
 
     languages = [{'code': x, 'name': LANGUAGE_NAMES[x], 'current': x == language} for x in LANGUAGES]
 
@@ -140,10 +191,10 @@ class BasePage(webapp2.RequestHandler):
     template = jinja_environment.get_template(template_file)
     self.response.out.write(template.render(params))
 
-  def FindDownload(self, os, arch=0):
-    downloads = [x for x in DOWNLOADS if x['os'] == os
-                                     and x['arch'] == arch
-                                     and x['ver'][:3] == LATEST_VERSION[:3]]
+  def FindDownload(self, downloads, os, arch=0):
+    downloads = [x for x in downloads if x['os'] == os
+                                      and x['arch'] == arch
+                                      and x['ver'][:3] == LATEST_VERSION[:3]]
     if downloads:
       return copy.deepcopy(downloads[0])
     else:
