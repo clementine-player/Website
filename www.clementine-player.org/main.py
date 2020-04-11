@@ -52,6 +52,8 @@ class BasePage(webapp2.RequestHandler):
   def _FetchRelease(self):
     r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest')
     result = json.loads(r.content)
+    if result.status_code != 200:
+      raise 'Error fetching releases: %d %s' % (result.status_code, result.content)
     downloads = []
     for asset in result['assets']:
       info = {
