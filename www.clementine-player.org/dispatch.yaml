@@ -1,5 +1,1 @@
 dispatch:
-  - url: "*/.well-known/acme-challenge/*"
-    service: ssl-certificates
-  - url: "*/ssl-certificates/*"
-    service: ssl-certificates
