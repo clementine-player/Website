@@ -20,6 +20,11 @@ func Serve(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	if r.URL.Path == "/" {
+		http.Redirect(w, r, "https://github.com/clementine-player/Clementine/releases", http.StatusPermanentRedirect)
+		return
+	}
+
 	bucket := client.Bucket("builds.clementine-player.org")
 	prefix := strings.TrimPrefix(r.URL.Path, "/")
 	if prefix != "" {
