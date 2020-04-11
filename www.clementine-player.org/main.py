@@ -48,11 +48,19 @@ from google.appengine.api import app_identity
 from google.appengine.api import urlfetch
 
 
+class Error(Exception):
+  pass
+
+
+class GithubFetchError(Error):
+  pass
+
+
 class BasePage(webapp2.RequestHandler):
   def _FetchRelease(self):
     r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest')
     if r.status_code != 200:
-      raise 'Error fetching releases: %d %s' % (r.status_code, r.content)
+      raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.content))
     result = json.loads(r.content)
     downloads = []
     for asset in result['assets']:
