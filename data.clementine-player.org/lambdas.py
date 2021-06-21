@@ -4,7 +4,7 @@ from google.appengine.api import urlfetch
 import requests
 import webapp2
 
-BIO_URL = 'https://grzw1j1yvf.execute-api.us-east-1.amazonaws.com/prod/FetchBio'
+BIO_URL = 'https://bio-5ctfinxp4a-lz.a.run.app/'
 IMAGES_URL = 'https://grzw1j1yvf.execute-api.us-east-1.amazonaws.com/prod/fetchimages'
 
 BIO_KEY = 'bio/%s/%s'
