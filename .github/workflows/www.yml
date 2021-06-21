@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - www
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container: alpine:3.14
+    steps:
+      - name: Install dependencies
+        run: apk --no-cache add py-django make openjdk8-jre-base gettext
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: build
+        run: make
+        working-directory: www.clementine-player.org
+        
