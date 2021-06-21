@@ -5,7 +5,7 @@ import requests
 import webapp2
 
 BIO_URL = 'https://bio-5ctfinxp4a-lz.a.run.app/'
-IMAGES_URL = 'https://grzw1j1yvf.execute-api.us-east-1.amazonaws.com/prod/fetchimages'
+IMAGES_URL = 'https://images-5ctfinxp4a-lz.a.run.app/'
 
 BIO_KEY = 'bio/%s/%s'
 IMAGES_KEY = 'images/%s'

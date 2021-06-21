@@ -1,4 +1,4 @@
-module github.com/clementine/Website/lambda.clementine-player.org/bio
+module github.com/clementine-player/Website/lambda.clementine-player.org/bio
 
 go 1.16
 
