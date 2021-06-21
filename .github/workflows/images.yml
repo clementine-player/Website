@@ -42,6 +42,6 @@ jobs:
           --platform managed
           --allow-unauthenticated
           --project clementine-web
-          --set-env-vars=01553d0be6054defb275ae899d368b1e
+          --set-env-vars=SPOTIFY_CLIENT_ID=01553d0be6054defb275ae899d368b1e
           --set-secrets SPOTIFY_CLIENT_SECRET=SPOTIFY_CLIENT_SECRET:latest
           --service-account images@clementine-web.iam.gserviceaccount.com
