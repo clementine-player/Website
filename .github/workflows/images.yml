@@ -45,3 +45,4 @@ jobs:
           --set-env-vars=SPOTIFY_CLIENT_ID=01553d0be6054defb275ae899d368b1e
           --set-secrets SPOTIFY_CLIENT_SECRET=SPOTIFY_CLIENT_SECRET:latest
           --service-account images@clementine-web.iam.gserviceaccount.com
+          --max-instances=1
