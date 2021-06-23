@@ -44,3 +44,4 @@ jobs:
           --project clementine-web
           --set-secrets KG_API_KEY=KG_API_KEY:latest
           --service-account bio-511@clementine-web.iam.gserviceaccount.com
+          --max-instances=1
