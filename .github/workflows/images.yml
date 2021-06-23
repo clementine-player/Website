@@ -46,3 +46,4 @@ jobs:
           --set-secrets SPOTIFY_CLIENT_SECRET=SPOTIFY_CLIENT_SECRET:latest
           --service-account images@clementine-web.iam.gserviceaccount.com
           --max-instances=1
+          --memory=128Mi
