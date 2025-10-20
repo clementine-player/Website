@@ -1,78 +1,64 @@
 # -*- coding: utf-8 -*-
 
 import babel
-import base64
-import jinja2
-import os
-import re
-import webapp2
+from flask import Flask, render_template, request, g, redirect, send_file, jsonify
+from flask_babel import Babel, gettext
+from PIL import Image
+import io
+import google.auth
 
-from webapp2_extras import i18n
-
-from data import DISPLAY_OS
-from data import DOWNLOAD_BASE_URL
-from data import DOWNLOADS
-from data import LANGUAGE_NAMES
-from data import LANGUAGES
-from data import LATEST_VERSION
-from data import NEWS
-from data import OS_LOGOS
-from data import SCREENSHOTS
-from data import SHORT_DISPLAY_OS
-
-from data import DEBIAN_NAMES
-from data import UBUNTU_NAMES
-
-def _(x): return x
-
-jinja_environment = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
-    extensions=['jinja2.ext.i18n', 'jinja2.ext.with_'])
-jinja_environment.install_gettext_translations(i18n)
-
-def format_datetime(value, language='en'):
-  # Babel supports fewer locales than we do so change to English for 
-  # unsupported locales.
-  if not babel.localedata.exists(language):
-    language = 'en'
-  return babel.dates.format_date(value, format='full', locale=language)
-jinja_environment.filters['datetime'] = format_datetime
-
+import data
 import copy
 import datetime
-import gettext
 import json
-import logging
 import re
+import os
+import requests
+from cachelib import SimpleCache
 
-from google.appengine.api import app_identity
-from google.appengine.api import memcache
-from google.appengine.api import urlfetch
+app = Flask(__name__)
+babel_ext = Babel(app)
+cache = SimpleCache()
 
-
-GITHUB_TOKEN=os.environ['GITHUB_TOKEN']
+GITHUB_TOKEN=os.environ.get('GITHUB_TOKEN')
 RELEASES_KEY='github_releases'
 
-class Error(Exception):
-  pass
+@app.before_request
+def before_request():
+    path_parts = request.path.split('/')
+    if len(path_parts) > 1 and path_parts[1] in data.LANGUAGES:
+        g.language = path_parts[1]
+    else:
+        g.language = request.accept_languages.best_match(data.LANGUAGES)
+    if g.language is None:
+        g.language = 'en'
+    g.locale = g.language
 
 
-class GithubFetchError(Error):
-  pass
+@babel_ext.locale_selector
+def get_locale():
+    return g.get('locale', 'en')
 
+def format_datetime(value, language='en'):
+    if not babel.localedata.exists(language):
+        language = 'en'
+    return babel.dates.format_date(value, format='full', locale=language)
 
-class BasePage(webapp2.RequestHandler):
-  def _FetchRelease(self):
-    content = memcache.get(RELEASES_KEY)
+app.jinja_env.filters['datetime'] = format_datetime
+
+def _fetch_release():
+    content = cache.get(RELEASES_KEY)
     if content is None:
-      token = base64.b64encode('%s:' % GITHUB_TOKEN)
-      r = urlfetch.fetch('https://api.github.com/repos/clementine-player/Clementine/releases/latest', headers={
-        'Authorization': 'Basic %s' % token,
+      if not GITHUB_TOKEN:
+          return []
+      auth_header = 'token %s' % GITHUB_TOKEN
+      r = requests.get('https://api.github.com/repos/clementine-player/Clementine/releases/latest', headers={
+        'Authorization': auth_header,
       })
       if r.status_code != 200:
-        raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.content))
-      memcache.set(RELEASES_KEY, r.content, time=60*60)
-      content = r.content
+        raise Exception('Error fetching releases: %d %s' % (r.status_code, r.text))
+      cache.set(RELEASES_KEY, r.text, timeout=60*60)
+      content = r.text
 
     result = json.loads(content)
     downloads = []
@@ -105,8 +91,8 @@ class BasePage(webapp2.RequestHandler):
         info['arch'] = 64
       elif asset['content_type'] == 'application/x-xz':
         info['os'] = 'source'
-        info['display_os'] = _('Source Code')
-        info['short_os'] = _('Source')
+        info['display_os'] = gettext('Source Code')
+        info['short_os'] = gettext('Source')
         info['os_logo'] = 'source-logo.png'
       elif asset['content_type'] == 'application/x-ms-dos-executable':
         info['os'] = 'windows'
@@ -115,14 +101,14 @@ class BasePage(webapp2.RequestHandler):
         info['os_logo'] = 'windows-logo.png'
         info['arch'] = 32
       elif asset['content_type'] == 'application/x-deb' or asset['content_type'] == 'application/vnd.debian.binary-package':
-        for n in DEBIAN_NAMES:
+        for n in data.DEBIAN_NAMES:
           if n in asset['name']:
             info['os'] = 'debian'
             info['display_os'] = 'Debian %s' % n.capitalize()
             info['short_os'] = n.capitalize()
             info['os_logo'] = 'squeeze-logo.png'
 
-        for n in UBUNTU_NAMES:
+        for n in data.UBUNTU_NAMES:
           if n in asset['name']:
             info['os'] = 'ubuntu'
             info['display_os'] = 'Ubuntu %s' % n.capitalize()
@@ -138,176 +124,158 @@ class BasePage(webapp2.RequestHandler):
           info['display_os'] = 'Raspberry Pi'
           info['short_os'] = 'RPI'
           info['os_logo'] = 'raspberry-pi-logo.png'
-        
+
       downloads.append(info)
     return downloads
 
-
-  def MakePage(self, template_file, language, extra_params=None):
-    root_page = "/"
-
-    if language is None:
-      language = self.GetLanguageFromRequest()
+def find_download(downloads, os, arch=0):
+    downloads = [x for x in downloads if x['os'] == os
+                                      and x['arch'] == arch
+                                      and x['ver'][:3] == data.LATEST_VERSION[:3]]
+    if downloads:
+      return copy.deepcopy(downloads[0])
     else:
-      root_page = "/%s/" % language
+      return None
 
+
+def _make_page(template_file, language=None, extra_params=None):
     if language is None:
-      language = 'en'
+        language = g.language
 
-    i18n.get_i18n().set_locale(language)
+    root_page = "/"
+    if language != 'en':
+        root_page = "/%s/" % language
 
     if extra_params is None:
       extra_params = {}
 
-    # i18n
-    self.response.headers['Content-Language'] = i18n.get_i18n().locale
-
-    downloads = self._FetchRelease()
+    downloads = _fetch_release()
 
     # Add datetime objects to the list of news
-    news = copy.deepcopy(NEWS)
+    news = copy.deepcopy(data.NEWS)
     for n in news:
       title = n['title']
       content = n['content']
       n['datetime'] = datetime.datetime.fromtimestamp(n['timestamp'])
-      n['title'] = i18n.gettext(title)
-      n['content'] = i18n.gettext(content)
+      n['title'] = gettext(title)
+      n['content'] = gettext(content)
 
-    screenshots = copy.deepcopy(SCREENSHOTS)
+    screenshots = copy.deepcopy(data.SCREENSHOTS)
     for s in screenshots:
       for e in s['entries']:
         title = e['title']
-        e['title'] = i18n.gettext(title)
+        e['title'] = gettext(title)
 
     # Try to detect the user's OS and architecture
-    ua = self.request.headers['User-Agent'].lower()
+    ua = request.headers.get('User-Agent', '').lower()
     if 'win' in ua:
-      best_download = self.FindDownload(downloads, 'windows', 32)
+      best_download = find_download(downloads, 'windows', 32)
     elif 'mac' in ua:
-      best_download = self.FindDownload(downloads, 'mac', 64)
+      best_download = find_download(downloads, 'mac', 64)
     elif 'fedora' in ua:
       if '64' in ua:
-        best_download = self.FindDownload(downloads, 'fedora', 64)
+        best_download = find_download(downloads, 'fedora', 64)
       else:
-        best_download = self.FindDownload(downloads, 'fedora', 32)
+        best_download = find_download(downloads, 'fedora', 32)
     else:
       best_download = None
 
-    languages = [{'code': x, 'name': LANGUAGE_NAMES[x], 'current': x == language} for x in LANGUAGES]
+    languages = [{'code': x, 'name': data.LANGUAGE_NAMES[x], 'current': x == language} for x in data.LANGUAGES]
 
     params = {
       'best_download':      best_download,
       'downloads':          downloads,
-      'latest_downloads':   [x for x in downloads if x['ver'] == LATEST_VERSION],
+      'latest_downloads':   [x for x in downloads if x['ver'] == data.LATEST_VERSION],
       'latest_screenshots': screenshots[0]['entries'],
-      'latest_version':     LATEST_VERSION,
+      'latest_version':     data.LATEST_VERSION,
       'news':               news,
       'language':           language,
       'languages':          languages,
-      'old_downloads':      [x for x in downloads if x['ver'] != LATEST_VERSION],
+      'old_downloads':      [x for x in downloads if x['ver'] != data.LATEST_VERSION],
       'root_page':          root_page,
       'screenshots':        screenshots,
       'is_rtl':             language == 'ar' or language == 'fa' or language == 'he',
     }
     params.update(extra_params)
 
-    template = jinja_environment.get_template(template_file)
-    self.response.out.write(template.render(params))
+    return render_template(template_file, **params)
 
-  def FindDownload(self, downloads, os, arch=0):
-    downloads = [x for x in downloads if x['os'] == os
-                                      and x['arch'] == arch
-                                      and x['ver'][:3] == LATEST_VERSION[:3]]
-    if downloads:
-      return copy.deepcopy(downloads[0])
-    else:
-      return None
+@app.route('/thumbnails/<filename>')
+def thumbnail(filename):
+    thumbnail_data = cache.get(filename)
+    if thumbnail_data is None:
+        image_path = os.path.join(app.static_folder, 'screenshots', filename)
+        if os.path.exists(image_path):
+            with Image.open(image_path) as img:
+                img.thumbnail((440, 440))
+                img_io = io.BytesIO()
+                img.save(img_io, 'PNG')
+                img_io.seek(0)
+                thumbnail_data = img_io.read()
+                cache.set(filename, thumbnail_data)
+        else:
+            return "Image not found", 404
+    return send_file(io.BytesIO(thumbnail_data), mimetype='image/png')
 
-  # Similar to django.utils.translation.get_language_from_request which has no equivalent in jinja2
-  def GetLanguageFromRequest(self):
-    if not 'Accept-Language' in self.request.headers:
-      return None
+@app.route('/scheduled/trigger-transifex-pull')
+def trigger_transifex_pull():
+    credentials, project = google.auth.default(
+        scopes=['https://www.googleapis.com/auth/cloud-platform'])
+    authed_session = google.auth.transport.requests.AuthorizedSession(credentials)
 
-    accepted_languages_header = self.request.headers['Accept-Language']
-    accepted_languages = [language.split(';')[0].replace('-', '_').lower() for language in accepted_languages_header.split(',')]
-    for accepted_language in accepted_languages:
-      if accepted_language in [language.lower() for language in LANGUAGES]:
-        return accepted_language
-    return None
-
-
-class MainPage(BasePage):
-  def get(self, language):
-    self.MakePage('main.html', language)
-
-class ScreenshotsPage(BasePage):
-  def get(self, language):
-    self.MakePage('screenshots.html', language)
-
-class DownloadsPage(BasePage):
-  def get(self, language):
-    self.MakePage('downloads.html', language)
-
-class ParticipatePage(BasePage):
-  def get(self, language):
-    self.MakePage('participate.html', language)
-
-class WiimotePage(webapp2.RequestHandler):
-  def get(self):
-    self.redirect('https://github.com/clementine-player/Clementine/wiki/Wii-Remotes')
-
-class PrivacyPage(BasePage):
-  def get(self, language):
-    self.MakePage('privacy.html', language)
-
-class AcmeChallengePage(webapp2.RequestHandler):
-  def get(self):
-    self.redirect(
-        'https://builds.clementine-player.org' + self.request.path)
-
-  def post(self):
-    self.redirect(
-        'https://builds.clementine-player.org' + self.request.path)
-
-class TransifexPullPage(webapp2.RequestHandler):
-  def get(self):
-    token, _ = app_identity.get_access_token('https://www.googleapis.com/auth/cloud-platform')
-    response = urlfetch.fetch(
+    response = authed_session.post(
         'https://cloudbuild.googleapis.com/v1/projects/clementine-web/triggers/e19d2c38-5478-4282-a475-ee54d6d5363a:run',
-        method=urlfetch.POST,
-        payload=json.dumps({
+        data=json.dumps({
             'projectId': 'clementine-web',
             'repoName': 'github-clementine-player-website',
             'branchName': 'master',
-        }),
-        headers={
-          'Authorization': 'Bearer {}'.format(token),
-          'Content-Type': 'application/json',
         })
-    if response.status_code != 200:
-      raise Exception('Triggering build failed: {}'.format(response.content))
-    result = json.loads(response.content)
-    self.response.headers['Content-Type'] = 'application/json'
-    self.response.write(json.dumps(result, indent=2))
+    )
+    return jsonify(response.json())
 
-config = {}
-config['webapp2_extras.i18n'] = {
-    'domains': ['django'],
-    'translations_path': os.path.join(os.path.dirname(__file__), 'locale'),
-}
+@app.route('/')
+def main_page_no_lang():
+    return _make_page('main.html')
 
-LANG_RE = r'/(?:([a-zA-Z]{2}(?:_[a-zA-Z]{2})?(?:@latin)?)/?)?'
-app = webapp2.WSGIApplication(
-  [
-    (LANG_RE + '',            MainPage),
-    (LANG_RE + 'about',       MainPage),
-    (LANG_RE + 'screenshots', ScreenshotsPage),
-    (LANG_RE + 'downloads',   DownloadsPage),
-    (LANG_RE + 'participate', ParticipatePage),
-    (LANG_RE + 'privacy',     PrivacyPage),
-    (r'/wiimote',             WiimotePage),
-    (r'/.well-known/acme-challenge/.*', AcmeChallengePage),
-    (r'/scheduled/trigger-transifex-pull', TransifexPullPage),
-  ],
-  config=config,
-  debug=True)
+@app.route('/<language>/')
+def main_page(language=None):
+    return _make_page('main.html', language)
+
+@app.route('/screenshots')
+def screenshots_page_no_lang():
+    return _make_page('screenshots.html')
+
+@app.route('/<language>/screenshots')
+def screenshots_page(language=None):
+    return _make_page('screenshots.html', language)
+
+@app.route('/downloads')
+def downloads_page_no_lang():
+    return _make_page('downloads.html')
+
+@app.route('/<language>/downloads')
+def downloads_page(language=None):
+    return _make_page('downloads.html', language)
+
+@app.route('/participate')
+def participate_page_no_lang():
+    return _make_page('participate.html')
+
+@app.route('/<language>/participate')
+def participate_page(language=None):
+    return _make_page('participate.html', language)
+
+@app.route('/privacy')
+def privacy_page_no_lang():
+    return _make_page('privacy.html')
+
+@app.route('/<language>/privacy')
+def privacy_page(language=None):
+    return _make_page('privacy.html', language)
+
+@app.route('/wiimote')
+def wiimote_page():
+    return redirect('https://github.com/clementine-player/Clementine/wiki/Wii-Remotes')
+
+if __name__ == '__main__':
+    app.run(debug=True)

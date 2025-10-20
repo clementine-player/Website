@@ -1,0 +1,235 @@
+/*
+  This is a combined and slightly modified version of the original CSS files.
+  The main change is to use absolute paths for the background images to
+  work with the new routing.
+*/
+
+body {
+  background: #2a2a2a url(/images/body-decoration.png) repeat-x;
+  color: #fff;
+  font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+}
+
+#header {
+  height: 145px;
+  position: relative;
+}
+
+#header .logo {
+  left: 0;
+  position: absolute;
+  top: 15px;
+}
+
+#site-slogan {
+  color: #ccc;
+  font-size: 20px;
+  left: 175px;
+  position: absolute;
+  top: 40px;
+}
+
+#primary-links {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 5px;
+}
+
+#primary-links ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#primary-links li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#primary-links a {
+  -moz-border-radius: 5px;
+  border: 1px solid #000;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#primary-links a:hover {
+  background-color: #333;
+}
+
+#primary-links a:active {
+  background-color: #666;
+}
+
+#container {
+  padding: 10px;
+}
+
+#footer-top-gradient {
+  background: url(/images/footer-top-gradient.png) repeat-x;
+  height: 25px;
+  width: 100%;
+}
+
+#footer {
+  background: #111 url(/images/footer.png) repeat-x;
+  color: #aaa;
+  padding: 10px;
+  text-align: center;
+}
+
+#footer a {
+  color: #fd9146;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #fd9146;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fd9146;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.screenshot {
+  padding: 10px;
+  width: 450px;
+}
+
+.screenshot img {
+  border: 1px solid #000;
+}
+
+.screenshot p {
+  color: #ccc;
+  font-style: italic;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.languages {
+  padding: 10px;
+}
+
+span.language {
+  color: #fff;
+}
+
+a.language {
+  padding: 0 5px;
+}
+
+hr.division {
+  background: url(/images/footer.png) repeat-x;
+  border: 0;
+  height: 20px;
+}
+
+#download-block {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: url(/images/download-block.png) repeat-x;
+  border-radius: 20px;
+  border: 1px solid #000;
+  float: right;
+  height: 100px;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  text-align: center;
+  width: 320px;
+}
+
+#download-block:hover {
+  background: url(/images/download-block-hover.png) repeat-x;
+}
+
+#download-block a#download-button {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#download-block p {
+  margin: 0;
+  padding: 0;
+}
+
+#download-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#download-version {
+  color: #fd9146;
+}
+
+#download-logo {
+  float: left;
+  height: 64px;
+  margin: 10px 0 0 10px;
+  width: 64px;
+}
+
+#download-os {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#download-arch {
+  color: #ccc;
+  font-size: 14px;
+}
+
+#download-otherlinks {
+  color: #ccc;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+#download-otherlinks a {
+  color: #fd9146;
+}
