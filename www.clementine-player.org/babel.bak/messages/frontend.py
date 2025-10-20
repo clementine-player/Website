@@ -1112,7 +1112,7 @@ def parse_mapping(fileobj, filename=None):
     >>> buf = StringIO('''
     ... [extractors]
     ... custom = mypackage.module:myfunc
-    ... 
+    ...
     ... # Python source files
     ... [python: **.py]
     ...
@@ -1122,7 +1122,7 @@ def parse_mapping(fileobj, filename=None):
     ... [genshi: **/templates/**.txt]
     ... template_class = genshi.template:TextTemplate
     ... encoding = latin-1
-    ... 
+    ...
     ... # Some custom extractor
     ... [custom: **/custom/*.*]
     ... ''')

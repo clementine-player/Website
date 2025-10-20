@@ -1,15 +1,5 @@
-runtime: python27
-api_version: 1
-threadsafe: true
-automatic_scaling:
-  max_instances: 1
-
-libraries:
-- name: webapp2
-  version: "2.5.1"
-- name: jinja2
-  version: "2.6"
-
+runtime: python312
+entrypoint: gunicorn -b :$PORT main:app
 
 handlers:
 - url: /css
@@ -42,15 +32,6 @@ handlers:
   expiration: "7d"
   secure: always
 
-- url: /thumbnails/.*
-  script: thumbnailer.app
-  secure: always
-
-- url: /scheduled/.*
-  script: main.app
-  secure: always
-  login: admin
-
 - url: /.*
-  script: main.app
+  script: auto
   secure: always
