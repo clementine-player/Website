@@ -132,7 +132,10 @@ def _read_cache(key):
 
 def _write_cache(key, value, fetched_at):
   client = _get_datastore_client()
-  entity = datastore.Entity(client.key('Cache', key))
+  # `value` (the raw GitHub API response) routinely exceeds Datastore's
+  # 1500-byte limit for indexed string properties -- exclude it, matching
+  # the same treatment thumbnailer.py already gives its image bytes.
+  entity = datastore.Entity(client.key('Cache', key), exclude_from_indexes=('value',))
   entity.update({'value': value, 'fetched_at': fetched_at})
   client.put(entity)
   _local_cache[key] = (value, fetched_at, time.time())
