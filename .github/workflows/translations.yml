@@ -4,6 +4,10 @@ on:
     - cron: '23 0 * * 4'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   pull_translations:
     name: Pull translations from Transifex
@@ -22,7 +26,7 @@ jobs:
         run: >
           apt-get update && apt-get install -y
           git
-          ssh
+          curl
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
@@ -46,14 +50,29 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: tx pull -f -a
-      - name: Setup git SSH
-        uses: webfactory/ssh-agent@v0.4.1
-        with:
-          ssh-private-key: ${{ secrets.TX_KEY }}
       - name: git add
         run: git add www.clementine-player.org/locale/*.po
       - name: git commit and push
-        env:
-          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+        id: commit
         run: |
-          [ -z "$(git status --porcelain)" ] || git -c 'user.name=Clementine Buildbot' -c 'user.email=buildbot@clementine-player.org' commit -m 'Automatic merge of translations from Transifex' && git push 'git@github.com:clementine-player/Website.git' master
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git -c 'user.name=Clementine Buildbot' -c 'user.email=buildbot@clementine-player.org' commit -m 'Automatic merge of translations from Transifex'
+            git push origin master
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      # A GITHUB_TOKEN-authenticated push doesn't trigger other workflows'
+      # `on: push` events (GitHub's anti-recursion protection), so trigger
+      # the site deploy explicitly rather than relying on www.yml's push
+      # trigger to fire on its own.
+      - name: Trigger website deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -X POST --fail \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/www.yml/dispatches" \
+            -d '{"ref":"master"}'
