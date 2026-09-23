@@ -1,0 +1,59 @@
+name: translations
+on:
+  schedule:
+    - cron: '23 0 * * 4'
+  workflow_dispatch:
+
+jobs:
+  pull_translations:
+    name: Pull translations from Transifex
+    runs-on: ubuntu-22.04
+    container:
+      image: ubuntu:jammy
+    steps:
+      - uses: supplypike/setup-bin@v3
+        with:
+          uri: https://github.com/transifex/cli/releases/download/v1.6.7/tx-linux-amd64.tar.gz
+          name: tx
+          version: 1.6.7
+      - name: Install dependencies
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: >
+          apt-get update && apt-get install -y
+          git
+          ssh
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+      - name: git hackery
+        run: git config --global --add safe.directory ${GITHUB_WORKSPACE}
+      - name: Switch to master
+        run: git checkout master
+      - name: tx init
+        working-directory: www.clementine-player.org
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: tx init
+      - name: tx config
+        working-directory: www.clementine-player.org
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: tx add --organization davidsansome --project clementine --resource website --file-filter 'locale/<lang>.po' --type PO locale/django.pot
+      - name: tx pull
+        working-directory: www.clementine-player.org
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: tx pull -f -a
+      - name: Setup git SSH
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.TX_KEY }}
+      - name: git add
+        run: git add www.clementine-player.org/locale/*.po
+      - name: git commit and push
+        env:
+          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+        run: |
+          [ -z "$(git status --porcelain)" ] || git -c 'user.name=Clementine Buildbot' -c 'user.email=buildbot@clementine-player.org' commit -m 'Automatic merge of translations from Transifex' && git push 'git@github.com:clementine-player/Website.git' master
