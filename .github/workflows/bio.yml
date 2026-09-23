@@ -2,6 +2,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'lambda.clementine-player.org/bio/**'
+      - '.github/workflows/bio.yml'
   workflow_dispatch:
 
 permissions:

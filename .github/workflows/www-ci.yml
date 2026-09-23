@@ -1,0 +1,37 @@
+on:
+  pull_request:
+    paths:
+      - 'www.clementine-player.org/**'
+      - '.github/workflows/www-ci.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-boot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y default-jre-headless gettext
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies
+        working-directory: www.clementine-player.org
+        run: pip install -r requirements.txt Django
+      - name: Build (translations + CSS)
+        working-directory: www.clementine-player.org
+        run: make
+      - name: Smoke test (boot the app, hit every route)
+        working-directory: www.clementine-player.org
+        env:
+          # Skips main.py's Secret Manager fallback, which needs real GCP
+          # credentials CI doesn't have.
+          GITHUB_TOKEN: dummy-token-for-ci
+          # Shadows google.cloud.datastore with an in-memory fake (see
+          # tests/fakes/google/cloud/datastore.py) for the same reason.
+          PYTHONPATH: tests/fakes
+        run: python3 tests/smoke_test.py
