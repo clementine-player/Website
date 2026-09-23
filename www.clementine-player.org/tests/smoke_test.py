@@ -47,6 +47,21 @@ CANNED_RELEASE = json.dumps({
             'content_type': 'application/x-ms-dos-executable',
             'name': 'ClementineSetup-1.4.0.exe',
         },
+        {
+            'browser_download_url': 'https://example.com/clementine.rpm',
+            'content_type': 'application/x-rpm',
+            'name': 'clementine-1.4.0-1.fc39.x86_64.rpm',
+        },
+        {
+            'browser_download_url': 'https://example.com/clementine-debuginfo.rpm',
+            'content_type': 'application/x-rpm',
+            'name': 'clementine-debuginfo-1.4.0-1.fc39.x86_64.rpm',
+        },
+        {
+            'browser_download_url': 'https://example.com/clementine-debugsource.rpm',
+            'content_type': 'application/x-rpm',
+            'name': 'clementine-debugsource-1.4.0-1.fc39.x86_64.rpm',
+        },
     ],
 })
 main._fetch_release_from_github = lambda: CANNED_RELEASE
@@ -62,6 +77,10 @@ downloads_by_os = {d['os']: d for d in downloads}
 assert downloads_by_os['ubuntu']['display_os'] == 'Ubuntu Jammy', downloads_by_os['ubuntu']
 assert downloads_by_os['debian']['display_os'] == 'Debian Bookworm', downloads_by_os['debian']
 print('Debian/Ubuntu split by distro_codenames: OK')
+
+fedora_downloads = [d for d in downloads if d['os'] == 'fedora']
+assert len(fedora_downloads) == 1, fedora_downloads  # debuginfo/debugsource omitted
+print('Fedora debuginfo/debugsource rpms omitted: OK')
 
 client = main.app.test_client()
 
