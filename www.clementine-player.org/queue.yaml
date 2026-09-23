@@ -1,3 +1,0 @@
-queue:
-- name: builds
-  rate: 1/s
