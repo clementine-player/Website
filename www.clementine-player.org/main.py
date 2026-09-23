@@ -215,7 +215,12 @@ def fetch_release():
       info['display_os'] = 'Windows'
       info['short_os'] = 'Windows'
       info['os_logo'] = 'windows-logo.png'
-      info['arch'] = 64 if is_arm64 else 32
+      # Windows builds are 64-bit by default these days; only a filename
+      # that explicitly says otherwise gets classified as 32-bit.
+      if not is_arm64 and ('win32' in name_lower or 'x86' in name_lower or 'i686' in name_lower):
+        info['arch'] = 32
+      else:
+        info['arch'] = 64
     elif name_lower.endswith('.deb'):
       # Extract the distro codename directly from the filename instead of
       # checking it against a maintained list of known Ubuntu/Debian
@@ -323,7 +328,7 @@ def make_page(template_file, language):
   # Try to detect the user's OS and architecture.
   ua = request.headers.get('User-Agent', '').lower()
   if 'win' in ua:
-    best_download = find_download(downloads, 'windows', 32)
+    best_download = find_download(downloads, 'windows', 64)
   elif 'mac' in ua:
     best_download = find_download(downloads, 'mac', 64)
   elif 'fedora' in ua:
