@@ -12,9 +12,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container: alpine:3.14
+    # alpine:3.14's musl libc is too old for the Node 24 runtime GitHub now
+    # forces JS actions onto (Node 20 was deprecated Sept 2025) — auth@v2
+    # fails with "Error relocating .../node: pthread_getname_np: symbol not
+    # found" without this. Stopgap until the container image itself is
+    # modernized as part of the App Engine gen2/Python 3 migration.
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - name: Install dependencies
         run: apk --no-cache add py-django make openjdk8-jre-base gettext
+      - name: checkout
+        uses: actions/checkout@v2
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
@@ -23,8 +32,6 @@ jobs:
           service_account: github-deploy@clementine-web.iam.gserviceaccount.com
       - name: Set up gcloud
         uses: google-github-actions/setup-gcloud@v2
-      - name: checkout
-        uses: actions/checkout@v2
       - name: build
         working-directory: www.clementine-player.org
         run: make
