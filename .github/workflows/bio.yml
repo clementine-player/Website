@@ -2,6 +2,11 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   deploy:
@@ -18,12 +23,14 @@ jobs:
           tags: |
             gcr.io/clementine-web/bio
 
-      - name: Set up gcloud Cloud SDK environment
-        uses: google-github-actions/setup-gcloud@v0.2.0
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          project_id: "clementine-web"
-          service_account_key: ${{ secrets.GOOGLE_CREDENTIALS }}
-          export_default_credentials: true
+          project_id: clementine-web
+          workload_identity_provider: projects/460637942860/locations/global/workloadIdentityPools/github-actions/providers/website-repo
+          service_account: github-deploy@clementine-web.iam.gserviceaccount.com
+      - name: Set up gcloud
+        uses: google-github-actions/setup-gcloud@v2
 
       - name: Install beta gcloud components
         run: gcloud components install beta
