@@ -5,6 +5,11 @@ automatic_scaling:
 
 entrypoint: gunicorn -b :$PORT -w 2 main:app
 
+# uv only becomes the buildpack's default package manager at Python 3.14+;
+# opt in explicitly here rather than waiting for a runtime bump to get it.
+build_env_variables:
+  GOOGLE_PYTHON_PACKAGE_MANAGER: "uv"
+
 handlers:
 - url: /css
   static_dir: static/css
