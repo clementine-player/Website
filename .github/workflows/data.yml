@@ -24,4 +24,7 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
       - name: Deploy data.clementine-player.org
         working-directory: data.clementine-player.org
-        run: gcloud app deploy app.yaml
+        # --no-promote: land as a new version without shifting traffic to it.
+        # Promoting is a separate, deliberate step (see the migration plan's
+        # rollout section) so a merge can never make an unverified version live.
+        run: gcloud app deploy app.yaml --no-promote --quiet
