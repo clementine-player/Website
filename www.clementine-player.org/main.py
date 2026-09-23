@@ -18,7 +18,6 @@ from werkzeug.routing import BaseConverter
 
 from data import LANGUAGE_NAMES
 from data import LANGUAGES
-from data import LATEST_VERSION
 from data import NEWS
 from data import SCREENSHOTS
 
@@ -141,12 +140,19 @@ def _write_cache(key, value, fetched_at):
 
 def _fetch_release_from_github():
   token = base64.b64encode(('%s:' % GITHUB_TOKEN).encode('utf-8')).decode('ascii')
+  # There's no longer an official "latest" release -- releases are rolling
+  # now, so /releases/latest (which only ever returns the newest release
+  # NOT marked as a prerelease) can point at an arbitrarily old release.
+  # Ask for the single newest release instead, published or not.
   r = requests.get(
-      'https://api.github.com/repos/clementine-player/Clementine/releases/latest',
+      'https://api.github.com/repos/clementine-player/Clementine/releases?per_page=1',
       headers={'Authorization': 'Basic %s' % token})
   if r.status_code != 200:
     raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.text))
-  return r.text
+  releases = r.json()
+  if not releases:
+    raise GithubFetchError('No releases found')
+  return json.dumps(releases[0])
 
 
 def fetch_release():
@@ -279,9 +285,10 @@ def fetch_release():
 
 
 def find_download(downloads, os_name, arch=0):
-  matches = [x for x in downloads if x['os'] == os_name
-                                  and x['arch'] == arch
-                                  and x['ver'][:3] == LATEST_VERSION[:3]]
+  # downloads is always every asset of the single most recent release (see
+  # _fetch_release_from_github), so there's no separate "is this the latest
+  # version" check to make here -- it always is.
+  matches = [x for x in downloads if x['os'] == os_name and x['arch'] == arch]
   return copy.deepcopy(matches[0]) if matches else None
 
 
@@ -342,13 +349,14 @@ def make_page(template_file, language):
     '_': make_translator(translations),
     'best_download':      best_download,
     'downloads':          downloads,
-    'latest_downloads':   [x for x in downloads if x['ver'] == LATEST_VERSION],
+    # downloads is always every asset of the single most recent release, so
+    # it's already "latest" in full -- no separate version to filter by.
+    'latest_downloads':   downloads,
     'latest_screenshots': screenshots[0]['entries'],
-    'latest_version':     LATEST_VERSION,
+    'latest_version':     downloads[0]['ver'] if downloads else None,
     'news':               news,
     'language':           language,
     'languages':          languages,
-    'old_downloads':      [x for x in downloads if x['ver'] != LATEST_VERSION],
     'root_page':          root_page,
     'screenshots':        screenshots,
     'is_rtl':             language in ('ar', 'fa', 'he'),

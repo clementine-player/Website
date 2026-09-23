@@ -133,34 +133,6 @@ sudo apt-get install clementine</pre>
 
 
 <hr class="division" />
-<h1>{{ _("Old downloads") }}</h1>
-
-{% set last_version = '' %}
-{% for d in old_downloads|sort(attribute="ver")|reverse %}
-  {% if last_version != d.ver %}
-    {%if not loop.first %}
-      </ul>
-    {% endif %}
-    <h2>{{ _("Version") }} {{ d.ver }}</h2>
-    <ul>
-  {% endif %}
-  {%set last_version = d.ver %}
-
-  <li>
-    <a href="{{ d.url }}">
-      {{ d.display_os }}
-      {% if d.arch %}
-        {{ d.arch }}-bit
-      {% endif %}
-    </a>
-  </li>
-
-  {% if loop.last %}
-    </ul>
-  {% endif %}
-{% endfor %}
-
-<br>
 <h3>Notes</h3>
 <a href="https://www.raspberrypi.org">Raspberry Pi is a trademark of the Raspberry Pi Foundation</a>
 
