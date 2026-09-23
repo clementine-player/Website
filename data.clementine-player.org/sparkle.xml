@@ -9,7 +9,7 @@
 {% for version in versions %}
   <item>
     <title>Clementine {{ version.version|escape }}</title>
-    {% comment %}Minimum OS X version, eg. 10.5.4.{% endcomment %}
+    {# Minimum OS X version, eg. 10.5.4. #}
     {% if version.min_version %}
     <sparkle:minimumSystemVersion>{{ version.min_version }}</sparkle:minimumSystemVersion>
     {% endif %}
@@ -25,17 +25,17 @@
     </description>
     {% endif %}
     <pubDate>
-      {{ version.publish_date|date:"r" }}
-      {% comment %}eg. Wed, 09 Jan 2006 19:20:11 +0000{% endcomment %}
+      {{ version.publish_date|rfc2822 }}
+      {# eg. Wed, 09 Jan 2006 19:20:11 +0000 #}
     </pubDate>
     <enclosure url="{{ version.download_link }}"
-               {% comment %}SVN Revision{% endcomment %}
+               {# SVN Revision #}
                sparkle:version="{{ version.revision }}"
-               {% comment %}User visible version{% endcomment %}
+               {# User visible version #}
                sparkle:shortVersionString="{{ version.version }}"
-               {% comment %}Base64 encoded signature of DMG.{% endcomment %}
+               {# Base64 encoded signature of DMG. #}
                sparkle:dsaSignature="{{ version.signature }}"
-               {% comment %}Size of app bundle (not the DMG).{% endcomment %}
+               {# Size of app bundle (not the DMG). #}
                length="{{ version.bundle_size }}"
                type="application/octet-stream" />
   </item>
