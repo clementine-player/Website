@@ -35,18 +35,21 @@
     </p>
   {% endif %}
 
-  {% for d in latest_downloads|sort(attribute="os") %}
-    <a class="thindownload" href="{{ d.url }}">
-      <img class="icon" src="/images/{{ d.os_logo }}" alt="" />
-      <p class="os">
-        {{ d.display_os }}
-      </p>
-      {% if d.arch %}
-        <p class="arch">
-          {{ d.arch }}-bit
+  {% for family, items in latest_downloads|sort(attribute="display_os")|groupby("family_display") %}
+    <h2 style="clear: both;">{{ family }}</h2>
+    {% for d in items %}
+      <a class="thindownload" href="{{ d.url }}">
+        <img class="icon" src="/images/{{ d.os_logo }}" alt="" />
+        <p class="os">
+          {{ d.display_os }}
         </p>
-      {% endif %}
-    </a>
+        {% if d.arch %}
+          <p class="arch">
+            {{ d.arch }}-bit
+          </p>
+        {% endif %}
+      </a>
+    {% endfor %}
   {% endfor %}
 </div>
 
@@ -99,38 +102,6 @@ sudo make install</pre>
     {{ _("Full instructions and list of dependencies") }}</a>
   </li>
 </ul>
-
-<h2>{{ _("Bleeding edge packages") }}</h2>
-
-<p>{{ _("Development on Clementine happens in") }}
-<a href="https://github.com/clementine-player/Clementine">
-{{ _("the git repository") }}</a>.
-{{ _("Check out the code by running:") }}</p>
-
-<pre>git clone https://github.com/clementine-player/Clementine.git clementine-player</pre>
-
-<p>{{ _("If you'd prefer not to compile the development version yourself then try one of the hourly packages:") }}</p>
-
-{# THIS LIST IS DUPLICATED IN participate.html #}
-<ul>
-  <li><a href="https://builds.clementine-player.org/mac/">
-    {{ _("Mac OS X development builds") }}</a></li>
-  <li><a href="https://builds.clementine-player.org/ubuntu-precise/">
-    {{ _("Ubuntu Precise (12.04) development builds") }}</a></li>
-  <li><a href="https://builds.clementine-player.org/ubuntu-trusty/">
-    {{ _("Ubuntu Trusty (14.04) development builds") }}</a></li>
-  <li><a href="https://builds.clementine-player.org/win32/">
-    {{ _("Windows development builds") }}</a></li>
-  <li><a href="https://buildbot.clementine-player.org/grid">
-    {{ _("Buildbot") }}</a></li>
-</ul>
-
-<p>{{ _("There's also an Ubuntu PPA for these development builds:") }}</p>
-
-<pre>sudo add-apt-repository ppa:me-davidsansome/clementine-dev
-sudo apt-get update
-sudo apt-get install clementine</pre>
-
 
 <hr class="division" />
 <h3>Notes</h3>
