@@ -1,52 +1,53 @@
 # -*- coding: utf-8 -*-
 
-import os
-import webapp2
-
-from google.appengine.api import images
-from google.appengine.api import memcache
-from google.appengine.api import urlfetch
-
+import io
 import logging
-import urlparse
 
-MEMCACHE_NAMESPACE = 'thumbnailer'
+import requests
+from flask import Blueprint, Response, request
+from google.cloud import datastore
+from PIL import Image
+
 WIDTH = 440
 
-class Thumbnailer(webapp2.RequestHandler):
-  def get(self, filename):
-    # Check memcache first
-    data = memcache.get(filename, MEMCACHE_NAMESPACE)
+thumbnailer = Blueprint('thumbnailer', __name__)
 
-    if data is None:
-      # Construct the full URL to the original image
-      request_url = urlparse.urlparse(self.request.url)
-
-      url = "%s://%s/screenshots/%s" % (
-        request_url.scheme,
-        request_url.netloc,
-        filename)
-      url = url.replace('8080', '8081') # Because the dev server is single threaded
-      logging.info(url)
-
-      # Fetch the original image
-      result = urlfetch.fetch(url)
-
-      # Load it and resize it
-      image = images.Image(image_data=result.content)
-      image.resize(width=WIDTH)
-      data = image.execute_transforms(output_encoding=images.PNG)
-
-      # Put it in memcache
-      memcache.set(filename, data, namespace=MEMCACHE_NAMESPACE)
-
-    self.response.headers['Content-Type'] = 'image/png'
-    self.response.headers['Cache-Control'] = 'public, max-age=86400'
-    self.response.out.write(data)
+_datastore_client = None
 
 
-app = webapp2.WSGIApplication(
-  [
-    (r'/thumbnails/([a-zA-Z0-9\.-]*)', Thumbnailer),
-  ],
-  debug=True)
+def _get_datastore_client():
+  global _datastore_client
+  if _datastore_client is None:
+    _datastore_client = datastore.Client()
+  return _datastore_client
+
+
+@thumbnailer.route('/thumbnails/<path:filename>')
+def thumbnail(filename):
+  client = _get_datastore_client()
+  key = client.key('Thumbnail', filename)
+  entity = client.get(key)
+
+  if entity is None:
+    url = '%s://%s/screenshots/%s' % (request.scheme, request.host, filename)
+    logging.info(url)
+    result = requests.get(url)
+    result.raise_for_status()
+
+    image = Image.open(io.BytesIO(result.content))
+    height = int(image.height * (WIDTH / float(image.width)))
+    image = image.resize((WIDTH, height), Image.LANCZOS)
+
+    buf = io.BytesIO()
+    image.save(buf, format='PNG')
+    data = buf.getvalue()
+
+    entity = datastore.Entity(key, exclude_from_indexes=('data',))
+    entity.update({'data': data})
+    client.put(entity)
+  else:
+    data = entity['data']
+
+  response = Response(data, mimetype='image/png')
+  response.headers['Cache-Control'] = 'public, max-age=86400'
+  return response

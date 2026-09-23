@@ -28,11 +28,6 @@ jobs:
       - name: build
         working-directory: www.clementine-player.org
         run: make
-      - name: Add environment to app.yaml
-        working-directory: www.clementine-player.org
-        run: >
-          echo 'env_variables:' >> app.yaml &&
-          echo "  GITHUB_TOKEN: ${WWW_GITHUB_TOKEN}" >> app.yaml
       - name: Deploy WWW
         working-directory: www.clementine-player.org
         # --no-promote: land as a new version without shifting traffic to it.

@@ -1,0 +1,8 @@
+Flask==3.0.3
+gunicorn==22.0.0
+Jinja2==3.1.4
+Babel==2.15.0
+requests==2.32.3
+Pillow==10.4.0
+google-cloud-datastore==2.19.0
+google-cloud-secret-manager==2.20.0
