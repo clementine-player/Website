@@ -2,7 +2,6 @@
 
 def _(x): return x
 
-LATEST_VERSION = '1.3.1'
 SCREENSHOTS = [
   {'version': '1.2', 'entries': [
     {'file': 'clementine-1.2-1.png', 'title': _('Playlist tab, while listening to songs from multiples Internet services')},
