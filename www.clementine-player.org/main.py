@@ -16,13 +16,11 @@ from flask import Flask, Response, redirect, request
 from google.cloud import datastore
 from werkzeug.routing import BaseConverter
 
-from data import DEBIAN_NAMES
 from data import LANGUAGE_NAMES
 from data import LANGUAGES
 from data import LATEST_VERSION
 from data import NEWS
 from data import SCREENSHOTS
-from data import UBUNTU_NAMES
 
 from thumbnailer import thumbnailer
 
@@ -219,19 +217,26 @@ def fetch_release():
       info['os_logo'] = 'windows-logo.png'
       info['arch'] = 64 if is_arm64 else 32
     elif name_lower.endswith('.deb'):
-      for n in DEBIAN_NAMES:
-        if n in name:
-          info['os'] = 'debian'
-          info['display_os'] = 'Debian %s' % n.capitalize()
-          info['short_os'] = n.capitalize()
-          info['os_logo'] = 'squeeze-logo.png'
-
-      for n in UBUNTU_NAMES:
-        if n in name:
-          info['os'] = 'ubuntu'
-          info['display_os'] = 'Ubuntu %s' % n.capitalize()
-          info['short_os'] = n.capitalize()
-          info['os_logo'] = 'ubuntu-logo.png'
+      # Extract the distro codename directly from the filename instead of
+      # checking it against a maintained list of known Ubuntu/Debian
+      # release names -- that list needs a new entry roughly every 6
+      # months (Ubuntu) or 2 years (Debian) and reliably goes stale (see
+      # the Fedora/Ubuntu-codename bug this replaced). Package filenames
+      # for multi-distro builds conventionally embed the codename as a
+      # word immediately before the architecture suffix, e.g.
+      # "clementine_1.3.9-jammy1_amd64.deb" -- capture that directly.
+      # Can't reliably tell Debian from Ubuntu this way (both just embed
+      # a bare codename), so this no longer distinguishes them -- every
+      # .deb gets the same generic branding, with the actual codename
+      # (immediately recognizable to anyone running that distro) as the
+      # label.
+      m = re.search(r'([a-zA-Z]+)\d*_(?:i386|amd64|arm64|armhf)\.deb$', name)
+      if m:
+        codename = m.group(1).capitalize()
+        info['os'] = 'ubuntu'
+        info['display_os'] = codename
+        info['short_os'] = codename
+        info['os_logo'] = 'ubuntu-logo.png'
 
       if 'i386' in name:
         info['arch'] = 32
@@ -257,9 +262,9 @@ def fetch_release():
       info['short_os'] = (info.get('short_os', name) + ' ARM64').strip()
 
     # Belt-and-suspenders: any asset that still doesn't have a display_os
-    # (a genuinely new/unrecognized file type, or a .deb whose name matched
-    # neither DEBIAN_NAMES nor UBUNTU_NAMES) gets a usable fallback instead
-    # of silently rendering as a blank entry in the template.
+    # (a genuinely new/unrecognized file type, or a .deb whose name didn't
+    # match the codename pattern above) gets a usable fallback instead of
+    # silently rendering as a blank entry in the template.
     info.setdefault('display_os', name)
     info.setdefault('short_os', name)
     info.setdefault('os_logo', 'clementine-logo.png')
