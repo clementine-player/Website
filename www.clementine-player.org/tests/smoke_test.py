@@ -28,9 +28,14 @@ CANNED_RELEASE = json.dumps({
     'tag_name': '1.4.0',
     'assets': [
         {
-            'browser_download_url': 'https://example.com/clementine.deb',
+            'browser_download_url': 'https://example.com/clementine-ubuntu.deb',
             'content_type': 'application/vnd.debian.binary-package',
-            'name': 'clementine_1.4.0-1_amd64.deb',
+            'name': 'clementine_1.4.0-jammy1_amd64.deb',
+        },
+        {
+            'browser_download_url': 'https://example.com/clementine-debian.deb',
+            'content_type': 'application/vnd.debian.binary-package',
+            'name': 'clementine_1.4.0-bookworm1_amd64.deb',
         },
         {
             'browser_download_url': 'https://example.com/clementine.dmg',
@@ -46,7 +51,17 @@ CANNED_RELEASE = json.dumps({
 })
 main._fetch_release_from_github = lambda: CANNED_RELEASE
 
+# Avoid a real network call to endoflife.date: return a small canned
+# codename->family mapping covering both branches.
+main.get_distro_codenames = lambda: {'jammy': 'ubuntu', 'bookworm': 'debian'}
+
 print('import main: OK, app = %r' % (main.app,))
+
+downloads = main.fetch_release()
+downloads_by_os = {d['os']: d for d in downloads}
+assert downloads_by_os['ubuntu']['display_os'] == 'Ubuntu Jammy', downloads_by_os['ubuntu']
+assert downloads_by_os['debian']['display_os'] == 'Debian Bookworm', downloads_by_os['debian']
+print('Debian/Ubuntu split by distro_codenames: OK')
 
 client = main.app.test_client()
 

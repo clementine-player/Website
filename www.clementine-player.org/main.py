@@ -4,6 +4,7 @@ import base64
 import copy
 import datetime
 import json
+import logging
 import os
 import re
 import time
@@ -25,11 +26,16 @@ from thumbnailer import thumbnailer
 
 RELEASES_KEY = 'github_releases'
 RELEASES_CACHE_SECONDS = 60 * 60
+DISTRO_CODENAMES_KEY = 'distro_codenames'
+# New Debian/Ubuntu codenames appear at most a few times a year, so this
+# can be far less fresh than the release cache above.
+DISTRO_CODENAMES_CACHE_SECONDS = 60 * 60 * 24 * 7
 LOCAL_CACHE_SECONDS = 60
 
 # Section headings for the downloads page, keyed by the base os string
 # (before any '-arm64' suffix).
 FAMILY_DISPLAY = {
+  'debian':  'Debian',
   'fedora':  'Fedora',
   'mac':     'Mac',
   'source':  'Source Code',
@@ -165,6 +171,47 @@ def _fetch_release_from_github():
   return json.dumps(releases[0])
 
 
+def _fetch_distro_codenames():
+  # Maps each known release codename (lowercased, first word only -- see
+  # below) to its distro family. Sourced from endoflife.date instead of a
+  # hand-maintained list of codenames, which needs a new entry roughly
+  # every 6 months (Ubuntu) or 2 years (Debian) and reliably goes stale
+  # (see the classification bug this replaced).
+  codenames = {}
+  for family, url in (
+      ('debian', 'https://endoflife.date/api/debian.json'),
+      ('ubuntu', 'https://endoflife.date/api/ubuntu.json')):
+    r = requests.get(url, timeout=10)
+    r.raise_for_status()
+    for cycle in r.json():
+      codename = cycle.get('codename')
+      if not codename:
+        continue
+      # Debian's codenames are a single Toy Story name ("Bookworm");
+      # Ubuntu's are "Adjective Animal" ("Noble Numbat"). Filenames only
+      # ever embed the first word, so that's the lookup key.
+      codenames[codename.split()[0].lower()] = family
+  return codenames
+
+
+def get_distro_codenames():
+  now = time.time()
+  cached = _read_cache(DISTRO_CODENAMES_KEY)
+  if cached is not None and now - cached['fetched_at'] < DISTRO_CODENAMES_CACHE_SECONDS:
+    return json.loads(cached['value'])
+  try:
+    codenames = _fetch_distro_codenames()
+    _write_cache(DISTRO_CODENAMES_KEY, json.dumps(codenames), now)
+    return codenames
+  except Exception:
+    # This only affects Debian/Ubuntu branding, never whether a download
+    # works, so it must never take the downloads page down with it. Fall
+    # back to whatever's cached (even if stale), or an empty mapping --
+    # every codename then defaults to Ubuntu, same as before this existed.
+    logging.exception('Failed to fetch distro codenames from endoflife.date')
+    return json.loads(cached['value']) if cached is not None else {}
+
+
 def fetch_release():
   now = time.time()
   cached = _read_cache(RELEASES_KEY)
@@ -183,6 +230,7 @@ def fetch_release():
         raise
 
   result = json.loads(content)
+  distro_codenames = get_distro_codenames()
   downloads = []
   for asset in result['assets']:
     name = asset['name']
@@ -246,18 +294,19 @@ def fetch_release():
       # for multi-distro builds conventionally embed the codename as a
       # word immediately before the architecture suffix, e.g.
       # "clementine_1.3.9-jammy1_amd64.deb" -- capture that directly.
-      # Can't reliably tell Debian from Ubuntu this way (both just embed
-      # a bare codename), so this no longer distinguishes them -- every
-      # .deb gets the same generic branding, with the actual codename
-      # (immediately recognizable to anyone running that distro) as the
-      # label.
+      # Which distro family a codename belongs to comes from
+      # distro_codenames (endoflife.date, cached -- see
+      # get_distro_codenames) rather than a second maintained list, for
+      # the same staleness reason; unrecognized codenames default to
+      # Ubuntu, same as before that lookup existed.
       m = re.search(r'([a-zA-Z]+)\d*_(?:i386|amd64|arm64|armhf)\.deb$', name)
       if m:
-        codename = m.group(1).capitalize()
-        info['os'] = 'ubuntu'
-        info['display_os'] = codename
-        info['short_os'] = codename
-        info['os_logo'] = 'ubuntu-logo.png'
+        codename = m.group(1)
+        family = distro_codenames.get(codename.lower(), 'ubuntu')
+        info['os'] = family
+        info['display_os'] = '%s %s' % (family.capitalize(), codename.capitalize())
+        info['short_os'] = codename.capitalize()
+        info['os_logo'] = 'squeeze-logo.png' if family == 'debian' else 'ubuntu-logo.png'
 
       if 'i386' in name:
         info['arch'] = 32
