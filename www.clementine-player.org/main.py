@@ -187,11 +187,12 @@ def fetch_release():
     # at all, silently rendering as a blank/broken entry rather than a
     # missing one. Filenames are what the rest of this function already
     # relies on for arch/distro detection, so they're the reliable signal.
+    is_arm64 = 'aarch64' in name_lower or 'arm64' in name_lower
     if name_lower.endswith('.rpm'):
       info['os'] = 'fedora'
       info['short_os'] = 'Fedora'
       info['os_logo'] = 'fedora-logo.png'
-      if 'x86_64' in name:
+      if is_arm64 or 'x86_64' in name:
         info['arch'] = 64
       elif 'i686' in name:
         info['arch'] = 32
@@ -216,7 +217,7 @@ def fetch_release():
       info['display_os'] = 'Windows'
       info['short_os'] = 'Windows'
       info['os_logo'] = 'windows-logo.png'
-      info['arch'] = 32
+      info['arch'] = 64 if is_arm64 else 32
     elif name_lower.endswith('.deb'):
       for n in DEBIAN_NAMES:
         if n in name:
@@ -234,13 +235,26 @@ def fetch_release():
 
       if 'i386' in name:
         info['arch'] = 32
-      elif 'amd64' in name:
+      elif 'amd64' in name or is_arm64:
         info['arch'] = 64
       elif 'armhf' in name:
         info['arch'] = 32
         info['display_os'] = 'Raspberry Pi'
         info['short_os'] = 'RPI'
         info['os_logo'] = 'raspberry-pi-logo.png'
+
+    # ARM64/AArch64 is 64-bit but a different CPU family than x86_64,
+    # sharing the same (os, arch) pair would otherwise let it collide with.
+    # Nothing here can reliably tell an ARM64 visitor from an x86_64 one via
+    # User-Agent, so keep ARM64 builds out of find_download()'s auto-picked
+    # "best download" matching below (which only ever looks up the plain
+    # 'mac'/'fedora'/'windows' os strings) -- defaulting an ARM64 visitor
+    # onto an x86_64 binary, or vice versa, is worse than just listing it
+    # in the full downloads table for them to pick manually.
+    if is_arm64 and info['os'] != 'Unknown':
+      info['os'] = info['os'] + '-arm64'
+      info['display_os'] = info.get('display_os', name) + ' (ARM64)'
+      info['short_os'] = (info.get('short_os', name) + ' ARM64').strip()
 
     # Belt-and-suspenders: any asset that still doesn't have a display_os
     # (a genuinely new/unrecognized file type, or a .deb whose name matched

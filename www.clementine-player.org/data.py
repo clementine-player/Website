@@ -20,6 +20,18 @@ UBUNTU_NAMES = [
   'disco',
   'eoan',
   'focal',
+  'groovy',
+  'hirsute',
+  'impish',
+  'jammy',
+  'kinetic',
+  'lunar',
+  'mantic',
+  'noble',
+  'oracular',
+  'plucky',
+  'questing',
+  'resolute',
 ]
 
 DEBIAN_NAMES = [
@@ -29,6 +41,8 @@ DEBIAN_NAMES = [
   'stretch',
   'buster',
   'bullseye',
+  'bookworm',
+  'trixie',
   'sid',
 ]
 
