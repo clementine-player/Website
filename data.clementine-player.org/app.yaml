@@ -1,75 +1,13 @@
-runtime: python27
-threadsafe: yes
-api_version: 1
-
-builtins:
-- remote_api: on
-- appstats: on
-
-inbound_services:
-- xmpp_message
+runtime: python312
+entrypoint: gunicorn -b :$PORT -w 2 main:app
+build_env_variables:
+  GOOGLE_PYTHON_PACKAGE_MANAGER: "uv"
+env_variables:
+  # Must match the App Engine app's actual region -- confirm with:
+  #   gcloud app describe --project=clementine-data --format='value(locationId)'
+  TASKS_LOCATION: "us-central"
 
 handlers:
-- url: /css
-  static_dir: static/css
-
-- url: /images
-  static_dir: static/images
-
 - url: /favicon.ico
   static_files: static/images/favicon.ico
   upload: static/images/favicon.ico
-
-- url: /_tasks/.*
-  script: tasks.app
-  login: admin
-
-- url: /projects.*
-  script: projects.app
-
-- url: /versions
-  script: clementine.app
-  login: admin
-
-- url: /sparkle
-  script: clementine.app
-
-- url: /sparkle-windows
-  script: clementine.app
-
-- url: /rainymood
-  script: clementine.app
-
-- url: /icecast-directory
-  script: clementine.app
-
-- url: /
-  script: projects.app
-
-- url: /c2dm/.*
-  script: c2dm.app
-  secure: always
-  login: required
-
-- url: /oauth
-  script: oauth.app
-
-# Legacy oauth support
-- url: /skydrive
-  script: oauth.app
-
-- url: /fetchbio
-  script: lambdas.app
-
-- url: /fetchimages
-  script: lambdas.app
-
-- url: /.*
-  script: clementine.app
-
-libraries:
-- name: webapp2
-  version: 2.5.1
-
-- name: ssl
-  version: 2.7.11

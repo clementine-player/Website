@@ -1,0 +1,30 @@
+on:
+  pull_request:
+    paths:
+      - 'data.clementine-player.org/**'
+      - '.github/workflows/data-ci.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-boot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies
+        working-directory: data.clementine-player.org
+        run: pip install -r requirements.txt
+      - name: Smoke test (boot the app, hit every route)
+        working-directory: data.clementine-player.org
+        env:
+          # Shadows google.cloud.ndb and google.cloud.tasks_v2 with
+          # in-memory fakes (see tests/fakes/google/cloud/) so this doesn't
+          # need real GCP credentials or network access.
+          PYTHONPATH: tests/fakes
+        run: python3 tests/smoke_test.py

@@ -1,53 +1,31 @@
-from google.appengine.api import users
-from google.appengine.ext import db
-from google.appengine.ext import ndb
+# -*- coding: utf-8 -*-
 
-class GoogleCode(db.Model):
-  name = db.StringProperty(required=True)
-  secret = db.StringProperty(required=True)
+from google.cloud import ndb
 
 
-class Follower(db.Model):
-  user = db.UserProperty(required=True)
-  project = db.ReferenceProperty(GoogleCode, collection_name='followers')
+class Version(ndb.Model):
+  platform = ndb.StringProperty()
+  revision = ndb.StringProperty()
+  version = ndb.StringProperty(required=True)
 
-
-class Version(db.Model):
-  platform = db.StringProperty()
-  revision = db.StringProperty()
-  version = db.StringProperty(required=True)
-
-  download_link = db.LinkProperty(required=True)
-  signature = db.StringProperty()  # Base64 encoded
-  bundle_size = db.IntegerProperty()
+  download_link = ndb.StringProperty(required=True)
+  signature = ndb.StringProperty()  # Base64 encoded
+  bundle_size = ndb.IntegerProperty()
 
   # Use either changelog_link or changelog.
-  changelog_link = db.LinkProperty()
-  changelog = db.TextProperty()  # This can be unescaped HTML.
+  changelog_link = ndb.StringProperty()
+  changelog = ndb.TextProperty()  # This can be unescaped HTML.
 
-  publish_date = db.DateTimeProperty(auto_now_add=True)
+  publish_date = ndb.DateTimeProperty(auto_now_add=True)
 
-  min_version = db.StringProperty()
-
-  tags = db.StringListProperty()
+  min_version = ndb.StringProperty()
 
 
-class Device(db.Model):
-  registration_id = db.StringProperty(required=True)
-  user = db.UserProperty(required=True)
-  brand = db.StringProperty()
-  device = db.StringProperty()
-  manufacturer = db.StringProperty()
-  model = db.StringProperty()
-  serial = db.StringProperty()
+class Counter(ndb.Model):
+  count = ndb.IntegerProperty(indexed=False, required=True)
 
 
-class KnownRevision(db.Model):
-  project_name = db.StringProperty()
-  sha1 = db.StringProperty()
-
-
-class OAuthToken(ndb.Model):
-  purpose = ndb.StringProperty(required=True)
-  token = ndb.StringProperty(required=True)
-  updated = ndb.DateTimeProperty(auto_now=True)
+class CounterSnapshot(ndb.Model):
+  counter = ndb.KeyProperty(kind='Counter', required=True)
+  count = ndb.IntegerProperty(indexed=False, required=True)
+  date = ndb.DateProperty(auto_now_add=True)
