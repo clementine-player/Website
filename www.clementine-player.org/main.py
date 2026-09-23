@@ -27,6 +27,16 @@ RELEASES_KEY = 'github_releases'
 RELEASES_CACHE_SECONDS = 60 * 60
 LOCAL_CACHE_SECONDS = 60
 
+# Section headings for the downloads page, keyed by the base os string
+# (before any '-arm64' suffix).
+FAMILY_DISPLAY = {
+  'fedora':  'Fedora',
+  'mac':     'Mac',
+  'source':  'Source Code',
+  'windows': 'Windows',
+  'ubuntu':  'Ubuntu',
+}
+
 
 class Error(Exception):
   pass
@@ -279,6 +289,13 @@ def fetch_release():
     info.setdefault('display_os', name)
     info.setdefault('short_os', name)
     info.setdefault('os_logo', 'clementine-logo.png')
+
+    # Groups the downloads page's tiles by OS family, independent of the
+    # ARM64 suffixing above (a 'windows-arm64' tile still belongs in the
+    # "Windows" section, not a section of its own).
+    family = info['os'][:-len('-arm64')] if info['os'].endswith('-arm64') else info['os']
+    info['family'] = family
+    info['family_display'] = FAMILY_DISPLAY.get(family, 'Other')
 
     downloads.append(info)
   return downloads
