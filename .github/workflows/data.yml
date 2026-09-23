@@ -2,6 +2,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'data.clementine-player.org/**'
+      - '.github/workflows/data.yml'
   workflow_dispatch:
 
 permissions:

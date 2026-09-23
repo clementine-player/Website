@@ -2,6 +2,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'lambda.clementine-player.org/images/**'
+      - '.github/workflows/images.yml'
   workflow_dispatch:
 
 permissions:
