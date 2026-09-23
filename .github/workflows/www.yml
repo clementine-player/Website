@@ -11,17 +11,10 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container: alpine:3.14
-    # alpine:3.14's musl libc is too old for the Node 24 runtime GitHub now
-    # forces JS actions onto (Node 20 was deprecated Sept 2025) — auth@v2
-    # fails with "Error relocating .../node: pthread_getname_np: symbol not
-    # found" without this. Stopgap until the container image itself is
-    # modernized as part of the App Engine gen2/Python 3 migration.
-    env:
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+    container: alpine:3.20
     steps:
       - name: Install dependencies
-        run: apk --no-cache add py-django make openjdk8-jre-base gettext
+        run: apk --no-cache add py3-django make openjdk17-jre-headless gettext
       - name: checkout
         uses: actions/checkout@v2
       - name: Authenticate to Google Cloud
