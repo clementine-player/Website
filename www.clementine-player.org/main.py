@@ -235,6 +235,12 @@ def fetch_release():
   for asset in result['assets']:
     name = asset['name']
     name_lower = name.lower()
+    # Fedora's rpmbuild splits debug symbols into their own -debuginfo/
+    # -debugsource sub-packages alongside the real one (e.g.
+    # "clementine-debuginfo-1.4.1-1.fc39.x86_64.rpm"). They're not
+    # something an end user downloading the app wants to see.
+    if 'debuginfo' in name_lower or 'debugsource' in name_lower:
+      continue
     info = {
       'os': 'Unknown',
       'ver': result['tag_name'],
