@@ -504,6 +504,13 @@ a.thindownload:hover .version,
   margin-bottom: 24px;
 }
 
+.version-heading {
+  color: #FD9146;
+  font-family: DuepuntozeroRegular, sans-serif;
+  font-size: 24px;
+  margin: 0px 0px 12px 0px;
+}
+
 /* Screenshots */
 .screenshots_table {
   margin-bottom: 40px;
