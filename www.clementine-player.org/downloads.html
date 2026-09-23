@@ -10,13 +10,14 @@
 <div class="downloadscontainer">
   <p>{{ _("Get the latest stable version of Clementine for your operating system.") }}</p>
 
+  {% if best_download or latest_downloads %}
+    <p class="version-heading">{{ _("Version") }} {{ (best_download or latest_downloads[0]).ver }}</p>
+  {% endif %}
+
   {% if best_download %}
     {% with d = best_download %}
     <a href="{{ d.url }}" class="best-download thindownload">
       <img class="icon" src="/images/{{ d.os_logo }}" alt="">
-      <span class="version">
-        {{ d.ver }}
-      </span>
       <p class="os">
         {{ d.display_os }}
       </p>
@@ -37,7 +38,6 @@
   {% for d in latest_downloads|sort(attribute="os") %}
     <a class="thindownload" href="{{ d.url }}">
       <img class="icon" src="/images/{{ d.os_logo }}" alt="" />
-      <span class="version">{{ d.ver }}</span>
       <p class="os">
         {{ d.display_os }}
       </p>
