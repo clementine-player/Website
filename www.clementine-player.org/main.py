@@ -171,66 +171,84 @@ def fetch_release():
   result = json.loads(content)
   downloads = []
   for asset in result['assets']:
+    name = asset['name']
+    name_lower = name.lower()
     info = {
       'os': 'Unknown',
       'ver': result['tag_name'],
       'arch': 0,
       'url': asset['browser_download_url'],
     }
-    if asset['content_type'] == 'application/x-rpm':
+    # Classify by filename extension, not GitHub's reported content_type:
+    # content_type depends on whatever the uploading tool set (or GitHub's
+    # own sniffing) and isn't stable across releases uploaded by different
+    # tooling over the years -- assets whose content_type didn't match any
+    # of these branches used to fall through with no display_os/os_logo set
+    # at all, silently rendering as a blank/broken entry rather than a
+    # missing one. Filenames are what the rest of this function already
+    # relies on for arch/distro detection, so they're the reliable signal.
+    if name_lower.endswith('.rpm'):
       info['os'] = 'fedora'
       info['short_os'] = 'Fedora'
       info['os_logo'] = 'fedora-logo.png'
-      if 'x86_64' in asset['name']:
+      if 'x86_64' in name:
         info['arch'] = 64
-      elif 'i686' in asset['name']:
+      elif 'i686' in name:
         info['arch'] = 32
-      m = re.search(r'\.fc(\d+)\.', asset['name'])
+      m = re.search(r'\.fc(\d+)\.', name)
       if m:
         info['display_os'] = 'Fedora %s' % m.group(1)
       else:
         info['display_os'] = 'Fedora'
-    elif asset['content_type'] == 'application/x-apple-diskimage':
+    elif name_lower.endswith('.dmg'):
       info['os'] = 'mac'
       info['display_os'] = 'Mac'
       info['short_os'] = 'Mac'
       info['os_logo'] = 'leopard-logo.png'
       info['arch'] = 64
-    elif asset['content_type'] == 'application/x-xz':
+    elif name_lower.endswith(('.tar.xz', '.tar.gz')):
       info['os'] = 'source'
       info['display_os'] = 'Source Code'
       info['short_os'] = 'Source'
       info['os_logo'] = 'source-logo.png'
-    elif asset['content_type'] == 'application/x-ms-dos-executable':
+    elif name_lower.endswith('.exe'):
       info['os'] = 'windows'
       info['display_os'] = 'Windows'
       info['short_os'] = 'Windows'
       info['os_logo'] = 'windows-logo.png'
       info['arch'] = 32
-    elif asset['content_type'] in ('application/x-deb', 'application/vnd.debian.binary-package'):
+    elif name_lower.endswith('.deb'):
       for n in DEBIAN_NAMES:
-        if n in asset['name']:
+        if n in name:
           info['os'] = 'debian'
           info['display_os'] = 'Debian %s' % n.capitalize()
           info['short_os'] = n.capitalize()
           info['os_logo'] = 'squeeze-logo.png'
 
       for n in UBUNTU_NAMES:
-        if n in asset['name']:
+        if n in name:
           info['os'] = 'ubuntu'
           info['display_os'] = 'Ubuntu %s' % n.capitalize()
           info['short_os'] = n.capitalize()
           info['os_logo'] = 'ubuntu-logo.png'
 
-      if 'i386' in asset['name']:
+      if 'i386' in name:
         info['arch'] = 32
-      elif 'amd64' in asset['name']:
+      elif 'amd64' in name:
         info['arch'] = 64
-      elif 'armhf' in asset['name']:
+      elif 'armhf' in name:
         info['arch'] = 32
         info['display_os'] = 'Raspberry Pi'
         info['short_os'] = 'RPI'
         info['os_logo'] = 'raspberry-pi-logo.png'
+
+    # Belt-and-suspenders: any asset that still doesn't have a display_os
+    # (a genuinely new/unrecognized file type, or a .deb whose name matched
+    # neither DEBIAN_NAMES nor UBUNTU_NAMES) gets a usable fallback instead
+    # of silently rendering as a blank entry in the template.
+    info.setdefault('display_os', name)
+    info.setdefault('short_os', name)
+    info.setdefault('os_logo', 'clementine-logo.png')
 
     downloads.append(info)
   return downloads
