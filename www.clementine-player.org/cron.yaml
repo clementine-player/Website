@@ -7,10 +7,3 @@ cron:
       min_backoff_seconds: 60
       max_backoff_seconds: 600
 
-  - description: "Transifex Pull"
-    url: /scheduled/trigger-transifex-pull
-    schedule: every thursday 00:23
-    retry_parameters:
-      min_backoff_seconds: 60
-      max_doublings: 5
-
