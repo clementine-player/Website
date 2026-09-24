@@ -34,9 +34,10 @@ IMAGES_URL = 'https://images-5ctfinxp4a-lz.a.run.app/'
 VERSIONS_CACHE_KEY = 'sparkle-versions-%s'
 VERSIONS_CACHE_SECONDS = 60 * 10
 BIO_CACHE_KEY = 'bio/%s/%s'
-# Bumped from 'images/%s' when the images backend moved off Spotify, so
-# error responses cached before caching was limited to successes are skipped.
-IMAGES_CACHE_KEY = 'images-v2/%s'
+# Bump the version whenever the images backend's answers change (it moved
+# off Spotify, then started preferring the most popular exact-name match),
+# so stale cached responses are skipped rather than served for a day.
+IMAGES_CACHE_KEY = 'images-v3/%s'
 FETCH_CACHE_SECONDS = 60 * 60 * 24
 
 LOCAL_CACHE_SECONDS = 60
