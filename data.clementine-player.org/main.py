@@ -357,7 +357,8 @@ def tasks_snapshot_run():
 def tasks_rainymood():
   _require_cron()
   try:
-    response = requests.head(RAINYMOOD_URL, timeout=10)
+    # allow_redirects matches urlfetch, which followed redirects by default.
+    response = requests.head(RAINYMOOD_URL, timeout=10, allow_redirects=True)
     if response.status_code < 200 or response.status_code >= 300:
       raise requests.RequestException('status %d' % response.status_code)
     _write_cache(RAINYMOOD_CACHE_KEY, RAINYMOOD_URL, time.time())
