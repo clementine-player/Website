@@ -19,9 +19,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
       - name: Install Python dependencies
         working-directory: www.clementine-player.org
-        run: pip install -r requirements.txt Django
+        run: uv pip install --system -r requirements.txt Django
       - name: Build (translations + CSS)
         working-directory: www.clementine-player.org
         run: make
