@@ -22,8 +22,8 @@ GAE_PROJECT = os.environ.get('GOOGLE_CLOUD_PROJECT', 'clementine-data')
 #   gcloud app describe --project=clementine-data --format='value(locationId)'
 TASKS_LOCATION = os.environ.get('TASKS_LOCATION', 'us-central')
 
-# Served from the cloud.clementine-player.org GCS bucket, cached by
-# Cloudflare in front of it so we don't pay GCS egress for every listen.
+# Served from a Cloudflare R2 bucket on the cloud.clementine-player.org
+# custom domain (R2 has no egress charges).
 RAINYMOOD_URL = 'https://cloud.clementine-player.org/RainyMood.mp3'
 ICECAST_URL = 'http://dir.xiph.org/yp.xml'
 GITHUB_RELEASES = 'https://api.github.com/repos/clementine-player/Clementine/releases'
