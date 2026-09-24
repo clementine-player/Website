@@ -85,3 +85,25 @@ func TestMissingArtistIsBadRequest(t *testing.T) {
 		t.Errorf("status %d, want 400", rec.Code)
 	}
 }
+
+func TestBestMatchPrefersMostPopularExactName(t *testing.T) {
+	artists := []deezerArtist{
+		{Name: "Muse", Fans: 38, Link: "obscure"},
+		{Name: "Muse", Fans: 11037, Link: "other"},
+		{Name: "muse", Fans: 5043564, Link: "the band"},
+		{Name: "M.U.S.E.", Fans: 9999999, Link: "not an exact match"},
+	}
+	if got := bestMatch("Muse", artists).Link; got != "the band" {
+		t.Errorf("bestMatch = %q, want the band", got)
+	}
+}
+
+func TestBestMatchFallsBackToTopResult(t *testing.T) {
+	artists := []deezerArtist{
+		{Name: "Beyoncé", Fans: 100, Link: "top"},
+		{Name: "Beyonce Tribute", Fans: 5, Link: "other"},
+	}
+	if got := bestMatch("beyonce", artists).Link; got != "top" {
+		t.Errorf("bestMatch = %q, want Deezer's top result", got)
+	}
+}

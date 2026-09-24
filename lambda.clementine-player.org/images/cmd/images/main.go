@@ -41,6 +41,7 @@ type image struct {
 
 type deezerArtist struct {
 	Name          string `json:"name"`
+	Fans          int    `json:"nb_fan"`
 	Link          string `json:"link"`
 	PictureSmall  string `json:"picture_small"`
 	PictureMedium string `json:"picture_medium"`
@@ -65,7 +66,7 @@ type server struct {
 }
 
 func (s *server) lookup(artist string) ([]image, error) {
-	resp, err := s.client.Get(s.searchURL + "?" + url.Values{"q": {artist}, "limit": {"1"}}.Encode())
+	resp, err := s.client.Get(s.searchURL + "?" + url.Values{"q": {artist}, "limit": {"25"}}.Encode())
 	if err != nil {
 		return nil, err
 	}
@@ -85,7 +86,7 @@ func (s *server) lookup(artist string) ([]image, error) {
 		return nil, errNotFound
 	}
 
-	a := result.Data[0]
+	a := bestMatch(artist, result.Data)
 	// Artists without a photo get a generic placeholder, identifiable by an
 	// empty image hash in the URL (.../images/artist//1000x1000-...).
 	if a.PictureXL == "" || strings.Contains(a.PictureXL, "/images/artist//") {
@@ -107,6 +108,26 @@ func (s *server) lookup(artist string) ([]image, error) {
 		}
 	}
 	return images, nil
+}
+
+// bestMatch picks the artist to use from Deezer's search results. Deezer
+// ranks relevance before popularity, so a search for "Muse" can put an
+// obscure artist with exactly that name ahead of the band. Among exact
+// (case-insensitive) name matches, prefer the one with the most fans;
+// otherwise fall back to Deezer's top result, which handles near-miss
+// spellings like "beyonce" for "Beyoncé".
+func bestMatch(query string, artists []deezerArtist) deezerArtist {
+	best := -1
+	for i, a := range artists {
+		if strings.EqualFold(strings.TrimSpace(a.Name), strings.TrimSpace(query)) &&
+			(best < 0 || a.Fans > artists[best].Fans) {
+			best = i
+		}
+	}
+	if best < 0 {
+		return artists[0]
+	}
+	return artists[best]
 }
 
 func (s *server) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
