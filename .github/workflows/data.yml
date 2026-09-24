@@ -31,3 +31,11 @@ jobs:
         # Promoting is a separate, deliberate step (see the migration plan's
         # rollout section) so a merge can never make an unverified version live.
         run: gcloud app deploy app.yaml --no-promote --quiet
+      - name: Deploy cron schedule
+        working-directory: data.clementine-player.org
+        # Unlike app.yaml, cron.yaml is app-wide rather than per-version, so
+        # this takes effect immediately regardless of --no-promote above, and
+        # cron always calls whichever version is serving default traffic.
+        # Its handlers must therefore exist on both the live version and
+        # the one being rolled out.
+        run: gcloud app deploy cron.yaml --quiet
