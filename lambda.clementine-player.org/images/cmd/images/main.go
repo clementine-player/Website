@@ -5,10 +5,6 @@
 // url/width/height and ignore other fields, so this shape must stay a bare
 // array: Clementine releases that predate "attributions" call
 // QJsonDocument::array() on it.
-//
-// Attribution entries: "source" is a stable ID, "name" a display name that
-// clients show when they don't recognise the ID, "url" a link for the
-// credit, and optional "text" is wording a source requires shown verbatim.
 package main
 
 import (
@@ -25,10 +21,15 @@ import (
 const deezerSearchURL = "https://api.deezer.com/search/artist"
 
 type attribution struct {
+	// Source is a stable ID for the source, e.g. "deezer".
 	Source string `json:"source"`
-	Name   string `json:"name"`
-	URL    string `json:"url,omitempty"`
-	Text   string `json:"text,omitempty"`
+	// Name is a display name, shown by clients that don't recognise Source.
+	Name string `json:"name"`
+	// URL is a link for the credit.
+	URL string `json:"url,omitempty"`
+	// Text is wording the source requires shown verbatim. When empty,
+	// clients build the credit from Name with their own translated string.
+	Text string `json:"text,omitempty"`
 }
 
 type image struct {
