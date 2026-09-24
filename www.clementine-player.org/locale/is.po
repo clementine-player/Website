@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Sveinn í Felli <sv1@fellsnet.is>, 2017-2018
+# Sveinn í Felli <sv1@fellsnet.is>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2018-03-14 13:17+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic (http://www.transifex.com/davidsansome/clementine/language/is/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2022\n"
+"Language-Team: Icelandic (http://app.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -278,7 +279,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Þessi útgáfa bætir við stuðningi við fleiri ferðatæki í Clementine. Þú getur núna afritað lög yfir á iPod, iPhone, MTP eða USB-geymslutæki.  Skoðaðu <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki-síðurnar til að fá nánari upplýsingar</a>. Stuðningur við notkun <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> sem fjarstýringar hefur einnig bæst við. Aðrir eiginleikar eru meðal annars biðraðastýring, gluggi til að skipuleggja skrár, sjálfvirk aðlögun dálka í spilunarlistum, hleðsla ívafinna id3v2-umslagsmynda, fleiri valkostir við skönnun safna, draga-sleppa á milli spilunarlista og  hypnotoad-hljóðeffekt. Einnig hefur tekist að stytta ræsitímann um helning, laga nokkra minnisleka og minnka örgjörvaálag við spilun tónlistar. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
 
 #: data.py:283
 msgid "Version 0.6 released"
@@ -296,7 +297,7 @@ msgid ""
 " the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Þessi útgáfa kemur með tvö ný upplýsingaspjöld sem sýna lagatexta, tölfræði laga, æviágrip flytjenda, ljósmyndir og lista yfir merki og svipaða flytjendur. Hliðarspjaldið hefur verið endurhannað (þú getur farið til baka með því að hægrismella á það), að auki hafa bæst við einkunnir og fjöldi spilana og slepptra laga. Þú getur útbúið snjalla- og breytilega spilunarlista með lögum úr safninu þínu, auk þess að hlusta á tónlist frá <a href=\"http://www.jamendo.com/\">Jamendo</a> og Icecast útvarpsstöðvunum. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
 
 #: data.py:296
 msgid "Version 0.7 released"
@@ -316,7 +317,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/master/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Þessi útgáfa gefur Clementine alveg nýjan merkjabreytingaglugga, með sjálfklárun orða og hæfileika til að greina tónlist sjálfkrafa og sækja þau merki sem vantar til MusicBrainz. CUE-blöð eru núna studd - þau finnast sjálfkrafa þegar safnið þitt er skannað og lemur hvert lag upp sérstaklega. Margar smærri endurbætur mætti nefna, eins og  birting umslagsmynda í safnsflipanum, eydd lög birtast með gráum lit, valkosturinn \"Sýna í skráavafra\" er nýr, stuðningur við netmilliþjóna (proxy), valkostur fyrir \"Skanna allt tónlistarsafnið\", auk nýrrar vísbendingar á lagasleðanum sem hjálpar þér að leita mun nákvæmar að tilteknum stað í lagi. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
 
 #: data.py:311
 msgid "Version 1.0 released"
@@ -331,9 +332,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Þessi útgáfa bætir við stuðningi við <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> og <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  Við bættum líka við \"Víðvær leit\"-eiginleika, sem gerir þér kleift að finna auðveldlega þá tónlist sem þú ert með annað hvort á tækinutölvunni eða á Internetinu. Aðrir eiginleikar eru til dæmis stuðningur við CD-hljómdiska, fleiri möguleikar við umkóðun, betra stillingaviðmót, snjallari leit að plötuumslögum, og haugur af betrumbótum. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
 
 #: data.py:324
@@ -765,8 +767,9 @@ msgstr "Clementine Remote fjarstýringin er hýst í <a href=\"https://github.co
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Þú getur tilkynnt um vandamál og boðið fram plástra þar í <a href=\"https://github.com/clementine-player/Android-Remote/issues\">villuskrásetjaranum</a>."
 
 #: participate.html:96

@@ -9,20 +9,20 @@
 # clabacchio <clabacchio@gmail.com>, 2012
 # Gabriel Rolland <rollopack@gmail.com>, 2012
 # Gabriel Rolland <rollopack@gmail.com>, 2012
-# Vincenzo Reale <vinx.reale@gmail.com>, 2012-2015,2017
+# Vincenzo Reale <smart2128vr@gmail.com>, 2012-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 20:36+0000\n"
-"Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/davidsansome/clementine/language/it/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>, 2012-2015,2017\n"
+"Language-Team: Italian (http://app.transifex.com/davidsansome/clementine/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: android-download.html:4
 msgid "Clementine Remote"
@@ -337,9 +337,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Questa versione aggiunge il supporto a <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> e <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Abbiamo aggiunto anche una funzionalità di ricerca globale che consente di trovare facilmente musica presente sia nella vostra raccolta che su Internet. Le altre funzionalità includono il supporto dei CD audio, ulteriori opzioni di transcodifica, una finestra delle impostazioni migliorata, una ricerca più efficiente delle copertine degli album e molte correzioni di bug. Vedere il <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">elenco completo delle novità</a> per ulteriori informazioni."
 
 #: data.py:324
@@ -771,8 +772,9 @@ msgstr "Clementine Remote è ospitato su <a href=\"https://github.com/clementine
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Puoi segnalare problemi e proporre patch sul <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">nostro sistema di tracciamento dei bug</a>."
 
 #: participate.html:96

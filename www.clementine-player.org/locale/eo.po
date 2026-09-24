@@ -3,15 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme-Barrientos, 2015-2016
+# Adolfo Jayme Barrientos, 2020
+# Adolfo Jayme Barrientos, 2015-2016
+# Jakub Szafranek Fabijan <jakubfabijan@tuta.io>, 2025
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Esperanto (http://www.transifex.com/davidsansome/clementine/language/eo/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Jakub Szafranek Fabijan <jakubfabijan@tuta.io>, 2025\n"
+"Language-Team: Esperanto (http://app.transifex.com/davidsansome/clementine/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +30,7 @@ msgstr ""
 
 #: base.html:11
 msgid "Clementine Music Player"
-msgstr ""
+msgstr "Muzikludilo Clementine"
 
 #: base.html:51
 msgid "About"
@@ -44,7 +46,7 @@ msgstr "Ekrankopioj"
 
 #: base.html:54 participate.html:2
 msgid "Participate"
-msgstr "Partoprenu"
+msgstr "Partopreni"
 
 #: base.html:58
 msgid "A cross-platform music player inspired by Amarok 1.4"
@@ -70,7 +72,7 @@ msgstr "Retejo kreita de"
 
 #: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr "Regularo pri privateco"
+msgstr "Privateca politiko"
 
 #: data.py:8
 msgid ""
@@ -95,7 +97,7 @@ msgstr "Podkastoj"
 
 #: data.py:15
 msgid "Google Drive"
-msgstr ""
+msgstr "Disko Google"
 
 #: data.py:16
 msgid "New global search interface"
@@ -167,15 +169,15 @@ msgstr ""
 
 #: data.py:41
 msgid "Clementine 0.5 on Mac OS X"
-msgstr ""
+msgstr "Clementine 0.5 en Mac OS X"
 
 #: data.py:44
 msgid "Clementine 0.4 on Ubuntu"
-msgstr ""
+msgstr "Clementine 0.4 en Ubuntu"
 
 #: data.py:45
 msgid "Clementine 0.4 on Windows 7"
-msgstr ""
+msgstr "Clementine 0.4 en Vindozo 7"
 
 #: data.py:46
 msgid "Clementine 0.4 visualisations with projectM"
@@ -195,7 +197,7 @@ msgstr ""
 
 #: data.py:52 data.py:58
 msgid "The tag editor on Windows"
-msgstr ""
+msgstr "La etikeda redaktilo en Vindozo"
 
 #: data.py:53
 msgid "The cover manager on Mac OS X"
@@ -203,7 +205,7 @@ msgstr ""
 
 #: data.py:56
 msgid "Playback on Linux"
-msgstr ""
+msgstr "Ludado en Linukso"
 
 #: data.py:57
 msgid "Last.fm support"
@@ -219,11 +221,11 @@ msgstr "Fonta kodo"
 
 #: data.py:168
 msgid "Source"
-msgstr ""
+msgstr "Fonto"
 
 #: data.py:240
 msgid "Version 0.2 released"
-msgstr ""
+msgstr "Versio 0.2 eldonita"
 
 #: data.py:241
 msgid ""
@@ -234,7 +236,7 @@ msgstr ""
 
 #: data.py:247
 msgid "Version 0.3 released"
-msgstr ""
+msgstr "Versio 0.3 eldonita"
 
 #: data.py:248
 msgid ""
@@ -246,7 +248,7 @@ msgstr ""
 
 #: data.py:256
 msgid "Version 0.4 released"
-msgstr ""
+msgstr "Versio 0.4 eldonita"
 
 #: data.py:257
 msgid ""
@@ -260,7 +262,7 @@ msgstr ""
 
 #: data.py:266
 msgid "Version 0.5 released"
-msgstr ""
+msgstr "Versio 0.5 eldonita"
 
 #: data.py:267
 msgid ""
@@ -282,7 +284,7 @@ msgstr ""
 
 #: data.py:283
 msgid "Version 0.6 released"
-msgstr ""
+msgstr "Versio 0.6 eldonita"
 
 #: data.py:284
 msgid ""
@@ -300,7 +302,7 @@ msgstr ""
 
 #: data.py:296
 msgid "Version 0.7 released"
-msgstr ""
+msgstr "Versio 0.7 eldonita"
 
 #: data.py:297
 msgid ""
@@ -320,7 +322,7 @@ msgstr ""
 
 #: data.py:311
 msgid "Version 1.0 released"
-msgstr ""
+msgstr "Versio 1.0 eldonita"
 
 #: data.py:312
 msgid ""
@@ -331,14 +333,15 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr ""
 
 #: data.py:324
 msgid "Version 1.1 released"
-msgstr ""
+msgstr "Versio 1.1 eldonita"
 
 #: data.py:325
 msgid ""
@@ -356,7 +359,7 @@ msgstr ""
 
 #: data.py:338
 msgid "Version 1.2 released"
-msgstr ""
+msgstr "Versio 1.2 eldonita"
 
 #: data.py:339
 msgid ""
@@ -378,7 +381,7 @@ msgstr ""
 
 #: data.py:354
 msgid "Version 1.3 released"
-msgstr ""
+msgstr "Versio 1.3 eldonita"
 
 #: data.py:355
 msgid ""
@@ -394,7 +397,7 @@ msgstr ""
 
 #: data.py:364
 msgid "Version 1.3.1 released"
-msgstr ""
+msgstr "Versio 1.3.1 eldonita"
 
 #: data.py:365
 msgid ""
@@ -436,7 +439,7 @@ msgstr ""
 
 #: downloads.html:68 downloads.html.py:83
 msgid "Other Downloads"
-msgstr ""
+msgstr "Aliaj elŝutoj"
 
 #: downloads.html:70
 msgid "Clementine Remote for Android"
@@ -530,7 +533,7 @@ msgstr "Pri / trajtoj"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr ""
+msgstr "Traserĉi kaj ludi vian lokan muzikan bibliotekon."
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -599,7 +602,7 @@ msgstr ""
 
 #: main.html:44
 msgid "Android device"
-msgstr ""
+msgstr "Android-aparato"
 
 #: main.html:44
 msgid "a Wii Remote"
@@ -611,7 +614,7 @@ msgstr ""
 
 #: main.html:45
 msgid "Copy music to your"
-msgstr ""
+msgstr "Kopii muzikon al via"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
@@ -641,11 +644,11 @@ msgstr ""
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
-msgstr ""
+msgstr "Elŝuti la plej lastan version nun"
 
 #: main.html:66
 msgid "Download Clementine"
-msgstr ""
+msgstr "Elŝuti Clementine-on"
 
 #: main.html:75
 msgid "for Windows, Mac OS X and Linux"
@@ -657,11 +660,11 @@ msgstr ""
 
 #: main.html:81
 msgid "Changelog"
-msgstr ""
+msgstr "Ŝanĝprotokolo"
 
 #: main.html:82
 msgid "Show all downloads"
-msgstr ""
+msgstr "Montri ĉiujn elŝutojn"
 
 #: main.html:101 screenshots.html:17
 msgid "Screenshot"
@@ -673,15 +676,15 @@ msgstr "Novaĵoj"
 
 #: participate.html:17
 msgid "Need help?"
-msgstr ""
+msgstr "Ĉu bezonas helpon?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr ""
+msgstr "Babilu kun ni ĉe la"
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr ""
+msgstr "kanalo sur Freenode."
 
 #: participate.html:22
 msgid ""
@@ -705,7 +708,7 @@ msgstr ""
 
 #: participate.html:35
 msgid "Collaborate"
-msgstr ""
+msgstr "Kunlabori"
 
 #: participate.html:37
 msgid "Reporting bugs and proposing patches"
@@ -727,13 +730,13 @@ msgstr ""
 
 #: participate.html:46
 msgid "Translating the interface"
-msgstr ""
+msgstr "Tradukado de la fasado"
 
 #: participate.html:48
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr ""
+msgstr "Se vi volus traduki Clementine-on al alia lingvo, vi povas ĉe la tradukada paĝo de Transifex."
 
 #: participate.html:49
 msgid ""
@@ -743,7 +746,7 @@ msgstr ""
 
 #: participate.html:52
 msgid "Transifex translations"
-msgstr ""
+msgstr "Transifex tradukaĵoj"
 
 #: participate.html:55
 msgid "Hacking"
@@ -765,8 +768,9 @@ msgstr ""
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr ""
 
 #: participate.html:96
@@ -788,11 +792,11 @@ msgstr ""
 
 #: participate.html:106
 msgid "Clementine on Facebook"
-msgstr ""
+msgstr "Clementine ĉe Facebook"
 
 #: participate.html:109
 msgid "Clementine on Twitter"
-msgstr ""
+msgstr "Clementine ĉe Twitter"
 
 #: participate.html:112
 msgid "Clementine on Last.fm"
@@ -800,7 +804,7 @@ msgstr ""
 
 #: participate.html:126
 msgid "Stickers"
-msgstr ""
+msgstr "Glumarkoj"
 
 #: participate.html:127
 #, python-format

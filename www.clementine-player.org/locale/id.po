@@ -6,20 +6,20 @@
 # Hassan Aly <me@hasssan.com>, 2014
 # La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2014
 # La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2014
-# Steven <tjung.steven@gmail.com>, 2013
-# Steven <tjung.steven@gmail.com>, 2013
-# Steven <tjung.steven@gmail.com>, 2013-2014
-# Steven <tjung.steven@gmail.com>, 2013
-# wantoyo <inactive+wantoyo@transifex.com>, 2014-2015
+# ed699b8d11fa3ae24338c51891d89bf5_198a34d, 2013
+# ed699b8d11fa3ae24338c51891d89bf5_198a34d, 2013
+# ed699b8d11fa3ae24338c51891d89bf5_198a34d, 2013-2014
+# ed699b8d11fa3ae24338c51891d89bf5_198a34d, 2013
+# f4fa50e1921fb4273a514899ed633fda_b9e907e <fb7ca61b730a9d06962cf5749dc9f4d6_202334>, 2014-2015
 # zk, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/davidsansome/clementine/language/id/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: f4fa50e1921fb4273a514899ed633fda_b9e907e <fb7ca61b730a9d06962cf5749dc9f4d6_202334>, 2014-2015\n"
+"Language-Team: Indonesian (http://app.transifex.com/davidsansome/clementine/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -339,9 +339,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Rilis ini menambahkan dukungan <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> dan <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  Kami juga telah menambahkan fitur Pencarian Global yang memungkinkan Anda dengan mudah menemukan musik yang ada di pustaka atau pun di Internet. Fitur lainnya termasuk dukungan CD audio, lebih banyak opsi transkoder, perbaikan dialog setelan, pencarian sampul album yang lebih cerdas, dan banyak perbaikan kutu. Lihat <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">catatan perubahan lengkap</a> untuk informasi lebih lanjut."
 
 #: data.py:324
@@ -773,8 +774,9 @@ msgstr "Clementine Remote tersedia di <a href=\"https://github.com/clementine-pl
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Anda dapat melaporkan masalah dan mengusulkan patch di <a href=\"https://github.com/clementine-player/Android-Remote/issues\">pelacak kutu</a> aplikasi tersebut."
 
 #: participate.html:96

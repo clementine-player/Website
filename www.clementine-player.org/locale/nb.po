@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-11-11 22:55+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/davidsansome/clementine/language/nb/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2016-2017\n"
+"Language-Team: Norwegian Bokmål (http://app.transifex.com/davidsansome/clementine/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -332,9 +332,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Denne versjonen bringer med seg støtte for <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> og<a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Vi har også lagt til en global søkefunksjon, som gjør at du enkelt kan finne musikk som enten er i ditt bibliotek eller på Internett. Andre funksjoner inkluderer støtte for lyd-CD-er, flere omkodingsinnstillinger, en forbedret innstillingsdialog, smartere søking etter albumomslag og en masse feilrettelser. Se <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">hele versjonsnotatet</a> for ytterligere informasjon."
 
 #: data.py:324
@@ -766,8 +767,9 @@ msgstr "Clementine Remote er å finne i <a href=\"https://github.com/clementine-
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Du kan rapportere problemer og foreslå rettelser i <a href=\"https://github.com/clementine-player/Android-Remote/issues\">feilrapporteringsoversikten</a>."
 
 #: participate.html:96

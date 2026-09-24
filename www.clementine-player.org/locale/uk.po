@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 14:24+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/davidsansome/clementine/language/uk/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>, 2011-2015,2017\n"
+"Language-Team: Ukrainian (http://app.transifex.com/davidsansome/clementine/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -332,9 +332,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "У цьому випуску додано підтримку <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> and <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Також нами додано можливість загального пошуку, яка спростить вам пошук композицій, що зберігаються у вашій бібліотеці або на серверах у інтернеті. Серед інших можливостей слід відзначити підтримку роботи зі звуковими компакт-дисками, більше параметрів перекодування, покращення у діалоговому вікні параметрів програми, новий алгоритм пошуку зображень обкладинок та багато виправлень вад. Щоб дізнатися більше, ознайомтеся з <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">журналом змін</a>."
 
 #: data.py:324
@@ -766,8 +767,9 @@ msgstr "Програма дистанційного керування Clementin
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Повідомляти про вади у ній та пропонувати латки можна за допомогою <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">спеціальної сторінки стеження за вадами</a>."
 
 #: participate.html:96

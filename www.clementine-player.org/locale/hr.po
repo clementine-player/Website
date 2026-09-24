@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-12-02 19:58+0000\n"
-"Last-Translator: gogo <trebelnik2@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/davidsansome/clementine/language/hr/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>, 2013-2015,2017\n"
+"Language-Team: Croatian (http://app.transifex.com/davidsansome/clementine/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -334,9 +334,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Ovo izdanje uključuje <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> i <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> podršku.  Dodali smo značajku globalnog pretraživanja koja vam omogućuje lagano pronalaženje glazbe u vašoj fonoteci ili sa Interneta. Ostale značajke uključuju podršku za glazbene CD-e, više mogućnosti ekôdiranja, poboljšan dijalog postavki, pametnije pretraživanje omota albuma i hrpu ispravljenih greški. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">cjelokupan popis promjena</a> za više informacija."
 
 #: data.py:324
@@ -768,8 +769,9 @@ msgstr "Clementine aplikacija daljinskog upravljanja se nalazi na <a href=\"http
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Možete prijaviti probleme i predložiti zakrpe na <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">pratitelju grešaka</a>."
 
 #: participate.html:96

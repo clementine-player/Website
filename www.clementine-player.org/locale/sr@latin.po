@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Mladen Pejaković <pejakm@autistici.org>, 2014
-# Mladen Pejaković <pejakm@autistici.org>, 2014-2015,2017
+# Mladen Pejaković, 2014
+# Mladen Pejaković, 2014-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-11-03 22:52+0000\n"
-"Last-Translator: Mladen Pejaković <pejakm@autistici.org>\n"
-"Language-Team: Serbian (Latin) (http://www.transifex.com/davidsansome/clementine/language/sr@latin/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Mladen Pejaković, 2014-2015,2017\n"
+"Language-Team: Serbian (Latin) (http://app.transifex.com/davidsansome/clementine/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -332,9 +332,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Ovo izdanje donosi podršku za <a href=\"http://www.spotify.com\">Spotifaj</a>, <a href=\"http://grooveshark.com\">Gruvšark</a> i <a href=\"http://www.sky.fm/\">Skaj.fm</a>/<a href=\"http://www.di.fm/\">Didžitali Imported</a>.  Takođe smo dodali mogućnost opšte pretrage koja vam omogućava da lako pronađete muziku koja je ili u vašoj biblioteci ili na internetu. Ostalo uključuje podršku za audio CD-e, više opcija za prekoder, poboljšani dijalog podešavanja, pametnije pretrage omota albuma i mnoštvo ispravki grešaka. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
 #: data.py:324
@@ -766,8 +767,9 @@ msgstr "Daljinski za Klementinu je hostovan na <a href=\"https://github.com/clem
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Možete da prijavljujete probleme i predlažete zakrpe <a href=\"https://github.com/clementine-player/Android-Remote/issues\">na njegovom pratiocu prijava</a>."
 
 #: participate.html:96

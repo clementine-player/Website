@@ -5,6 +5,7 @@
 # Translators:
 # Mikel Iturbe Urretxa <mikel@hamahiru.org>, 2012
 # isolus <isolus@yopmail.com>, 2013
+# isolus <isolus@yopmail.com>, 2025
 # isolus <isolus@yopmail.com>, 2013
 # Mikel Iturbe Urretxa <mikel@hamahiru.org>, 2012
 msgid ""
@@ -12,9 +13,9 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Basque (http://www.transifex.com/davidsansome/clementine/language/eu/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: isolus <isolus@yopmail.com>, 2025\n"
+"Language-Team: Basque (http://app.transifex.com/davidsansome/clementine/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -73,7 +74,7 @@ msgstr "Webgunea:"
 
 #: base.html:90 privacy.html:3 privacy.html.py:10
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Pribatutasun gidalerroak"
 
 #: data.py:8
 msgid ""
@@ -94,7 +95,7 @@ msgstr ""
 
 #: data.py:14
 msgid "Podcasts"
-msgstr ""
+msgstr "Podcastak"
 
 #: data.py:15
 msgid "Google Drive"
@@ -118,7 +119,7 @@ msgstr ""
 
 #: data.py:22
 msgid "Global search options"
-msgstr ""
+msgstr "Bilaketa orokorraren aukerak"
 
 #: data.py:23
 msgid "Grooveshark integration"
@@ -334,9 +335,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr ""
 
 #: data.py:324
@@ -768,8 +770,9 @@ msgstr ""
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr ""
 
 #: participate.html:96

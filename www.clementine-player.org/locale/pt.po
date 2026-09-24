@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2020
 # Sérgio Marques <smarquespt@gmail.com>, 2011-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 13:47+0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/davidsansome/clementine/language/pt/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2020\n"
+"Language-Team: Portuguese (http://app.transifex.com/davidsansome/clementine/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: android-download.html:4
 msgid "Clementine Remote"
@@ -331,9 +332,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Esta versão adiciona o suporte ao <a href=\"http://www.spotify.com\">Spotify</a>, ao <a href=\"http://grooveshark.com\">Grooveshark</a> e às rádios <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>. Adicionámos também uma função de procura global que permite encontrar, rápida e facilmente, as músicas da sua coleção e na Internet. Adicionámos também o suporte a CD áudio, mais opões de conversão, algumas correções no diálogo de preferências, melhorias na procura de imagem de álbuns e diversas correções. Consulte o <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">registo de alterações</a> para mais informações."
 
 #: data.py:324
@@ -407,7 +409,7 @@ msgstr "Últimas descargas"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
-msgstr "Obtenha a última versão estável do Clementine para o seu sistema operativo"
+msgstr "Obtenha a última versão estável do Clementine para o seu sistema operativo."
 
 #: downloads.html:33
 msgid "Downloads for other operating systems"
@@ -530,7 +532,7 @@ msgstr "Funcionalidades &amp; Características"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Pesquisa e reprodução da coleção de músicas"
+msgstr "Pesquisa e reprodução da coleção de músicas."
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -542,19 +544,19 @@ msgstr "Procure e reproduza as músicas enviadas para"
 
 #: main.html:31
 msgid "Create smart playlists and dynamic playlists."
-msgstr "Listas de reprodução inteligentes e dinâmicas"
+msgstr "Listas de reprodução inteligentes e dinâmicas."
 
 #: main.html:32
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Listas de reprodução em separadores, importação e exportação de M3U, XSPF, PLS e ASX"
+msgstr "Listas de reprodução em separadores, importação e exportação de M3U, XSPF, PLS e ASX."
 
 #: main.html:33
 msgid "CUE sheet support."
-msgstr "Suporte a faixas CUE"
+msgstr "Suporte a faixas CUE."
 
 #: main.html:34
 msgid "Play audio CDs."
-msgstr "Reprodução de CD áudio"
+msgstr "Reprodução de CD áudio."
 
 #: main.html:35
 msgid "Visualisations from"
@@ -562,19 +564,19 @@ msgstr "Visualizações"
 
 #: main.html:36
 msgid "Lyrics and artist biographies and photos."
-msgstr "Fotos e biografias dos artistas bem como a letra das músicas"
+msgstr "Fotos e biografias dos artistas bem como a letra das músicas."
 
 #: main.html:37
 msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Conversão de músicas para MP3, Ogg Vorbis, Ogg Speex, FLAC ou AAC"
+msgstr "Conversão de músicas para MP3, Ogg Vorbis, Ogg Speex, FLAC ou AAC."
 
 #: main.html:38
 msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Edite os detalhes dos ficheiros OGG, MP3 e organize as músicas"
+msgstr "Edite os detalhes dos ficheiros OGG, MP3 e organize as músicas."
 
 #: main.html:39
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Obter detalhes das músicas na MusicBrainz"
+msgstr "Obter detalhes das músicas na MusicBrainz."
 
 #: main.html:40
 msgid "Discover and download Podcasts."
@@ -586,7 +588,7 @@ msgstr "Descarrega as capas de álbum através da last.fm e Amazon."
 
 #: main.html:42
 msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Multi-plataforma - funciona em Windows, Mac OS X e Linux"
+msgstr "Multi-plataforma - funciona em Windows, Mac OS X e Linux."
 
 #: main.html:43
 msgid ""
@@ -599,7 +601,7 @@ msgstr "Controlo remoto utilizando um"
 
 #: main.html:44
 msgid "Android device"
-msgstr "dispositivo Android"
+msgstr "Dispositivo android"
 
 #: main.html:44
 msgid "a Wii Remote"
@@ -607,7 +609,7 @@ msgstr "um Wii Remote"
 
 #: main.html:44
 msgid "MPRIS or the command-line."
-msgstr "MPRIS ou a linha de comandos"
+msgstr "MPRIS ou a linha de comandos."
 
 #: main.html:45
 msgid "Copy music to your"
@@ -615,11 +617,11 @@ msgstr "Copie as músicas para o seu"
 
 #: main.html:45
 msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP ou leitor USB"
+msgstr "iPod, iPhone, MTP ou leitor USB."
 
 #: main.html:46
 msgid "Queue manager."
-msgstr "Gestor da fila de reprodução"
+msgstr "Gestor da fila de reprodução."
 
 #: main.html:52
 msgid "is a modern music player and library organizer"
@@ -627,7 +629,7 @@ msgstr "é um reprodutor e organizador de músicas moderno"
 
 #: main.html:56
 msgid "Clementine is a multiplatform music player."
-msgstr "O Clementine é um reprodutor de músicas multi-plataforma"
+msgstr "O Clementine é um reprodutor de músicas multi-plataforma."
 
 #: main.html:57
 msgid "It is inspired by"
@@ -637,7 +639,7 @@ msgstr "Tem como fonte de inspiração o"
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
-msgstr "e tenta disponibilizar uma interface simples para pesquisa e reprodução das suas músicas"
+msgstr "e tenta disponibilizar uma interface simples para pesquisa e reprodução das suas músicas."
 
 #: main.html:65 main.html.py:74
 msgid "Download the latest version now"
@@ -677,17 +679,17 @@ msgstr "Precisa de ajuda?"
 
 #: participate.html:21
 msgid "Come chat with us at the"
-msgstr "Venha conversar connosco no canal"
+msgstr "Venha conversar connosco no"
 
 #: participate.html:21
 msgid "channel on Freenode."
-msgstr "do Freenode."
+msgstr "canal do Freenode."
 
 #: participate.html:22
 msgid ""
 "Please remember to <b>stick around after asking a question</b> - we might be"
 " in a different timezone so won't see your question right away."
-msgstr "Não se esqueça de <b>voltar depois de colocar a questão</b> - é possível que estejamos em fusos horários diferentes e a sua questão pode não ser respondida de imediato"
+msgstr "Não se esqueça de <b>voltar depois de colocar a questão</b> - é possível que estejamos em fusos horários diferentes e a sua questão pode não ser respondida de imediato."
 
 #: participate.html:25
 msgid "Forum"
@@ -697,7 +699,7 @@ msgstr "Fórum"
 msgid ""
 "Clementine uses Google Groups for its forum/mailing list/general discussion "
 "group."
-msgstr "O Clementine utiliza os grupos Google para o grupo de discussões, fóruns e mensagens"
+msgstr "O Clementine utiliza os grupos Google para o grupo de discussões, fóruns e mensagens."
 
 #: participate.html:30
 msgid "Support and discussion group"
@@ -713,13 +715,13 @@ msgstr "Relatar erros e propor correções"
 
 #: participate.html:39
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "O Clementine utiliza o Goggle Code para o desenvolvimento e problemas"
+msgstr "O Clementine utiliza o Goggle Code para o desenvolvimento e problemas."
 
 #: participate.html:40
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
-msgstr "Se encontrar um erro no Clementine, vá até ao registo de problemas e crie um novo assunto"
+msgstr "Se encontrar um erro no Clementine, vá até ao registo de problemas e crie um novo assunto."
 
 #: participate.html:43
 msgid "Issue tracker"
@@ -733,7 +735,7 @@ msgstr "Traduzindo a interface"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Se quiser traduzir o Clementine para outro idioma, pode fazê-lo na página de traduções do Transifex"
+msgstr "Se quiser traduzir o Clementine para outro idioma, pode fazê-lo na página de traduções do Transifex."
 
 #: participate.html:49
 msgid ""
@@ -765,8 +767,9 @@ msgstr "O Clementine Remote disponibiliza o código fonte <a href=\"https://gith
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Pode reportar os erros ou sugestões no <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">acompanhamento de erros</a>."
 
 #: participate.html:96
@@ -811,7 +814,7 @@ msgstr "Pode encontrar auocolantes do Clementine em %(unixstickers)s."
 msgid ""
 "They will be perfect to customise your laptop and show how much you love "
 "your favourite music player!"
-msgstr "Estes autocolantes são perfeitos para personalizar o seu portátil o mostrar o seu agrado por esta aplicação."
+msgstr "Estes autocolantes são perfeitos para personalizar o seu portátil o mostrar o seu agrado por esta aplicação!"
 
 #: participate.html:131
 msgid "Donation"

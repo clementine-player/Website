@@ -9,6 +9,7 @@
 # Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Ikilik <muratikilik@gmail.com>, 2012
 # Murat Sahin <martinamca@gmail.com>, 2012
+# Serkan ÖNDER <serkanonder0@gmail.com>, 2021
 # 3494efdfe99795dce7df1bfa0b737fa2, 2013
 # 3494efdfe99795dce7df1bfa0b737fa2, 2013
 # Volkan Gezer <volkangezer@gmail.com>, 2013
@@ -20,9 +21,9 @@ msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 17:59+0100\n"
-"PO-Revision-Date: 2017-10-30 10:16+0000\n"
-"Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/davidsansome/clementine/language/tr/)\n"
+"PO-Revision-Date: 2011-10-27 20:15+0000\n"
+"Last-Translator: Serkan ÖNDER <serkanonder0@gmail.com>, 2021\n"
+"Language-Team: Turkish (http://app.transifex.com/davidsansome/clementine/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -342,9 +343,10 @@ msgid ""
 " a Global Search feature that allows you to easily find music that's either "
 "in your library or on the Internet. Other features include audio CD support,"
 " more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a href=\"https://raw.github.com"
-"/clementine-player/Clementine/release-1.0/Changelog\">full changelog</a> for"
-" more information."
+"searches, and loads of bug fixes. See the <a "
+"href=\"https://raw.github.com/clementine-"
+"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
+"information."
 msgstr "Bu sürüm <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> ve <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Dijital İçe Aktarılmış</a> desteği ekliyor. Ayrıca İnternet üzerinde veya kütüphanenizde bulunan müziğinizi kolaylıkla bulmanızı sağlayacak Evrensel Arama özelliğini ekledik. Diğer özellikler ses CD desteği, daha fazla dönüştürücü seçeneği, iyileştirilmiş ayarlar penceresi, daha akıllı albüm kapak aramaları ve çok sayıda hata gidermeleri. Daha fazla bilgi için <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">tam değişiklik günlüğü</a> ne bakın."
 
 #: data.py:324
@@ -389,7 +391,7 @@ msgstr "Bu sürüm Clementine'i bir Android cihazdan uzaktan yönetmenize izin v
 
 #: data.py:354
 msgid "Version 1.3 released"
-msgstr ""
+msgstr "Sürüm 1.3 yayınlandı"
 
 #: data.py:355
 msgid ""
@@ -401,16 +403,16 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
 "information."
-msgstr ""
+msgstr "Bu sürüm, <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine'i bir Android </a>cihazdan uzaktan kontrol etmenizi sağlayan Android için <br/>Clementine Remote uygulamasıyla uyumludur. Bu sürüm ayrıca müziğinize Vk.com ve Seafile'de erişim desteği de ekler.<a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">Daha fazla bilgi için</a> tam değişiklik günlüğüne bakın."
 
 #: data.py:364
 msgid "Version 1.3.1 released"
-msgstr ""
+msgstr "Sürüm 1.3.1 yayınlandı"
 
 #: data.py:365
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr ""
+msgstr "Eski sürümlerden yükseltme yapılırken derecelendirmelerin silindiği bir hatayı düzeltir."
 
 #: downloads.html:7
 msgid "Latest downloads"
@@ -776,8 +778,9 @@ msgstr "Clementine Kumanda <a href=\"https://github.com/clementine-player/Androi
 
 #: participate.html:95
 msgid ""
-"You can report issues and propose patches on <a href=\"https://github.com"
-"/clementine-player/Android-Remote/issues\">its bug tracker</a>."
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
+"tracker</a>."
 msgstr "Sorunları ve yamaları <a href=\"https://github.com/clementine-player/Android-Remote/issues\">kendi hata izleyicisine</a> raporlayabilir ve önerebilirsiniz."
 
 #: participate.html:96
