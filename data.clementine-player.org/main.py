@@ -22,15 +22,15 @@ GAE_PROJECT = os.environ.get('GOOGLE_CLOUD_PROJECT', 'clementine-data')
 #   gcloud app describe --project=clementine-data --format='value(locationId)'
 TASKS_LOCATION = os.environ.get('TASKS_LOCATION', 'us-central')
 
-RAINYMOOD_URL = 'http://images.clementine-player.org/RainyMood.mp3'
-BACKUP_RAINYMOOD_URL = 'http://cloud.clementine-player.org/RainyMood.mp3'
+# Served from the cloud.clementine-player.org GCS bucket, cached by
+# Cloudflare in front of it so we don't pay GCS egress for every listen.
+RAINYMOOD_URL = 'https://cloud.clementine-player.org/RainyMood.mp3'
 ICECAST_URL = 'http://dir.xiph.org/yp.xml'
 GITHUB_RELEASES = 'https://api.github.com/repos/clementine-player/Clementine/releases'
 
 BIO_URL = 'https://bio-5ctfinxp4a-lz.a.run.app/'
 IMAGES_URL = 'https://images-5ctfinxp4a-lz.a.run.app/'
 
-RAINYMOOD_CACHE_KEY = 'rainymood'
 VERSIONS_CACHE_KEY = 'sparkle-versions-%s'
 VERSIONS_CACHE_SECONDS = 60 * 10
 BIO_CACHE_KEY = 'bio/%s/%s'
@@ -217,10 +217,8 @@ def versions():
 
 @app.route('/rainymood')
 def rainymood():
-  cached = _read_cache(RAINYMOOD_CACHE_KEY)
-  url = cached['value'] if cached is not None else RAINYMOOD_URL
   _enqueue_task('/_tasks/counters', params={'key': 'rain'})
-  return redirect(url)
+  return redirect(RAINYMOOD_URL)
 
 
 @app.route('/icecast-directory')
@@ -352,17 +350,3 @@ def tasks_snapshot_run():
     models.CounterSnapshot(counter=counter.key, count=counter.count).put()
   return 'OK'
 
-
-@app.route('/_tasks/rainymood', methods=['GET'])
-def tasks_rainymood():
-  _require_cron()
-  try:
-    # allow_redirects matches urlfetch, which followed redirects by default.
-    response = requests.head(RAINYMOOD_URL, timeout=10, allow_redirects=True)
-    if response.status_code < 200 or response.status_code >= 300:
-      raise requests.RequestException('status %d' % response.status_code)
-    _write_cache(RAINYMOOD_CACHE_KEY, RAINYMOOD_URL, time.time())
-  except requests.RequestException:
-    logging.error('Switching to backup rainymood url')
-    _write_cache(RAINYMOOD_CACHE_KEY, BACKUP_RAINYMOOD_URL, time.time())
-  return 'OK'

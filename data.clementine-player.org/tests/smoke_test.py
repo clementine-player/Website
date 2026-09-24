@@ -121,10 +121,12 @@ with mock.patch.object(main.requests, 'get') as mock_get:
   resp = client.get('/fetchimages?artist=X')
   check('/fetchimages -> 200 proxied', resp.status_code == 200)
 
-with mock.patch.object(main.requests, 'get') as mock_get:
-  mock_get.return_value.status_code = 200
-  resp = client.get('/rainymood')
-  check('/rainymood -> 302 redirect', resp.status_code == 302)
+resp = client.get('/rainymood')
+check('/rainymood -> 302 to the Cloudflare-cached bucket URL', resp.status_code == 302
+      and resp.headers['Location'] == 'https://cloud.clementine-player.org/RainyMood.mp3')
+check('/rainymood still counts plays', any(
+    t['task']['app_engine_http_request']['body'] == b'key=rain'
+    for t in main.tasks_v2.TASKS))
 
 resp = client.get('/icecast-directory')
 check('/icecast-directory -> 302 redirect to xiph', resp.status_code == 302
@@ -169,21 +171,8 @@ with main.ndb_client.context():
   check('snapshot POST wrote a CounterSnapshot', len(snapshots) == 1
         and snapshots[0].count == 1)
 
-resp = client.get('/_tasks/rainymood')
-check('/_tasks/rainymood without cron header -> 403', resp.status_code == 403)
-
-with mock.patch.object(main.requests, 'head') as mock_head:
-  mock_head.return_value.status_code = 200
-  resp = client.get('/_tasks/rainymood', headers={'X-Appengine-Cron': 'true'})
-  check('/_tasks/rainymood healthy -> 200, primary url cached', resp.status_code == 200)
-  cached = main._read_cache(main.RAINYMOOD_CACHE_KEY)
-  check('rainymood cache set to primary url', cached['value'] == main.RAINYMOOD_URL)
-
-with mock.patch.object(main.requests, 'head', side_effect=main.requests.RequestException('down')):
-  resp = client.get('/_tasks/rainymood', headers={'X-Appengine-Cron': 'true'})
-  check('/_tasks/rainymood when primary is down -> 200, falls back', resp.status_code == 200)
-  cached = main._read_cache(main.RAINYMOOD_CACHE_KEY)
-  check('rainymood cache switched to backup url', cached['value'] == main.BACKUP_RAINYMOOD_URL)
+resp = client.get('/_tasks/rainymood', headers={'X-Appengine-Cron': 'true'})
+check('/_tasks/rainymood health check is gone -> 404', resp.status_code == 404)
 
 if failures:
   print('\nFAILURES: %r' % (failures,))

@@ -31,8 +31,6 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 
-RAINYMOOD_URLS = {'http://images.clementine-player.org/RainyMood.mp3',
-                  'http://cloud.clementine-player.org/RainyMood.mp3'}
 SPARKLE_NS = '{http://www.andymatuschak.org/xml-namespaces/sparkle}'
 
 
@@ -106,11 +104,6 @@ def compare_redirect(legacy, new, path):
   ll, nl = lh.get('Location'), nh.get('Location')
   if ls == ns and ll == nl:
     report('PASS', path, '%s -> %s' % (ns, nl))
-  elif path == '/rainymood' and ls == ns == 302 and {ll, nl} <= RAINYMOOD_URLS:
-    # Which of the two it picks comes from a cron health check, and cron
-    # only runs on the version serving default traffic.
-    report('WARN', path, 'legacy -> %s | new -> %s (new version\'s health-check '
-           'cron only runs once it\'s promoted)' % (ll, nl))
   else:
     report('FAIL', path, 'legacy %s %s | new %s %s' % (ls, ll, ns, nl))
 
@@ -229,10 +222,10 @@ def main():
   expect_new(new, '/versions', {410}, 'publishing page stubbed out')
   expect_new(new, '/counters', {404}, 'dropped (its charting APIs were shut down)')
   expect_new(new, '/c2dm/list', {404}, 'dropped (C2DM is dead)')
-  expect_new(new, '/_tasks/rainymood', {403}, 'cron-only, rejected from outside')
+  expect_new(new, '/_tasks/snapshot', {403}, 'cron-only, rejected from outside')
   # App Engine strips these headers from external requests, so spoofing them
   # must still be rejected. A 200 here would mean anyone could trigger tasks.
-  expect_new(new, '/_tasks/rainymood', {403}, 'spoofed cron header rejected',
+  expect_new(new, '/_tasks/snapshot', {403}, 'spoofed cron header rejected',
              headers={'X-Appengine-Cron': 'true'})
   expect_new(new, '/_tasks/counters', {403}, 'spoofed queue header rejected',
              method='POST', headers={'X-AppEngine-QueueName': 'default',
