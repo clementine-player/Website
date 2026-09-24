@@ -27,15 +27,9 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
       - name: Deploy data.clementine-player.org
         working-directory: data.clementine-player.org
-        # --no-promote: land as a new version without shifting traffic to it.
-        # Promoting is a separate, deliberate step (see the migration plan's
-        # rollout section) so a merge can never make an unverified version live.
-        run: gcloud app deploy app.yaml --no-promote --quiet
+        run: gcloud app deploy app.yaml --quiet
       - name: Deploy cron schedule
         working-directory: data.clementine-player.org
-        # Unlike app.yaml, cron.yaml is app-wide rather than per-version, so
-        # this takes effect immediately regardless of --no-promote above, and
-        # cron always calls whichever version is serving default traffic.
-        # Its handlers must therefore exist on both the live version and
-        # the one being rolled out.
+        # cron.yaml is app-wide rather than per-version, and cron always
+        # calls whichever version is serving default traffic.
         run: gcloud app deploy cron.yaml --quiet
