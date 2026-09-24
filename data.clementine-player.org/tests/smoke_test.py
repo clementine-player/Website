@@ -152,6 +152,13 @@ check('snapshot cron enqueued a task', any(
     t['task']['app_engine_http_request']['relative_uri'] == '/_tasks/snapshot'
     for t in main.tasks_v2.TASKS))
 
+os.environ['GAE_VERSION'] = 'test-version'
+client.get('/icecast-directory')
+del os.environ['GAE_VERSION']
+check('tasks are routed back to the version that enqueued them',
+      main.tasks_v2.TASKS[-1]['task']['app_engine_http_request'].get('app_engine_routing')
+      == {'service': 'default', 'version': 'test-version'})
+
 resp = client.post('/_tasks/snapshot')
 check('/_tasks/snapshot POST without queue header -> 403', resp.status_code == 403)
 

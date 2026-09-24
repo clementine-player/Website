@@ -80,6 +80,15 @@ def _enqueue_task(relative_uri, queue='default', params=None):
             'body': urlencode(params or {}).encode('utf-8'),
         }
     }
+    # Without explicit routing, Cloud Tasks delivers to whichever version is
+    # serving default traffic, not the one that enqueued the task (which is
+    # what the old taskqueue API did). Pin it, so an unpromoted version runs
+    # its own task handlers and mixed-version rollouts don't cross-deliver.
+    if os.environ.get('GAE_VERSION'):
+      task['app_engine_http_request']['app_engine_routing'] = {
+          'service': os.environ.get('GAE_SERVICE', 'default'),
+          'version': os.environ['GAE_VERSION'],
+      }
     tasks_client.create_task(parent=parent, task=task)
   except Exception:
     logging.exception('Failed to enqueue task %s', relative_uri)
