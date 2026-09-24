@@ -1,12 +1,12 @@
-FROM golang:1.16 AS builder
+FROM golang:1.24 AS builder
 
 COPY . /src
 WORKDIR /src
-RUN CGO_ENABLED=0 GOOS=linux go build -a -ldflags '-extldflags "-static"' ./cmd/images
+RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -o /images ./cmd/images
 
-FROM alpine:3.14
-RUN apk add --no-cache ca-certificates
+# distroless/static includes the CA certificates needed to call Deezer over HTTPS.
+FROM gcr.io/distroless/static-debian12:nonroot
 
-COPY --from=builder /src/images /server
+COPY --from=builder /images /server
 
 CMD [ "/server" ]

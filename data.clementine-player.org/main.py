@@ -34,7 +34,9 @@ IMAGES_URL = 'https://images-5ctfinxp4a-lz.a.run.app/'
 VERSIONS_CACHE_KEY = 'sparkle-versions-%s'
 VERSIONS_CACHE_SECONDS = 60 * 10
 BIO_CACHE_KEY = 'bio/%s/%s'
-IMAGES_CACHE_KEY = 'images/%s'
+# Bumped from 'images/%s' when the images backend moved off Spotify, so
+# error responses cached before caching was limited to successes are skipped.
+IMAGES_CACHE_KEY = 'images-v2/%s'
 FETCH_CACHE_SECONDS = 60 * 60 * 24
 
 LOCAL_CACHE_SECONDS = 60
@@ -279,35 +281,36 @@ def oauth():
   return redirect('http://localhost:%s/?code=%s' % (port, code))
 
 
+def _proxy_cached(cache_key, url, params):
+  now = time.time()
+  cached = _read_cache(cache_key)
+  if cached is not None and now - cached['fetched_at'] < FETCH_CACHE_SECONDS:
+    return Response(cached['value'], mimetype='application/json; charset=utf-8')
+  try:
+    response = requests.get(url, params=params, timeout=30)
+  except requests.RequestException as e:
+    logging.warning('Fetching %s failed: %s', url, e)
+    return Response('Upstream request failed', status=502)
+  # Only cache successes, so a transient backend error (or a not-found) isn't
+  # served back for the next day as if it were a real answer.
+  if response.status_code == 200:
+    _write_cache(cache_key, response.text, now)
+  return Response(response.text, status=response.status_code,
+                  mimetype='application/json; charset=utf-8')
+
+
 @app.route('/fetchbio')
 def fetchbio():
   artist = request.args.get('artist', '')
   lang = request.args.get('lang', '')
-  cache_key = BIO_CACHE_KEY % (artist, lang)
-  cached = _read_cache(cache_key)
-  now = time.time()
-  if cached is not None and now - cached['fetched_at'] < FETCH_CACHE_SECONDS:
-    data = cached['value']
-  else:
-    response = requests.get(BIO_URL, params={'artist': artist, 'lang': lang})
-    data = response.text
-    _write_cache(cache_key, data, now)
-  return Response(data, mimetype='application/json; charset=utf-8')
+  return _proxy_cached(BIO_CACHE_KEY % (artist, lang), BIO_URL,
+                       {'artist': artist, 'lang': lang})
 
 
 @app.route('/fetchimages')
 def fetchimages():
   artist = request.args.get('artist', '')
-  cache_key = IMAGES_CACHE_KEY % artist
-  cached = _read_cache(cache_key)
-  now = time.time()
-  if cached is not None and now - cached['fetched_at'] < FETCH_CACHE_SECONDS:
-    data = cached['value']
-  else:
-    response = requests.get(IMAGES_URL, params={'artist': artist})
-    data = response.text
-    _write_cache(cache_key, data, now)
-  return Response(data, mimetype='application/json; charset=utf-8')
+  return _proxy_cached(IMAGES_CACHE_KEY % artist, IMAGES_URL, {'artist': artist})
 
 
 @app.route('/')

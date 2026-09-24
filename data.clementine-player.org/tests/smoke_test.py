@@ -108,6 +108,7 @@ with mock.patch.object(main.requests, 'get') as mock_get:
   check('/downloadcount includes Linux total', b'Linux total' in resp.data)
 
 with mock.patch.object(main.requests, 'get') as mock_get:
+  mock_get.return_value.status_code = 200
   mock_get.return_value.text = '{"bio": "hello"}'
   resp = client.get('/fetchbio?artist=X&lang=en')
   check('/fetchbio -> 200 proxied', resp.status_code == 200 and b'hello' in resp.data)
@@ -117,9 +118,22 @@ with mock.patch.object(main.requests, 'get') as mock_get:
   check('/fetchbio cached response still correct', b'hello' in resp2.data)
 
 with mock.patch.object(main.requests, 'get') as mock_get:
-  mock_get.return_value.text = '{"images": []}'
+  mock_get.return_value.status_code = 200
+  mock_get.return_value.text = '[{"url": "u", "width": 1, "height": 1}]'
   resp = client.get('/fetchimages?artist=X')
-  check('/fetchimages -> 200 proxied', resp.status_code == 200)
+  check('/fetchimages -> 200 proxied', resp.status_code == 200 and b'"url"' in resp.data)
+
+with mock.patch.object(main.requests, 'get') as mock_get:
+  mock_get.return_value.status_code = 502
+  mock_get.return_value.text = 'oops: upstream down'
+  resp = client.get('/fetchimages?artist=Y')
+  check('/fetchimages passes a backend error status through', resp.status_code == 502)
+  client.get('/fetchimages?artist=Y')
+  check('/fetchimages does not cache backend errors', mock_get.call_count == 2)
+
+with mock.patch.object(main.requests, 'get', side_effect=main.requests.RequestException('timeout')):
+  resp = client.get('/fetchimages?artist=Z')
+  check('/fetchimages backend unreachable -> 502', resp.status_code == 502)
 
 resp = client.get('/rainymood')
 check('/rainymood -> 302 to the Cloudflare-cached bucket URL', resp.status_code == 302
