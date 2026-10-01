@@ -2,6 +2,15 @@
 
 def _(x): return x
 
+# The captions for Clementine Remote's first two store screenshots, which the
+# home page shows from its latest release. Android-Remote's
+# scripts/store_screenshots.py numbers them by screen, so 1.png is always the
+# player and 2.png the library.
+ANDROID_HOME_SCREENSHOTS = [
+  (1, _('Controlling playback from the Android app')),
+  (2, _('Browsing the library from the Android app')),
+]
+
 SCREENSHOTS = [
   {'version': '1.2', 'entries': [
     {'file': 'clementine-1.2-1.png', 'title': _('Playlist tab, while listening to songs from multiples Internet services')},

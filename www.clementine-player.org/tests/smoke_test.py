@@ -107,8 +107,19 @@ for expected in ('Clementine Remote for Android 13.3',
                  'https://raw.githubusercontent.com/clementine-player/Android-Remote/v13.3/'):
   if expected not in page:
     failures.append(('/screenshots', 'missing %r' % expected, 'present'))
+# The home page shows its player and library in place of the old app's.
+home = client.get('/').get_data(as_text=True)
+for expected in ('/thumbnails/android/v13.3/1.png', '/thumbnails/android/v13.3/2.png',
+                 'Browsing the library from the Android app', 'clementine-1.2-1.png'):
+  if expected not in home:
+    failures.append(('/', 'missing %r' % expected, 'present'))
+if 'clementine-1.2-3.png' in home:
+  failures.append(('/', 'still shows the old app', 'replaced'))
+
 fetch = main._fetch_android_screenshots_from_github
+attempts = []
 def unavailable():
+  attempts.append(1)
   raise main.GithubFetchError('GitHub is down')
 main._fetch_android_screenshots_from_github = unavailable
 main._local_cache.clear()
@@ -117,7 +128,17 @@ fake_datastore._STORE.clear()
 resp = client.get('/screenshots')
 if resp.status_code != 200:
   failures.append(('/screenshots without Android', resp.status_code, 200))
+# The home page falls back to the old screenshots, and doesn't ask GitHub
+# again straight away.
+main._local_cache.clear()
+home = client.get('/').get_data(as_text=True)
+if 'clementine-1.2-3.png' not in home:
+  failures.append(('/ without Android', 'no old screenshots', 'old screenshots'))
+if len(attempts) != 1:
+  failures.append(('/ without Android', '%d fetches' % len(attempts), '1 fetch'))
 main._fetch_android_screenshots_from_github = fetch
+fake_datastore._STORE.clear()
+main._local_cache.clear()
 print('Clementine Remote screenshots on /screenshots: %s' % ('OK' if not failures else 'FAILED'))
 
 # Its thumbnails only ever come from Android-Remote's release tags.

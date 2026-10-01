@@ -539,6 +539,14 @@ a.thindownload:hover .version,
   text-align: center;
 }
 
+/* Clementine Remote's portrait screenshots are half as wide as the cell. */
+.screenshot img.phone {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
 /* General style */
 h1 {
   font-family: TITLE_FONT_FAMILY;
