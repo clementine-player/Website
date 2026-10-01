@@ -22,14 +22,19 @@ from data import LANGUAGE_NAMES
 from data import LANGUAGES
 from data import ANDROID_HOME_SCREENSHOTS
 from data import NEWS
+from data import RELEASE_PLATFORMS
+from data import RELEASE_SCREENSHOTS
 from data import SCREENSHOTS
 
 import android
+import thumbnailer as thumbnailer_module
 from thumbnailer import thumbnailer
 
 RELEASES_KEY = 'github_releases'
 RELEASES_CACHE_SECONDS = 60 * 60
 ANDROID_SCREENSHOTS_KEY = 'android_screenshots'
+# A screenshot on a Clementine release: screenshot-<platform>-<screen>.png.
+RELEASE_SCREENSHOT = re.compile(r'screenshot-([a-z]+)-([a-z-]+)\.png$')
 # After a failed fetch, how long until the next try. The home page shows these,
 # so while GitHub is down every view mustn't wait for it again.
 ANDROID_RETRY_SECONDS = 5 * 60
@@ -178,6 +183,72 @@ def _fetch_release_from_github():
   return json.dumps(releases[0])
 
 
+def _release_screenshot_key(asset):
+  # What its thumbnail and full size are kept by: its contents' SHA-256, which
+  # GitHub gives, so a release whose screenshots didn't change reuses them.
+  digest = asset.get('digest') or ''
+  if digest.startswith('sha256:'):
+    return digest[len('sha256:'):]
+  return 'id%d' % asset['id']
+
+
+def fetch_release_screenshots():
+  # Clementine's screenshots on its newest release, as
+  # {'version': ..., 'platforms': {platform: {screen: entry}}}, or None.
+  try:
+    release = _load_release()
+  except Exception:
+    logging.exception('Failed to load the release for its screenshots')
+    return None
+  platforms = {}
+  for asset in release.get('assets', []):
+    m = RELEASE_SCREENSHOT.match(asset['name'].lower())
+    if not m:
+      continue
+    key = _release_screenshot_key(asset)
+    platforms.setdefault(m.group(1), {})[m.group(2)] = {
+      'thumbnail': '/thumbnails/release/%s.png' % key,
+      'full': '/release-screenshots/%s.png' % key,
+    }
+  if not platforms:
+    return None
+  return {'version': release['tag_name'], 'platforms': platforms}
+
+
+def release_screenshot_url(key):
+  # Where to download the newest release's screenshot with this key, or None:
+  # only its own screenshots are ever fetched.
+  try:
+    assets = _load_release().get('assets', [])
+  except Exception:
+    logging.exception('Failed to load the release for its screenshot %s', key)
+    return None
+  for asset in assets:
+    if RELEASE_SCREENSHOT.match(asset['name'].lower()) and _release_screenshot_key(asset) == key:
+      return asset['browser_download_url']
+  return None
+
+
+thumbnailer_module.release_screenshot_url = release_screenshot_url
+
+
+def visitor_platforms(user_agent):
+  # The release's platforms in the order to show them: the visitor's first,
+  # where the browser says which it's on.
+  ua = user_agent.lower()
+  order = [p for p, _name in RELEASE_PLATFORMS]
+  first = None
+  if 'windows' in ua:
+    first = 'windows'
+  elif ('macintosh' in ua or 'mac os x' in ua) and not any(d in ua for d in ('iphone', 'ipad', 'ipod')):
+    first = 'macos'
+  elif ('linux' in ua or 'x11' in ua or 'cros' in ua) and 'android' not in ua:
+    first = 'linux'
+  if first is None:
+    return order
+  return [first] + [p for p in order if p != first]
+
+
 def _fetch_android_screenshots_from_github():
   token = base64.b64encode(('%s:' % GITHUB_TOKEN).encode('utf-8')).decode('ascii')
   headers = {'Authorization': 'Basic %s' % token}
@@ -280,7 +351,8 @@ def get_distro_codenames():
     return json.loads(cached['value']) if cached is not None else {}
 
 
-def fetch_release():
+def _load_release():
+  # The newest Clementine release, from GitHub's API, cached.
   now = time.time()
   cached = _read_cache(RELEASES_KEY)
 
@@ -296,8 +368,11 @@ def fetch_release():
         content = cached['value']
       else:
         raise
+  return json.loads(content)
 
-  result = json.loads(content)
+
+def fetch_release():
+  result = _load_release()
   distro_codenames = get_distro_codenames()
   downloads = []
   for asset in result['assets']:
@@ -308,6 +383,9 @@ def fetch_release():
     # "clementine-debuginfo-1.4.1-1.fc39.x86_64.rpm"). They're not
     # something an end user downloading the app wants to see.
     if 'debuginfo' in name_lower or 'debugsource' in name_lower:
+      continue
+    # Screenshots, for the screenshots: see fetch_release_screenshots().
+    if RELEASE_SCREENSHOT.match(name_lower):
       continue
     info = {
       'os': 'Unknown',
@@ -491,17 +569,55 @@ def make_page(template_file, language):
       e['full'] = 'https://clementine-player.github.io/pages/images/screenshots/' + e['file']
 
   android_screenshots = None
-  latest_screenshots = screenshots[0]['entries']
+  release_screenshots = None
   if template_file in ('main.html', 'screenshots.html'):
     android_screenshots = fetch_android_screenshots()
-  if android_screenshots and template_file == 'main.html':
-    # The newest desktop screenshots, then Clementine Remote's player and
-    # library from its latest release in place of the old app's.
+    release_screenshots = fetch_release_screenshots()
+
+  platform_names = dict(RELEASE_PLATFORMS)
+  platforms = visitor_platforms(request.headers.get('User-Agent', ''))
+
+  def release_entry(platform, screen):
+    shot = release_screenshots['platforms'].get(platform, {}).get(screen)
+    if shot is None:
+      return None
+    title = dict(RELEASE_SCREENSHOTS)[screen]
+    values = {'platform': platform_names.get(platform, platform)}
+    try:
+      return dict(shot, title=translations.gettext(title) % values)
+    except (KeyError, TypeError, ValueError):
+      # A translation that lost its %(platform)s.
+      return dict(shot, title=title % values)
+
+  release_group = None
+  desktop = None
+  if release_screenshots:
+    entries = [release_entry(p, screen) for p in platforms for screen, _title in RELEASE_SCREENSHOTS]
+    release_group = {
+      'version': release_screenshots['version'],
+      'entries': [e for e in entries if e],
+    }
+    # The home page's two: the library, light and dark, on the visitor's
+    # platform if the release has them, else the next one that does.
+    for p in platforms:
+      pair = [release_entry(p, 'library'), release_entry(p, 'library-dark')]
+      if all(pair):
+        desktop = pair
+        break
+
+  # The home page: two of Clementine, then two of Clementine Remote. Without
+  # them from the releases, the old ones.
+  old = screenshots[0]['entries']
+  old_desktop = [e for e in old if 'Android' not in e['title_en']][:2]
+  old_android = [e for e in old if 'Android' in e['title_en']]
+  android_entries = None
+  if android_screenshots:
     by_number = {e['number']: e for e in android_screenshots['entries']}
     android_entries = [dict(by_number[n], title=translations.gettext(title), phone=True)
                        for n, title in ANDROID_HOME_SCREENSHOTS if n in by_number]
-    if len(android_entries) == len(ANDROID_HOME_SCREENSHOTS):
-      latest_screenshots = [e for e in latest_screenshots if 'Android' not in e['title_en']][:2] + android_entries
+    if len(android_entries) != len(ANDROID_HOME_SCREENSHOTS):
+      android_entries = None
+  latest_screenshots = (desktop or old_desktop) + (android_entries or old_android)
 
   # Try to detect the user's OS and architecture.
   ua = request.headers.get('User-Agent', '').lower()
@@ -531,6 +647,7 @@ def make_page(template_file, language):
     'root_page':          root_page,
     'screenshots':        screenshots,
     'android_screenshots': android_screenshots,
+    'release_screenshots': release_group,
     'is_rtl':             language in ('ar', 'fa', 'he'),
     'stylesheet_version': STYLESHEET_VERSION,
   }

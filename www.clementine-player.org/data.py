@@ -11,6 +11,21 @@ ANDROID_HOME_SCREENSHOTS = [
   (2, _('Browsing the library from the Android app')),
 ]
 
+# Clementine's own screenshots, which its release job attaches to each GitHub
+# release as screenshot-<platform>-<screen>.png (.github/workflows/all.yml in
+# Clementine), in the order the site shows them. The visitor's platform goes
+# first; the rest keep this order.
+RELEASE_PLATFORMS = [
+  ('windows', 'Windows'),
+  ('macos', 'macOS'),
+  ('linux', 'Linux'),
+]
+RELEASE_SCREENSHOTS = [
+  ('library', _('The library on %(platform)s')),
+  ('library-dark', _('The library on %(platform)s, in the dark theme')),
+  ('internet', _('Internet services on %(platform)s')),
+]
+
 SCREENSHOTS = [
   {'version': '1.2', 'entries': [
     {'file': 'clementine-1.2-1.png', 'title': _('Playlist tab, while listening to songs from multiples Internet services')},
