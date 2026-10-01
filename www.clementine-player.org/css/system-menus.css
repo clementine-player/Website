@@ -3,10 +3,11 @@
 ul.menu {
   list-style: none;
   border: none;
-  text-align:left; /* LTR */
+  text-align: start;
 }
 ul.menu li {
-  margin: 0 0 0 0.5em; /* LTR */
+  margin: 0;
+  margin-inline-start: 0.5em;
 }
 li a.active {
   color: #000;
@@ -28,5 +29,6 @@ ul.links li {
 }
 .block ul {
   margin: 0;
-  padding: 0 0 0.25em 1em; /* LTR */
+  padding: 0 0 0.25em;
+  padding-inline-start: 1em;
 }

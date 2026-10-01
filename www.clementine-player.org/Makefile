@@ -16,21 +16,12 @@ po-%:
 	ln -fs `pwd`/locale/$*.po locale/$*/LC_MESSAGES/django.po
 	django-admin makemessages --no-wrap --keep-pot -v 0 -l $*
 
-static/css/all.css: $(wildcard css/*.css)
-	java -jar closure-stylesheets-20111230.jar \
-		--allow-unrecognized-functions \
-		--pretty-print $(wildcard css/*.css) \
-		--output-file static/css/all.css
+# One stylesheet for every language: right-to-left pages are laid out by the
+# same rules (see css/style.css), so it's just the files one after another.
+static/css/all.css: $(sort $(wildcard css/*.css))
+	cat $^ > $@
 
-static/css/all-rtl.css: $(wildcard css/*.css)
-	java -jar closure-stylesheets-20111230.jar \
-		--allow-unrecognized-functions \
-		--output-orientation RTL \
-		--define RTL_LANG \
-		--pretty-print $(wildcard css/*.css) \
-		--output-file static/css/all-rtl.css
-
-css: static/css/all.css static/css/all-rtl.css
+css: static/css/all.css
 
 clean:
-	rm -f static/css/all.css static/css/all-rtl.css
+	rm -f static/css/all.css

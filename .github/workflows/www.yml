@@ -17,7 +17,7 @@ jobs:
     container: alpine:3.20
     steps:
       - name: Install dependencies
-        run: apk --no-cache add py3-django make openjdk17-jre-headless gettext
+        run: apk --no-cache add py3-django make gettext
       - name: checkout
         uses: actions/checkout@v2
       - name: Authenticate to Google Cloud

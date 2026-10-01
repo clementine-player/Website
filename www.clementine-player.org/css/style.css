@@ -8,15 +8,21 @@
   font-style: normal;
 }
 
-@def FONT_FAMILY 'Tharlon', 'Verdana', sans-serif;
-@def TITLE_FONT_FAMILY 'Tharlon', 'DuepuntozeroRegular', sans-serif;
-@def ENGLISH_ONLY_TITLE_FONT_FAMILY 'DuepuntozeroRegular', 'Verdana', sans-serif;
-@def ENGLISH_ONLY_FONT_FAMILY 'Verdana', sans-serif;
+/* Left and right are written as the start and end of the line (margin-inline-
+   start and so on), so the same rules lay out right-to-left pages, whose <html>
+   has dir="rtl". Only a background's position has no such form: those have a
+   :dir(rtl) rule beside them. */
+:root {
+  --font-family: 'Tharlon', 'Verdana', sans-serif;
+  --title-font-family: 'Tharlon', 'DuepuntozeroRegular', sans-serif;
+  --english-only-title-font-family: 'DuepuntozeroRegular', 'Verdana', sans-serif;
+  --english-only-font-family: 'Verdana', sans-serif;
+}
 
 /* Reset the basic elements to a baseline. */
 body {
   color: #000;
-  font-family: FONT_FAMILY;
+  font-family: var(--font-family);
   margin: 0;
   font-size: 12px;
   background: linear-gradient(to right, #af597d, #db6835);
@@ -71,13 +77,13 @@ table {
   font-size: inherit;
 }
 caption {
-  text-align: left;
+  text-align: start;
 }
 th {
   border-bottom-width: 1px;
   font-weight: bold;
   padding-bottom: 2px;
-  text-align: left;
+  text-align: start;
 }
 td {
   font-size: 100%;
@@ -108,11 +114,13 @@ a img {
   background-image: url('/images/body-decoration.png');
   background-position: right top;
   background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-inline: auto;
+  padding-inline: 20px;
   width: 980px;
+}
+
+#wrapper:dir(rtl) {
+  background-position: left top;
 }
 
 #header {
@@ -120,34 +128,25 @@ a img {
 }
 
 img.logo {
-  float: left;
+  float: inline-start;
 }
 
 #site-slogan {
-  clear: right;
+  clear: inline-end;
   color: white;
-  float: right;
+  float: inline-end;
   font-style: italic;
-  margin-right: 20px;
+  margin-inline-end: 20px;
 }
 
 #primary-links {
   display: table;
-  float: right;
+  float: inline-end;
   height: 58px;
   margin-bottom: 15px;
-
-  -webkit-border-bottom-right-radius: 25px;
-  -webkit-border-bottom-left-radius: 25px;
-  -moz-border-radius-bottomright: 25px;
-  -moz-border-radius-bottomleft: 25px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-
+  border-end-start-radius: 25px;
+  border-end-end-radius: 25px;
   box-shadow: 0px 0 25px black;
-  -webkit-box-shadow: 0px 0 25px black;
-  -moz-box-shadow: 0px 0 25px black;
-
 }
 
 #primary-links ul {
@@ -161,44 +160,25 @@ img.logo {
 }
 
 li.menu > a {
-  border-right:1px solid #DC8D4A;
+  border-inline-end: 1px solid #DC8D4A;
   color: white;
-  font-family: TITLE_FONT_FAMILY;
+  font-family: var(--title-font-family);
   font-size: 15pt;
   padding: 19px;
   text-decoration: none;
-
-  /* @alternate */ background: #454543; /* Old browsers */
-  /* @alternate */ background: -moz-linear-gradient(top, #454543 0%, #393939 100%); /* FF3.6+ */
-  /* @alternate */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454543), color-stop(100%,#393939)); /* Chrome,Safari4+ */
-  /* @alternate */ background: -webkit-linear-gradient(top, #454543 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
-  /* @alternate */ background: -o-linear-gradient(top, #454543 0%,#393939 100%); /* Opera 11.10+ */
-  /* @alternate */ background: -ms-linear-gradient(top, #454543 0%,#393939 100%); /* IE10+ */
-  /* @alternate */ background: linear-gradient(top, #454543 0%,#393939 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454543', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(to bottom, #454543 0%, #393939 100%);
 }
 
 li.menu a:hover {
-  /* @alternate */ background: #5b5b5b; /* Old browsers */
-  /* @alternate */ background: -moz-linear-gradient(top, #5b5b5b 0%, #393939 100%); /* FF3.6+ */
-  /* @alternate */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#393939)); /* Chrome,Safari4+ */
-  /* @alternate */ background: -webkit-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Chrome10+,Safari5.1+ */
-  /* @alternate */ background: -o-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* Opera 11.10+ */
-  /* @alternate */ background: -ms-linear-gradient(top, #5b5b5b 0%,#393939 100%); /* IE10+ */
-  /* @alternate */ background: linear-gradient(top, #5b5b5b 0%,#393939 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#393939',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(to bottom, #5b5b5b 0%, #393939 100%);
 }
 
 li.first > a {
-  -webkit-border-bottom-left-radius: 25px;
-  -moz-border-radius-bottomleft: 25px;
-  border-bottom-left-radius: 25px;
+  border-end-start-radius: 25px;
 }
 
 li.last > a {
-  -webkit-border-bottom-right-radius: 25px;
-  -moz-border-radius-bottomright: 25px;
-  border-bottom-right-radius: 25px;
+  border-end-end-radius: 25px;
   border: none;
 }
 
@@ -209,23 +189,17 @@ li.last > a {
 #container {
   clear: both;
   background-color: white;
-
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
   border-radius: 30px;
-
   box-shadow: 0 5px 25px black;
-  -webkit-box-shadow: 0 5px 25px black;
-  -moz-box-shadow: 0 5px 25px black;
 }
 
 #right-sidebar {
-  float: left;
+  float: inline-start;
   width: 20%;
 }
 
 #page {
-  float: left;
+  float: inline-start;
   overflow: hidden;
   min-height: 550px;
   padding: 30px;
@@ -272,9 +246,6 @@ li.last > a {
   font-weight: bold;
   margin-bottom: 10px;
   padding: 10px;
-
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -284,8 +255,7 @@ li.last > a {
 
 /* Blocks */
 .block {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-inline: 5px;
 }
 .block .title {
   font-weight: bold;
@@ -294,7 +264,7 @@ li.last > a {
   padding-bottom: 10px;
 }
 .user-login-block {
-  text-align: left;
+  text-align: start;
 }
 
 /* Nodes */
@@ -303,14 +273,14 @@ li.last > a {
 }
 
 .node .picture {
-  float: left;
+  float: inline-start;
   padding: 4px;
-  margin-right: 4px;
+  margin-inline-end: 4px;
   background-color: #f0f0f0;
 }
 
 .node .links {
-  clear: left;
+  clear: inline-start;
 }
 
 .node table {
@@ -326,14 +296,14 @@ li.last > a {
 /* Comments */
 
 .comment .picture {
-  float: left;
+  float: inline-start;
   padding: 4px;
-  margin-right: 4px;
+  margin-inline-end: 4px;
   background-color: #f0f0f0;
 }
 
 .comment .links {
-  clear: left;
+  clear: inline-start;
 }
 
 .comment-new {
@@ -342,12 +312,12 @@ li.last > a {
 /* Customize different page layouts */
 body.sidebar-right #page {
   width: 77%;
-  padding-right: 2%;
+  padding-inline-end: 2%;
 }
 
 /* Front page */
 #features {
-  float: right;
+  float: inline-end;
   margin-top: 15px;
   width: 50%;
 }
@@ -361,27 +331,28 @@ body.sidebar-right #page {
 /* Download block */
 #download-block {
   width: 339px;
-  margin-left: 20px;
-}
-
-@if (RTL_LANG) {
-  @def DOWNLOAD_BLOCK '/images/download-block-rtl.png';
-} @else {
-  @def DOWNLOAD_BLOCK '/images/download-block.png';
+  margin-inline-start: 20px;
 }
 
 #download-button {
-  background-image: url(DOWNLOAD_BLOCK);
-  background-position:left top;
+  background-image: url('/images/download-block.png');
+  background-position: left top;
   background-repeat: no-repeat;
   color: white;
   cursor: pointer;
   display: block;
   height: 119px;
-  padding: 15px 20px 10px 90px;
-  text-align: right;
+  padding-block: 15px 10px;
+  padding-inline: 90px 20px;
+  text-align: end;
   text-decoration: none;
   width: 229px;
+}
+
+/* Its clementine is drawn at the start of the line. */
+#download-button:dir(rtl) {
+  background-image: url('/images/download-block-rtl.png');
+  background-position: right top;
 }
 
 #download-button p {
@@ -389,12 +360,12 @@ body.sidebar-right #page {
 }
 
 #download-button img {
-  float: right;
+  float: inline-end;
   margin: 5px;
 }
 
 #download-title {
-  font-family: ENGLISH_ONLY_TITLE_FONT_FAMILY;
+  font-family: var(--english-only-title-font-family);
   font-style: normal;
   font-weight: normal;
   line-height: normal;
@@ -410,24 +381,24 @@ body.sidebar-right #page {
 }
 
 #download-otherlinks {
-  text-align: right;
+  text-align: end;
 }
 
 .downloadscontainer {
-  margin-left: 40px;
+  margin-inline-start: 40px;
 }
 
 .textdownload {
-  float: left;
+  float: inline-start;
   width: 349px;
 }
 
 .android-download {
-  float: left;
+  float: inline-start;
   width: 319px;
   height: 80px;
   background-image: url(/images/android-download.png);
-  background-position:left top;
+  background-position: left top;
   background-repeat: no-repeat;
   color: white;
   padding: 4px 15px 5px 15px;
@@ -440,16 +411,20 @@ a.thindownload {
 }
 
 .thindownload {
-  float: left;
+  float: inline-start;
   width: 349px;
   height: 60px;
   background-image: url(/images/thin-download.png);
-  background-position:left top;
+  background-position: left top;
   background-repeat: no-repeat;
   color: white;
   cursor: pointer;
   padding: 4px 15px 5px 15px;
   margin: 0px 20px 0px 20px;
+}
+
+.android-download:dir(rtl), .thindownload:dir(rtl) {
+  background-position: right top;
 }
 
 .thindownload:hover {
@@ -463,7 +438,7 @@ a.thindownload:hover .version,
 }
 
 .thindownload .icon {
-  float: left;
+  float: inline-start;
   position: relative;
   width: 40px;
   height: 40px;
@@ -473,22 +448,23 @@ a.thindownload:hover .version,
 .os, .android-download-title {
   margin: 0px;
   position: relative;
-  left: 5px;
+  inset-inline-start: 5px;
   top: 5px;
-  font-family: TITLE_FONT_FAMILY;
+  font-family: var(--title-font-family);
   font-size: 24px;
 }
 
 .android-download-title {
-  padding-left: 52px;
+  padding-inline-start: 52px;
   padding-bottom: 10px;
 }
 
 .google-play-badge {
-  float: left;
+  float: inline-start;
   /* The badge's own clear space is part of the image: this lines up what's
      drawn of it with the card beside or above it. */
-  margin: 9px 0px 0px 7px;
+  margin: 9px 0px 0px;
+  margin-inline-start: 7px;
 }
 
 .google-play-badge img {
@@ -505,7 +481,7 @@ a.thindownload:hover .version,
 
 .thindownload .arch, .android-download-text {
   position: relative;
-  left: 5px;
+  inset-inline-start: 5px;
   top: 5px;
 }
 
@@ -513,8 +489,8 @@ a.thindownload:hover .version,
   color: #FD9146;
   font-family: DuepuntozeroRegular, sans-serif;
   font-size: 30px;
-  float: right;
-  padding-right: 23px;
+  float: inline-end;
+  padding-inline-end: 23px;
 }
 
 .best-download {
@@ -549,10 +525,10 @@ a.thindownload:hover .version,
 
 /* General style */
 h1 {
-  font-family: TITLE_FONT_FAMILY;
+  font-family: var(--title-font-family);
   font-size: 24px;
   font-weight: normal;
-  text-align: right;
+  text-align: end;
 }
 
 h2 {
@@ -571,18 +547,17 @@ span.command {
 }
 
 pre {
-  margin-left: 2em;
-  padding-left: 1em;
-  border-left: 3px solid #FD9146; 
+  margin-inline-start: 2em;
+  padding-inline-start: 1em;
+  border-inline-start: 3px solid #FD9146;
   /* Commands are copied as they are, so a long line scrolls rather than
      wrapping or running out of the page. */
   overflow-x: auto;
 }
 
 .language {
-  font-family: ENGLISH_ONLY_FONT_FAMILY;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  font-family: var(--english-only-font-family);
+  padding-inline: 0.5em;
 }
 
 span.language {
@@ -590,16 +565,14 @@ span.language {
 }
 
 div .grooveshark-logo {
-  float: left;
+  float: inline-start;
   width: 85px;
 }
 
 div .grooveshark-text {
-  margin-left: 110px;
+  margin-inline-start: 110px;
 }
 
-/* Inline blocks, not flex: closure-stylesheets (see the Makefile) predates
-   flexbox's properties and rejects them. */
 .phone-screenshots {
   text-align: center;
   margin-bottom: 16px;
@@ -619,14 +592,25 @@ div .grooveshark-text {
 }
 
 pre {
-  /* Added so that it will get flipped in RTL */
   text-align: left;
+}
+
+/* Commands read left to right, so their <pre> has dir="ltr", and its start is
+   on the left even on a right-to-left page. There they've always sat on the
+   right, with the border beside them: so these follow the page, not the pre. */
+[dir="rtl"] pre {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+  margin-right: 2em;
+  padding-right: 1em;
+  border-right: 3px solid #FD9146;
+  text-align: right;
 }
 
 .privacy-policy {
   max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
   text-align: center;
 }
 
