@@ -22,10 +22,12 @@ from data import LANGUAGES
 from data import NEWS
 from data import SCREENSHOTS
 
+import android
 from thumbnailer import thumbnailer
 
 RELEASES_KEY = 'github_releases'
 RELEASES_CACHE_SECONDS = 60 * 60
+ANDROID_SCREENSHOTS_KEY = 'android_screenshots'
 DISTRO_CODENAMES_KEY = 'distro_codenames'
 # New Debian/Ubuntu codenames appear at most a few times a year, so this
 # can be far less fresh than the release cache above.
@@ -169,6 +171,61 @@ def _fetch_release_from_github():
   if not releases:
     raise GithubFetchError('No releases found')
   return json.dumps(releases[0])
+
+
+def _fetch_android_screenshots_from_github():
+  token = base64.b64encode(('%s:' % GITHUB_TOKEN).encode('utf-8')).decode('ascii')
+  headers = {'Authorization': 'Basic %s' % token}
+  # Its development builds are prereleases, so /releases/latest is the newest
+  # real release, the one on Google Play.
+  r = requests.get('https://api.github.com/repos/%s/releases/latest' % android.REPO,
+                   headers=headers, timeout=10)
+  if r.status_code != 200:
+    raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.text))
+  tag = r.json()['tag_name']
+  if not android.TAG.match(tag):
+    raise GithubFetchError('Unexpected tag %r' % tag)
+  r = requests.get('https://api.github.com/repos/%s/contents/%s' % (android.REPO, android.SCREENSHOTS_PATH),
+                   params={'ref': tag}, headers=headers, timeout=10)
+  if r.status_code != 200:
+    raise GithubFetchError('Error listing screenshots: %d %s' % (r.status_code, r.text))
+  numbers = sorted(int(m.group(1)) for m in (android.SCREENSHOT.match(f['name']) for f in r.json()) if m)
+  numbers = [n for n in numbers if 1 <= n <= android.MAX_SCREENSHOTS]
+  return json.dumps({'tag': tag, 'numbers': numbers})
+
+
+def fetch_android_screenshots():
+  # The newest Clementine Remote release's store screenshots, or None. Only
+  # the screenshots page shows them, so they must never take it down.
+  now = time.time()
+  try:
+    cached = _read_cache(ANDROID_SCREENSHOTS_KEY)
+  except Exception:
+    logging.exception('Failed to read the Android screenshots from the cache')
+    cached = None
+  if cached is not None and now - cached['fetched_at'] < RELEASES_CACHE_SECONDS:
+    content = cached['value']
+  else:
+    try:
+      content = _fetch_android_screenshots_from_github()
+      _write_cache(ANDROID_SCREENSHOTS_KEY, content, now)
+    except Exception:
+      logging.exception('Failed to fetch the Android screenshots')
+      if cached is None:
+        return None
+      content = cached['value']
+
+  release = json.loads(content)
+  if not release['numbers']:
+    return None
+  tag = release['tag']
+  return {
+    'version': tag[1:],
+    'entries': [{
+      'thumbnail': '/thumbnails/android/%s/%d.png' % (tag, n),
+      'full': android.screenshot_url(tag, n),
+    } for n in release['numbers']],
+  }
 
 
 def _fetch_distro_codenames():
@@ -431,6 +488,7 @@ def make_page(template_file, language):
     'languages':          languages,
     'root_page':          root_page,
     'screenshots':        screenshots,
+    'android_screenshots': fetch_android_screenshots() if template_file == 'screenshots.html' else None,
     'is_rtl':             language in ('ar', 'fa', 'he'),
   }
 

@@ -4,6 +4,20 @@
 
 {% block content %}
 
+{% if android_screenshots %}
+  <h1>{{ _("Clementine Remote for Android") }} {{ android_screenshots.version }}</h1>
+
+  <div class="phone-screenshots">
+  {% for entry in android_screenshots.entries %}
+    <a href="{{ entry.full }}">
+      <img src="{{ entry.thumbnail }}" width="220" alt="{{ _("Screenshot") }}" loading="lazy" />
+    </a>
+  {% endfor %}
+  </div>
+
+  <hr class="division" />
+{% endif %}
+
 {% for group in screenshots %}
   <h1>{{ _("Version") }} {{ group.version }}</h1>
 

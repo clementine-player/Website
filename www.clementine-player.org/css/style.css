@@ -590,6 +590,26 @@ div .grooveshark-text {
   margin-left: 110px;
 }
 
+/* Inline blocks, not flex: closure-stylesheets (see the Makefile) predates
+   flexbox's properties and rejects them. */
+.phone-screenshots {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.phone-screenshots a {
+  display: inline-block;
+  margin: 8px;
+}
+
+.phone-screenshots img {
+  display: block;
+  width: 220px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
 pre {
   /* Added so that it will get flipped in RTL */
   text-align: left;
