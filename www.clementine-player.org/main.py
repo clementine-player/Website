@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import base64
+import hashlib
 import copy
 import datetime
 import json
@@ -445,6 +446,23 @@ def get_language_from_request():
   return None
 
 
+def _stylesheet_versions():
+  # A hash of each stylesheet `make` built, for its URL: /css is cached for a
+  # day, so a deploy that changes the CSS would otherwise show the new pages
+  # with the old styles until the cache expires.
+  versions = {}
+  for name in ('all.css', 'all-rtl.css'):
+    try:
+      with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'css', name), 'rb') as f:
+        versions[name] = hashlib.sha256(f.read()).hexdigest()[:12]
+    except OSError:
+      versions[name] = ''
+  return versions
+
+
+STYLESHEET_VERSIONS = _stylesheet_versions()
+
+
 def make_page(template_file, language):
   root_page = '/'
   if language is None:
@@ -517,6 +535,7 @@ def make_page(template_file, language):
     'screenshots':        screenshots,
     'android_screenshots': android_screenshots,
     'is_rtl':             language in ('ar', 'fa', 'he'),
+    'stylesheet_versions': STYLESHEET_VERSIONS,
   }
 
   rendered = app.jinja_env.get_template(template_file).render(params)
