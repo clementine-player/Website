@@ -4,6 +4,31 @@
 
 {% block content %}
 
+{% macro screenshot_table(entries) %}
+  <table class="screenshots_table">
+  {% for entry in entries %}
+    {% if not loop.index0 % 2  %}
+      <tr>
+    {% endif %}
+    <td class="screenshot">
+      <a href="{{ entry.full }}">
+        <img src="{{ entry.thumbnail }}" width="440" alt="{{ _("Screenshot") }}" />
+      </a>
+      <p>{{ entry.title }}</p>
+    </td>
+    {% if loop.index0 % 2 or loop.last %}
+      </tr>
+    {% endif %}
+  {% endfor %}
+  </table>
+{% endmacro %}
+
+{% if release_screenshots %}
+  <h1>{{ _("Version") }} {{ release_screenshots.version }}</h1>
+  {{ screenshot_table(release_screenshots.entries) }}
+  <hr class="division" />
+{% endif %}
+
 {% if android_screenshots %}
   <h1>{{ _("Clementine Remote for Android") }} {{ android_screenshots.version }}</h1>
 
@@ -20,23 +45,7 @@
 
 {% for group in screenshots %}
   <h1>{{ _("Version") }} {{ group.version }}</h1>
-
-  <table class="screenshots_table">
-  {% for entry in group.entries %}
-    {% if not loop.index0 % 2  %}
-      <tr>
-    {% endif %}
-    <td class="screenshot">
-      <a href="{{ entry.full }}">
-        <img src="{{ entry.thumbnail }}" width="440" alt="{{ _("Screenshot") }}" />
-      </a>
-      <p>{{ entry.title }}</p>
-    </td>
-    {% if loop.index0 % 2 or loop.last %}
-      </tr>
-    {% endif %}
-  {% endfor %}
-  </table>
+  {{ screenshot_table(group.entries) }}
 
   <hr class="division" />
 {% endfor %}

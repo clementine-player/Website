@@ -64,6 +64,24 @@ CANNED_RELEASE = json.dumps({
         },
     ],
 })
+import hashlib  # noqa: E402
+
+SAMPLE_SCREENSHOT = 'clementine-0.1-1.png'
+with open(os.path.join(APP_DIR, 'static', 'screenshots', SAMPLE_SCREENSHOT), 'rb') as f:
+  SAMPLE_DIGEST = hashlib.sha256(f.read()).hexdigest()
+_release = json.loads(CANNED_RELEASE)
+for i, platform in enumerate(('windows', 'macos', 'linux')):
+  for j, screen in enumerate(('library', 'library-dark', 'internet')):
+    _release['assets'].append({
+        'id': 100 + 10 * i + j,
+        'name': 'screenshot-%s-%s.png' % (platform, screen),
+        'browser_download_url': 'http://127.0.0.1:8091/screenshots/' + SAMPLE_SCREENSHOT,
+        # The same picture throughout, so made different keys apart from macOS
+        # library's, which is the real one.
+        'digest': 'sha256:' + (SAMPLE_DIGEST if (platform, screen) == ('macos', 'library')
+                               else hashlib.sha256(('%s-%s' % (platform, screen)).encode()).hexdigest()),
+    })
+CANNED_RELEASE = json.dumps(_release)
 main._fetch_release_from_github = lambda: CANNED_RELEASE
 
 # Avoid a real network call to endoflife.date: return a small canned
@@ -99,6 +117,23 @@ routes = [
 
 failures = []
 
+# Release screenshots aren't downloads.
+if any('screenshot-' in d['url'] for d in main.fetch_release()):
+  failures.append(('downloads', 'lists a screenshot', 'no screenshots'))
+
+# The home page shows the visitor's platform's, else the first platform's.
+for ua, platform in (('Mozilla/5.0 (Macintosh; Intel Mac OS X 15_0)', 'macOS'),
+                     ('Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Windows'),
+                     ('Mozilla/5.0 (X11; Linux x86_64)', 'Linux'),
+                     ('Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)', 'Windows')):
+  home = client.get('/', headers={'User-Agent': ua}).get_data(as_text=True)
+  if 'The library on %s, in the dark theme' % platform not in home:
+    failures.append(('/ for ' + ua, 'no %s screenshots' % platform, platform))
+page = client.get('/screenshots', headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64)'}).get_data(as_text=True)
+if not page.index('Internet services on Linux') < page.index('The library on Windows'):
+  failures.append(('/screenshots for Linux', 'Linux not first', 'Linux first'))
+print('Release screenshots: %s' % ('OK' if not failures else 'FAILED'))
+
 # The screenshots page shows Clementine Remote's, and leaves them out rather
 # than failing when they can't be fetched.
 page = client.get('/screenshots').get_data(as_text=True)
@@ -110,7 +145,7 @@ for expected in ('Clementine Remote for Android 13.3',
 # The home page shows its player and library in place of the old app's.
 home = client.get('/').get_data(as_text=True)
 for expected in ('/thumbnails/android/v13.3/1.png', '/thumbnails/android/v13.3/2.png',
-                 'Browsing the library from the Android app', 'clementine-1.2-1.png'):
+                 'Browsing the library from the Android app', 'The library on Windows'):
   if expected not in home:
     failures.append(('/', 'missing %r' % expected, 'present'))
 if 'clementine-1.2-3.png' in home:
@@ -174,6 +209,18 @@ if sample_files:
   thread = threading.Thread(target=httpd.serve_forever, daemon=True)
   thread.start()
   try:
+    # A release screenshot, from the release's own URL, and only its own.
+    for path, check in (('/thumbnails/release/%s.png' % SAMPLE_DIGEST, None),
+                        ('/release-screenshots/%s.png' % SAMPLE_DIGEST, SAMPLE_DIGEST)):
+      resp = client.get(path)
+      print('%-35s -> %s (%d bytes)' % (path[:35], resp.status_code, len(resp.data)))
+      if resp.status_code != 200 or (check and hashlib.sha256(resp.data).hexdigest() != check):
+        failures.append((path, resp.status_code, 200))
+    for path in ('/release-screenshots/%s.png' % ('0' * 64), '/release-screenshots/nothex.png',
+                 '/thumbnails/release/id1.png'):
+      resp = client.get(path)
+      if resp.status_code != 404:
+        failures.append((path, resp.status_code, 404))
     resp = client.get('/thumbnails/' + sample, base_url='http://127.0.0.1:8091')
     print('%-35s -> %s (%d bytes)' % ('/thumbnails/' + sample, resp.status_code, len(resp.data)))
     if resp.status_code != 200:
