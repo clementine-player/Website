@@ -4,9 +4,11 @@ import io
 import logging
 
 import requests
-from flask import Blueprint, Response, request
+from flask import Blueprint, Response, abort, request
 from google.cloud import datastore
 from PIL import Image
+
+import android
 
 WIDTH = 440
 
@@ -22,16 +24,30 @@ def _get_datastore_client():
   return _datastore_client
 
 
+@thumbnailer.route('/thumbnails/android/<tag>/<int:number>.png')
+def android_thumbnail(tag, number):
+  # Only Clementine Remote's own store screenshots, at a release's tag.
+  if not android.TAG.match(tag) or not 1 <= number <= android.MAX_SCREENSHOTS:
+    abort(404)
+  return _thumbnail('android/%s/%d.png' % (tag, number),
+                    android.screenshot_url(tag, number))
+
+
 @thumbnailer.route('/thumbnails/<path:filename>')
 def thumbnail(filename):
+  return _thumbnail(filename, '%s://%s/screenshots/%s' % (request.scheme, request.host, filename))
+
+
+def _thumbnail(name, url):
   client = _get_datastore_client()
-  key = client.key('Thumbnail', filename)
+  key = client.key('Thumbnail', name)
   entity = client.get(key)
 
   if entity is None:
-    url = '%s://%s/screenshots/%s' % (request.scheme, request.host, filename)
     logging.info(url)
-    result = requests.get(url)
+    result = requests.get(url, timeout=20)
+    if result.status_code == 404:
+      abort(404)
     result.raise_for_status()
 
     image = Image.open(io.BytesIO(result.content))

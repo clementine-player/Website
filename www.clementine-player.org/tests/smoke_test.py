@@ -70,6 +70,11 @@ main._fetch_release_from_github = lambda: CANNED_RELEASE
 # codename->family mapping covering both branches.
 main.get_distro_codenames = lambda: {'jammy': 'ubuntu', 'bookworm': 'debian'}
 
+# Avoid real network calls for Clementine Remote's screenshots too: the newest
+# release, with three of them.
+main._fetch_android_screenshots_from_github = lambda: json.dumps(
+    {'tag': 'v13.3', 'numbers': [1, 2, 3]})
+
 print('import main: OK, app = %r' % (main.app,))
 
 downloads = main.fetch_release()
@@ -93,6 +98,35 @@ routes = [
 ]
 
 failures = []
+
+# The screenshots page shows Clementine Remote's, and leaves them out rather
+# than failing when they can't be fetched.
+page = client.get('/screenshots').get_data(as_text=True)
+for expected in ('Clementine Remote for Android 13.3',
+                 '/thumbnails/android/v13.3/3.png',
+                 'https://raw.githubusercontent.com/clementine-player/Android-Remote/v13.3/'):
+  if expected not in page:
+    failures.append(('/screenshots', 'missing %r' % expected, 'present'))
+fetch = main._fetch_android_screenshots_from_github
+def unavailable():
+  raise main.GithubFetchError('GitHub is down')
+main._fetch_android_screenshots_from_github = unavailable
+main._local_cache.clear()
+from google.cloud import datastore as fake_datastore  # tests/fakes
+fake_datastore._STORE.clear()
+resp = client.get('/screenshots')
+if resp.status_code != 200:
+  failures.append(('/screenshots without Android', resp.status_code, 200))
+main._fetch_android_screenshots_from_github = fetch
+print('Clementine Remote screenshots on /screenshots: %s' % ('OK' if not failures else 'FAILED'))
+
+# Its thumbnails only ever come from Android-Remote's release tags.
+routes += [
+    ('/thumbnails/android/evil/1.png', 404),
+    ('/thumbnails/android/v13.3/9.png', 404),
+    ('/thumbnails/android/v13.3/0.png', 404),
+]
+
 for path, expected in routes:
   try:
     resp = client.get(path, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
