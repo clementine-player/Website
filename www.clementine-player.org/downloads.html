@@ -74,6 +74,20 @@ sudo apt install clementine</pre>
 <p>{{ _("The repository is signed with this key:") }}
 <code dir="ltr">7CD7 6044 88F7 DB03 9EC6 4DD0 10F6 4358 4708 54DE</code></p>
 
+<h2>{{ _("Fedora") }}</h2>
+
+<p>{{ _("Add Clementine's COPR repository to get new versions with the rest of your updates. It has packages for the current releases of Fedora, for 64-bit PCs and ARM.") }}</p>
+
+<pre dir="ltr">sudo dnf copr enable hatstand/clementine
+sudo dnf install clementine</pre>
+
+<p>{{ _("If you already have Fedora's own Clementine package, which is older, replace it with this one:") }}</p>
+
+<pre dir="ltr">sudo dnf upgrade clementine</pre>
+
+<p>{{ _("The first time, dnf asks you to trust the repository's signing key:") }}
+<code dir="ltr">5763 0900 5EF2 55EC 8BE8 B985 FDD1 4418 C0B5 7801</code></p>
+
 <div style="clear:both;"></div>
 <hr class="division" />
 <h1>{{ _("Other Downloads") }}</h1>
