@@ -96,8 +96,12 @@
     <tr>
   {% endif %}
   <td class="screenshot">
-    <a href="https://clementine-player.github.io/pages/images/screenshots/{{ entry.file }}">
-      <img src="https://clementine-player.github.io/pages/images/thumbnails/{{ entry.file }}" width="440" alt="{{ _("Screenshot") }}"/>
+    <a href="{{ entry.full }}">
+      {% if entry.phone %}
+      <img class="phone" src="{{ entry.thumbnail }}" width="220" alt="{{ _("Screenshot") }}"/>
+      {% else %}
+      <img src="{{ entry.thumbnail }}" width="440" alt="{{ _("Screenshot") }}"/>
+      {% endif %}
     </a>
     <p>{{ entry.title }}</p>
   </td>

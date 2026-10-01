@@ -19,6 +19,7 @@ from werkzeug.routing import BaseConverter
 
 from data import LANGUAGE_NAMES
 from data import LANGUAGES
+from data import ANDROID_HOME_SCREENSHOTS
 from data import NEWS
 from data import SCREENSHOTS
 
@@ -28,6 +29,9 @@ from thumbnailer import thumbnailer
 RELEASES_KEY = 'github_releases'
 RELEASES_CACHE_SECONDS = 60 * 60
 ANDROID_SCREENSHOTS_KEY = 'android_screenshots'
+# After a failed fetch, how long until the next try. The home page shows these,
+# so while GitHub is down every view mustn't wait for it again.
+ANDROID_RETRY_SECONDS = 5 * 60
 DISTRO_CODENAMES_KEY = 'distro_codenames'
 # New Debian/Ubuntu codenames appear at most a few times a year, so this
 # can be far less fresh than the release cache above.
@@ -211,9 +215,14 @@ def fetch_android_screenshots():
       _write_cache(ANDROID_SCREENSHOTS_KEY, content, now)
     except Exception:
       logging.exception('Failed to fetch the Android screenshots')
-      if cached is None:
-        return None
-      content = cached['value']
+      # Keep what there was, or nothing, as if fetched just long enough ago to
+      # be tried again in ANDROID_RETRY_SECONDS.
+      content = cached['value'] if cached is not None else json.dumps({'tag': None, 'numbers': []})
+      try:
+        _write_cache(ANDROID_SCREENSHOTS_KEY, content,
+                     now - RELEASES_CACHE_SECONDS + ANDROID_RETRY_SECONDS)
+      except Exception:
+        logging.exception('Failed to cache the Android screenshots')
 
   release = json.loads(content)
   if not release['numbers']:
@@ -222,6 +231,7 @@ def fetch_android_screenshots():
   return {
     'version': tag[1:],
     'entries': [{
+      'number': n,
       'thumbnail': '/thumbnails/android/%s/%d.png' % (tag, n),
       'full': android.screenshot_url(tag, n),
     } for n in release['numbers']],
@@ -459,7 +469,24 @@ def make_page(template_file, language):
   screenshots = copy.deepcopy(SCREENSHOTS)
   for s in screenshots:
     for e in s['entries']:
+      e['title_en'] = e['title']
       e['title'] = translations.gettext(e['title'])
+      # These have long been served from the old pages repository.
+      e['thumbnail'] = 'https://clementine-player.github.io/pages/images/thumbnails/' + e['file']
+      e['full'] = 'https://clementine-player.github.io/pages/images/screenshots/' + e['file']
+
+  android_screenshots = None
+  latest_screenshots = screenshots[0]['entries']
+  if template_file in ('main.html', 'screenshots.html'):
+    android_screenshots = fetch_android_screenshots()
+  if android_screenshots and template_file == 'main.html':
+    # The newest desktop screenshots, then Clementine Remote's player and
+    # library from its latest release in place of the old app's.
+    by_number = {e['number']: e for e in android_screenshots['entries']}
+    android_entries = [dict(by_number[n], title=translations.gettext(title), phone=True)
+                       for n, title in ANDROID_HOME_SCREENSHOTS if n in by_number]
+    if len(android_entries) == len(ANDROID_HOME_SCREENSHOTS):
+      latest_screenshots = [e for e in latest_screenshots if 'Android' not in e['title_en']][:2] + android_entries
 
   # Try to detect the user's OS and architecture.
   ua = request.headers.get('User-Agent', '').lower()
@@ -481,14 +508,14 @@ def make_page(template_file, language):
     # downloads is always every asset of the single most recent release, so
     # it's already "latest" in full -- no separate version to filter by.
     'latest_downloads':   downloads,
-    'latest_screenshots': screenshots[0]['entries'],
+    'latest_screenshots': latest_screenshots,
     'latest_version':     downloads[0]['ver'] if downloads else None,
     'news':               news,
     'language':           language,
     'languages':          languages,
     'root_page':          root_page,
     'screenshots':        screenshots,
-    'android_screenshots': fetch_android_screenshots() if template_file == 'screenshots.html' else None,
+    'android_screenshots': android_screenshots,
     'is_rtl':             language in ('ar', 'fa', 'he'),
   }
 
