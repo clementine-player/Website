@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="{{ language | replace('@latin', '-Latn') | replace('_', '-') }}" dir="{{ 'rtl' if is_rtl else 'ltr' }}">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>
@@ -12,12 +12,7 @@
     {% endif %}
   </title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  {% if is_rtl %}
-    <link type="text/css" rel="stylesheet" media="all" href="/css/all-rtl.css?v={{ stylesheet_versions['all-rtl.css'] }}" />
-  {% else %}
-    <link type="text/css" rel="stylesheet" media="all" href="/css/all.css?v={{ stylesheet_versions['all.css'] }}" />
-  {% endif %}
-  <link href="https://plus.google.com/109846771540583835237/" rel="publisher" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/all.css?v={{ stylesheet_version }}" />
   <meta name="theme-color" content="#fd9146">
   {% block scripts %}{% endblock %}
 
@@ -42,7 +37,7 @@
 </head>
 <body class="front not-logged-in page-node node-type-page no-sidebars">
 
-  <div id="wrapper" {% if is_rtl %}dir="rtl"{% endif %}>
+  <div id="wrapper">
     <div id="header">
       <a href="{{ root_page }}"><img src="/images/logo.png" alt="Home" class="logo" /></a>
 
@@ -69,7 +64,7 @@
     </div>
   </div>
   <div id="footer-top-gradient"></div>
-  <div id="footer" {% if is_rtl %}dir="rtl"{% endif %}>
+  <div id="footer">
     <div id="block-block-1" class="block block-block">
       <div class="content">
         <p>
