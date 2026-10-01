@@ -61,8 +61,13 @@
 <pre dir="ltr">sudo install -d -m 0755 /etc/apt/keyrings
 wget -qO- https://apt.clementine-player.org/clementine-archive-keyring.gpg \
   | sudo tee /etc/apt/keyrings/clementine-archive-keyring.gpg &gt; /dev/null
-echo "deb [signed-by=/etc/apt/keyrings/clementine-archive-keyring.gpg] https://apt.clementine-player.org $(. /etc/os-release &amp;&amp; echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") main" \
-  | sudo tee /etc/apt/sources.list.d/clementine.list
+sudo tee /etc/apt/sources.list.d/clementine.sources &gt; /dev/null &lt;&lt;EOF
+Types: deb
+URIs: https://apt.clementine-player.org
+Suites: $(. /etc/os-release &amp;&amp; echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+Components: main
+Signed-By: /etc/apt/keyrings/clementine-archive-keyring.gpg
+EOF
 sudo apt update
 sudo apt install clementine</pre>
 

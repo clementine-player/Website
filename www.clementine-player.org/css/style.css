@@ -566,6 +566,9 @@ pre {
   margin-left: 2em;
   padding-left: 1em;
   border-left: 3px solid #FD9146; 
+  /* Commands are copied as they are, so a long line scrolls rather than
+     wrapping or running out of the page. */
+  overflow-x: auto;
 }
 
 .language {
