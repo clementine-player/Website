@@ -1,8 +1,16 @@
-<a href="https://play.google.com/store/apps/details?id=de.qspool.clementineremote" id="android-download-block">
-  <div class="android-download" >
+<div id="android-download-block">
+  <div class="android-download">
     <img class="logo" src="/images/android.png" alt="" />
     <p class="android-download-title">{{ _("Clementine Remote") }}</p>
     <span class="android-download-text">{{ _("Control Clementine remotely from your Android phone") }}</span>
   </div>
-</a>
-
+  {# Google's own badge, unaltered, as its branding guidelines require. #}
+  <a class="google-play-badge" href="https://play.google.com/apps/testing/org.clementine_player.remote">
+    <img src="/images/google-play-badge.png" alt="{{ _("Get it on Google Play") }}" width="207" height="80" />
+  </a>
+  <p class="android-download-note">
+    {{ _("A public beta on Google Play: the link lets you join it and install the app.") }}
+    <br />
+    Google Play and the Google Play logo are trademarks of Google LLC.
+  </p>
+</div>

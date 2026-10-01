@@ -430,7 +430,6 @@ body.sidebar-right #page {
   background-position:left top;
   background-repeat: no-repeat;
   color: white;
-  cursor: pointer;
   padding: 4px 15px 5px 15px;
   margin: 0px 20px 0px 20px;
 }
@@ -459,7 +458,6 @@ a.thindownload {
 
 a.thindownload:hover,
 a.thindownload:hover .version,
-.android-download:hover .android-download-title,
 #download-button:hover #download-title {
   color: #FD9146;
 }
@@ -484,6 +482,25 @@ a.thindownload:hover .version,
 .android-download-title {
   padding-left: 52px;
   padding-bottom: 10px;
+}
+
+.google-play-badge {
+  float: left;
+  /* The badge's own clear space is part of the image: this lines up what's
+     drawn of it with the card beside or above it. */
+  margin: 9px 0px 0px 7px;
+}
+
+.google-play-badge img {
+  display: block;
+}
+
+.android-download-note {
+  clear: both;
+  margin: 0px 20px;
+  padding-top: 8px;
+  font-size: 11px;
+  color: #777;
 }
 
 .thindownload .arch, .android-download-text {
