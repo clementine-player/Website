@@ -406,10 +406,15 @@ def fetch_release():
       info['os'] = 'fedora'
       info['short_os'] = 'Fedora'
       info['os_logo'] = 'fedora-logo.png'
-      if is_arm64 or 'x86_64' in name:
+      if is_arm64:
         info['arch'] = 64
+        info['arch_label'] = ARCH_ARM64
+      elif 'x86_64' in name:
+        info['arch'] = 64
+        info['arch_label'] = ARCH_X86_64
       elif 'i686' in name:
         info['arch'] = 32
+        info['arch_label'] = ARCH_X86_32
       m = re.search(r'\.fc(\d+)\.', name)
       if m:
         info['display_os'] = 'Fedora %s' % m.group(1)
@@ -421,6 +426,14 @@ def fetch_release():
       info['short_os'] = 'Mac'
       info['os_logo'] = 'leopard-logo.png'
       info['arch'] = 64
+      # The DMG's name doesn't say, and CI builds it on Apple Silicon
+      # (macos-26-arm64, Homebrew in /opt/homebrew) for Apple Silicon only.
+      if 'universal' in name_lower:
+        info['arch_label'] = 'Apple Silicon and Intel'
+      elif 'intel' in name_lower or 'x86_64' in name_lower:
+        info['arch_label'] = 'Intel'
+      else:
+        info['arch_label'] = 'Apple Silicon'
     elif name_lower.endswith(('.tar.xz', '.tar.gz')):
       info['os'] = 'source'
       info['display_os'] = 'Source Code'
@@ -435,8 +448,10 @@ def fetch_release():
       # that explicitly says otherwise gets classified as 32-bit.
       if not is_arm64 and ('win32' in name_lower or 'x86' in name_lower or 'i686' in name_lower):
         info['arch'] = 32
+        info['arch_label'] = ARCH_X86_32
       else:
         info['arch'] = 64
+        info['arch_label'] = ARCH_ARM64 if is_arm64 else ARCH_X86_64
     elif name_lower.endswith('.deb'):
       # Extract the distro codename directly from the filename instead of
       # checking it against a maintained list of known Ubuntu/Debian
@@ -462,10 +477,16 @@ def fetch_release():
 
       if 'i386' in name:
         info['arch'] = 32
-      elif 'amd64' in name or is_arm64:
+        info['arch_label'] = ARCH_X86_32
+      elif is_arm64:
         info['arch'] = 64
+        info['arch_label'] = ARCH_ARM64
+      elif 'amd64' in name:
+        info['arch'] = 64
+        info['arch_label'] = ARCH_X86_64
       elif 'armhf' in name:
         info['arch'] = 32
+        info['arch_label'] = 'ARM (32-bit)'
         info['display_os'] = 'Raspberry Pi'
         info['short_os'] = 'RPI'
         info['os_logo'] = 'raspberry-pi-logo.png'
@@ -480,8 +501,6 @@ def fetch_release():
     # in the full downloads table for them to pick manually.
     if is_arm64 and info['os'] != 'Unknown':
       info['os'] = info['os'] + '-arm64'
-      info['display_os'] = info.get('display_os', name) + ' (ARM64)'
-      info['short_os'] = (info.get('short_os', name) + ' ARM64').strip()
 
     # Belt-and-suspenders: any asset that still doesn't have a display_os
     # (a genuinely new/unrecognized file type, or a .deb whose name didn't
@@ -490,6 +509,9 @@ def fetch_release():
     info.setdefault('display_os', name)
     info.setdefault('short_os', name)
     info.setdefault('os_logo', 'clementine-logo.png')
+
+    # The same system's builds, x86-64 first, then ARM, then 32-bit.
+    info['arch_order'] = ARCH_ORDER.get(info.get('arch_label'), len(ARCH_ORDER))
 
     # Groups the downloads page's tiles by OS family, independent of the
     # ARM64 suffixing above (a 'windows-arm64' tile still belongs in the
@@ -500,6 +522,13 @@ def fetch_release():
 
     downloads.append(info)
   return downloads
+
+
+# What each download's for, under its name: its processors.
+ARCH_X86_64 = 'x86-64'
+ARCH_ARM64 = 'arm64'
+ARCH_X86_32 = 'x86 (32-bit)'
+ARCH_ORDER = {ARCH_X86_64: 0, ARCH_ARM64: 1, ARCH_X86_32: 2}
 
 
 def find_download(downloads, os_name, arch=0):

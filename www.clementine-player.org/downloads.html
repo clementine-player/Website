@@ -21,9 +21,9 @@
       <p class="os">
         {{ d.display_os }}
       </p>
-      {% if d.arch %}
+      {% if d.arch_label %}
         <p class="arch">
-          {{ d.arch }}-bit
+          {{ d.arch_label }}
         </p>
       {% endif %}
     </a>
@@ -35,7 +35,7 @@
     </p>
   {% endif %}
 
-  {% for family, items in latest_downloads|sort(attribute="display_os")|groupby("family_display") %}
+  {% for family, items in latest_downloads|sort(attribute="display_os,arch_order")|groupby("family_display") %}
     <h2 style="clear: both;">{{ family }}</h2>
     {% for d in items %}
       <a class="thindownload" href="{{ d.url }}">
@@ -43,9 +43,9 @@
         <p class="os">
           {{ d.display_os }}
         </p>
-        {% if d.arch %}
+        {% if d.arch_label %}
           <p class="arch">
-            {{ d.arch }}-bit
+            {{ d.arch_label }}
           </p>
         {% endif %}
       </a>

@@ -64,8 +64,8 @@
       <p>{{ _("Download the latest version now") }}</p>
       <img src="/images/{{ best_download.os_logo }}" id="download-logo" alt="{{ _("Download Clementine") }}" />
       <p id="download-os">{{ best_download.short_os }}</p>
-      {% if best_download.arch %}
-        <p id="download-arch">{{ best_download.arch }}-bit</p>
+      {% if best_download.arch_label %}
+        <p id="download-arch">{{ best_download.arch_label }}</p>
       {% endif %}
   {% else %}
     <a href="downloads" id="download-button">
