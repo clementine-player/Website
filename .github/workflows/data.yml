@@ -17,6 +17,13 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      # The pull request's checks, again, right before deploying: a model the
+      # real google-cloud-ndb refuses to load takes the whole site down.
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+      - name: Load the models with the real ndb
+        working-directory: data.clementine-player.org
+        run: uv run --no-project --python 3.12 --with-requirements requirements.txt python3 -c "import models"
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:

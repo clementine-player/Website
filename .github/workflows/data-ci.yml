@@ -22,6 +22,13 @@ jobs:
       - name: Install Python dependencies
         working-directory: data.clementine-player.org
         run: uv pip install --system -r requirements.txt
+      # The smoke test runs against fakes of Google's libraries, which accept
+      # things the real ones refuse when the module loads: a StringProperty
+      # with indexed=False took the site down. models.py needs no credentials
+      # to load, so load it with the real google-cloud-ndb too.
+      - name: Load the models with the real ndb
+        working-directory: data.clementine-player.org
+        run: python3 -c "import models"
       - name: Smoke test (boot the app, hit every route)
         working-directory: data.clementine-player.org
         env:

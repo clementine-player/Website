@@ -31,13 +31,14 @@ class MacUpdate(ndb.Model):
   Builds from before Sparkle 2 check /sparkle, which serves Version
   entities instead."""
 
-  version = ndb.StringProperty(required=True, indexed=False)  # what people see
-  build = ndb.StringProperty(required=True, indexed=False)  # what Sparkle compares
+  # TextProperty is ndb's unindexed string: StringProperty must be indexed.
+  version = ndb.TextProperty(required=True)  # what people see
+  build = ndb.TextProperty(required=True)  # what Sparkle compares
   min_macos = ndb.StringProperty(required=True)
-  download_url = ndb.StringProperty(required=True, indexed=False)
-  ed_signature = ndb.StringProperty(required=True, indexed=False)  # base64
+  download_url = ndb.TextProperty(required=True)
+  ed_signature = ndb.TextProperty(required=True)  # base64
   length = ndb.IntegerProperty(required=True, indexed=False)  # the DMG's, in bytes
-  notes = ndb.StringProperty(repeated=True, indexed=False)  # for users, one each
+  notes = ndb.TextProperty(repeated=True)  # for users, one each
   published = ndb.DateTimeProperty(required=True)
 
 
