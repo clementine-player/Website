@@ -60,6 +60,17 @@ class _FilterProxy(object):
   def __eq__(self, value):
     return (self.name, value)
 
+  def __neg__(self):
+    return _Order(self.name, descending=True)
+
+
+class _Order(object):
+  """What `-Model.field` evaluates to, for `query.order(...)`."""
+
+  def __init__(self, name, descending):
+    self.name = name
+    self.descending = descending
+
 
 class Property(object):
   def __init__(self, required=False, default=None, indexed=True,
@@ -114,9 +125,20 @@ class KeyProperty(Property):
 
 
 class _Query(object):
-  def __init__(self, model_cls, filters):
+  def __init__(self, model_cls, filters, orders=(), projection=None,
+               distinct=False):
     self.model_cls = model_cls
     self.filters = filters
+    self.orders = orders
+    self.projection = [p.name for p in projection or []]
+    self.distinct = distinct
+
+  def order(self, *orders):
+    # Model.field on its own sorts ascending, as in the real client.
+    return _Query(self.model_cls, self.filters, self.orders + tuple(
+        o if isinstance(o, _Order) else _Order(o.name, descending=False)
+        for o in orders), self.projection and [
+            _FilterProxy(p) for p in self.projection], self.distinct)
 
   def _matches(self, obj):
     for name, value in self.filters:
@@ -127,6 +149,19 @@ class _Query(object):
   def fetch(self, limit=None):
     results = [obj for obj in _STORE.values()
                if isinstance(obj, self.model_cls) and self._matches(obj)]
+    # Like an index, which leaves out entities without the property.
+    for o in reversed(self.orders):
+      results = [obj for obj in results if obj._values.get(o.name) is not None]
+      results.sort(key=lambda obj: obj._values[o.name], reverse=o.descending)
+    if self.distinct:
+      seen = set()
+      unique = []
+      for obj in results:
+        values = tuple(obj._values.get(p) for p in self.projection)
+        if values not in seen:
+          seen.add(values)
+          unique.append(obj)
+      results = unique
     return results[:limit] if limit else results
 
   def get(self):
@@ -168,8 +203,8 @@ class Model(object):
     return self.key
 
   @classmethod
-  def query(cls, *filters):
-    return _Query(cls, filters)
+  def query(cls, *filters, projection=None, distinct=False):
+    return _Query(cls, filters, projection=projection, distinct=distinct)
 
   @classmethod
   def get_by_id(cls, id_):

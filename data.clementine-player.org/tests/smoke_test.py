@@ -9,9 +9,11 @@ PYTHONPATH=tests/fakes shadows google.cloud.ndb and google.cloud.tasks_v2
 with in-memory fakes (see tests/fakes/google/cloud/) so this doesn't need
 real GCP credentials or network access.
 """
+import datetime
 import os
 import sys
 import traceback
+import xml.etree.ElementTree as ET
 from unittest import mock
 
 os.environ.setdefault('GOOGLE_CLOUD_PROJECT', 'fake-project')
@@ -56,6 +58,50 @@ check('/sparkle contains version', b'1.4.1' in resp.data)
 check('/sparkle contains minimumSystemVersion', b'10.14' in resp.data)
 check('/sparkle has a real RFC 2822 pubDate (not a crash)',
       b'pubDate' in resp.data and b'-0000' in resp.data)
+
+# Sparkle 2's feed, as Clementine's tools/mac-update writes it: for macOS 26,
+# builds 278 and then 290, stored in that order; for 27, build 1000. The feed
+# should list the most recent update for each macOS, most recent first.
+with main.ndb_client.context():
+  for number, min_macos, day in ((278, '26.0', 1), (290, '26.0', 5),
+                                 (1000, '27.0', 12)):
+    models.MacUpdate(
+        id='4096.1.4.1.2.%d' % number, build='4096.1.4.1.2.%d' % number,
+        version='1.4.1-%d-gabcdef' % number, min_macos=min_macos,
+        download_url='https://example.com/clementine-1.4.1-%d-gabcdef.dmg' % number,
+        ed_signature='c2lnbmF0dXJl%d' % number, length=91773184 + number,
+        notes=['Lyrics & more in %d' % number, 'A <b>bold</b> claim'],
+        published=datetime.datetime(2026, 10, day, 9, 0),
+    ).put()
+
+resp = client.get('/sparkle2')
+check('/sparkle2 -> 200', resp.status_code == 200)
+SPARKLE = '{http://www.andymatuschak.org/xml-namespaces/sparkle}'
+try:
+  items = ET.fromstring(resp.data).findall('channel/item')
+except ET.ParseError:
+  items = []
+check('/sparkle2 lists the newest update for each macOS, newest first',
+      [i.findtext(SPARKLE + 'version') for i in items]
+      == ['4096.1.4.1.2.1000', '4096.1.4.1.2.290'])
+check("/sparkle2 doesn't list the old feed's Versions",
+      b'example.com/clementine.dmg' not in resp.data)
+if items:
+  newest = items[0]
+  enclosure = newest.find('enclosure')
+  check('/sparkle2 has the short version',
+        newest.findtext(SPARKLE + 'shortVersionString') == '1.4.1-1000-gabcdef')
+  check('/sparkle2 has the minimum macOS',
+        newest.findtext(SPARKLE + 'minimumSystemVersion') == '27.0')
+  check('/sparkle2 gives the notes as HTML, each escaped',
+        newest.findtext('description') == '<ul><li>Lyrics &amp; more in 1000</li>'
+        '<li>A &lt;b&gt;bold&lt;/b&gt; claim</li></ul>')
+  check('/sparkle2 enclosure has the EdDSA signature',
+        enclosure.get(SPARKLE + 'edSignature') == 'c2lnbmF0dXJl1000')
+  check("/sparkle2 enclosure length is the DMG's size",
+        enclosure.get('length') == str(91773184 + 1000))
+  check('/sparkle2 enclosure links the DMG', enclosure.get('url')
+        == 'https://example.com/clementine-1.4.1-1000-gabcdef.dmg')
 
 resp = client.get('/sparkle-windows')
 check('/sparkle-windows -> 200', resp.status_code == 200)

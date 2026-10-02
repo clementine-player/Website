@@ -11,9 +11,9 @@ indexes:
   - name: date
     direction: asc
 
-# A platform's update feed, newest first (/sparkle, /sparkle2).
-- kind: Version
+# /sparkle2: the newest update for each minimum macOS.
+- kind: MacUpdate
   properties:
-  - name: platform
-  - name: publish_date
+  - name: min_macos
+  - name: published
     direction: desc

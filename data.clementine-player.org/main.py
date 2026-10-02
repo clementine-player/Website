@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import datetime
+import html
 import json
 import logging
 import os
@@ -32,6 +33,7 @@ BIO_URL = 'https://bio-5ctfinxp4a-lz.a.run.app/'
 IMAGES_URL = 'https://images-5ctfinxp4a-lz.a.run.app/'
 
 VERSIONS_CACHE_KEY = 'sparkle-versions-%s'
+MAC_UPDATES_CACHE_KEY = 'sparkle2-mac-updates'
 VERSIONS_CACHE_SECONDS = 60 * 10
 BIO_CACHE_KEY = 'bio/%s/%s'
 # Bump the version whenever the images backend's answers change (it moved
@@ -182,9 +184,58 @@ def _fetch_versions(platform):
   return versions
 
 
+def _mac_update_to_dict(u):
+  return {
+      'version': u.version,
+      'build': u.build,
+      'min_macos': u.min_macos,
+      'download_url': u.download_url,
+      'ed_signature': u.ed_signature,
+      'length': u.length,
+      'notes_html': '<ul>%s</ul>' % ''.join(
+          '<li>%s</li>' % html.escape(note) for note in u.notes),
+      'published': u.published.isoformat(),
+  }
+
+
+def _newest_per_min_macos():
+  # Sparkle drops the updates the Mac's macOS can't run, then offers the
+  # highest build of the rest. tools/mac-update never publishes a lower build
+  # after a higher one for the same macOS, so the most recently published
+  # update for each minimum macOS is its highest build, and those are all
+  # the feed needs: whatever the Mac, they include what Sparkle would choose
+  # from every update there is. When Clementine's builds start needing a
+  # newer macOS, Macs on the older one still get the last build for it.
+  #
+  # One query for the minimum macOS versions there are, a handful, then one
+  # for each, with the index for it in index.yaml.
+  min_macos_versions = models.MacUpdate.query(
+      projection=[models.MacUpdate.min_macos], distinct=True).fetch()
+  newest = [
+      models.MacUpdate.query(models.MacUpdate.min_macos == m.min_macos)
+      .order(-models.MacUpdate.published).get()
+      for m in min_macos_versions
+  ]
+  return sorted(newest, key=lambda u: u.published, reverse=True)
+
+
+def _fetch_mac_updates():
+  now = time.time()
+  cached = _read_cache(MAC_UPDATES_CACHE_KEY)
+  if cached is not None and now - cached['fetched_at'] < VERSIONS_CACHE_SECONDS:
+    return json.loads(cached['value'])
+
+  updates = [_mac_update_to_dict(u) for u in _newest_per_min_macos()]
+  _write_cache(MAC_UPDATES_CACHE_KEY, json.dumps(updates), now)
+  return updates
+
+
 def _write_sparkle_response(template_name, platform):
-  versions = _fetch_versions(platform)
-  rendered = app.jinja_env.get_template(template_name).render(versions=versions)
+  return _feed_response(template_name, versions=_fetch_versions(platform))
+
+
+def _feed_response(template_name, **context):
+  rendered = app.jinja_env.get_template(template_name).render(**context)
 
   useragent = request.headers.get('User-Agent', '')
   if useragent:
@@ -197,6 +248,13 @@ def _write_sparkle_response(template_name, platform):
 @app.route('/sparkle')
 def sparkle():
   return _write_sparkle_response('sparkle.xml', 'mac')
+
+
+# Sparkle 2 builds: arm64 and signed with EdDSA. Builds from before check
+# /sparkle, and are Intel-only.
+@app.route('/sparkle2')
+def sparkle2():
+  return _feed_response('sparkle2.xml', updates=_fetch_mac_updates())
 
 
 @app.route('/sparkle-windows')
