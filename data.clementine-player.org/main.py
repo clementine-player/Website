@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import datetime
-import html
 import json
 import logging
 import os
@@ -33,7 +32,9 @@ BIO_URL = 'https://bio-5ctfinxp4a-lz.a.run.app/'
 IMAGES_URL = 'https://images-5ctfinxp4a-lz.a.run.app/'
 
 VERSIONS_CACHE_KEY = 'sparkle-versions-%s'
-MAC_UPDATES_CACHE_KEY = 'sparkle2-mac-updates'
+# Bump the version when what's cached changes shape (notes_html became
+# notes_text), so a cached feed from before isn't served with the new template.
+MAC_UPDATES_CACHE_KEY = 'sparkle2-mac-updates-v2'
 VERSIONS_CACHE_SECONDS = 60 * 10
 BIO_CACHE_KEY = 'bio/%s/%s'
 # Bump the version whenever the images backend's answers change (it moved
@@ -192,8 +193,8 @@ def _mac_update_to_dict(u):
       'download_url': u.download_url,
       'ed_signature': u.ed_signature,
       'length': u.length,
-      'notes_html': '<ul>%s</ul>' % ''.join(
-          '<li>%s</li>' % html.escape(note) for note in u.notes),
+      # Shown as written: sparkle2.xml marks it plain text.
+      'notes_text': '\n'.join('\u2022 ' + note for note in u.notes),
       'published': u.published.isoformat(),
   }
 

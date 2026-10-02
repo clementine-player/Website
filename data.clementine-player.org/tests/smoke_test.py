@@ -93,9 +93,11 @@ if items:
         newest.findtext(SPARKLE + 'shortVersionString') == '1.4.1-1000-gabcdef')
   check('/sparkle2 has the minimum macOS',
         newest.findtext(SPARKLE + 'minimumSystemVersion') == '27.0')
-  check('/sparkle2 gives the notes as HTML, each escaped',
-        newest.findtext('description') == '<ul><li>Lyrics &amp; more in 1000</li>'
-        '<li>A &lt;b&gt;bold&lt;/b&gt; claim</li></ul>')
+  check('/sparkle2 gives the notes as plain text, as written',
+        newest.findtext('description')
+        == '\u2022 Lyrics & more in 1000\n\u2022 A <b>bold</b> claim')
+  check('/sparkle2 marks the notes plain text',
+        newest.find('description').get(SPARKLE + 'format') == 'plain-text')
   check('/sparkle2 enclosure has the EdDSA signature',
         enclosure.get(SPARKLE + 'edSignature') == 'c2lnbmF0dXJl1000')
   check("/sparkle2 enclosure length is the DMG's size",
