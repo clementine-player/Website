@@ -119,7 +119,7 @@ def get_translations(locale):
 def make_translator(translations):
   # Matches jinja2.ext.i18n's `_()`/`gettext()` global: translated strings
   # can contain %(name)s placeholders, filled in from keyword arguments
-  # (e.g. participate.html's "...stickers on %(unixstickers)s.").
+  # (e.g. _("Find us on %(site)s.", site="...")).
   def _(message, **kwargs):
     translated = translations.gettext(message)
     return translated % kwargs if kwargs else translated
