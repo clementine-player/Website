@@ -359,9 +359,13 @@ body.sidebar-right #page {
   margin: 0px;
 }
 
-#download-button img {
-  float: inline-end;
-  margin: 5px;
+/* The platform's logo, centred on its name and architecture beside it. */
+#download-platform {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-inline-end: 5px;
 }
 
 #download-title {
@@ -374,6 +378,35 @@ body.sidebar-right #page {
 
 #download-version {
   color: #FD9146;
+}
+
+/* A development build's version (1.4.1-275-gd44a56680) gets a smaller line
+   of its own under "Clementine", and the rest moves up to make room for it. */
+#download-button.development {
+  padding-block: 10px 15px;
+}
+
+.development #download-title {
+  line-height: 1;
+}
+
+.development #download-version {
+  display: block;
+  font-size: 20px;
+  line-height: 1;
+  margin-block: 2px 3px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* It's left-to-right whatever the page's direction, so "end" would be the
+   right on every page: line it up with the title's end by hand. */
+.development:dir(rtl) #download-version {
+  text-align: left;
+}
+
+.development #download-logo {
+  height: 42px;
 }
 
 #download-os {
