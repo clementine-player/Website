@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+  <title>Clementine</title>
+  <link>https://www.clementine-player.org/</link>
+  <description>Clementine Player</description>
+  <language>en</language>
+{#
+  The MacUpdate entities Clementine's tools/mac-update publishes. This
+  template is autoescaped, so the notes' HTML goes into <description> as
+  escaped text, which Sparkle reads back as HTML.
+#}
+{% for update in updates %}
+  <item>
+    <title>Clementine {{ update.version }}</title>
+    <pubDate>{{ update.published|rfc2822 }}</pubDate>
+    {# The app's CFBundleVersion, which Sparkle compares. #}
+    <sparkle:version>{{ update.build }}</sparkle:version>
+    <sparkle:shortVersionString>{{ update.version }}</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>{{ update.min_macos }}</sparkle:minimumSystemVersion>
+    <description>{{ update.notes_html }}</description>
+    <enclosure url="{{ update.download_url }}"
+               length="{{ update.length }}"
+               type="application/x-apple-diskimage"
+               sparkle:edSignature="{{ update.ed_signature }}" />
+  </item>
+{% endfor %}
+</channel>
+</rss>
