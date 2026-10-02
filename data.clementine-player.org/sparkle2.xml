@@ -6,9 +6,9 @@
   <description>Clementine Player</description>
   <language>en</language>
 {#
-  The MacUpdate entities Clementine's tools/mac-update publishes. This
-  template is autoescaped, so the notes' HTML goes into <description> as
-  escaped text, which Sparkle reads back as HTML.
+  The MacUpdate entities Clementine's tools/mac-update publishes. The notes
+  are plain text, which Sparkle shows as written, in a native text view
+  rather than a web view; the template's autoescaping makes them XML text.
 #}
 {% for update in updates %}
   <item>
@@ -18,7 +18,7 @@
     <sparkle:version>{{ update.build }}</sparkle:version>
     <sparkle:shortVersionString>{{ update.version }}</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>{{ update.min_macos }}</sparkle:minimumSystemVersion>
-    <description>{{ update.notes_html }}</description>
+    <description sparkle:format="plain-text">{{ update.notes_text }}</description>
     <enclosure url="{{ update.download_url }}"
                length="{{ update.length }}"
                type="application/x-apple-diskimage"
