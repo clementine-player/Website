@@ -10,3 +10,10 @@ indexes:
   - name: counter
   - name: date
     direction: asc
+
+# A platform's update feed, newest first (/sparkle, /sparkle2).
+- kind: Version
+  properties:
+  - name: platform
+  - name: publish_date
+    direction: desc

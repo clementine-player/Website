@@ -25,6 +25,14 @@ jobs:
           service_account: github-deploy@clementine-data.iam.gserviceaccount.com
       - name: Set up gcloud
         uses: google-github-actions/setup-gcloud@v2
+      # Before the app, so a version that needs a new index finds it
+      # already building. Like cron.yaml, index.yaml is app-wide. This only
+      # adds indexes: ones dropped from the file stay until removed by hand
+      # with `gcloud datastore indexes cleanup index.yaml`. Needs
+      # roles/datastore.indexAdmin on the deploying service account.
+      - name: Deploy Datastore indexes
+        working-directory: data.clementine-player.org
+        run: gcloud app deploy index.yaml --quiet
       - name: Deploy data.clementine-player.org
         working-directory: data.clementine-player.org
         run: gcloud app deploy app.yaml --quiet
