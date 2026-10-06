@@ -5,6 +5,10 @@
 #   - pull: every Thursday, brings the translations back, commits them and deploys the site
 # Run by hand, it does both, push first; with "Push translations" ticked, the push sends the
 # repository's translations too.
+#
+# Needs two secrets: TX_TOKEN, a Transifex API token, and TX_KEY, the private half of a deploy key
+# with write access, which pushes the translations to master. The ruleset protecting master must
+# let deploy keys bypass it: the pull pushes straight to master, without a pull request or checks.
 name: translations
 on:
   push:
@@ -23,8 +27,7 @@ on:
         default: false
 
 permissions:
-  contents: write
-  actions: write
+  contents: read
 
 jobs:
   push_strings:
@@ -98,14 +101,17 @@ jobs:
           apt-get update && apt-get install -y
           git
           curl
+          openssh-client
+      # Checked out with the deploy key, so the push below can bypass master's ruleset, and runs
+      # www.yml on the new commit to deploy the site, as a push with the workflow's own token
+      # does neither.
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
-          fetch-depth: 0
+          ref: master
+          ssh-key: ${{ secrets.TX_KEY }}
       - name: git hackery
         run: git config --global --add safe.directory ${GITHUB_WORKSPACE}
-      - name: Switch to master
-        run: git checkout master
       - name: tx init
         working-directory: www.clementine-player.org
         env:
@@ -124,26 +130,10 @@ jobs:
       - name: git add
         run: git add www.clementine-player.org/locale/*.po
       - name: git commit and push
-        id: commit
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Translations are up to date."
           else
             git -c 'user.name=Clementine Buildbot' -c 'user.email=buildbot@clementine-player.org' commit -m 'Automatic merge of translations from Transifex'
-            git push origin master
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git push origin HEAD:master
           fi
-      # A GITHUB_TOKEN-authenticated push doesn't trigger other workflows'
-      # `on: push` events (GitHub's anti-recursion protection), so trigger
-      # the site deploy explicitly rather than relying on www.yml's push
-      # trigger to fire on its own.
-      - name: Trigger website deploy
-        if: steps.commit.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -sS -X POST --fail \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/www.yml/dispatches" \
-            -d '{"ref":"master"}'
