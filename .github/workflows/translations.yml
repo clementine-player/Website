@@ -1,16 +1,87 @@
+# Keeps the website's translations in step with Transifex (the "website" resource of
+# davidsansome/clementine):
+#   - push: when the pages' English text changes on master, regenerates locale/django.pot from
+#     the templates and data.py (make pot) and sends it to Transifex for the translators
+#   - pull: every Thursday, brings the translations back, commits them and deploys the site
+# Run by hand, it does both, push first; with "Push translations" ticked, the push sends the
+# repository's translations too.
 name: translations
 on:
+  push:
+    branches: [master]
+    paths:
+      - 'www.clementine-player.org/*.html'
+      - 'www.clementine-player.org/*.py'
+      - '.github/workflows/translations.yml'
   schedule:
     - cron: '23 0 * * 4'
   workflow_dispatch:
+    inputs:
+      push_translations:
+        description: "Push translations: send the repository's translations to Transifex too"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
   actions: write
 
 jobs:
+  push_strings:
+    name: Push strings to Transifex
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-24.04
+    env:
+      TX_TOKEN: ${{ secrets.TX_TOKEN }}
+      TX_VERSION: 1.6.17
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      # django-admin makemessages, which make pot runs, uses gettext's xgettext.
+      - name: Install gettext
+        run: sudo apt-get update && sudo apt-get install -y gettext
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+      - name: Install Django
+        run: uv pip install --system Django
+      - name: Install the Transifex client
+        run: |
+          mkdir -p "$RUNNER_TEMP/tx"
+          curl -fsSL "https://github.com/transifex/cli/releases/download/v$TX_VERSION/tx-linux-amd64.tar.gz" \
+            | tar -xz -C "$RUNNER_TEMP/tx" tx
+          echo "$RUNNER_TEMP/tx" >> "$GITHUB_PATH"
+      # The committed django.pot isn't kept up to date, so it's made afresh from the pages.
+      - name: Extract the English strings
+        working-directory: www.clementine-player.org
+        run: make pot
+      - name: tx init
+        working-directory: www.clementine-player.org
+        run: tx init
+      - name: tx config
+        working-directory: www.clementine-player.org
+        run: tx add --organization davidsansome --project clementine --resource website --file-filter 'locale/<lang>.po' --type PO locale/django.pot
+      # --silent prints errors whole: otherwise the client cuts every line to 80 columns in CI,
+      # which hides why Transifex refused a file.
+      - name: Push the English strings
+        working-directory: www.clementine-player.org
+        run: tx push --source --silent
+      # Only by hand: for translations made or fixed in the repository, which the next pull
+      # would otherwise replace with Transifex's.
+      - name: Push the translations
+        if: inputs.push_translations
+        working-directory: www.clementine-player.org
+        run: tx push --translation --skip --silent
+
   pull_translations:
     name: Pull translations from Transifex
+    needs: push_strings
+    # After the push when run by hand, but on its own every Thursday.
+    if: >-
+      always() && github.event_name != 'push' && needs.push_strings.result != 'failure'
     runs-on: ubuntu-22.04
     container:
       image: ubuntu:jammy
