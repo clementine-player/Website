@@ -3,6 +3,8 @@ on:
     paths:
       - 'www.clementine-player.org/**'
       - '.github/workflows/www-ci.yml'
+      # Its push job runs make pot, which this builds too.
+      - '.github/workflows/translations.yml'
 
 permissions:
   contents: read
