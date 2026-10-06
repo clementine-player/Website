@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# arabuli <arabulibeqa@yahoo.com>, 2012
+# arabuli <arabulibeqa@yahoo.com>, 2012,2016
 # arabuli <arabulibeqa@yahoo.com>, 2012
 # arabuli <arabulibeqa@yahoo.com>, 2016
 # arabuli <arabulibeqa@yahoo.com>, 2012
@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"POT-Creation-Date: 2026-10-06 15:29+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: arabuli <arabulibeqa@yahoo.com>, 2016\n"
+"Last-Translator: Beqa Arabuli <arabulibeqa@gmail.com>, 2012\n"
 "Language-Team: Georgian (http://app.transifex.com/davidsansome/clementine/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,217 +31,247 @@ msgstr "Clementine პულტი"
 msgid "Control Clementine remotely from your Android phone"
 msgstr "მართეთ Clementine დისტანციურად თქვენი Android ტელეფონით"
 
+#: android-download.html:9
+msgid "Get it on Google Play"
+msgstr ""
+
+#: android-download.html:12
+msgid ""
+"Want every change as soon as it's made? <a "
+"href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
+" the beta</a> for development builds."
+msgstr ""
+
 #: base.html:11
 msgid "Clementine Music Player"
 msgstr "მუსიკის დამკვრელი Clementine"
 
-#: base.html:51
+#: base.html:46
 msgid "About"
 msgstr "შესახებ"
 
-#: base.html:52 downloads.html:2
+#: base.html:47 downloads.html:2
 msgid "Downloads"
 msgstr "ჩამოტვირთვები"
 
-#: base.html:53 main.html:92 screenshots.html:2
+#: base.html:48 main.html:112 screenshots.html:2
 msgid "Screenshots"
 msgstr "ანაბეჭდები"
 
-#: base.html:54 participate.html:2
+#: base.html:49 participate.html:2
 msgid "Participate"
 msgstr "მონაწილეობა"
 
-#: base.html:58
+#: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "მუსიკის მრავალპლატფორმული დამკვრელი, შთაგონებული Amarok 1.4-ის მიერ"
 
-#: base.html:83
+#: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine არის თავისუფალი პროგრამული უზრუნველყოფა GPL v3 ლიცენზიით. ეს საიტი ლიცენზირებულია CC-BY-SA-ის ქვეშ."
 
-#: base.html:84
+#: base.html:79
 msgid "Development by"
 msgstr "შემქმნელები:"
 
-#: base.html:85 main.html:21 main.html.py:28
+#: base.html:80 main.html:19 main.html:26 main.html:34
 msgid "and"
 msgstr "და"
 
-#: base.html:87
+#: base.html:82
 msgid "Website by"
 msgstr "ვებ-საიტის ავტორი:"
 
-#: base.html:90 privacy.html:3 privacy.html.py:10
+#: base.html:85 privacy.html:3 privacy.html:10
 msgid "Privacy Policy"
 msgstr "კონფიდენციალურობის პოლიტიკა"
 
-#: data.py:8
+#: data.py:10 data.py:34
+msgid "Controlling playback from the Android app"
+msgstr "დაკვრის მართვა Android-ის აპიდან"
+
+#: data.py:11
+msgid "Browsing the library from the Android app"
+msgstr ""
+
+#: data.py:24
+#, python-format
+msgid "The library on %(platform)s"
+msgstr ""
+
+#: data.py:25
+#, python-format
+msgid "The library on %(platform)s, in the dark theme"
+msgstr ""
+
+#: data.py:26
+#, python-format
+msgid "Internet services on %(platform)s"
+msgstr ""
+
+#: data.py:31
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "დასაკრავი სიის ჩანართი მრავალი Internet მომსახურებებიდან სიმღერების სმენისას"
 
-#: data.py:9
+#: data.py:32
 msgid "Subsonic integration"
 msgstr "Subsonic-ის ინტეგრაცია"
 
-#: data.py:10
+#: data.py:33
 msgid "Browsing playlist from the Android app"
 msgstr "დასაკრავი სიის თვალიერება Android-ის აპიდან"
 
-#: data.py:11
-msgid "Controlling playback from the Android app"
-msgstr "დაკვრის მართვა Android-ის აპიდან"
-
-#: data.py:14
+#: data.py:37
 msgid "Podcasts"
 msgstr "პოდკასტები"
 
-#: data.py:15
+#: data.py:38
 msgid "Google Drive"
 msgstr "Google Drive"
 
-#: data.py:16
+#: data.py:39
 msgid "New global search interface"
 msgstr "ახალი გლობალური ძიების ინტერფეისი"
 
-#: data.py:17
+#: data.py:40
 msgid "Moodbars"
 msgstr "ხასიათის ზოლები"
 
-#: data.py:20
+#: data.py:43
 msgid "Transcoding settings"
 msgstr "ტრანსკოდირების პარამეტრები"
 
-#: data.py:21
+#: data.py:44
 msgid "Global search finding albums on Spotify"
 msgstr "გლობალური ძებნის შედეგად ნაპოვნი ალბომები Spotify-ზე"
 
-#: data.py:22
+#: data.py:45
 msgid "Global search options"
 msgstr "გლობალური ძებნის პარამეტრები"
 
-#: data.py:23
+#: data.py:46
 msgid "Grooveshark integration"
 msgstr "Grooveshark-ის ინტეგრაცია"
 
-#: data.py:26
+#: data.py:49
 msgid "Lyrics and track slider tooltip"
 msgstr "ტექსტები და ბილიკის ცოციის რჩევა"
 
-#: data.py:27
+#: data.py:50
 msgid "MusicBrainz fixing untagged files"
 msgstr "ჭდეების ჩასწორება MusicBrainz-ით"
 
-#: data.py:28
+#: data.py:51
 msgid "New tag editor with autocompletion"
 msgstr "ჭდეების ახალი რედაქტორი ავტოშევსების მხარდაჭერით"
 
-#: data.py:29
+#: data.py:52
 msgid "Track slider tooltip on Mac OS X"
 msgstr "ინფორმაცია სიმღერის შესახებ Mac OS X-ზე"
 
-#: data.py:32
+#: data.py:55
 msgid "Artist photos and biographies"
 msgstr "შემსრულებლის ფოტოები და ბიოგრაფიები"
 
-#: data.py:33
+#: data.py:56
 msgid "Lyrics"
 msgstr "ლირიკები"
 
-#: data.py:34
+#: data.py:57
 msgid "Icecast radio stations"
 msgstr "Icecast-ის რადიოსადგურები"
 
-#: data.py:35
+#: data.py:58
 msgid "Smart playlists and kittens"
 msgstr "ჭკვიანი ფლეილისტები და კნუტები"
 
-#: data.py:38
+#: data.py:61
 msgid "The queue manager on Windows 7"
 msgstr "დაკვრის სიის მმართველი Windows 7-ზე"
 
-#: data.py:39
+#: data.py:62
 msgid "Copying music to an iPod in Ubuntu"
 msgstr "სიმღერების კოპირება iPod-ში Ubuntu-ზე"
 
-#: data.py:40
+#: data.py:63
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
 msgstr "Clementine 0.5 ოპერაციულ სისტემაზე Ubu... დიდება ჰიპნოტოადს"
 
-#: data.py:41
+#: data.py:64
 msgid "Clementine 0.5 on Mac OS X"
 msgstr "Clementine 0.5 Mac OS X-ზე"
 
-#: data.py:44
+#: data.py:67
 msgid "Clementine 0.4 on Ubuntu"
 msgstr "Clementine 0.4 Ubuntu-ზე"
 
-#: data.py:45
+#: data.py:68
 msgid "Clementine 0.4 on Windows 7"
 msgstr "Clementine 0.4 Windows 7-ზე"
 
-#: data.py:46
+#: data.py:69
 msgid "Clementine 0.4 visualisations with projectM"
 msgstr "Clementine 0.4 projectM-ის ვიზუალიზაციებით"
 
-#: data.py:47
+#: data.py:70
 msgid "Clementine 0.4 on Mac OS X"
 msgstr "Clementine 0.4 Mac OS X-ზე"
 
-#: data.py:50
+#: data.py:73
 msgid "Last.fm tag radio"
 msgstr "ტეგები Last.fm რადიოსთვის"
 
-#: data.py:51
+#: data.py:74
 msgid "Searching the library"
 msgstr "ძებნა მუსიკალურ ბიბლიოთეკაში"
 
-#: data.py:52 data.py:58
+#: data.py:75 data.py:81
 msgid "The tag editor on Windows"
 msgstr "ტეგების რედაქტორი Windows-ისთვის"
 
-#: data.py:53
+#: data.py:76
 msgid "The cover manager on Mac OS X"
 msgstr "გარეკნების მმართველი Mac OS X-ზე"
 
-#: data.py:56
+#: data.py:79
 msgid "Playback on Linux"
 msgstr "მუსიკის დაკვრა Linux-ზე"
 
-#: data.py:57
+#: data.py:80
 msgid "Last.fm support"
 msgstr "Last.fm-ის მხარდაჭერა"
 
-#: data.py:59
+#: data.py:82
 msgid "Growl notifications on Mac OS X"
 msgstr "Growl შეტყობინებები Mac OS X-ზე"
 
-#: data.py:133
+#: data.py:156
 msgid "Source code"
 msgstr "წყაროს კოდი"
 
-#: data.py:168
+#: data.py:191
 msgid "Source"
 msgstr "წყარო"
 
-#: data.py:240
+#: data.py:263
 msgid "Version 0.2 released"
 msgstr "გამოვიდა 0.2 ვერსია"
 
-#: data.py:241
+#: data.py:264
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "ეხლახანს გავიდა ერთი თვე Clementine-ს პირველი ვერსიის გამოშვებიდან. ამ ახალ ვერსიაში დამატებულია შემდეგი ფუნქციები: ალბომის გარეკანი, უკეთესი \"სხვადასხვა მომღერლების\" დადგენა, ფლეილისთების ჩატვირთვის მხარდაჭერა და კიდევ ძალიან ბევრი."
 
-#: data.py:247
+#: data.py:270
 msgid "Version 0.3 released"
 msgstr "გამოვიდა 0.3 ვერსია"
 
-#: data.py:248
+#: data.py:271
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -249,11 +279,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "ამ ვერსიაში ჩვენ ყველა ფლატფორმაზე GStreamer-ს ვიყენებთ, ეს ნიშნავს რომ ანალიზატორი და სიმღერებს შორის გლუვი გადასვლა იმუშავებს Windows-ზეც. ახალ ფუნქციებში შედის გამთანაბრებელი, მეტი პარამეტრები ბიბლიოთეკის დაჯგუფებისთვის, უფრო ლამაზი OSD, დისტანციური მართვა ბრძანების სტრიქონიდან და MPRIS-იდან, და ტეგების გამარტივებული რედაქტირება."
 
-#: data.py:256
+#: data.py:279
 msgid "Version 0.4 released"
 msgstr "გამოვიდა 0.4 ვერსია"
 
-#: data.py:257
+#: data.py:280
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -263,11 +293,11 @@ msgid ""
 "the time."
 msgstr "ამ ვერსიაში დამატებულია შემდეგი ფუნქციები: ჩანართებიანი ფლეილისთები, ფლეილისთების ძებნა, projectM-ის ვიზუალიზაციები, Magnatune-ს ინტეგრაცია, ReplayGain-ის ხმის ნორმალიზაცია და მუსიკის ტრანსკოდირება. ჩვენ ასევე გამოვასწორეთ ძალიან ბევრი შეცდომა - დიდ ბიბლიოთეკებში ძებნა ახლა ძალიან სწრაფია, ახლა Windows-ზე სიმღერების დაკვრა ძალიან სტაბილურია, სიმბოლოების კოდირების პრობლემები მოგვარებულია, და დისტანციური ფლეილისთები ყოველთვის უშეცდომოდ უნდა ჩაიტვირთოს."
 
-#: data.py:266
+#: data.py:289
 msgid "Version 0.5 released"
 msgstr "გამოვიდა 0.5 ვერსია"
 
-#: data.py:267
+#: data.py:290
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -285,11 +315,11 @@ msgid ""
 "information."
 msgstr "ამ ვერსიაში დამატებულია Clementine-სთან პორტატული მოწყობილობების გამოყენების მხარდაჭერა, თქვენ შეგიძლიათ სიმღერების iPod-ში, iPhone-ში, MTP-სი, USB აუდიო დამკვრელში კოპირება. იხილეთ <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">ვიკი მეტი ინფორმაციის მისაღებად</a>. დისტანციური მმართვას დაემატა <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote-ს</a> გამოყენების მხარდაჭერა. სხვა ფუნქციები შეიცავს: სიმღერების რიგის მმართველი, ფაილების ორგანიზების დიალოგი, სვეტების ავტომატურად გაშლა ფლეილისთებში, ჩადგმული id3v2 გარეკნის ჩატვირთვა, მეტი პარამეტრები  ბიბლიოთეკის სკანირებისთვის, გადათრევა და დაგდება ფლეილისთებს შორის, და ჰიპნოტოადი. ჩვენ ასევე ნახევარზე მეტით შევამცირეთ პროგრამის დაწყების დრო, მოვაგვარეთ მეხსიერების დატვირთვის და CPU მოხმარების შემცირების პრობლემა მუსიკის დაკვრის დროს. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ცვლილებების სრული სია</a>."
 
-#: data.py:283
+#: data.py:306
 msgid "Version 0.6 released"
 msgstr "გამოვიდა 0.6 ვერსია"
 
-#: data.py:284
+#: data.py:307
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -303,11 +333,11 @@ msgid ""
 "information."
 msgstr "ამ ვერსიაში დამატებულია ორი ახალი საინფორმაციო პანელი, რომელბიც უჩვენებენ ლირიკებს, სიმღერის სტატისტიკას, მომღერლის ბიოგრაფიებს, ფოტოებს, და მსგავსი მომღერლების ტეგების სიებს. ჩვენ ჩევცვალეთ გვერდითა ზოლის დიზაინი (თუმცა თქვენ ასევე შეგიძლიათ ძველ დიზაინზე დაბრუნება მასზე მარჯვენა ღილაკით დაწკაპუნებით), და ასევე დავამატეთ შეფასებები, დაკვრების და გამოტოვებების რაოდენობა. თქვენ შეგიძლიათ თქვენი ბიბლიოთეკის სიმღერებიდან შექმნათ ჭკვიანი და დინამიკური ფლეილისთები, ასევე მოუსმინოთ მუსიკას <a href=\"http://www.jamendo.com/\">Jamendo-ს</a> და Icecast-ის რადიო სადგურებიდან. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ცვლილებების სრული სია</a>."
 
-#: data.py:296
+#: data.py:319
 msgid "Version 0.7 released"
 msgstr "გამოვიდა 0.7 ვერსია"
 
-#: data.py:297
+#: data.py:320
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -323,11 +353,11 @@ msgid ""
 "information."
 msgstr "ამ გამოშვებაში Clementine-ს დაემატა ტეგების რედაქტორის სრულიად ახალი დიალოგი ავტო-დასრულების და მუსიკის ავტომატურად დადგენის და ტეგების MusicBrainz-იდან ჩამოტვირთვის მხარდაჭერით. ახლა მხარდაჭერილია CUE sheet-ებიც - მათი დადგენა ხდება ავტომატურად თქვენი ბიბლიოთეკის სკანირებისას და ყველა სიმღერა ცალკე გამოჩნდება. ჩვენ ასევე დავამატეთ ძალიან ბევრი პატარა გაუმჯობესება, მაგალითად ალბომების გარეკნების ჩვენება ბიბლიოთეკის ჩანართში, წაშლილი სიმღერების განაცრისფრება, პარამეტრი \"ფაილების ბრაუზერში ჩვენება\", ქსელის პროქსების მხარდაჭერა, პარამეტრი \"მთელი ბიბლიოთეკის ხელახლა სკანირება\", და ახალი ცოცია სიმღერებისვის, რომელიც გეხმარებათ უფრო აკურატულად გადაახვიოთ სიმღერის სასურველ ნაწილში. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ცვლილებების სრული სია</a>."
 
-#: data.py:311
+#: data.py:334
 msgid "Version 1.0 released"
 msgstr "გამოვიდა 1.0 ვერსია"
 
-#: data.py:312
+#: data.py:335
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -342,11 +372,11 @@ msgid ""
 "information."
 msgstr "ამ ვერსიაში დამატებულია <a href=\"http://www.spotify.com\">Spotify-ს</a>, <a href=\"http://grooveshark.com\">Grooveshark-ის</a> და <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported-ის</a> მხარდაჭერა. ჩვენ ასევე დავამატეთ გლობალური ძებნის ფუნქცია, რომელიც საშუალებას გაძლევთ მარტივად იპოვოთ მუსიკა არა მხოლოდ თქვენს ბიბლიოთეკაში არამედ ინტერნეტშიც. სხვა ფუნქციებში შედის: აუდიო დისკების მხარდაჭერა, მეტი პარამეტრები ტრასკოდირებისთვის, გაუმჯობესებული დიალოგი პარამეტრებისთვის, ჭკვიანი ძიება ალბომის გარეკნებისთვის, და გამოსწორებულია ძალიან ბევრი შეცდომა. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">ცვლილებებათა სრული სია</a>."
 
-#: data.py:324
+#: data.py:347
 msgid "Version 1.1 released"
 msgstr "გამოვიდა 1.1 ვერსია"
 
-#: data.py:325
+#: data.py:348
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -360,11 +390,11 @@ msgid ""
 "information."
 msgstr "ამ გამოშვებას დამეატა დიდად სასრუველი პოდკასტბის მხარდაჭერა და მათი <a href=\"//gpodder.net\">gpodder.net-თან</a> ინტეგრაციის და სინქრონიზაციის საშუალება. ასევე გვერდით ზოლში ინტერნეტის ჩანართში ხელმისაწვდომია მუსიკა <a href=\"http://soundcloud.com/\">Soundcloud-იდან</a> და <a href=\"http://www.jazzradio.com/\">jazzradio.com-იდან</a>, კიდევ თქვენ მიერ <a href=\"http://drive.google.com/start\">Google Drive-ში</a> ატვირთული სიმღერები. Clementine ახლა თქვენი ადგილობრივი დისკიდან დაკრულ მუსიკაზე ასევე გიჩვენებთ ხასიათის ზოლებს. მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">ცვლილებათა სრული სია</a>."
 
-#: data.py:338
+#: data.py:361
 msgid "Version 1.2 released"
 msgstr "გამოვიდა 1.2 ვერსია"
 
-#: data.py:339
+#: data.py:362
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -382,11 +412,11 @@ msgid ""
 "information."
 msgstr "ეს გამოშვება თავსებადია <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">პროგრამასთან \"Clementine პულტი Android-ისთვის\"</a> რომელიც Clementine-ს თქვენი Android მოწყობილობიდან მართვის საშუალებას გაძლევთ .<br/>ამ გამოშვებას ასევე დაემატა Subsonic-ის მხარდაჭერა. და თქვენ ასევე შეგიძლიათ <a href=\"https://www.box.com/\">Box-ში</a>, <a href=\"https://www.dropbox.com/\">Dropbox-ში</a>, <a href=\"https://skydrive.live.com/\">Skydrive-ში</a> და <a href=\"https://one.ubuntu.com/\">Ubuntu One-ში</a> განთავსებული მუსიკის მოსმენა. და ბოლოს, მნიშვნელოვანი ახალი ფუნქცია არის თქვენი დასაკრავი სიების \"შეფასების\" საშუალება, რათა უსაფრთხოდ დახუროთ ისინი და მოგვიანებით აღადგინოთ \"დასაკრავი სია\"  ჩანართიდან, რომელიც გვერდითა ზოლში დავამატეთ.<br/>მეტი ინფორმაციისთვის იხილეთ <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">ცვლილებათა სრული სია</a>."
 
-#: data.py:354
+#: data.py:377
 msgid "Version 1.3 released"
 msgstr ""
 
-#: data.py:355
+#: data.py:378
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -398,11 +428,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: data.py:364
+#: data.py:387
 msgid "Version 1.3.1 released"
 msgstr ""
 
-#: data.py:365
+#: data.py:388
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr ""
@@ -415,120 +445,85 @@ msgstr "უკანასკნელი ჩამოტვირთვებ�
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr "მიიღეთ Clementine-ს უკანასკნელი სტაბილური ვერსია თქვენი ოპერაციული სისტემისათვის."
 
-#: downloads.html:33
+#: downloads.html:14 screenshots.html:27 screenshots.html:47
+msgid "Version"
+msgstr "ვერსია"
+
+#: downloads.html:34
 msgid "Downloads for other operating systems"
 msgstr "ჩამოტვირთვები სხვა ოპერაციული სისტემებისთვის"
 
-#: downloads.html:54
-msgid "Ubuntu PPA"
-msgstr "Ubuntu-ს PPA"
+#: downloads.html:57
+msgid "Debian and Ubuntu"
+msgstr ""
 
-#: downloads.html:56
+#: downloads.html:59
 msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
-msgstr "თქვენ შეგიძლიათ ჩამოტვირთოთ Clementine-ს ბოლო ვერსია Ubuntu-ს ოფიციალური PPA-ს გამოყენებით:"
+"Add Clementine's apt repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Debian and Ubuntu, and "
+"Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
+msgstr ""
 
-#: downloads.html:62
-msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr "დამოკიდებულებები Ubuntu Precise-სთვის (12.04)"
+#: downloads.html:74
+msgid "The repository is signed with this key:"
+msgstr ""
 
-#: downloads.html:63
+#: downloads.html:77
+msgid "Fedora"
+msgstr ""
+
+#: downloads.html:79
 msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
-msgstr "Clementine-ს ახალი ვერსიები მოითხოვენ GStreamer 1.0-ს, რომელიც Ubuntu 12.04-ს არ მოჰყვებოდა. თუ Clementine-ს ინსტალაციისას შეცდომები დაფიქსირდება, დაამატეთ GStreamer-ის PPA:"
+"Add Clementine's COPR repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Fedora, for 64-bit PCs "
+"and ARM."
+msgstr ""
 
-#: downloads.html:68 downloads.html.py:83
+#: downloads.html:84
+msgid ""
+"If you already have Fedora's own Clementine package, which is older, replace"
+" it with this one:"
+msgstr ""
+
+#: downloads.html:88
+msgid "The first time, dnf asks you to trust the repository's signing key:"
+msgstr ""
+
+#: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
 msgstr "სხვა ჩამოტვირთვები"
 
-#: downloads.html:70
+#: downloads.html:95 screenshots.html:33
 msgid "Clementine Remote for Android"
 msgstr "Clementine პულტი Android-ისთვის"
 
-#: downloads.html:77
+#: downloads.html:102
 msgid "Unofficial packages"
 msgstr "არაოფიციალური პაკეტები"
 
-#: downloads.html:79
+#: downloads.html:104
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "თუ თქვენი დისტრიბუცია არ არის ზემოთ მოცემულ სიაში, შესაძლოა ვინმემ არაოფიციალური პაკეტი შექმნა თქვენთვის."
 
-#: downloads.html:87
+#: downloads.html:112
 msgid "Compiling from source"
 msgstr "აწყობა წყაროს კოდიდან"
 
-#: downloads.html:89
+#: downloads.html:114
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Clementine-ს წყაროს კოდიდან აწყობა მარტივია Linux-ზე."
 
-#: downloads.html:90
+#: downloads.html:115
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "ჩამოტვირთეთ წყაროს კოდის პაკეტი ზემოთ მოცემული სიიდან და ტერმინალში აკრიფეთ:"
 
-#: downloads.html:99
+#: downloads.html:124
 msgid "Full instructions and list of dependencies"
 msgstr "სრული ინსტრუქცია და დამოკიდებულებების სია"
-
-#: downloads.html:103
-msgid "Bleeding edge packages"
-msgstr "დეველოპერული ვერსიები"
-
-#: downloads.html:105 participate.html:57
-msgid "Development on Clementine happens in"
-msgstr "Clementine-ს დეველოპმენტი ხდება"
-
-#: downloads.html:107 participate.html:59
-msgid "the git repository"
-msgstr "git რეპოზიტორიაში"
-
-#: downloads.html:108 participate.html:60
-msgid "Check out the code by running:"
-msgstr "შეამოწმეთ კოდი ამ ბრძანებით:"
-
-#: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "თუ არ გსურთ დეველოპერული ვერსიის აწყობა ცადეთ ყოველ საათში განახლებული პაკეტებიდან ერთ-ერთი:"
-
-#: downloads.html:117 participate.html:75
-msgid "Mac OS X development builds"
-msgstr "დეველოპერული ვერსია Mac OS X-ისთვის"
-
-#: downloads.html:119 participate.html:77
-msgid "Ubuntu Precise (12.04) development builds"
-msgstr "Ubuntu Precise-ის (12.04) დეველოპერული ვერსიები"
-
-#: downloads.html:121 participate.html:79
-msgid "Ubuntu Trusty (14.04) development builds"
-msgstr "Ubuntu Trusty-ის (14.04) დეველოპერული ვერსიები"
-
-#: downloads.html:123 participate.html:81
-msgid "Windows development builds"
-msgstr "დეველოპერული ვერსია Windows-ისთვის"
-
-#: downloads.html:125 participate.html:83
-msgid "Buildbot"
-msgstr "Buildbot"
-
-#: downloads.html:128 participate.html:86
-msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "ამ დეველოპერული ვერსიებისთვის არსებობს Ubuntu-ს PPA:"
-
-#: downloads.html:136
-msgid "Old downloads"
-msgstr "ძველი ჩამოტვირთვები"
-
-#: downloads.html:144 screenshots.html:8
-msgid "Version"
-msgstr "ვერსია"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -542,320 +537,359 @@ msgstr "მოძებნეთ და დაუკარით კომპო
 msgid "Listen to internet radio from"
 msgstr "მოუსმინეთ ინტერნეტ რადიოებს:"
 
-#: main.html:24
+#: main.html:22
+msgid "Browse and play music from"
+msgstr ""
+
+#: main.html:25
+msgid "Subsonic servers"
+msgstr ""
+
+#: main.html:27
+msgid "Plex Media Servers"
+msgstr ""
+
+#: main.html:29
 msgid "Search and play songs you've uploaded to"
 msgstr "მოძებნეთ და დაუკარით სიმღერები, რომლებიც ამ მომსახურებებში გაქვთ ატვირთული:"
 
-#: main.html:31
+#: main.html:37
+msgid "Scrobble what you play to"
+msgstr ""
+
+#: main.html:38
 msgid "Create smart playlists and dynamic playlists."
 msgstr "შექმენით ჭკვიანი და დინამიკური ფლეილისთები."
 
-#: main.html:32
-msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "ჩანართები ფლეილისთებისთვის, M3U, XSPF, PLS და ASX ფორმატების შემოტანა და გატანა."
+#: main.html:39
+msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
+msgstr ""
 
-#: main.html:33
+#: main.html:40
 msgid "CUE sheet support."
 msgstr "CUE sheet-ის მხარდაჭერა."
 
-#: main.html:34
+#: main.html:41
 msgid "Play audio CDs."
 msgstr "დაუკარით აუდიო დისკები."
 
-#: main.html:35
+#: main.html:42
+msgid "Equalizer and moodbar."
+msgstr ""
+
+#: main.html:43
 msgid "Visualisations from"
 msgstr "ვიზუალიზაციები"
 
-#: main.html:36
-msgid "Lyrics and artist biographies and photos."
-msgstr "ტექსტები, შემსრულებლის ბიოგრაფიები და ფოტოები."
+#: main.html:44
+msgid "Lyrics from your own files and"
+msgstr ""
 
-#: main.html:37
-msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "მუსიკის ტრანსკოდირება ფორმატებში MP3, Ogg Vorbis, Ogg Speex, FLAC ან AAC."
+#: main.html:44
+msgid "shown in time with the song where they're timed."
+msgstr ""
 
-#: main.html:38
-msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "დაარედაქტირეთ MP3 და OGG ფაილების ტეგები, გაუკეთეთ ორგანიზება თქვენს მუსიკას."
+#: main.html:45
+msgid "Artist biographies and photos."
+msgstr ""
 
-#: main.html:39
+#: main.html:46
+msgid ""
+"Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
+" WAV."
+msgstr ""
+
+#: main.html:47
+msgid "Edit tags and organise your music."
+msgstr ""
+
+#: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
 msgstr "მიიღეთ ფაილების ტეგები MusicBrainz-იდან."
 
-#: main.html:40
-msgid "Discover and download Podcasts."
-msgstr "აღმოაჩინეთ და ჩამოტვირთეთ პოდკასტები."
+#: main.html:49
+msgid "Discover, download and sync podcasts with"
+msgstr ""
 
-#: main.html:41
-msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "ჩამოტვირთეთ ალბომების გარეკნები Last.fm-იდან და Amazon-იდან."
-
-#: main.html:42
-msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "მრავალპლატფორმული - მუშაობს Windows-ზე, Mac OS X-ზე და Linux-ზე."
-
-#: main.html:43
+#: main.html:50
 msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "სისტემური შეტყობინებების მხარდაჭერა Linux-ზე (libnotify) და Mac OS X-ზე (Growl)."
+"Download missing album cover art from Last.fm, MusicBrainz and Discogs."
+msgstr ""
 
-#: main.html:44
-msgid "Remote control using an"
-msgstr "დისტანცური მართვა"
+#: main.html:51
+msgid "Cross-platform - works on Windows, macOS and Linux."
+msgstr ""
 
-#: main.html:44
-msgid "Android device"
-msgstr "Android მოწყობილობის"
+#: main.html:52
+msgid "Light and dark themes, or follow your system's."
+msgstr ""
 
-#: main.html:44
+#: main.html:53
+msgid ""
+"Native desktop notifications and media controls on Linux, macOS and Windows."
+msgstr ""
+
+#: main.html:54
+msgid "Remote control using"
+msgstr ""
+
+#: main.html:54
+msgid "an Android device"
+msgstr ""
+
+#: main.html:54
+msgid "an iPhone or iPad"
+msgstr ""
+
+#: main.html:54
 msgid "a Wii Remote"
 msgstr "Wii პულტის"
 
-#: main.html:44
+#: main.html:54
 msgid "MPRIS or the command-line."
 msgstr "MPRIS-ის ან ბრძანების სტრიქონის გამოყენებით."
 
-#: main.html:45
+#: main.html:55
+msgid ""
+"With Clementine Remote, browse your library and internet services, download "
+"songs, and play Clementine's music on your phone."
+msgstr ""
+
+#: main.html:56
 msgid "Copy music to your"
 msgstr "მუსიკების კოპირება თქვენს"
 
-#: main.html:45
-msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod-ში, iPhone-ში, MTP-ში ან USB აუდიო დამკვრელში."
+#: main.html:56
+msgid "iPod, MTP or mass-storage USB player."
+msgstr ""
 
-#: main.html:46
+#: main.html:57
 msgid "Queue manager."
 msgstr "სიმღერების რიგის მმართველი."
 
-#: main.html:52
+#: main.html:63
 msgid "is a modern music player and library organizer"
 msgstr "არის მუსიკის თანამედროვე დამკვრელი და ბიბლიოთეკის ორგანიზატორი"
 
-#: main.html:56
+#: main.html:67
 msgid "Clementine is a multiplatform music player."
 msgstr "Clementine არის მუსიკის მრავალპლატფორმული დამკვრელი."
 
-#: main.html:57
+#: main.html:68
 msgid "It is inspired by"
 msgstr "მისი შთაგონების წყარო არის"
 
-#: main.html:58
+#: main.html:69
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr "და მისი მთავარი მიზანი არის თქვენი სიმღერების მოსაძებნად და დასაკრავად სწრაფი და მარტივად მოსახმარი ინტერფეისის შემოთავაზება."
 
-#: main.html:65 main.html.py:74
+#: main.html:81 main.html:94
 msgid "Download the latest version now"
 msgstr "ჩამოტვირთეთ ბოლო ვერსია ახლავე"
 
-#: main.html:66
+#: main.html:89
 msgid "Download Clementine"
 msgstr "Clementine-ს ჩამოტვირთვა"
 
-#: main.html:75
+#: main.html:95
 msgid "for Windows, Mac OS X and Linux"
 msgstr "Windows-ისთვის, Mac OS X-ისთვის და Linux-ისთვის"
 
-#: main.html:80
+#: main.html:100
 msgid "Announcement"
 msgstr "განცხადებები"
 
-#: main.html:81
+#: main.html:101
 msgid "Changelog"
 msgstr "ცვლილებები"
 
-#: main.html:82
+#: main.html:102
 msgid "Show all downloads"
 msgstr "ყველა ჩამოტვირთვის ჩვენება"
 
-#: main.html:101 screenshots.html:17
+#: main.html:122 main.html:124 screenshots.html:15 screenshots.html:38
 msgid "Screenshot"
 msgstr "ეკრანის ანაბეჭდი"
 
-#: main.html:114
+#: main.html:138
 msgid "News"
 msgstr "სიახლეები"
 
-#: participate.html:17
+#: participate.html:7
 msgid "Need help?"
 msgstr "გჭირდებათ დახმარება?"
 
-#: participate.html:21
-msgid "Come chat with us at the"
-msgstr "მოდით და გაგვესაუბრეთ"
-
-#: participate.html:21
-msgid "channel on Freenode."
-msgstr "Freenode-ს არხზე."
-
-#: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "გთხოვთ, არ დაგავიწყდეთ რომ <b>შეკითხვის დასმის შემდეგ დარჩეთ არხზე</b> - შესაძლოა ჩვენ დროის სხვა სარტყელში ვიყოთ და იმ წამსვე ვერ ვნახოთ თქვენი კითხვა."
-
-#: participate.html:25
+#: participate.html:9
 msgid "Forum"
 msgstr "ფორუმი"
 
-#: participate.html:27
+#: participate.html:11
 msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
-msgstr "Clementine ფორუმისთვის/დასაგზავნი სიისთვის/საერთო დისკუსიებისთვის იყენებს Google ჯგუფებს."
+"Clementine uses GitHub Discussions for questions, help and general "
+"discussion."
+msgstr ""
 
-#: participate.html:30
+#: participate.html:14
 msgid "Support and discussion group"
 msgstr "მხარდაჭერის და განხილვის ჯგუფი"
 
-#: participate.html:35
+#: participate.html:19
 msgid "Collaborate"
 msgstr "თანამშრომლობა"
 
-#: participate.html:37
+#: participate.html:21
 msgid "Reporting bugs and proposing patches"
 msgstr "შეცდომების შეტყობინება და პატჩების შემოთავაზება"
 
-#: participate.html:39
+#: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine დეველოპმენტისთვის და შეცდომების სათვალყუროდ იყენებს GitHub-ს."
 
-#: participate.html:40
+#: participate.html:24
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr "თუ თქვენ Clementine-ში აღმოაჩენთ შეცდომას, გთხოვთ გადადით შეცდომების მეთვალყურეზე და შეგვატყობინეთ ამ შეცდომის შესახებ."
 
-#: participate.html:43
+#: participate.html:27
 msgid "Issue tracker"
 msgstr "შეცდომების მეთვალყურე"
 
-#: participate.html:46
+#: participate.html:30
 msgid "Translating the interface"
 msgstr "ინტერფეისის გადათარგმნა"
 
-#: participate.html:48
+#: participate.html:32
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
 msgstr "თუ გსურთ Clementine-ს სხვა ენაზე თარგმნა, თქვენ ამის გაკეთება Transifex-ისზე განთავსებულ თარგმნების გვერდზე შეგიძლიათ."
 
-#: participate.html:49
+#: participate.html:33
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr "თქვენ შეგიძლიათ თარგმნა განახორციელოთ პირდაპირ Transifex-ზე, ან ჩამოტვირთოთ .po ფაილი საიტიდან და თარგმნის შემდეგ გამოგვიგზავნოთ ის ელ-ფოსტით."
 
-#: participate.html:52
+#: participate.html:36
 msgid "Transifex translations"
 msgstr "Transifex თარგმანები"
 
-#: participate.html:55
+#: participate.html:39
 msgid "Hacking"
 msgstr "კოდთან მუშაობა"
 
-#: participate.html:66
+#: participate.html:41
+msgid "Development on Clementine happens in"
+msgstr "Clementine-ს დეველოპმენტი ხდება"
+
+#: participate.html:43
+msgid "the git repository"
+msgstr "git რეპოზიტორიაში"
+
+#: participate.html:44
+msgid "Check out the code by running:"
+msgstr "შეამოწმეთ კოდი ამ ბრძანებით:"
+
+#: participate.html:50
 msgid "How to compile Clementine from source"
 msgstr "როგორ ავაწყოთ Clementine წყაროს კოდიდან"
 
-#: participate.html:92
+#: participate.html:54
 msgid "Remote application for Android"
 msgstr "პულტის აპლიკაცია Android-ისთვის"
 
-#: participate.html:94
+#: participate.html:56
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine პულტი განთავსებულია სხვა <a href=\"https://github.com/clementine-player/Android-Remote\">GitHub რეპოზიტორიაში</a>."
 
-#: participate.html:95
+#: participate.html:57
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
 msgstr "შეცდომების შეტყობინება და ბებკების შემოთავაზება შეგიძლიათ მის <a href=\"https://github.com/clementine-player/Android-Remote/issues\">შეცდომების აღმრიცხველში</a>."
 
-#: participate.html:96
+#: participate.html:58 participate.html:64
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
 msgstr "ინტერფეისის თარგმნა შეგიძლიათ <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">ამ Transifex პროექტში</a>."
 
-#: participate.html:100
+#: participate.html:60
+msgid "Remote application for iOS"
+msgstr ""
+
+#: participate.html:62
+msgid ""
+"Clementine Remote for iPhone and iPad is hosted on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
+"repository</a>."
+msgstr ""
+
+#: participate.html:63
+msgid ""
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
+"tracker</a>."
+msgstr ""
+
+#: participate.html:68
 msgid "Social Networking"
 msgstr "სოციალური ქსელები"
 
-#: participate.html:102
+#: participate.html:70
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr "ჩვენ მოხარულები ვიქნებით თუ სოციალურ ქსელებზე შემოერთებით დაუჭერთ მხარს Clementine-ს!"
 
-#: participate.html:106
+#: participate.html:74
 msgid "Clementine on Facebook"
 msgstr "Clementine Facebook-ზე"
 
-#: participate.html:109
-msgid "Clementine on Twitter"
-msgstr "Clementine Twitter-ზე"
-
-#: participate.html:112
-msgid "Clementine on Last.fm"
-msgstr "Clementine Last.fm-ზე"
-
-#: participate.html:126
-msgid "Stickers"
-msgstr "სტიკერები"
-
-#: participate.html:127
-#, python-format
-msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr "Clementine საყვარელი სტიკერების პოვნა შეგიძლიათ აქ: %(unixstickers)s."
-
-#: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
-msgstr "ეს შესანისნავი საშულებაა თქვენი ლეპტოპის გასალამაზებლად და იმის საჩვენებბლად, თუ როგორ მოგწონთ თქვენი საყვარელი მუსიკის დამკვრელი!"
-
-#: participate.html:131
+#: participate.html:79
 msgid "Donation"
 msgstr "შემოწირულობა"
 
-#: participate.html:132
+#: participate.html:80
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
 msgstr "ამჟამად, ფული არ გვჭირდება, ამიტომ ფულად შემოწირულობებს არ ვიღებთ. თუმცა თუ ჩვენი პროგრამა მოგწონთ და გსურთ დაგვეხმაროთ, შეგიძლიათ <a href=\"#social-networking\">მხარი დაგვიჭიროთ</a> და სიტყვა გაავრცელოთ."
 
-#: participate.html:133
+#: participate.html:81
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
 msgstr "ასევე შეგიძლიათ <a href=\"#collaborate\">მონაწილეობა მიიღოთ პროგრამის განვითარებაში, რაც ზემოთაა ახსნილი</a>."
 
-#: participate.html:134
+#: participate.html:82
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
 msgstr "მაგრამ თუ მაინც გსურთ პატარა ფულის დახარჯვა და ჩვენი გაბედნიერება, შეგიძლიათ ამ საქველმოქმედო ორგანიზაციებს შესწიროთ ფული"
 
-#: participate.html:134
+#: participate.html:82
 msgid "and let us know:"
 msgstr "და გაგვაგებინოთ:"
 
-#: participate.html:137
-msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+#: participate.html:85
+msgid ""
+"<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+msgstr ""
 
-#: participate.html:138
-msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+#: participate.html:86
+msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+msgstr ""
 
-#: participate.html:139
+#: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 

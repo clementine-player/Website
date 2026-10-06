@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# a26e6f121372cf9f126b1f7f74e070af_db61a72 <442540d4d69f4a77658505e2f87cda6a_11890>, 2011
+# Adolfo Jayme Barrientos, 2013-2014
 # Adolfo Jayme Barrientos, 2014
 # Adolfo Jayme Barrientos, 2012-2013,2018,2026
 # Adolfo Jayme Barrientos, 2017-2018
@@ -12,13 +14,16 @@
 # Adrián Ramirez Escalante <buried.prophet@gmail.com>, 2012
 # Adrián Ramirez Escalante <buried.prophet@gmail.com>, 2012
 # advocatux, 2017
+# advocatux, 2017
 # Andres Sanchez <>, 2012
 # Carolina Pérez Garrido <carolinadelpilarperezgarrido@gmail.com>, 2011
+# felipeacsi <felipeacsi@gmail.com>, 2014
 # felipeacsi <felipeacsi@gmail.com>, 2014
 # Adolfo Jayme Barrientos, 2013
 # Juan Pablo Feria <jferiago@gmail.com>, 2012
 # Juan Pablo Feria <jferiago@gmail.com>, 2012
 # José Antonio Moray <moray33@gmx.com>, 2013
+# Juan Pablo Feria <jferiago@gmail.com>, 2012
 # a26e6f121372cf9f126b1f7f74e070af_db61a72 <442540d4d69f4a77658505e2f87cda6a_11890>, 2011
 # a26e6f121372cf9f126b1f7f74e070af_db61a72 <442540d4d69f4a77658505e2f87cda6a_11890>, 2011
 # José Antonio Moray <moray33@gmx.com>, 2013
@@ -28,9 +33,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"POT-Creation-Date: 2026-10-06 15:29+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos, 2012-2013,2018,2026\n"
+"Last-Translator: Ricardo Andrés <blurmuse@gmail.com>, 2012\n"
 "Language-Team: Spanish (http://app.transifex.com/davidsansome/clementine/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,217 +51,247 @@ msgstr "Control remoto de Clementine"
 msgid "Control Clementine remotely from your Android phone"
 msgstr "Controle Clementine desde su teléfono con Android"
 
+#: android-download.html:9
+msgid "Get it on Google Play"
+msgstr ""
+
+#: android-download.html:12
+msgid ""
+"Want every change as soon as it's made? <a "
+"href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
+" the beta</a> for development builds."
+msgstr ""
+
 #: base.html:11
 msgid "Clementine Music Player"
 msgstr "Reproductor de música Clementine"
 
-#: base.html:51
+#: base.html:46
 msgid "About"
 msgstr "Acerca de"
 
-#: base.html:52 downloads.html:2
+#: base.html:47 downloads.html:2
 msgid "Downloads"
 msgstr "Descargas"
 
-#: base.html:53 main.html:92 screenshots.html:2
+#: base.html:48 main.html:112 screenshots.html:2
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
-#: base.html:54 participate.html:2
+#: base.html:49 participate.html:2
 msgid "Participate"
 msgstr "Participar"
 
-#: base.html:58
+#: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Un reproductor de música multiplataforma inspirado en Amarok 1.4"
 
-#: base.html:83
+#: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine es un programa libre bajo la licencia GPL v3. Este sitio se publica bajo CC-BY-SA."
 
-#: base.html:84
+#: base.html:79
 msgid "Development by"
 msgstr "Desarrollado por"
 
-#: base.html:85 main.html:21 main.html.py:28
+#: base.html:80 main.html:19 main.html:26 main.html:34
 msgid "and"
 msgstr "y"
 
-#: base.html:87
+#: base.html:82
 msgid "Website by"
 msgstr "Sitio web por"
 
-#: base.html:90 privacy.html:3 privacy.html.py:10
+#: base.html:85 privacy.html:3 privacy.html:10
 msgid "Privacy Policy"
 msgstr "Normativa de privacidad"
 
-#: data.py:8
+#: data.py:10 data.py:34
+msgid "Controlling playback from the Android app"
+msgstr "Control de la reproducción desde la aplicación para Android"
+
+#: data.py:11
+msgid "Browsing the library from the Android app"
+msgstr ""
+
+#: data.py:24
+#, python-format
+msgid "The library on %(platform)s"
+msgstr ""
+
+#: data.py:25
+#, python-format
+msgid "The library on %(platform)s, in the dark theme"
+msgstr ""
+
+#: data.py:26
+#, python-format
+msgid "Internet services on %(platform)s"
+msgstr ""
+
+#: data.py:31
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "Pestaña Lista de reproducción, para escuchar música desde múltiples servicios de Internet"
 
-#: data.py:9
+#: data.py:32
 msgid "Subsonic integration"
 msgstr "Integración con Subsonic"
 
-#: data.py:10
+#: data.py:33
 msgid "Browsing playlist from the Android app"
 msgstr "Visualización de la lista de reproducción en la <em>app</em> para Android"
 
-#: data.py:11
-msgid "Controlling playback from the Android app"
-msgstr "Control de la reproducción desde la aplicación para Android"
-
-#: data.py:14
+#: data.py:37
 msgid "Podcasts"
 msgstr "Pódcast"
 
-#: data.py:15
+#: data.py:38
 msgid "Google Drive"
 msgstr "Google Drive"
 
-#: data.py:16
+#: data.py:39
 msgid "New global search interface"
 msgstr "Nueva interfaz de búsqueda global"
 
-#: data.py:17
+#: data.py:40
 msgid "Moodbars"
 msgstr "Barras de ánimo"
 
-#: data.py:20
+#: data.py:43
 msgid "Transcoding settings"
 msgstr "Opciones de conversión"
 
-#: data.py:21
+#: data.py:44
 msgid "Global search finding albums on Spotify"
 msgstr "Búsqueda global de álbumes de Spotify"
 
-#: data.py:22
+#: data.py:45
 msgid "Global search options"
 msgstr "Opciones de búsqueda global"
 
-#: data.py:23
+#: data.py:46
 msgid "Grooveshark integration"
 msgstr "Integración con Grooveshark"
 
-#: data.py:26
+#: data.py:49
 msgid "Lyrics and track slider tooltip"
 msgstr "Mensaje emergente para letras y deslizador de pista"
 
-#: data.py:27
+#: data.py:50
 msgid "MusicBrainz fixing untagged files"
 msgstr "MusicBrainz reparando archivos sin etiquetas"
 
-#: data.py:28
+#: data.py:51
 msgid "New tag editor with autocompletion"
 msgstr "Nuevo editor de etiquetas con autocompletado"
 
-#: data.py:29
+#: data.py:52
 msgid "Track slider tooltip on Mac OS X"
 msgstr "Mensaje emergente para deslizador de pista en Mac OS X"
 
-#: data.py:32
+#: data.py:55
 msgid "Artist photos and biographies"
 msgstr "Fotos de artistas y biografías"
 
-#: data.py:33
+#: data.py:56
 msgid "Lyrics"
 msgstr "Letras"
 
-#: data.py:34
+#: data.py:57
 msgid "Icecast radio stations"
 msgstr "Estaciones de radio de Icecast"
 
-#: data.py:35
+#: data.py:58
 msgid "Smart playlists and kittens"
 msgstr "Listas de reproducción inteligentes y gatitos"
 
-#: data.py:38
+#: data.py:61
 msgid "The queue manager on Windows 7"
 msgstr "El gestor de la cola de reproducción en Windows 7"
 
-#: data.py:39
+#: data.py:62
 msgid "Copying music to an iPod in Ubuntu"
 msgstr "Copia de música a un iPod en Ubuntu"
 
-#: data.py:40
+#: data.py:63
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
 msgstr "Clementine 0.5 en Ubu… ALABEMOS TODOS AL HIPNOSAPO"
 
-#: data.py:41
+#: data.py:64
 msgid "Clementine 0.5 on Mac OS X"
 msgstr "Clementine 0.5 en Mac OS X"
 
-#: data.py:44
+#: data.py:67
 msgid "Clementine 0.4 on Ubuntu"
 msgstr "Clementine 0.4 en Ubuntu"
 
-#: data.py:45
+#: data.py:68
 msgid "Clementine 0.4 on Windows 7"
 msgstr "Clementine 0.4 en Windows 7"
 
-#: data.py:46
+#: data.py:69
 msgid "Clementine 0.4 visualisations with projectM"
 msgstr "Visualizaciones de Clementine 0.4 con projectM"
 
-#: data.py:47
+#: data.py:70
 msgid "Clementine 0.4 on Mac OS X"
 msgstr "Clementine 0.4 en Mac OS X"
 
-#: data.py:50
+#: data.py:73
 msgid "Last.fm tag radio"
 msgstr "Radio de etiquetas de Last.fm"
 
-#: data.py:51
+#: data.py:74
 msgid "Searching the library"
 msgstr "Búsqueda en la fonoteca"
 
-#: data.py:52 data.py:58
+#: data.py:75 data.py:81
 msgid "The tag editor on Windows"
 msgstr "El editor de etiquetas en Windows"
 
-#: data.py:53
+#: data.py:76
 msgid "The cover manager on Mac OS X"
 msgstr "El gestor de portadas en Mac OS X"
 
-#: data.py:56
+#: data.py:79
 msgid "Playback on Linux"
 msgstr "Reproducción en Linux"
 
-#: data.py:57
+#: data.py:80
 msgid "Last.fm support"
 msgstr "Compatibilidad con Last.fm"
 
-#: data.py:59
+#: data.py:82
 msgid "Growl notifications on Mac OS X"
 msgstr "Notificaciones de Growl en Mac OS X"
 
-#: data.py:133
+#: data.py:156
 msgid "Source code"
 msgstr "Código fuente"
 
-#: data.py:168
+#: data.py:191
 msgid "Source"
 msgstr "Fuente"
 
-#: data.py:240
+#: data.py:263
 msgid "Version 0.2 released"
 msgstr "Versión 0.2 publicada"
 
-#: data.py:241
+#: data.py:264
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "Ha pasado solo un mes desde que lanzamos la primera versión de Clementine. Esta nueva versión incluye portadas de álbumes, mejor detección de «Varios artistas», compatibilidad para carga de listas de reproducción y mucho más."
 
-#: data.py:247
+#: data.py:270
 msgid "Version 0.3 released"
 msgstr "Versión 0.3 publicada"
 
-#: data.py:248
+#: data.py:271
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -264,11 +299,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "En esta versión hemos pasado a usar GStreamer en todas las plataformas, lo que significa que el analizador y el fundido cruzado entre pistas ahora funcionarán en Windows. Entre las funcionalidades nuevas se incluyen un ecualizador, más opciones de agrupación de la fonoteca, una interfaz OSD más atractiva, control remoto desde la consola y MPRIS, y una edición de etiquetas más sencilla."
 
-#: data.py:256
+#: data.py:279
 msgid "Version 0.4 released"
 msgstr "Versión 0.4 publicada"
 
-#: data.py:257
+#: data.py:280
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -278,11 +313,11 @@ msgid ""
 "the time."
 msgstr "Esta versión incorpora listas de reproducción por pestañas, búsquedas en la lista de reproducción, integración con Magnature, normalización de ganancia con ReplayGain y transcodificación de música. Además, se corrigieron muchos errores. Ahora la búsqueda en colecciones musicales grandes es más rápida, la reproducción es más eficiente bajo Windows, los problemas de codificación de caracteres han sido corregidos, y las listas de reproducción remotas deberían siempre cargarse correctamente."
 
-#: data.py:266
+#: data.py:289
 msgid "Version 0.5 released"
 msgstr "Versión 0.5 publicada"
 
-#: data.py:267
+#: data.py:290
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -300,11 +335,11 @@ msgid ""
 "information."
 msgstr "Esta versión añade compatibilidad para usar dispositivos portátiles con Clementine. Ahora puede copiar canciones a su iPod, iPhone, MTP, o dispositivo de almacenamiento masivo USB. Consulte <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">el wiki para más información</a>. También se añadió compatibilidad para usar un <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> como control remoto. Otras características incluyen el gestor de cola, un diálogo para organizar archivos, estrechamiento automático de las columnas de la lista de reprodución, carátulas id3v2 incrustadas, más opciones de análisis de la fonoteca, arrastrar y soltar entre listas de reproducción, y el Hipnosapo. También hemos reducido a más de la mitad el tiempo de inicio, corregimos muchos errores en la gestión de la memoria del sistema y achicamos el uso del CPU al momento de reproducir música. Vea la <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista de cambios completa</a> para más información."
 
-#: data.py:283
+#: data.py:306
 msgid "Version 0.6 released"
 msgstr "Versión 0.6 publicada"
 
-#: data.py:284
+#: data.py:307
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -318,11 +353,11 @@ msgid ""
 "information."
 msgstr "Esta versión incorpora dos nuevos paneles de información que muestran letras, estadísticas de canciones, biografías de artistas, fotos y listas de etiquetas y artistas similares. Hemos rediseñado la barra lateral (aunque puede regresar a la anterior pulsando con el botón secundario del ratón sobre ella), y hemos añadido también valoraciones y contadores de reproducciones y omisiones.  Puede crear listas de reproducción inteligentes y dinámicas con canciones de su fonoteca, y además escuchar música de <a href=\"http://www.jamendo.com/\">Jamendo</a> y estaciones de radio Icecast. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">registro de cambios completo</a> para más información."
 
-#: data.py:296
+#: data.py:319
 msgid "Version 0.7 released"
 msgstr "Versión 0.7 publicada"
 
-#: data.py:297
+#: data.py:320
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -338,11 +373,11 @@ msgid ""
 "information."
 msgstr "En esta versión de Clementine presentamos un nuevo cuadro de diálogo de edición de etiquetas con compleción automática y la capacidad de identificar música y buscar etiquetas faltantes desde MusicBrainz. Ahora admitimos las hojas CUE —son detectadas automáticamente al analizar la fonoteca, mostrando cada pista por separado—. Hicimos un montón de pequeñas mejoras, así como mostrar portadas de álbumes en la ficha Biblioteca, descartado las canciones eliminadas, una opción para «Mostrar en el explorador de archivos», soporte para proxies de red, un «reanálisis completo de la fonoteca», y un nuevo mensaje emergente para el control de avance/retroceso de cada pista que le permitirá buscar con más precisión un lugar específico en una canción. Para más información de la versión, puede ver la <href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista de cambios</ a>."
 
-#: data.py:311
+#: data.py:334
 msgid "Version 1.0 released"
 msgstr "Versión 1.0 publicada"
 
-#: data.py:312
+#: data.py:335
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -357,11 +392,11 @@ msgid ""
 "information."
 msgstr "Esta versión admite <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> y <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  También hemos añadido la característica de búsqueda global, que le permite encontrar música fácilmente, ya sea en su fonoteca local o en Internet. Otras funciones destacadas incluyen la compatibilidad con CD de audio, más opciones de conversión, un diálogo de configuración mejorado, búsqueda inteligente de portadas de álbumes, y muchísimas correcciones de errores. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">registro de cambios completo</a> para más información."
 
-#: data.py:324
+#: data.py:347
 msgid "Version 1.1 released"
 msgstr "Versión 1.1 publicada"
 
-#: data.py:325
+#: data.py:348
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -375,11 +410,11 @@ msgid ""
 "information."
 msgstr "Esta versión añade la esperada compatibilidad de pódcast, incluidas la integración y la sincronización con <a href=\"//gpodder.net\">gpodder.net</a>. En la pestaña Internet de la barra lateral, encontrará música de <a href=\"http://soundcloud.com/\">Soundcloud</a> y <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>, además de cualquier canción que haya cargado a <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine ahora mostrará barras de ánimo para la música que reproduzca desde su disco local. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">registro de cambios completo</a> para más información."
 
-#: data.py:338
+#: data.py:361
 msgid "Version 1.2 released"
 msgstr "Versión 1.2 publicada"
 
-#: data.py:339
+#: data.py:362
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -397,11 +432,11 @@ msgid ""
 "information."
 msgstr "Esta versión es compatible con la aplicación <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Control remoto de Clementine para Android</a>, que le permite controlar remotamente Clementine mediante un dispositivo con Android.<br/>Esta versión también añade compatibilidad con Subsonic. Y ahora puede escuchar su música almacenada en <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">SkyDrive</a> y <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Por último, ahora puede marcar sus listas de reproducción con estrellas, de modo que se almacenen al cerrarlas y poder abrirlas posteriormente desde la pestaña «Listas de reproducción» añadida en la barra lateral de la izquierda.<br/>Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">registro de cambios completo</a> para más información."
 
-#: data.py:354
+#: data.py:377
 msgid "Version 1.3 released"
 msgstr "Versión 1.3 publicada"
 
-#: data.py:355
+#: data.py:378
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -413,11 +448,11 @@ msgid ""
 "information."
 msgstr "Esta versión es compatible con la <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplicación de control remoto de Clementine para Android</a> que le permite controlar Clementine remotamente desde un dispositivo con Android. <br/>Esta versión también añade compatibilidad para acceder a su música en Vk.com y Seafile. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">registro de cambios completo</a> para mas información."
 
-#: data.py:364
+#: data.py:387
 msgid "Version 1.3.1 released"
 msgstr "Versión 1.3.1 publicada"
 
-#: data.py:365
+#: data.py:388
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr "Corrige un defecto que provocaba que se eliminasen las valoraciones al actualizar desde versiones anteriores."
@@ -430,120 +465,85 @@ msgstr "Descargas más recientes"
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr "Obtenga la versión estable más reciente de Clementine para su sistema operativo."
 
-#: downloads.html:33
+#: downloads.html:14 screenshots.html:27 screenshots.html:47
+msgid "Version"
+msgstr "Versión"
+
+#: downloads.html:34
 msgid "Downloads for other operating systems"
 msgstr "Descargas para otros sistemas operativos"
 
-#: downloads.html:54
-msgid "Ubuntu PPA"
-msgstr "PPA de Ubuntu"
+#: downloads.html:57
+msgid "Debian and Ubuntu"
+msgstr ""
 
-#: downloads.html:56
+#: downloads.html:59
 msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
-msgstr "Puede descargar la versión más reciente de Clementine para Ubuntu desde el PPA oficial:"
+"Add Clementine's apt repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Debian and Ubuntu, and "
+"Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
+msgstr ""
 
-#: downloads.html:62
-msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr "Dependencias para Ubuntu Precise (12.04)"
+#: downloads.html:74
+msgid "The repository is signed with this key:"
+msgstr ""
 
-#: downloads.html:63
+#: downloads.html:77
+msgid "Fedora"
+msgstr ""
+
+#: downloads.html:79
 msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
-msgstr "Las versiones más recientes de Clementine necesitan GStreamer 1.0, que no fue incluido en Ubuntu 12.04. Si obtiene errores al instalar Clementine, añada el PPA de GStreamer:"
+"Add Clementine's COPR repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Fedora, for 64-bit PCs "
+"and ARM."
+msgstr ""
 
-#: downloads.html:68 downloads.html.py:83
+#: downloads.html:84
+msgid ""
+"If you already have Fedora's own Clementine package, which is older, replace"
+" it with this one:"
+msgstr ""
+
+#: downloads.html:88
+msgid "The first time, dnf asks you to trust the repository's signing key:"
+msgstr ""
+
+#: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
 msgstr "Otras descargas"
 
-#: downloads.html:70
+#: downloads.html:95 screenshots.html:33
 msgid "Clementine Remote for Android"
 msgstr "Control remoto de Clementine para Android"
 
-#: downloads.html:77
+#: downloads.html:102
 msgid "Unofficial packages"
 msgstr "Paquetes no oficiales"
 
-#: downloads.html:79
+#: downloads.html:104
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "Si no ve su distribución listada, probablemente alguien haya creado un paquete no oficial para usted."
 
-#: downloads.html:87
+#: downloads.html:112
 msgid "Compiling from source"
 msgstr "Compilar desde el código fuente"
 
-#: downloads.html:89
+#: downloads.html:114
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Es fácil compilar Clementine desde su código fuente en Linux."
 
-#: downloads.html:90
+#: downloads.html:115
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Descargue el paquete de código fuente de la lista superior, y en una ventana de terminal:"
 
-#: downloads.html:99
+#: downloads.html:124
 msgid "Full instructions and list of dependencies"
 msgstr "Instrucciones completas y lista de dependencias"
-
-#: downloads.html:103
-msgid "Bleeding edge packages"
-msgstr "Paquetes inestables"
-
-#: downloads.html:105 participate.html:57
-msgid "Development on Clementine happens in"
-msgstr "Clementine se desarrolla en"
-
-#: downloads.html:107 participate.html:59
-msgid "the git repository"
-msgstr "el repositorio Git"
-
-#: downloads.html:108 participate.html:60
-msgid "Check out the code by running:"
-msgstr "Obtenga el código ejecutando:"
-
-#: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "Si prefiere no compilar por su cuenta la versión de desarrollo, pruebe nuestros paquetes de cada hora:"
-
-#: downloads.html:117 participate.html:75
-msgid "Mac OS X development builds"
-msgstr "Versiones de desarrollo para Mac OS X"
-
-#: downloads.html:119 participate.html:77
-msgid "Ubuntu Precise (12.04) development builds"
-msgstr "Versiones de desarrollo para Ubuntu Precise (12.04)"
-
-#: downloads.html:121 participate.html:79
-msgid "Ubuntu Trusty (14.04) development builds"
-msgstr "Compilaciones de desarrollo para Ubuntu Trusty (14.04)"
-
-#: downloads.html:123 participate.html:81
-msgid "Windows development builds"
-msgstr "Versiones de desarrollo para Windows"
-
-#: downloads.html:125 participate.html:83
-msgid "Buildbot"
-msgstr "Buildbot"
-
-#: downloads.html:128 participate.html:86
-msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "También tenemos un PPA de Ubuntu para las versiones de desarrollo:"
-
-#: downloads.html:136
-msgid "Old downloads"
-msgstr "Descargas anteriores"
-
-#: downloads.html:144 screenshots.html:8
-msgid "Version"
-msgstr "Versión"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -557,320 +557,359 @@ msgstr "Reproduzca su fonoteca musical y busque canciones."
 msgid "Listen to internet radio from"
 msgstr "Escuche radio en Internet desde"
 
-#: main.html:24
+#: main.html:22
+msgid "Browse and play music from"
+msgstr ""
+
+#: main.html:25
+msgid "Subsonic servers"
+msgstr ""
+
+#: main.html:27
+msgid "Plex Media Servers"
+msgstr ""
+
+#: main.html:29
 msgid "Search and play songs you've uploaded to"
 msgstr "Busque y reproduzca canciones cargadas en"
 
-#: main.html:31
+#: main.html:37
+msgid "Scrobble what you play to"
+msgstr ""
+
+#: main.html:38
 msgid "Create smart playlists and dynamic playlists."
 msgstr "Cree listas de reproducción inteligentes y dinámicas."
 
-#: main.html:32
-msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Listas de reproducción en pestañas, importación y exportación de M3U, XSPF, PLS y ASX."
+#: main.html:39
+msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
+msgstr ""
 
-#: main.html:33
+#: main.html:40
 msgid "CUE sheet support."
 msgstr "Compatibilidad con hojas CUE."
 
-#: main.html:34
+#: main.html:41
 msgid "Play audio CDs."
 msgstr "Reproducir CD de sonido."
 
-#: main.html:35
+#: main.html:42
+msgid "Equalizer and moodbar."
+msgstr ""
+
+#: main.html:43
 msgid "Visualisations from"
 msgstr "Visualizaciones de"
 
-#: main.html:36
-msgid "Lyrics and artist biographies and photos."
-msgstr "Letras y biografías de artistas con fotos."
+#: main.html:44
+msgid "Lyrics from your own files and"
+msgstr ""
 
-#: main.html:37
-msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Convierta música a MP3, Ogg Vorbis, Ogg Speex, FLAC o AAC."
+#: main.html:44
+msgid "shown in time with the song where they're timed."
+msgstr ""
 
-#: main.html:38
-msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Edite etiquetas en archivos MP3 y OGG y organice su música."
+#: main.html:45
+msgid "Artist biographies and photos."
+msgstr ""
 
-#: main.html:39
+#: main.html:46
+msgid ""
+"Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
+" WAV."
+msgstr ""
+
+#: main.html:47
+msgid "Edit tags and organise your music."
+msgstr ""
+
+#: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
 msgstr "Encuentre etiquetas faltantes con MusicBrainz."
 
-#: main.html:40
-msgid "Discover and download Podcasts."
-msgstr "Descubra y descargue pódcast"
+#: main.html:49
+msgid "Discover, download and sync podcasts with"
+msgstr ""
 
-#: main.html:41
-msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Descargar portadas de álbumes faltantes desde Last.fm y Amazon."
-
-#: main.html:42
-msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Multiplataforma: funciona en Windows, Mac OS X y Linux."
-
-#: main.html:43
+#: main.html:50
 msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Notificaciones de escritorio nativas en Linux (libnotify) y Mac OS X (Growl)."
+"Download missing album cover art from Last.fm, MusicBrainz and Discogs."
+msgstr ""
 
-#: main.html:44
-msgid "Remote control using an"
-msgstr "Controle remotamente mediante un"
+#: main.html:51
+msgid "Cross-platform - works on Windows, macOS and Linux."
+msgstr ""
 
-#: main.html:44
-msgid "Android device"
-msgstr "dispositivo con Android"
+#: main.html:52
+msgid "Light and dark themes, or follow your system's."
+msgstr ""
 
-#: main.html:44
+#: main.html:53
+msgid ""
+"Native desktop notifications and media controls on Linux, macOS and Windows."
+msgstr ""
+
+#: main.html:54
+msgid "Remote control using"
+msgstr ""
+
+#: main.html:54
+msgid "an Android device"
+msgstr ""
+
+#: main.html:54
+msgid "an iPhone or iPad"
+msgstr ""
+
+#: main.html:54
 msgid "a Wii Remote"
 msgstr "control Wii Remote"
 
-#: main.html:44
+#: main.html:54
 msgid "MPRIS or the command-line."
 msgstr "MPRIS o la línea de órdenes."
 
-#: main.html:45
+#: main.html:55
+msgid ""
+"With Clementine Remote, browse your library and internet services, download "
+"songs, and play Clementine's music on your phone."
+msgstr ""
+
+#: main.html:56
 msgid "Copy music to your"
 msgstr "Copie música a su"
 
-#: main.html:45
-msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP o reproductor USB de almacenamiento masivo."
+#: main.html:56
+msgid "iPod, MTP or mass-storage USB player."
+msgstr ""
 
-#: main.html:46
+#: main.html:57
 msgid "Queue manager."
 msgstr "Gestor de colas de reproducción."
 
-#: main.html:52
+#: main.html:63
 msgid "is a modern music player and library organizer"
 msgstr "es un reproductor musical moderno y un organizador para su fonoteca"
 
-#: main.html:56
+#: main.html:67
 msgid "Clementine is a multiplatform music player."
 msgstr "Clementine es un reproductor musical multiplataforma."
 
-#: main.html:57
+#: main.html:68
 msgid "It is inspired by"
 msgstr "Está inspirado en"
 
-#: main.html:58
+#: main.html:69
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr "y se enfoca en una interfaz rápida y fácil de usar para buscar y reproducir su música."
 
-#: main.html:65 main.html.py:74
+#: main.html:81 main.html:94
 msgid "Download the latest version now"
 msgstr "Descargar la última versión ahora"
 
-#: main.html:66
+#: main.html:89
 msgid "Download Clementine"
 msgstr "Descargar Clementine"
 
-#: main.html:75
+#: main.html:95
 msgid "for Windows, Mac OS X and Linux"
 msgstr "para Windows, OS X y Linux"
 
-#: main.html:80
+#: main.html:100
 msgid "Announcement"
 msgstr "Anuncio"
 
-#: main.html:81
+#: main.html:101
 msgid "Changelog"
 msgstr "Cambios"
 
-#: main.html:82
+#: main.html:102
 msgid "Show all downloads"
 msgstr "Mostrar todas las descargas"
 
-#: main.html:101 screenshots.html:17
+#: main.html:122 main.html:124 screenshots.html:15 screenshots.html:38
 msgid "Screenshot"
 msgstr "Captura de pantalla"
 
-#: main.html:114
+#: main.html:138
 msgid "News"
 msgstr "Noticias"
 
-#: participate.html:17
+#: participate.html:7
 msgid "Need help?"
 msgstr "¿Necesita ayuda?"
 
-#: participate.html:21
-msgid "Come chat with us at the"
-msgstr "Venga a charlar con nosotros en el canal"
-
-#: participate.html:21
-msgid "channel on Freenode."
-msgstr "en Freenode (en inglés)."
-
-#: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "Recuerde <b>quedarse después de que hace una pregunta</b>, pues podríamos estar en un huso horario diferente y probablemente no veamos su pregunta al instante."
-
-#: participate.html:25
+#: participate.html:9
 msgid "Forum"
 msgstr "Foro"
 
-#: participate.html:27
+#: participate.html:11
 msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
-msgstr "Clementine emplea Google Groups como su foro/lista de correo/grupo de discusión general."
+"Clementine uses GitHub Discussions for questions, help and general "
+"discussion."
+msgstr ""
 
-#: participate.html:30
+#: participate.html:14
 msgid "Support and discussion group"
 msgstr "Grupo de discusión y asistencia"
 
-#: participate.html:35
+#: participate.html:19
 msgid "Collaborate"
 msgstr "Colaborar"
 
-#: participate.html:37
+#: participate.html:21
 msgid "Reporting bugs and proposing patches"
 msgstr "Informar de errores y proponer parches"
 
-#: participate.html:39
+#: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine usa GitHub para desarrollo y seguimiento de errores."
 
-#: participate.html:40
+#: participate.html:24
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr "Si ha encontrado un error en Clementine, visite el sitio de seguimiento de errores y cree un nuevo informe."
 
-#: participate.html:43
+#: participate.html:27
 msgid "Issue tracker"
 msgstr "Seguimiento de errores"
 
-#: participate.html:46
+#: participate.html:30
 msgid "Translating the interface"
 msgstr "Traducir la interfaz"
 
-#: participate.html:48
+#: participate.html:32
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
 msgstr "Si lo desea, puede traducir Clementine a otro idioma en la página de traducciones de Transifex."
 
-#: participate.html:49
+#: participate.html:33
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr "Puede hacer la traducción directamente en Transifex, o descargar un archivo .po del sitio y devolvérnoslo por correo electrónico."
 
-#: participate.html:52
+#: participate.html:36
 msgid "Transifex translations"
 msgstr "Traducciones en Transifex"
 
-#: participate.html:55
+#: participate.html:39
 msgid "Hacking"
 msgstr "Programación"
 
-#: participate.html:66
+#: participate.html:41
+msgid "Development on Clementine happens in"
+msgstr "Clementine se desarrolla en"
+
+#: participate.html:43
+msgid "the git repository"
+msgstr "el repositorio Git"
+
+#: participate.html:44
+msgid "Check out the code by running:"
+msgstr "Obtenga el código ejecutando:"
+
+#: participate.html:50
 msgid "How to compile Clementine from source"
 msgstr "Cómo compilar Clementine desde el código fuente"
 
-#: participate.html:92
+#: participate.html:54
 msgid "Remote application for Android"
 msgstr "Aplicación de control remoto para Android"
 
-#: participate.html:94
+#: participate.html:56
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
 msgstr "El Control remoto de Clementine está alojado en <a href=\"https://github.com/clementine-player/Android-Remote\">otro proyecto de GitHub</a>."
 
-#: participate.html:95
+#: participate.html:57
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
 msgstr "Puede informar de problemas y colaborar con cambios al código fuente en <a href=\"https://github.com/clementine-player/Android-Remoteissues/list\">el sistema de seguimiento de fallos</a> (en inglés)."
 
-#: participate.html:96
+#: participate.html:58 participate.html:64
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
 msgstr "Puede ayudar a traducir la interfaz en <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">este proyecto de Transifex</a>."
 
-#: participate.html:100
+#: participate.html:60
+msgid "Remote application for iOS"
+msgstr ""
+
+#: participate.html:62
+msgid ""
+"Clementine Remote for iPhone and iPad is hosted on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
+"repository</a>."
+msgstr ""
+
+#: participate.html:63
+msgid ""
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
+"tracker</a>."
+msgstr ""
+
+#: participate.html:68
 msgid "Social Networking"
 msgstr "Redes sociales"
 
-#: participate.html:102
+#: participate.html:70
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr "¡Nos encantaría que mostrara su apoyo a Clementine uniéndose a nosotros en su red social favorita!"
 
-#: participate.html:106
+#: participate.html:74
 msgid "Clementine on Facebook"
 msgstr "Clementine en Facebook"
 
-#: participate.html:109
-msgid "Clementine on Twitter"
-msgstr "Clementine en Twitter"
-
-#: participate.html:112
-msgid "Clementine on Last.fm"
-msgstr "Clementine en Last.fm"
-
-#: participate.html:126
-msgid "Stickers"
-msgstr "Adhesivos"
-
-#: participate.html:127
-#, python-format
-msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr "Encontrará adhesivos encantadores de Clementine en %(unixstickers)s."
-
-#: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
-msgstr "¡Son perfectas para personalizar su equipo portátil y mostrar cuánto le gusta su reproductor de música favorito!"
-
-#: participate.html:131
+#: participate.html:79
 msgid "Donation"
 msgstr "Donaciones"
 
-#: participate.html:132
+#: participate.html:80
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
 msgstr "Por ahora no aceptamos donaciones monetarias. Si le gusta nuestro software y quiere ayudarnos, puede <a href=\"#social-networking\">apoyarnos</a> compartiéndolo."
 
-#: participate.html:133
+#: participate.html:81
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
 msgstr "También puede ayudarnos <a href=\"#collaborate\">participando en el desarrollo del software, como se explica más arriba</a>."
 
-#: participate.html:134
+#: participate.html:82
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
 msgstr "Pero si de veras quiere gastar algo de dinero para hacernos felices, puede realizar una donación a alguna de las siguientes organizaciones de beneficiencia"
 
-#: participate.html:134
+#: participate.html:82
 msgid "and let us know:"
 msgstr "y luego infórmenos de ello:"
 
-#: participate.html:137
-msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+#: participate.html:85
+msgid ""
+"<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+msgstr ""
 
-#: participate.html:138
-msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+#: participate.html:86
+msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+msgstr ""
 
-#: participate.html:139
+#: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 

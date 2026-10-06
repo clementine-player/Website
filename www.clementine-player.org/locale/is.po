@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sveinn í Felli <sv1@fellsnet.is>, 2017-2018
+# Sveinn í Felli <sv1@fellsnet.is>, 2017-2018,2022
 # Sveinn í Felli <sv1@fellsnet.is>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"POT-Creation-Date: 2026-10-06 15:29+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2022\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2017-2018,2022\n"
 "Language-Team: Icelandic (http://app.transifex.com/davidsansome/clementine/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,217 +27,247 @@ msgstr "Clementine fjarstýring"
 msgid "Control Clementine remotely from your Android phone"
 msgstr "Fjarstýrðu Clementine með Android-símanum þínum"
 
+#: android-download.html:9
+msgid "Get it on Google Play"
+msgstr ""
+
+#: android-download.html:12
+msgid ""
+"Want every change as soon as it's made? <a "
+"href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
+" the beta</a> for development builds."
+msgstr ""
+
 #: base.html:11
 msgid "Clementine Music Player"
 msgstr "Clementine tónlistarspilari"
 
-#: base.html:51
+#: base.html:46
 msgid "About"
 msgstr "Um hugbúnaðinn"
 
-#: base.html:52 downloads.html:2
+#: base.html:47 downloads.html:2
 msgid "Downloads"
 msgstr "Sækja skrár"
 
-#: base.html:53 main.html:92 screenshots.html:2
+#: base.html:48 main.html:112 screenshots.html:2
 msgid "Screenshots"
 msgstr "Skjámyndir"
 
-#: base.html:54 participate.html:2
+#: base.html:49 participate.html:2
 msgid "Participate"
 msgstr "Vera með"
 
-#: base.html:58
+#: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Fjölkerfa tónlistarspilari innblásinn af Amarok 1.4"
 
-#: base.html:83
+#: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine er frjáls hugbúnaður, gefinn út með GPL v3 notkunarleyfi. Þetta vefsvæði er gefið út með CC-BY-SA notkunarskilmálum."
 
-#: base.html:84
+#: base.html:79
 msgid "Development by"
 msgstr "Forritun frá"
 
-#: base.html:85 main.html:21 main.html.py:28
+#: base.html:80 main.html:19 main.html:26 main.html:34
 msgid "and"
 msgstr "og"
 
-#: base.html:87
+#: base.html:82
 msgid "Website by"
 msgstr "Vefsvæði eftir"
 
-#: base.html:90 privacy.html:3 privacy.html.py:10
+#: base.html:85 privacy.html:3 privacy.html:10
 msgid "Privacy Policy"
 msgstr "Meðferð persónuupplýsinga"
 
-#: data.py:8
+#: data.py:10 data.py:34
+msgid "Controlling playback from the Android app"
+msgstr "Stjórnun á afspilun með Android-forritinu"
+
+#: data.py:11
+msgid "Browsing the library from the Android app"
+msgstr ""
+
+#: data.py:24
+#, python-format
+msgid "The library on %(platform)s"
+msgstr ""
+
+#: data.py:25
+#, python-format
+msgid "The library on %(platform)s, in the dark theme"
+msgstr ""
+
+#: data.py:26
+#, python-format
+msgid "Internet services on %(platform)s"
+msgstr ""
+
+#: data.py:31
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "Spilunarlistaflipi, á meðan hlustað er á lög frá mörgum internetþjónustum"
 
-#: data.py:9
+#: data.py:32
 msgid "Subsonic integration"
 msgstr "Samtvinnun við Subsonic"
 
-#: data.py:10
+#: data.py:33
 msgid "Browsing playlist from the Android app"
 msgstr "Vafrað um spilunarlista úr Android-forritinu"
 
-#: data.py:11
-msgid "Controlling playback from the Android app"
-msgstr "Stjórnun á afspilun með Android-forritinu"
-
-#: data.py:14
+#: data.py:37
 msgid "Podcasts"
 msgstr "Hlaðvörp (podcasts)"
 
-#: data.py:15
+#: data.py:38
 msgid "Google Drive"
 msgstr "Google Drive"
 
-#: data.py:16
+#: data.py:39
 msgid "New global search interface"
 msgstr "Nýtt víðvært leitarviðmót"
 
-#: data.py:17
+#: data.py:40
 msgid "Moodbars"
 msgstr "Skapbrigðastikur"
 
-#: data.py:20
+#: data.py:43
 msgid "Transcoding settings"
 msgstr "Stillingar umkóðunar"
 
-#: data.py:21
+#: data.py:44
 msgid "Global search finding albums on Spotify"
 msgstr "Víðvær leit finnur hljómplötur á Spotify"
 
-#: data.py:22
+#: data.py:45
 msgid "Global search options"
 msgstr "Valkostir víðværrar leitar"
 
-#: data.py:23
+#: data.py:46
 msgid "Grooveshark integration"
 msgstr "Samtvinnun Grooveshark"
 
-#: data.py:26
+#: data.py:49
 msgid "Lyrics and track slider tooltip"
 msgstr "Lagatextar og ábending á tímasleða"
 
-#: data.py:27
+#: data.py:50
 msgid "MusicBrainz fixing untagged files"
 msgstr "MusicBrainz lagar ómerktar skrár"
 
-#: data.py:28
+#: data.py:51
 msgid "New tag editor with autocompletion"
 msgstr "Nýr merkjaritill með sjálfvirkri útfyllingu"
 
-#: data.py:29
+#: data.py:52
 msgid "Track slider tooltip on Mac OS X"
 msgstr "Ábending á tímasleða í Mac OS X"
 
-#: data.py:32
+#: data.py:55
 msgid "Artist photos and biographies"
 msgstr "Myndir og æviágrip listamanna"
 
-#: data.py:33
+#: data.py:56
 msgid "Lyrics"
 msgstr "Lagatextar"
 
-#: data.py:34
+#: data.py:57
 msgid "Icecast radio stations"
 msgstr "Icecast netútvarpsstöðvar"
 
-#: data.py:35
+#: data.py:58
 msgid "Smart playlists and kittens"
 msgstr "Snjallir lagalistar (og kettlingar)"
 
-#: data.py:38
+#: data.py:61
 msgid "The queue manager on Windows 7"
 msgstr "Biðraðastjórinn á Windows 7"
 
-#: data.py:39
+#: data.py:62
 msgid "Copying music to an iPod in Ubuntu"
 msgstr "Afritun tónlistar á iPod í Ubuntu"
 
-#: data.py:40
+#: data.py:63
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
 msgstr "Clementine 0.5 á Ubu...ÖLL DÝRÐIN"
 
-#: data.py:41
+#: data.py:64
 msgid "Clementine 0.5 on Mac OS X"
 msgstr "Clementine 0.5 á Mac OS X"
 
-#: data.py:44
+#: data.py:67
 msgid "Clementine 0.4 on Ubuntu"
 msgstr "Clementine 0.4 á Ubuntu"
 
-#: data.py:45
+#: data.py:68
 msgid "Clementine 0.4 on Windows 7"
 msgstr "Clementine 0.4 á Windows 7"
 
-#: data.py:46
+#: data.py:69
 msgid "Clementine 0.4 visualisations with projectM"
 msgstr "Clementine 0.4 sjóngervingar með projectM"
 
-#: data.py:47
+#: data.py:70
 msgid "Clementine 0.4 on Mac OS X"
 msgstr "Clementine 0.4 á Mac OS X"
 
-#: data.py:50
+#: data.py:73
 msgid "Last.fm tag radio"
 msgstr "Last.fm útvarp með merkimiðum"
 
-#: data.py:51
+#: data.py:74
 msgid "Searching the library"
 msgstr "Leita í tónlistarsafninu"
 
-#: data.py:52 data.py:58
+#: data.py:75 data.py:81
 msgid "The tag editor on Windows"
 msgstr "Merkjaritillinn í Windows"
 
-#: data.py:53
+#: data.py:76
 msgid "The cover manager on Mac OS X"
 msgstr "Umslagastjórinn í Mac OS X"
 
-#: data.py:56
+#: data.py:79
 msgid "Playback on Linux"
 msgstr "Afspilun á Linux"
 
-#: data.py:57
+#: data.py:80
 msgid "Last.fm support"
 msgstr "Stuðningur við Last.fm"
 
-#: data.py:59
+#: data.py:82
 msgid "Growl notifications on Mac OS X"
 msgstr "Growl-tilkynningar á Mac OS X"
 
-#: data.py:133
+#: data.py:156
 msgid "Source code"
 msgstr "Upprunakóði"
 
-#: data.py:168
+#: data.py:191
 msgid "Source"
 msgstr "Frumrit"
 
-#: data.py:240
+#: data.py:263
 msgid "Version 0.2 released"
 msgstr "Útgáfa 0.2 gerð tiltæk"
 
-#: data.py:241
+#: data.py:264
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "Rétt um mánuður síðan fyrsta útgáfa Clementine kom út. Þessi nýja útgáfa býður upp á umslagsmyndir, betri greiningu á \"ýmsir flytjendur\", stuðning við hleðslu spilunarlista, og margt fleira."
 
-#: data.py:247
+#: data.py:270
 msgid "Version 0.3 released"
 msgstr "Útgáfa 0.3 gerð tiltæk"
 
-#: data.py:248
+#: data.py:271
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -245,11 +275,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "Í þessari útgáfu skiptum við yfir í GStreamer á öllum stýrikerfum, sem þýðir að greining og krossblöndun milli rása mun núna virka á Windows. Meðal nýrra eiginleika eru hljóðblandari, fleiri möguleikar við að hópa atriði í safni, fallegri OSD-stjórntextar, fjarstýring af skipanalínu og MPRIS, auk einfaldari vinnslu merkinga."
 
-#: data.py:256
+#: data.py:279
 msgid "Version 0.4 released"
 msgstr "Útgáfa 0.4 gerð tiltæk"
 
-#: data.py:257
+#: data.py:280
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -259,11 +289,11 @@ msgid ""
 "the time."
 msgstr "Þessi útgáfa kemur með spilunarlista í flipum, leit í spilunarlistum, projectM sjóngervingar, samþættingu við Magnatune, ReplayGain hljóðstyrksjöfnun og umkóðun tónlistar (transcoding). Við erum líka búin að laga tonn af göllum - leit í stórum söfnum er núna miklu hraðvirkari, afspilun gengur betur á Windows, vandamál vegna mismunandi stafataflna hafa verið leyst, og fjartengdir spilunarlistar ættu núna alltaf að hlaðast rétt inn."
 
-#: data.py:266
+#: data.py:289
 msgid "Version 0.5 released"
 msgstr "Útgáfa 0.5 gerð tiltæk"
 
-#: data.py:267
+#: data.py:290
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -281,11 +311,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa bætir við stuðningi við fleiri ferðatæki í Clementine. Þú getur núna afritað lög yfir á iPod, iPhone, MTP eða USB-geymslutæki.  Skoðaðu <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki-síðurnar til að fá nánari upplýsingar</a>. Stuðningur við notkun <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> sem fjarstýringar hefur einnig bæst við. Aðrir eiginleikar eru meðal annars biðraðastýring, gluggi til að skipuleggja skrár, sjálfvirk aðlögun dálka í spilunarlistum, hleðsla ívafinna id3v2-umslagsmynda, fleiri valkostir við skönnun safna, draga-sleppa á milli spilunarlista og  hypnotoad-hljóðeffekt. Einnig hefur tekist að stytta ræsitímann um helning, laga nokkra minnisleka og minnka örgjörvaálag við spilun tónlistar. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
 
-#: data.py:283
+#: data.py:306
 msgid "Version 0.6 released"
 msgstr "Útgáfa 0.6 gerð tiltæk"
 
-#: data.py:284
+#: data.py:307
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -299,11 +329,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa kemur með tvö ný upplýsingaspjöld sem sýna lagatexta, tölfræði laga, æviágrip flytjenda, ljósmyndir og lista yfir merki og svipaða flytjendur. Hliðarspjaldið hefur verið endurhannað (þú getur farið til baka með því að hægrismella á það), að auki hafa bæst við einkunnir og fjöldi spilana og slepptra laga. Þú getur útbúið snjalla- og breytilega spilunarlista með lögum úr safninu þínu, auk þess að hlusta á tónlist frá <a href=\"http://www.jamendo.com/\">Jamendo</a> og Icecast útvarpsstöðvunum. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
 
-#: data.py:296
+#: data.py:319
 msgid "Version 0.7 released"
 msgstr "Útgáfa 0.7 gerð tiltæk"
 
-#: data.py:297
+#: data.py:320
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -319,11 +349,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa gefur Clementine alveg nýjan merkjabreytingaglugga, með sjálfklárun orða og hæfileika til að greina tónlist sjálfkrafa og sækja þau merki sem vantar til MusicBrainz. CUE-blöð eru núna studd - þau finnast sjálfkrafa þegar safnið þitt er skannað og lemur hvert lag upp sérstaklega. Margar smærri endurbætur mætti nefna, eins og  birting umslagsmynda í safnsflipanum, eydd lög birtast með gráum lit, valkosturinn \"Sýna í skráavafra\" er nýr, stuðningur við netmilliþjóna (proxy), valkostur fyrir \"Skanna allt tónlistarsafnið\", auk nýrrar vísbendingar á lagasleðanum sem hjálpar þér að leita mun nákvæmar að tilteknum stað í lagi. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
 
-#: data.py:311
+#: data.py:334
 msgid "Version 1.0 released"
 msgstr "Útgáfa 1.0 gerð tiltæk"
 
-#: data.py:312
+#: data.py:335
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -338,11 +368,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa bætir við stuðningi við <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> og <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  Við bættum líka við \"Víðvær leit\"-eiginleika, sem gerir þér kleift að finna auðveldlega þá tónlist sem þú ert með annað hvort á tækinutölvunni eða á Internetinu. Aðrir eiginleikar eru til dæmis stuðningur við CD-hljómdiska, fleiri möguleikar við umkóðun, betra stillingaviðmót, snjallari leit að plötuumslögum, og haugur af betrumbótum. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
 
-#: data.py:324
+#: data.py:347
 msgid "Version 1.1 released"
 msgstr "Útgáfa 1.1 gerð tiltæk"
 
-#: data.py:325
+#: data.py:348
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -356,11 +386,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa bætir við stuðningi við Podcast sem lengi hefur verið beðið eftir, ásamt samþættingu og samstillingu með <a href=\"//gpodder.net\">gpodder.net</a>. Tónlist frá <a href=\"http://soundcloud.com/\">Soundcloud</a> og <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> er núna tiltæk í Internet-flipanum á hliðarspjaldinu, rétt eins og þau lög sem þú hefur sent inn á <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine sýnir núna skapbrigðastikur (moodbars) fyrir þá tónlist sem spiluð er af diskum í tölvunni. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
 
-#: data.py:338
+#: data.py:361
 msgid "Version 1.2 released"
 msgstr "Útgáfa 1.2 gerð tiltæk"
 
-#: data.py:339
+#: data.py:362
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -378,11 +408,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa er samhæfð við <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote fjarstýringuna fyrir Android</a> sem gerir kleift að stýra Clementine fjartengt frá Android-tæki.<br/>Þessi útgáfa bætir einnig við stuðningi við Subsonic. Og núna geturðu hlustað á tónlist af <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> og <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Einn mest spennandi nýi eiginleikinn er að geta \"stjörnumerkt\" spilunarlistana þína, þannig að hægt er að loka þeim og opnað þá svo síðar á nýja \"Spilunarlistar\" flipann sem við bættum við á hliðarspjaldið vinstra megin.<br/>Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
 
-#: data.py:354
+#: data.py:377
 msgid "Version 1.3 released"
 msgstr "Útgáfa 1.3 gerð tiltæk"
 
-#: data.py:355
+#: data.py:378
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -394,11 +424,11 @@ msgid ""
 "information."
 msgstr "Þessi útgáfa er samhæfð við <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote fjarstýringuna fyrir Android</a> sem gerir kleift að stýra Clementine fjartengt frá Android-tæki.<br/>Þessi útgáfa bætir einnig við stuðningi viðaðgang að tónlist á Vk.com og Seafile. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
 
-#: data.py:364
+#: data.py:387
 msgid "Version 1.3.1 released"
 msgstr "Útgáfa 1.3.1 gerð tiltæk"
 
-#: data.py:365
+#: data.py:388
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr "Lagar villu þar sem einkunnum var eytt þegar uppfært var úr eldri útgáfum."
@@ -411,120 +441,85 @@ msgstr "Síðustu niðurhöl"
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr "Náðu í síðustu stöðugu útgáfu Clementine fyrir stýrikerfið þitt"
 
-#: downloads.html:33
+#: downloads.html:14 screenshots.html:27 screenshots.html:47
+msgid "Version"
+msgstr "Útgáfa"
+
+#: downloads.html:34
 msgid "Downloads for other operating systems"
 msgstr "Niðurhöl fyrir önnur stýrikerfi"
 
-#: downloads.html:54
-msgid "Ubuntu PPA"
-msgstr "Ubuntu PPA"
+#: downloads.html:57
+msgid "Debian and Ubuntu"
+msgstr ""
 
-#: downloads.html:56
+#: downloads.html:59
 msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
-msgstr "Þú getur náð í nýjustu útgáfu Clementine fyrir Ubuntu úr opinbera PPA-pakkasafninu:"
+"Add Clementine's apt repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Debian and Ubuntu, and "
+"Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
+msgstr ""
 
-#: downloads.html:62
-msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr "Kerfisákvæði fyrir Ubuntu Precise (12.04)"
+#: downloads.html:74
+msgid "The repository is signed with this key:"
+msgstr ""
 
-#: downloads.html:63
+#: downloads.html:77
+msgid "Fedora"
+msgstr ""
+
+#: downloads.html:79
 msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
-msgstr "Nýrri útgáfur Clementine krefjast GStreamer 1.0 sem ekki var innifalið í Ubuntu 12.04.  Ef þú rekst á villur við uppsetningu Clementine ættirðu kannski að bæta einnig við GStreamer PPA-safninu:"
+"Add Clementine's COPR repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Fedora, for 64-bit PCs "
+"and ARM."
+msgstr ""
 
-#: downloads.html:68 downloads.html.py:83
+#: downloads.html:84
+msgid ""
+"If you already have Fedora's own Clementine package, which is older, replace"
+" it with this one:"
+msgstr ""
+
+#: downloads.html:88
+msgid "The first time, dnf asks you to trust the repository's signing key:"
+msgstr ""
+
+#: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
 msgstr "Önnur niðurhöl"
 
-#: downloads.html:70
+#: downloads.html:95 screenshots.html:33
 msgid "Clementine Remote for Android"
 msgstr "Clementine fjarstýring fyrir Android"
 
-#: downloads.html:77
+#: downloads.html:102
 msgid "Unofficial packages"
 msgstr "Óopinberir pakkar"
 
-#: downloads.html:79
+#: downloads.html:104
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "Ef þú sérð ekki dreifinguna þína hér fyrir ofan, getur samt verið að einhver hafi útbúið óopinbera pakka sem þú getur notað."
 
-#: downloads.html:87
+#: downloads.html:112
 msgid "Compiling from source"
 msgstr "Vistþýða úr frumkóða"
 
-#: downloads.html:89
+#: downloads.html:114
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Að vistþýða Clementine úr frumkóða er einfalt á Linux."
 
-#: downloads.html:90
+#: downloads.html:115
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Sæktu pakka með grunnkóðanum úr listanum hér fyrir ofan, opnaðu síðan skjáhermiglugga:"
 
-#: downloads.html:99
+#: downloads.html:124
 msgid "Full instructions and list of dependencies"
 msgstr "Allar leiðbeiningar og listi yfir kerfiskröfur"
-
-#: downloads.html:103
-msgid "Bleeding edge packages"
-msgstr "Pakkar sem eru alveg á mörkunum"
-
-#: downloads.html:105 participate.html:57
-msgid "Development on Clementine happens in"
-msgstr "Þróun Clementine fer fram í"
-
-#: downloads.html:107 participate.html:59
-msgid "the git repository"
-msgstr "git-gagnasafninu"
-
-#: downloads.html:108 participate.html:60
-msgid "Check out the code by running:"
-msgstr "Skrifaðu út kóðann með því að keyra:"
-
-#: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "Ef þú kýst ekki að samstafla (vistþýða) þróunarútgáfuna sjálf(ur), geturðu prófað einhvern af klukkutíma-frestis-pökkunum:"
-
-#: downloads.html:117 participate.html:75
-msgid "Mac OS X development builds"
-msgstr "Mac OS X þróunareintök"
-
-#: downloads.html:119 participate.html:77
-msgid "Ubuntu Precise (12.04) development builds"
-msgstr "Ubuntu Precise (12.04) þróunareintök"
-
-#: downloads.html:121 participate.html:79
-msgid "Ubuntu Trusty (14.04) development builds"
-msgstr "Ubuntu Trusty (14.04) þróunareintök"
-
-#: downloads.html:123 participate.html:81
-msgid "Windows development builds"
-msgstr "Windows þróunareintök"
-
-#: downloads.html:125 participate.html:83
-msgid "Buildbot"
-msgstr "Buildbot"
-
-#: downloads.html:128 participate.html:86
-msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Einnig er til Ubuntu PPA-safn fyrir þessi þróunareintök:"
-
-#: downloads.html:136
-msgid "Old downloads"
-msgstr "Eldri niðurhöl"
-
-#: downloads.html:144 screenshots.html:8
-msgid "Version"
-msgstr "Útgáfa"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -538,320 +533,359 @@ msgstr "Leitaðu og spilaðu úr safni á tölvunni."
 msgid "Listen to internet radio from"
 msgstr "Hlustaðu á netútvarp frá"
 
-#: main.html:24
+#: main.html:22
+msgid "Browse and play music from"
+msgstr ""
+
+#: main.html:25
+msgid "Subsonic servers"
+msgstr ""
+
+#: main.html:27
+msgid "Plex Media Servers"
+msgstr ""
+
+#: main.html:29
 msgid "Search and play songs you've uploaded to"
 msgstr "Leitaðu að og spilaðu lög sem þú hefur sent inn á"
 
-#: main.html:31
+#: main.html:37
+msgid "Scrobble what you play to"
+msgstr ""
+
+#: main.html:38
 msgid "Create smart playlists and dynamic playlists."
 msgstr "Útbúðu snjalla spilunarlista og breytilega spilunarlista"
 
-#: main.html:32
-msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Spilunarlistar í flipum, inn- og útflutningur M3U, XSPF, PLS og ASX."
+#: main.html:39
+msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
+msgstr ""
 
-#: main.html:33
+#: main.html:40
 msgid "CUE sheet support."
 msgstr "Stuðningur við CUE-blöð."
 
-#: main.html:34
+#: main.html:41
 msgid "Play audio CDs."
 msgstr "Spilaðu CD-hljóðdiska."
 
-#: main.html:35
+#: main.html:42
+msgid "Equalizer and moodbar."
+msgstr ""
+
+#: main.html:43
 msgid "Visualisations from"
 msgstr "Sjóngervingar frá"
 
-#: main.html:36
-msgid "Lyrics and artist biographies and photos."
-msgstr "Textar, myndir og æviágrip listamanna."
+#: main.html:44
+msgid "Lyrics from your own files and"
+msgstr ""
 
-#: main.html:37
-msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Umkóða tónlist yfir í MP3, Ogg Vorbis, Ogg Speex, FLAC eða AAC."
+#: main.html:44
+msgid "shown in time with the song where they're timed."
+msgstr ""
 
-#: main.html:38
-msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Breyttu merkjum á MP3 og OGG skrám, skipulegðu tónlistarsafnið þitt."
+#: main.html:45
+msgid "Artist biographies and photos."
+msgstr ""
 
-#: main.html:39
+#: main.html:46
+msgid ""
+"Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
+" WAV."
+msgstr ""
+
+#: main.html:47
+msgid "Edit tags and organise your music."
+msgstr ""
+
+#: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
 msgstr "Náðu í þau merki sem vantar frá MusicBrainz."
 
-#: main.html:40
-msgid "Discover and download Podcasts."
-msgstr "Uppgötvaðu og náðu í hlaðvörp (podcasts)."
+#: main.html:49
+msgid "Discover, download and sync podcasts with"
+msgstr ""
 
-#: main.html:41
-msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Sæktu umslagsmyndir sem vantar inn á Last.fm og Amazon."
-
-#: main.html:42
-msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Fjölkerfa - virkar á Windows, Mac OS X og Linux."
-
-#: main.html:43
+#: main.html:50
 msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Notar innbyggðar tilkynningar á skjáborði í Linux (libnotify) og Mac OS X (Growl)."
+"Download missing album cover art from Last.fm, MusicBrainz and Discogs."
+msgstr ""
 
-#: main.html:44
-msgid "Remote control using an"
-msgstr "Fjarstýrðu með"
+#: main.html:51
+msgid "Cross-platform - works on Windows, macOS and Linux."
+msgstr ""
 
-#: main.html:44
-msgid "Android device"
-msgstr "Android tæki"
+#: main.html:52
+msgid "Light and dark themes, or follow your system's."
+msgstr ""
 
-#: main.html:44
+#: main.html:53
+msgid ""
+"Native desktop notifications and media controls on Linux, macOS and Windows."
+msgstr ""
+
+#: main.html:54
+msgid "Remote control using"
+msgstr ""
+
+#: main.html:54
+msgid "an Android device"
+msgstr ""
+
+#: main.html:54
+msgid "an iPhone or iPad"
+msgstr ""
+
+#: main.html:54
 msgid "a Wii Remote"
 msgstr "Wii-fjarstýringu"
 
-#: main.html:44
+#: main.html:54
 msgid "MPRIS or the command-line."
 msgstr "MPRIS eða af skipanalínu."
 
-#: main.html:45
+#: main.html:55
+msgid ""
+"With Clementine Remote, browse your library and internet services, download "
+"songs, and play Clementine's music on your phone."
+msgstr ""
+
+#: main.html:56
 msgid "Copy music to your"
 msgstr "Afritaðu tónlist yfir á"
 
-#: main.html:45
-msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "iPod, iPhone, MTP eða USB-spilarann þinn."
+#: main.html:56
+msgid "iPod, MTP or mass-storage USB player."
+msgstr ""
 
-#: main.html:46
+#: main.html:57
 msgid "Queue manager."
 msgstr "Biðraðastjóri."
 
-#: main.html:52
+#: main.html:63
 msgid "is a modern music player and library organizer"
 msgstr "er nútímalegur tónlistarspilari og skipulagningartól fyrir tónlistarsafnið"
 
-#: main.html:56
+#: main.html:67
 msgid "Clementine is a multiplatform music player."
 msgstr "Clementine er tónlistarspilari sem virkar á mörgum kerfum."
 
-#: main.html:57
+#: main.html:68
 msgid "It is inspired by"
 msgstr "Innblásinn af"
 
-#: main.html:58
+#: main.html:69
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr "leggur áherslu á hraðvirkt og auðvelt notandaviðmót til leitar og afspilunar á tónlistinni þinni."
 
-#: main.html:65 main.html.py:74
+#: main.html:81 main.html:94
 msgid "Download the latest version now"
 msgstr "Sæktu nýjustu útgáfuna núna"
 
-#: main.html:66
+#: main.html:89
 msgid "Download Clementine"
 msgstr "Náðu í Clementine"
 
-#: main.html:75
+#: main.html:95
 msgid "for Windows, Mac OS X and Linux"
 msgstr "fyrir Windows, Mac OS X og Linux"
 
-#: main.html:80
+#: main.html:100
 msgid "Announcement"
 msgstr "Tilkynningar"
 
-#: main.html:81
+#: main.html:101
 msgid "Changelog"
 msgstr "Breytingasaga"
 
-#: main.html:82
+#: main.html:102
 msgid "Show all downloads"
 msgstr "Sýna öll niðurhöl"
 
-#: main.html:101 screenshots.html:17
+#: main.html:122 main.html:124 screenshots.html:15 screenshots.html:38
 msgid "Screenshot"
 msgstr "Skjámynd"
 
-#: main.html:114
+#: main.html:138
 msgid "News"
 msgstr "Fréttir"
 
-#: participate.html:17
+#: participate.html:7
 msgid "Need help?"
 msgstr "Þarftu hjálp?"
 
-#: participate.html:21
-msgid "Come chat with us at the"
-msgstr "Spjallaðu við okkur á"
-
-#: participate.html:21
-msgid "channel on Freenode."
-msgstr "rásinni á Freenode."
-
-#: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "Mundu eftir að <b>vera á svæðinu í dálítinn tíma eftir að þú spyrð spurningar</b> - við gætum verið á öðrum tímabeltum eða annað að sýsla og því ekki séð spurninguna þína strax."
-
-#: participate.html:25
+#: participate.html:9
 msgid "Forum"
 msgstr "Spjallsvæði"
 
-#: participate.html:27
+#: participate.html:11
 msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
-msgstr "Clementine notar Google Groups sem spjallsvæði/póstlista/almennan umræðuhóp."
+"Clementine uses GitHub Discussions for questions, help and general "
+"discussion."
+msgstr ""
 
-#: participate.html:30
+#: participate.html:14
 msgid "Support and discussion group"
 msgstr "Stuðningur og umræðuhópur"
 
-#: participate.html:35
+#: participate.html:19
 msgid "Collaborate"
 msgstr "Taka þátt"
 
-#: participate.html:37
+#: participate.html:21
 msgid "Reporting bugs and proposing patches"
 msgstr "Villutilkynningar og framlagning endurbóta"
 
-#: participate.html:39
+#: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Clementine notar GitHub fyrir þróunarvinnu og villuskráningu."
 
-#: participate.html:40
+#: participate.html:24
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr "Ef þú finnur villu í Clementine, skaltu endilega fara í villuskráninguna (tracker) og búa til nýja villutilkynningu."
 
-#: participate.html:43
+#: participate.html:27
 msgid "Issue tracker"
 msgstr "Skrásetjari (tracker)"
 
-#: participate.html:46
+#: participate.html:30
 msgid "Translating the interface"
 msgstr "Þýðing á notandaviðmóti"
 
-#: participate.html:48
+#: participate.html:32
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
 msgstr "Ef þig langar til að þýða Clementine yfir á annað tungumál, geturðu gert það á þýðingasíðum Transifex."
 
-#: participate.html:49
+#: participate.html:33
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr "Þú getur hvort sem er þýtt beint í Transifex, eða náð í .po skrá af vefnum, þýtt hana og sent okkur hana í tölvupósti."
 
-#: participate.html:52
+#: participate.html:36
 msgid "Transifex translations"
 msgstr "Þýðingar á Transifex"
 
-#: participate.html:55
+#: participate.html:39
 msgid "Hacking"
 msgstr "Fyrir hakkara/fiktara"
 
-#: participate.html:66
+#: participate.html:41
+msgid "Development on Clementine happens in"
+msgstr "Þróun Clementine fer fram í"
+
+#: participate.html:43
+msgid "the git repository"
+msgstr "git-gagnasafninu"
+
+#: participate.html:44
+msgid "Check out the code by running:"
+msgstr "Skrifaðu út kóðann með því að keyra:"
+
+#: participate.html:50
 msgid "How to compile Clementine from source"
 msgstr "Hvernig á að vistþýða Clementine úr frumkóða"
 
-#: participate.html:92
+#: participate.html:54
 msgid "Remote application for Android"
 msgstr "Fjartengt forrit fyrir Android"
 
-#: participate.html:94
+#: participate.html:56
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
 msgstr "Clementine Remote fjarstýringin er hýst í <a href=\"https://github.com/clementine-player/Android-Remote\">öðru GitHub-kóðasafni</a>."
 
-#: participate.html:95
+#: participate.html:57
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
 msgstr "Þú getur tilkynnt um vandamál og boðið fram plástra þar í <a href=\"https://github.com/clementine-player/Android-Remote/issues\">villuskrásetjaranum</a>."
 
-#: participate.html:96
+#: participate.html:58 participate.html:64
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
 msgstr "Þú getur þýtt viðmótið í <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">þessu Transifex-verkefni</a>."
 
-#: participate.html:100
+#: participate.html:60
+msgid "Remote application for iOS"
+msgstr ""
+
+#: participate.html:62
+msgid ""
+"Clementine Remote for iPhone and iPad is hosted on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
+"repository</a>."
+msgstr ""
+
+#: participate.html:63
+msgid ""
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
+"tracker</a>."
+msgstr ""
+
+#: participate.html:68
 msgid "Social Networking"
 msgstr "Samfélagsmiðlar"
 
-#: participate.html:102
+#: participate.html:70
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr "Okkur þætti vænt um ef þú styddir við Clementine á uppáhalds samfélagsmiðlunum þínum!"
 
-#: participate.html:106
+#: participate.html:74
 msgid "Clementine on Facebook"
 msgstr "Clementine á Fésbók"
 
-#: participate.html:109
-msgid "Clementine on Twitter"
-msgstr "Clementine á Twitter"
-
-#: participate.html:112
-msgid "Clementine on Last.fm"
-msgstr "Clementine á Last.fm"
-
-#: participate.html:126
-msgid "Stickers"
-msgstr "Límmiðar"
-
-#: participate.html:127
-#, python-format
-msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr "Þú getur fundið skemmtilega Clementine límmiða á %(unixstickers)s."
-
-#: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
-msgstr "Þeir eru tilvaldir til að skreyta fartölvuna þína og sýna í leiðinni hvað þér finnst uppáhalds tónlistarspilarinn þinn æðislegur!"
-
-#: participate.html:131
+#: participate.html:79
 msgid "Donation"
 msgstr "Styrkja verkefnið"
 
-#: participate.html:132
+#: participate.html:80
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
 msgstr "Eins og er þurfum við enga peninga og þess vegna þiggjum við enga fjárstyrki. Ef þér líkar við hugbúnaðinn okkar og vilt hjálpa okkur, þá skaltu endilega <a href=\"#social-networking\">sýna okkur stuðning</a> og láta orð út ganga."
 
-#: participate.html:133
+#: participate.html:81
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
 msgstr "Þú getur líka hjálpað til með því að <a href=\"#collaborate\">taka þátt í þróun hugbúnaðarins, eins og útskýrt er hér fyrir ofan</a>."
 
-#: participate.html:134
+#: participate.html:82
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
 msgstr "En ef þú vilt endilega eyða einhverjum peningum og gera okkur ánægð í leiðinni, geturðu styrkt einhver þessara hjálparsamtaka"
 
-#: participate.html:134
+#: participate.html:82
 msgid "and let us know:"
 msgstr "og látið okkur vita af því:"
 
-#: participate.html:137
-msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+#: participate.html:85
+msgid ""
+"<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+msgstr ""
 
-#: participate.html:138
-msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+#: participate.html:86
+msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+msgstr ""
 
-#: participate.html:139
+#: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 

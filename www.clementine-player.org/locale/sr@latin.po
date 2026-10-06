@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Mladen Pejaković, 2014
+# Mladen Pejaković, 2014
 # Mladen Pejaković, 2014-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-10 17:59+0100\n"
+"POT-Creation-Date: 2026-10-06 15:29+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Mladen Pejaković, 2014-2015,2017\n"
+"Last-Translator: Mladen Pejaković, 2014\n"
 "Language-Team: Serbian (Latin) (http://app.transifex.com/davidsansome/clementine/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,217 +28,247 @@ msgstr "Daljinski za Klementinu"
 msgid "Control Clementine remotely from your Android phone"
 msgstr "Daljinska kontrola pomoću vašeg Android telefona"
 
+#: android-download.html:9
+msgid "Get it on Google Play"
+msgstr ""
+
+#: android-download.html:12
+msgid ""
+"Want every change as soon as it's made? <a "
+"href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
+" the beta</a> for development builds."
+msgstr ""
+
 #: base.html:11
 msgid "Clementine Music Player"
 msgstr "Klementina muzički plejer"
 
-#: base.html:51
+#: base.html:46
 msgid "About"
 msgstr "O programu"
 
-#: base.html:52 downloads.html:2
+#: base.html:47 downloads.html:2
 msgid "Downloads"
 msgstr "Preuzimanja"
 
-#: base.html:53 main.html:92 screenshots.html:2
+#: base.html:48 main.html:112 screenshots.html:2
 msgid "Screenshots"
 msgstr "Snimci ekrana"
 
-#: base.html:54 participate.html:2
+#: base.html:49 participate.html:2
 msgid "Participate"
 msgstr "Učestvujte"
 
-#: base.html:58
+#: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Međuplatforski muzički plejer inspirisan Amarokom 1.4"
 
-#: base.html:83
+#: base.html:78
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Klementina je slobodan softver pod GPL v3 licencom. Ovaj vebsajt je pod CC-BY-SA licencom."
 
-#: base.html:84
+#: base.html:79
 msgid "Development by"
 msgstr "Programeri:"
 
-#: base.html:85 main.html:21 main.html.py:28
+#: base.html:80 main.html:19 main.html:26 main.html:34
 msgid "and"
 msgstr "i"
 
-#: base.html:87
+#: base.html:82
 msgid "Website by"
 msgstr "Vebsajt uradio"
 
-#: base.html:90 privacy.html:3 privacy.html.py:10
+#: base.html:85 privacy.html:3 privacy.html:10
 msgid "Privacy Policy"
 msgstr "Politika privatnosti"
 
-#: data.py:8
+#: data.py:10 data.py:34
+msgid "Controlling playback from the Android app"
+msgstr "Upravljanje puštanjem sa Android aplikacije"
+
+#: data.py:11
+msgid "Browsing the library from the Android app"
+msgstr ""
+
+#: data.py:24
+#, python-format
+msgid "The library on %(platform)s"
+msgstr ""
+
+#: data.py:25
+#, python-format
+msgid "The library on %(platform)s, in the dark theme"
+msgstr ""
+
+#: data.py:26
+#, python-format
+msgid "Internet services on %(platform)s"
+msgstr ""
+
+#: data.py:31
 msgid ""
 "Playlist tab, while listening to songs from multiples Internet services"
 msgstr "Jezičak liste numera, slušanje pesama sa nekoliko internet servisa"
 
-#: data.py:9
+#: data.py:32
 msgid "Subsonic integration"
 msgstr "Integracija u Subsonik"
 
-#: data.py:10
+#: data.py:33
 msgid "Browsing playlist from the Android app"
 msgstr "Pregledanje liste numera pomoću Android aplikacije"
 
-#: data.py:11
-msgid "Controlling playback from the Android app"
-msgstr "Upravljanje puštanjem sa Android aplikacije"
-
-#: data.py:14
+#: data.py:37
 msgid "Podcasts"
 msgstr "Podkasti"
 
-#: data.py:15
+#: data.py:38
 msgid "Google Drive"
 msgstr "Guglov Drajv"
 
-#: data.py:16
+#: data.py:39
 msgid "New global search interface"
 msgstr "Novo sučelje za opštu pretragu"
 
-#: data.py:17
+#: data.py:40
 msgid "Moodbars"
 msgstr "Trake raspoloženja"
 
-#: data.py:20
+#: data.py:43
 msgid "Transcoding settings"
 msgstr "Postavke prekodiranja"
 
-#: data.py:21
+#: data.py:44
 msgid "Global search finding albums on Spotify"
 msgstr "Opšta pretraga pronalazi albume na Spotifaju"
 
-#: data.py:22
+#: data.py:45
 msgid "Global search options"
 msgstr "Opcije opšte pretrage"
 
-#: data.py:23
+#: data.py:46
 msgid "Grooveshark integration"
 msgstr "Integracija u Gruvšark"
 
-#: data.py:26
+#: data.py:49
 msgid "Lyrics and track slider tooltip"
 msgstr "Stihovi i oblačić klizača"
 
-#: data.py:27
+#: data.py:50
 msgid "MusicBrainz fixing untagged files"
 msgstr "Mjuzikbrejnz popravlja neoznačene fajlove"
 
-#: data.py:28
+#: data.py:51
 msgid "New tag editor with autocompletion"
 msgstr "Novi uređivač oznaka sa automatskim završavanjem"
 
-#: data.py:29
+#: data.py:52
 msgid "Track slider tooltip on Mac OS X"
 msgstr "Oblačić klizača numere na Mek OS X-u"
 
-#: data.py:32
+#: data.py:55
 msgid "Artist photos and biographies"
 msgstr "Slike izvođača i biografije"
 
-#: data.py:33
+#: data.py:56
 msgid "Lyrics"
 msgstr "Stihovi"
 
-#: data.py:34
+#: data.py:57
 msgid "Icecast radio stations"
 msgstr "Ajskast radio stanice"
 
-#: data.py:35
+#: data.py:58
 msgid "Smart playlists and kittens"
 msgstr "Pametna lista numera i mačići"
 
-#: data.py:38
+#: data.py:61
 msgid "The queue manager on Windows 7"
 msgstr "Menadžer redosleda na Vindouzu 7"
 
-#: data.py:39
+#: data.py:62
 msgid "Copying music to an iPod in Ubuntu"
 msgstr "Kopiranje muzike na Ajpod na Ubuntuu"
 
-#: data.py:40
+#: data.py:63
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
 msgstr "Klementina 0.5 na Ubu... SLAVA HIPNOŽAPCU"
 
-#: data.py:41
+#: data.py:64
 msgid "Clementine 0.5 on Mac OS X"
 msgstr "Klementina 0.5 na Mek OS X-u"
 
-#: data.py:44
+#: data.py:67
 msgid "Clementine 0.4 on Ubuntu"
 msgstr "Klementina 0.4 na Ubuntuu"
 
-#: data.py:45
+#: data.py:68
 msgid "Clementine 0.4 on Windows 7"
 msgstr "Klementina 0.4 na Vindouzu 7"
 
-#: data.py:46
+#: data.py:69
 msgid "Clementine 0.4 visualisations with projectM"
 msgstr "Klementina 0.4 projektM vizuelizacije"
 
-#: data.py:47
+#: data.py:70
 msgid "Clementine 0.4 on Mac OS X"
 msgstr "Klementina 0.4 na Mek OS X-u"
 
-#: data.py:50
+#: data.py:73
 msgid "Last.fm tag radio"
 msgstr "Last.fm radio"
 
-#: data.py:51
+#: data.py:74
 msgid "Searching the library"
 msgstr "Pretraga biblioteke"
 
-#: data.py:52 data.py:58
+#: data.py:75 data.py:81
 msgid "The tag editor on Windows"
 msgstr "Uređivač oznaka na Vindouzu"
 
-#: data.py:53
+#: data.py:76
 msgid "The cover manager on Mac OS X"
 msgstr "Menadžer omota na Mek OS X-u"
 
-#: data.py:56
+#: data.py:79
 msgid "Playback on Linux"
 msgstr "Puštanje muzike na Linuksu"
 
-#: data.py:57
+#: data.py:80
 msgid "Last.fm support"
 msgstr "Podrška za Last.fm"
 
-#: data.py:59
+#: data.py:82
 msgid "Growl notifications on Mac OS X"
 msgstr "Groul obaveštenja na Mek OS X-u"
 
-#: data.py:133
+#: data.py:156
 msgid "Source code"
 msgstr "Izvorni kôd"
 
-#: data.py:168
+#: data.py:191
 msgid "Source"
 msgstr "Izvor"
 
-#: data.py:240
+#: data.py:263
 msgid "Version 0.2 released"
 msgstr "Izdanje 0.2"
 
-#: data.py:241
+#: data.py:264
 msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
 msgstr "Prošlo je jedva mesec dana kako smo objavili prvo izdanje Klementine. Ovo izdanje donosi omote albuma, bolje otkrivanje „Raznih izvođača“, podršku za učitavanje listi numera i još mnogo toga."
 
-#: data.py:247
+#: data.py:270
 msgid "Version 0.3 released"
 msgstr "Izdanje 0.3"
 
-#: data.py:248
+#: data.py:271
 msgid ""
 "In this release we've switched to GStreamer on all platforms, meaning the "
 "analyzer and crossfading between tracks will now work on Windows. New "
@@ -245,11 +276,11 @@ msgid ""
 "remote control from command-line and MPRIS, and easier tag editing."
 msgstr "U ovom izdanju prešli smo na Gstrimer na svim platformama, što znači da sada analizator i pretapanje između numera radi na Vindouzu. Nove mogućnosti su i ekvilajzer, više opcija za grupisanje biblioteke, lepši OSD, daljinska kontrola sa komandne linije i MPRIS, i lakše uređivanje oznaka."
 
-#: data.py:256
+#: data.py:279
 msgid "Version 0.4 released"
 msgstr "Izdanje 0.4"
 
-#: data.py:257
+#: data.py:280
 msgid ""
 "This release features tabbed playlists, playlist search, projectM "
 "visualisations, Magnatune integration, ReplayGain volume normalisation and "
@@ -259,11 +290,11 @@ msgid ""
 "the time."
 msgstr "Ovo izdanje donosi liste numera sa jezičcima, pretragu listi numera, projektM vizuelizacije, integraciju u Magnatjun, normalizaciju jačine zvuka i prekodiranje muzike. Takođe smo ispravili mnogo grešaka — pretraga velikih biblioteka je sada mnogo brža, puštanje muzike je mnogo pouzdanije na Vindouzu, problemi sa kodiranjem znakova su ispravljeni i udaljene liste numera bi trebale uvek da se učitaju kako treba."
 
-#: data.py:266
+#: data.py:289
 msgid "Version 0.5 released"
 msgstr "Izdanje 0.5"
 
-#: data.py:267
+#: data.py:290
 msgid ""
 "This release adds support for using portable devices with Clementine.  You "
 "can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
@@ -281,11 +312,11 @@ msgid ""
 "information."
 msgstr "Ovo izdanje donosi podršku za korišćenje prenosivih uređaja u Klementini. Sada možete da kopirate pesme na vaš Ajpod, Ajfon, MTP ili USB skladišni uređaj. Pogledajte <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">viki za više informacija</a>.  Dodata je i podrška za korišćenje <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii daljinskog</a> kao daljinskog upravljača.  Ostali noviteti su menadžer redosleda, dijalog za organizovanje fajlova, automatsko razvlačenje kolona u listi numera, učitavanje ugrađenih id3v2 omota, još opcija za skeniranje biblioteke, prevuci-i-pusti između listi numera i Hipnožabac.  Takođe smo prepolovili vreme pokretanja, ispravili mnoštvo grešaka curenja memorije i smanjili CPU opterećenje tokom puštanja muzike. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
-#: data.py:283
+#: data.py:306
 msgid "Version 0.6 released"
 msgstr "Izdanje 0.6"
 
-#: data.py:284
+#: data.py:307
 msgid ""
 "This release features two new information panes that show lyrics, song "
 "statistics, artist biographies, photos and lists of tags and similar "
@@ -299,11 +330,11 @@ msgid ""
 "information."
 msgstr "Ovo izdanje donosi dva nova okna podataka koji prikazuju stihove, statistike pesme, biografije izvođača, fotografije i spisak oznaka i sličnih izvođača. Redizajnirali smo bočnu traku (ali možete da vratite stari dizajn klikom na desni taster miša) i dodali ocene, broj puštanja i broj preskakanja pesme.  Možete da napraviti pametne i dinamičke liste numera od pesama u vašoj biblioteci, i takođe sada možete da slušate muziku sa <a href=\"http://www.jamendo.com/\">Džamendo</a> i Ajskast radio stanica. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
-#: data.py:296
+#: data.py:319
 msgid "Version 0.7 released"
 msgstr "Izdanje 0.7"
 
-#: data.py:297
+#: data.py:320
 msgid ""
 "In this release Clementine gains a brand new edit tag dialog with "
 "autocompletion and the ability to automatically identify music and fetch "
@@ -319,11 +350,11 @@ msgid ""
 "information."
 msgstr "U ovom izdanju Klementina dobija potpuno novi dijalog za uređivanje oznaka sa automatskim završavanjem i mogućnošću da automatski identifikuje muziku i dobavi nedostajuće oznake sa Mjuzikbrejnz servisa.  CUE listovi su sada podržani — otkrivaju se automatski prilikom skeniranja vaše biblioteke i svaka numera će biti prikazana odvojeno.  Takođe smo napravili mnoštvo manjih poboljšanja kao što je prikaz omota albuma u jezičku biblioteke, označavanje obrisane pesme, opcija „Prikaži u pregledaču fajlova“, podrška za mrežne proksije, opcija „Ponovo skeniraj biblioteku“ i oblačić za klizač numere koji će vam pomoći da preciznije nađete određeni dio pesme. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
-#: data.py:311
+#: data.py:334
 msgid "Version 1.0 released"
 msgstr "Izdanje 1.0"
 
-#: data.py:312
+#: data.py:335
 msgid ""
 "This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
 "href=\"http://grooveshark.com\">Grooveshark</a> and <a "
@@ -338,11 +369,11 @@ msgid ""
 "information."
 msgstr "Ovo izdanje donosi podršku za <a href=\"http://www.spotify.com\">Spotifaj</a>, <a href=\"http://grooveshark.com\">Gruvšark</a> i <a href=\"http://www.sky.fm/\">Skaj.fm</a>/<a href=\"http://www.di.fm/\">Didžitali Imported</a>.  Takođe smo dodali mogućnost opšte pretrage koja vam omogućava da lako pronađete muziku koja je ili u vašoj biblioteci ili na internetu. Ostalo uključuje podršku za audio CD-e, više opcija za prekoder, poboljšani dijalog podešavanja, pametnije pretrage omota albuma i mnoštvo ispravki grešaka. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
-#: data.py:324
+#: data.py:347
 msgid "Version 1.1 released"
 msgstr "Izdanje 1.1"
 
-#: data.py:325
+#: data.py:348
 msgid ""
 "This release adds long-awaited Podcast support including integration and "
 "synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
@@ -356,11 +387,11 @@ msgid ""
 "information."
 msgstr "Ovo izdanje donosi dugoočekivanu podršku za Podkast uključujući integraciju i sinhronizaciju sa <a href=\"//gpodder.net\">gpodder.net</a>. Muzika sa <a href=\"http://soundcloud.com/\">Saundklaud</a> i <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> je dostupna u Internet jezičku bočne trake, kao i bilo koje pesme koje ste učitali na <a href=\"http://drive.google.com/start\">Guglov Drajv</a>. Klementina će sada prikazivati trake raspoloženja za muziku koju puštate sa vašeg lokalnog diska.Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
-#: data.py:338
+#: data.py:361
 msgid "Version 1.2 released"
 msgstr "Izdanje 1.2"
 
-#: data.py:339
+#: data.py:362
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -378,11 +409,11 @@ msgid ""
 "information."
 msgstr "Ovo izdanje je kompatibilno sa <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android aplikacijom Daljinski za Klementinu</a> koja vam omogućava da upravljate Klementinom daljinski sa Android uređaja.<br/>Ovo izdanje takođe donosi podršku za Subsonik. I sada možete da slušate vašu muziku smeštenu na <a href=\"https://www.box.com/\">Boksu</a>, <a href=\"https://www.dropbox.com/\">Dropboksu</a>, <a href=\"https://skydrive.live.com/\">Skajdrajvu</a> i <a href=\"https://one.ubuntu.com/\">Ubuntu 1</a>. Poslednja bitna novost je mogućnost da označite „zvezdicom“ vaše liste numera, pa ih onda možete slobodno da zatvorite i vratite ih kasnije iz prikaza novog jezička „Lista numera“ kojeg smo dodali u levu bočnu traku.<br/>Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">ceo dnevnik izmena</a> za više informacija."
 
-#: data.py:354
+#: data.py:377
 msgid "Version 1.3 released"
 msgstr "Izdanje 1.3"
 
-#: data.py:355
+#: data.py:378
 msgid ""
 "This release is compatible with the <a "
 "href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
@@ -394,11 +425,11 @@ msgid ""
 "information."
 msgstr "Ovo izdanje je kompatibilno sa <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android daljinskim za Klementinu</a>, aplikacijom koja vam omogućuje da daljinski upravljate Klementinom sa Android uređaja.<br/>Ovo izdanje takođe donosi podršku za pristup vašoj muzici na Vk.com i Seafile. Pogledajte <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">ceo dnevnik izmena</a> za više podataka."
 
-#: data.py:364
+#: data.py:387
 msgid "Version 1.3.1 released"
 msgstr "Izdanje 1.3.1"
 
-#: data.py:365
+#: data.py:388
 msgid ""
 "Fixes a bug where ratings are deleted when upgrading from older versions."
 msgstr "Popravlja grešku brisanja ocena prilikom nadogradnje starijih izdanja."
@@ -411,120 +442,85 @@ msgstr "Najnovija preuzimanja"
 msgid "Get the latest stable version of Clementine for your operating system."
 msgstr "Dobavite najnovije stabilno izdanje Klementine za vaš operativni sistem."
 
-#: downloads.html:33
+#: downloads.html:14 screenshots.html:27 screenshots.html:47
+msgid "Version"
+msgstr "Izdanje"
+
+#: downloads.html:34
 msgid "Downloads for other operating systems"
 msgstr "Preuzimanja za ostale operativne sisteme"
 
-#: downloads.html:54
-msgid "Ubuntu PPA"
-msgstr "Ubuntu PPA"
+#: downloads.html:57
+msgid "Debian and Ubuntu"
+msgstr ""
 
-#: downloads.html:56
+#: downloads.html:59
 msgid ""
-"You can download the latest version of Clementine on Ubuntu from the "
-"official PPA:"
-msgstr "Možete preuzeti najnovije izdanje Klementine za Ubuntu sa službenog PPA:"
+"Add Clementine's apt repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Debian and Ubuntu, and "
+"Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
+msgstr ""
 
-#: downloads.html:62
-msgid "Dependencies for Ubuntu Precise (12.04)"
-msgstr "Zavisnosti za Ubuntu Precise (12.04)"
+#: downloads.html:74
+msgid "The repository is signed with this key:"
+msgstr ""
 
-#: downloads.html:63
+#: downloads.html:77
+msgid "Fedora"
+msgstr ""
+
+#: downloads.html:79
 msgid ""
-"New versions of Clementine require GStreamer 1.0 which wasn't included in "
-"Ubuntu 12.04.  If you get errors installing Clementine you should add the "
-"GStreamer PPA as well:"
-msgstr "Nova izdanja Klementine zahtevaju GStreamer 1.0 kojeg nema u Ubuntuu 12.04. Ako naiđete na greške prilikom instalacije Klementine, dodajte i PPA za GStreamer:"
+"Add Clementine's COPR repository to get new versions with the rest of your "
+"updates. It has packages for the current releases of Fedora, for 64-bit PCs "
+"and ARM."
+msgstr ""
 
-#: downloads.html:68 downloads.html.py:83
+#: downloads.html:84
+msgid ""
+"If you already have Fedora's own Clementine package, which is older, replace"
+" it with this one:"
+msgstr ""
+
+#: downloads.html:88
+msgid "The first time, dnf asks you to trust the repository's signing key:"
+msgstr ""
+
+#: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
 msgstr "Ostala preuzimanja"
 
-#: downloads.html:70
+#: downloads.html:95 screenshots.html:33
 msgid "Clementine Remote for Android"
 msgstr "Android daljinski za Klementinu"
 
-#: downloads.html:77
+#: downloads.html:102
 msgid "Unofficial packages"
 msgstr "Neslužbeni paketi"
 
-#: downloads.html:79
+#: downloads.html:104
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "Ako nema vaše distribucije iznad neko drugi je možda napravio neslužbeni paket za vas."
 
-#: downloads.html:87
+#: downloads.html:112
 msgid "Compiling from source"
 msgstr "Kompilovanje od izvornog kôda"
 
-#: downloads.html:89
+#: downloads.html:114
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Kompilovanje Klementine od izvornog kôda je lako na Linuks platformi."
 
-#: downloads.html:90
+#: downloads.html:115
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Preuzmite arhivu izvornog kôda sa spiska iznad i u prozoru terminala:"
 
-#: downloads.html:99
+#: downloads.html:124
 msgid "Full instructions and list of dependencies"
 msgstr "Detaljna uputstva i spisak zavisnosti"
-
-#: downloads.html:103
-msgid "Bleeding edge packages"
-msgstr "Eksperimentalni paketi"
-
-#: downloads.html:105 participate.html:57
-msgid "Development on Clementine happens in"
-msgstr "Razvoj Klementine se dešava na"
-
-#: downloads.html:107 participate.html:59
-msgid "the git repository"
-msgstr "git riznici"
-
-#: downloads.html:108 participate.html:60
-msgid "Check out the code by running:"
-msgstr "Dobavite izvorni kôd naredbom:"
-
-#: downloads.html:112 participate.html:70
-msgid ""
-"If you'd prefer not to compile the development version yourself then try one"
-" of the hourly packages:"
-msgstr "Ako ne želite sami da kompilujete razvojno izdanje onda probajte neke od dnevnih paketa:"
-
-#: downloads.html:117 participate.html:75
-msgid "Mac OS X development builds"
-msgstr "Razvojna izdanja za Mac OS X"
-
-#: downloads.html:119 participate.html:77
-msgid "Ubuntu Precise (12.04) development builds"
-msgstr "Razvojna izdanja za Ubuntu Prisajs (12.04)"
-
-#: downloads.html:121 participate.html:79
-msgid "Ubuntu Trusty (14.04) development builds"
-msgstr "Razvojna izdanja za Ubuntu Trusty (14.04)"
-
-#: downloads.html:123 participate.html:81
-msgid "Windows development builds"
-msgstr "Razvojna izdanja za Vindouz"
-
-#: downloads.html:125 participate.html:83
-msgid "Buildbot"
-msgstr "Robot za izgradnju"
-
-#: downloads.html:128 participate.html:86
-msgid "There's also an Ubuntu PPA for these development builds:"
-msgstr "Takođe imate Ubuntuov PPA za ove razvojne pakete:"
-
-#: downloads.html:136
-msgid "Old downloads"
-msgstr "Stara preuzimanja"
-
-#: downloads.html:144 screenshots.html:8
-msgid "Version"
-msgstr "Izdanje"
 
 #: main.html:5
 msgid "About &amp; Features"
@@ -538,320 +534,359 @@ msgstr "Pretražujte i preslušavajte vašu lokalnu muzičku biblioteku."
 msgid "Listen to internet radio from"
 msgstr "Slušajte internet radio sa"
 
-#: main.html:24
+#: main.html:22
+msgid "Browse and play music from"
+msgstr ""
+
+#: main.html:25
+msgid "Subsonic servers"
+msgstr ""
+
+#: main.html:27
+msgid "Plex Media Servers"
+msgstr ""
+
+#: main.html:29
 msgid "Search and play songs you've uploaded to"
 msgstr "Pretražujte i puštajte pesme koje ste učitali na"
 
-#: main.html:31
+#: main.html:37
+msgid "Scrobble what you play to"
+msgstr ""
+
+#: main.html:38
 msgid "Create smart playlists and dynamic playlists."
 msgstr "Pravite pametne i dinamičke liste numera."
 
-#: main.html:32
-msgid "Tabbed playlists, import and export M3U, XSPF, PLS and ASX."
-msgstr "Liste numera sa jezičcima, uvoz i izvoz M3U, XSPF, PLS i ASX fajlova."
+#: main.html:39
+msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
+msgstr ""
 
-#: main.html:33
+#: main.html:40
 msgid "CUE sheet support."
 msgstr "Podrška za CUE listove."
 
-#: main.html:34
+#: main.html:41
 msgid "Play audio CDs."
 msgstr "Puštajte audio CD-e."
 
-#: main.html:35
+#: main.html:42
+msgid "Equalizer and moodbar."
+msgstr ""
+
+#: main.html:43
 msgid "Visualisations from"
 msgstr "Vizuelizacije od"
 
-#: main.html:36
-msgid "Lyrics and artist biographies and photos."
-msgstr "Stihovi, biografije i slike izvođača."
+#: main.html:44
+msgid "Lyrics from your own files and"
+msgstr ""
 
-#: main.html:37
-msgid "Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC."
-msgstr "Prekodirajte muziku u MP3, OGG Vorbis, OGG Speex, FLAC ili AAC."
+#: main.html:44
+msgid "shown in time with the song where they're timed."
+msgstr ""
 
-#: main.html:38
-msgid "Edit tags on MP3 and OGG files, organise your music."
-msgstr "Uređujte oznake MP3 i OGG fajlova, organizujte vašu muziku."
+#: main.html:45
+msgid "Artist biographies and photos."
+msgstr ""
 
-#: main.html:39
+#: main.html:46
+msgid ""
+"Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
+" WAV."
+msgstr ""
+
+#: main.html:47
+msgid "Edit tags and organise your music."
+msgstr ""
+
+#: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
 msgstr "Dobavite nedostajuće oznake sa Mjuzikbrejnz servisa."
 
-#: main.html:40
-msgid "Discover and download Podcasts."
-msgstr "Otkrijte i preuzmite Podkaste."
+#: main.html:49
+msgid "Discover, download and sync podcasts with"
+msgstr ""
 
-#: main.html:41
-msgid "Download missing album cover art from Last.fm and Amazon."
-msgstr "Preuzmite nedostajuće omote albuma sa servisa Last.fm i Amazon."
-
-#: main.html:42
-msgid "Cross-platform - works on Windows, Mac OS X and Linux."
-msgstr "Međuplatformski program — radi na Vindouzu, Mek OS X-u i Linuksu."
-
-#: main.html:43
+#: main.html:50
 msgid ""
-"Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)."
-msgstr "Izvorna obaveštenja radne površi na Linuksu (libnotify) i Mek OS X-u (Growl)."
+"Download missing album cover art from Last.fm, MusicBrainz and Discogs."
+msgstr ""
 
-#: main.html:44
-msgid "Remote control using an"
-msgstr "Daljinska kontrola koristeći"
+#: main.html:51
+msgid "Cross-platform - works on Windows, macOS and Linux."
+msgstr ""
 
-#: main.html:44
-msgid "Android device"
-msgstr "Android uređaj"
+#: main.html:52
+msgid "Light and dark themes, or follow your system's."
+msgstr ""
 
-#: main.html:44
+#: main.html:53
+msgid ""
+"Native desktop notifications and media controls on Linux, macOS and Windows."
+msgstr ""
+
+#: main.html:54
+msgid "Remote control using"
+msgstr ""
+
+#: main.html:54
+msgid "an Android device"
+msgstr ""
+
+#: main.html:54
+msgid "an iPhone or iPad"
+msgstr ""
+
+#: main.html:54
 msgid "a Wii Remote"
 msgstr "Wii daljinski"
 
-#: main.html:44
+#: main.html:54
 msgid "MPRIS or the command-line."
 msgstr "MPRIS ili komandnu liniju."
 
-#: main.html:45
+#: main.html:55
+msgid ""
+"With Clementine Remote, browse your library and internet services, download "
+"songs, and play Clementine's music on your phone."
+msgstr ""
+
+#: main.html:56
 msgid "Copy music to your"
 msgstr "Kopirajte muziku na vaš"
 
-#: main.html:45
-msgid "iPod, iPhone, MTP or mass-storage USB player."
-msgstr "Ajpod, Ajfon, MTP ili skladišni USB plejer."
+#: main.html:56
+msgid "iPod, MTP or mass-storage USB player."
+msgstr ""
 
-#: main.html:46
+#: main.html:57
 msgid "Queue manager."
 msgstr "Menadžer redosleda."
 
-#: main.html:52
+#: main.html:63
 msgid "is a modern music player and library organizer"
 msgstr "je moderan muzički plejer i organizator biblioteke"
 
-#: main.html:56
+#: main.html:67
 msgid "Clementine is a multiplatform music player."
 msgstr "Klementina je multiplatformski muzički plejer."
 
-#: main.html:57
+#: main.html:68
 msgid "It is inspired by"
 msgstr "Inspirisana je"
 
-#: main.html:58
+#: main.html:69
 msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr "fokusirajući se na brzo i lako za korišćenje sučelje za pretragu i puštanje vaše muzike."
 
-#: main.html:65 main.html.py:74
+#: main.html:81 main.html:94
 msgid "Download the latest version now"
 msgstr "Preuzmite najnovije izdanje odmah"
 
-#: main.html:66
+#: main.html:89
 msgid "Download Clementine"
 msgstr "Preuzmi Klementinu"
 
-#: main.html:75
+#: main.html:95
 msgid "for Windows, Mac OS X and Linux"
 msgstr "za Vindouz, Mek OS X i Linuks"
 
-#: main.html:80
+#: main.html:100
 msgid "Announcement"
 msgstr "Saopštenja"
 
-#: main.html:81
+#: main.html:101
 msgid "Changelog"
 msgstr "Dnevnik izmena"
 
-#: main.html:82
+#: main.html:102
 msgid "Show all downloads"
 msgstr "Pokaži sva preuzimanja"
 
-#: main.html:101 screenshots.html:17
+#: main.html:122 main.html:124 screenshots.html:15 screenshots.html:38
 msgid "Screenshot"
 msgstr "Snimak ekrana"
 
-#: main.html:114
+#: main.html:138
 msgid "News"
 msgstr "Novosti"
 
-#: participate.html:17
+#: participate.html:7
 msgid "Need help?"
 msgstr "Trebate pomoć?"
 
-#: participate.html:21
-msgid "Come chat with us at the"
-msgstr "Dođite da ćaskate sa nama na"
-
-#: participate.html:21
-msgid "channel on Freenode."
-msgstr "kanalu na Freenode servisu."
-
-#: participate.html:22
-msgid ""
-"Please remember to <b>stick around after asking a question</b> - we might be"
-" in a different timezone so won't see your question right away."
-msgstr "Ne zaboravite da se <b>zadržite na kanalu nakon upita</b> — možda smo u različitim vremenskim zonama pa nećemo videti vaše pitanje odmah."
-
-#: participate.html:25
+#: participate.html:9
 msgid "Forum"
 msgstr "Forum"
 
-#: participate.html:27
+#: participate.html:11
 msgid ""
-"Clementine uses Google Groups for its forum/mailing list/general discussion "
-"group."
-msgstr "Klementina koristi Gugl Grupe za forum/poštanske liste/opštu diskuju."
+"Clementine uses GitHub Discussions for questions, help and general "
+"discussion."
+msgstr ""
 
-#: participate.html:30
+#: participate.html:14
 msgid "Support and discussion group"
 msgstr "Grupa za podršku i diskusiju"
 
-#: participate.html:35
+#: participate.html:19
 msgid "Collaborate"
 msgstr "Sarađujte"
 
-#: participate.html:37
+#: participate.html:21
 msgid "Reporting bugs and proposing patches"
 msgstr "Prijava grešaka i predlaganje zakrpa"
 
-#: participate.html:39
+#: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
 msgstr "Klementina koristi Githab za razvoj i praćenje problema."
 
-#: participate.html:40
+#: participate.html:24
 msgid ""
 "If you have found a bug in Clementine, please head on over to the issue "
 "tracker and create a new issue."
 msgstr "Ako ste naišli na grešku u Klementini prijavite je na pratiocu problema."
 
-#: participate.html:43
+#: participate.html:27
 msgid "Issue tracker"
 msgstr "Pratilac problema"
 
-#: participate.html:46
+#: participate.html:30
 msgid "Translating the interface"
 msgstr "Prevođenje sučelja"
 
-#: participate.html:48
+#: participate.html:32
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
 msgstr "Ako želite da prevedete Klementinu na drugi jezik možete to da uradite na Transifeksovoj stranici za prevođenje."
 
-#: participate.html:49
+#: participate.html:33
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
 msgstr "Možete ili da prevodite direktno na Transifeksu ili da preuzmete .po fajl sa stranice pa da nam ga pošaljete nakon prevođenja."
 
-#: participate.html:52
+#: participate.html:36
 msgid "Transifex translations"
 msgstr "Transifeks prevodi"
 
-#: participate.html:55
+#: participate.html:39
 msgid "Hacking"
 msgstr "Hakovanje"
 
-#: participate.html:66
+#: participate.html:41
+msgid "Development on Clementine happens in"
+msgstr "Razvoj Klementine se dešava na"
+
+#: participate.html:43
+msgid "the git repository"
+msgstr "git riznici"
+
+#: participate.html:44
+msgid "Check out the code by running:"
+msgstr "Dobavite izvorni kôd naredbom:"
+
+#: participate.html:50
 msgid "How to compile Clementine from source"
 msgstr "Kompilovanje Klementine od izvornog kôda"
 
-#: participate.html:92
+#: participate.html:54
 msgid "Remote application for Android"
 msgstr "Android aplikacija za daljinski"
 
-#: participate.html:94
+#: participate.html:56
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
 msgstr "Daljinski za Klementinu je hostovan na <a href=\"https://github.com/clementine-player/Android-Remote\">drugoj Githab riznici</a>."
 
-#: participate.html:95
+#: participate.html:57
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
 msgstr "Možete da prijavljujete probleme i predlažete zakrpe <a href=\"https://github.com/clementine-player/Android-Remote/issues\">na njegovom pratiocu prijava</a>."
 
-#: participate.html:96
+#: participate.html:58 participate.html:64
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
 msgstr "Možete da prevedete sučelje na <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">ovom Transifeks projektu</a>."
 
-#: participate.html:100
+#: participate.html:60
+msgid "Remote application for iOS"
+msgstr ""
+
+#: participate.html:62
+msgid ""
+"Clementine Remote for iPhone and iPad is hosted on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
+"repository</a>."
+msgstr ""
+
+#: participate.html:63
+msgid ""
+"You can report issues and propose patches on <a "
+"href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
+"tracker</a>."
+msgstr ""
+
+#: participate.html:68
 msgid "Social Networking"
 msgstr "Društvene mreže"
 
-#: participate.html:102
+#: participate.html:70
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
 msgstr "Voleli bismo da podržite Klementinu pridružujući nam se na vašoj omiljenoj društvenoj mreži!"
 
-#: participate.html:106
+#: participate.html:74
 msgid "Clementine on Facebook"
 msgstr "Klementina na Fejsbuku"
 
-#: participate.html:109
-msgid "Clementine on Twitter"
-msgstr "Klementina na Tviteru"
-
-#: participate.html:112
-msgid "Clementine on Last.fm"
-msgstr "Klementina na Last.fm"
-
-#: participate.html:126
-msgid "Stickers"
-msgstr "Nalepnice"
-
-#: participate.html:127
-#, python-format
-msgid "You can find lovely Clementine stickers on %(unixstickers)s."
-msgstr "Divne Klementinine nalepnice možete naći na %(unixstickers)s."
-
-#: participate.html:128
-msgid ""
-"They will be perfect to customise your laptop and show how much you love "
-"your favourite music player!"
-msgstr "Savršene su za ulepšanje vašeg laptopa i da pokažete koliko volite vaš omiljeni muzički plejer!"
-
-#: participate.html:131
+#: participate.html:79
 msgid "Donation"
 msgstr "Donirajte"
 
-#: participate.html:132
+#: participate.html:80
 msgid ""
 "Currently, we do not need money and as so we do not accept money donation. "
 "If you like our software and want to help us, you can <a href=\"#social-"
 "networking\">support us</a> and spread the word."
 msgstr "Trenutno nam ne treba novac tako da ne prihvatamo novčane donacije. Ako vam se dopada naš softver i želite da nam pomognete, možete <a href=\"#social-networking\">da nas podržite</a> i proširite glas."
 
-#: participate.html:133
+#: participate.html:81
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
 msgstr "Takođe možete da pomognete <a href=\"#collaborate\">učestvujući u razvoju softvera, kako je objašnjeno iznad</a>."
 
-#: participate.html:134
+#: participate.html:82
 msgid ""
 "But if you still want to spend some money to make us happy, you can make a "
 "donation to one of these charity organizations we like"
 msgstr "Ali ako svejedno želite da potrošite nešto novca da nas usrećite, možete da donirate nekoj od ovih dobrotvornih organizacija koje volimo"
 
-#: participate.html:134
+#: participate.html:82
 msgid "and let us know:"
 msgstr "pa nas obavestite:"
 
-#: participate.html:137
-msgid "<a href=\"http://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr "<a href=\"http://www.msf.org/\">Lekari bez granica</a>"
+#: participate.html:85
+msgid ""
+"<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
+msgstr ""
 
-#: participate.html:138
-msgid "<a href=\"http://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr "<a href=\"http://www.actionagainsthunger.org/\">Akcija protiv gladi</a>"
+#: participate.html:86
+msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
+msgstr ""
 
-#: participate.html:139
+#: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Fondacija za elektronske granice</a>"
 
