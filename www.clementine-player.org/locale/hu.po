@@ -778,9 +778,9 @@ msgstr "Hibabejelentéseket, és foltok javaslatát a <a href=\"https://github.c
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "A felületet <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">ebben a Transifex projektben</a> fordíthatja le."
+msgstr "A felületet <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">ebben a Transifex projektben</a> fordíthatja le."
 
 #: participate.html:100
 msgid "Social Networking"

@@ -646,7 +646,7 @@ msgid "You can report issues and propose patches on <a href=\"https://github.com
 msgstr ""
 
 #: participate.html:96
-msgid "You can translate the interface on <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">this Transifex project</a>."
+msgid "You can translate the interface on <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this Transifex project</a>."
 msgstr ""
 
 #: participate.html:100

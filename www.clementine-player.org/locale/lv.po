@@ -777,9 +777,9 @@ msgstr ""
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "Jūs varat tulkot saskarni šajā Transifex projektā</a>: <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">."
+msgstr "Jūs varat tulkot saskarni šajā Transifex projektā</a>: <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">."
 
 #: participate.html:100
 msgid "Social Networking"
