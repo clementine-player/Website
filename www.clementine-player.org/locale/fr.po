@@ -784,9 +784,9 @@ msgstr "Vous pouvez rapporter des problèmes ou proposer des patches sur sa <a h
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "Vous pouvez traduire l'interface sur <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">ce projet Transifex</a>."
+msgstr "Vous pouvez traduire l'interface sur <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">ce projet Transifex</a>."
 
 #: participate.html:100
 msgid "Social Networking"

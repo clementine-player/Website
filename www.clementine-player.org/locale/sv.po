@@ -790,9 +790,9 @@ msgstr "Du kan rapportera problem och föreslå programfixar i <a href=\"https:/
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "Du kan översätta gränssnittet på <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">det här Transifex-projektet</a>."
+msgstr "Du kan översätta gränssnittet på <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">det här Transifex-projektet</a>."
 
 #: participate.html:100
 msgid "Social Networking"

@@ -777,9 +777,9 @@ msgstr "Hrošče in popravke lahko sporočate na <a href=\"https://github.com/cl
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "Vmesnik lahko prevedete na <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">Transifexu</a>."
+msgstr "Vmesnik lahko prevedete na <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">Transifexu</a>."
 
 #: participate.html:100
 msgid "Social Networking"

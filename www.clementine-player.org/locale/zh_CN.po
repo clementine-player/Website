@@ -779,9 +779,9 @@ msgstr "你可以在 <a href=\"https://github.com/clementine-player/Android-Remo
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "你可以在 <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">这个 Transifex 项目</a>翻译软件界面。"
+msgstr "你可以在 <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">这个 Transifex 项目</a>翻译软件界面。"
 
 #: participate.html:100
 msgid "Social Networking"

@@ -775,9 +775,9 @@ msgstr "Можете да пријављујете проблеме и пред�
 #: participate.html:96
 msgid ""
 "You can translate the interface on <a "
-"href=\"https://www.transifex.com/projects/p/clementine-remote/\">this "
+"href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "Можете да преведете сучеље на <a href=\"https://www.transifex.com/projects/p/clementine-remote/\">овом Трансифекс пројекту</a>."
+msgstr "Можете да преведете сучеље на <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">овом Трансифекс пројекту</a>."
 
 #: participate.html:100
 msgid "Social Networking"
