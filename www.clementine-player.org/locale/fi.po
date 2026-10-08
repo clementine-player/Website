@@ -6,16 +6,16 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2012-2015
 # Juha Kuitunen, 2016
 # Juha Kuitunen, 2016
-# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2019
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2019,2026
 # Moonwrist <moonwrist@moonwrist.org>, 2011
 # Moonwrist <moonwrist@moonwrist.org>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-06 15:50+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Moonwrist <moonwrist@moonwrist.org>, 2011\n"
+"Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>, 2019,2026\n"
 "Language-Team: Finnish (http://app.transifex.com/davidsansome/clementine/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,22 +25,22 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr "Clementine-kaukosäädin"
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
-msgstr "Ohjaa Clementinea etäältä Android-laitteellasi"
+msgstr "Ohjaa Clementinea Android-laitteellasi"
 
 #: android-download.html:9
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Saatavilla Google Play"
 
 #: android-download.html:12
 msgid ""
 "Want every change as soon as it's made? <a "
 "href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
 " the beta</a> for development builds."
-msgstr ""
+msgstr "Haluatko kaiken uuden heti, kun tulee saataville? <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Liity beta-ohjelmaan</a>."
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -94,22 +94,22 @@ msgstr "Toiston ohjausta Android-sovelluksella"
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
-msgstr ""
+msgstr "Kirjaston selaaminen Android-sovelluksella"
 
 #: data.py:24
 #, python-format
 msgid "The library on %(platform)s"
-msgstr ""
+msgstr "Kirjastossa %(platform)s"
 
 #: data.py:25
 #, python-format
 msgid "The library on %(platform)s, in the dark theme"
-msgstr ""
+msgstr "Kirjastossa %(platform)s, tummalla teemalla"
 
 #: data.py:26
 #, python-format
 msgid "Internet services on %(platform)s"
-msgstr ""
+msgstr "Internet-palvelut %(platform)s"
 
 #: data.py:31
 msgid ""
@@ -410,7 +410,7 @@ msgid ""
 "sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Tämä julkaisu on yhteensopiva <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine kaukosäädin sovelluksella Androidiin</a> jonka avulla voit hallita Clementineä etänä Android-laitteesta.<br/>Tämä julkaisu tukee myös Subsonic-sovellusta. Voit nyt kuunnella musiikkia, joka on tallennettu <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> tai <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>kohteisiin. Viimeinen merkittävä uusi ominaisuus on kyky \"tähdittää\" soittolistojasi, joten voit sulkea ne turvallisesti ja palauttaa ne myöhemmin uudesta \"Soittolista\" -välilehdestä, jonka olemme lisänneet vasempaan sivupalkiin.<br/>Katso <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">täydellinen muutoslogi</a> saadaksesi lisätietoja."
+msgstr "Tämä julkaisu on yhteensopiva <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote Androidille</a> jonka avulla voit ohjata Clementineä Android-laitteesta.<br/>Tämä julkaisu tukee myös Subsonic-sovellusta. Voit nyt kuunnella musiikkia, joka on tallennettu <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> tai <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>kohteisiin. Viimeinen merkittävä uusi ominaisuus on kyky \"tähdittää\" soittolistojasi, joten voit sulkea ne turvallisesti ja palauttaa ne myöhemmin uudesta \"Soittolista\" -välilehdestä, jonka olemme lisänneet vasempaan sivupalkiin.<br/>Katso <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">täydellinen muutoslogi</a> saadaksesi lisätietoja."
 
 #: data.py:377
 msgid "Version 1.3 released"
@@ -426,7 +426,7 @@ msgid ""
 "href=\"https://raw.github.com/clementine-"
 "player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
 "information."
-msgstr "Tämä julkaisu on yhteensopiva  <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android Clementine kaukosäädin sovelluksen kanssa</a> , jonka avulla voit hallita Clementineä etänä Android-laitteesta.<br/>Tämä julkaisu tukee myös musiikkia Vk.com ja Seafile ohjelmista. Katso <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">täydellinen muutoslogi</a> saadaksesi lisätietoja."
+msgstr "Tämä julkaisu on yhteensopiva  <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote Androidille</a>kanssa, jonka avulla voit ohjata Clementineä Android-laitteesta.<br/>Tämä julkaisu tukee myös musiikkia Vk.com ja Seafile ohjelmista. Katso <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">täydellinen muutoslogi</a> saadaksesi lisätietoja."
 
 #: data.py:387
 msgid "Version 1.3.1 released"
@@ -455,39 +455,39 @@ msgstr "Lataukset muille käyttöjärjestelmille"
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
-msgstr ""
+msgstr "Debian ja Ubuntu"
 
 #: downloads.html:59
 msgid ""
 "Add Clementine's apt repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Debian and Ubuntu, and "
 "Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
-msgstr ""
+msgstr "Lisää Clementine apt-pakettivarasto ja saat uudet versiot päivitysten yhteydessä. Varasto sisältää paketteja Debianin ja Ubuntun nykyisille julkaisuille ja Ubuntu-pohjaisille kuten Linux Mint. Tietokoneet 64-bit ja ARM-laitteet."
 
 #: downloads.html:74
 msgid "The repository is signed with this key:"
-msgstr ""
+msgstr "Pakettivarasto on allekirjoitettu avaimella:"
 
 #: downloads.html:77
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: downloads.html:79
 msgid ""
 "Add Clementine's COPR repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Fedora, for 64-bit PCs "
 "and ARM."
-msgstr ""
+msgstr "Lisää Clementinen COPR-pakettivarasto ja saat uudet versiot päivitysten yhteydessä. Varasto sisältää paketteja Fedoran nykyisille julkaisuille sekä Tietokoneet 64-bit ja ARM-laitteet."
 
 #: downloads.html:84
 msgid ""
 "If you already have Fedora's own Clementine package, which is older, replace"
 " it with this one:"
-msgstr ""
+msgstr "Jos sinulla on vanhempi Fedoran oma Clementine-paketti, korvaa se tällä:"
 
 #: downloads.html:88
 msgid "The first time, dnf asks you to trust the repository's signing key:"
-msgstr ""
+msgstr "Ensimmäisellä kerralla dnf pyytää sinua luottamaan allekirjoitettuun avaimeen:"
 
 #: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
@@ -495,7 +495,7 @@ msgstr "Muut lataukset"
 
 #: downloads.html:95 screenshots.html:33
 msgid "Clementine Remote for Android"
-msgstr "Clementine-kaukosäädin Androidille"
+msgstr "Clementine Remote Androidille"
 
 #: downloads.html:102
 msgid "Unofficial packages"
@@ -539,15 +539,15 @@ msgstr "Kuuntele internet-radioita, mm."
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr ""
+msgstr "Selaa ja toista musiikkia lähteestä"
 
 #: main.html:25
 msgid "Subsonic servers"
-msgstr ""
+msgstr "Subsonic-palvelimet"
 
 #: main.html:27
 msgid "Plex Media Servers"
-msgstr ""
+msgstr "Plex Media-palvelimet"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
@@ -555,7 +555,7 @@ msgstr "Etsi ja toista kappaleet, jotka olet lähettänyt palveluun"
 
 #: main.html:37
 msgid "Scrobble what you play to"
-msgstr ""
+msgstr "Kuunneltu musiikki tilastoihin "
 
 #: main.html:38
 msgid "Create smart playlists and dynamic playlists."
@@ -563,7 +563,7 @@ msgstr "Luo älykkäitä ja dynaamisia soittolistoja."
 
 #: main.html:39
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
-msgstr ""
+msgstr "Soittolistat välilehtinä, vie ja tuo M3U, XSPF, PLS, ASX ja WPL."
 
 #: main.html:40
 msgid "CUE sheet support."
@@ -575,7 +575,7 @@ msgstr "Toista ääni-CD:itä"
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr ""
+msgstr "Taajuuskorjain ja tunnelmapalkki"
 
 #: main.html:43
 msgid "Visualisations from"
@@ -583,25 +583,25 @@ msgstr "Visualisoinnit tarjoaa"
 
 #: main.html:44
 msgid "Lyrics from your own files and"
-msgstr ""
+msgstr "Sanoitukset omasta tiedostosta ja"
 
 #: main.html:44
 msgid "shown in time with the song where they're timed."
-msgstr ""
+msgstr "näytetään tahdistetusti kappaleen aikana."
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr ""
+msgstr "Esittäjän elämänkerta ja valokuvat."
 
 #: main.html:46
 msgid ""
 "Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
 " WAV."
-msgstr ""
+msgstr "Muuntaa musiikkia esim. MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA tai WAV."
 
 #: main.html:47
 msgid "Edit tags and organise your music."
-msgstr ""
+msgstr "Muokkaa tunnisteita ja järjestä musiikkia."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
@@ -609,37 +609,37 @@ msgstr "Nouda puuttuvat tunnisteet MusicBrainzista."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr ""
+msgstr "Hae, lataa ja synkronoi podcasteja"
 
 #: main.html:50
 msgid ""
 "Download missing album cover art from Last.fm, MusicBrainz and Discogs."
-msgstr ""
+msgstr "Lataa puuttuvat kansikuvat palveluista Last.fm, MusicBrainz ja Discogs."
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
-msgstr ""
+msgstr "Toimii kaikilla Windows, macOS ja Linux."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
-msgstr ""
+msgstr "Vaalea ja tumma teema tai seuraa tietokoneen asetuksia."
 
 #: main.html:53
 msgid ""
 "Native desktop notifications and media controls on Linux, macOS and Windows."
-msgstr ""
+msgstr "Tietokoneen ilmoitukset ja mediasäätimet Windows, macOS ja Linux."
 
 #: main.html:54
 msgid "Remote control using"
-msgstr ""
+msgstr "Kauko-ohjaa käyttämällä"
 
 #: main.html:54
 msgid "an Android device"
-msgstr ""
+msgstr "Android"
 
 #: main.html:54
 msgid "an iPhone or iPad"
-msgstr ""
+msgstr "iPhone tai iPad"
 
 #: main.html:54
 msgid "a Wii Remote"
@@ -653,7 +653,7 @@ msgstr "MPRIS tai komentorivi."
 msgid ""
 "With Clementine Remote, browse your library and internet services, download "
 "songs, and play Clementine's music on your phone."
-msgstr ""
+msgstr "Clementine Remote kauko-ohjaimella voit selata kirjastoasi ja Internet-palveluita, ladata kappaleita ja toistaa Clementinen musiikkia sinun puhelimellasi."
 
 #: main.html:56
 msgid "Copy music to your"
@@ -661,7 +661,7 @@ msgstr "Kopioi musiikkia eri laitteille -"
 
 #: main.html:56
 msgid "iPod, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, MTP tai usb-soittimen muistikortilta."
 
 #: main.html:57
 msgid "Queue manager."
@@ -729,7 +729,7 @@ msgstr "Keskustelualue"
 msgid ""
 "Clementine uses GitHub Discussions for questions, help and general "
 "discussion."
-msgstr ""
+msgstr "Clementine käyttää GitHub \"Discussions\" välilehteä kysymyksille, avun saamiseen ja keskusteluun."
 
 #: participate.html:14
 msgid "Support and discussion group"
@@ -799,20 +799,20 @@ msgstr "Ohje, kuinka kääntää Clementine lähdekoodista"
 
 #: participate.html:54
 msgid "Remote application for Android"
-msgstr "Kaukosäädinsovellus Androidille"
+msgstr "Kauko-ohjaussovellus Androidille"
 
 #: participate.html:56
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr "Clementine-kaukosäädin sijaitsee <a href=\"https://github.com/clementine-player/Android-Remote\">erillisessä GitHub -projektissa</a>."
+msgstr "Clementine Remote sijaitsee toisessa <a href=\"https://github.com/clementine-player/Android-Remote\">GitHub</a> -projektissa."
 
 #: participate.html:57
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
-msgstr "Ilmoita ongelmista ja ehdota koodimuutoksia <a href=\"https://github.com/clementine-player/Android-Remote/issues\">sen omassa vianseurantajärjestelmässä</a>."
+msgstr "Ilmoita ongelmista ja ehdota koodimuutoksia <a href=\"https://github.com/clementine-player/Android-Remote/issues\">bug tracker</a>."
 
 #: participate.html:58 participate.html:64
 msgid ""
@@ -823,21 +823,21 @@ msgstr "Voit kääntää käyttöliittymän haluamallesi kielelle <a href=\"http
 
 #: participate.html:60
 msgid "Remote application for iOS"
-msgstr ""
+msgstr "Kauko-ohjaussovellus iOS:lle"
 
 #: participate.html:62
 msgid ""
 "Clementine Remote for iPhone and iPad is hosted on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
 "repository</a>."
-msgstr ""
+msgstr "Clementine Remote iPhone ja iPad sijaitsee toisessa <a href=\"https://github.com/clementine-player/iOS-Remote\">GitHub</a> -projektissa."
 
 #: participate.html:63
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
 "tracker</a>."
-msgstr ""
+msgstr "Ilmoita ongelmista ja ehdota koodimuutoksia <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">bug tracker</a>."
 
 #: participate.html:68
 msgid "Social Networking"
@@ -883,11 +883,11 @@ msgstr "ja kertoa asiasta meille:"
 #: participate.html:85
 msgid ""
 "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:86
 msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"

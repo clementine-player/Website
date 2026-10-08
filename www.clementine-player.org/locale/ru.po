@@ -30,9 +30,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-06 15:50+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Тимур Ибатуллин <timur@ibatullin.com>, 2012\n"
+"Last-Translator: Andrei Stepanov, 2014-2017,2022-2024,2026\n"
 "Language-Team: Russian (http://app.transifex.com/davidsansome/clementine/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,14 +50,14 @@ msgstr "Управляйте Clementine удалённо с вашего уст�
 
 #: android-download.html:9
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Получить в Google Play"
 
 #: android-download.html:12
 msgid ""
 "Want every change as soon as it's made? <a "
 "href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
 " the beta</a> for development builds."
-msgstr ""
+msgstr "Хотите получать каждое изменение сразу после его появления? <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Присоединяйтесь к бета-версии</a>, чтобы получать сборки для разработчиков."
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -81,7 +81,7 @@ msgstr "Участие"
 
 #: base.html:53
 msgid "A cross-platform music player inspired by Amarok 1.4"
-msgstr "Кроссплатформенный аудиоплеер, созданный в лучших традициях Amarok 1.4"
+msgstr "Кроссплатформенный музыкальный проигрыватель, вдохновлённый Amarok 1.4"
 
 #: base.html:78
 msgid ""
@@ -111,22 +111,22 @@ msgstr "Управление воспроизведением с помощью 
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
-msgstr ""
+msgstr "Просмотр фонотеки из приложения для Android."
 
 #: data.py:24
 #, python-format
 msgid "The library on %(platform)s"
-msgstr ""
+msgstr "Фонотека на %(platform)s"
 
 #: data.py:25
 #, python-format
 msgid "The library on %(platform)s, in the dark theme"
-msgstr ""
+msgstr "Фонотека на %(platform)s с тёмной темой"
 
 #: data.py:26
 #, python-format
 msgid "Internet services on %(platform)s"
-msgstr ""
+msgstr "Службы Интернет на %(platform)s"
 
 #: data.py:31
 msgid ""
@@ -215,7 +215,7 @@ msgstr "Копирование музыки на iPod в Ubuntu"
 
 #: data.py:63
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 в Ubu...ВСЯ СЛАВА ГИПНОЖАБЕ"
+msgstr "Clementine 0.5 в Ubu...СЛАВА ГИПНОЖАБЕ"
 
 #: data.py:64
 msgid "Clementine 0.5 on Mac OS X"
@@ -282,7 +282,7 @@ msgid ""
 "It's been just over a month since we released the first version of "
 "Clementine. This new version features album cover-art, better \"Various "
 "Artists\" detection, support for loading playlists, and much more."
-msgstr "Прошло чуть больше месяца с момента выхода первой версии аудиоплеера Clementine. В новой версии появился редактор обложек для альбомов, точнее определяется принадлежность музыкального альбома к категории «Различные артисты», появилась возможность загрузки списков воспроизведения, и многое другое."
+msgstr "Прошло чуть больше месяца с момента выхода первой версии Clementine. В новой версии появился редактор обложек для альбомов, точнее определяется принадлежность музыкального альбома к категории «Различные артисты», появилась возможность загрузки списков воспроизведения, и многое другое."
 
 #: data.py:270
 msgid "Version 0.3 released"
@@ -472,39 +472,39 @@ msgstr "Загрузки для других операционных систе
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
-msgstr ""
+msgstr "Debian и Ubuntu"
 
 #: downloads.html:59
 msgid ""
 "Add Clementine's apt repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Debian and Ubuntu, and "
 "Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
-msgstr ""
+msgstr "Добавьте репозиторий apt Clementine, чтобы получать новые версии вместе с остальными обновлениями. В нём есть пакеты для текущих выпусков Debian и Ubuntu, а также дистрибутивов на основе Ubuntu, таких как Linux Mint, для 64-битных ПК и ARM."
 
 #: downloads.html:74
 msgid "The repository is signed with this key:"
-msgstr ""
+msgstr "Репозиторий подписан этим ключом:"
 
 #: downloads.html:77
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: downloads.html:79
 msgid ""
 "Add Clementine's COPR repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Fedora, for 64-bit PCs "
 "and ARM."
-msgstr ""
+msgstr "Добавьте репозиторий COPR Clementine, чтобы получать новые версии вместе с остальными обновлениями. В нём есть пакеты для текущих выпусков Fedora, для 64-битных ПК и ARM."
 
 #: downloads.html:84
 msgid ""
 "If you already have Fedora's own Clementine package, which is older, replace"
 " it with this one:"
-msgstr ""
+msgstr "Если у вас уже установлен собственный пакет Clementine из Fedora, который старее, замените его этим:"
 
 #: downloads.html:88
 msgid "The first time, dnf asks you to trust the repository's signing key:"
-msgstr ""
+msgstr "При первом запуске dnf попросит вас доверять ключу подписи репозитория:"
 
 #: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
@@ -556,15 +556,15 @@ msgstr "Прослушивание радио с"
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr ""
+msgstr "Просмотр и воспроизведение музыки из"
 
 #: main.html:25
 msgid "Subsonic servers"
-msgstr ""
+msgstr "серверов Subsonic"
 
 #: main.html:27
 msgid "Plex Media Servers"
-msgstr ""
+msgstr "медиасерверов Plex"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
@@ -572,7 +572,7 @@ msgstr "Поиск и воспроизведение песен, загруже�
 
 #: main.html:37
 msgid "Scrobble what you play to"
-msgstr ""
+msgstr "Скробблинг прослушанного в"
 
 #: main.html:38
 msgid "Create smart playlists and dynamic playlists."
@@ -580,7 +580,7 @@ msgstr "Создание умных и динамических плейлист
 
 #: main.html:39
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
-msgstr ""
+msgstr "Вкладки для списков воспроизведения, импорт и экспорт M3U, XSPF, PLS, ASX и WPL."
 
 #: main.html:40
 msgid "CUE sheet support."
@@ -592,33 +592,33 @@ msgstr "Проигрывание аудио-CD."
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr ""
+msgstr "Эквалайзер и индикатор тона."
 
 #: main.html:43
 msgid "Visualisations from"
-msgstr "Визуализация при помощи"
+msgstr "Визуализация из"
 
 #: main.html:44
 msgid "Lyrics from your own files and"
-msgstr ""
+msgstr "Тексты песен из ваших файлов и"
 
 #: main.html:44
 msgid "shown in time with the song where they're timed."
-msgstr ""
+msgstr "отображаются синхронно с песней там, где указано время."
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr ""
+msgstr "Биографии и фотографии исполнителей."
 
 #: main.html:46
 msgid ""
 "Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
 " WAV."
-msgstr ""
+msgstr "Перекодирование музыки в MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA или WAV."
 
 #: main.html:47
 msgid "Edit tags and organise your music."
-msgstr ""
+msgstr "Редактирование тегов и упорядочивание вашей музыки."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
@@ -626,37 +626,37 @@ msgstr "Получение тегов к файлам с сервиса MusicBra
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr ""
+msgstr "Поиск, загрузка и синхронизация подкастов с"
 
 #: main.html:50
 msgid ""
 "Download missing album cover art from Last.fm, MusicBrainz and Discogs."
-msgstr ""
+msgstr "Загрузка недостающих обложек альбомов из Last.fm, MusicBrainz и Discogs."
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
-msgstr ""
+msgstr "Кроссплатформенность — работает в Windows, macOS и Linux."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
-msgstr ""
+msgstr "Светлая и тёмная темы или следование системной теме."
 
 #: main.html:53
 msgid ""
 "Native desktop notifications and media controls on Linux, macOS and Windows."
-msgstr ""
+msgstr "Встроенные уведомления рабочего стола и элементы управления мультимедиа в Linux, macOS и Windows."
 
 #: main.html:54
 msgid "Remote control using"
-msgstr ""
+msgstr "Удалённое управление с помощью"
 
 #: main.html:54
 msgid "an Android device"
-msgstr ""
+msgstr "устройства Android"
 
 #: main.html:54
 msgid "an iPhone or iPad"
-msgstr ""
+msgstr "iPhone или iPad"
 
 #: main.html:54
 msgid "a Wii Remote"
@@ -670,7 +670,7 @@ msgstr "MPRIS или командной строки."
 msgid ""
 "With Clementine Remote, browse your library and internet services, download "
 "songs, and play Clementine's music on your phone."
-msgstr ""
+msgstr "С Clementine Remote просматривайте свою фонотеку и интернет-сервисы, загружайте песни и слушайте музыку Clementine на своём телефоне."
 
 #: main.html:56
 msgid "Copy music to your"
@@ -678,7 +678,7 @@ msgstr "Копирование музыки на ваш"
 
 #: main.html:56
 msgid "iPod, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, MTP-плеер или USB-накопитель."
 
 #: main.html:57
 msgid "Queue manager."
@@ -746,7 +746,7 @@ msgstr "Форум"
 msgid ""
 "Clementine uses GitHub Discussions for questions, help and general "
 "discussion."
-msgstr ""
+msgstr "Clementine использует GitHub Discussions для вопросов, помощи и общего обсуждения."
 
 #: participate.html:14
 msgid "Support and discussion group"
@@ -840,21 +840,21 @@ msgstr "Вы можете перевести интерфейс в <a href=\"htt
 
 #: participate.html:60
 msgid "Remote application for iOS"
-msgstr ""
+msgstr "Приложение удалённого управления для iOS"
 
 #: participate.html:62
 msgid ""
 "Clementine Remote for iPhone and iPad is hosted on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
 "repository</a>."
-msgstr ""
+msgstr "Clementine Remote для iPhone и iPad размещён в <a href=\"https://github.com/clementine-player/iOS-Remote\">другом репозитории GitHub</a>."
 
 #: participate.html:63
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
 "tracker</a>."
-msgstr ""
+msgstr "Вы можете сообщить об ошибке или предоставить патч на <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">соответствующем баг-трекере</a>."
 
 #: participate.html:68
 msgid "Social Networking"
@@ -900,11 +900,11 @@ msgstr "рассказав нам об этом:"
 #: participate.html:85
 msgid ""
 "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:86
 msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"

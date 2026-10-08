@@ -10,14 +10,15 @@
 # Gabriel Rolland <rollopack@gmail.com>, 2012
 # Gabriel Rolland <rollopack@gmail.com>, 2012
 # Gabriel Rolland <rollopack@gmail.com>, 2012
+# Vincenzo Reale <smart2128vr@gmail.com>, 2026
 # Vincenzo Reale <smart2128vr@gmail.com>, 2012-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-06 15:50+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Gabriel Rolland <rollopack@gmail.com>, 2012\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>, 2026\n"
 "Language-Team: Italian (http://app.transifex.com/davidsansome/clementine/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,14 +36,14 @@ msgstr "Controlla Clementine da remoto tramite il tuo telefono Android"
 
 #: android-download.html:9
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Scaricalo su Google Play"
 
 #: android-download.html:12
 msgid ""
 "Want every change as soon as it's made? <a "
 "href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
 " the beta</a> for development builds."
-msgstr ""
+msgstr "Vuoi ricevere ogni modifica non appena viene apportata? <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Iscriviti al programma beta</a> per le versioni di sviluppo."
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -96,22 +97,22 @@ msgstr "Controllo della riproduzione dall'applicazione Android"
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
-msgstr ""
+msgstr "Sfogliare la raccolta dall'applicazione Android"
 
 #: data.py:24
 #, python-format
 msgid "The library on %(platform)s"
-msgstr ""
+msgstr "La raccolta su %(platform)s"
 
 #: data.py:25
 #, python-format
 msgid "The library on %(platform)s, in the dark theme"
-msgstr ""
+msgstr "La raccolta su %(platform)s, nel tema scuro"
 
 #: data.py:26
 #, python-format
 msgid "Internet services on %(platform)s"
-msgstr ""
+msgstr "Servizi Internet su %(platform)s"
 
 #: data.py:31
 msgid ""
@@ -457,39 +458,39 @@ msgstr "Versioni per gli altri sistemi operativi"
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
-msgstr ""
+msgstr "Debian e Ubuntu"
 
 #: downloads.html:59
 msgid ""
 "Add Clementine's apt repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Debian and Ubuntu, and "
 "Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
-msgstr ""
+msgstr "Aggiungi il repository APT di Clementine per ricevere le nuove versioni insieme al resto dei tuoi aggiornamenti. Contiene pacchetti per le versioni attuali di Debian e Ubuntu, e per le distribuzioni basate su Ubuntu come Linux Mint, sia per PC a 64 bit che per architetture ARM."
 
 #: downloads.html:74
 msgid "The repository is signed with this key:"
-msgstr ""
+msgstr "Il repository è firmato con questa chiave:"
 
 #: downloads.html:77
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: downloads.html:79
 msgid ""
 "Add Clementine's COPR repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Fedora, for 64-bit PCs "
 "and ARM."
-msgstr ""
+msgstr "Aggiungi il repository COPR di Clementine per ricevere le nuove versioni insieme al resto dei tuoi aggiornamenti. Ha pacchetti per le versioni attuali di Fedora, per PC a 64 bit e ARM."
 
 #: downloads.html:84
 msgid ""
 "If you already have Fedora's own Clementine package, which is older, replace"
 " it with this one:"
-msgstr ""
+msgstr "Se hai già il pacchetto Clementine di Fedora, che è più vecchio, sostituiscilo con questo:"
 
 #: downloads.html:88
 msgid "The first time, dnf asks you to trust the repository's signing key:"
-msgstr ""
+msgstr "La prima volta, dnf ti chiede di confermare e accettare la chiave di firma del repository:"
 
 #: downloads.html:93 downloads.html:108
 msgid "Other Downloads"
@@ -541,15 +542,15 @@ msgstr "Ascoltare radio via internet da"
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr ""
+msgstr "Sfoglia e riproduci musica da"
 
 #: main.html:25
 msgid "Subsonic servers"
-msgstr ""
+msgstr "Server Subsonic"
 
 #: main.html:27
 msgid "Plex Media Servers"
-msgstr ""
+msgstr "Server Plex Media"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
@@ -557,7 +558,7 @@ msgstr "Cercare e riprodurre il brano caricato su"
 
 #: main.html:37
 msgid "Scrobble what you play to"
-msgstr ""
+msgstr "Invia i dati di ciò che riproduci su"
 
 #: main.html:38
 msgid "Create smart playlists and dynamic playlists."
@@ -565,7 +566,7 @@ msgstr "Creare scalette veloci e scalette dinamiche"
 
 #: main.html:39
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
-msgstr ""
+msgstr "Scalette a schede, importazione ed esportazione M3U, XSPF, PLS, ASX e WPL."
 
 #: main.html:40
 msgid "CUE sheet support."
@@ -577,7 +578,7 @@ msgstr "Riproduzione CD audio."
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr ""
+msgstr "Equalizzatore e barra dell'atmosfera"
 
 #: main.html:43
 msgid "Visualisations from"
@@ -585,25 +586,25 @@ msgstr "Visualizzazioni da"
 
 #: main.html:44
 msgid "Lyrics from your own files and"
-msgstr ""
+msgstr "Testi dai tuoi file e"
 
 #: main.html:44
 msgid "shown in time with the song where they're timed."
-msgstr ""
+msgstr "mostrati a tempo con il brano dove sono sincronizzati."
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr ""
+msgstr "Biografie e foto degli artisti."
 
 #: main.html:46
 msgid ""
 "Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
 " WAV."
-msgstr ""
+msgstr "Transcodifica la musica in MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA o WAV."
 
 #: main.html:47
 msgid "Edit tags and organise your music."
-msgstr ""
+msgstr "Modifica i tag e organizza la tua musica."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
@@ -611,37 +612,37 @@ msgstr "Scaricare i tag mancanti da MusicBrainz."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr ""
+msgstr "Scopri, scarica e sincronizza i podcast con"
 
 #: main.html:50
 msgid ""
 "Download missing album cover art from Last.fm, MusicBrainz and Discogs."
-msgstr ""
+msgstr "Scarica le copertine degli album mancanti da Last.fm, MusicBrainz e Discogs."
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
-msgstr ""
+msgstr "Multi-piattaforma - funziona su Windows, macOS e Linux."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
-msgstr ""
+msgstr "Temi chiari e scuri, o usa quello del tuo sistema."
 
 #: main.html:53
 msgid ""
 "Native desktop notifications and media controls on Linux, macOS and Windows."
-msgstr ""
+msgstr "Notifiche desktop native e controlli multimediali su Linux, macOS e Windows."
 
 #: main.html:54
 msgid "Remote control using"
-msgstr ""
+msgstr "Controllo remoto utilizzando"
 
 #: main.html:54
 msgid "an Android device"
-msgstr ""
+msgstr "un dispositivo Android"
 
 #: main.html:54
 msgid "an iPhone or iPad"
-msgstr ""
+msgstr "un iPhone o iPad"
 
 #: main.html:54
 msgid "a Wii Remote"
@@ -655,7 +656,7 @@ msgstr "MPRIS o la riga di comando"
 msgid ""
 "With Clementine Remote, browse your library and internet services, download "
 "songs, and play Clementine's music on your phone."
-msgstr ""
+msgstr "Con Clementine Remote, sfoglia la tua raccolta e i servizi Internet, scarica brani e ascolta la musica di Clementine sul tuo telefono."
 
 #: main.html:56
 msgid "Copy music to your"
@@ -663,7 +664,7 @@ msgstr "Copiare musica sul proprio"
 
 #: main.html:56
 msgid "iPod, MTP or mass-storage USB player."
-msgstr ""
+msgstr "Lettore di iPod, MTP o memorie di massa USB."
 
 #: main.html:57
 msgid "Queue manager."
@@ -731,7 +732,7 @@ msgstr "Forum"
 msgid ""
 "Clementine uses GitHub Discussions for questions, help and general "
 "discussion."
-msgstr ""
+msgstr "Clementine usa GitHub Discussions per domande, supporto e discussioni generali."
 
 #: participate.html:14
 msgid "Support and discussion group"
@@ -825,21 +826,21 @@ msgstr "Puoi tradurre l'interfaccia su <a href=\"https://explore.transifex.com/d
 
 #: participate.html:60
 msgid "Remote application for iOS"
-msgstr ""
+msgstr "Applicazione remota per iOS"
 
 #: participate.html:62
 msgid ""
 "Clementine Remote for iPhone and iPad is hosted on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
 "repository</a>."
-msgstr ""
+msgstr "Clementine Remote per iPhone e iPad è ospitato su <a href=\"https://github.com/clementine-player/iOS-Remote\">un altro repository GitHub</a>. "
 
 #: participate.html:63
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
 "tracker</a>."
-msgstr ""
+msgstr "Puoi segnalare problemi e proporre patch sul <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">sistema di tracciamento dei bug</a>."
 
 #: participate.html:68
 msgid "Social Networking"
@@ -885,11 +886,11 @@ msgstr "e tienici informati:"
 #: participate.html:85
 msgid ""
 "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
 
 #: participate.html:86
 msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
 
 #: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
