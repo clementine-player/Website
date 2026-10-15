@@ -33,9 +33,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-06 15:50+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: Ricardo Andrés <blurmuse@gmail.com>, 2012\n"
+"Last-Translator: Adolfo Jayme Barrientos, 2012-2013,2018,2026\n"
 "Language-Team: Spanish (http://app.transifex.com/davidsansome/clementine/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +53,7 @@ msgstr "Controle Clementine desde su teléfono con Android"
 
 #: android-download.html:9
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Consígalo en Google Play"
 
 #: android-download.html:12
 msgid ""
@@ -119,17 +119,17 @@ msgstr ""
 #: data.py:24
 #, python-format
 msgid "The library on %(platform)s"
-msgstr ""
+msgstr "La fonoteca bajo %(platform)s"
 
 #: data.py:25
 #, python-format
 msgid "The library on %(platform)s, in the dark theme"
-msgstr ""
+msgstr "La fonoteca bajo %(platform)s, en el tema oscuro"
 
 #: data.py:26
 #, python-format
 msgid "Internet services on %(platform)s"
-msgstr ""
+msgstr "Servicios de Internet en %(platform)s"
 
 #: data.py:31
 msgid ""
@@ -475,7 +475,7 @@ msgstr "Descargas para otros sistemas operativos"
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
-msgstr ""
+msgstr "Debian y Ubuntu"
 
 #: downloads.html:59
 msgid ""
@@ -486,11 +486,11 @@ msgstr ""
 
 #: downloads.html:74
 msgid "The repository is signed with this key:"
-msgstr ""
+msgstr "El repositorio está firmado con esta clave:"
 
 #: downloads.html:77
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: downloads.html:79
 msgid ""
@@ -563,7 +563,7 @@ msgstr ""
 
 #: main.html:25
 msgid "Subsonic servers"
-msgstr ""
+msgstr "servidores Subsonic"
 
 #: main.html:27
 msgid "Plex Media Servers"
@@ -595,7 +595,7 @@ msgstr "Reproducir CD de sonido."
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr ""
+msgstr "Ecualizador y barra de ánimo."
 
 #: main.html:43
 msgid "Visualisations from"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr ""
+msgstr "Biografías y fotos de artistas."
 
 #: main.html:46
 msgid ""
@@ -655,11 +655,11 @@ msgstr ""
 
 #: main.html:54
 msgid "an Android device"
-msgstr ""
+msgstr "un dispositivo Android"
 
 #: main.html:54
 msgid "an iPhone or iPad"
-msgstr ""
+msgstr "un iPhone o iPad"
 
 #: main.html:54
 msgid "a Wii Remote"

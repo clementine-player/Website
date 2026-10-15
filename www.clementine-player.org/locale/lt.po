@@ -6,15 +6,16 @@
 # Liudas Alisauskas <liudas.alisauskas@gmail.com>, 2012
 # Liudas Alisauskas <liudas.alisauskas@gmail.com>, 2012
 # Moo, 2014-2015,2017
+# Moo, 2026
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 # pencininkas4 <pencininkas4@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-06 15:50+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
-"Last-Translator: pencininkas4 <pencininkas4@gmail.com>, 2012\n"
+"Last-Translator: Moo, 2026\n"
 "Language-Team: Lithuanian (http://app.transifex.com/davidsansome/clementine/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,14 +33,14 @@ msgstr "Valdykite Clementine per nuotolį iš savo Android telefono"
 
 #: android-download.html:9
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Gaukite iš „Google Play“"
 
 #: android-download.html:12
 msgid ""
 "Want every change as soon as it's made? <a "
 "href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
 " the beta</a> for development builds."
-msgstr ""
+msgstr "Norite naudotis naujais pakeitimais, kai tik jie atsiranda? <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Prisijunkite prie beta</a>, kad gautumėte plėtojimo darinius."
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -454,7 +455,7 @@ msgstr "Atsiuntimai kitoms operacinėms sistemoms"
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
-msgstr ""
+msgstr "Debian ir Ubuntu"
 
 #: downloads.html:59
 msgid ""
@@ -469,7 +470,7 @@ msgstr ""
 
 #: downloads.html:77
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: downloads.html:79
 msgid ""
@@ -538,15 +539,15 @@ msgstr "Klausyti internetinio radijo iš"
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr ""
+msgstr "Naršykite ir atkurkite muziką iš"
 
 #: main.html:25
 msgid "Subsonic servers"
-msgstr ""
+msgstr "Subsonic serverių"
 
 #: main.html:27
 msgid "Plex Media Servers"
-msgstr ""
+msgstr "Plex Media serverių"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
@@ -574,7 +575,7 @@ msgstr "Groti Audio CD."
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr ""
+msgstr "Vienodintuvas ir nuotaikos juosta."
 
 #: main.html:43
 msgid "Visualisations from"
@@ -582,7 +583,7 @@ msgstr "Vizualizacijos iš"
 
 #: main.html:44
 msgid "Lyrics from your own files and"
-msgstr ""
+msgstr "Dainų žodžiai iš jūsų nuosavų failų ir"
 
 #: main.html:44
 msgid "shown in time with the song where they're timed."
@@ -590,17 +591,17 @@ msgstr ""
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr ""
+msgstr "Atlikėjų biografijos ir nuotraukos."
 
 #: main.html:46
 msgid ""
 "Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
 " WAV."
-msgstr ""
+msgstr "Perkoduokite muziką į MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA ar WAV."
 
 #: main.html:47
 msgid "Edit tags and organise your music."
-msgstr ""
+msgstr "Taisykite žymes ir tvarkykite savo muziką."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
@@ -608,37 +609,37 @@ msgstr "Gaukite trūkstamas žymas iš MusicBrainz."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr ""
+msgstr "Atraskite, atsisiųskite ir sinchronizuokite tinklalaides naudodami"
 
 #: main.html:50
 msgid ""
 "Download missing album cover art from Last.fm, MusicBrainz and Discogs."
-msgstr ""
+msgstr "Atsisiųskite trūkstamus albumų viršelius iš „Last.fm“, „MusicBrainz“ ir „Discogs“."
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
-msgstr ""
+msgstr "Daugiaplatformė – veikia „Windows“, „macOS“ ir „Linux“ platformose."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
-msgstr ""
+msgstr "Šviesūs ir tamsūs apipavidalinimai, o taip pat apipavidalinimai pagal sistemą."
 
 #: main.html:53
 msgid ""
 "Native desktop notifications and media controls on Linux, macOS and Windows."
-msgstr ""
+msgstr "Savi darbalaukio pranešimai ir medijos valdikliai „Linux“, „macOS“ ir „Windows“ platformose. "
 
 #: main.html:54
 msgid "Remote control using"
-msgstr ""
+msgstr "Nuotolinis valdymas naudojant"
 
 #: main.html:54
 msgid "an Android device"
-msgstr ""
+msgstr "„Android“ įrenginį"
 
 #: main.html:54
 msgid "an iPhone or iPad"
-msgstr ""
+msgstr "„iPhone“ ar „iPad“"
 
 #: main.html:54
 msgid "a Wii Remote"
@@ -646,7 +647,7 @@ msgstr "Wii Remote"
 
 #: main.html:54
 msgid "MPRIS or the command-line."
-msgstr "MPRIS komandinėje eilutėje."
+msgstr "MPRIS ar komandų eilutę."
 
 #: main.html:55
 msgid ""
