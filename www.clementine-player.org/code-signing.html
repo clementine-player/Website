@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Windows code signing policy") }} | {% endblock %}
+{% block path %}/code-signing{% endblock %}
+
+{% block content %}
+
+<h1>{{ _("Windows code signing policy") }}</h1>
+
+<p>{{ _("This policy covers Clementine for Windows. The macOS build is signed with an Apple Developer ID instead.") }}</p>
+
+<p>Free code signing provided by <a href="https://about.signpath.io">SignPath.io</a>, certificate by <a href="https://signpath.org">SignPath Foundation</a>.</p>
+
+<h2>{{ _("What is signed") }}</h2>
+
+<p>{{ _("The Windows installer is signed, and so are the programs in it that Clementine builds: clementine.exe, clementine-tagreader.exe and the uninstaller.") }}
+{{ _("They are built from the source code in Clementine's GitHub repository by GitHub Actions, and SignPath checks that they were before signing them.") }}
+{{ _("The installer also holds libraries other projects build, such as Qt and GStreamer. Clementine doesn't sign those.") }}</p>
+
+<ul>
+  <li><a href="https://github.com/clementine-player/Clementine">{{ _("Source code") }}</a></li>
+  <li><a href="https://github.com/clementine-player/Clementine/blob/master/.github/workflows/all.yml">{{ _("Build workflow") }}</a></li>
+</ul>
+
+<h2>{{ _("Team roles") }}</h2>
+
+<ul>
+  <li>{{ _("Committers and reviewers:") }} <a href="https://github.com/orgs/clementine-player/people">{{ _("members of the clementine-player organization on GitHub") }}</a></li>
+  <li>{{ _("Approvers:") }} <a href="https://github.com/hatstand">John Maguire</a></li>
+</ul>
+
+<p>{{ _("Every change from someone outside the team is reviewed before it is merged, and every signed release is approved by hand.") }}</p>
+
+<h2>{{ _("Privacy") }}</h2>
+
+<p>{{ _("See the privacy policy for what Clementine sends to other networked systems.") }}</p>
+
+<ul>
+  <li><a href="/{{ language }}/privacy">{{ _("Privacy Policy") }}</a></li>
+</ul>
+
+{% endblock %}

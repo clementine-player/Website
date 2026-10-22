@@ -110,7 +110,8 @@ client = main.app.test_client()
 routes = [
     ('/', 200), ('/en/', 200), ('/fr/about', 200), ('/downloads', 200),
     ('/pt_BR/downloads', 200), ('/screenshots', 200), ('/participate', 200),
-    ('/privacy', 200), ('/de/privacy', 200), ('/wiimote', 302),
+    ('/privacy', 200), ('/de/privacy', 200), ('/code-signing', 200),
+    ('/de/code-signing', 200), ('/wiimote', 302),
     ('/.well-known/acme-challenge/xyz', 302),
     ('/xyz123/about', 404),  # malformed language code should 404, not crash
 ]
