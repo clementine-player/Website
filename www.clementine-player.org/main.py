@@ -723,6 +723,12 @@ def privacy(language=None):
   return make_page('privacy.html', language)
 
 
+@app.route('/code-signing')
+@app.route('/<lang:language>/code-signing')
+def code_signing(language=None):
+  return make_page('code-signing.html', language)
+
+
 @app.route('/wiimote')
 def wiimote():
   return redirect('https://github.com/clementine-player/Clementine/wiki/Wii-Remotes')
