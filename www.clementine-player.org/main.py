@@ -168,19 +168,15 @@ def _write_cache(key, value, fetched_at):
 
 def _fetch_release_from_github():
   token = base64.b64encode(('%s:' % GITHUB_TOKEN).encode('utf-8')).decode('ascii')
-  # There's no longer an official "latest" release -- releases are rolling
-  # now, so /releases/latest (which only ever returns the newest release
-  # NOT marked as a prerelease) can point at an arbitrarily old release.
-  # Ask for the single newest release instead, published or not.
+  # The newest numbered release, which Clementine makes weekly when there's
+  # something new. Every change also makes a development build, but those
+  # are prereleases, which /releases/latest leaves out.
   r = requests.get(
-      'https://api.github.com/repos/clementine-player/Clementine/releases?per_page=1',
+      'https://api.github.com/repos/clementine-player/Clementine/releases/latest',
       headers={'Authorization': 'Basic %s' % token})
   if r.status_code != 200:
-    raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.text))
-  releases = r.json()
-  if not releases:
-    raise GithubFetchError('No releases found')
-  return json.dumps(releases[0])
+    raise GithubFetchError('Error fetching the latest release: %d %s' % (r.status_code, r.text))
+  return json.dumps(r.json())
 
 
 def _release_screenshot_key(asset):
