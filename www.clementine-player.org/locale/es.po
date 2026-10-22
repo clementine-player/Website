@@ -114,7 +114,7 @@ msgstr "Control de la reproducción desde la aplicación para Android"
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
-msgstr ""
+msgstr "Exploración de la fonoteca desde la aplicación para Android"
 
 #: data.py:24
 #, python-format
@@ -559,7 +559,7 @@ msgstr "Escuche radio en Internet desde"
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr ""
+msgstr "Explore y reproduzca música de"
 
 #: main.html:25
 msgid "Subsonic servers"
@@ -629,7 +629,7 @@ msgstr "Encuentre etiquetas faltantes con MusicBrainz."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr ""
+msgstr "Descubra, descargue y sincronice pódcast con"
 
 #: main.html:50
 msgid ""
@@ -638,7 +638,7 @@ msgstr ""
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
-msgstr ""
+msgstr "Multiplataforma: funciona en Windows, macOS y Linux."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
@@ -749,7 +749,7 @@ msgstr "Foro"
 msgid ""
 "Clementine uses GitHub Discussions for questions, help and general "
 "discussion."
-msgstr ""
+msgstr "Clementine usa GitHub Discussions para preguntas, ayuda y debates generales."
 
 #: participate.html:14
 msgid "Support and discussion group"
