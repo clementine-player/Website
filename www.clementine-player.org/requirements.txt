@@ -3,6 +3,6 @@ gunicorn==26.2.0
 Jinja2==3.1.6
 Babel==2.18.0
 requests==2.34.2
-Pillow==12.3.0
+Pillow==13.0.0
 google-cloud-datastore==2.26.1
 google-cloud-secret-manager==2.30.0
