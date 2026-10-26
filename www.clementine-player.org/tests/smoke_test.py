@@ -93,6 +93,32 @@ main.get_distro_codenames = lambda: {'jammy': 'ubuntu', 'bookworm': 'debian'}
 main._fetch_android_screenshots_from_github = lambda: json.dumps(
     {'tag': 'v13.3', 'numbers': [1, 2, 3]})
 
+# And for the news: GitHub's releases, newest first, with development builds
+# (old ones weren't prereleases) between the numbered ones.
+def canned_releases():
+  def release(tag, body, prerelease=False, published='2026-10-26T14:45:27Z'):
+    return {'tag_name': tag, 'draft': False, 'prerelease': prerelease, 'body': body,
+            'published_at': published,
+            'html_url': 'https://github.com/clementine-player/Clementine/releases/tag/' + tag}
+  return [
+      release('1.4.3-2-g3d91f9342', '- A development build.', prerelease=True),
+      release('1.4.3', '- Play music on a <Chromecast> & more.\n'
+                       '- See [the wiki](https://example.com/wiki).\n\n'
+                       'Development builds, from every change since: '
+                       '[pre-releases](https://github.com/clementine-player/Clementine/releases)\n'),
+      release('1.4.1-161-g8157c0929', None),
+      release('1.3.1', 'Fixes a bug where ratings are deleted when upgrading from older versions.\n'
+                       '* Second note.', published='2016-04-19T16:37:27Z'),
+  ]
+class FakeResponse:
+  status_code = 200
+  def json(self):
+    return canned_releases()
+real_get = main.requests.get
+main.requests.get = lambda url, **kwargs: (
+    FakeResponse() if url == 'https://api.github.com/repos/clementine-player/Clementine/releases'
+    else real_get(url, **kwargs))
+
 print('import main: OK, app = %r' % (main.app,))
 
 downloads = main.fetch_release()
@@ -151,6 +177,34 @@ for expected in ('/thumbnails/android/v13.3/1.png', '/thumbnails/android/v13.3/2
 if 'clementine-1.2-3.png' in home:
   failures.append(('/', 'still shows the old app', 'replaced'))
 
+# The news is the numbered releases' notes, escaped, with their links.
+home = client.get('/').get_data(as_text=True)
+news = home[home.index('id="news"'):]
+for expected in ('Version 1.4.3 released', 'Version 1.3.1 released', 'Monday, October 26, 2026',
+                 '<li>Play music on a &lt;Chromecast&gt; &amp; more.</li>',
+                 '<li>See <a href="https://example.com/wiki">the wiki</a>.</li>',
+                 '<li>Second note.</li>'):
+  if expected not in news:
+    failures.append(('/ news', 'missing %r' % expected, 'present'))
+for unexpected in ('A development build', '1.4.1-161', 'Development builds, from', 'Fixes a bug where'):
+  if unexpected in news:
+    failures.append(('/ news', 'has %r' % unexpected, 'absent'))
+# Without GitHub, the home page has no news rather than failing.
+fetch_news = main._fetch_news_from_github
+def news_unavailable():
+  raise main.GithubFetchError('GitHub is down')
+main._fetch_news_from_github = news_unavailable
+from google.cloud import datastore as fake_datastore  # tests/fakes
+fake_datastore._STORE.clear()
+main._local_cache.clear()
+resp = client.get('/')
+if resp.status_code != 200 or 'Version 1.4.3 released' in resp.get_data(as_text=True):
+  failures.append(('/ without news', resp.status_code, 200))
+main._fetch_news_from_github = fetch_news
+fake_datastore._STORE.clear()
+main._local_cache.clear()
+print('News from releases: %s' % ('OK' if not failures else 'FAILED'))
+
 fetch = main._fetch_android_screenshots_from_github
 attempts = []
 def unavailable():
@@ -158,7 +212,6 @@ def unavailable():
   raise main.GithubFetchError('GitHub is down')
 main._fetch_android_screenshots_from_github = unavailable
 main._local_cache.clear()
-from google.cloud import datastore as fake_datastore  # tests/fakes
 fake_datastore._STORE.clear()
 resp = client.get('/screenshots')
 if resp.status_code != 200:

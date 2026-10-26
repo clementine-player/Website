@@ -138,11 +138,16 @@
 <h1>{{ _("News") }}</h1>
 <a id="news"></a>
 
-{% for n in news|sort(attribute="timestamp")|reverse %}
+{% for n in news %}
   <div>
-    <h3>{{ n.title }} - {{ n.datetime|datetime(language) }}</h3>
+    <h3><a href="{{ n.url }}">{{ _("Version %(version)s released", version=n.version) }}</a> - {{ n.datetime|datetime(language) }}</h3>
 
-    <p class="content">{{ n.content|safe }}</p>
+    <ul class="content">
+    {% for note in n.notes %}
+      <li>{{ note }}</li>
+    {% endfor %}
+    </ul>
   </div>
 {% endfor %}
+<p><a href="https://github.com/clementine-player/Clementine/releases">{{ _("All releases and development builds") }}</a></p>
 {% endblock %}
