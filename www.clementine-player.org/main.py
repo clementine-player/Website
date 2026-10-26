@@ -4,6 +4,7 @@ import base64
 import hashlib
 import copy
 import datetime
+import html
 import json
 import logging
 import os
@@ -21,7 +22,6 @@ from werkzeug.routing import BaseConverter
 from data import LANGUAGE_NAMES
 from data import LANGUAGES
 from data import ANDROID_HOME_SCREENSHOTS
-from data import NEWS
 from data import RELEASE_PLATFORMS
 from data import RELEASE_SCREENSHOTS
 from data import SCREENSHOTS
@@ -33,11 +33,21 @@ from thumbnailer import thumbnailer
 RELEASES_KEY = 'github_releases'
 RELEASES_CACHE_SECONDS = 60 * 60
 ANDROID_SCREENSHOTS_KEY = 'android_screenshots'
+NEWS_KEY = 'github_news'
+# How many of Clementine's newest numbered releases the home page's news shows.
+NEWS_RELEASES = 5
+# A numbered release's tag, such as 1.4.3. Development builds' tags have more
+# after it (1.4.3-12-g4c062729d), and the older ones aren't prereleases.
+RELEASE_TAG = re.compile(r'[0-9]+(\.[0-9]+)+')
+# A release's notes are a Markdown list, one item for each, written by
+# dist/release_notes.py in the Clementine repository.
+RELEASE_NOTE = re.compile(r'[-*] +(.+)')
+MARKDOWN_LINK = re.compile(r'\[([^\]]+)\]\((https?://[^)\s]+)\)')
 # A screenshot on a Clementine release: screenshot-<platform>-<screen>.png.
 RELEASE_SCREENSHOT = re.compile(r'screenshot-([a-z]+)-([a-z-]+)\.png$')
 # After a failed fetch, how long until the next try. The home page shows these,
 # so while GitHub is down every view mustn't wait for it again.
-ANDROID_RETRY_SECONDS = 5 * 60
+RETRY_SECONDS = 5 * 60
 DISTRO_CODENAMES_KEY = 'distro_codenames'
 # New Debian/Ubuntu codenames appear at most a few times a year, so this
 # can be far less fresh than the release cache above.
@@ -179,6 +189,47 @@ def _fetch_release_from_github():
   return json.dumps(r.json())
 
 
+def _note_html(note):
+  # One of a release's notes, which are plain text apart from the odd link.
+  return MARKDOWN_LINK.sub(r'<a href="\2">\1</a>', html.escape(note))
+
+
+def _fetch_news_from_github():
+  token = base64.b64encode(('%s:' % GITHUB_TOKEN).encode('utf-8')).decode('ascii')
+  # Newest first, with the development builds in between: about 17 a week, so
+  # this many goes back about five weekly releases.
+  r = requests.get(
+      'https://api.github.com/repos/clementine-player/Clementine/releases',
+      params={'per_page': 100},
+      headers={'Authorization': 'Basic %s' % token}, timeout=10)
+  if r.status_code != 200:
+    raise GithubFetchError('Error fetching releases: %d %s' % (r.status_code, r.text))
+  news = []
+  for release in r.json():
+    if release['draft'] or release['prerelease'] or not RELEASE_TAG.fullmatch(release['tag_name']):
+      continue
+    # Just the notes: the rest says where the development builds are.
+    notes = [m.group(1) for m in (RELEASE_NOTE.fullmatch(line.strip())
+                                  for line in (release['body'] or '').splitlines()) if m]
+    news.append({
+      'version': release['tag_name'],
+      'published_at': release['published_at'],
+      'url': release['html_url'],
+      'notes': [_note_html(n) for n in notes],
+    })
+    if len(news) == NEWS_RELEASES:
+      break
+  return json.dumps(news)
+
+
+def fetch_news():
+  # The newest numbered releases' notes, newest first, for the home page.
+  news = json.loads(_load_cached(NEWS_KEY, lambda: _fetch_news_from_github(), '[]', 'news'))
+  for n in news:
+    n['datetime'] = datetime.datetime.fromisoformat(n['published_at'].replace('Z', '+00:00'))
+  return news
+
+
 def _release_screenshot_key(asset):
   # What its thumbnail and full size are kept by: its contents' SHA-256, which
   # GitHub gives, so a release whose screenshots didn't change reuses them.
@@ -266,32 +317,41 @@ def _fetch_android_screenshots_from_github():
   return json.dumps({'tag': tag, 'numbers': numbers})
 
 
+def _load_cached(key, fetch, default, what):
+  # What fetch() returns, cached for RELEASES_CACHE_SECONDS. For what the home
+  # page only shows alongside the rest, so it must never take it down: when
+  # fetch() fails, whatever there was, or default.
+  now = time.time()
+  try:
+    cached = _read_cache(key)
+  except Exception:
+    logging.exception('Failed to read the %s from the cache', what)
+    cached = None
+  if cached is not None and now - cached['fetched_at'] < RELEASES_CACHE_SECONDS:
+    return cached['value']
+  try:
+    content = fetch()
+    _write_cache(key, content, now)
+    return content
+  except Exception:
+    logging.exception('Failed to fetch the %s', what)
+    # Keep what there was, or the default, as if fetched just long enough ago
+    # to be tried again in RETRY_SECONDS.
+    content = cached['value'] if cached is not None else default
+    try:
+      _write_cache(key, content, now - RELEASES_CACHE_SECONDS + RETRY_SECONDS)
+    except Exception:
+      logging.exception('Failed to cache the %s', what)
+    return content
+
+
 def fetch_android_screenshots():
   # The newest Clementine Remote release's store screenshots, or None. Only
   # the screenshots page shows them, so they must never take it down.
-  now = time.time()
-  try:
-    cached = _read_cache(ANDROID_SCREENSHOTS_KEY)
-  except Exception:
-    logging.exception('Failed to read the Android screenshots from the cache')
-    cached = None
-  if cached is not None and now - cached['fetched_at'] < RELEASES_CACHE_SECONDS:
-    content = cached['value']
-  else:
-    try:
-      content = _fetch_android_screenshots_from_github()
-      _write_cache(ANDROID_SCREENSHOTS_KEY, content, now)
-    except Exception:
-      logging.exception('Failed to fetch the Android screenshots')
-      # Keep what there was, or nothing, as if fetched just long enough ago to
-      # be tried again in ANDROID_RETRY_SECONDS.
-      content = cached['value'] if cached is not None else json.dumps({'tag': None, 'numbers': []})
-      try:
-        _write_cache(ANDROID_SCREENSHOTS_KEY, content,
-                     now - RELEASES_CACHE_SECONDS + ANDROID_RETRY_SECONDS)
-      except Exception:
-        logging.exception('Failed to cache the Android screenshots')
-
+  content = _load_cached(ANDROID_SCREENSHOTS_KEY,
+                         lambda: _fetch_android_screenshots_from_github(),
+                         json.dumps({'tag': None, 'numbers': []}),
+                         'Android screenshots')
   release = json.loads(content)
   if not release['numbers']:
     return None
@@ -577,13 +637,6 @@ def make_page(template_file, language):
 
   downloads = fetch_release()
 
-  # Add datetime objects to the list of news, and translate.
-  news = copy.deepcopy(NEWS)
-  for n in news:
-    n['datetime'] = datetime.datetime.fromtimestamp(n['timestamp'])
-    n['title'] = translations.gettext(n['title'])
-    n['content'] = translations.gettext(n['content'])
-
   screenshots = copy.deepcopy(SCREENSHOTS)
   for s in screenshots:
     for e in s['entries']:
@@ -592,6 +645,8 @@ def make_page(template_file, language):
       # These have long been served from the old pages repository.
       e['thumbnail'] = 'https://clementine-player.github.io/pages/images/thumbnails/' + e['file']
       e['full'] = 'https://clementine-player.github.io/pages/images/screenshots/' + e['file']
+
+  news = fetch_news() if template_file == 'main.html' else []
 
   android_screenshots = None
   release_screenshots = None
