@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-26 15:44+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2017-2018,2022\n"
 "Language-Team: Icelandic (http://app.transifex.com/davidsansome/clementine/language/is/)\n"
@@ -252,187 +252,6 @@ msgstr "Upprunakóði"
 msgid "Source"
 msgstr "Frumrit"
 
-#: data.py:263
-msgid "Version 0.2 released"
-msgstr "Útgáfa 0.2 gerð tiltæk"
-
-#: data.py:264
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
-msgstr "Rétt um mánuður síðan fyrsta útgáfa Clementine kom út. Þessi nýja útgáfa býður upp á umslagsmyndir, betri greiningu á \"ýmsir flytjendur\", stuðning við hleðslu spilunarlista, og margt fleira."
-
-#: data.py:270
-msgid "Version 0.3 released"
-msgstr "Útgáfa 0.3 gerð tiltæk"
-
-#: data.py:271
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Í þessari útgáfu skiptum við yfir í GStreamer á öllum stýrikerfum, sem þýðir að greining og krossblöndun milli rása mun núna virka á Windows. Meðal nýrra eiginleika eru hljóðblandari, fleiri möguleikar við að hópa atriði í safni, fallegri OSD-stjórntextar, fjarstýring af skipanalínu og MPRIS, auk einfaldari vinnslu merkinga."
-
-#: data.py:279
-msgid "Version 0.4 released"
-msgstr "Útgáfa 0.4 gerð tiltæk"
-
-#: data.py:280
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
-msgstr "Þessi útgáfa kemur með spilunarlista í flipum, leit í spilunarlistum, projectM sjóngervingar, samþættingu við Magnatune, ReplayGain hljóðstyrksjöfnun og umkóðun tónlistar (transcoding). Við erum líka búin að laga tonn af göllum - leit í stórum söfnum er núna miklu hraðvirkari, afspilun gengur betur á Windows, vandamál vegna mismunandi stafataflna hafa verið leyst, og fjartengdir spilunarlistar ættu núna alltaf að hlaðast rétt inn."
-
-#: data.py:289
-msgid "Version 0.5 released"
-msgstr "Útgáfa 0.5 gerð tiltæk"
-
-#: data.py:290
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa bætir við stuðningi við fleiri ferðatæki í Clementine. Þú getur núna afritað lög yfir á iPod, iPhone, MTP eða USB-geymslutæki.  Skoðaðu <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">wiki-síðurnar til að fá nánari upplýsingar</a>. Stuðningur við notkun <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> sem fjarstýringar hefur einnig bæst við. Aðrir eiginleikar eru meðal annars biðraðastýring, gluggi til að skipuleggja skrár, sjálfvirk aðlögun dálka í spilunarlistum, hleðsla ívafinna id3v2-umslagsmynda, fleiri valkostir við skönnun safna, draga-sleppa á milli spilunarlista og  hypnotoad-hljóðeffekt. Einnig hefur tekist að stytta ræsitímann um helning, laga nokkra minnisleka og minnka örgjörvaálag við spilun tónlistar. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
-
-#: data.py:306
-msgid "Version 0.6 released"
-msgstr "Útgáfa 0.6 gerð tiltæk"
-
-#: data.py:307
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa kemur með tvö ný upplýsingaspjöld sem sýna lagatexta, tölfræði laga, æviágrip flytjenda, ljósmyndir og lista yfir merki og svipaða flytjendur. Hliðarspjaldið hefur verið endurhannað (þú getur farið til baka með því að hægrismella á það), að auki hafa bæst við einkunnir og fjöldi spilana og slepptra laga. Þú getur útbúið snjalla- og breytilega spilunarlista með lögum úr safninu þínu, auk þess að hlusta á tónlist frá <a href=\"http://www.jamendo.com/\">Jamendo</a> og Icecast útvarpsstöðvunum. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
-
-#: data.py:319
-msgid "Version 0.7 released"
-msgstr "Útgáfa 0.7 gerð tiltæk"
-
-#: data.py:320
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa gefur Clementine alveg nýjan merkjabreytingaglugga, með sjálfklárun orða og hæfileika til að greina tónlist sjálfkrafa og sækja þau merki sem vantar til MusicBrainz. CUE-blöð eru núna studd - þau finnast sjálfkrafa þegar safnið þitt er skannað og lemur hvert lag upp sérstaklega. Margar smærri endurbætur mætti nefna, eins og  birting umslagsmynda í safnsflipanum, eydd lög birtast með gráum lit, valkosturinn \"Sýna í skráavafra\" er nýr, stuðningur við netmilliþjóna (proxy), valkostur fyrir \"Skanna allt tónlistarsafnið\", auk nýrrar vísbendingar á lagasleðanum sem hjálpar þér að leita mun nákvæmar að tilteknum stað í lagi. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">fulla breytingaskrá</a> til að fá nánari upplýsingar."
-
-#: data.py:334
-msgid "Version 1.0 released"
-msgstr "Útgáfa 1.0 gerð tiltæk"
-
-#: data.py:335
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa bætir við stuðningi við <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> og <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  Við bættum líka við \"Víðvær leit\"-eiginleika, sem gerir þér kleift að finna auðveldlega þá tónlist sem þú ert með annað hvort á tækinutölvunni eða á Internetinu. Aðrir eiginleikar eru til dæmis stuðningur við CD-hljómdiska, fleiri möguleikar við umkóðun, betra stillingaviðmót, snjallari leit að plötuumslögum, og haugur af betrumbótum. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
-
-#: data.py:347
-msgid "Version 1.1 released"
-msgstr "Útgáfa 1.1 gerð tiltæk"
-
-#: data.py:348
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa bætir við stuðningi við Podcast sem lengi hefur verið beðið eftir, ásamt samþættingu og samstillingu með <a href=\"//gpodder.net\">gpodder.net</a>. Tónlist frá <a href=\"http://soundcloud.com/\">Soundcloud</a> og <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> er núna tiltæk í Internet-flipanum á hliðarspjaldinu, rétt eins og þau lög sem þú hefur sent inn á <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine sýnir núna skapbrigðastikur (moodbars) fyrir þá tónlist sem spiluð er af diskum í tölvunni. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
-
-#: data.py:361
-msgid "Version 1.2 released"
-msgstr "Útgáfa 1.2 gerð tiltæk"
-
-#: data.py:362
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa er samhæfð við <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote fjarstýringuna fyrir Android</a> sem gerir kleift að stýra Clementine fjartengt frá Android-tæki.<br/>Þessi útgáfa bætir einnig við stuðningi við Subsonic. Og núna geturðu hlustað á tónlist af <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> og <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Einn mest spennandi nýi eiginleikinn er að geta \"stjörnumerkt\" spilunarlistana þína, þannig að hægt er að loka þeim og opnað þá svo síðar á nýja \"Spilunarlistar\" flipann sem við bættum við á hliðarspjaldið vinstra megin.<br/>Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
-
-#: data.py:377
-msgid "Version 1.3 released"
-msgstr "Útgáfa 1.3 gerð tiltæk"
-
-#: data.py:378
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"accessing your music in Vk.com and Seafile.See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Þessi útgáfa er samhæfð við <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine Remote fjarstýringuna fyrir Android</a> sem gerir kleift að stýra Clementine fjartengt frá Android-tæki.<br/>Þessi útgáfa bætir einnig við stuðningi viðaðgang að tónlist á Vk.com og Seafile. Skoðaðu <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">alla breytingaskrána</a> til að sjá nánari upplýsingar."
-
-#: data.py:387
-msgid "Version 1.3.1 released"
-msgstr "Útgáfa 1.3.1 gerð tiltæk"
-
-#: data.py:388
-msgid ""
-"Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr "Lagar villu þar sem einkunnum var eytt þegar uppfært var úr eldri útgáfum."
-
 #: downloads.html:7
 msgid "Latest downloads"
 msgstr "Síðustu niðurhöl"
@@ -485,7 +304,7 @@ msgstr ""
 msgid "The first time, dnf asks you to trust the repository's signing key:"
 msgstr ""
 
-#: downloads.html:93 downloads.html:108
+#: downloads.html:93 downloads.html:118
 msgid "Other Downloads"
 msgstr "Önnur niðurhöl"
 
@@ -494,30 +313,45 @@ msgid "Clementine Remote for Android"
 msgstr "Clementine fjarstýring fyrir Android"
 
 #: downloads.html:102
+msgid "Development builds"
+msgstr ""
+
+#: downloads.html:104
+msgid ""
+"Every change to Clementine is built for every operating system, a few times "
+"a week or more. Development builds have the newest fixes and features before"
+" a release does, and sometimes new bugs too."
+msgstr ""
+
+#: downloads.html:108
+msgid "Development builds on GitHub"
+msgstr ""
+
+#: downloads.html:112
 msgid "Unofficial packages"
 msgstr "Óopinberir pakkar"
 
-#: downloads.html:104
+#: downloads.html:114
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "Ef þú sérð ekki dreifinguna þína hér fyrir ofan, getur samt verið að einhver hafi útbúið óopinbera pakka sem þú getur notað."
 
-#: downloads.html:112
+#: downloads.html:122
 msgid "Compiling from source"
 msgstr "Vistþýða úr frumkóða"
 
-#: downloads.html:114
+#: downloads.html:124
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Að vistþýða Clementine úr frumkóða er einfalt á Linux."
 
-#: downloads.html:115
+#: downloads.html:125
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Sæktu pakka með grunnkóðanum úr listanum hér fyrir ofan, opnaðu síðan skjáhermiglugga:"
 
-#: downloads.html:124
+#: downloads.html:134
 msgid "Full instructions and list of dependencies"
 msgstr "Allar leiðbeiningar og listi yfir kerfiskröfur"
 
@@ -712,6 +546,10 @@ msgstr "Skjámynd"
 #: main.html:138
 msgid "News"
 msgstr "Fréttir"
+
+#: main.html:152
+msgid "All releases and development builds"
+msgstr ""
 
 #: participate.html:7
 msgid "Need help?"

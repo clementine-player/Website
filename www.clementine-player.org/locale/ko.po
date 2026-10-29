@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:29+0000\n"
+"POT-Creation-Date: 2026-10-26 15:44+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: Jason Park <kladess@gmail.com>, 2013,2017,2019\n"
 "Language-Team: Korean (http://app.transifex.com/davidsansome/clementine/language/ko/)\n"
@@ -266,187 +266,6 @@ msgstr "Source code"
 msgid "Source"
 msgstr "Source"
 
-#: data.py:263
-msgid "Version 0.2 released"
-msgstr "버전 0.2 배포"
-
-#: data.py:264
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
-msgstr "클레멘타인의 첫 번째 버전이 출시된 지 한 달이 조금 지났습니다. 이번 새 버전은 앨범 표지 디자인, 향상된 '다양한 아티스트' 감지 기능, 재생 목록 불러오기 지원 등 다양한 기능을 제공합니다."
-
-#: data.py:270
-msgid "Version 0.3 released"
-msgstr "버전 0.3 배포"
-
-#: data.py:271
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
-msgstr "이번 릴리즈에서 윈도우에서 작동되던 분석기와 트랙간의 크로스페이딩 기능을 모든 플랫폼에 있는 GStreamer로 변환하였습니다. 그리고 이퀄라이저, 다양한 라이브러리 그룹 옵션, 좋은 OSD, 커멘드라인 과 MPRIS로부터의 원격 제어, 그리고 쉬운 태그 편집 등을 포함 한 새로운 기능이 추가 되었습니다."
-
-#: data.py:279
-msgid "Version 0.4 released"
-msgstr "버전 0.4 배포"
-
-#: data.py:280
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
-msgstr "이번 릴리스에는 탭이 달린 재생 목록, 재생 목록 검색, 프로젝트 시각화, Magnatune 통합, ReplayGain 볼륨 정규화 및 음악 트랜스 코딩 기능이 있습니다. 대형 라이브러리 검색이 훨씬 빨라졌으며 Windows에서의 재생이 훨씬 안정적이며 문자 인코딩 문제가 수정되고 원격 재생 목록은 항상 올바르게 불러와야 합니다."
-
-#: data.py:289
-msgid "Version 0.5 released"
-msgstr "버전 0.5  배포"
-
-#: data.py:290
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스는 클레멘타인과의 휴대용 기기 사용에 대한 지원이 추가되었습니다. 이제 iPod, iPhone, MTP 또는 USB 대용량 저장 장치에 노래를 복사할 수 있습니다. <a href=\"https://github.com/clementine-player/클레멘타인/wiki/Portable-Devices\">자세한 내용은 위키</a>를 참조하세요. 리모컨으로 <a href=\"https://github.com/clementine-player/클레멘타인/wiki/Wii-Remotes\">Wii Remote</a>를 리모컨으로 사용하는 지원이 추가되었습니다. 다른 기능으로는 대기열 관리자, 파일 구성 대화상자, 재생목록의 열 자동 확장, 삽입된 id3v2 표지 디자인 불러오기, 더 많은 라이브러리 검색 옵션, 재생 목록 간 끌어서 놓기 및 최면 모드 등이 있습니다. 또한 시작 시간을 절반 이상 단축하고, 메모리 누수 문제를 해결했으며, 음악 재생 중 CPU 사용량을 줄였습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/클레멘타인/master/Changelog\">전체 변경 로그</a>를 참조하세요."
-
-#: data.py:306
-msgid "Version 0.6 released"
-msgstr "버전 0.6  배포"
-
-#: data.py:307
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스는 가사, 노래 통계, 아티스트 약력, 사진과 태그 목록과 유사한 아티스트를 보여주는 두 개의 새로운 정보 창이 있습니다. 측면 표시줄(오른쪽 버튼을 클릭하여 다시 전환할 수 있지만)을 다시 디자인하고, 별점, 재생 횟수 및 건너뛰기 횟수도 추가되었습니다. 라이브러리의 노래에서 스마트 목록과 동적 목록을 만들 수 있으며 <a href=\"http://www.jamendo.com/\">Jamendo</a>와 Icecast 라디오를 들을 수 있습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/클레멘타인/master/Changelog\">전체 변경 로그</a>를 참조하십시오."
-
-#: data.py:319
-msgid "Version 0.7 released"
-msgstr "버전 0.7 배포"
-
-#: data.py:320
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스에서 클레멘타인은 자동 완성 기능이 있는 새로운 태그 편집 대화상자와 음악을 자동으로 식별하고 MusicBrainz에서 누락된 태그를 가져올 수 있는 기능이 추가되었습니다. 이제 라이브러리를 스캔할 때 자동으로 감지되어 각 트랙이 개별적으로 표시되는 CUE 시트가 지원됩니다. 라이브러리 탭에 앨범 표지를 표시하고, 삭제된 노래를 회색으로 표시하며, \"파일 탐색기에 표시하기\" 옵션, 네트워크 프록시 지원, \"전체 라이브러리 다시 검색\" 옵션, 노래의 특정 위치를 더 정확하게 찾을 수 있는 트랙 슬라이더의 새로운 도구 설명 등 작은 개선 사항도 다수 적용되었습니다.  자세한 내용은 <a href=\"https://raw.github.com/clementine-player/클레멘타인/master/Changelog\">전체 변경 로그</a>를 참조하세요."
-
-#: data.py:334
-msgid "Version 1.0 released"
-msgstr "버전 1.0 배포"
-
-#: data.py:335
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스는 <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a>, <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a> 를 지원합니다.  또한 라이브러리나 인터넷에 있는 음악을 쉽게 찾을 수 있는 글로벌 검색 기능이 추가되었습니다. 다른 기능으로는 오디오 CD 지원, 더 많은 트랜스코더 옵션, 개선된 설정 대화상자, 더 스마트해진 앨범 표지 검색 및 다양한 버그 수정이 있습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">전체 변경 로그</a>를 참조하세요."
-
-#: data.py:347
-msgid "Version 1.1 released"
-msgstr "버전 1.1 배포"
-
-#: data.py:348
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스에는 gpodder.net</a>과의 통합 및 동기화를 비롯하여 오랫동안 기다려온 팟캐스트 지원이 추가되었습니다. <a href=\"http://soundcloud.com/\">Soundcloud</a> 및 <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>의 곡은 측면 표시줄의 인터넷 탭과 <a href=\"http://drive.google.com/start\">Google Drive</a>에 업로드한 모든 곡에서 사용할 수 있습니다. 클레멘타인은 또한 이제 로컬 디스크에서 재생하는 곡의 무드바를 보여줄 것입니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/클레멘타인/release-1.1/Changelog\">전체 변경 로그</a>를 참조하십시오."
-
-#: data.py:361
-msgid "Version 1.2 released"
-msgstr "버전 1.2 배포"
-
-#: data.py:362
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스는 <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android용 클레멘타인 원격 응용프로그램</a>과 호환되므로 Android 기기에서 클레멘타인을 원격으로 제어할 수 있습니다. <br/> 또한 Subsonic에 대한 지원도 추가합니다. <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a>, 그리고 <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>에 저장된 음악을 들을 수 있습니다. 마지막 주요 새 기능은 재생 목록을 안전하게 닫고 왼쪽 사이드바에 추가한 새 \"재생 목록\" 탭에서 재생 목록을 복원할 수 있도록 하는 기능입니다. <br/>자세한 내용은 <a href=\"https://raw.github.com/clementine-player/클레멘타인/release-1.2/Changelog\">전체 변경 내역</a> 을 참조하십시오."
-
-#: data.py:377
-msgid "Version 1.3 released"
-msgstr "버전 1.3 배포"
-
-#: data.py:378
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"accessing your music in Vk.com and Seafile.See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
-"information."
-msgstr "이번 릴리스는 <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Android용 클레멘타인 원격 응용프로그램</a>과 호환됩니다. 클레멘타인 원격은 안드로이드에서 클레멘타인을 원격 작동시킬 수 있는 기능입니다. <br/>이번 릴리스는 또한 Vk.com과 Seafile에 있는 음악에 접근할 수 있습니다. 자세한 내용은 <a href=\"https://raw.github.com/clementine-player/클레멘타인/release-1.3/Changelog\">전체 변경 로그</a>를 참조하십시오."
-
-#: data.py:387
-msgid "Version 1.3.1 released"
-msgstr "버전 1.3.1 배포"
-
-#: data.py:388
-msgid ""
-"Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr "이전 버전에서 업그레이드할 때 별점이 삭제되는 버그를 수정합니다."
-
 #: downloads.html:7
 msgid "Latest downloads"
 msgstr "최신 버전 다운로드"
@@ -499,7 +318,7 @@ msgstr ""
 msgid "The first time, dnf asks you to trust the repository's signing key:"
 msgstr ""
 
-#: downloads.html:93 downloads.html:108
+#: downloads.html:93 downloads.html:118
 msgid "Other Downloads"
 msgstr "그 외 "
 
@@ -508,30 +327,45 @@ msgid "Clementine Remote for Android"
 msgstr "안드로이드용 클레멘타인 원격"
 
 #: downloads.html:102
+msgid "Development builds"
+msgstr ""
+
+#: downloads.html:104
+msgid ""
+"Every change to Clementine is built for every operating system, a few times "
+"a week or more. Development builds have the newest fixes and features before"
+" a release does, and sometimes new bugs too."
+msgstr ""
+
+#: downloads.html:108
+msgid "Development builds on GitHub"
+msgstr ""
+
+#: downloads.html:112
 msgid "Unofficial packages"
 msgstr "비공식 배포본"
 
-#: downloads.html:104
+#: downloads.html:114
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "위의 목록에 당신의 배포판이 없으면 다른 사람이 비공식 패키지를 만들었을수도 있습니다."
 
-#: downloads.html:112
+#: downloads.html:122
 msgid "Compiling from source"
 msgstr "소스로부터 "
 
-#: downloads.html:114
+#: downloads.html:124
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Linux에서는 소스에서 클레멘타인을 컴파일하는 것이 쉽습니다."
 
-#: downloads.html:115
+#: downloads.html:125
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "위의 목록과 터미널 창에서 소스 코드 패키지를 다운로드하십시오."
 
-#: downloads.html:124
+#: downloads.html:134
 msgid "Full instructions and list of dependencies"
 msgstr "전체 지침 및 종속성 목록"
 
@@ -726,6 +560,10 @@ msgstr "스크린샷"
 #: main.html:138
 msgid "News"
 msgstr "뉴스"
+
+#: main.html:152
+msgid "All releases and development builds"
+msgstr ""
 
 #: participate.html:7
 msgid "Need help?"

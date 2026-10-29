@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:50+0000\n"
+"POT-Creation-Date: 2026-10-26 15:44+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: Priit Jõerüüt <transifex@joeruut.com>, 2020,2026\n"
 "Language-Team: Estonian (http://app.transifex.com/davidsansome/clementine/language/et/)\n"
@@ -45,11 +45,11 @@ msgstr "Clementine muusikapleier"
 
 #: base.html:46
 msgid "About"
-msgstr "Info"
+msgstr "Teave"
 
 #: base.html:47 downloads.html:2
 msgid "Downloads"
-msgstr "Allalaadimised"
+msgstr "Laadi alla"
 
 #: base.html:48 main.html:112 screenshots.html:2
 msgid "Screenshots"
@@ -87,7 +87,7 @@ msgstr "Privaatsus"
 
 #: data.py:10 data.py:34
 msgid "Controlling playback from the Android app"
-msgstr "Loo esituse juhtimine Androidi rakenduses"
+msgstr "Loo esituse juhtimine Androidi rakendusest"
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
@@ -159,7 +159,7 @@ msgstr "Laulusõnade kuvamine ja kohtspikker loo kestusribal"
 
 #: data.py:50
 msgid "MusicBrainz fixing untagged files"
-msgstr "MusicBrainz'i teenuse kasutamine sildistamata lugude parandamisel"
+msgstr "MusicBrainzi teenuse kasutamine sildistamata lugude parandamisel"
 
 #: data.py:51
 msgid "New tag editor with autocompletion"
@@ -219,7 +219,7 @@ msgstr "Clementine 0.4 Mac OS X'is"
 
 #: data.py:73
 msgid "Last.fm tag radio"
-msgstr "Lugude esitamine Last.fm'ist siltide või esitajate alusel"
+msgstr "Lugude esitamine Last.fm-ist siltide või esitajate alusel"
 
 #: data.py:74
 msgid "Searching the library"
@@ -253,190 +253,9 @@ msgstr "Lähtekood"
 msgid "Source"
 msgstr "Allikas"
 
-#: data.py:263
-msgid "Version 0.2 released"
-msgstr "Anti välja versioon 0.2"
-
-#: data.py:264
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
-msgstr "Clementine’i esimese versiooni väljalaskmisest on möödunud veidi üle kuu. Uue versiooniga lisandub albumite kaanepiltide kuvamine, parema „Various Artists“ tuvastamine, esitusloendite laadimise tugi ja palju muud."
-
-#: data.py:270
-msgid "Version 0.3 released"
-msgstr "Anti välja versioon 0.3"
-
-#: data.py:271
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
-msgstr "Selles versioonis oleme kõikidel platvormidel üle läinud GStreamerile, mis tähendab, et analüsaator ja lugude vaheline üleminek töötavad nüüd ka Windowsis. Uute võimaluste hulka kuuluvad ekvalaiser, rohkem raamatukogu rühmitamise võimalusi, parem ekraanimenüü (OSD), kaugjuhtimine käsurealt ja MPRISi kaudu ning lihtsam siltide muutmine."
-
-#: data.py:279
-msgid "Version 0.4 released"
-msgstr "Anti välja versioon 0.4"
-
-#: data.py:280
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
-msgstr "Selle versiooniga lisandusid vahekaardipõhised esitusloendid, esitusloendite otsing, projectM-i loodud visualisserimised, Magnatune’i lõiming, helivaljuse tundlikkuse kasutamine normaliseerimisel ja muusika kodeeringu muutmise võimalus. Samuti oleme parandanud hulgaliselt vigu  suurte muusikakogude otsimine on nüüd palju kiirem, esitus töötab Windowsis palju usaldusväärsemalt, tähemärkide kodeerimisega seotud probleemid on lahendatud ning kaugjuurdepääsuga esitusloendid peaksid alati saama korrektselt laaditud."
-
-#: data.py:289
-msgid "Version 0.5 released"
-msgstr "Anti välja versioon 0.5"
-
-#: data.py:290
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Selle versiooniga lisandub Clementine'i kaasaskantavate seadmete tugi. Nüüd saad kopeerida oma muusikafailid iPodi, iPhone’i, MTP-seadmesse või USB-massmäluga seadmesse. Lisateavet leiad <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">vikist</a>. Lisatud on tugi <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote'i</a> kasutamiseks kaugjuhtimispuldina. Muude uute võimaluste hulka kuuluvad järjekorrahaldur, failide korrastamise liides, veergude automaatne venitamine esitusloendis, id3v2-siltidesse lõimitud kaanepiltide laadimine, rohkem muusikakogu skaneerimisvõimalusi, lugude lohistamine esitusloendite vaheli ning unine kärnkonn taustamürade all. Samuti oleme vähendanud käivitumisaega enam kui poole võrra, parandanud hulga mälulekeid ja vähendanud protsessori koormust muusika esitamise ajal. Lisateavet leiad <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">muudatuste loendist</a>."
-
-#: data.py:306
-msgid "Version 0.6 released"
-msgstr "Anti välja versioon 0.6"
-
-#: data.py:307
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Selle versiooniga lisanduvad on kaks uut teabepaani, mis kuvavad laulusõnu, laulude statistikat, esitajate elulugusid, fotosid ning siltide ja sarnaste esitajate loendeid. Oleme kujundanud külgriba ümber (kuigi saad selle tagasi lülitada, klõpsates sellel parema hiireklõpsuga) ning lisanud ka hinnangud, esituskordade arvu ja vahelejätmiste arvu. Saad oma muusikakogus olevatest lugudest koostada nutikaid ja dünaamilisi esitusloendeid ning nüüd saad kuulata ka muusikat <a href=\"http://www.jamendo.com/\">Jamendo</a> ja Icecasti raadiojaamadest. Lisateabe saamiseks vaata <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">muudatuste loendit</a>."
-
-#: data.py:319
-msgid "Version 0.7 released"
-msgstr "Anti välja versioon 0.7"
-
-#: data.py:320
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Selle versiooniga lisandub Clementine'i võimalus kasutada täiesti uut siltide halduse vaadet, millel on automaattäite võimalus ning suutlikkus muusikat automaatselt tuvastada ja puuduvaid silte MusicBrainzist laadida. Nüüd toetatakse ka CUE-lehti - need tuvastatakse automaatselt muusikakogu skaneerimisel ja iga lugu kuvatakse eraldi. Oleme teinud ka hulga väiksemaid täiustusi, nagu näiteks kaanepiltide kuvamine muusikakogu infovaates, kustutatud lugude halliks muutmine, valik „Näita failibrauseris“, võrguprokside tugi, valik „Uus muusikakogu skaneerimine“ ning uus kohtvihje lugude liuguril, mis aitab sul täpsemalt leida konkreetse koha laulus. Lisateabe saamiseks vaata täielikku <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">muudatuste loendit</a>."
-
-#: data.py:334
-msgid "Version 1.0 released"
-msgstr "Anti välja versioon 1.0"
-
-#: data.py:335
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Selle versiooniga lisandub <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a>'i and <a href=\"http://www.sky.fm/\">SKY.fm</a>'i/<a href=\"http://www.di.fm/\">Digitally Imported</a>'i tugi. Lisasime ka üldotsingu valiku, mis võimaldab sul muusikat otsida oma kogust kui ka internetiteenustest. Muu olulise hulgas on CD-plaatide esitus, rohkem kodeerimisvalikuid, parandatud seadistuste vaade, nutikam kaanepiltide otsing ja paras pinu veaparandusi. Lisateavet leiad <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">muudatuste loendist</a>."
-
-#: data.py:347
-msgid "Version 1.1 released"
-msgstr "Anti välja versioon 1.1"
-
-#: data.py:348
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Selle versiooniga lisandub ammuoodatud taskuhäälingute tugi koos <a href=\"//gpodder.net\">gpodder.net</a>'i lõimingu ja sünkroonimisega. Lisaks on nüüd külgpaani internetiteenuste alajaotuses saadaval muusika <a href=\"http://soundcloud.com/\">Soundcloud</a>'ist ja <a href=\"http://www.jazzradio.com/\">jazzradio.com</a> saidist. Kuvatus on ka kõik lood, mille oled laadinud <a href=\"http://drive.google.com/start\">Google Drive</a>'i võrgukettale. Clementine kuvab nüüd kohalikult andmekandjalt esitatava muusika puhul meeleoluriba . Lisateavet leiad <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">muudatuste loendist</a>."
-
-#: data.py:361
-msgid "Version 1.2 released"
-msgstr "Anti välja versioon 1.2"
-
-#: data.py:362
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
-msgstr "See versioon ühildub <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine'i kaugjuhtimispuldiga</a>, mis lubab sul hallata oma arvuti Clementine'i programmi Androidist.<br/>Samaga lisandub ka Subsonicu serverite tugi ja võid kuulata oma muusikat, mis on salvestatud veebiteenustes, nagu <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">Skydrive</a> ja <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Viimane oluline täiendus on võimalus tärniga märkida oma esitusloendeid, mis võimaldab sul neid salvestada ja hiljem vasaku külgpaani esitusloendite vaatest avada.<br/>Lisateavet leidad <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">muudatuste loendist</a>."
-
-#: data.py:377
-msgid "Version 1.3 released"
-msgstr "Anti välja versioon 1.3"
-
-#: data.py:378
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"accessing your music in Vk.com and Seafile.See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
-"information."
-msgstr "See versioon ühildub <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine'i kaugjuhtimispuldiga</a>, mis lubab sul hallata oma arvuti Clementine'i programmi Androidist.<br/>Liasime ka ligipääsu veebiteenustele Vk.com ja Seafile. Lisateavet vaata <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">muudatuste loendist</a>."
-
-#: data.py:387
-msgid "Version 1.3.1 released"
-msgstr "Anti välja versioon 1.3.1"
-
-#: data.py:388
-msgid ""
-"Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr "Parandasime vea, kus vanematest versioonidest uuendamisel läksid hinnangud kaotsi."
-
 #: downloads.html:7
 msgid "Latest downloads"
-msgstr "Värskeimad allalaadimised"
+msgstr "Viimased versioonid"
 
 #: downloads.html:11
 msgid "Get the latest stable version of Clementine for your operating system."
@@ -448,7 +267,7 @@ msgstr "Versioon"
 
 #: downloads.html:34
 msgid "Downloads for other operating systems"
-msgstr "Allalaadimised teistele operatsioonisüsteemidele"
+msgstr "Versioonid teistele operatsioonisüsteemidele"
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
@@ -480,13 +299,13 @@ msgstr "Lisa Clementine'i COPR-tarkvarahoidla ning saad laadida viimaseid versio
 msgid ""
 "If you already have Fedora's own Clementine package, which is older, replace"
 " it with this one:"
-msgstr "Kui sul juba on arvutis vanapoolne Clementine'i pakett, siis asenda ta sellega:"
+msgstr "Kui sul juba on arvutis vanemapoolne Clementine'i pakett, siis asenda ta sellega:"
 
 #: downloads.html:88
 msgid "The first time, dnf asks you to trust the repository's signing key:"
-msgstr "Esimesel kasutusel palub dnf sinult kinnitust et võib usaldada sellise tunnusega tarkvarahoidla võtit:"
+msgstr "Esimesel kasutusel palub dnf sinult kinnitust, et võib usaldada sellise tunnusega tarkvarahoidla võtit:"
 
-#: downloads.html:93 downloads.html:108
+#: downloads.html:93 downloads.html:118
 msgid "Other Downloads"
 msgstr "Muud allalaadimised"
 
@@ -495,36 +314,51 @@ msgid "Clementine Remote for Android"
 msgstr "Clementine'i kaugjuhtimispult Androidile"
 
 #: downloads.html:102
+msgid "Development builds"
+msgstr "Arendusjärgus versioonid"
+
+#: downloads.html:104
+msgid ""
+"Every change to Clementine is built for every operating system, a few times "
+"a week or more. Development builds have the newest fixes and features before"
+" a release does, and sometimes new bugs too."
+msgstr "Iga Clementine'i tehtud muudatus on kompileeritud vormis saadaval paar korda nädalas või sagedaminigi. Arendusjärgus versioonides leiduvad viimased veaparandused ja täiendused, kuid võib olla ka uusi vigu."
+
+#: downloads.html:108
+msgid "Development builds on GitHub"
+msgstr "Arendusjärgus versioonid GitHubis"
+
+#: downloads.html:112
 msgid "Unofficial packages"
 msgstr "Mitteametlikud pakid"
 
-#: downloads.html:104
+#: downloads.html:114
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "Kui sa ei leia siit loendist oma distributsiooni, siis võid otsida, kas keegi on selleks puhuks sobilikud mitteametlikud paigalduspakid juba teinud."
 
-#: downloads.html:112
+#: downloads.html:122
 msgid "Compiling from source"
 msgstr "Lähtekoodist kompileerimine"
 
-#: downloads.html:114
+#: downloads.html:124
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Linuxis on Clementine lähtekoodist kompileerimine lihtne."
 
-#: downloads.html:115
+#: downloads.html:125
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Laadi eeloleva loendi alusel alla lähtekoodi pakid ja selleks sisesta terminaliaknas:"
 
-#: downloads.html:124
+#: downloads.html:134
 msgid "Full instructions and list of dependencies"
 msgstr "Detailne juhend ja sõltuvuste loend"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Info ja funktsioonid"
+msgstr "Teave ja rakenduse võimalused"
 
 #: main.html:9
 msgid "Search and play your local music library."
@@ -548,11 +382,11 @@ msgstr "Plexi meediumiserverid"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
-msgstr "Esita ja otsi enda üleslaaditudtud lugusid sellistest veebiteenusetest: "
+msgstr "Esita ja otsi enda üleslaaditud lugusid sellistest veebiteenustest: "
 
 #: main.html:37
 msgid "Scrobble what you play to"
-msgstr "Kraasi lugusid mida sa kuulad teenusesse"
+msgstr "Kraasi lugusid, mida sa kuulad teenusesse"
 
 #: main.html:38
 msgid "Create smart playlists and dynamic playlists."
@@ -564,7 +398,7 @@ msgstr "Vahekaartide kaupa grupeeritavad esitusloendid ning M3U, XSPF, PLS ja AS
 
 #: main.html:40
 msgid "CUE sheet support."
-msgstr "Asukohatabeli tugi."
+msgstr "Asukohatabeli tugi (CUE-sheet)."
 
 #: main.html:41
 msgid "Play audio CDs."
@@ -602,7 +436,7 @@ msgstr "Muuda silte ja halda oma muusikakogu."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Leia puuduvad sildid MusicBrainz'i teenuse abil."
+msgstr "Leia puuduvad sildid MusicBrainzi teenuse abil."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
@@ -611,7 +445,7 @@ msgstr "Otsi, laadi alla ja sünkrooni taskuhäälingud teenusest"
 #: main.html:50
 msgid ""
 "Download missing album cover art from Last.fm, MusicBrainz and Discogs."
-msgstr "Laadi puuduvad kaanepildid alla Last.fm-ist, MusicBrainz'ist või Discogs'ist."
+msgstr "Laadi puuduvad kaanepildid alla Last.fm-ist, MusicBrainzist või Discogsist."
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
@@ -666,11 +500,11 @@ msgstr "Järjekorrahaldur."
 
 #: main.html:63
 msgid "is a modern music player and library organizer"
-msgstr "on tänapäevane muusikamängija ja meediakogu haldaja"
+msgstr "on tänapäevane muusikamängija ja meediumikogu haldaja"
 
 #: main.html:67
 msgid "Clementine is a multiplatform music player."
-msgstr "Clementine on paljudes operatsioonisüsteemides toimiv muusikamängija"
+msgstr "Clementine on paljudes operatsioonisüsteemides toimiv muusikamängija."
 
 #: main.html:68
 msgid "It is inspired by"
@@ -696,7 +530,7 @@ msgstr "Windowsi, Mac OS X ja Linuxi jaoks"
 
 #: main.html:100
 msgid "Announcement"
-msgstr "Teadaanne"
+msgstr "Uudised"
 
 #: main.html:101
 msgid "Changelog"
@@ -713,6 +547,10 @@ msgstr "Ekraanipilt"
 #: main.html:138
 msgid "News"
 msgstr "Uudised"
+
+#: main.html:152
+msgid "All releases and development builds"
+msgstr "Kõik versioonid, sealhulgas arendusjärgus versioonid"
 
 #: participate.html:7
 msgid "Need help?"
@@ -738,11 +576,11 @@ msgstr "Tee kaastööd"
 
 #: participate.html:21
 msgid "Reporting bugs and proposing patches"
-msgstr "Vigadest teatamine ning parandatud koodi esitamine"
+msgstr "Vigadest teatamine ning lähtekoodi täiendused"
 
 #: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Clementine kasutab arendustööks ja vigade halduseks GitHub'i."
+msgstr "Clementine kasutab arendustööks ja vigade halduseks GitHubi."
 
 #: participate.html:24
 msgid ""
@@ -752,7 +590,7 @@ msgstr "Kui oled leidnud Clementine's vea, siis palun koosta veateade meie vigad
 
 #: participate.html:27
 msgid "Issue tracker"
-msgstr "Probleemide nimekiri"
+msgstr "Clementine'i veahaldusliides"
 
 #: participate.html:30
 msgid "Translating the interface"
@@ -762,13 +600,13 @@ msgstr "Kasutajaliidese tõlkimine"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Kui soovid Clementine tõlkida teise keelde, siis saad seda teha Transifex'i tõlgete haldussaidis."
+msgstr "Kui soovid Clementine tõlkida teise keelde, siis saad seda teha Transifexi tõlgete haldussaidis."
 
 #: participate.html:33
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Tõlkida võid kas otse Transifex'i saidis või laadid alla traditsioonilise .po faili ning peale selle täiendamist saadad ta e-kirjaga meile tagasi."
+msgstr "Tõlkida võid kas otse Transifexi saidis või laadid alla traditsioonilise .po faili ning peale selle täiendamist saadad ta e-kirjaga meile tagasi."
 
 #: participate.html:36
 msgid "Transifex translations"
@@ -784,7 +622,7 @@ msgstr "Clementine arendustöö toimub"
 
 #: participate.html:43
 msgid "the git repository"
-msgstr "git'i repositooriumis"
+msgstr "gitipõhises lähtekoodihoidlas"
 
 #: participate.html:44
 msgid "Check out the code by running:"
@@ -802,21 +640,21 @@ msgstr "Kaugjuhtimisrakendus Androidi jaoks"
 msgid ""
 "Clementine Remote is hosted on <a href=\"https://github.com/clementine-"
 "player/Android-Remote\">another GitHub repository</a>."
-msgstr "Clementine Remote lähtekoodi hallatakse <a href=\"https://github.com/clementine-player/Android-Remote\">teises GitHub-i repositooriumis</a>."
+msgstr "Clementine'i kaugjuhtimispuldi (Clementine Remote) lähtekoodi hallatakse <a href=\"https://github.com/clementine-player/Android-Remote\">teises GitHubi lähtekoodihoidlas</a>."
 
 #: participate.html:57
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
-msgstr "Sa või teatada vigadest või pakkuda koodiparandusi <a href=\"https://github.com/clementine-player/Android-Remote/issues\">meie veahaldussüsteemis</a>."
+msgstr "Sa võid teatada vigadest või pakkuda koodiparandusi <a href=\"https://github.com/clementine-player/Android-Remote/issues\">meie veahaldussüsteemis</a>."
 
 #: participate.html:58 participate.html:64
 msgid ""
 "You can translate the interface on <a "
 "href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">this "
 "Transifex project</a>."
-msgstr "Sa võid tõlkida meie kasutajaliidest <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">selle Transifex'i projekti abil</a>."
+msgstr "Sa võid tõlkida meie kasutajaliidest <a href=\"https://explore.transifex.com/davidsansome/clementine-remot/\">selle Transifexi projekti abil</a>."
 
 #: participate.html:60
 msgid "Remote application for iOS"
@@ -834,7 +672,7 @@ msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
 "tracker</a>."
-msgstr "Sa või teatada vigadest või pakkuda koodiparandusi <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">tema veahaldussüsteemis</a>."
+msgstr "Sa võid teatada vigadest või pakkuda koodiparandusi <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">tema veahaldussüsteemis</a>."
 
 #: participate.html:68
 msgid "Social Networking"

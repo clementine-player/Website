@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 15:50+0000\n"
+"POT-Creation-Date: 2026-10-26 15:44+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos, 2012-2013,2018,2026\n"
 "Language-Team: Spanish (http://app.transifex.com/davidsansome/clementine/language/es/)\n"
@@ -276,187 +276,6 @@ msgstr "Código fuente"
 msgid "Source"
 msgstr "Fuente"
 
-#: data.py:263
-msgid "Version 0.2 released"
-msgstr "Versión 0.2 publicada"
-
-#: data.py:264
-msgid ""
-"It's been just over a month since we released the first version of "
-"Clementine. This new version features album cover-art, better \"Various "
-"Artists\" detection, support for loading playlists, and much more."
-msgstr "Ha pasado solo un mes desde que lanzamos la primera versión de Clementine. Esta nueva versión incluye portadas de álbumes, mejor detección de «Varios artistas», compatibilidad para carga de listas de reproducción y mucho más."
-
-#: data.py:270
-msgid "Version 0.3 released"
-msgstr "Versión 0.3 publicada"
-
-#: data.py:271
-msgid ""
-"In this release we've switched to GStreamer on all platforms, meaning the "
-"analyzer and crossfading between tracks will now work on Windows. New "
-"features include an equalizer, more library grouping options, a nicer OSD, "
-"remote control from command-line and MPRIS, and easier tag editing."
-msgstr "En esta versión hemos pasado a usar GStreamer en todas las plataformas, lo que significa que el analizador y el fundido cruzado entre pistas ahora funcionarán en Windows. Entre las funcionalidades nuevas se incluyen un ecualizador, más opciones de agrupación de la fonoteca, una interfaz OSD más atractiva, control remoto desde la consola y MPRIS, y una edición de etiquetas más sencilla."
-
-#: data.py:279
-msgid "Version 0.4 released"
-msgstr "Versión 0.4 publicada"
-
-#: data.py:280
-msgid ""
-"This release features tabbed playlists, playlist search, projectM "
-"visualisations, Magnatune integration, ReplayGain volume normalisation and "
-"music transcoding. We've fixed loads of bugs too - searching large libraries"
-" is now much faster, playback is much more reliable on Windows, character "
-"encoding problems are fixed, and remote playlists should load correctly all "
-"the time."
-msgstr "Esta versión incorpora listas de reproducción por pestañas, búsquedas en la lista de reproducción, integración con Magnature, normalización de ganancia con ReplayGain y transcodificación de música. Además, se corrigieron muchos errores. Ahora la búsqueda en colecciones musicales grandes es más rápida, la reproducción es más eficiente bajo Windows, los problemas de codificación de caracteres han sido corregidos, y las listas de reproducción remotas deberían siempre cargarse correctamente."
-
-#: data.py:289
-msgid "Version 0.5 released"
-msgstr "Versión 0.5 publicada"
-
-#: data.py:290
-msgid ""
-"This release adds support for using portable devices with Clementine.  You "
-"can now copy songs to your iPod, iPhone, MTP, or USB mass storage device.  "
-"See <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-"
-"Devices\">the wiki for more information</a>.  Support for using a <a "
-"href=\"https://github.com/clementine-player/Clementine/wiki/Wii-"
-"Remotes\">Wii Remote</a> as a remote control has been added.  Other features"
-" include a Queue Manager, an Organise Files dialog, automatically stretching"
-" columns in the playlist, loading embedded id3v2 cover art, more library "
-"scanning options, drag and drop between playlists, and a hypnotoad.  We've "
-"also reduced startup time by more than half, fixed a load of memory leaks "
-"and reduced CPU usage while playing music. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Esta versión añade compatibilidad para usar dispositivos portátiles con Clementine. Ahora puede copiar canciones a su iPod, iPhone, MTP, o dispositivo de almacenamiento masivo USB. Consulte <a href=\"https://github.com/clementine-player/Clementine/wiki/Portable-Devices\">el wiki para más información</a>. También se añadió compatibilidad para usar un <a href=\"https://github.com/clementine-player/Clementine/wiki/Wii-Remotes\">Wii Remote</a> como control remoto. Otras características incluyen el gestor de cola, un diálogo para organizar archivos, estrechamiento automático de las columnas de la lista de reprodución, carátulas id3v2 incrustadas, más opciones de análisis de la fonoteca, arrastrar y soltar entre listas de reproducción, y el Hipnosapo. También hemos reducido a más de la mitad el tiempo de inicio, corregimos muchos errores en la gestión de la memoria del sistema y achicamos el uso del CPU al momento de reproducir música. Vea la <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista de cambios completa</a> para más información."
-
-#: data.py:306
-msgid "Version 0.6 released"
-msgstr "Versión 0.6 publicada"
-
-#: data.py:307
-msgid ""
-"This release features two new information panes that show lyrics, song "
-"statistics, artist biographies, photos and lists of tags and similar "
-"artists.  We've redesigned the sidebar (although you can switch back by "
-"right clicking on it), and also added ratings, play counts and skip counts."
-"  You can create smart and dynamic playlists from songs in your library, and"
-" also now listen to music from <a "
-"href=\"http://www.jamendo.com/\">Jamendo</a> and Icecast radio stations. See"
-" the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Esta versión incorpora dos nuevos paneles de información que muestran letras, estadísticas de canciones, biografías de artistas, fotos y listas de etiquetas y artistas similares. Hemos rediseñado la barra lateral (aunque puede regresar a la anterior pulsando con el botón secundario del ratón sobre ella), y hemos añadido también valoraciones y contadores de reproducciones y omisiones.  Puede crear listas de reproducción inteligentes y dinámicas con canciones de su fonoteca, y además escuchar música de <a href=\"http://www.jamendo.com/\">Jamendo</a> y estaciones de radio Icecast. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">registro de cambios completo</a> para más información."
-
-#: data.py:319
-msgid "Version 0.7 released"
-msgstr "Versión 0.7 publicada"
-
-#: data.py:320
-msgid ""
-"In this release Clementine gains a brand new edit tag dialog with "
-"autocompletion and the ability to automatically identify music and fetch "
-"missing tags from MusicBrainz.  CUE sheets are now supported - they are "
-"detected automatically when scanning your library and each track will show "
-"up separately.  We've made a load of smaller improvements as well such as "
-"showing album covers in the Library tab, greying out deleted songs, a \"Show"
-" in file browser\" option, support for network proxies, a \"Full library "
-"rescan\" option, and a new tooltip for the track slider that helps you seek "
-"more accurately to a specific place in a song. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/master/Changelog\">full changelog</a> for more "
-"information."
-msgstr "En esta versión de Clementine presentamos un nuevo cuadro de diálogo de edición de etiquetas con compleción automática y la capacidad de identificar música y buscar etiquetas faltantes desde MusicBrainz. Ahora admitimos las hojas CUE —son detectadas automáticamente al analizar la fonoteca, mostrando cada pista por separado—. Hicimos un montón de pequeñas mejoras, así como mostrar portadas de álbumes en la ficha Biblioteca, descartado las canciones eliminadas, una opción para «Mostrar en el explorador de archivos», soporte para proxies de red, un «reanálisis completo de la fonoteca», y un nuevo mensaje emergente para el control de avance/retroceso de cada pista que le permitirá buscar con más precisión un lugar específico en una canción. Para más información de la versión, puede ver la <href=\"https://raw.github.com/clementine-player/Clementine/master/Changelog\">lista de cambios</ a>."
-
-#: data.py:334
-msgid "Version 1.0 released"
-msgstr "Versión 1.0 publicada"
-
-#: data.py:335
-msgid ""
-"This release adds <a href=\"http://www.spotify.com\">Spotify</a>, <a "
-"href=\"http://grooveshark.com\">Grooveshark</a> and <a "
-"href=\"http://www.sky.fm/\">SKY.fm</a>/<a "
-"href=\"http://www.di.fm/\">Digitally Imported</a> support.  We've also added"
-" a Global Search feature that allows you to easily find music that's either "
-"in your library or on the Internet. Other features include audio CD support,"
-" more transcoder options, an improved settings dialog, smarter album cover "
-"searches, and loads of bug fixes. See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.0/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Esta versión admite <a href=\"http://www.spotify.com\">Spotify</a>, <a href=\"http://grooveshark.com\">Grooveshark</a> y <a href=\"http://www.sky.fm/\">SKY.fm</a>/<a href=\"http://www.di.fm/\">Digitally Imported</a>.  También hemos añadido la característica de búsqueda global, que le permite encontrar música fácilmente, ya sea en su fonoteca local o en Internet. Otras funciones destacadas incluyen la compatibilidad con CD de audio, más opciones de conversión, un diálogo de configuración mejorado, búsqueda inteligente de portadas de álbumes, y muchísimas correcciones de errores. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.0/Changelog\">registro de cambios completo</a> para más información."
-
-#: data.py:347
-msgid "Version 1.1 released"
-msgstr "Versión 1.1 publicada"
-
-#: data.py:348
-msgid ""
-"This release adds long-awaited Podcast support including integration and "
-"synchronisation with <a href=\"//gpodder.net\">gpodder.net</a>. Music from "
-"<a href=\"http://soundcloud.com/\">Soundcloud</a> and <a "
-"href=\"http://www.jazzradio.com/\">jazzradio.com</a> is available in the "
-"Internet tab in the sidebar, as well as any songs you've uploaded to <a "
-"href=\"http://drive.google.com/start\">Google Drive</a>. Clementine will "
-"also now show moodbars for the music you play from your local disc. See the "
-"<a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.1/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Esta versión añade la esperada compatibilidad de pódcast, incluidas la integración y la sincronización con <a href=\"//gpodder.net\">gpodder.net</a>. En la pestaña Internet de la barra lateral, encontrará música de <a href=\"http://soundcloud.com/\">Soundcloud</a> y <a href=\"http://www.jazzradio.com/\">jazzradio.com</a>, además de cualquier canción que haya cargado a <a href=\"http://drive.google.com/start\">Google Drive</a>. Clementine ahora mostrará barras de ánimo para la música que reproduzca desde su disco local. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.1/Changelog\">registro de cambios completo</a> para más información."
-
-#: data.py:361
-msgid "Version 1.2 released"
-msgstr "Versión 1.2 publicada"
-
-#: data.py:362
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"Subsonic. And you can now listen to your music stored in <a "
-"href=\"https://www.box.com/\">Box</a>, <a "
-"href=\"https://www.dropbox.com/\">Dropbox</a>, <a "
-"href=\"https://skydrive.live.com/\">Skydrive</a> and <a "
-"href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Last major new feature is "
-"the ability to \"star\" your playlists, so you can safely close them and "
-"restore them later from the new \"Playlist\" tab we've added in the left "
-"sidebar.<br/>See the <a href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.2/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Esta versión es compatible con la aplicación <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Control remoto de Clementine para Android</a>, que le permite controlar remotamente Clementine mediante un dispositivo con Android.<br/>Esta versión también añade compatibilidad con Subsonic. Y ahora puede escuchar su música almacenada en <a href=\"https://www.box.com/\">Box</a>, <a href=\"https://www.dropbox.com/\">Dropbox</a>, <a href=\"https://skydrive.live.com/\">SkyDrive</a> y <a href=\"https://one.ubuntu.com/\">Ubuntu One</a>. Por último, ahora puede marcar sus listas de reproducción con estrellas, de modo que se almacenen al cerrarlas y poder abrirlas posteriormente desde la pestaña «Listas de reproducción» añadida en la barra lateral de la izquierda.<br/>Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.2/Changelog\">registro de cambios completo</a> para más información."
-
-#: data.py:377
-msgid "Version 1.3 released"
-msgstr "Versión 1.3 publicada"
-
-#: data.py:378
-msgid ""
-"This release is compatible with the <a "
-"href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">Clementine"
-" Remote application for Android</a> which lets you control Clementine "
-"remotely from an Android device.<br/>This release also adds support for "
-"accessing your music in Vk.com and Seafile.See the <a "
-"href=\"https://raw.github.com/clementine-"
-"player/Clementine/release-1.3/Changelog\">full changelog</a> for more "
-"information."
-msgstr "Esta versión es compatible con la <a href=\"https://play.google.com/store/apps/details?id=de.qspool.clementineremote\">aplicación de control remoto de Clementine para Android</a> que le permite controlar Clementine remotamente desde un dispositivo con Android. <br/>Esta versión también añade compatibilidad para acceder a su música en Vk.com y Seafile. Vea el <a href=\"https://raw.github.com/clementine-player/Clementine/release-1.3/Changelog\">registro de cambios completo</a> para mas información."
-
-#: data.py:387
-msgid "Version 1.3.1 released"
-msgstr "Versión 1.3.1 publicada"
-
-#: data.py:388
-msgid ""
-"Fixes a bug where ratings are deleted when upgrading from older versions."
-msgstr "Corrige un defecto que provocaba que se eliminasen las valoraciones al actualizar desde versiones anteriores."
-
 #: downloads.html:7
 msgid "Latest downloads"
 msgstr "Descargas más recientes"
@@ -509,7 +328,7 @@ msgstr ""
 msgid "The first time, dnf asks you to trust the repository's signing key:"
 msgstr ""
 
-#: downloads.html:93 downloads.html:108
+#: downloads.html:93 downloads.html:118
 msgid "Other Downloads"
 msgstr "Otras descargas"
 
@@ -518,30 +337,45 @@ msgid "Clementine Remote for Android"
 msgstr "Control remoto de Clementine para Android"
 
 #: downloads.html:102
+msgid "Development builds"
+msgstr ""
+
+#: downloads.html:104
+msgid ""
+"Every change to Clementine is built for every operating system, a few times "
+"a week or more. Development builds have the newest fixes and features before"
+" a release does, and sometimes new bugs too."
+msgstr ""
+
+#: downloads.html:108
+msgid "Development builds on GitHub"
+msgstr ""
+
+#: downloads.html:112
 msgid "Unofficial packages"
 msgstr "Paquetes no oficiales"
 
-#: downloads.html:104
+#: downloads.html:114
 msgid ""
 "If you don't see your distribution listed above then someone else might have"
 " created an unofficial package for you."
 msgstr "Si no ve su distribución listada, probablemente alguien haya creado un paquete no oficial para usted."
 
-#: downloads.html:112
+#: downloads.html:122
 msgid "Compiling from source"
 msgstr "Compilar desde el código fuente"
 
-#: downloads.html:114
+#: downloads.html:124
 msgid "Compiling Clementine from source is easy on Linux."
 msgstr "Es fácil compilar Clementine desde su código fuente en Linux."
 
-#: downloads.html:115
+#: downloads.html:125
 msgid ""
 "Download the source code package from the list above, and in a terminal "
 "window:"
 msgstr "Descargue el paquete de código fuente de la lista superior, y en una ventana de terminal:"
 
-#: downloads.html:124
+#: downloads.html:134
 msgid "Full instructions and list of dependencies"
 msgstr "Instrucciones completas y lista de dependencias"
 
@@ -736,6 +570,10 @@ msgstr "Captura de pantalla"
 #: main.html:138
 msgid "News"
 msgstr "Noticias"
+
+#: main.html:152
+msgid "All releases and development builds"
+msgstr ""
 
 #: participate.html:7
 msgid "Need help?"
