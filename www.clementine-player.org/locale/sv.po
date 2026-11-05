@@ -36,7 +36,7 @@ msgstr ""
 
 #: android-download.html:4
 msgid "Clementine Remote"
-msgstr "Clementine-fjärrkontroll"
+msgstr "Clementine Remote"
 
 #: android-download.html:5
 msgid "Control Clementine remotely from your Android phone"
@@ -51,7 +51,7 @@ msgid ""
 "Want every change as soon as it's made? <a "
 "href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
 " the beta</a> for development builds."
-msgstr "Vill du få varje ändring så snart den är gjord? <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Gå med i betaprogrammet</a> för att få utvecklingsversioner."
+msgstr "Vill du testa ändringarna så snart de är klara? <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Gå med i betaprogrammet</a> för att få tillgång till utvecklingsversionerna."
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -81,7 +81,7 @@ msgstr "En plattformsoberoende musikspelare inspirerad av Amarok 1.4"
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
-msgstr "Clementine är fri programvara under GPL v3. Den här webbplatsen är licensierad under CC-BY-SA."
+msgstr "Clementine är fri programvara som ges ut under GPL v3. Webbplatsen är licensierad under CC-BY-SA."
 
 #: base.html:79
 msgid "Development by"
@@ -101,7 +101,7 @@ msgstr "Integritetspolicy"
 
 #: data.py:10 data.py:34
 msgid "Controlling playback from the Android app"
-msgstr "Styr uppspelningen med Android-appen"
+msgstr "Styr uppspelningen från Android-appen"
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
@@ -137,7 +137,7 @@ msgstr "Bläddra i spellistan med Android-appen"
 
 #: data.py:37
 msgid "Podcasts"
-msgstr "Poddsändningar"
+msgstr "Poddar"
 
 #: data.py:38
 msgid "Google Drive"
@@ -145,7 +145,7 @@ msgstr "Google Drive"
 
 #: data.py:39
 msgid "New global search interface"
-msgstr "Nytt globalt sökgränssnitt"
+msgstr "Nytt gränssnitt för global sökning"
 
 #: data.py:40
 msgid "Moodbars"
@@ -161,11 +161,11 @@ msgstr "Global sökning efter album på Spotify"
 
 #: data.py:45
 msgid "Global search options"
-msgstr "Globala sökalternativ"
+msgstr "Alternativ för global sökning"
 
 #: data.py:46
 msgid "Grooveshark integration"
-msgstr "Groovesharkintegrering"
+msgstr "Integrering med Grooveshark"
 
 #: data.py:49
 msgid "Lyrics and track slider tooltip"
@@ -173,7 +173,7 @@ msgstr "Låttext och verktygstips för spårreglaget"
 
 #: data.py:50
 msgid "MusicBrainz fixing untagged files"
-msgstr "MusicBrainz korrigerar otaggade filer"
+msgstr "MusicBrainz fyller i taggar för filer som saknar dem"
 
 #: data.py:51
 msgid "New tag editor with autocompletion"
@@ -181,7 +181,7 @@ msgstr "Ny taggredigerare med automatisk komplettering"
 
 #: data.py:52
 msgid "Track slider tooltip on Mac OS X"
-msgstr "Verktygstips för spårreglage i Mac OS X"
+msgstr "Verktygstips för spårreglaget i Mac OS X"
 
 #: data.py:55
 msgid "Artist photos and biographies"
@@ -209,7 +209,7 @@ msgstr "Kopierar musik till en iPod i Ubuntu"
 
 #: data.py:63
 msgid "Clementine 0.5 on Ubu...ALL GLORY TO THE HYPNOTOAD"
-msgstr "Clementine 0.5 i Ubu...ALL GLORY TO THE HYPNOTOAD"
+msgstr "Clementine 0.5 i Ubu… ALL ÄRA ÅT HYPNOPADDAN"
 
 #: data.py:64
 msgid "Clementine 0.5 on Mac OS X"
@@ -225,7 +225,7 @@ msgstr "Clementine 0.4 i Windows 7"
 
 #: data.py:69
 msgid "Clementine 0.4 visualisations with projectM"
-msgstr "Clementine 0.4-visualiseringar med projectM"
+msgstr "Visualiseringar med projectM i Clementine 0.4"
 
 #: data.py:70
 msgid "Clementine 0.4 on Mac OS X"
@@ -325,22 +325,22 @@ msgstr "Andra hämtningar"
 
 #: downloads.html:95 screenshots.html:33
 msgid "Clementine Remote for Android"
-msgstr "Clementine-fjärrkontroll för Android"
+msgstr "Clementine Remote för Android"
 
 #: downloads.html:102
 msgid "Development builds"
-msgstr ""
+msgstr "Utvecklingsversioner"
 
 #: downloads.html:104
 msgid ""
 "Every change to Clementine is built for every operating system, a few times "
 "a week or more. Development builds have the newest fixes and features before"
 " a release does, and sometimes new bugs too."
-msgstr ""
+msgstr "För varje ändring i Clementine byggs utvecklingsversioner för alla operativsystem. Det sker några gånger i veckan eller oftare. Du får de senaste rättningarna och funktionerna före nästa ordinarie utgåva, men ibland också nya fel."
 
 #: downloads.html:108
 msgid "Development builds on GitHub"
-msgstr ""
+msgstr "Utvecklingsversioner på GitHub"
 
 #: downloads.html:112
 msgid "Unofficial packages"
@@ -372,11 +372,11 @@ msgstr "Fullständiga instruktioner och lista över beroenden"
 
 #: main.html:5
 msgid "About &amp; Features"
-msgstr "Om &amp; funktioner"
+msgstr "Om Clementine och dess funktioner"
 
 #: main.html:9
 msgid "Search and play your local music library."
-msgstr "Sök i och spela upp ditt lokala musikbibliotek."
+msgstr "Sök efter och spela upp musik ur ditt lokala bibliotek."
 
 #: main.html:10
 msgid "Listen to internet radio from"
@@ -384,7 +384,7 @@ msgstr "Lyssna på internetradio från"
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr "Bläddra bland och spela musik från"
+msgstr "Bläddra bland och spela upp musik från"
 
 #: main.html:25
 msgid "Subsonic servers"
@@ -396,7 +396,7 @@ msgstr "Plex-medieservrar"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
-msgstr "Sök och spela låtar du har laddat upp till"
+msgstr "Sök efter och spela upp låtar som du har laddat upp till"
 
 #: main.html:37
 msgid "Scrobble what you play to"
@@ -408,7 +408,7 @@ msgstr "Skapa smarta spellistor och dynamiska spellistor."
 
 #: main.html:39
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
-msgstr "Flikbaserade spellistor samt import och export av M3U, XSPF, PLS, ASX och WPL."
+msgstr "Öppna spellistor i flikar och importera eller exportera dem i formaten M3U, XSPF, PLS, ASX och WPL."
 
 #: main.html:40
 msgid "CUE sheet support."
@@ -416,11 +416,11 @@ msgstr "Stöd för CUE-filer."
 
 #: main.html:41
 msgid "Play audio CDs."
-msgstr "Spela ljud-CD-skivor."
+msgstr "Spela upp ljud-CD-skivor."
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr "Frekvenskorrigerare och stämningsdiagram."
+msgstr "Equalizer och stämningsdiagram."
 
 #: main.html:43
 msgid "Visualisations from"
@@ -428,15 +428,15 @@ msgstr "Visualiseringar från"
 
 #: main.html:44
 msgid "Lyrics from your own files and"
-msgstr "Låttexter från dina egna filer och"
+msgstr "Visa låttexter från dina egna filer och"
 
 #: main.html:44
 msgid "shown in time with the song where they're timed."
-msgstr "som visas i takt med låten när de är tidskodade."
+msgstr "i takt med musiken om texterna är tidskodade."
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr "Artistbiografier och foton."
+msgstr "Artistbiografier och artistfoton."
 
 #: main.html:46
 msgid ""
@@ -450,11 +450,11 @@ msgstr "Redigera taggar och organisera din musik."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Hämta taggar som saknas från MusicBrainz."
+msgstr "Hämta saknade taggar från MusicBrainz."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr "Upptäck, hämta och synkronisera poddsändningar med"
+msgstr "Upptäck, hämta och synkronisera poddar med"
 
 #: main.html:50
 msgid ""
@@ -467,7 +467,7 @@ msgstr "Plattformsoberoende – fungerar i Windows, macOS och Linux."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
-msgstr "Ljust och mörkt tema, eller följ systemets tema."
+msgstr "Välj ljust eller mörkt tema, eller följ systemets tema."
 
 #: main.html:53
 msgid ""
@@ -514,7 +514,7 @@ msgstr "Köhanterare."
 
 #: main.html:63
 msgid "is a modern music player and library organizer"
-msgstr "är en modern musikspelare och musikbibliotekshanterare"
+msgstr "är en modern musikspelare som hjälper dig att hålla ordning på ditt musikbibliotek"
 
 #: main.html:67
 msgid "Clementine is a multiplatform music player."
@@ -564,7 +564,7 @@ msgstr "Nyheter"
 
 #: main.html:152
 msgid "All releases and development builds"
-msgstr ""
+msgstr "Alla utgåvor och utvecklingsversioner"
 
 #: participate.html:7
 msgid "Need help?"
@@ -590,7 +590,7 @@ msgstr "Samarbeta"
 
 #: participate.html:21
 msgid "Reporting bugs and proposing patches"
-msgstr "Rapportera fel och föreslå programfixar"
+msgstr "Rapportera fel och föreslå kodändringar"
 
 #: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
@@ -614,17 +614,17 @@ msgstr "Översätta gränssnittet"
 msgid ""
 "If you'd like to translate Clementine into another language you can do so on"
 " the Transifex translations page."
-msgstr "Om du vill översätta Clementine till ett annat språk kan du göra det på Transifex-översättningssidan."
+msgstr "Om du vill översätta Clementine till ett annat språk kan du göra det på projektets översättningssida på Transifex."
 
 #: participate.html:33
 msgid ""
 "You can either do the translation directly on Transifex, or download a .po "
 "file from the site and then email it back to us."
-msgstr "Du kan antingen göra översättningen direkt på Transifex eller hämta en .po-fil från webbplatsen och sedan e-posta den till oss."
+msgstr "Du kan översätta direkt på Transifex eller hämta en .po-fil från webbplatsen och skicka den översatta filen till oss med e-post."
 
 #: participate.html:36
 msgid "Transifex translations"
-msgstr "Transifex-översättningar"
+msgstr "Översättningar på Transifex"
 
 #: participate.html:39
 msgid "Hacking"
@@ -636,7 +636,7 @@ msgstr "Utvecklingen av Clementine sker i"
 
 #: participate.html:43
 msgid "the git repository"
-msgstr "git-förrådet"
+msgstr "Git-förrådet"
 
 #: participate.html:44
 msgid "Check out the code by running:"
@@ -661,7 +661,7 @@ msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/Android-Remote/issues\">its bug "
 "tracker</a>."
-msgstr "Du kan rapportera problem och föreslå programfixar i <a href=\"https://github.com/clementine-player/Android-Remote/issues\">projektets ärendehanterare</a>."
+msgstr "Du kan rapportera problem och föreslå kodändringar i <a href=\"https://github.com/clementine-player/Android-Remote/issues\">projektets ärendehanterare</a>."
 
 #: participate.html:58 participate.html:64
 msgid ""
@@ -686,7 +686,7 @@ msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
 "tracker</a>."
-msgstr "Du kan rapportera problem och föreslå programfixar i <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">projektets ärendehanterare</a>."
+msgstr "Du kan rapportera problem och föreslå kodändringar i <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">projektets ärendehanterare</a>."
 
 #: participate.html:68
 msgid "Social Networking"
@@ -696,7 +696,7 @@ msgstr "Sociala medier"
 msgid ""
 "We'd love to see you support Clementine by joining us on your favourite "
 "social networking site!"
-msgstr "Stöd gärna Clementine genom att följa oss på dina sociala favoritplattformar!"
+msgstr "Du kan stödja Clementine genom att följa oss på den sociala plattform du gillar bäst!"
 
 #: participate.html:74
 msgid "Clementine on Facebook"
@@ -717,7 +717,7 @@ msgstr "För närvarande behöver vi inga pengar och tar därför inte emot dona
 msgid ""
 "You can also help by <a href=\"#collaborate\">participating to the software "
 "development, as explained above</a>."
-msgstr "Du kan också hjälpa oss genom att <a href=\"#collaborate\">delta i utvecklingen av programmet, som förklaras här</a>."
+msgstr "Du kan också <a href=\"#collaborate\">delta i utvecklingen av programmet enligt anvisningarna ovan</a>."
 
 #: participate.html:82
 msgid ""
@@ -749,4 +749,4 @@ msgid ""
 "only on an anonymous basis. Information such as usernames, passwords and "
 "authentication tokens for online services provided to Clementine are never "
 "transmitted from that instance of Clementine."
-msgstr "Clementine och dess utvecklare samlar inte in några personuppgifter som kan identifiera dig. Uppgifter som statistik från webbtjänster samlas endast in anonymt. Information som användarnamn, lösenord och autentiseringstoken för nättjänster som anges i Clementine överförs aldrig från den aktuella Clementine-installationen."
+msgstr "Clementine och dess utvecklare samlar inte in några personuppgifter som kan identifiera dig. Statistik från webbtjänster och liknande uppgifter samlas bara in anonymt. Uppgifter som du anger i Clementine för nättjänster, till exempel användarnamn, lösenord och autentiseringstoken, skickas aldrig vidare från den installationen av Clementine."

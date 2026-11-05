@@ -116,17 +116,17 @@ msgstr "Просмотр фонотеки из приложения для Andro
 #: data.py:24
 #, python-format
 msgid "The library on %(platform)s"
-msgstr "Фонотека на %(platform)s"
+msgstr "Фонотека в %(platform)s"
 
 #: data.py:25
 #, python-format
 msgid "The library on %(platform)s, in the dark theme"
-msgstr "Фонотека на %(platform)s с тёмной темой"
+msgstr "Фонотека в %(platform)s с тёмной темой"
 
 #: data.py:26
 #, python-format
 msgid "Internet services on %(platform)s"
-msgstr "Службы Интернет на %(platform)s"
+msgstr "Службы Интернет в %(platform)s"
 
 #: data.py:31
 msgid ""
@@ -733,7 +733,7 @@ msgstr "Но если вы всё ещё хотите потратить ваш�
 
 #: participate.html:82
 msgid "and let us know:"
-msgstr "рассказав нам об этом:"
+msgstr "сообщив нам об этом:"
 
 #: participate.html:85
 msgid ""
