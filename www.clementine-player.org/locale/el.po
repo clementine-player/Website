@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 15:44+0000\n"
+"POT-Creation-Date: 2026-11-12 01:51+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: Yannis Anthymidis, 2012\n"
 "Language-Team: Greek (http://app.transifex.com/davidsansome/clementine/language/el/)\n"
@@ -55,14 +55,14 @@ msgstr "Ελέγξτε το Clementine εξ αποστάσεως από το And
 
 #: android-download.html:9
 msgid "Get it on Google Play"
-msgstr ""
+msgstr "Αποκτήστε το από το Google Play"
 
 #: android-download.html:12
 msgid ""
 "Want every change as soon as it's made? <a "
 "href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Join"
 " the beta</a> for development builds."
-msgstr ""
+msgstr "Θέλετε να λαμβάνετε κάθε αλλαγή μόλις υλοποιείται; <a href=\"https://play.google.com/apps/testing/org.clementine_player.remote\">Συμμετάσχετε στο πρόγραμμα beta</a> για πρόσβαση σε εκδόσεις υπό ανάπτυξη."
 
 #: base.html:11
 msgid "Clementine Music Player"
@@ -116,22 +116,22 @@ msgstr "Έλεγχος αναπαραγωγής απο την Android εφαρμ
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
-msgstr ""
+msgstr "Περιήγηση στη βιβλιοθήκη από την εφαρμογή Android"
 
 #: data.py:24
 #, python-format
 msgid "The library on %(platform)s"
-msgstr ""
+msgstr "Η βιβλιοθήκη σε %(platform)s"
 
 #: data.py:25
 #, python-format
 msgid "The library on %(platform)s, in the dark theme"
-msgstr ""
+msgstr "Η βιβλιοθήκη σε %(platform)s, με σκούρο θέμα"
 
 #: data.py:26
 #, python-format
 msgid "Internet services on %(platform)s"
-msgstr ""
+msgstr "Υπηρεσίες διαδικτύου σε %(platform)s"
 
 #: data.py:31
 msgid ""
@@ -296,39 +296,39 @@ msgstr "Λήψεις για διαφορετικά λειτουργικά συσ
 
 #: downloads.html:57
 msgid "Debian and Ubuntu"
-msgstr ""
+msgstr "Debian και Ubuntu"
 
 #: downloads.html:59
 msgid ""
 "Add Clementine's apt repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Debian and Ubuntu, and "
 "Ubuntu-based distributions such as Linux Mint, for 64-bit PCs and ARM."
-msgstr ""
+msgstr "Προσθέστε το αποθετήριο apt του Clementine για να λαμβάνετε νέες εκδόσεις μαζί με τις υπόλοιπες ενημερώσεις σας. Διαθέτει πακέτα για τις τρέχουσες εκδόσεις του Debian και του Ubuntu, καθώς και για διανομές που βασίζονται στο Ubuntu, όπως το Linux Mint, για υπολογιστές 64 bit και συστήματα ARM."
 
 #: downloads.html:74
 msgid "The repository is signed with this key:"
-msgstr ""
+msgstr "Το αποθετήριο υπογράφεται με αυτό το κλειδί:"
 
 #: downloads.html:77
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: downloads.html:79
 msgid ""
 "Add Clementine's COPR repository to get new versions with the rest of your "
 "updates. It has packages for the current releases of Fedora, for 64-bit PCs "
 "and ARM."
-msgstr ""
+msgstr "Προσθέστε το αποθετήριο COPR του Clementine για να λαμβάνετε νέες εκδόσεις μαζί με τις υπόλοιπες ενημερώσεις σας. Διαθέτει πακέτα για τις τρέχουσες εκδόσεις του Fedora, για υπολογιστές 64 bit και συστήματα ARM."
 
 #: downloads.html:84
 msgid ""
 "If you already have Fedora's own Clementine package, which is older, replace"
 " it with this one:"
-msgstr ""
+msgstr "Αν έχετε ήδη το πακέτο Clementine που παρέχει το ίδιο το Fedora, το οποίο είναι παλαιότερο, αντικαταστήστε το με αυτό:"
 
 #: downloads.html:88
 msgid "The first time, dnf asks you to trust the repository's signing key:"
-msgstr ""
+msgstr "Την πρώτη φορά, το dnf σας ζητά να εμπιστευτείτε το κλειδί υπογραφής του αποθετηρίου:"
 
 #: downloads.html:93 downloads.html:118
 msgid "Other Downloads"
@@ -340,18 +340,18 @@ msgstr "Clementine Remote για Android"
 
 #: downloads.html:102
 msgid "Development builds"
-msgstr ""
+msgstr "Εκδόσεις υπό ανάπτυξη"
 
 #: downloads.html:104
 msgid ""
 "Every change to Clementine is built for every operating system, a few times "
 "a week or more. Development builds have the newest fixes and features before"
 " a release does, and sometimes new bugs too."
-msgstr ""
+msgstr "Κάθε αλλαγή στο Clementine μεταγλωττίζεται για κάθε λειτουργικό σύστημα, μερικές φορές την εβδομάδα ή συχνότερα. Οι εκδόσεις υπό ανάπτυξη περιλαμβάνουν τις νεότερες διορθώσεις και δυνατότητες πριν από την επόμενη επίσημη έκδοση και, μερικές φορές, νέα σφάλματα."
 
 #: downloads.html:108
 msgid "Development builds on GitHub"
-msgstr ""
+msgstr "Εκδόσεις υπό ανάπτυξη στο GitHub"
 
 #: downloads.html:112
 msgid "Unofficial packages"
@@ -391,19 +391,19 @@ msgstr "Αναζητήστε και παίξτε μουσική από την τ
 
 #: main.html:10
 msgid "Listen to internet radio from"
-msgstr "Ακούστε ιντερνετικό ραδιόφωνο από"
+msgstr "Ακούστε διαδικτυακό ραδιόφωνο από"
 
 #: main.html:22
 msgid "Browse and play music from"
-msgstr ""
+msgstr "Περιήγηση και αναπαραγωγή μουσικής από"
 
 #: main.html:25
 msgid "Subsonic servers"
-msgstr ""
+msgstr "διακομιστές Subsonic"
 
 #: main.html:27
 msgid "Plex Media Servers"
-msgstr ""
+msgstr "διακομιστές Plex Media Server"
 
 #: main.html:29
 msgid "Search and play songs you've uploaded to"
@@ -411,7 +411,7 @@ msgstr "Αναζήτηση και αναπαραγωγή των τραγουδι
 
 #: main.html:37
 msgid "Scrobble what you play to"
-msgstr ""
+msgstr "Ενημέρωση του μουσικού προφίλ σας με τις ακροάσεις σας στα"
 
 #: main.html:38
 msgid "Create smart playlists and dynamic playlists."
@@ -419,7 +419,7 @@ msgstr "Δημιουργία έξυπνης και δυναμικής λίστα
 
 #: main.html:39
 msgid "Tabbed playlists, import and export M3U, XSPF, PLS, ASX and WPL."
-msgstr ""
+msgstr "Λίστες αναπαραγωγής σε καρτέλες, εισαγωγή και εξαγωγή αρχείων M3U, XSPF, PLS, ASX και WPL."
 
 #: main.html:40
 msgid "CUE sheet support."
@@ -431,7 +431,7 @@ msgstr "Αναπαραγωγή μουσικών CD."
 
 #: main.html:42
 msgid "Equalizer and moodbar."
-msgstr ""
+msgstr "Ισοσταθμιστής και γραμμή διάθεσης."
 
 #: main.html:43
 msgid "Visualisations from"
@@ -439,25 +439,25 @@ msgstr "Οπτικά εφέ από"
 
 #: main.html:44
 msgid "Lyrics from your own files and"
-msgstr ""
+msgstr "Στίχοι από τα αρχεία σας και το"
 
 #: main.html:44
 msgid "shown in time with the song where they're timed."
-msgstr ""
+msgstr "με συγχρονισμένη εμφάνιση κατά την αναπαραγωγή, όταν διαθέτουν χρονισμό."
 
 #: main.html:45
 msgid "Artist biographies and photos."
-msgstr ""
+msgstr "Βιογραφίες και φωτογραφίες καλλιτεχνών."
 
 #: main.html:46
 msgid ""
 "Transcode music into MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA or"
 " WAV."
-msgstr ""
+msgstr "Διακωδικοποίηση μουσικής σε MP3, Ogg Vorbis, Ogg Opus, Ogg Speex, FLAC, AAC, WMA ή WAV."
 
 #: main.html:47
 msgid "Edit tags and organise your music."
-msgstr ""
+msgstr "Επεξεργασία ετικετών και οργάνωση της μουσικής σας."
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
@@ -465,37 +465,37 @@ msgstr "Κατέβασμα των ετικετών που λείπουν από 
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
-msgstr ""
+msgstr "Ανακάλυψη, λήψη και συγχρονισμός διαδικτυακών εκπομπών με το"
 
 #: main.html:50
 msgid ""
 "Download missing album cover art from Last.fm, MusicBrainz and Discogs."
-msgstr ""
+msgstr "Λήψη ελλειπόντων εξωφύλλων δίσκων από τα Last.fm, MusicBrainz και Discogs."
 
 #: main.html:51
 msgid "Cross-platform - works on Windows, macOS and Linux."
-msgstr ""
+msgstr "Για πολλές πλατφόρμες - λειτουργεί σε Windows, macOS και Linux."
 
 #: main.html:52
 msgid "Light and dark themes, or follow your system's."
-msgstr ""
+msgstr "Ανοιχτό και σκούρο θέμα ή αυτόματη προσαρμογή στο θέμα του συστήματός σας."
 
 #: main.html:53
 msgid ""
 "Native desktop notifications and media controls on Linux, macOS and Windows."
-msgstr ""
+msgstr "Εγγενείς ειδοποιήσεις επιφάνειας εργασίας και χειριστήρια πολυμέσων σε Linux, macOS και Windows."
 
 #: main.html:54
 msgid "Remote control using"
-msgstr ""
+msgstr "Απομακρυσμένος έλεγχος με"
 
 #: main.html:54
 msgid "an Android device"
-msgstr ""
+msgstr "μια συσκευή Android"
 
 #: main.html:54
 msgid "an iPhone or iPad"
-msgstr ""
+msgstr "ένα iPhone ή iPad"
 
 #: main.html:54
 msgid "a Wii Remote"
@@ -509,7 +509,7 @@ msgstr "MPRIS ή την γραμμή εντολών."
 msgid ""
 "With Clementine Remote, browse your library and internet services, download "
 "songs, and play Clementine's music on your phone."
-msgstr ""
+msgstr "Με το Clementine Remote, περιηγηθείτε στη βιβλιοθήκη σας και στις διαδικτυακές υπηρεσίες, κάντε λήψη τραγουδιών και αναπαραγάγετε τη μουσική του Clementine στο τηλέφωνό σας."
 
 #: main.html:56
 msgid "Copy music to your"
@@ -517,7 +517,7 @@ msgstr "Αντιγραφή μουσικής στο δικό σας"
 
 #: main.html:56
 msgid "iPod, MTP or mass-storage USB player."
-msgstr ""
+msgstr "iPod, σε συσκευή MTP ή σε συσκευή αναπαραγωγής USB μαζικής αποθήκευσης."
 
 #: main.html:57
 msgid "Queue manager."
@@ -575,7 +575,7 @@ msgstr "Νέα"
 
 #: main.html:152
 msgid "All releases and development builds"
-msgstr ""
+msgstr "Όλες οι επίσημες εκδόσεις και οι εκδόσεις υπό ανάπτυξη"
 
 #: participate.html:7
 msgid "Need help?"
@@ -589,7 +589,7 @@ msgstr "Forum"
 msgid ""
 "Clementine uses GitHub Discussions for questions, help and general "
 "discussion."
-msgstr ""
+msgstr "Το Clementine χρησιμοποιεί το GitHub Discussions για ερωτήσεις, βοήθεια και γενικές συζητήσεις."
 
 #: participate.html:14
 msgid "Support and discussion group"
@@ -683,21 +683,21 @@ msgstr "Μπορείτε να μεταφράσετε το περιβάλλον �
 
 #: participate.html:60
 msgid "Remote application for iOS"
-msgstr ""
+msgstr "Εφαρμογή απομακρυσμένου ελέγχου για iOS"
 
 #: participate.html:62
 msgid ""
 "Clementine Remote for iPhone and iPad is hosted on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote\">another GitHub "
 "repository</a>."
-msgstr ""
+msgstr "Η εφαρμογή Clementine Remote για iPhone και iPad φιλοξενείται σε <a href=\"https://github.com/clementine-player/iOS-Remote\">άλλο αποθετήριο GitHub</a>."
 
 #: participate.html:63
 msgid ""
 "You can report issues and propose patches on <a "
 "href=\"https://github.com/clementine-player/iOS-Remote/issues\">its bug "
 "tracker</a>."
-msgstr ""
+msgstr "Μπορείτε να αναφέρετε προβλήματα και να προτείνετε διορθώσεις στον <a href=\"https://github.com/clementine-player/iOS-Remote/issues\">ιχνηλάτη προβλημάτων της</a>."
 
 #: participate.html:68
 msgid "Social Networking"
@@ -743,11 +743,11 @@ msgstr "και να μας ενημερώσετε σχετικά:"
 #: participate.html:85
 msgid ""
 "<a href=\"https://www.msf.org/\">M&eacute;decins Sans Fronti&egrave;res</a>"
-msgstr ""
+msgstr "<a href=\"https://www.msf.org/\">Γιατροί Χωρίς Σύνορα</a>"
 
 #: participate.html:86
 msgid "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</a>"
-msgstr ""
+msgstr "<a href=\"https://www.actionagainsthunger.org/\">Δράση κατά της Πείνας</a>"
 
 #: participate.html:87
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
