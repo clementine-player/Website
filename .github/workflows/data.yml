@@ -16,22 +16,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.8.0
       # The pull request's checks, again, right before deploying: a model the
       # real google-cloud-ndb refuses to load takes the whole site down.
       - name: Set up uv
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v6.8.0
       - name: Load the models with the real ndb
         working-directory: data.clementine-player.org
         run: uv run --no-project --python 3.12 --with-requirements requirements.txt python3 -c "import models"
       - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v2.1.13
         with:
           project_id: clementine-data
           workload_identity_provider: projects/611551928920/locations/global/workloadIdentityPools/github-actions/providers/website-repo
           service_account: github-deploy@clementine-data.iam.gserviceaccount.com
       - name: Set up gcloud
-        uses: google-github-actions/setup-gcloud@v2
+        uses: google-github-actions/setup-gcloud@v2.2.1
       # Before the app, so a version that needs a new index finds it
       # already building. Like cron.yaml, index.yaml is app-wide. This only
       # adds indexes: ones dropped from the file stay until removed by hand

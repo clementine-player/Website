@@ -19,15 +19,15 @@ jobs:
       - name: Install dependencies
         run: apk --no-cache add py3-django make gettext
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.8.0
       - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v2.1.13
         with:
           project_id: clementine-web
           workload_identity_provider: projects/460637942860/locations/global/workloadIdentityPools/github-actions/providers/website-repo
           service_account: github-deploy@clementine-web.iam.gserviceaccount.com
       - name: Set up gcloud
-        uses: google-github-actions/setup-gcloud@v2
+        uses: google-github-actions/setup-gcloud@v2.2.1
       - name: build
         working-directory: www.clementine-player.org
         run: make
