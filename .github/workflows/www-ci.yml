@@ -1,16 +1,41 @@
+# Runs on every pull request, rather than only those that change the paths
+# below, because build-and-boot is a required check: a pull request that
+# didn't start it, such as a Dependabot update to another workflow, could
+# never merge. The job is skipped, which counts as passing, when none of them
+# changed.
 on:
   pull_request:
-    paths:
-      - 'www.clementine-player.org/**'
-      - '.github/workflows/www-ci.yml'
-      # Its push job runs make pot, which this builds too.
-      - '.github/workflows/translations.yml'
 
 permissions:
   contents: read
 
 jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      relevant: ${{ steps.diff.outputs.relevant }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.8.0
+        with:
+          # The pull request's merge commit and its first parent, the base.
+          fetch-depth: 2
+      - name: Check what changed
+        id: diff
+        run: |
+          # translations.yml's push job runs make pot, which this builds too.
+          if git diff --quiet HEAD^1 HEAD -- \
+              www.clementine-player.org \
+              .github/workflows/www-ci.yml \
+              .github/workflows/translations.yml; then
+            echo relevant=false >> "$GITHUB_OUTPUT"
+          else
+            echo relevant=true >> "$GITHUB_OUTPUT"
+          fi
+
   build-and-boot:
+    needs: changes
+    if: needs.changes.outputs.relevant == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
