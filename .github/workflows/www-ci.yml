@@ -16,7 +16,7 @@ jobs:
       relevant: ${{ steps.diff.outputs.relevant }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.8.0
+        uses: actions/checkout@v7.0.1
         with:
           # The pull request's merge commit and its first parent, the base.
           fetch-depth: 2
