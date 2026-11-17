@@ -5,14 +5,73 @@
 
 {% block content %}
 
-<div class="privacy-policy">
-  <div class="privacy-policy-title">
-    {{ _("Privacy Policy") }}
-  </div>
+<h1>{{ _("Privacy Policy") }}</h1>
 
-  <div class="privacy-policy-content">
-  {{ _("Clementine and its developers do not collect any personally identifiable information in any way. Data such as web service statistics are collected only on an anonymous basis. Information such as usernames, passwords and authentication tokens for online services provided to Clementine are never transmitted from that instance of Clementine.") }}
-  </div>
-</div>
+<p>{{ _("Clementine is a music player that runs on your computer. It has no accounts, analytics, advertising or tracking.") }}
+{{ _("It connects to other computers only for the features you use, and this page lists what it sends, and to whom.") }}
+{{ _("Clementine Remote, the app for controlling Clementine from your phone, has its own privacy policies for %(android)s and %(ios)s.") % {"android": '<a href="https://github.com/clementine-player/Android-Remote/blob/master/PRIVACY.md">Android</a>', "ios": '<a href="https://github.com/clementine-player/iOS-Remote/blob/main/PRIVACY.md">iOS</a>'} }}</p>
+
+<h2>{{ _("Crash reports") }}</h2>
+
+<p>{{ _("The macOS and Windows builds published by the Clementine project can send a report to Clementine's developers when Clementine crashes, so they can fix the problem.") }}
+{{ _("The next time Clementine starts after a crash, it asks whether to send the report. Nothing is sent unless you agree, and you're asked again each time.") }}
+{{ _("You can turn the question off in Preferences, under Behavior; turning it off deletes reports that haven't been sent.") }}</p>
+
+<p>{{ _("A report says what Clementine was doing when it crashed: the code it was running and part of the memory it was using, the version of Clementine, and the version of the operating system and the type of processor.") }}
+{{ _("Because it includes some of Clementine's memory, it can include file names, which can include your user name, and the titles of songs you were playing.") }}
+{{ _("Reports are sent to Sentry, which stores them for us in the EU, without the IP address they were sent from, and deletes them after at most 90 days.") }}
+{{ _("They are used only to fix crashes, and only Clementine's developers can see them.") }}</p>
+
+<h2>{{ _("Updates") }}</h2>
+
+<p>{{ _("On macOS, Clementine asks whether it may check for updates automatically.") }}
+{{ _("Checking downloads a list of releases from data.clementine-player.org, which sees which version of Clementine you have.") }}
+{{ _("On Windows you can download new releases from this website, and on Linux your distribution's package manager updates Clementine.") }}</p>
+
+<h2>{{ _("Clementine's own services") }}</h2>
+
+<p>{{ _("Some features use services the Clementine project runs at data.clementine-player.org:") }}</p>
+
+<ul>
+  <li>{{ _("The artist information pane sends the name of the artist that's playing, and your language, to fetch a biography and photos. Our server looks them up with Google and Spotify on your behalf, so those services see only the artist's name, and keeps the answers for a while so it doesn't have to ask again.") }}</li>
+  <li>{{ _("Signing in to Box or Dropbox returns to Clementine through our server, which passes a one-time sign-in code back to Clementine on your computer. Clementine then signs in with the service directly, and the code can't be used again.") }}</li>
+  <li>{{ _("The Rainy Mood background stream and the Icecast radio directory are opened through our server, which counts how many times each is used, without recording who used it.") }}</li>
+</ul>
+
+<p>{{ _("These services run on Google Cloud, which keeps a log of the requests made to them, including the IP address they came from, for 30 days. We use the logs only to keep the services running.") }}</p>
+
+<h2>{{ _("Services you choose to use") }}</h2>
+
+<p>{{ _("Clementine sends requests straight to other services when you use the features that need them. Each sees your IP address and what Clementine asks it, and handles them under its own privacy policy:") }}</p>
+
+<ul>
+  <li>{{ _("Last.fm: the songs you play, if you sign in to Last.fm and turn on scrobbling, and the song that's playing, when the song information pane shows information about it.") }}</li>
+  <li>{{ _("Last.fm, MusicBrainz, the Cover Art Archive and Discogs, when you look for album covers: the artist and album.") }}</li>
+  <li>{{ _("LRCLIB, when the song information pane shows lyrics: the song's title, artist, album and length.") }}</li>
+  <li>{{ _("AcoustID and MusicBrainz, when you ask Clementine to complete a song's tags: an audio fingerprint of the song, and the tags it finds.") }}</li>
+  <li>{{ _("Internet radio, music and podcast services, such as SomaFM, Radio Browser, Jamendo, Magnatune, DI.fm and gpodder.net: what you browse, search for and play.") }}</li>
+  <li>{{ _("Cloud storage and music servers you connect, such as Google Drive, Dropbox, OneDrive, Box, Seafile, Subsonic and Plex: the requests for your music there.") }}</li>
+</ul>
+
+<p>{{ _("The user names, passwords and sign-in tokens you give Clementine for these services are kept in Clementine's settings on your computer, and are sent only to the service they belong to.") }}</p>
+
+<h2>{{ _("Your local network") }}</h2>
+
+<p>{{ _("Clementine finds AirPlay and Sonos speakers on your local network, and sends music only to the ones you choose.") }}
+{{ _("If you turn on the network remote, Clementine Remote on your phone can control it, browse your library and download songs from it.") }}
+{{ _("This all stays on your local network.") }}</p>
+
+<h2>{{ _("This website") }}</h2>
+
+<p>{{ _("This website has no analytics, advertising or cookies. It runs on Google Cloud, which keeps a log of the pages requested, including the IP address they came from, for 30 days.") }}
+{{ _("Pages in Burmese load a font from Google Fonts.") }}
+{{ _("Downloads come from GitHub, which has its own privacy policy.") }}</p>
+
+<h2>{{ _("More information") }}</h2>
+
+<ul>
+  <li><a href="https://github.com/clementine-player/Clementine">{{ _("Clementine's source code, where you can check all of this") }}</a></li>
+  <li><a href="https://github.com/clementine-player/Clementine/issues">{{ _("Questions: open an issue on GitHub") }}</a></li>
+</ul>
 
 {% endblock %}

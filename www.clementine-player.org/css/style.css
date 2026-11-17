@@ -640,18 +640,3 @@ pre {
   border-right: 3px solid #FD9146;
   text-align: right;
 }
-
-.privacy-policy {
-  max-width: 75%;
-  margin-inline: auto;
-  text-align: center;
-}
-
-.privacy-policy-content {
-  font-size: 14pt;
-}
-
-.privacy-policy-title {
-  font-size: 18pt;
-  margin-bottom: 20px;
-}
