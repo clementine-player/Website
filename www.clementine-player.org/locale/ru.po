@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 15:44+0000\n"
+"POT-Creation-Date: 2026-11-18 14:00+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: Andrei Stepanov, 2014-2017,2022-2024,2026\n"
 "Language-Team: Russian (http://app.transifex.com/davidsansome/clementine/language/ru/)\n"
@@ -63,47 +63,119 @@ msgstr "Хотите получать каждое изменение сразу
 msgid "Clementine Music Player"
 msgstr "Музыкальный плеер Clementine"
 
-#: base.html:46
+#: base.html:34
 msgid "About"
 msgstr "О программе"
 
-#: base.html:47 downloads.html:2
+#: base.html:35 downloads.html:2
 msgid "Downloads"
 msgstr "Скачать"
 
-#: base.html:48 main.html:112 screenshots.html:2
+#: base.html:36 main.html:112 screenshots.html:2
 msgid "Screenshots"
 msgstr "Скриншоты"
 
-#: base.html:49 participate.html:2
+#: base.html:37 participate.html:2
 msgid "Participate"
 msgstr "Участие"
 
-#: base.html:53
+#: base.html:41
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr "Кроссплатформенный музыкальный проигрыватель, вдохновлённый Amarok 1.4"
 
-#: base.html:78
+#: base.html:66
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr "Clementine является свободным программным обеспечением с лицензией GPL v3. Этот сайт сделан под лицензией CC-BY-SA."
 
-#: base.html:79
+#: base.html:67
 msgid "Development by"
 msgstr "Разработчики:"
 
-#: base.html:80 main.html:19 main.html:26 main.html:34
+#: base.html:68 main.html:19 main.html:26 main.html:34
 msgid "and"
 msgstr "и"
 
-#: base.html:82
+#: base.html:70
 msgid "Website by"
 msgstr "Разработка сайта:"
 
-#: base.html:85 privacy.html:3 privacy.html:10
+#: base.html:73 code-signing.html:38 privacy.html:3 privacy.html:8
 msgid "Privacy Policy"
 msgstr "Конфиденциальность"
+
+#: base.html:74 code-signing.html:2 code-signing.html:7
+msgid "Windows code signing policy"
+msgstr "Политика подписи кода Windows"
+
+#: code-signing.html:9
+msgid ""
+"This policy covers Clementine for Windows. The macOS build is signed with an"
+" Apple Developer ID instead."
+msgstr "Эта политика распространяется на Clementine для Windows. Сборка для macOS вместо этого подписана Apple Developer ID."
+
+#: code-signing.html:13
+msgid "What is signed"
+msgstr "Что подписывается"
+
+#: code-signing.html:15
+msgid ""
+"The Windows installer is signed, and so are the programs in it that "
+"Clementine builds: clementine.exe, clementine-tagreader.exe and the "
+"uninstaller."
+msgstr "Подписывается установщик Windows, а также входящие в него программы, которые собирает Clementine: clementine.exe, clementine-tagreader.exe и деинсталлятор."
+
+#: code-signing.html:16
+msgid ""
+"They are built from the source code in Clementine's GitHub repository by "
+"GitHub Actions, and SignPath checks that they were before signing them."
+msgstr "Они собираются из исходного кода в репозитории Clementine на GitHub с помощью GitHub Actions, и перед подписью SignPath проверяет, что это действительно так."
+
+#: code-signing.html:17
+msgid ""
+"The installer also holds libraries and programs other projects build, such "
+"as Qt, GStreamer and Sentry's crash handler. Clementine doesn't sign those."
+msgstr "Установщик также содержит библиотеки и программы, которые собирают другие проекты, например Qt, GStreamer и обработчик сбоев Sentry. Clementine их не подписывает."
+
+#: code-signing.html:20 data.py:156
+msgid "Source code"
+msgstr "Исходный код"
+
+#: code-signing.html:21
+msgid "Build workflow"
+msgstr "Рабочий процесс сборки"
+
+#: code-signing.html:24
+msgid "Team roles"
+msgstr "Роли в команде"
+
+#: code-signing.html:27
+msgid "Committers and reviewers:"
+msgstr "Коммиттеры и рецензенты:"
+
+#: code-signing.html:27
+msgid "members of the clementine-player organization on GitHub"
+msgstr "участники организации clementine-player на GitHub"
+
+#: code-signing.html:28
+msgid "Approvers:"
+msgstr "Лица, принимающие изменения:"
+
+#: code-signing.html:31
+msgid ""
+"Every change from someone outside the team is reviewed before it is merged, "
+"and every signed release is approved by hand."
+msgstr "Каждое изменение от человека вне команды проверяется перед слиянием, а каждый подписанный выпуск утверждается вручную."
+
+#: code-signing.html:33
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+#: code-signing.html:35
+msgid ""
+"See the privacy policy for what Clementine sends to other networked systems."
+msgstr "О том, что Clementine передаёт другим сетевым системам, см. в политике конфиденциальности."
 
 #: data.py:10 data.py:34
 msgid "Controlling playback from the Android app"
@@ -111,7 +183,7 @@ msgstr "Управление воспроизведением с помощью 
 
 #: data.py:11
 msgid "Browsing the library from the Android app"
-msgstr "Просмотр фонотеки из приложения для Android."
+msgstr "Просмотр фонотеки из приложения для Android"
 
 #: data.py:24
 #, python-format
@@ -163,7 +235,7 @@ msgstr "Настройки перекодирования"
 
 #: data.py:44
 msgid "Global search finding albums on Spotify"
-msgstr "Глобальный поиск альбомов в сервисе Spotify"
+msgstr "Глобальный поиск альбомов в службе Spotify"
 
 #: data.py:45
 msgid "Global search options"
@@ -179,7 +251,7 @@ msgstr "Всплывающие подсказки для текстов песе
 
 #: data.py:50
 msgid "MusicBrainz fixing untagged files"
-msgstr "Автозаполнение тегов с сервиса MuzicBrainz"
+msgstr "Автозаполнение тегов со службы MuzicBrainz"
 
 #: data.py:51
 msgid "New tag editor with autocompletion"
@@ -264,10 +336,6 @@ msgstr "Поддержка Last.fm"
 #: data.py:82
 msgid "Growl notifications on Mac OS X"
 msgstr "Всплывающие сообщения в Mac OS X через Growl"
-
-#: data.py:156
-msgid "Source code"
-msgstr "Исходный код"
 
 #: data.py:191
 msgid "Source"
@@ -456,7 +524,7 @@ msgstr "Редактирование тегов и упорядочивание 
 
 #: main.html:48
 msgid "Fetch missing tags from MusicBrainz."
-msgstr "Получение тегов к файлам с сервиса MusicBrainz."
+msgstr "Получение тегов к файлам со службы MusicBrainz."
 
 #: main.html:49
 msgid "Discover, download and sync podcasts with"
@@ -504,7 +572,7 @@ msgstr "MPRIS или командной строки."
 msgid ""
 "With Clementine Remote, browse your library and internet services, download "
 "songs, and play Clementine's music on your phone."
-msgstr "С Clementine Remote просматривайте свою фонотеку и интернет-сервисы, загружайте песни и слушайте музыку Clementine на своём телефоне."
+msgstr "С Clementine Remote просматривайте свою фонотеку и интернет-службы, загружайте песни и слушайте музыку Clementine на своём телефоне."
 
 #: main.html:56
 msgid "Copy music to your"
@@ -600,7 +668,7 @@ msgstr "Сообщения об ошибках и патчи"
 
 #: participate.html:23
 msgid "Clementine uses GitHub for development and issue tracking."
-msgstr "Clementine использует сервис GitHub для разработки и отслеживания ошибок."
+msgstr "Clementine использует службу GitHub для разработки и отслеживания ошибок."
 
 #: participate.html:24
 msgid ""
@@ -748,11 +816,243 @@ msgstr "<a href=\"https://www.actionagainsthunger.org/\">Action Against Hunger</
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 
-#: privacy.html:14
+#: privacy.html:10
 msgid ""
-"Clementine and its developers do not collect any personally identifiable "
-"information in any way. Data such as web service statistics are collected "
-"only on an anonymous basis. Information such as usernames, passwords and "
-"authentication tokens for online services provided to Clementine are never "
-"transmitted from that instance of Clementine."
-msgstr "Clementine и его разработчики не собирают какую-либо личную информацию, позволяющую идентифицировать её обладателя. Данные, такие как сетевая статистика, используются только в анонимном виде. Информация об именах пользователей, паролях, проверке подлинности в сетевых службах Clementine никогда не передаётся и не собирается."
+"Clementine is a music player that runs on your computer. It has no accounts,"
+" analytics, advertising or tracking."
+msgstr "Clementine — это музыкальный проигрыватель, работающий на вашем компьютере. В нём нет учётных записей, аналитики, рекламы и отслеживания."
+
+#: privacy.html:11
+msgid ""
+"It connects to other computers only for the features you use, and this page "
+"lists what it sends, and to whom."
+msgstr "Он подключается к другим компьютерам только для тех функций, которые вы используете, и на этой странице перечислено, что именно он отправляет и кому."
+
+#: privacy.html:12
+#, python-format
+msgid ""
+"Clementine Remote, the app for controlling Clementine from your phone, has "
+"its own privacy policies for %(android)s and %(ios)s."
+msgstr "Приложение Clementine Remote для управления Clementine с телефона имеет собственные политики конфиденциальности для %(android)s и %(ios)s."
+
+#: privacy.html:14
+msgid "Crash reports"
+msgstr "Отчёты о сбоях"
+
+#: privacy.html:16
+msgid ""
+"The macOS and Windows builds, and the Debian, Ubuntu and Fedora packages, "
+"published by the Clementine project can send a report to Clementine's "
+"developers when Clementine crashes, so they can fix the problem."
+msgstr "Сборки для macOS и Windows, а также пакеты для Debian, Ubuntu и Fedora, опубликованные проектом Clementine, при сбое Clementine могут отправить отчёт разработчикам Clementine, чтобы те могли исправить проблему."
+
+#: privacy.html:17
+msgid "Packages made by Linux distributions themselves never send reports."
+msgstr "Пакеты, собранные самими дистрибутивами Linux, никогда не отправляют отчёты."
+
+#: privacy.html:18
+msgid ""
+"The next time Clementine starts after a crash, it asks whether to send the "
+"report. Nothing is sent unless you agree, and you're asked again each time."
+msgstr "При следующем запуске Clementine после сбоя программа спрашивает, отправлять ли отчёт. Ничего не отправляется без вашего согласия, и вопрос задаётся заново каждый раз."
+
+#: privacy.html:19
+msgid ""
+"You can turn the question off in Preferences, under Behavior; turning it off"
+" deletes reports that haven't been sent."
+msgstr "Вопрос можно отключить в разделе «Настройки» → «Поведение»; при отключении неотправленные отчёты удаляются."
+
+#: privacy.html:21
+msgid ""
+"A report says what Clementine was doing when it crashed: the code it was "
+"running and part of the memory it was using, the version of Clementine, and "
+"the version of the operating system and the type of processor."
+msgstr "Отчёт содержит сведения о том, что делала Clementine в момент сбоя: выполнявшийся код и часть использовавшейся памяти, версию Clementine, а также версию операционной системы и тип процессора."
+
+#: privacy.html:22
+msgid ""
+"Because it includes some of Clementine's memory, it can include file names, "
+"which can include your user name, and the titles of songs you were playing."
+msgstr "Поскольку отчёт включает часть памяти Clementine, в него могут попасть имена файлов — а в них может быть ваше имя пользователя — и названия песен, которые вы слушали."
+
+#: privacy.html:23
+msgid ""
+"Reports are sent to Sentry, which stores them for us in the EU, without the "
+"IP address they were sent from, and deletes them after at most 90 days."
+msgstr "Отчёты отправляются в Sentry, которая хранит их для нас в ЕС — без IP-адреса, с которого они были отправлены, — и удаляет их не позднее чем через 90 дней."
+
+#: privacy.html:24
+msgid ""
+"They are used only to fix crashes, and only Clementine's developers can see "
+"them."
+msgstr "Они используются только для исправления сбоев, и видеть их могут только разработчики Clementine."
+
+#: privacy.html:26
+msgid "Updates"
+msgstr "Обновления"
+
+#: privacy.html:28
+msgid ""
+"On macOS, Clementine asks whether it may check for updates automatically."
+msgstr "В macOS Clementine спрашивает, можно ли автоматически проверять обновления."
+
+#: privacy.html:29
+msgid ""
+"Checking downloads a list of releases from data.clementine-player.org, which"
+" sees which version of Clementine you have."
+msgstr "При проверке загружается список выпусков с data.clementine-player.org, и этот сервер видит, какая у вас версия Clementine."
+
+#: privacy.html:30
+msgid ""
+"On Windows you can download new releases from this website, and on Linux "
+"your distribution's package manager updates Clementine."
+msgstr "В Windows новые выпуски можно скачать с этого сайта, а в Linux Clementine обновляется менеджером пакетов вашего дистрибутива."
+
+#: privacy.html:32
+msgid "Clementine's own services"
+msgstr "Собственные службы Clementine"
+
+#: privacy.html:34
+msgid ""
+"Some features use services the Clementine project runs at data.clementine-"
+"player.org:"
+msgstr "Некоторые функции используют службы, которые проект Clementine запускает на data.clementine-player.org:"
+
+#: privacy.html:37
+msgid ""
+"The artist information pane sends the name of the artist that's playing, and"
+" your language, to fetch a biography and photos. Our server looks them up "
+"with Google and Spotify on your behalf, so those services see only the "
+"artist's name, and keeps the answers for a while so it doesn't have to ask "
+"again."
+msgstr "Панель сведений об исполнителе отправляет имя исполнителя, который сейчас играет, и ваш язык, чтобы получить биографию и фотографии. Наш сервер ищет их через Google и Spotify от вашего имени — так эти службы видят только имя исполнителя — и на время сохраняет ответы, чтобы не запрашивать их повторно."
+
+#: privacy.html:38
+msgid ""
+"Signing in to Box or Dropbox returns to Clementine through our server, which"
+" passes a one-time sign-in code back to Clementine on your computer. "
+"Clementine then signs in with the service directly, and the code can't be "
+"used again."
+msgstr "Вход в Box или Dropbox возвращает вас в Clementine через наш сервер, который передаёт обратно в Clementine на вашем компьютере одноразовый код входа. После этого Clementine подключается к службе напрямую, а код больше нельзя использовать."
+
+#: privacy.html:39
+msgid ""
+"The Rainy Mood background stream and the Icecast radio directory are opened "
+"through our server, which counts how many times each is used, without "
+"recording who used it."
+msgstr "Фоновый поток Rainy Mood и каталог радио Icecast открываются через наш сервер, который подсчитывает, сколько раз каждый из них используется, не записывая, кто именно им пользовался."
+
+#: privacy.html:42
+msgid ""
+"These services run on Google Cloud, which keeps a log of the requests made "
+"to them, including the IP address they came from, for 30 days. We use the "
+"logs only to keep the services running."
+msgstr "Эти службы работают в Google Cloud, который в течение 30 дней хранит журнал запросов к ним, включая IP-адреса, с которых они поступили. Мы используем эти журналы только для поддержания работы служб."
+
+#: privacy.html:44
+msgid "Services you choose to use"
+msgstr "Службы по вашему выбору"
+
+#: privacy.html:46
+msgid ""
+"Clementine sends requests straight to other services when you use the "
+"features that need them. Each sees your IP address and what Clementine asks "
+"it, and handles them under its own privacy policy:"
+msgstr "Clementine отправляет запросы напрямую другим службам, когда вы используете функции, которым они нужны. Каждый из них видит ваш IP-адрес и то, что запрашивает Clementine, и обрабатывает эти данные в соответствии со своей собственной политикой конфиденциальности:"
+
+#: privacy.html:49
+msgid ""
+"Last.fm: the songs you play, if you sign in to Last.fm and turn on "
+"scrobbling, and the song that's playing, when the song information pane "
+"shows information about it."
+msgstr "Last.fm: песни, которые вы слушаете, если вы вошли в Last.fm и включили скробблинг, и песня, которая играет сейчас, когда панель сведений о песне показывает информацию о ней."
+
+#: privacy.html:50
+msgid ""
+"Last.fm, MusicBrainz, the Cover Art Archive and Discogs, when you look for "
+"album covers: the artist and album."
+msgstr "Last.fm, MusicBrainz, Cover Art Archive и Discogs — когда вы ищете обложки альбомов: имя исполнителя и название альбома."
+
+#: privacy.html:51
+msgid ""
+"LRCLIB, when the song information pane shows lyrics: the song's title, "
+"artist, album and length."
+msgstr "LRCLIB — когда панель сведений о песне показывает текст песни: название песни, исполнитель, альбом и длительность."
+
+#: privacy.html:52
+msgid ""
+"AcoustID and MusicBrainz, when you ask Clementine to complete a song's tags:"
+" an audio fingerprint of the song, and the tags it finds."
+msgstr "AcoustID и MusicBrainz — когда вы просите Clementine дополнить теги песни: звуковой отпечаток песни и найденные теги."
+
+#: privacy.html:53
+msgid ""
+"Internet radio, music and podcast services, such as SomaFM, Radio Browser, "
+"Jamendo, Magnatune, DI.fm and gpodder.net: what you browse, search for and "
+"play."
+msgstr "Интернет-радио, музыкальные и подкаст-службы, такие как SomaFM, Radio Browser, Jamendo, Magnatune, DI.fm и gpodder.net: то, что вы просматриваете, ищете и воспроизводите."
+
+#: privacy.html:54
+msgid ""
+"Cloud storage and music servers you connect, such as Google Drive, Dropbox, "
+"OneDrive, Box, Seafile, Subsonic and Plex: the requests for your music "
+"there."
+msgstr "Облачные хранилища и музыкальные серверы, к которым вы подключаетесь, например Google Drive, Dropbox, OneDrive, Box, Seafile, Subsonic и Plex: запросы к вашей музыке в них."
+
+#: privacy.html:57
+msgid ""
+"The user names, passwords and sign-in tokens you give Clementine for these "
+"services are kept in Clementine's settings on your computer, and are sent "
+"only to the service they belong to."
+msgstr "Имена пользователей, пароли и токены входа, которые вы указываете Clementine для этих служб, хранятся в настройках Clementine на вашем компьютере и отправляются только той службе, которой принадлежат."
+
+#: privacy.html:59
+msgid "Your local network"
+msgstr "Ваша локальная сеть"
+
+#: privacy.html:61
+msgid ""
+"Clementine finds AirPlay and Sonos speakers on your local network, and sends"
+" music only to the ones you choose."
+msgstr "Clementine находит колонки AirPlay и Sonos в вашей локальной сети и отправляет музыку только тем, кого вы выберете."
+
+#: privacy.html:62
+msgid ""
+"If you turn on the network remote, Clementine Remote on your phone can "
+"control it, browse your library and download songs from it."
+msgstr "Если вы включите сетевое удалённое управления, Clementine Remote на вашем телефоне сможет управлять им, просматривать вашу фонотеку и загружать из неё песни."
+
+#: privacy.html:63
+msgid "This all stays on your local network."
+msgstr "Все это остаётся в вашей локальной сети."
+
+#: privacy.html:65
+msgid "This website"
+msgstr "Этот веб-сайт"
+
+#: privacy.html:67
+msgid ""
+"This website has no analytics, advertising or cookies. It runs on Google "
+"Cloud, which keeps a log of the pages requested, including the IP address "
+"they came from, for 30 days."
+msgstr "На этом веб-сайте нет аналитики, рекламы или файлов cookie. Он работает в Google Cloud, который хранит журнал запрошенных страниц, включая IP-адрес, с которого они были получены, в течение 30 дней."
+
+#: privacy.html:68
+msgid "Pages in Burmese load a font from Google Fonts."
+msgstr "Страницы на бирманском языке загружают шрифт из Google Fonts."
+
+#: privacy.html:69
+msgid "Downloads come from GitHub, which has its own privacy policy."
+msgstr "Загрузки осуществляются с GitHub, у которого своя политика конфиденциальности."
+
+#: privacy.html:71
+msgid "More information"
+msgstr "Подробнее"
+
+#: privacy.html:74
+msgid "Clementine's source code, where you can check all of this"
+msgstr "Исходный код Clementine, где вы можете всё это проверить"
+
+#: privacy.html:75
+msgid "Questions: open an issue on GitHub"
+msgstr "Вопросы: откройте задачу в GitHub"

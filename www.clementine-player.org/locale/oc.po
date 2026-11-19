@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 15:44+0000\n"
+"POT-Creation-Date: 2026-11-18 14:00+0000\n"
 "PO-Revision-Date: 2011-10-27 20:15+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Occitan (post 1500) (http://app.transifex.com/davidsansome/clementine/language/oc/)\n"
@@ -40,46 +40,118 @@ msgstr ""
 msgid "Clementine Music Player"
 msgstr ""
 
-#: base.html:46
+#: base.html:34
 msgid "About"
 msgstr ""
 
-#: base.html:47 downloads.html:2
+#: base.html:35 downloads.html:2
 msgid "Downloads"
 msgstr ""
 
-#: base.html:48 main.html:112 screenshots.html:2
+#: base.html:36 main.html:112 screenshots.html:2
 msgid "Screenshots"
 msgstr ""
 
-#: base.html:49 participate.html:2
+#: base.html:37 participate.html:2
 msgid "Participate"
 msgstr ""
 
-#: base.html:53
+#: base.html:41
 msgid "A cross-platform music player inspired by Amarok 1.4"
 msgstr ""
 
-#: base.html:78
+#: base.html:66
 msgid ""
 "Clementine is Free Software under the GPL v3. This site is licensed under "
 "CC-BY-SA."
 msgstr ""
 
-#: base.html:79
+#: base.html:67
 msgid "Development by"
 msgstr ""
 
-#: base.html:80 main.html:19 main.html:26 main.html:34
+#: base.html:68 main.html:19 main.html:26 main.html:34
 msgid "and"
 msgstr ""
 
-#: base.html:82
+#: base.html:70
 msgid "Website by"
 msgstr ""
 
-#: base.html:85 privacy.html:3 privacy.html:10
+#: base.html:73 code-signing.html:38 privacy.html:3 privacy.html:8
 msgid "Privacy Policy"
+msgstr ""
+
+#: base.html:74 code-signing.html:2 code-signing.html:7
+msgid "Windows code signing policy"
+msgstr ""
+
+#: code-signing.html:9
+msgid ""
+"This policy covers Clementine for Windows. The macOS build is signed with an"
+" Apple Developer ID instead."
+msgstr ""
+
+#: code-signing.html:13
+msgid "What is signed"
+msgstr ""
+
+#: code-signing.html:15
+msgid ""
+"The Windows installer is signed, and so are the programs in it that "
+"Clementine builds: clementine.exe, clementine-tagreader.exe and the "
+"uninstaller."
+msgstr ""
+
+#: code-signing.html:16
+msgid ""
+"They are built from the source code in Clementine's GitHub repository by "
+"GitHub Actions, and SignPath checks that they were before signing them."
+msgstr ""
+
+#: code-signing.html:17
+msgid ""
+"The installer also holds libraries and programs other projects build, such "
+"as Qt, GStreamer and Sentry's crash handler. Clementine doesn't sign those."
+msgstr ""
+
+#: code-signing.html:20 data.py:156
+msgid "Source code"
+msgstr ""
+
+#: code-signing.html:21
+msgid "Build workflow"
+msgstr ""
+
+#: code-signing.html:24
+msgid "Team roles"
+msgstr ""
+
+#: code-signing.html:27
+msgid "Committers and reviewers:"
+msgstr ""
+
+#: code-signing.html:27
+msgid "members of the clementine-player organization on GitHub"
+msgstr ""
+
+#: code-signing.html:28
+msgid "Approvers:"
+msgstr ""
+
+#: code-signing.html:31
+msgid ""
+"Every change from someone outside the team is reviewed before it is merged, "
+"and every signed release is approved by hand."
+msgstr ""
+
+#: code-signing.html:33
+msgid "Privacy"
+msgstr ""
+
+#: code-signing.html:35
+msgid ""
+"See the privacy policy for what Clementine sends to other networked systems."
 msgstr ""
 
 #: data.py:10 data.py:34
@@ -240,10 +312,6 @@ msgstr ""
 
 #: data.py:82
 msgid "Growl notifications on Mac OS X"
-msgstr ""
-
-#: data.py:156
-msgid "Source code"
 msgstr ""
 
 #: data.py:191
@@ -725,11 +793,243 @@ msgstr ""
 msgid "<a href=\"https://www.eff.org/\">Electronic Frontier Foundation</a>"
 msgstr ""
 
-#: privacy.html:14
+#: privacy.html:10
 msgid ""
-"Clementine and its developers do not collect any personally identifiable "
-"information in any way. Data such as web service statistics are collected "
-"only on an anonymous basis. Information such as usernames, passwords and "
-"authentication tokens for online services provided to Clementine are never "
-"transmitted from that instance of Clementine."
+"Clementine is a music player that runs on your computer. It has no accounts,"
+" analytics, advertising or tracking."
+msgstr ""
+
+#: privacy.html:11
+msgid ""
+"It connects to other computers only for the features you use, and this page "
+"lists what it sends, and to whom."
+msgstr ""
+
+#: privacy.html:12
+#, python-format
+msgid ""
+"Clementine Remote, the app for controlling Clementine from your phone, has "
+"its own privacy policies for %(android)s and %(ios)s."
+msgstr ""
+
+#: privacy.html:14
+msgid "Crash reports"
+msgstr ""
+
+#: privacy.html:16
+msgid ""
+"The macOS and Windows builds, and the Debian, Ubuntu and Fedora packages, "
+"published by the Clementine project can send a report to Clementine's "
+"developers when Clementine crashes, so they can fix the problem."
+msgstr ""
+
+#: privacy.html:17
+msgid "Packages made by Linux distributions themselves never send reports."
+msgstr ""
+
+#: privacy.html:18
+msgid ""
+"The next time Clementine starts after a crash, it asks whether to send the "
+"report. Nothing is sent unless you agree, and you're asked again each time."
+msgstr ""
+
+#: privacy.html:19
+msgid ""
+"You can turn the question off in Preferences, under Behavior; turning it off"
+" deletes reports that haven't been sent."
+msgstr ""
+
+#: privacy.html:21
+msgid ""
+"A report says what Clementine was doing when it crashed: the code it was "
+"running and part of the memory it was using, the version of Clementine, and "
+"the version of the operating system and the type of processor."
+msgstr ""
+
+#: privacy.html:22
+msgid ""
+"Because it includes some of Clementine's memory, it can include file names, "
+"which can include your user name, and the titles of songs you were playing."
+msgstr ""
+
+#: privacy.html:23
+msgid ""
+"Reports are sent to Sentry, which stores them for us in the EU, without the "
+"IP address they were sent from, and deletes them after at most 90 days."
+msgstr ""
+
+#: privacy.html:24
+msgid ""
+"They are used only to fix crashes, and only Clementine's developers can see "
+"them."
+msgstr ""
+
+#: privacy.html:26
+msgid "Updates"
+msgstr ""
+
+#: privacy.html:28
+msgid ""
+"On macOS, Clementine asks whether it may check for updates automatically."
+msgstr ""
+
+#: privacy.html:29
+msgid ""
+"Checking downloads a list of releases from data.clementine-player.org, which"
+" sees which version of Clementine you have."
+msgstr ""
+
+#: privacy.html:30
+msgid ""
+"On Windows you can download new releases from this website, and on Linux "
+"your distribution's package manager updates Clementine."
+msgstr ""
+
+#: privacy.html:32
+msgid "Clementine's own services"
+msgstr ""
+
+#: privacy.html:34
+msgid ""
+"Some features use services the Clementine project runs at data.clementine-"
+"player.org:"
+msgstr ""
+
+#: privacy.html:37
+msgid ""
+"The artist information pane sends the name of the artist that's playing, and"
+" your language, to fetch a biography and photos. Our server looks them up "
+"with Google and Spotify on your behalf, so those services see only the "
+"artist's name, and keeps the answers for a while so it doesn't have to ask "
+"again."
+msgstr ""
+
+#: privacy.html:38
+msgid ""
+"Signing in to Box or Dropbox returns to Clementine through our server, which"
+" passes a one-time sign-in code back to Clementine on your computer. "
+"Clementine then signs in with the service directly, and the code can't be "
+"used again."
+msgstr ""
+
+#: privacy.html:39
+msgid ""
+"The Rainy Mood background stream and the Icecast radio directory are opened "
+"through our server, which counts how many times each is used, without "
+"recording who used it."
+msgstr ""
+
+#: privacy.html:42
+msgid ""
+"These services run on Google Cloud, which keeps a log of the requests made "
+"to them, including the IP address they came from, for 30 days. We use the "
+"logs only to keep the services running."
+msgstr ""
+
+#: privacy.html:44
+msgid "Services you choose to use"
+msgstr ""
+
+#: privacy.html:46
+msgid ""
+"Clementine sends requests straight to other services when you use the "
+"features that need them. Each sees your IP address and what Clementine asks "
+"it, and handles them under its own privacy policy:"
+msgstr ""
+
+#: privacy.html:49
+msgid ""
+"Last.fm: the songs you play, if you sign in to Last.fm and turn on "
+"scrobbling, and the song that's playing, when the song information pane "
+"shows information about it."
+msgstr ""
+
+#: privacy.html:50
+msgid ""
+"Last.fm, MusicBrainz, the Cover Art Archive and Discogs, when you look for "
+"album covers: the artist and album."
+msgstr ""
+
+#: privacy.html:51
+msgid ""
+"LRCLIB, when the song information pane shows lyrics: the song's title, "
+"artist, album and length."
+msgstr ""
+
+#: privacy.html:52
+msgid ""
+"AcoustID and MusicBrainz, when you ask Clementine to complete a song's tags:"
+" an audio fingerprint of the song, and the tags it finds."
+msgstr ""
+
+#: privacy.html:53
+msgid ""
+"Internet radio, music and podcast services, such as SomaFM, Radio Browser, "
+"Jamendo, Magnatune, DI.fm and gpodder.net: what you browse, search for and "
+"play."
+msgstr ""
+
+#: privacy.html:54
+msgid ""
+"Cloud storage and music servers you connect, such as Google Drive, Dropbox, "
+"OneDrive, Box, Seafile, Subsonic and Plex: the requests for your music "
+"there."
+msgstr ""
+
+#: privacy.html:57
+msgid ""
+"The user names, passwords and sign-in tokens you give Clementine for these "
+"services are kept in Clementine's settings on your computer, and are sent "
+"only to the service they belong to."
+msgstr ""
+
+#: privacy.html:59
+msgid "Your local network"
+msgstr ""
+
+#: privacy.html:61
+msgid ""
+"Clementine finds AirPlay and Sonos speakers on your local network, and sends"
+" music only to the ones you choose."
+msgstr ""
+
+#: privacy.html:62
+msgid ""
+"If you turn on the network remote, Clementine Remote on your phone can "
+"control it, browse your library and download songs from it."
+msgstr ""
+
+#: privacy.html:63
+msgid "This all stays on your local network."
+msgstr ""
+
+#: privacy.html:65
+msgid "This website"
+msgstr ""
+
+#: privacy.html:67
+msgid ""
+"This website has no analytics, advertising or cookies. It runs on Google "
+"Cloud, which keeps a log of the pages requested, including the IP address "
+"they came from, for 30 days."
+msgstr ""
+
+#: privacy.html:68
+msgid "Pages in Burmese load a font from Google Fonts."
+msgstr ""
+
+#: privacy.html:69
+msgid "Downloads come from GitHub, which has its own privacy policy."
+msgstr ""
+
+#: privacy.html:71
+msgid "More information"
+msgstr ""
+
+#: privacy.html:74
+msgid "Clementine's source code, where you can check all of this"
+msgstr ""
+
+#: privacy.html:75
+msgid "Questions: open an issue on GitHub"
 msgstr ""
